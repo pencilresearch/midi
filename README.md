@@ -1,2 +1,7 @@
-# midi
-MIDI CC library for midi.user.camp
+# MIDI CC library
+
+This is the MIDI CC library maintained by User Camp. We want to document the MIDI implementation of every synthesizer.
+
+Among other things, it powers Condukt's built-in device definitions. Condukt is a performance MIDI controller for iPad. You can [sign up for Condukt's development newsletter](https://eepurl.com/gtKfp1), or [follow us on Twitter](https://twitter.com/goodcondukt).
+
+The portions of this library that refer to specific devices may be owned by the devices' respective manufacturers. For everything else, see LICENSE.
