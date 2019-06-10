@@ -17,7 +17,7 @@ Teenage Engineering,OP-Z,Absolute parameters,Pan absolute,,15,,0,127,,,,,0-based
 Teenage Engineering,OP-Z,Absolute parameters,Volume absolute,,16,,0,127,,,,,0-based,
 Teenage Engineering,OP-Z,Absolute parameters,Portamento absolute,,17,,0,127,,,,,0-based,
 Teenage Engineering,OP-Z,Absolute parameters,Note style absolute,,18,,0,127,,,,,0-based,
-Teenage Engineering,OP-Z,Relative parameters,Parameter 1 relative,,32,,1,127,,,,,button,
+Teenage Engineering,OP-Z,Relative parameters,Parameter 1 relative,,32,,1,127,,,,,0-based,
 Teenage Engineering,OP-Z,Relative parameters,Parameter 2 relative,,33,,1,127,,,,,0-based,
 Teenage Engineering,OP-Z,Relative parameters,Filter cutoff relative,,34,,1,127,,,,,0-based,
 Teenage Engineering,OP-Z,Relative parameters,Filter resonance relative,,35,,1,127,,,,,0-based,
