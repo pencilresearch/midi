@@ -1,0 +1,48 @@
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+Modal,Skulpt,All CCs,Seq load,,0,,0,63,,,,,0-based,
+,,,Modulation wheel,,1,,0,63,,,,,0-based,
+,,,Glide,,5,,0,127,,,,,0-based,0 - 2.5 seconds; exponential
+,,,Headphone volume,,7,,0,127,,,,,0-based,
+,,,Voice mode,,9,,0,127,,,,,0-based,0-42 for mono; 43-85 for duo; 86-127 for poly
+,,,Expression pedal,,11,,0,63,,,,,0-based,Min and max values need verification
+,,,Distortion,,12,,0,127,,,,,0-based,
+,,,Delay,,13,,0,127,,,,,0-based,
+,,,Delay time,,14,,0,127,,,,,0-based,No sync: 0-250ms. Sync: 8 steps with longest delay time possible divided down.
+,,,Delay feedback,,15,,0,127,,,,,0-based,Ranges from 0-90%
+,,,OSC1 wave,,16,,0,127,,,,,0-based,0-21 for sine; 22-42 for tri; 43-63 for saw; 64-127 for PWM duty 50%-5%
+,,,OSC2 wave,,17,,0,127,,,,,0-based,0-21 for sine; 22-42 for tri; 43-63 for saw; 64-85 for square; 86-127 for white noise
+,,,OSC mix,,18,,0,127,,,,,0-based,Orientation needs verification
+,,,FM amount,,19,,0,127,,,,,Centered,Plus or minus 2 octaves. Orientation needs verification.
+,,,Spread,,20,,0,127,,,,,0-based,0-63 for unison; 64-70 for major; 71-77 for minor; 78-84 for major 6th; 85-91 for sus 4th; 92-98 for 5ths; 99-105 for 5th + oct; 106-112 for oct +1+2; 113-119 for oct +1-1; 119-127 for oct-1-2
+,,,Chord mode,,21,,0,127,,,,,0-based,0-63 for off; 64-127 for on
+,,,FEG attack,,22,,0,127,,,,,0-based,0-4 seconds
+,,,FEG decay,,23,,0,127,,,,,0-based,0-2 seconds
+,,,FEG sustain,,24,,0,127,,,,,0-based,0-1 seconds
+,,,FEG release,,25,,0,127,,,,,0-based,0-4 seconds
+,,,AEG attack,,26,,0,127,,,,,0-based,0-4 seconds
+,,,AEG decay,,27,,0,127,,,,,0-based,0-2 seconds
+,,,AEG sustain,,28,,0,127,,,,,0-based,0-1 seconds
+,,,AEG release,,29,,0,127,,,,,0-based,0-4 seconds
+,,,OSC2 course detune,,30,,0,127,,,,,0-based,Plus or minus 4 octaves
+,,,OSC2 fine detune,,31,,0,127,,,,,0-based,Plus or minus 1 semitone
+,,,FEG amount,,32,,0,127,,,,,Centered,
+,,,Morph,,33,,0,127,,,,,0-based,0 for LP; 64 for BP; 127 for HP
+,,,Cutoff,,34,,0,127,,,,,0-based,0Hz to 2kHz
+,,,Reso,,35,,0,127,,,,,0-based,
+,,,LFO1 rate,,36,,0,127,,,,,0-based,No sync: 0-127 for 0.02Hz - 32Hz. Sync: 0-7 for 1/16; 8-15 for 1/8; 16-23 for 3/16; 24-31 for 1/4; 32-39 for 3/8; 40-47 for 1/2; 48-55 for 3/4; 56-53 for 1; 64-71 for 3/2; 72-79 for 2; 80-87 for 3; 88-95 for 4; 96-103 for 6; 104-111 for 8; 112-119 for 12; 120-127 for 16
+,,,LFO1 depth,,37,,0,127,,,,,0-based,
+,,,LFO1 shape,,39,,0,127,,,,,0-based,0-14 for sine; 15-31 for iSine; 32-47 for tri; 48-63 for iTri; 64-79 for ramp up; 80-95 for ramp down; 96-120 for square; 121-127 for iSquare
+,,,Octave,,40,,0,127,,,,,0-based,Octaves -2 to +4
+,,,MEG attack,,43,,0,127,,,,,0-based,0-4 seconds
+,,,MEG decay,,44,,0,127,,,,,0-based,0-2 seconds
+,,,MEG sustain,,45,,0,127,,,,,0-based,0-1 seconds
+,,,MEG release,,46,,0,127,,,,,0-based,0-4 seconds
+,,,LFO2 rate,,47,,0,127,,,,,0-based,No sync: 0-63 for 0-32Hz free; 64-71 for root/8; 72-79 for root/4; 80-87 for root/2; 88-95 for root; 96-13 for root*1.5; 104-111 for root*2; 112-119 for root*2.5; 120*127 for root*3. Sync: 0-7 for 1/16; 8-15 for 1/8; 16-23 for 1/4; 24-31 for 1/2; 32-39 for 1; 40-47 for 5/4; 48-55 for 2; 56-63 for 4 (cycles per beat)
+,,,LFO2 depth,,48,,0,127,,,,,0-based,
+,,,MEG amount,,49,,0,127,,,,,Centered,
+,,,LFO2 shape,,50,,0,127,,,,,0-based,0-14 for sine; 15-31 for iSine; 32-47 for tri; 48-63 for iTri; 64-79 for ramp up; 80-95 for ramp down; 96-120 for square; 121-127 for iSquare
+,,,AEG amount,,51,,0,127,,,,,0-based,
+,,,LFO1 MIDI sync,,52,,0,127,,,,,0-based,0-63 for off; 64-127 for on
+,,,Ring mod,,53,,0,127,,,,,0-based,0-63 for off; 64-127 for on
+,,,LFO2 MIDI sync,,54,,0,127,,,,,0-based,0-63 for off; 64-127 for on
+,,,Delay MIDI sync,,55,,0,127,,,,,0-based,0-63 for off; 64-127 for on
