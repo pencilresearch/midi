@@ -1,0 +1,18 @@
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+Yamaha,reface CS,General,Portamento,,20,,0,127,,,,,0-based,0: polyphonic; 1-127: mono with portamento time
+Yamaha,reface CS,LFO,LFO assign,,78,,0,127,,,,,0-based,0-25: off; 26-51: amp; 52-76: filter; 77-102: pitch; 103-127: oscillator
+Yamaha,reface CS,LFO,LFO depth,,77,,0,127,,,,,0-based,
+Yamaha,reface CS,LFO,LFO speed,,76,,0,127,,,,,0-based,
+Yamaha,reface CS,Oscillator,Oscillator type,,80,,0,127,,,,,0-based,0-25: multi-saw; 26-51: pulse; 52-76: oscillator sync; 77-102: ring modulation; 103-127: frequency modulation
+Yamaha,reface CS,Oscillator,Oscillator texture,,81,,0,127,,,,,0-based,
+Yamaha,reface CS,Oscillator,Oscillator mod,,82,,0,127,,,,,0-based,
+Yamaha,reface CS,Filter,Filter cutoff,,74,,0,127,,,,,0-based,
+Yamaha,reface CS,Filter,Filter resonance,,71,,0,127,,,,,0-based,
+Yamaha,reface CS,Envelope generator,EG FEG-AEG balance,,83,,0,127,,,,,0-based,
+Yamaha,reface CS,Envelope generator,EG attack time,,73,,0,127,,,,,0-based,
+Yamaha,reface CS,Envelope generator,EG decay time,,75,,0,127,,,,,0-based,
+Yamaha,reface CS,Envelope generator,EG sustain level,,79,,0,127,,,,,0-based,
+Yamaha,reface CS,Envelope generator,EG release time,,72,,0,127,,,,,0-based,
+Yamaha,reface CS,Effect,Effect type,,17,,0,127,,,,,0-based,0-25: distortion; 26-51: chorus/flange; 52-76: phaser; 77-102: delay; 103-127: off
+Yamaha,reface CS,Effect,Effect depth,,18,,0,127,,,,,0-based,
+Yamaha,reface CS,Effect,Effect rate,,19,,0,127,,,,,0-based,
