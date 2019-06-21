@@ -1,0 +1,99 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+Novation,Circuit,Synth voice,Polyphony mode,,3,,0,2,,,,,0-based,0: mono; 1: mono AG; 2: poly
+Novation,Circuit,Synth voice,Polyphony rate,,5,,0,127,,,,,0-based,
+Novation,Circuit,Synth voice,Pre-glide,,9,,52,76,,,,,Centered,
+Novation,Circuit,Synth voice,Keyboard octave,,13,,58,69,,,,,Centered,60: -4 ocatves; 64: 0 octaves; 64: +4 octaves
+Novation,Circuit,Synth oscillator,OSC 1 wave,,19,,0,29,,,,,0-based,"WAVEFORMS: 
+0: sine; 1: triangle; 2: sawtooth; 3: saw 9:1 PW; 4: saw 8:2 PW; 5: saw 7:3 PW; 6: saw 6:4 PW; 7: saw 5:5 PW; 8: saw 4:6 PW; 9: saw 3:7 PW; 10: saw 2:8 PW; 11: saw 1:9 PW; 12: pulse width; 13: square
+WAVETABLES:
+14: sine table; 15: analogue pulse; 16: analogue sync; 17: triangle-saw blend; 18: digital nasty 1; 19: digital nasty 2; 20: digital saw-square; 21: digital vocal 1; 22: digital vocal 2; 23: digital vocal 3; 24: digital vocal 4; 25: digital vocal 5; 26: digital vocal 6; 27: random collection 1; 28: random collection 2; 29: random collection 3"
+Novation,Circuit,Synth oscillator,OSC 1 wave interpolate,,20,,0,127,,,,,0-based,
+Novation,Circuit,Synth oscillator,OSC 1 pulse width index,,21,,0,127,,,,,Centered,
+Novation,Circuit,Synth oscillator,OSC 1 virtual sync depth,,22,,0,127,,,,,0-based,
+Novation,Circuit,Synth oscillator,OSC 1 density,,24,,0,127,,,,,0-based,
+Novation,Circuit,Synth oscillator,OSC 1 density detune,,25,,0,127,,,,,0-based,
+Novation,Circuit,Synth oscillator,OSC 1 semitones,,26,,0,127,,,,,Centered,
+Novation,Circuit,Synth oscillator,OSC 1 cents,,27,,0,127,,,,,Centered,
+Novation,Circuit,Synth oscillator,OSC 1 pitchbend,,28,,52,76,,,,,Centered,
+Novation,Circuit,Synth oscillator,OSC 2 wave,,29,,0,29,,,,,0-based,"WAVEFORMS: 
+0: sine; 1: triangle; 2: sawtooth; 3: saw 9:1 PW; 4: saw 8:2 PW; 5: saw 7:3 PW; 6: saw 6:4 PW; 7: saw 5:5 PW; 8: saw 4:6 PW; 9: saw 3:7 PW; 10: saw 2:8 PW; 11: saw 1:9 PW; 12: pulse width; 13: square
+WAVETABLES:
+14: sine table; 15: analogue pulse; 16: analogue sync; 17: triangle-saw blend; 18: digital nasty 1; 19: digital nasty 2; 20: digital saw-square; 21: digital vocal 1; 22: digital vocal 2; 23: digital vocal 3; 24: digital vocal 4; 25: digital vocal 5; 26: digital vocal 6; 27: random collection 1; 28: random collection 2; 29: random collection 3"
+Novation,Circuit,Synth oscillator,OSC 2 wave interpolate,,30,,0,127,,,,,0-based,
+Novation,Circuit,Synth oscillator,OSC 2 pulse width index,,31,,0,127,,,,,Centered,
+Novation,Circuit,Synth oscillator,OSC 2 virtual sync depth,,33,,0,127,,,,,0-based,
+Novation,Circuit,Synth oscillator,OSC 2 density,,35,,0,127,,,,,0-based,
+Novation,Circuit,Synth oscillator,OSC 2 density detune,,36,,0,127,,,,,0-based,
+Novation,Circuit,Synth oscillator,OSC 2 semitones,,37,,0,127,,,,,Centered,
+Novation,Circuit,Synth oscillator,OSC 2 cents,,39,,0,127,,,,,Centered,
+Novation,Circuit,Synth oscillator,OSC 2 pitchbend,,40,,52,76,,,,,Centered,
+Novation,Circuit,Mixer,OSC 1 level,,51,,0,127,,,,,0-based,
+Novation,Circuit,Mixer,OSC 2 level,,52,,0,127,,,,,0-based,
+Novation,Circuit,Mixer,Ring mod level,,54,,0,127,,,,,0-based,
+Novation,Circuit,Mixer,Noise level,,56,,0,127,,,,,0-based,
+Novation,Circuit,Mixer,Pre FX level,,58,,52,82,,,,,Centered,
+Novation,Circuit,Mixer,Post FX level,,59,,52,82,,,,,Centered,
+Novation,Circuit,Filter,Routing,,60,,0,2,,,,,0-based,0: noram; 1: OSC 1 bypasses the filter; 2: OSC 1 + OSC 2 bypass the filter
+Novation,Circuit,Filter,Drive,,63,,0,127,,,,,0-based,
+Novation,Circuit,Filter,Drive type,,65,,0,6,,,,,0-based,0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectifier; 5: bit reducer; 6: rate reducer
+Novation,Circuit,Filter,Type,,68,,0,5,,,,,0-based,0: low pass 12dB; 1: low pass 24 dB; 2: band pass 6/\6dB; 3: band pass 12/\12 dB; 4: high pass 12 dB; 5: high pass 24 dB
+Novation,Circuit,Filter,Frequency,,74,,0,127,,,,,0-based,
+Novation,Circuit,Filter,Tracking,,69,,0,127,,,,,0-based,
+Novation,Circuit,Filter,Resonance,,71,,0,127,,,,,0-based,
+Novation,Circuit,Filter,Q noramlize,,78,,0,127,,,,,0-based,
+Novation,Circuit,Filter,Envelope 2 to frequency,,79,,0,127,,,,,Centered,
+Novation,Circuit,Envelope,Env 1 velocity,,108,,0,127,,,,,Centered,
+Novation,Circuit,Envelope,Env 1 attack,,73,,0,127,,,,,0-based,
+Novation,Circuit,Envelope,Env 1 decay,,75,,0,127,,,,,0-based,
+Novation,Circuit,Envelope,Env 1 sustain,,70,,0,127,,,,,0-based,
+Novation,Circuit,Envelope,Env 1 release,,72,,0,127,,,,,0-based,
+Novation,Circuit,Envelope,Env 2 velocity,,,,,,0,0,0,127,Centered,
+Novation,Circuit,Envelope,Env 2 attack,,,,,,0,1,0,127,0-based,
+Novation,Circuit,Envelope,Env 2 decay,,,,,,0,2,0,127,0-based,
+Novation,Circuit,Envelope,Env 2 sustain,,,,,,0,3,0,127,0-based,
+Novation,Circuit,Envelope,Env 2 release,,,,,,0,4,0,127,0-based,
+Novation,Circuit,Envelope,Env 3 velocity,,,,,,0,14,0,127,Centered,
+Novation,Circuit,Envelope,Env 3 attack,,,,,,0,15,0,127,0-based,
+Novation,Circuit,Envelope,Env 3 decay,,,,,,0,16,0,127,0-based,
+Novation,Circuit,Envelope,Env 3 sustain,,,,,,0,17,0,127,0-based,
+Novation,Circuit,Envelope,Env 3 release,,,,,,0,18,0,127,0-based,
+Novation,Circuit,LFO,LFO 1 waveform,,,,,,0,70,0,37,0-based,0: sine; 1: triangle; 2: sawtooth; 3: square; 4: random S/H; 5: time S/H; 6: piano envelope; 7: sequence 1...13: sequence 7; 14: alternative 1...21: alternative 8; 22: chromatic; 23: chromatic 16; 24: major; 25: major 7; 26: minor 7; 27: min arp 1; 28: min arp 2; 29: diminished; 30: dec minor; 31: minor 3rd; 32: pedal; 33: 4ths; 34: 4ths x12; 35: 1625 maj; 36: 1625 min; 37: 2511
+Novation,Circuit,LFO,LFO 1 phase offset,,,,,,0,71,0,119,0-based,"0 degrees to 357 degrees, in steps of 3 degrees"
+Novation,Circuit,LFO,LFO 1 slew rate,,,,,,0,72,0,127,0-based,
+Novation,Circuit,LFO,LFO 1 delay,,,,,,0,74,0,127,0-based,
+Novation,Circuit,LFO,LFO 1 delay sync,,,,,,0,75,0,35,0-based,
+Novation,Circuit,LFO,LFO 1 rate,,,,,,0,76,0,127,0-based,
+Novation,Circuit,LFO,LFO 1 rate sync,,,,,,0,77,0,35,0-based,
+Novation,Circuit,LFO,LFO 1 one shot,,,,,,0,122,12,13,0-based,12: off; 13: on
+Novation,Circuit,LFO,LFO 1 key sync,,,,,,0,122,14,15,0-based,14: off; 15: on
+Novation,Circuit,LFO,LFO 1 common sync,,,,,,0,122,16,17,0-based,16: off; 17: on
+Novation,Circuit,LFO,LFO 1 delay trigger,,,,,,0,122,18,19,0-based,18: off; 19: on
+Novation,Circuit,LFO,LFO 1 fade mode,,,,,,0,123,0,3,0-based,0: fade in; 1: fade out; 2: gate in; 3: gate out
+Novation,Circuit,LFO,LFO 2 waveform,,,,,,0,79,0,37,0-based,0: sine; 1: triangle; 2: sawtooth; 3: square; 4: random S/H; 5: time S/H; 6: piano envelope; 7: sequence 1...13: sequence 7; 14: alternative 1...21: alternative 8; 22: chromatic; 23: chromatic 16; 24: major; 25: major 7; 26: minor 7; 27: min arp 1; 28: min arp 2; 29: diminished; 30: dec minor; 31: minor 3rd; 32: pedal; 33: 4ths; 34: 4ths x12; 35: 1625 maj; 36: 1625 min; 37: 2511
+Novation,Circuit,LFO,LFO 2 phase offset,,,,,,0,80,0,119,0-based,"0 degrees to 357 degrees, in steps of 3 degrees"
+Novation,Circuit,LFO,LFO 2 slew rate,,,,,,0,81,0,127,0-based,
+Novation,Circuit,LFO,LFO 2 delay,,,,,,0,83,0,127,0-based,
+Novation,Circuit,LFO,LFO 2 delay sync,,,,,,0,84,0,35,0-based,
+Novation,Circuit,LFO,LFO 2 rate,,,,,,0,85,0,127,0-based,
+Novation,Circuit,LFO,LFO 2 rate sync,,,,,,0,86,0,35,0-based,
+Novation,Circuit,LFO,LFO 2 one shot,,,,,,0,122,22,23,0-based,22: off; 23: on
+Novation,Circuit,LFO,LFO 2 key sync,,,,,,0,122,24,25,0-based,24: off; 25: on
+Novation,Circuit,LFO,LFO 2 common sync,,,,,,0,122,26,27,0-based,26: off; 27: on
+Novation,Circuit,LFO,LFO 2 delay trigger,,,,,,0,122,28,29,0-based,28: off; 29: on
+Novation,Circuit,LFO,LFO 2 fade mode,,,,,,0,123,4,7,0-based,4: fade in; 5: fade out; 6: gate in; 7: gate out
+Novation,Circuit,Effects and EQ,Distortion level,,91,,0,127,,,,,0-based,
+Novation,Circuit,Effects and EQ,Chorus level,,93,,0,127,,,,,0-based,
+Novation,Circuit,Effects and EQ,EQ bass frequency,,,,,,0,104,0,127,0-based,
+Novation,Circuit,Effects and EQ,EQ bass level,,,,,,0,105,0,127,Centered,
+Novation,Circuit,Effects and EQ,EQ mid frequency,,,,,,0,106,0,127,0-based,
+Novation,Circuit,Effects and EQ,EQ mid level,,,,,,0,107,0,127,Centered,
+Novation,Circuit,Effects and EQ,EQ treble frequency,,,,,,0,108,0,127,0-based,
+Novation,Circuit,Effects and EQ,EQ treble level,,,,,,0,109,0,127,Centered,
+Novation,Circuit,Effects and EQ,Distortion type,,,,,,1,0,0,6,0-based,0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectify; 5: bit reducer; 6: rate reducer
+Novation,Circuit,Effects and EQ,Distortion compensation,,,,,,1,1,0,127,0-based,
+Novation,Circuit,Effects and EQ,Chorus type,,,,,,1,24,0,1,0-based,0: phaser; 1: chorus
+Novation,Circuit,Effects and EQ,Chorus rate,,,,,,1,25,0,127,0-based,
+Novation,Circuit,Effects and EQ,Chorus rate sync,,,,,,1,26,0,35,0-based,
+Novation,Circuit,Effects and EQ,Chorus feedback,,,,,,1,27,0,127,Centered,
+Novation,Circuit,Effects and EQ,Chorus mod depth,,,,,,1,28,0,127,0-based,
+Novation,Circuit,Effects and EQ,Chorus delay,,,,,,1,29,0,127,0-based,
