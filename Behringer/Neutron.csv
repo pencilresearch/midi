@@ -1,0 +1,3 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+Behringer,Neutron,General,Modulation wheel,,1,21,0,127,,,,,0-based,
+Behringer,Neutron,General,Damper pedal on/off,,40,,0,127,,,,,0-based,
