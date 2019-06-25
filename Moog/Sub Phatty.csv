@@ -21,51 +21,51 @@ Moog,Sub Phatty,Filter,Filter cutoff frequency,,19,51,0,127,,,,,0-based,
 Moog,Sub Phatty,Filter,Filter resonance,,21,53,0,127,,,,,0-based,
 Moog,Sub Phatty,Filter,Filter KB tracking amount,,27,59,0,127,,,,,0-based,
 Moog,Sub Phatty,Filter,Filter EG amount,,22,54,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Multidrive amount,,18,50,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Filter EG velocity to amplitude,,110,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Amplifier EG velocity to amplitude,,92,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Note priority,,111,,0,127,,,,,0-based,0: global; 32: low note; 64: high note; 96: last note
-Moog,Sub Phatty,Other,Release on/off,,88,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Modulation source,,71,,0,127,,,,,0-based,0: triangle LFO; 16: square LFO; 32: saw LFO; 48: ramp LFO; 64: S&H; 80: filter envelope
-Moog,Sub Phatty,Other,LFO rate,,3,35,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,LFO MIDI sync,,102,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,LFO gate reset,,93,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Filter mod amount,,2,34,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Pitch mod amount,,4,36,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Wave mod amount,,20,52,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Pitch bend up,,107,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Pitch bend down,,108,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Glide on/off,,65,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Glide legato,,94,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Glide rate,,5,37,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Glide type,,85,,0,127,,,,,0-based,0: linear constant rate; 43: linear constant time; 85: exponential
-Moog,Sub Phatty,Other,LFO KB tracking amount,,78,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Amplifier EG reset,,83,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Filter EG reset,,82,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Output level,,7,39,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Keyboard octave,,89,,0,127,,,,,0-based,0: -2 oct; 16: -1 oct; 32: +0 oct; 48: +1 oct; 64: +2 oct
-Moog,Sub Phatty,Other,External input level,,116,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Amplifier EG delay,,104,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Amplifier EG hold,,106,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Filter EG delay,,103,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Filter EG hold,,105,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,"Pitch mod, oscillator 2 only",,70,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Modulation wheel,,1,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Wave mod destination,,72,,0,127,,,,,0-based,0: osc 1 only; 42: osc 2 only; 85: both osc 1 and 2
-Moog,Sub Phatty,Other,VCO 1 octave,,74,,0,127,,,,,0-based,"16: 1', 32: 8', 48: 4', 64: 2'"
-Moog,Sub Phatty,Other,VCO 2 octave,,75,,0,127,,,,,0-based,"16: 1', 32: 8', 48: 4', 64: 2'"
-Moog,Sub Phatty,Other,Filter poles,,109,,0,127,,,,,0-based,0: 1 pole; 32: 2 poles; 64: 3 poles; 94: 4 poles
-Moog,Sub Phatty,Other,LFO range,,76,,0,127,,,,,0-based,0: low (0.01Hz - 10Hz); 43: mid (0.1Hz - 100Hz); 85: high (1Hz - 1kHz)
-Moog,Sub Phatty,Other,Legato,,68,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Keyboard transpose,,119,,0,127,,,,,0-based,0: -12 semitones; 1: -11 semitones … 12: +0 semitones … 24: +12 semitones
-Moog,Sub Phatty,Other,Gated glide,,73,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Filter EG repeat,,112,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Filter EG velocity to time,,86,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Filter EG KB amount,,79,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Filter EG gate source,,90,,0,127,,,,,0-based,0: gate on; 32: keys only; 64: gate only; 96: keys or gate input
-Moog,Sub Phatty,Other,Amplifier EG repeat,,113,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Amplifier EG velocity to time,,87,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Amplifier EG KB amount,,80,,0,127,,,,,0-based,
-Moog,Sub Phatty,Other,Volume EG gate source,,91,,0,127,,,,,0-based,0: gate on; 32: keys only; 64: gate only; 96: keys or gate input
-Moog,Sub Phatty,Other,Filter EG trigger mode,,114,,0,127,,,,,0-based,0: off; 64: on
-Moog,Sub Phatty,Other,Amplifier EG trigger mode,,115,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,General,Multidrive amount,,18,50,0,127,,,,,0-based,
+Moog,Sub Phatty,Filter EG,Filter EG velocity to amplitude,,110,,0,127,,,,,0-based,
+Moog,Sub Phatty,Amplifier EG,Amplifier EG velocity to amplitude,,92,,0,127,,,,,0-based,
+Moog,Sub Phatty,General,Note priority,,111,,0,127,,,,,0-based,0: global; 32: low note; 64: high note; 96: last note
+Moog,Sub Phatty,General,Release on/off,,88,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,General,Modulation source,,71,,0,127,,,,,0-based,0: triangle LFO; 16: square LFO; 32: saw LFO; 48: ramp LFO; 64: S&H; 80: filter envelope
+Moog,Sub Phatty,LFO,LFO rate,,3,35,0,127,,,,,0-based,
+Moog,Sub Phatty,LFO,LFO MIDI sync,,102,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,LFO,LFO gate reset,,93,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,General,Filter mod amount,,2,34,0,127,,,,,0-based,
+Moog,Sub Phatty,General,Pitch mod amount,,4,36,0,127,,,,,0-based,
+Moog,Sub Phatty,General,Wave mod amount,,20,52,0,127,,,,,0-based,
+Moog,Sub Phatty,General,Pitch bend up,,107,,0,127,,,,,0-based,
+Moog,Sub Phatty,General,Pitch bend down,,108,,0,127,,,,,0-based,
+Moog,Sub Phatty,Glide,Glide on/off,,65,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,Glide,Glide legato,,94,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,Glide,Glide rate,,5,37,0,127,,,,,0-based,
+Moog,Sub Phatty,Glide,Glide type,,85,,0,127,,,,,0-based,0: linear constant rate; 43: linear constant time; 85: exponential
+Moog,Sub Phatty,LFO,LFO KB tracking amount,,78,,0,127,,,,,0-based,
+Moog,Sub Phatty,Amplifier EG,Amplifier EG reset,,83,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,Filter EG,Filter EG reset,,82,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,General,Output level,,7,39,0,127,,,,,0-based,
+Moog,Sub Phatty,General,Keyboard octave,,89,,0,127,,,,,0-based,0: -2 oct; 16: -1 oct; 32: +0 oct; 48: +1 oct; 64: +2 oct
+Moog,Sub Phatty,General,External input level,,116,,0,127,,,,,0-based,
+Moog,Sub Phatty,Amplifier EG,Amplifier EG delay,,104,,0,127,,,,,0-based,
+Moog,Sub Phatty,Amplifier EG,Amplifier EG hold,,106,,0,127,,,,,0-based,
+Moog,Sub Phatty,Filter EG,Filter EG delay,,103,,0,127,,,,,0-based,
+Moog,Sub Phatty,Filter EG,Filter EG hold,,105,,0,127,,,,,0-based,
+Moog,Sub Phatty,VCOs,"Pitch mod, oscillator 2 only",,70,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,General,Modulation wheel,,1,,0,127,,,,,0-based,
+Moog,Sub Phatty,General,Wave mod destination,,72,,0,127,,,,,0-based,0: osc 1 only; 42: osc 2 only; 85: both osc 1 and 2
+Moog,Sub Phatty,VCOs,VCO 1 octave,,74,,0,127,,,,,0-based,"16: 1', 32: 8', 48: 4', 64: 2'"
+Moog,Sub Phatty,VCOs,VCO 2 octave,,75,,0,127,,,,,0-based,"16: 1', 32: 8', 48: 4', 64: 2'"
+Moog,Sub Phatty,Filter,Filter poles,,109,,0,127,,,,,0-based,0: 1 pole; 32: 2 poles; 64: 3 poles; 94: 4 poles
+Moog,Sub Phatty,LFO,LFO range,,76,,0,127,,,,,0-based,0: low (0.01Hz - 10Hz); 43: mid (0.1Hz - 100Hz); 85: high (1Hz - 1kHz)
+Moog,Sub Phatty,General,Legato,,68,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,General,Keyboard transpose,,119,,0,127,,,,,0-based,0: -12 semitones; 1: -11 semitones … 12: +0 semitones … 24: +12 semitones
+Moog,Sub Phatty,Glide,Gated glide,,73,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,Filter EG,Filter EG repeat,,112,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,Filter EG,Filter EG velocity to time,,86,,0,127,,,,,0-based,
+Moog,Sub Phatty,Filter EG,Filter EG KB amount,,79,,0,127,,,,,0-based,
+Moog,Sub Phatty,Filter EG,Filter EG gate source,,90,,0,127,,,,,0-based,0: gate on; 32: keys only; 64: gate only; 96: keys or gate input
+Moog,Sub Phatty,Amplifier EG,Amplifier EG repeat,,113,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,Amplifier EG,Amplifier EG velocity to time,,87,,0,127,,,,,0-based,
+Moog,Sub Phatty,Amplifier EG,Amplifier EG KB amount,,80,,0,127,,,,,0-based,
+Moog,Sub Phatty,General,Volume EG gate source,,91,,0,127,,,,,0-based,0: gate on; 32: keys only; 64: gate only; 96: keys or gate input
+Moog,Sub Phatty,Filter EG,Filter EG trigger mode,,114,,0,127,,,,,0-based,0: off; 64: on
+Moog,Sub Phatty,Amplifier EG,Amplifier EG trigger mode,,115,,0,127,,,,,0-based,0: off; 64: on
