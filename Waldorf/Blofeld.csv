@@ -1,0 +1,117 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+Waldorf,Blofeld,,Bank select MSB,General,0,32,0,127,,,,,0-based,
+Waldorf,Blofeld,,Mod wheel,General,1,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Breath control,General,2,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Foot control,General,4,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Glide rate,General,5,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Channel volume,General,7,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Pan,General,10,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Arpeggiator range,General,12,,0,9,,,,,0-based,0: 1 octave; ... 9: 10 octaves
+Waldorf,Blofeld,,Arpeggiator length,General,13,,0,15,,,,,0-based,0: 1 step; ... 15: 16 steps
+Waldorf,Blofeld,,Arpeggiator active,General,14,,0,3,,,,,0-based,0: off; 1: on; 2: one shot; 3: hold
+Waldorf,Blofeld,,LFO 1 shape,LFO,15,,0,5,,,,,0-based,0: sine; 1: triangle; 2: square; 3: sawtooth; 4: random; 5: S&H
+Waldorf,Blofeld,,LFO 1 speed,LFO,16,,0,127,,,,,0-based,
+Waldorf,Blofeld,,LFO 1 sync,LFO,17,,0,1,,,,,0-based,0: off; 1: on
+Waldorf,Blofeld,,LFO 1 delay,LFO,18,,0,127,,,,,0-based,
+Waldorf,Blofeld,,LFO 2 shape,LFO,19,,0,5,,,,,0-based,0: sine; 1: triangle; 2: square; 3: sawtooth; 4: random; 5: S&H
+Waldorf,Blofeld,,LFO 2 speed,LFO,20,,0,127,,,,,0-based,
+Waldorf,Blofeld,,LFO 2 sync,LFO,21,,0,1,,,,,0-based,0: off; 1: on
+Waldorf,Blofeld,,LFO 2 delay,LFO,22,,0,127,,,,,0-based,
+Waldorf,Blofeld,,LFO 3 shape,LFO,23,,0,5,,,,,0-based,0: sine; 1: triangle; 2: square; 3: sawtooth; 4: random; 5: S&H
+Waldorf,Blofeld,,LFO 3 speed,LFO,24,,0,127,,,,,0-based,
+Waldorf,Blofeld,,LFO 3 sync,LFO,25,,0,1,,,,,0-based,0: off; 1: on
+Waldorf,Blofeld,,LFO 3 delay,LFO,26,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 1 octave,Oscillators,27,,16,112,,,,,Centered,16: 128'; ... 112: 1/2'
+Waldorf,Blofeld,,OSC 1 semitone,Oscillators,28,,52,76,,,,,Centered,52: -12; ... 76: +12
+Waldorf,Blofeld,,OSC 1 detune,Oscillators,29,,0,127,,,,,Centered,
+Waldorf,Blofeld,,OSC 1 FM,Oscillators,30,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 1 shape,Oscillators,31,,0,5,,,,,0-based,0: pulse; 1: saw; 2: triangle; 3: sine; 4: alt 1; 5: alt 2
+Waldorf,Blofeld,,OSC 1 pulsewidth,Oscillators,33,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 1 PWM,Oscillators,34,,0,127,,,,,Centered,
+Waldorf,Blofeld,,OSC 2 octave,Oscillators,35,,16,112,,,,,Centered,16: 128'; ... 112: 1/2'
+Waldorf,Blofeld,,OSC 2 semitone,Oscillators,36,,52,76,,,,,Centered,52: -12; ... 76: +12
+Waldorf,Blofeld,,OSC 2 detune,Oscillators,37,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 2 FM,Oscillators,38,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 2 shape,Oscillators,39,,0,5,,,,,0-based,0: pulse; 1: saw; 2: triangle; 3: sine; 4: alt 1; 5: alt 2
+Waldorf,Blofeld,,OSC 2 pulsewidth,Oscillators,40,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 2 PWM,Oscillators,41,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 3 octave,Oscillators,42,,16,112,,,,,Centered,16: 128'; ... 112: 1/2'
+Waldorf,Blofeld,,OSC 3 semitone,Oscillators,43,,52,76,,,,,Centered,52: -12; ... 76: +12
+Waldorf,Blofeld,,OSC 3 detune,Oscillators,44,,0,127,,,,,Centered,
+Waldorf,Blofeld,,OSC 3 FM,Oscillators,45,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 3 shape,Oscillators,46,,0,5,,,,,0-based,0: pulse; 1: saw; 2: triangle; 3: sine; 4: alt 1; 5: alt 2
+Waldorf,Blofeld,,OSC 3 pulsewidth,Oscillators,47,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 3 PWM,Oscillators,48,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Sync,Oscillators,49,,0,1,,,,,0-based,0: off; 1: on
+Waldorf,Blofeld,,Pitchmod,General,50,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Glide mode,General,51,,0,9,,,,,0-based,
+Waldorf,Blofeld,,OSC 1 level,Mix,52,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 1 balance,Mix,53,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Ringmod level,Mix,54,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Ringmod balance,Mix,55,,0,127,,,,,Centered,
+Waldorf,Blofeld,,OSC 2 level,Mix,56,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 2 balance,Mix,57,,0,127,,,,,Centered,
+Waldorf,Blofeld,,OSC 3 level,Mix,58,,0,127,,,,,0-based,
+Waldorf,Blofeld,,OSC 3 balance,Mix,59,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Noise level,Mix,60,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Noise balance,Mix,61,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Noise color,Mix,62,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Sustain pedal,General,64,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Glide active,General,65,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Sostenuto,General,66,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Routing,General,67,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 1 type,Filter,68,,0,10,,,,,0-based,0: bypass; 1: LP24dB; 2: LP12dB; 3: BP 24dB; 4: BP 12dB; 5: HP 24dB; 6: HP 12dB; 7: notch 24dB; 8: notch 12dB; 9: Comb; 10: PPG LP
+Waldorf,Blofeld,,Filter 1 cutoff,Filter,69,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 1 resonance,Filter,70,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 1 drive,Filter,71,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 1 keytrack,Filter,72,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 1 envelope amount,Filter,73,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 1 envelope velocity,Filter,74,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 1 cutoff modulation,Filter,75,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 1 FM,Filter,76,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 1 pan,Filter,77,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 1 pan modulation,Filter,78,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 2 type,Filter,79,,0,10,,,,,0-based,0: bypass; 1: LP24dB; 2: LP12dB; 3: BP 24dB; 4: BP 12dB; 5: HP 24dB; 6: HP 12dB; 7: notch 24dB; 8: notch 12dB; 9: Comb; 10: PPG LP
+Waldorf,Blofeld,,Filter 2 cutoff,Filter,80,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 2 resonance,Filter,81,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 2 drive,Filter,82,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 2 keytrack,Filter,83,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 2 envelope amount,Filter,84,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 2 envelope velocity,Filter,85,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 2 cutoff modulation,Filter,86,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 2 FM,Filter,87,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter 2 pan,Filter,88,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Filter 2 pan modulation,Filter,89,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Amp volume,Amp,90,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Amp velocity,Amp,91,,0,127,,,,,Centered,
+Waldorf,Blofeld,,Amp modulation,Amp,92,,0,127,,,,,Centered,
+Waldorf,Blofeld,,FX 1 mix,FX,93,,0,127,,,,,0-based,
+Waldorf,Blofeld,,FX 2 mix,FX,94,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter envelope attack,Envelopes,95,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter envelope decay,Envelopes,96,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter envelope sustain,Envelopes,97,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter envelope decay 2,Envelopes,98,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter envelope sustain 2,Envelopes,99,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Filter envelope release,Envelopes,100,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Amp envelope attack,Envelopes,101,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Amp envelope decay,Envelopes,102,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Amp envelope sustain,Envelopes,103,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Amp envelope decay 2,Envelopes,104,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Amp envelope sustain 2,Envelopes,105,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Amp envelope release,Envelopes,106,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 3 attack,Envelopes,107,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 3 decay,Envelopes,108,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 3 sustain,Envelopes,109,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 3 decay 2,Envelopes,110,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 3 sustain 2,Envelopes,111,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 3 release,Envelopes,112,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 4 attack,Envelopes,113,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 4 decay,Envelopes,114,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 4 sustain,Envelopes,115,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 4 decay 2,Envelopes,116,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 4 sustain 2,Envelopes,117,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Envelope 4 release,Envelopes,118,,0,127,,,,,0-based,
+Waldorf,Blofeld,,All sound off,General,120,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Reset all controllers,General,121,,0,127,,,,,0-based,
+Waldorf,Blofeld,,Local control on/off,General,122,,0,127,,,,,0-based,
+Waldorf,Blofeld,,All notes off,General,123,,0,127,,,,,0-based,
