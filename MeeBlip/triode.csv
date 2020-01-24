@@ -13,10 +13,10 @@ MeeBlip,triode,Filter,Envelope Modulation,,57,,0,127,,,,,0-based,Knob only acces
 MeeBlip,triode,Oscillators,Pulse Width,,58,,0,127,,,,,0-based,Knob only accessible via MIDI
 MeeBlip,triode,Filter,Attack,,59,,0,127,,,,,0-based,Knob only accessible via MIDI
 MeeBlip,triode,Envelopes,Amplitude Attack,,60,,0,127,,,,,0-based,Knob only accessible via MIDI
-MeeBlip,triode,Envelopes,Sustain,,64,,0-63,64-127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
-MeeBlip,triode,Oscillators,Sub-oscillator,on/off,65,,0-63,64-127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
-MeeBlip,triode,Oscillators,PWM Sweep,,66,,0-63,64-127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
-MeeBlip,triode,LFO,Destination,osc/filter,67,,0-63,64-127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
-MeeBlip,triode,Oscillators,Wave,pusle/saw,68,,0-63,64-127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
-MeeBlip,triode,LFO,Randomize,,69,,0-63,64-127,,,,,0-based,"Switch only accessible via MIDI. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
-MeeBlip,triode,LFO,Note retrigger,,70,,0-63,64-127,,,,,0-based,"Switch only accessible via MIDI. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."" Default ON."
+MeeBlip,triode,Envelopes,Sustain,,64,,0,127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
+MeeBlip,triode,Oscillators,Sub-oscillator,on/off,65,,0,127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
+MeeBlip,triode,Oscillators,PWM Sweep,,66,,0,127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
+MeeBlip,triode,LFO,Destination,osc/filter,67,,0,127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
+MeeBlip,triode,Oscillators,Wave,pusle/saw,68,,0,127,,,,,0-based,"Switch. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
+MeeBlip,triode,LFO,Randomize,,69,,0,127,,,,,0-based,"Switch only accessible via MIDI. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."""
+MeeBlip,triode,LFO,Note retrigger,,70,,0,127,,,,,0-based,"Switch only accessible via MIDI. 0-63 will correspond to ""off""; any value from 64-127 will result in ""on."" Default ON."
