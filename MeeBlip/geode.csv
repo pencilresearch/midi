@@ -1,16 +1,16 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-MeeBlip,geode,Oscillators,Waveform A,,48,,0,,,,,,0-based,Knob
-MeeBlip,geode,Oscillators,Waveform B,,49,,0,,,,,,0-based,Knob
-MeeBlip,geode,Oscillators,Detune,,50,,0,,,,,,0-based,Knob
-MeeBlip,geode,Filter,Cutoff,,51,,0,,,,,,0-based,Knob
-MeeBlip,geode,Oscillators,Mix,,52,,0,,,,,,0-based,Knob
-MeeBlip,geode,LFO,Rate,,53,,0,,,,,,0-based,Knob
-MeeBlip,geode,LFO,Depth,,54,,0,,,,,,0-based,Knob
-MeeBlip,geode,Envelope,Amplitude attack,,55,,0,,,,,,0-based,Knob
-MeeBlip,geode,Envelope,Amplitude decay,,56,,0,,,,,,0-based,Knob
-MeeBlip,geode,Envelope,Portamento,,57,,0,,,,,,0-based,Knob; aka glide
-MeeBlip,geode,Envelope,Filter Envelope Modulation Amount,,58,,0,,,,,,0-based,Knob; not on front panel
-MeeBlip,geode,Envelope,Pulse width,,59,,0,,,,,,0-based,Knob; not on front panel - audible only when you have the pulse wave selected
+MeeBlip,geode,Oscillators,Waveform A,,48,,0,127,,,,,0-based,Knob
+MeeBlip,geode,Oscillators,Waveform B,,49,,0,127,,,,,0-based,Knob
+MeeBlip,geode,Oscillators,Detune,,50,,0,127,,,,,0-based,Knob
+MeeBlip,geode,Filter,Cutoff,,51,,0,127,,,,,0-based,Knob
+MeeBlip,geode,Oscillators,Mix,,52,,0,127,,,,,0-based,Knob
+MeeBlip,geode,LFO,Rate,,53,,0,127,,,,,0-based,Knob
+MeeBlip,geode,LFO,Depth,,54,,0,127,,,,,0-based,Knob
+MeeBlip,geode,Envelope,Amplitude attack,,55,,0,127,,,,,0-based,Knob
+MeeBlip,geode,Envelope,Amplitude decay,,56,,0,127,,,,,0-based,Knob
+MeeBlip,geode,Envelope,Portamento,,57,,0,127,,,,,0-based,Knob; aka glide
+MeeBlip,geode,Envelope,Filter Envelope Modulation Amount,,58,,0,127,,,,,0-based,Knob; not on front panel
+MeeBlip,geode,Envelope,Pulse width,,59,,0,127,,,,,0-based,Knob; not on front panel - audible only when you have the pulse wave selected
 MeeBlip,geode,Envelope,Sustain,,64,,0-63,64-127,,,,,0-based,Switch
 MeeBlip,geode,Oscillators,Oscillator B Octave Shift,,65,,0-63,64-127,,,,,0-based,Switch
 MeeBlip,geode,LFO,Destination,,66,,0-63,64-127,,,,,0-based,Switch
