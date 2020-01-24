@@ -11,8 +11,8 @@ MeeBlip,geode,Envelope,Amplitude decay,,56,,0,127,,,,,0-based,Knob
 MeeBlip,geode,Envelope,Portamento,,57,,0,127,,,,,0-based,Knob; aka glide
 MeeBlip,geode,Envelope,Filter Envelope Modulation Amount,,58,,0,127,,,,,0-based,Knob; not on front panel
 MeeBlip,geode,Envelope,Pulse width,,59,,0,127,,,,,0-based,Knob; not on front panel - audible only when you have the pulse wave selected
-MeeBlip,geode,Envelope,Sustain,,64,,0-63,64-127,,,,,0-based,Switch
-MeeBlip,geode,Oscillators,Oscillator B Octave Shift,,65,,0-63,64-127,,,,,0-based,Switch
-MeeBlip,geode,LFO,Destination,,66,,0-63,64-127,,,,,0-based,Switch
-MeeBlip,geode,LFO,Randomize,,67,,0-63,64-127,,,,,0-based,Switch; not on panel
-MeeBlip,geode,LFO,Retrigger,,68,,0-63,64-127,,,,,0-based,Switch; not on panel
+MeeBlip,geode,Envelope,Sustain,,64,,0,127,,,,,0-based,Switch (0-63: off; 64-127: on)
+MeeBlip,geode,Oscillators,Oscillator B Octave Shift,,65,,0,127,,,,,0-based,Switch (0-63: off; 64-127: on)
+MeeBlip,geode,LFO,Destination,,66,,0,127,,,,,0-based,Switch (0-63: off; 64-127: on)
+MeeBlip,geode,LFO,Randomize,,67,,0,127,,,,,0-based,Switch (0-63: off; 64-127: on); not on panel
+MeeBlip,geode,LFO,Retrigger,,68,,0,127,,,,,0-based,Switch (0-63: off; 64-127: on); not on panel
