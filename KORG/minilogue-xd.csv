@@ -1,0 +1,61 @@
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+KORG,minilogue xd,General,Bank Select,,0,32,0,127,,,,,0-based,
+KORG,minilogue xd,General,Portamento,,5,,0,127,,,,,0-based,
+KORG,minilogue xd,General,Data Entry,,6,,0,127,,,,,0-based,
+KORG,minilogue xd,General,Volume,,7,,0,127,,,,,0-based,
+KORG,minilogue xd,General,Expression,,11,,0,127,,,,,0-based,
+KORG,minilogue xd,General,Voice Mode Depth,,27,,0,127,,,,,0-based,"Poly, Unison, Chord, ARP/Latch"
+KORG,minilogue xd,VCO,VCO1 Wave,,50,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,VCO1 Octave,,48,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,VCO1 Pitch,,34,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,VCO1 Shape,,36,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,VCO2 Wave,,51,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,VCO1 Octave,,49,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,VCO1 Pitch,,35,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,VCO1 Shape,,37,,0,127,,,,,0-based,
+KORG,minilogue xd,Multi Engine,Type,,53,,0,127,,,,,0-based,
+KORG,minilogue xd,Multi Engine,Sub-type,,103,,0,127,,,,,0-based,
+KORG,minilogue xd,Multi Engine,Shape,,54,,0,127,,,,,0-based,
+KORG,minilogue xd,Multi Engine,Shift Shape,,104,,0,127,,,,,0-based,
+KORG,minilogue xd,Mixer,VCO1,,39,,0,127,,,,,0-based,
+KORG,minilogue xd,Mixer,VCO2,,40,,0,127,,,,,0-based,
+KORG,minilogue xd,Mixer,Multi,,33,,0,127,,,,,0-based,
+KORG,minilogue xd,Filter (Voltage Controlled Fiilter - VCF),Cutoff,,43,,0,127,,,,,0-based,Voltage Controlled Fiilter (VCF)
+KORG,minilogue xd,Filter (Voltage Controlled Fiilter - VCF),Resonance,,44,,0,127,,,,,0-based,Voltage Controlled Fiilter (VCF)
+KORG,minilogue xd,Filter (Voltage Controlled Fiilter - VCF),Drive,,84,,0,127,,,,,0-based,"0%, 50%, 100%"
+KORG,minilogue xd,Filter (Voltage Controlled Fiilter - VCF),Keytrack,,83,,0,127,,,,,0-based,"0%, 50%, 100%"
+KORG,minilogue xd,Amp EG (Voltage Controlled Amplifier Envelope Generator),Attach,,16,,0,127,,,,,0-based,
+KORG,minilogue xd,Amp EG (Voltage Controlled Amplifier Envelope Generator),Decay,,17,,0,127,,,,,0-based,
+KORG,minilogue xd,Amp EG (Voltage Controlled Amplifier Envelope Generator),Sustin,,18,,0,127,,,,,0-based,
+KORG,minilogue xd,Amp EG (Voltage Controlled Amplifier Envelope Generator),Release,,19,,0,127,,,,,0-based,
+KORG,minilogue xd,EG (Envelope Generator),Attach,,20,,0,127,,,,,0-based,
+KORG,minilogue xd,EG (Envelope Generator),Decay,,21,,0,127,,,,,0-based,
+KORG,minilogue xd,EG (Envelope Generator),Intensity,,22,,0,127,,,,,Centered,
+KORG,minilogue xd,EG (Envelope Generator),Target,,23,,0,127,,,,,0-based,"Pitch, Pitch2, Cutoff"
+KORG,minilogue xd,LFO (Low Frequency Oscillator),Wave,,57,,0,127,,,,,0-based,"Square, Triangle, Saw"
+KORG,minilogue xd,LFO (Low Frequency Oscillator),Mode,,58,,0,127,,,,,0-based,"1-Shot, Normal, BPM"
+KORG,minilogue xd,LFO (Low Frequency Oscillator),Rate,,24,,0,127,,,,,0-based,
+KORG,minilogue xd,LFO (Low Frequency Oscillator),Intensity,,26,,0,127,,,,,0-based,
+KORG,minilogue xd,LFO (Low Frequency Oscillator),Target,,56,,0,127,,,,,0-based,"Cutoff, Shape, Pitch"
+KORG,minilogue xd,Effects,Modulation Type,,88,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Modulation Sub-type,,96,,0,127,,,,,0-based,"Delay, Reverb, Modulation"
+KORG,minilogue xd,Effects,Modulation Time,,28,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Modulation Depth,,29,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Delay Type,,89,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Delay Time,,105,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Delay Depth,,112,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Delay Dry/Wet,,107,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Reverb Type,,90,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Reverb Time,,114,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Reverb Depth,,115,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Reverb Dry/Wet,,110,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,Sync On/Off,This switch lets you sync the oscillators.,80,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,Ring On/Off,This lets you achieve a ring modulation effect.,81,,0,127,,,,,0-based,
+KORG,minilogue xd,VCO,Cross-mod Depth,Allows oscillator 1 to modulate the pitch of oscillator 2.,41,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Modulation On/Off,,92,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Delay On/Off,,94,,0,127,,,,,0-based,
+KORG,minilogue xd,Effects,Reverb On/Off,,95,,0,127,,,,,0-based,
+KORG,minilogue xd,General,NRPN,Non-Registered Parameter Number.,99,98,0,127,,,,,0-based,
+KORG,minilogue xd,General,Damper,,64,,0,127,,,,,0-based,
+KORG,minilogue xd,General,All sound off,,120,,0,127,,,,,0-based,
+KORG,minilogue xd,General,Reset all Controllers,,121,,0,127,,,,,0-based,
