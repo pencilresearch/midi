@@ -1,99 +1,309 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-Novation,Circuit,Synth voice,Polyphony mode,,3,,0,2,,,,,0-based,0: mono; 1: mono AG; 2: poly
-Novation,Circuit,Synth voice,Polyphony rate,,5,,0,127,,,,,0-based,
-Novation,Circuit,Synth voice,Pre-glide,,9,,52,76,,,,,Centered,
-Novation,Circuit,Synth voice,Keyboard octave,,13,,58,69,,,,,Centered,60: -4 ocatves; 64: 0 octaves; 64: +4 octaves
-Novation,Circuit,Synth oscillator,OSC 1 wave,,19,,0,29,,,,,0-based,"WAVEFORMS: 
-0: sine; 1: triangle; 2: sawtooth; 3: saw 9:1 PW; 4: saw 8:2 PW; 5: saw 7:3 PW; 6: saw 6:4 PW; 7: saw 5:5 PW; 8: saw 4:6 PW; 9: saw 3:7 PW; 10: saw 2:8 PW; 11: saw 1:9 PW; 12: pulse width; 13: square
-WAVETABLES:
-14: sine table; 15: analogue pulse; 16: analogue sync; 17: triangle-saw blend; 18: digital nasty 1; 19: digital nasty 2; 20: digital saw-square; 21: digital vocal 1; 22: digital vocal 2; 23: digital vocal 3; 24: digital vocal 4; 25: digital vocal 5; 26: digital vocal 6; 27: random collection 1; 28: random collection 2; 29: random collection 3"
-Novation,Circuit,Synth oscillator,OSC 1 wave interpolate,,20,,0,127,,,,,0-based,
-Novation,Circuit,Synth oscillator,OSC 1 pulse width index,,21,,0,127,,,,,Centered,
-Novation,Circuit,Synth oscillator,OSC 1 virtual sync depth,,22,,0,127,,,,,0-based,
-Novation,Circuit,Synth oscillator,OSC 1 density,,24,,0,127,,,,,0-based,
-Novation,Circuit,Synth oscillator,OSC 1 density detune,,25,,0,127,,,,,0-based,
-Novation,Circuit,Synth oscillator,OSC 1 semitones,,26,,0,127,,,,,Centered,
-Novation,Circuit,Synth oscillator,OSC 1 cents,,27,,0,127,,,,,Centered,
-Novation,Circuit,Synth oscillator,OSC 1 pitchbend,,28,,52,76,,,,,Centered,
-Novation,Circuit,Synth oscillator,OSC 2 wave,,29,,0,29,,,,,0-based,"WAVEFORMS: 
-0: sine; 1: triangle; 2: sawtooth; 3: saw 9:1 PW; 4: saw 8:2 PW; 5: saw 7:3 PW; 6: saw 6:4 PW; 7: saw 5:5 PW; 8: saw 4:6 PW; 9: saw 3:7 PW; 10: saw 2:8 PW; 11: saw 1:9 PW; 12: pulse width; 13: square
-WAVETABLES:
-14: sine table; 15: analogue pulse; 16: analogue sync; 17: triangle-saw blend; 18: digital nasty 1; 19: digital nasty 2; 20: digital saw-square; 21: digital vocal 1; 22: digital vocal 2; 23: digital vocal 3; 24: digital vocal 4; 25: digital vocal 5; 26: digital vocal 6; 27: random collection 1; 28: random collection 2; 29: random collection 3"
-Novation,Circuit,Synth oscillator,OSC 2 wave interpolate,,30,,0,127,,,,,0-based,
-Novation,Circuit,Synth oscillator,OSC 2 pulse width index,,31,,0,127,,,,,Centered,
-Novation,Circuit,Synth oscillator,OSC 2 virtual sync depth,,33,,0,127,,,,,0-based,
-Novation,Circuit,Synth oscillator,OSC 2 density,,35,,0,127,,,,,0-based,
-Novation,Circuit,Synth oscillator,OSC 2 density detune,,36,,0,127,,,,,0-based,
-Novation,Circuit,Synth oscillator,OSC 2 semitones,,37,,0,127,,,,,Centered,
-Novation,Circuit,Synth oscillator,OSC 2 cents,,39,,0,127,,,,,Centered,
-Novation,Circuit,Synth oscillator,OSC 2 pitchbend,,40,,52,76,,,,,Centered,
-Novation,Circuit,Mixer,OSC 1 level,,51,,0,127,,,,,0-based,
-Novation,Circuit,Mixer,OSC 2 level,,52,,0,127,,,,,0-based,
-Novation,Circuit,Mixer,Ring mod level,,54,,0,127,,,,,0-based,
-Novation,Circuit,Mixer,Noise level,,56,,0,127,,,,,0-based,
-Novation,Circuit,Mixer,Pre FX level,,58,,52,82,,,,,Centered,
-Novation,Circuit,Mixer,Post FX level,,59,,52,82,,,,,Centered,
-Novation,Circuit,Filter,Routing,,60,,0,2,,,,,0-based,0: noram; 1: OSC 1 bypasses the filter; 2: OSC 1 + OSC 2 bypass the filter
-Novation,Circuit,Filter,Drive,,63,,0,127,,,,,0-based,
-Novation,Circuit,Filter,Drive type,,65,,0,6,,,,,0-based,0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectifier; 5: bit reducer; 6: rate reducer
-Novation,Circuit,Filter,Type,,68,,0,5,,,,,0-based,0: low pass 12dB; 1: low pass 24 dB; 2: band pass 6/\6dB; 3: band pass 12/\12 dB; 4: high pass 12 dB; 5: high pass 24 dB
-Novation,Circuit,Filter,Frequency,,74,,0,127,,,,,0-based,
-Novation,Circuit,Filter,Tracking,,69,,0,127,,,,,0-based,
-Novation,Circuit,Filter,Resonance,,71,,0,127,,,,,0-based,
-Novation,Circuit,Filter,Q noramlize,,78,,0,127,,,,,0-based,
-Novation,Circuit,Filter,Envelope 2 to frequency,,79,,0,127,,,,,Centered,
-Novation,Circuit,Envelope,Env 1 velocity,,108,,0,127,,,,,Centered,
-Novation,Circuit,Envelope,Env 1 attack,,73,,0,127,,,,,0-based,
-Novation,Circuit,Envelope,Env 1 decay,,75,,0,127,,,,,0-based,
-Novation,Circuit,Envelope,Env 1 sustain,,70,,0,127,,,,,0-based,
-Novation,Circuit,Envelope,Env 1 release,,72,,0,127,,,,,0-based,
-Novation,Circuit,Envelope,Env 2 velocity,,,,,,0,0,0,127,Centered,
-Novation,Circuit,Envelope,Env 2 attack,,,,,,0,1,0,127,0-based,
-Novation,Circuit,Envelope,Env 2 decay,,,,,,0,2,0,127,0-based,
-Novation,Circuit,Envelope,Env 2 sustain,,,,,,0,3,0,127,0-based,
-Novation,Circuit,Envelope,Env 2 release,,,,,,0,4,0,127,0-based,
-Novation,Circuit,Envelope,Env 3 velocity,,,,,,0,14,0,127,Centered,
-Novation,Circuit,Envelope,Env 3 attack,,,,,,0,15,0,127,0-based,
-Novation,Circuit,Envelope,Env 3 decay,,,,,,0,16,0,127,0-based,
-Novation,Circuit,Envelope,Env 3 sustain,,,,,,0,17,0,127,0-based,
-Novation,Circuit,Envelope,Env 3 release,,,,,,0,18,0,127,0-based,
-Novation,Circuit,LFO,LFO 1 waveform,,,,,,0,70,0,37,0-based,0: sine; 1: triangle; 2: sawtooth; 3: square; 4: random S/H; 5: time S/H; 6: piano envelope; 7: sequence 1...13: sequence 7; 14: alternative 1...21: alternative 8; 22: chromatic; 23: chromatic 16; 24: major; 25: major 7; 26: minor 7; 27: min arp 1; 28: min arp 2; 29: diminished; 30: dec minor; 31: minor 3rd; 32: pedal; 33: 4ths; 34: 4ths x12; 35: 1625 maj; 36: 1625 min; 37: 2511
-Novation,Circuit,LFO,LFO 1 phase offset,,,,,,0,71,0,119,0-based,"0 degrees to 357 degrees, in steps of 3 degrees"
-Novation,Circuit,LFO,LFO 1 slew rate,,,,,,0,72,0,127,0-based,
-Novation,Circuit,LFO,LFO 1 delay,,,,,,0,74,0,127,0-based,
-Novation,Circuit,LFO,LFO 1 delay sync,,,,,,0,75,0,35,0-based,
-Novation,Circuit,LFO,LFO 1 rate,,,,,,0,76,0,127,0-based,
-Novation,Circuit,LFO,LFO 1 rate sync,,,,,,0,77,0,35,0-based,
-Novation,Circuit,LFO,LFO 1 one shot,,,,,,0,122,12,13,0-based,12: off; 13: on
-Novation,Circuit,LFO,LFO 1 key sync,,,,,,0,122,14,15,0-based,14: off; 15: on
-Novation,Circuit,LFO,LFO 1 common sync,,,,,,0,122,16,17,0-based,16: off; 17: on
-Novation,Circuit,LFO,LFO 1 delay trigger,,,,,,0,122,18,19,0-based,18: off; 19: on
-Novation,Circuit,LFO,LFO 1 fade mode,,,,,,0,123,0,3,0-based,0: fade in; 1: fade out; 2: gate in; 3: gate out
-Novation,Circuit,LFO,LFO 2 waveform,,,,,,0,79,0,37,0-based,0: sine; 1: triangle; 2: sawtooth; 3: square; 4: random S/H; 5: time S/H; 6: piano envelope; 7: sequence 1...13: sequence 7; 14: alternative 1...21: alternative 8; 22: chromatic; 23: chromatic 16; 24: major; 25: major 7; 26: minor 7; 27: min arp 1; 28: min arp 2; 29: diminished; 30: dec minor; 31: minor 3rd; 32: pedal; 33: 4ths; 34: 4ths x12; 35: 1625 maj; 36: 1625 min; 37: 2511
-Novation,Circuit,LFO,LFO 2 phase offset,,,,,,0,80,0,119,0-based,"0 degrees to 357 degrees, in steps of 3 degrees"
-Novation,Circuit,LFO,LFO 2 slew rate,,,,,,0,81,0,127,0-based,
-Novation,Circuit,LFO,LFO 2 delay,,,,,,0,83,0,127,0-based,
-Novation,Circuit,LFO,LFO 2 delay sync,,,,,,0,84,0,35,0-based,
-Novation,Circuit,LFO,LFO 2 rate,,,,,,0,85,0,127,0-based,
-Novation,Circuit,LFO,LFO 2 rate sync,,,,,,0,86,0,35,0-based,
-Novation,Circuit,LFO,LFO 2 one shot,,,,,,0,122,22,23,0-based,22: off; 23: on
-Novation,Circuit,LFO,LFO 2 key sync,,,,,,0,122,24,25,0-based,24: off; 25: on
-Novation,Circuit,LFO,LFO 2 common sync,,,,,,0,122,26,27,0-based,26: off; 27: on
-Novation,Circuit,LFO,LFO 2 delay trigger,,,,,,0,122,28,29,0-based,28: off; 29: on
-Novation,Circuit,LFO,LFO 2 fade mode,,,,,,0,123,4,7,0-based,4: fade in; 5: fade out; 6: gate in; 7: gate out
-Novation,Circuit,Effects and EQ,Distortion level,,91,,0,127,,,,,0-based,
-Novation,Circuit,Effects and EQ,Chorus level,,93,,0,127,,,,,0-based,
-Novation,Circuit,Effects and EQ,EQ bass frequency,,,,,,0,104,0,127,0-based,
-Novation,Circuit,Effects and EQ,EQ bass level,,,,,,0,105,0,127,Centered,
-Novation,Circuit,Effects and EQ,EQ mid frequency,,,,,,0,106,0,127,0-based,
-Novation,Circuit,Effects and EQ,EQ mid level,,,,,,0,107,0,127,Centered,
-Novation,Circuit,Effects and EQ,EQ treble frequency,,,,,,0,108,0,127,0-based,
-Novation,Circuit,Effects and EQ,EQ treble level,,,,,,0,109,0,127,Centered,
-Novation,Circuit,Effects and EQ,Distortion type,,,,,,1,0,0,6,0-based,0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectify; 5: bit reducer; 6: rate reducer
-Novation,Circuit,Effects and EQ,Distortion compensation,,,,,,1,1,0,127,0-based,
-Novation,Circuit,Effects and EQ,Chorus type,,,,,,1,24,0,1,0-based,0: phaser; 1: chorus
-Novation,Circuit,Effects and EQ,Chorus rate,,,,,,1,25,0,127,0-based,
-Novation,Circuit,Effects and EQ,Chorus rate sync,,,,,,1,26,0,35,0-based,
-Novation,Circuit,Effects and EQ,Chorus feedback,,,,,,1,27,0,127,Centered,
-Novation,Circuit,Effects and EQ,Chorus mod depth,,,,,,1,28,0,127,0-based,
-Novation,Circuit,Effects and EQ,Chorus delay,,,,,,1,29,0,127,0-based,
+Novation,Circuit,Voice,Polyphony Mode,sysex patch address: 32,3,,0,2,,,,,0-based,0: Mono; 1: Mono AG; 2: Poly
+Novation,Circuit,Voice,Portamento Rate,sysex patch address: 33,5,,0,127,,,,,0-based,
+Novation,Circuit,Voice,Pre-Glide,sysex patch address: 34,9,,52,76,,,,,Centered,
+Novation,Circuit,Voice,Keyboard Octave,sysex patch address: 35,13,,58,69,,,,,Centered,60: -4 Octaves; 64: 0 Octaves; 68: +4 Octaves
+Novation,Circuit,Oscillator,osc 1 wave,sysex patch address: 36,19,,0,29,,,,,0-based,0: sine; 1: triangle; 2: sawtooth; 3: saw 9-1 PW; 4: saw 8-2 PW; 5: saw 7-3 PW; 6: saw 6-4 PW; 7: saw 5-5 PW; 8: saw 4-6 PW; 9: saw 3-7 PW; 10: saw 2-8 PW; 11: saw 1-9 PW; 12: pulse width; 13: square; 14: sine table; 15: analogue pulse; 16: analogue sync; 17: triangle-saw blend; 18: digital nasty 1; 19: digital nasty 2; 20: digital saw-square; 21: digital vocal 1; 22: digital vocal 2; 23: digital vocal 3; 24: digital vocal 4; 25: digital vocal 5; 26: digital vocal 6; 27: random collection 1; 28: random collection 2; 29: random collection 3
+Novation,Circuit,Oscillator,osc 1 wave interpolate,sysex patch address: 37,20,,0,127,,,,,0-based,
+Novation,Circuit,Oscillator,osc 1 pulse width index,sysex patch address: 38,21,,0,127,,,,,Centered,
+Novation,Circuit,Oscillator,osc 1 virtual sync depth,sysex patch address: 39,22,,0,127,,,,,0-based,
+Novation,Circuit,Oscillator,osc 1 density,sysex patch address: 40,24,,0,127,,,,,0-based,
+Novation,Circuit,Oscillator,osc 1 density detune,sysex patch address: 41,25,,0,127,,,,,0-based,
+Novation,Circuit,Oscillator,osc 1 semitones,sysex patch address: 42,26,,0,127,,,,,Centered,
+Novation,Circuit,Oscillator,osc 1 cents,sysex patch address: 43,27,,0,127,,,,,Centered,
+Novation,Circuit,Oscillator,osc 1 pitchbend,sysex patch address: 44,28,,52,76,,,,,Centered,
+Novation,Circuit,Oscillator,osc 2 wave,sysex patch address: 45,29,,0,29,,,,,0-based,0: sine; 1: triangle; 2: sawtooth; 3: saw 9-1 PW; 4: saw 8-2 PW; 5: saw 7-3 PW; 6: saw 6-4 PW; 7: saw 5-5 PW; 8: saw 4-6 PW; 9: saw 3-7 PW; 10: saw 2-8 PW; 11: saw 1-9 PW; 12: pulse width; 13: square; 14: sine table; 15: analogue pulse; 16: analogue sync; 17: triangle-saw blend; 18: digital nasty 1; 19: digital nasty 2; 20: digital saw-square; 21: digital vocal 1; 22: digital vocal 2; 23: digital vocal 3; 24: digital vocal 4; 25: digital vocal 5; 26: digital vocal 6; 27: random collection 1; 28: random collection 2; 29: random collection 3
+Novation,Circuit,Oscillator,osc 2 wave interpolate,sysex patch address: 46,30,,0,127,,,,,0-based,
+Novation,Circuit,Oscillator,osc 2 pulse width index,sysex patch address: 47,31,,0,127,,,,,Centered,
+Novation,Circuit,Oscillator,osc 2 virtual sync depth,sysex patch address: 48,33,,0,127,,,,,0-based,
+Novation,Circuit,Oscillator,osc 2 density,sysex patch address: 49,35,,0,127,,,,,0-based,
+Novation,Circuit,Oscillator,osc 2 density detune,sysex patch address: 50,36,,0,127,,,,,0-based,
+Novation,Circuit,Oscillator,osc 2 semitones,sysex patch address: 51,37,,0,127,,,,,Centered,
+Novation,Circuit,Oscillator,osc 2 cents,sysex patch address: 52,39,,0,127,,,,,Centered,
+Novation,Circuit,Oscillator,osc 2 pitchbend,sysex patch address: 53,40,,52,76,,,,,Centered,
+Novation,Circuit,Mixer,osc 1 level,sysex patch address: 54,51,,0,127,,,,,0-based,
+Novation,Circuit,Mixer,osc 2 level,sysex patch address: 55,52,,0,127,,,,,0-based,
+Novation,Circuit,Mixer,ring mod level,sysex patch address: 56,54,,0,127,,,,,0-based,
+Novation,Circuit,Mixer,noise level,sysex patch address: 57,56,,0,127,,,,,0-based,
+Novation,Circuit,Mixer,pre FX level,sysex patch address: 58,58,,52,82,,,,,Centered,-12 to +18 dB
+Novation,Circuit,Mixer,post FX level,sysex patch address: 59,59,,52,82,,,,,Centered,-12 to +18 dB
+Novation,Circuit,Filter,routing,sysex patch address: 60,60,,0,2,,,,,0-based,0: Normal; 1: Osc 1 bypasses the filter;  2: Osc 1 + Osc 2 bypasses the filter
+Novation,Circuit,Filter,drive,sysex patch address: 61,63,,0,127,,,,,0-based,
+Novation,Circuit,Filter,drive type,sysex patch address: 62,65,,0,6,,,,,0-based,0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectifier; 5: bit reducer; 6: rate reducer
+Novation,Circuit,Filter,type,sysex patch address: 63,68,,0,5,,,,,0-based,0: low pass 12dB; 1: low pass 24dB; 2: band pass 6/\6dB; 3: band pass 12/\12 dB; 4: high pass 12dB; 5: high pass 24dB
+Novation,Circuit,Filter,frequency,sysex patch address: 64,74,,0,127,,,,,0-based,
+Novation,Circuit,Filter,tracking,sysex patch address: 65,69,,0,127,,,,,0-based,
+Novation,Circuit,Filter,resonance,sysex patch address: 66,71,,0,127,,,,,0-based,
+Novation,Circuit,Filter,Q normalise,sysex patch address: 67,78,,0,127,,,,,0-based,
+Novation,Circuit,Filter,env 2 to frequency,sysex patch address: 68,79,,0,127,,,,,Centered,
+Novation,Circuit,Envelope,env 1 velocity,sysex patch address: 69,108,,0,127,,,,,Centered,
+Novation,Circuit,Envelope,env 1 attack,sysex patch address: 70,73,,0,127,,,,,0-based,
+Novation,Circuit,Envelope,env 1 decay,sysex patch address: 71,75,,0,127,,,,,0-based,
+Novation,Circuit,Envelope,env 1 sustain,sysex patch address: 72,70,,0,127,,,,,0-based,
+Novation,Circuit,Envelope,env 1 release,sysex patch address: 73,72,,0,127,,,,,0-based,
+Novation,Circuit,Envelope,env 2 velocity,sysex patch address: 74,,,,,0,0,0,127,Centered,
+Novation,Circuit,Envelope,env 2 attack,sysex patch address: 75,,,,,0,1,0,127,0-based,
+Novation,Circuit,Envelope,env 2 decay,sysex patch address: 76,,,,,0,2,0,127,0-based,
+Novation,Circuit,Envelope,env 2 sustain,sysex patch address: 77,,,,,0,3,0,127,0-based,
+Novation,Circuit,Envelope,env 2 release,sysex patch address: 78,,,,,0,4,0,127,0-based,
+Novation,Circuit,Envelope,env 3 delay,sysex patch address: 79,,,,,0,14,0,127,0-based,
+Novation,Circuit,Envelope,env 3 attack,sysex patch address: 80,,,,,0,15,0,127,0-based,
+Novation,Circuit,Envelope,env 3 decay,sysex patch address: 81,,,,,0,16,0,127,0-based,
+Novation,Circuit,Envelope,env 3 sustain,sysex patch address: 82,,,,,0,17,0,127,0-based,
+Novation,Circuit,Envelope,env 3 release,sysex patch address: 83,,,,,0,18,0,127,0-based,
+Novation,Circuit,LFO,lfo 1 waveform,sysex patch address: 84,,,,,0,70,0,37,0-based,0: sine; 1: triangle; 2: sawtooth; 3: square; 4: random S/H; 5: time S/H; 6: piano envelope; 7: sequence 1; 8: sequence 2; 9: sequence 3; 10: sequence 4; 11: sequence 5; 12: sequence 6; 13: sequence 7; 14: alternative 1; 15: alternative 2; 16: alternative 3; 17: alternative 4; 18: alternative 5; 19: alternative 6; 20: alternative 7; 21: alternative 8; 22: chromatic; 23: chromatic 16; 24: major; 25: major 7; 26: minor 7; 27: min arp 1; 28: min arp 2; 29: diminished; 30: dec minor; 31: minor 3rd; 32: pedal; 33: 4ths; 34: 4ths x12; 35: 1625 maj; 36: 1625 min; 37: 2511
+Novation,Circuit,LFO,lfo 1 phase offset,sysex patch address: 85,,,,,0,71,0,119,0-based,(0° - 357°) in steps of 3°
+Novation,Circuit,LFO,lfo 1 slew rate,sysex patch address: 86,,,,,0,72,0,127,0-based,
+Novation,Circuit,LFO,lfo 1 delay,sysex patch address: 87,,,,,0,74,0,127,0-based,
+Novation,Circuit,LFO,lfo 1 delay sync,sysex patch address: 88,,,,,0,75,0,35,0-based,
+Novation,Circuit,LFO,lfo 1 rate,sysex patch address: 89,,,,,0,76,0,127,0-based,
+Novation,Circuit,LFO,lfo 1 rate sync,sysex patch address: 90,,,,,0,77,0,35,0-based,
+Novation,Circuit,LFO,lfo 1 one shot,sysex patch address: 91,,,,,0,122,12,13,0-based,12: OFF; 13: ON
+Novation,Circuit,LFO,lfo 1 key sync,sysex patch address: 91,,,,,0,122,14,15,0-based,14: OFF; 15: ON
+Novation,Circuit,LFO,lfo 1 common sync,sysex patch address: 91,,,,,0,122,16,17,0-based,16: OFF; 17: ON
+Novation,Circuit,LFO,lfo 1 delay trigger,sysex patch address: 91,,,,,0,122,18,19,0-based,18: OFF; 19: ON
+Novation,Circuit,LFO,lfo 1 fade mode,sysex patch address: 91,,,,,0,123,0,3,0-based,0: Fade In; 1: Fade Out; 2: Gate In; 3: Gate Out
+Novation,Circuit,LFO,lfo 2 waveform,sysex patch address: 92,,,,,0,79,0,37,0-based,0: sine; 1: triangle; 2: sawtooth; 3: square; 4: random S/H; 5: time S/H; 6: piano envelope; 7: sequence 1; 8: sequence 2; 9: sequence 3; 10: sequence 4; 11: sequence 5; 12: sequence 6; 13: sequence 7; 14: alternative 1; 15: alternative 2; 16: alternative 3; 17: alternative 4; 18: alternative 5; 19: alternative 6; 20: alternative 7; 21: alternative 8; 22: chromatic; 23: chromatic 16; 24: major; 25: major 7; 26: minor 7; 27: min arp 1; 28: min arp 2; 29: diminished; 30: dec minor; 31: minor 3rd; 32: pedal; 33: 4ths; 34: 4ths x12; 35: 1625 maj; 36: 1625 min; 37: 2511
+Novation,Circuit,LFO,lfo 2 phase offset,sysex patch address: 93,,,,,0,80,0,119,0-based,(0° - 357°) in steps of 3°
+Novation,Circuit,LFO,lfo 2 slew rate,sysex patch address: 94,,,,,0,81,0,127,0-based,
+Novation,Circuit,LFO,lfo 2 delay,sysex patch address: 95,,,,,0,83,0,127,0-based,
+Novation,Circuit,LFO,lfo 2 delay sync,sysex patch address: 96,,,,,0,84,0,35,0-based,
+Novation,Circuit,LFO,lfo 2 rate,sysex patch address: 97,,,,,0,85,0,127,0-based,
+Novation,Circuit,LFO,lfo 2 rate sync,sysex patch address: 98,,,,,0,86,0,35,0-based,
+Novation,Circuit,LFO,lfo 2 one shot,sysex patch address: 99,,,,,0,122,22,23,0-based,22: OFF; 23: ON
+Novation,Circuit,LFO,lfo 2 key sync,sysex patch address: 99,,,,,0,122,24,25,0-based,24: OFF; 25: ON
+Novation,Circuit,LFO,lfo 2 common sync,sysex patch address: 99,,,,,0,122,26,27,0-based,26: OFF; 27: ON
+Novation,Circuit,LFO,lfo 2 delay trigger,sysex patch address: 99,,,,,0,122,28,29,0-based,28: OFF; 29: ON
+Novation,Circuit,LFO,lfo 2 fade mode,sysex patch address: 99,,,,,0,123,4,7,0-based,4: Fade In; 5: Fade Out; 6: Gate In; 7: Gate Out
+Novation,Circuit,Effects and EQ,distortion level,sysex patch address: 100,91,,0,127,,,,,0-based,
+Novation,Circuit,Effects and EQ,chorus level,sysex patch address: 102,93,,0,127,,,,,0-based,
+Novation,Circuit,Effects and EQ,EQ bass frequency,sysex patch address: 105,,,,,0,104,0,127,0-based,
+Novation,Circuit,Effects and EQ,EQ bass level,sysex patch address: 106,,,,,0,105,0,127,Centered,
+Novation,Circuit,Effects and EQ,EQ mid frequency,sysex patch address: 107,,,,,0,106,0,127,0-based,
+Novation,Circuit,Effects and EQ,EQ mid level,sysex patch address: 108,,,,,0,107,0,127,Centered,
+Novation,Circuit,Effects and EQ,EQ treble frequency,sysex patch address: 109,,,,,0,108,0,127,0-based,
+Novation,Circuit,Effects and EQ,EQ treble level,sysex patch address: 110,,,,,0,109,0,127,Centered,
+Novation,Circuit,Effects and EQ,distortion type,sysex patch address: 116,,,,,1,0,0,6,0-based,0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectify; 5: bit reducer; 6: rate reducer
+Novation,Circuit,Effects and EQ,distortion compensation,sysex patch address: 117,,,,,1,1,0,127,0-based,
+Novation,Circuit,Effects and EQ,chorus type,sysex patch address: 118,,,,,1,24,0,1,0-based,0: Phaser; 1: Chorus
+Novation,Circuit,Effects and EQ,chorus rate,sysex patch address: 119,,,,,1,25,0,127,0-based,
+Novation,Circuit,Effects and EQ,chorus rate sync,sysex patch address: 120,,,,,1,26,0,35,0-based,
+Novation,Circuit,Effects and EQ,chorus feedback,sysex patch address: 121,,,,,1,27,0,127,Centered,
+Novation,Circuit,Effects and EQ,chorus mod depth,sysex patch address: 122,,,,,1,28,0,127,0-based,
+Novation,Circuit,Effects and EQ,chorus delay,sysex patch address: 123,,,,,1,29,0,127,0-based,
+Novation,Circuit,Mod Matrix,mod matrix 1 source 1,sysex patch address: 124,,,,,1,83,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 1 source 2,sysex patch address: 125,,,,,1,84,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 1 depth,sysex patch address: 126,,,,,1,86,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 1 destination,sysex patch address: 127,,,,,1,87,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 2 source 1,sysex patch address: 128,,,,,1,88,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 2 source 2,sysex patch address: 129,,,,,1,89,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 2 depth,sysex patch address: 130,,,,,1,91,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 2 destination,sysex patch address: 131,,,,,1,92,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 3 source 1,sysex patch address: 132,,,,,1,93,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 3 source 2,sysex patch address: 133,,,,,1,94,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 3 depth,sysex patch address: 134,,,,,1,96,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 3 destination,sysex patch address: 135,,,,,1,97,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 4 source 1,sysex patch address: 136,,,,,1,98,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 4 source 2,sysex patch address: 137,,,,,1,99,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 4 depth,sysex patch address: 138,,,,,1,101,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 4 destination,sysex patch address: 139,,,,,1,102,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 5 source 1,sysex patch address: 140,,,,,1,103,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 5 source 2,sysex patch address: 141,,,,,1,104,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 5 depth,sysex patch address: 142,,,,,1,106,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 5 destination,sysex patch address: 143,,,,,1,107,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 6 source 1,sysex patch address: 144,,,,,1,108,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 6 source 2,sysex patch address: 145,,,,,1,109,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 6 depth,sysex patch address: 146,,,,,1,111,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 6 destination,sysex patch address: 147,,,,,1,112,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 7 source 1,sysex patch address: 148,,,,,1,113,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 7 source 2,sysex patch address: 149,,,,,1,114,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 7 depth,sysex patch address: 150,,,,,1,116,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 7 destination,sysex patch address: 151,,,,,1,117,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 8 source 1,sysex patch address: 152,,,,,1,118,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 8 source 2,sysex patch address: 153,,,,,1,119,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 8 depth,sysex patch address: 154,,,,,1,121,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 8 destination,sysex patch address: 155,,,,,1,122,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 9 source 1,sysex patch address: 156,,,,,1,123,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 9 source 2,sysex patch address: 157,,,,,1,124,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 9 depth,sysex patch address: 158,,,,,1,126,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 9 destination,sysex patch address: 159,,,,,1,127,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 10 source 1,sysex patch address: 160,,,,,2,0,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 10 source 2,sysex patch address: 161,,,,,2,1,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 10 depth,sysex patch address: 162,,,,,2,3,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 10 destination,sysex patch address: 163,,,,,2,4,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 11 source 1,sysex patch address: 164,,,,,2,5,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 11 source 2,sysex patch address: 165,,,,,2,6,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 11 depth,sysex patch address: 166,,,,,2,8,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 11 destination,sysex patch address: 167,,,,,2,9,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 12 source 1,sysex patch address: 168,,,,,2,10,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 12 source 2,sysex patch address: 169,,,,,2,11,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 12 depth,sysex patch address: 170,,,,,2,13,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 12 destination,sysex patch address: 171,,,,,2,14,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 13 source 1,sysex patch address: 172,,,,,2,15,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 13 source 2,sysex patch address: 173,,,,,2,16,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 13 depth,sysex patch address: 174,,,,,2,18,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 13 destination,sysex patch address: 175,,,,,2,19,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 14 source 1,sysex patch address: 176,,,,,2,20,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 14 source 2,sysex patch address: 177,,,,,2,21,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 14 depth,sysex patch address: 178,,,,,2,23,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 14 destination,sysex patch address: 179,,,,,2,24,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 15 source 1,sysex patch address: 180,,,,,2,25,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 15 source 2,sysex patch address: 181,,,,,2,27,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 15 depth,sysex patch address: 182,,,,,2,28,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 15 destination,sysex patch address: 183,,,,,2,29,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 16 source 1,sysex patch address: 184,,,,,2,30,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 16 source 2,sysex patch address: 185,,,,,2,32,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 16 depth,sysex patch address: 186,,,,,2,33,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 16 destination,sysex patch address: 187,,,,,2,34,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 17 source 1,sysex patch address: 188,,,,,2,35,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 17 source 2,sysex patch address: 189,,,,,2,37,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 17 depth,sysex patch address: 190,,,,,2,38,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 17 destination,sysex patch address: 191,,,,,2,39,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 18 source 1,sysex patch address: 192,,,,,2,40,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 18 source 2,sysex patch address: 193,,,,,2,42,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 18 depth,sysex patch address: 194,,,,,2,43,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 18 destination,sysex patch address: 195,,,,,2,44,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 19 source 1,sysex patch address: 196,,,,,2,45,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 19 source 2,sysex patch address: 197,,,,,2,47,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 19 depth,sysex patch address: 198,,,,,2,48,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 19 destination,sysex patch address: 199,,,,,2,49,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Mod Matrix,mod matrix 20 source 1,sysex patch address: 200,,,,,2,50,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 20 source 2,sysex patch address: 201,,,,,2,52,0,12,0-based,0: direct; 1: modulation wheel; 2: after touch; 3: expression; 4: velocity; 5: keyboard; 6: LFO 1 +; 7: LFO 1 +/-; 8: LFO 2 +; 9: LFO 2 +/-; 10: env amp; 11: env filter; 12: env 3
+Novation,Circuit,Mod Matrix,mod matrix 20 depth,sysex patch address: 202,,,,,2,53,0,127,Centered,
+Novation,Circuit,Mod Matrix,mod matrix 20 destination,sysex patch address: 203,,,,,2,54,0,17,0-based,0: osc 1 & 2 pitch; 1: osc 1 pitch; 2: osc 2 pitch; 3: osc 1 v-sync; 4: osc 2 v-sync; 5: osc 1 pulse width / index; 6: osc 2 pulse width / index; 7: osc 1 level; 8: osc 2 level; 9: noise level; 10: ring modulation 1*2 level; 11: filter drive amount; 12: filter frequency; 13: filter resonance; 14: LFO 1 rate; 15: LFO 2 rate; 16: amp envelope decay; 17: filter envelope decay
+Novation,Circuit,Macro Knob,macro knob 1 position,sysex patch address: 204,80,,0,127,,,,,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 destination A,sysex patch address: 205,,,,,3,0,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 start position A,sysex patch address: 206,,,,,3,1,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 end position A,sysex patch address: 207,,,,,3,2,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 depth A,sysex patch address: 208,,,,,3,3,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 1 destination B,sysex patch address: 209,,,,,3,4,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 start position B,sysex patch address: 210,,,,,3,5,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 end position B,sysex patch address: 211,,,,,3,6,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 depth B,sysex patch address: 212,,,,,3,7,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 1 destination C,sysex patch address: 213,,,,,3,8,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 start position C,sysex patch address: 214,,,,,3,9,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 end position C,sysex patch address: 215,,,,,3,10,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 depth C,sysex patch address: 216,,,,,3,11,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 1 destination D,sysex patch address: 217,,,,,3,12,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 start position D,sysex patch address: 218,,,,,3,13,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 end position D,sysex patch address: 219,,,,,3,14,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 1 depth D,sysex patch address: 220,,,,,3,15,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 2 position,sysex patch address: 221,81,,0,127,,,,,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 destination A,sysex patch address: 222,,,,,3,16,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 start position A,sysex patch address: 223,,,,,3,17,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 end position A,sysex patch address: 224,,,,,3,18,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 depth A,sysex patch address: 225,,,,,3,19,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 2 destination B,sysex patch address: 226,,,,,3,20,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 start position B,sysex patch address: 227,,,,,3,21,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 end position B,sysex patch address: 228,,,,,3,22,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 depth B,sysex patch address: 229,,,,,3,23,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 2 destination C,sysex patch address: 230,,,,,3,24,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 start position C,sysex patch address: 231,,,,,3,25,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 end position C,sysex patch address: 232,,,,,3,26,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 depth C,sysex patch address: 233,,,,,3,27,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 2 destination D,sysex patch address: 234,,,,,3,28,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 start position D,sysex patch address: 235,,,,,3,29,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 end position D,sysex patch address: 236,,,,,3,30,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 2 depth D,sysex patch address: 237,,,,,3,31,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 3 position,sysex patch address: 238,82,,0,127,,,,,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 destination A,sysex patch address: 239,,,,,3,32,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 start position A,sysex patch address: 240,,,,,3,33,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 end position A,sysex patch address: 241,,,,,3,34,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 depth A,sysex patch address: 242,,,,,3,35,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 3 destination B,sysex patch address: 243,,,,,3,36,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 start position B,sysex patch address: 244,,,,,3,37,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 end position B,sysex patch address: 245,,,,,3,38,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 depth B,sysex patch address: 246,,,,,3,39,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 3 destination C,sysex patch address: 247,,,,,3,40,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 start position C,sysex patch address: 248,,,,,3,41,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 end position C,sysex patch address: 249,,,,,3,42,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 depth C,sysex patch address: 250,,,,,3,43,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 3 destination D,sysex patch address: 251,,,,,3,44,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 start position D,sysex patch address: 252,,,,,3,45,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 end position D,sysex patch address: 253,,,,,3,46,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 3 depth D,sysex patch address: 254,,,,,3,47,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 4 position,sysex patch address: 255,83,,0,127,,,,,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 destination A,sysex patch address: 256,,,,,3,48,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 start position A,sysex patch address: 257,,,,,3,49,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 end position A,sysex patch address: 258,,,,,3,50,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 depth A,sysex patch address: 259,,,,,3,51,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 4 destination B,sysex patch address: 260,,,,,3,52,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 start position B,sysex patch address: 261,,,,,3,53,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 end position B,sysex patch address: 262,,,,,3,54,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 depth B,sysex patch address: 263,,,,,3,55,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 4 destination C,sysex patch address: 264,,,,,3,56,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 start position C,sysex patch address: 265,,,,,3,57,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 end position C,sysex patch address: 266,,,,,3,58,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 depth C,sysex patch address: 267,,,,,3,59,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 4 destination D,sysex patch address: 268,,,,,3,60,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 start position D,sysex patch address: 269,,,,,3,61,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 end position D,sysex patch address: 270,,,,,3,62,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 4 depth D,sysex patch address: 271,,,,,3,63,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 5 position,sysex patch address: 272,84,,0,127,,,,,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 destination A,sysex patch address: 273,,,,,3,64,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 start position A,sysex patch address: 274,,,,,3,65,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 end position A,sysex patch address: 275,,,,,3,66,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 depth A,sysex patch address: 276,,,,,3,67,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 5 destination B,sysex patch address: 277,,,,,3,68,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 start position B,sysex patch address: 278,,,,,3,69,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 end position B,sysex patch address: 279,,,,,3,70,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 depth B,sysex patch address: 280,,,,,3,71,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 5 destination C,sysex patch address: 281,,,,,3,72,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 start position C,sysex patch address: 282,,,,,3,73,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 end position C,sysex patch address: 283,,,,,3,74,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 depth C,sysex patch address: 284,,,,,3,75,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 5 destination D,sysex patch address: 285,,,,,3,76,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 start position D,sysex patch address: 286,,,,,3,77,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 end position D,sysex patch address: 287,,,,,3,78,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 5 depth D,sysex patch address: 288,,,,,3,79,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 6 position,sysex patch address: 289,85,,0,127,,,,,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 destination A,sysex patch address: 290,,,,,3,80,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 start position A,sysex patch address: 291,,,,,3,81,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 end position A,sysex patch address: 292,,,,,3,82,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 depth A,sysex patch address: 293,,,,,3,83,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 6 destination B,sysex patch address: 294,,,,,3,84,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 start position B,sysex patch address: 295,,,,,3,85,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 end position B,sysex patch address: 296,,,,,3,86,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 depth B,sysex patch address: 297,,,,,3,87,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 6 destination C,sysex patch address: 298,,,,,3,88,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 start position C,sysex patch address: 299,,,,,3,89,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 end position C,sysex patch address: 300,,,,,3,90,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 depth C,sysex patch address: 301,,,,,3,91,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 6 destination D,sysex patch address: 302,,,,,3,92,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 start position D,sysex patch address: 303,,,,,3,93,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 end position D,sysex patch address: 304,,,,,3,94,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 6 depth D,sysex patch address: 305,,,,,3,95,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 7 position,sysex patch address: 306,86,,0,127,,,,,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 destination A,sysex patch address: 307,,,,,3,96,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 start position A,sysex patch address: 308,,,,,3,97,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 end position A,sysex patch address: 309,,,,,3,98,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 depth A,sysex patch address: 310,,,,,3,99,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 7 destination B,sysex patch address: 311,,,,,3,100,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 start position B,sysex patch address: 312,,,,,3,101,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 end position B,sysex patch address: 313,,,,,3,102,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 depth B,sysex patch address: 314,,,,,3,103,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 7 destination C,sysex patch address: 315,,,,,3,104,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 start position C,sysex patch address: 316,,,,,3,105,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 end position C,sysex patch address: 317,,,,,3,106,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 depth C,sysex patch address: 318,,,,,3,107,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 7 destination D,sysex patch address: 319,,,,,3,108,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 start position D,sysex patch address: 320,,,,,3,109,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 end position D,sysex patch address: 321,,,,,3,110,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 7 depth D,sysex patch address: 322,,,,,3,111,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 8 position,sysex patch address: 323,87,,0,127,,,,,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 destination A,sysex patch address: 324,,,,,3,112,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 start position A,sysex patch address: 325,,,,,3,113,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 end position A,sysex patch address: 326,,,,,3,114,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 depth A,sysex patch address: 327,,,,,3,115,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 8 destination B,sysex patch address: 328,,,,,3,116,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 start position B,sysex patch address: 329,,,,,3,117,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 end position B,sysex patch address: 330,,,,,3,118,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 depth B,sysex patch address: 331,,,,,3,119,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 8 destination C,sysex patch address: 332,,,,,3,120,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 start position C,sysex patch address: 333,,,,,3,121,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 end position C,sysex patch address: 334,,,,,3,122,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 depth C,sysex patch address: 335,,,,,3,123,0,127,Centered,
+Novation,Circuit,Macro Knob,macro knob 8 destination D,sysex patch address: 336,,,,,3,124,0,70,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 start position D,sysex patch address: 337,,,,,3,125,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 end position D,sysex patch address: 338,,,,,3,126,0,127,0-based,
+Novation,Circuit,Macro Knob,macro knob 8 depth D,sysex patch address: 339,,,,,3,127,0,127,Centered,
