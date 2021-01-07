@@ -20,10 +20,10 @@ KORG,minilogue xd,Multi Engine,Shift Shape,,104,,0,127,,,,,0-based,
 KORG,minilogue xd,Mixer,VCO1,,39,,0,127,,,,,0-based,
 KORG,minilogue xd,Mixer,VCO2,,40,,0,127,,,,,0-based,
 KORG,minilogue xd,Mixer,Multi,,33,,0,127,,,,,0-based,
-KORG,minilogue xd,Filter (Voltage Controlled Fiilter - VCF),Cutoff,,43,,0,127,,,,,0-based,Voltage Controlled Fiilter (VCF)
-KORG,minilogue xd,Filter (Voltage Controlled Fiilter - VCF),Resonance,,44,,0,127,,,,,0-based,Voltage Controlled Fiilter (VCF)
-KORG,minilogue xd,Filter (Voltage Controlled Fiilter - VCF),Drive,,84,,0,127,,,,,0-based,"0%, 50%, 100%"
-KORG,minilogue xd,Filter (Voltage Controlled Fiilter - VCF),Keytrack,,83,,0,127,,,,,0-based,"0%, 50%, 100%"
+KORG,minilogue xd,Filter (Voltage Controlled Filter - VCF),Cutoff,,43,,0,127,,,,,0-based,Voltage Controlled Fiilter (VCF)
+KORG,minilogue xd,Filter (Voltage Controlled Filter - VCF),Resonance,,44,,0,127,,,,,0-based,Voltage Controlled Fiilter (VCF)
+KORG,minilogue xd,Filter (Voltage Controlled Filter - VCF),Drive,,84,,0,127,,,,,0-based,"0%, 50%, 100%"
+KORG,minilogue xd,Filter (Voltage Controlled Filter - VCF),Keytrack,,83,,0,127,,,,,0-based,"0%, 50%, 100%"
 KORG,minilogue xd,Amp EG (Voltage Controlled Amplifier Envelope Generator),Attach,,16,,0,127,,,,,0-based,
 KORG,minilogue xd,Amp EG (Voltage Controlled Amplifier Envelope Generator),Decay,,17,,0,127,,,,,0-based,
 KORG,minilogue xd,Amp EG (Voltage Controlled Amplifier Envelope Generator),Sustin,,18,,0,127,,,,,0-based,
