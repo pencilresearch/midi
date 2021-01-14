@@ -1,6 +1,4 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-KORG,monologue,Envelope generator,Envelope attack,,16,,0,127,,,,,0-based,
-
 KORG,NTS-1,Envelope Generator,Type,Selects the amplitude EG type,14,,0,127,,,,,0-based,ADSR; AHR; AR; ARloop; Open
 KORG,NTS-1,Envelope Generator,Attack,Sets the time required for the EG to reach it’s maximum level once a note is played,16,,0,127,,,,,0-based,
 KORG,NTS-1,Envelope Generator,Release,Sets the time required for the EG to reach 0 once a note has ended,19,,0,127,,,,,0-based,
@@ -15,18 +13,18 @@ KORG,NTS-1,Delay,Depth,,31,,0,127,,,,,0-based,
 KORG,NTS-1,Delay,Mix,,33,,0,127,,,,,0-based,
 KORG,NTS-1,Reverb,Time,,34,,0,127,,,,,0-based,
 KORG,NTS-1,Reverb,Depth,,35,,0,127,,,,,0-based,
-KORG,NTS-1,Reverb,Mix,Sets the dry/wet balance of the effect,36,,0,127,,,,,0-based,Dry/wet mix: d100–d001; --; w001–w100
+KORG,NTS-1,Reverb,Mix,Sets the dry/wet balance of the effect,36,,0,127,,,,,0-based,Dry/wet mix: d100-d001; --; w001-w100
 KORG,NTS-1,Filter,Type,Selects the filter type,42,,0,127,,,,,0-based,Lowpass-2pole; Lowpass-4 pole; Bandpass-2pole; Bandpass-4pole; Highpass-2 pole; Highpass-4pole; Off
 KORG,NTS-1,Filter,Cutoff,Sets the cutoff frequency altering the brightness of the sound,43,,0,127,,,,,0-based,
 KORG,NTS-1,Filter,Resonance,Adds emphasis to the overtones occuring at the cutoff frequency,44,,0,127,,,,,0-based,
-KORG,NTS-1,Filter,Sweep Depth,,46,,0,127,,,,,0-based,Cutoff sweep depth: u100–u001; --; d000–d100 Sets the direction (up/ down) and depth of the cutoff sweep
+KORG,NTS-1,Filter,Sweep Depth,,46,,0,127,,,,,0-based,Cutoff sweep depth: u100-u001; --; d000-d100 Sets the direction (up/down) and depth of the cutoff sweep
 KORG,NTS-1,Filter,Sweep Rate,Sweep rate: F0.0–F30.0; Sets the cutoff sweep frequency,46,,0,127,,,,,0-based,
-KORG,NTS-1,Oscillator,Type,,53,,0,127,,,,,0-based,Sawtooth; Square; VPM; User OSC. Comes preloaded with user oscillator "Waves"
+KORG,NTS-1,Oscillator,Type,,53,,0,127,,,,,0-based,"Sawtooth; Square; VPM; User OSC. Comes preloaded with user oscillator ""Waves"""
 KORG,NTS-1,Oscillator,Shape,Amount of wave-shaping applied,54,,0,127,,,,,0-based,
 KORG,NTS-1,Oscillator,Alt,,55,,0,127,,,,,0-based,
 KORG,NTS-1,Modulation,Type,,88,,0,127,,,,,0-based,Off; Chorus; Ensemble; Phaser; Flanger
 KORG,NTS-1,Delay,Type,,89,,0,127,,,,,0-based,Off; Stereo; Mono; Ping Pong; High Pass; Tape
 KORG,NTS-1,Reverb,Type,,90,,0,127,,,,,0-based,Off; Hall; Plate; Space; Riser; Submarine
-KORG,NTS-1,Arpeggiator (ARP),Pattern,ARP pattern length,117,,0,127,,,,,0-based,1-24
+KORG,NTS-1,Arpeggiator (ARP),Pattern,ARP pattern length,117,,0,127,,,,,0-based,24-Jan
 KORG,NTS-1,Arpeggiator (ARP),Intervals,,118,,0,127,,,,,0-based,
 KORG,NTS-1,Arpeggiator (ARP),Length,,119,,0,127,,,,,0-based,
