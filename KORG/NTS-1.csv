@@ -2,8 +2,8 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 KORG,NTS-1,Envelope Generator,Type,Selects the amplitude EG type,14,,0,127,,,0-based,ADSR; AHR; AR; ARloop; Open
 KORG,NTS-1,Envelope Generator,Attack,Sets the time required for the EG to reach it’s maximum level once a note is played,16,,,0-based,
 KORG,NTS-1,Envelope Generator,Release,Sets the time required for the EG to reach 0 once a note has ended,19,,,0-based,
-KORG,NTS-1,Tremollo,Depth,,20,,,0-based,
-KORG,NTS-1,Tremollo,Rate,,21,,,0-based,
+KORG,NTS-1,Tremolo,Depth,,20,,,0-based,
+KORG,NTS-1,Tremolo,Rate,,21,,,0-based,
 KORG,NTS-1,Oscillator,LFO Rate,,24,,,0-based,
 KORG,NTS-1,Oscillator,LFO Depth,,26,,,0-based,
 KORG,NTS-1,Modulation,Time,,28,,,0-based,
@@ -16,7 +16,7 @@ KORG,NTS-1,Reverb,Depth,,35,,,0-based,
 KORG,NTS-1,Reverb,Mix,Sets the dry/wet balance of the effect,36,,,0-based,Dry/wet mix: d100–d001; --; w001–w100
 KORG,NTS-1,Filter,Type,Selects the filter type,42,,,0-based,Lowpass-2pole; Lowpass-4 pole; Bandpass-2pole; Bandpass-4pole; Highpass-2 pole; Highpass-4pole; Off
 KORG,NTS-1,Filter,Cutoff,Sets the cutoff frequency altering the brightness of the sound,43,,,0-based,
-KORG,NTS-1,Filter,Resonance,Adds emphasis to the overtones occuring at the cutoff frequency,44,,,0-based,
+KORG,NTS-1,Filter,Resonance,Adds emphasis to the overtones occurring at the cutoff frequency,44,,,0-based,
 KORG,NTS-1,Filter,Sweep Depth,,46,,,0-based,Cutoff sweep depth: u100–u001; --; d000–d100 Sets the direction (up/ down) and depth of the cutoff sweep
 KORG,NTS-1,Filter,Sweep Rate,Sweep rate: F0.0–F30.0; Sets the cutoff sweep frequency,46,,,0-based,
 KORG,NTS-1,Oscillator,Type,,53,,,0-based,Sawtooth; Square; VPM; User OSC. Comes preloaded with user oscillator "Waves"
