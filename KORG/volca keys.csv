@@ -1,8 +1,8 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
 KORG,volca keys,VCO,Portamento,,5,,0,127,,,,,0-based,
 KORG,volca keys,General,Expression,,11,,0,127,,,,,0-based,
-KORG,volca keys,General,Voice,,40,,0,127,,,,,0-based,
-KORG,volca keys,General,Octave,,41,,0,127,,,,,0-based,
+KORG,volca keys,General,Voice,,40,,0,127,,,,,0-based,0-12: Poly; 13-37: Unison; 38-62: Octave; 63-87: Fifth; 88-112: Unison Ring; 113-127: Poly Ring
+KORG,volca keys,General,Octave,,41,,0,127,,,,,0-based,0-21: 32'; 22-43: 16'; 44-65: 8'; 66-87: 4'; 88-109: 2'; 110-127: 1'
 KORG,volca keys,VCO,Detune,,42,,0,127,,,,,0-based,
 KORG,volca keys,VCO,EG intensity,,43,,0,127,,,,,0-based,
 KORG,volca keys,EG,Attack,,49,,0,127,,,,,0-based,
