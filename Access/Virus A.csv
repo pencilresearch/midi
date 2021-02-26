@@ -1,94 +1,94 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-Access,Virus A,General,Modulation wheel,,1,,0,127,,,,,0-based,
-Access,Virus A,General,Portamento time,,5,,0,127,,,,,0-based,
-Access,Virus A,General,Channel volume,,7,,0,127,,,,,0-based,
-Access,Virus A,General,Panorama,,10,,0,127,,,,,Centered,Left..Center..Right
-Access,Virus A,Oscillators,Osc1 shape,,17,,0,127,,,,,Centered,Wave..Saw..Pulse
-Access,Virus A,Oscillators,Osc1 pulsewidth,,18,,0,127,,,,,0-based,
-Access,Virus A,Oscillators,Osc1 wave select,,19,,0,64,,,,,0-based,1: Sine; 2: Triangle; 3-64: Wave
-Access,Virus A,Oscillators,Osc1 semitone,,20,,0,127,,,,,Centered,
-Access,Virus A,Oscillators,Osc1 keyfollow,,21,,0,127,,,,,Centered,Default: 32
-Access,Virus A,Oscillators,Osc2 shape,,22,,0,127,,,,,Centered,Wave..Saw..Pulse
-Access,Virus A,Oscillators,Osc2 pulsewidth,,23,,0,127,,,,,0-based,
-Access,Virus A,Oscillators,Osc2 wave select,,24,,0,64,,,,,0-based,1: Sine; 2: Triangle; 3-64: Wave
-Access,Virus A,Oscillators,Osc2 semitone,,25,,0,127,,,,,Centered,
-Access,Virus A,Oscillators,Osc2 detune,,26,,0,127,,,,,0-based,
-Access,Virus A,Oscillators,Osc2 fm amount,,27,,0,127,,,,,0-based,
-Access,Virus A,Oscillators,Osc2 sync,,28,,0,1,,,,,0-based,0: Off; 1: On
-Access,Virus A,Oscillators,Osc2 filt env amt,,29,,0,127,,,,,Centered,
-Access,Virus A,General,Fm filt env amt,,30,,0,127,,,,,Centered,
-Access,Virus A,General,Osc2 keyfollow,,31,,0,127,,,,,Centered,Default: 32
-Access,Virus A,General,Bank select,,32,,0,1,,,,,0-based,0: Bank A; 1: Bank B
-Access,Virus A,Mix,Osc balance,,33,,0,127,,,,,Centered,Osc1..Osc1+2..Osc2
-Access,Virus A,Mix,Suboscillator volume,,34,,0,127,,,,,0-based,
-Access,Virus A,Oscillators,Suboscillator shape,,35,,0,1,,,,,0-based,0: Square; 1: Triangle
-Access,Virus A,Mix,Osc mainvolume,,36,,0,127,,,,,0-based,
-Access,Virus A,Mix,Noise volume,,37,,0,127,,,,,0-based,
-Access,Virus A,Filter,Cutoff,,40,,0,127,,,,,0-based,
-Access,Virus A,Filter,Cutoff2,,41,,0,127,,,,,Centered,
-Access,Virus A,Filter,Filter1 resonance,,42,,0,127,,,,,0-based,
-Access,Virus A,Filter,Filter2 resonance,,43,,0,127,,,,,0-based,
-Access,Virus A,Filter,Filter1 env amt,,44,,0,127,,,,,0-based,
-Access,Virus A,Filter,Filter2 env amt,,45,,0,127,,,,,0-based,
-Access,Virus A,Filter,Filter1 keyfollow,,46,,0,127,,,,,Centered,
-Access,Virus A,Filter,Filter2 keyfollow,,47,,0,127,,,,,Centered,
-Access,Virus A,Filter,Filter balance,,48,,0,127,,,,,Centered,
-Access,Virus A,General,Saturation curve,,49,,0,6,,,,,0-based,0: Off; 1: Light; 2: Soft; 3: Middle; 4: Hard; 5: Digital; 6: Shaper
-Access,Virus A,Filter,Filter1 mode,,51,,0,3,,,,,0-based,0: LP; 1: HP; 2: BP; 3: BS
-Access,Virus A,Filter,Filter2 mode,,52,,0,3,,,,,0-based,0: LP; 1: HP; 2: BP; 3: BS
-Access,Virus A,Filter,Filter routing,,53,,0,3,,,,,0-based,0: Ser 4; 1: Ser 6; 2: Par 4; 3: Split
-Access,Virus A,Envelopes,Filter env attack,,54,,0,127,,,,,0-based,
-Access,Virus A,Envelopes,Filter env decay,,55,,0,127,,,,,0-based,
-Access,Virus A,Envelopes,Filter env sustain,,56,,0,127,,,,,0-based,
-Access,Virus A,Envelopes,Filter env sustain time,,57,,0,127,,,,,Centered,Fall...Infinite...Rise
-Access,Virus A,Envelopes,Filter env release,,58,,0,127,,,,,0-based,
-Access,Virus A,Envelopes,Amp env attack,,59,,0,127,,,,,0-based,
-Access,Virus A,Envelopes,Amp env decay,,60,,0,127,,,,,0-based,
-Access,Virus A,Envelopes,Amp env sustain,,61,,0,127,,,,,0-based,
-Access,Virus A,Envelopes,Amp env sustain time,,62,,0,127,,,,,Centered,Fall...Infinite...Rise
-Access,Virus A,Envelopes,Amp env release,,63,,0,127,,,,,0-based,
-Access,Virus A,General,Hold pedal,,64,,0,127,,,,,0-based,
-Access,Virus A,LFO,Lfo1 rate,,67,,0,127,,,,,0-based,
-Access,Virus A,LFO,Lfo1 shape,,68,,0,5,,,,,0-based,0: Sine; 1: Tri; 2: Saw; 3: Square; 4: S&H; 5: S&G
-Access,Virus A,LFO,Lfo1 env mode,,69,,0,1,,,,,0-based,0: Off; 1: On
-Access,Virus A,LFO,Lfo1 mode,,70,,0,1,,,,,0-based,0: Poly; 1: Mono
-Access,Virus A,LFO,Lfo1 symmetry,,71,,0,127,,,,,Centered,
-Access,Virus A,LFO,Lfo1 keyfollow amt,,72,,0,127,,,,,0-based,
-Access,Virus A,LFO,Osc1 lfo1 amount,,74,,0,127,,,,,Centered,
-Access,Virus A,LFO,Osc2 lfo1 amount,,75,,0,127,,,,,Centered,
-Access,Virus A,LFO,Pw lfo1 amount,,76,,0,127,,,,,Centered,
-Access,Virus A,LFO,Reso lfo1 amount,,77,,0,127,,,,,Centered,
-Access,Virus A,LFO,Filtgain lfo1 amount,,78,,0,127,,,,,Centered,
-Access,Virus A,LFO,Lfo2 rate,,79,,0,127,,,,,0-based,
-Access,Virus A,LFO,Lfo2 shape,,80,,0,5,,,,,0-based,0: Sine; 1: Tri; 2: Saw; 3: Square; 4: S&H; 5: S&G
-Access,Virus A,LFO,Lfo2 env mode,,81,,0,1,,,,,0-based,0: Off; 1: On
-Access,Virus A,LFO,Lfo2 mode,,82,,0,1,,,,,0-based,0: Poly; 1: Mono
-Access,Virus A,LFO,Lfo2 symmetry,,83,,0,127,,,,,Centered,
-Access,Virus A,LFO,Lfo2 keytrigger,,85,,0,127,,,,,0-based,0: Off; 1-127: Keytrigger Phase
-Access,Virus A,LFO,Oscshape lfo2 amount,,86,,0,127,,,,,Centered,
-Access,Virus A,LFO,Fmamount lfo2 amount,,87,,0,127,,,,,Centered,
-Access,Virus A,LFO,Cutoff1 lfo2 amount,,88,,0,127,,,,,Centered,
-Access,Virus A,LFO,Cutoff2 lfo2 amount,,89,,0,127,,,,,Centered,
-Access,Virus A,LFO,Panorama lfo2 amount,,90,,0,127,,,,,Centered,
-Access,Virus A,General,Patch volume,,91,,0,127,,,,,0-based,
-Access,Virus A,General,Transpose,,93,,0,127,,,,,Centered,
-Access,Virus A,General,Key mode,,94,,0,4,,,,,0-based,0: Poly; 1: Mono1; 2: Mono2; 3: Mono3; 4: Mono4
-Access,Virus A,General,Twin mode,,97,,0,1,,,,,0-based,0: Off; 1: On
-Access,Virus A,General,Twin detune,,98,,0,127,,,,,0-based,
-Access,Virus A,General,Panorama spread,,99,,0,127,,,,,0-based,
-Access,Virus A,LFO,Twin lfo phase,,100,,0,127,,,,,Centered,
-Access,Virus A,General,Input mode,,101,,0,2,,,,,0-based,0: Off; 1: Dynamic; 2: Static
-Access,Virus A,General,Input select,,102,,0,8,,,,,0-based,0: In1L; 1: In1L+R; 2: In1R; 3: Aux1L; 4: Aux1L+R; 5: Aux1R; 6: Aux2L; 7: Aux2L+R; 8: Aux2R
-Access,Virus A,FX,Chorus mix,,105,,0,127,,,,,Centered,
-Access,Virus A,FX,Chorus rate,,106,,0,127,,,,,0-based,
-Access,Virus A,FX,Chorus depth,,107,,0,127,,,,,0-based,
-Access,Virus A,FX,Chorus delay,,108,,0,127,,,,,0-based,
-Access,Virus A,FX,Chorus feedback,,109,,0,127,,,,,0-based,
-Access,Virus A,FX,Chorus lfo shape,,110,,0,5,,,,,0-based,0: Sine; 1: Tri; 2: Saw; 3: Square; 4: S&H; 5: S&G
-Access,Virus A,FX,Effect send,,113,,0,127,,,,,0-based,
-Access,Virus A,FX,Delay time,,114,,0,127,,,,,0-based,
-Access,Virus A,FX,Delay feedback,,115,,0,127,,,,,0-based,
-Access,Virus A,FX,Delay rate,,116,,0,127,,,,,0-based,
-Access,Virus A,FX,Delay depth,,117,,0,127,,,,,0-based,
-Access,Virus A,FX,Delay lfo shape,,118,,0,5,,,,,0-based,0: Sine; 1: Tri; 2: Saw; 3: Square; 4: S&H; 5: S&G
-Access,Virus A,General,All notes off,,123,,0,0,,,,,0-based,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Access,Virus A,General,Modulation wheel,,1,,0,127,,,,,0-based,,
+Access,Virus A,General,Portamento time,,5,,0,127,,,,,0-based,,
+Access,Virus A,General,Channel volume,,7,,0,127,,,,,0-based,,
+Access,Virus A,General,Panorama,,10,,0,127,,,,,Centered,Left..Center..Right,
+Access,Virus A,Oscillators,Osc1 shape,,17,,0,127,,,,,Centered,Wave..Saw..Pulse,
+Access,Virus A,Oscillators,Osc1 pulsewidth,,18,,0,127,,,,,0-based,,
+Access,Virus A,Oscillators,Osc1 wave select,,19,,0,64,,,,,0-based,,1: Sine; 2: Triangle; 3~64: Wave
+Access,Virus A,Oscillators,Osc1 semitone,,20,,0,127,,,,,Centered,,
+Access,Virus A,Oscillators,Osc1 keyfollow,,21,,0,127,,,,,Centered,Default: 32,
+Access,Virus A,Oscillators,Osc2 shape,,22,,0,127,,,,,Centered,Wave..Saw..Pulse,
+Access,Virus A,Oscillators,Osc2 pulsewidth,,23,,0,127,,,,,0-based,,
+Access,Virus A,Oscillators,Osc2 wave select,,24,,0,64,,,,,0-based,,1: Sine; 2: Triangle; 3~64: Wave
+Access,Virus A,Oscillators,Osc2 semitone,,25,,0,127,,,,,Centered,,
+Access,Virus A,Oscillators,Osc2 detune,,26,,0,127,,,,,0-based,,
+Access,Virus A,Oscillators,Osc2 fm amount,,27,,0,127,,,,,0-based,,
+Access,Virus A,Oscillators,Osc2 sync,,28,,0,1,,,,,0-based,,0: Off; 1: On
+Access,Virus A,Oscillators,Osc2 filt env amt,,29,,0,127,,,,,Centered,,
+Access,Virus A,General,Fm filt env amt,,30,,0,127,,,,,Centered,,
+Access,Virus A,General,Osc2 keyfollow,,31,,0,127,,,,,Centered,Default: 32,
+Access,Virus A,General,Bank select,,32,,0,1,,,,,0-based,,0: Bank A; 1: Bank B
+Access,Virus A,Mix,Osc balance,,33,,0,127,,,,,Centered,Osc1..Osc1+2..Osc2,
+Access,Virus A,Mix,Suboscillator volume,,34,,0,127,,,,,0-based,,
+Access,Virus A,Oscillators,Suboscillator shape,,35,,0,1,,,,,0-based,,0: Square; 1: Triangle
+Access,Virus A,Mix,Osc mainvolume,,36,,0,127,,,,,0-based,,
+Access,Virus A,Mix,Noise volume,,37,,0,127,,,,,0-based,,
+Access,Virus A,Filter,Cutoff,,40,,0,127,,,,,0-based,,
+Access,Virus A,Filter,Cutoff2,,41,,0,127,,,,,Centered,,
+Access,Virus A,Filter,Filter1 resonance,,42,,0,127,,,,,0-based,,
+Access,Virus A,Filter,Filter2 resonance,,43,,0,127,,,,,0-based,,
+Access,Virus A,Filter,Filter1 env amt,,44,,0,127,,,,,0-based,,
+Access,Virus A,Filter,Filter2 env amt,,45,,0,127,,,,,0-based,,
+Access,Virus A,Filter,Filter1 keyfollow,,46,,0,127,,,,,Centered,,
+Access,Virus A,Filter,Filter2 keyfollow,,47,,0,127,,,,,Centered,,
+Access,Virus A,Filter,Filter balance,,48,,0,127,,,,,Centered,,
+Access,Virus A,General,Saturation curve,,49,,0,6,,,,,0-based,,0: Off; 1: Light; 2: Soft; 3: Middle; 4: Hard; 5: Digital; 6: Shaper
+Access,Virus A,Filter,Filter1 mode,,51,,0,3,,,,,0-based,,0: Low pass; 1: High pass; 2: Band pass; 3: Band stop
+Access,Virus A,Filter,Filter2 mode,,52,,0,3,,,,,0-based,,0: Low pass; 1: High pass; 2: Band pass; 3: Band stop
+Access,Virus A,Filter,Filter routing,,53,,0,3,,,,,0-based,,0: Ser 4; 1: Ser 6; 2: Par 4; 3: Split
+Access,Virus A,Envelopes,Filter env attack,,54,,0,127,,,,,0-based,,
+Access,Virus A,Envelopes,Filter env decay,,55,,0,127,,,,,0-based,,
+Access,Virus A,Envelopes,Filter env sustain,,56,,0,127,,,,,0-based,,
+Access,Virus A,Envelopes,Filter env sustain time,,57,,0,127,,,,,Centered,Fall...Infinite...Rise,
+Access,Virus A,Envelopes,Filter env release,,58,,0,127,,,,,0-based,,
+Access,Virus A,Envelopes,Amp env attack,,59,,0,127,,,,,0-based,,
+Access,Virus A,Envelopes,Amp env decay,,60,,0,127,,,,,0-based,,
+Access,Virus A,Envelopes,Amp env sustain,,61,,0,127,,,,,0-based,,
+Access,Virus A,Envelopes,Amp env sustain time,,62,,0,127,,,,,Centered,Fall...Infinite...Rise,
+Access,Virus A,Envelopes,Amp env release,,63,,0,127,,,,,0-based,,
+Access,Virus A,General,Hold pedal,,64,,0,127,,,,,0-based,,
+Access,Virus A,LFO,Lfo1 rate,,67,,0,127,,,,,0-based,,
+Access,Virus A,LFO,Lfo1 shape,,68,,0,5,,,,,0-based,,0: Sine; 1: Tri; 2: Saw; 3: Square; 4: Sample & Hold; 5: Sample & Glide
+Access,Virus A,LFO,Lfo1 env mode,,69,,0,1,,,,,0-based,,0: Off; 1: On
+Access,Virus A,LFO,Lfo1 mode,,70,,0,1,,,,,0-based,,0: Poly; 1: Mono
+Access,Virus A,LFO,Lfo1 symmetry,,71,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Lfo1 keyfollow amt,,72,,0,127,,,,,0-based,,
+Access,Virus A,LFO,Osc1 lfo1 amount,,74,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Osc2 lfo1 amount,,75,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Pw lfo1 amount,,76,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Reso lfo1 amount,,77,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Filtgain lfo1 amount,,78,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Lfo2 rate,,79,,0,127,,,,,0-based,,
+Access,Virus A,LFO,Lfo2 shape,,80,,0,5,,,,,0-based,,0: Sine; 1: Tri; 2: Saw; 3: Square; 4: Sample & Hold; 5: Sample & Glide
+Access,Virus A,LFO,Lfo2 env mode,,81,,0,1,,,,,0-based,,0: Off; 1: On
+Access,Virus A,LFO,Lfo2 mode,,82,,0,1,,,,,0-based,,0: Poly; 1: Mono
+Access,Virus A,LFO,Lfo2 symmetry,,83,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Lfo2 keytrigger,,85,,0,127,,,,,0-based,,0: Off; 1-127: Keytrigger Phase
+Access,Virus A,LFO,Oscshape lfo2 amount,,86,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Fmamount lfo2 amount,,87,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Cutoff1 lfo2 amount,,88,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Cutoff2 lfo2 amount,,89,,0,127,,,,,Centered,,
+Access,Virus A,LFO,Panorama lfo2 amount,,90,,0,127,,,,,Centered,,
+Access,Virus A,General,Patch volume,,91,,0,127,,,,,0-based,,
+Access,Virus A,General,Transpose,,93,,0,127,,,,,Centered,,
+Access,Virus A,General,Key mode,,94,,0,4,,,,,0-based,,0: Poly; 1: Mono1; 2: Mono2; 3: Mono3; 4: Mono4
+Access,Virus A,General,Twin mode,,97,,0,1,,,,,0-based,,0: Off; 1: On
+Access,Virus A,General,Twin detune,,98,,0,127,,,,,0-based,,
+Access,Virus A,General,Panorama spread,,99,,0,127,,,,,0-based,,
+Access,Virus A,LFO,Twin lfo phase,,100,,0,127,,,,,Centered,,
+Access,Virus A,General,Input mode,,101,,0,2,,,,,0-based,,0: Off; 1: Dynamic; 2: Static
+Access,Virus A,General,Input select,,102,,0,8,,,,,0-based,,0: In1L; 1: In1L+R; 2: In1R; 3: Aux1L; 4: Aux1L+R; 5: Aux1R; 6: Aux2L; 7: Aux2L+R; 8: Aux2R
+Access,Virus A,FX,Chorus mix,,105,,0,127,,,,,Centered,,
+Access,Virus A,FX,Chorus rate,,106,,0,127,,,,,0-based,,
+Access,Virus A,FX,Chorus depth,,107,,0,127,,,,,0-based,,
+Access,Virus A,FX,Chorus delay,,108,,0,127,,,,,0-based,,
+Access,Virus A,FX,Chorus feedback,,109,,0,127,,,,,0-based,,
+Access,Virus A,FX,Chorus lfo shape,,110,,0,5,,,,,0-based,,0: Sine; 1: Tri; 2: Saw; 3: Square; 4: Sample & Hold; 5: Sample & Glide
+Access,Virus A,FX,Effect send,,113,,0,127,,,,,0-based,,
+Access,Virus A,FX,Delay time,,114,,0,127,,,,,0-based,,
+Access,Virus A,FX,Delay feedback,,115,,0,127,,,,,0-based,,
+Access,Virus A,FX,Delay rate,,116,,0,127,,,,,0-based,,
+Access,Virus A,FX,Delay depth,,117,,0,127,,,,,0-based,,
+Access,Virus A,FX,Delay lfo shape,,118,,0,5,,,,,0-based,,0: Sine; 1: Tri; 2: Saw; 3: Square; 4: Sample & Hold; 5: Sample & Glide
+Access,Virus A,General,All notes off,,123,,0,0,,,,,0-based,,

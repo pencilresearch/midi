@@ -1,4 +1,4 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
 Roland,JD-XA,General,Bank select,,0,32,0,127,,,,,0-based,
 Roland,JD-XA,General,Modulation,,1,,0,127,,,,,0-based,
 Roland,JD-XA,General,Portamento time,,5,,0,127,,,,,0-based,

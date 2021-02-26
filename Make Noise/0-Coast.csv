@@ -1,18 +1,18 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-Make Noise,0-Coast,Arpeggiator,Arpeggiator switch,Turns the arpeggiator on or off,117,,0,127,,,,,0-based,0: off; 1-127: on
-Make Noise,0-Coast,Arpeggiator,Arpeggiator type,Sets the arpeggiator type,119,,0,127,,,,,0-based,0: traditional; 1 to 127: latch & shift
-Make Noise,0-Coast,General,Legato switch,Turns legato on or off,118,,0,127,,,,,0-based,0: off; 1 to 127: on
-Make Noise,0-Coast,MIDI and CV control,MIDI A channel,Sets the MIDI A channel,102,,0,127,,,,,0-based,0-15: sets the channel to 1-16; 16 to 127: sets MIDI channel A to All
-Make Noise,0-Coast,MIDI and CV control,MIDI B channel,Sets the MIDI B channel,103,,0,127,,,,,0-based,0-15: sets the channel to 1-16; 16 to 127: sets MIDI channel B to All
-Make Noise,0-Coast,MIDI and CV control,MIDI channel A CV,Sets what comes out of MIDI channel A's CV output,104,,0,127,,,,,0-based,0: note; 1: velocity; 2: modulation; 3 to 127: LFO (rate set by clock out)
-Make Noise,0-Coast,MIDI and CV control,MIDI channel B CV,Sets what comes out of MIDI channel B's CV output,105,,0,127,,,,,0-based,0: note; 1: velocity; 2: modulation; 3 to 127: LFO (rate set to <TAP> PGM_A)
-Make Noise,0-Coast,MIDI and CV control,MIDI channel A gate,Sets what comes out of MIDI channel A's gate output,106,,0,127,,,,,0-based,0: note on; 1: velocity > 50%; 2: mod wheel > 50%; 3 to 127: LFO
-Make Noise,0-Coast,MIDI and CV control,MIDI channel B gate,Sets what comes out of MIDI channel B's gate output,107,,0,127,,,,,0-based,0: note on; 1: velocity > 50%; 2: mod wheel > 50%; 3 to 127: LFO
-Make Noise,0-Coast,General,Pitch bend scale A,"Sets the amount of bend on MIDI channel A, in semitones",108,,0,127,,,,,0-based,
-Make Noise,0-Coast,General,Pitch bend scale B,"Sets the amount of bend on MIDI channel B, in semitones",109,,0,127,,,,,0-based,
-Make Noise,0-Coast,General,Aftertouch scale A,"Sets the amount of aftertouch on MIDI channel A, in semitones",110,,0,127,,,,,0-based,
-Make Noise,0-Coast,General,Aftertouch scale B,"Sets the amount of aftertouch on MIDI channel B, in semitones",111,,0,127,,,,,0-based,
-Make Noise,0-Coast,General,Velocity scale A,Sets the minimum velocity value for MIDI channel A,112,,0,127,,,,,0-based,
-Make Noise,0-Coast,General,Velocity scale B,Sets the minimum velocity value for MIDI channel B,113,,0,127,,,,,0-based,
-Make Noise,0-Coast,MIDI and CV control,MIDI block switch,Turns the MIDI clock on or off,114,,0,127,,,,,0-based,0: off; 1: on
-Make Noise,0-Coast,General,Tempo in divisor,Divides the tempo in as reflected in clock out,116,,0,127,,,,,0-based,0 to 1: 1/1; 2: 1/2; 3: 1/3; 4: 1/4; etc.
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Make Noise,0-Coast,Arpeggiator,Arpeggiator switch,Turns the arpeggiator on or off,117,,0,127,,,,,0-based,,0: off; 1-127: on
+Make Noise,0-Coast,Arpeggiator,Arpeggiator type,Sets the arpeggiator type,119,,0,127,,,,,0-based,,0: traditional; 1-127: latch & shift
+Make Noise,0-Coast,General,Legato switch,Turns legato on or off,118,,0,127,,,,,0-based,,0: off; 1-127: on
+Make Noise,0-Coast,MIDI and CV control,MIDI A channel,Sets the MIDI A channel,102,,0,127,,,,,0-based,,0~15: Channel 1-16; 16-127: All
+Make Noise,0-Coast,MIDI and CV control,MIDI B channel,Sets the MIDI B channel,103,,0,127,,,,,0-based,,0~15: Channel 1-16; 16-127: All
+Make Noise,0-Coast,MIDI and CV control,MIDI channel A CV,Sets what comes out of MIDI channel A's CV output,104,,0,127,,,,,0-based,,0: note; 1: velocity; 2: modulation; 3-127: LFO (rate set by clock out)
+Make Noise,0-Coast,MIDI and CV control,MIDI channel B CV,Sets what comes out of MIDI channel B's CV output,105,,0,127,,,,,0-based,,0: note; 1: velocity; 2: modulation; 3-127: LFO (rate set to <TAP> PGM_A)
+Make Noise,0-Coast,MIDI and CV control,MIDI channel A gate,Sets what comes out of MIDI channel A's gate output,106,,0,127,,,,,0-based,,0: note on; 1: velocity > 50%; 2: mod wheel > 50%; 3-127: LFO
+Make Noise,0-Coast,MIDI and CV control,MIDI channel B gate,Sets what comes out of MIDI channel B's gate output,107,,0,127,,,,,0-based,,0: note on; 1: velocity > 50%; 2: mod wheel > 50%; 3-127: LFO
+Make Noise,0-Coast,General,Pitch bend scale A,"Sets the amount of bend on MIDI channel A, in semitones",108,,0,127,,,,,0-based,,
+Make Noise,0-Coast,General,Pitch bend scale B,"Sets the amount of bend on MIDI channel B, in semitones",109,,0,127,,,,,0-based,,
+Make Noise,0-Coast,General,Aftertouch scale A,"Sets the amount of aftertouch on MIDI channel A, in semitones",110,,0,127,,,,,0-based,,
+Make Noise,0-Coast,General,Aftertouch scale B,"Sets the amount of aftertouch on MIDI channel B, in semitones",111,,0,127,,,,,0-based,,
+Make Noise,0-Coast,General,Velocity scale A,Sets the minimum velocity value for MIDI channel A,112,,0,127,,,,,0-based,,
+Make Noise,0-Coast,General,Velocity scale B,Sets the minimum velocity value for MIDI channel B,113,,0,127,,,,,0-based,,
+Make Noise,0-Coast,MIDI and CV control,MIDI clock switch,Turns the MIDI clock on or off,114,,0,127,,,,,0-based,,0: off; 1: on
+Make Noise,0-Coast,General,Tempo in divisor,Divides the tempo in as reflected in clock out,116,,0,127,,,,,0-based,0-1: 1/1; 2: 1/2; 3: 1/3; 4: 1/4; etc.,0-1: 1/1; 2: 1/2; 3: 1/3; 4: 1/4;

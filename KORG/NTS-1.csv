@@ -1,4 +1,4 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
 KORG,NTS-1,Envelope Generator,Type,Selects the amplitude EG type,14,,0,127,,,,,0-based,ADSR; AHR; AR; ARloop; Open
 KORG,NTS-1,Envelope Generator,Attack,Sets the time required for the EG to reach it’s maximum level once a note is played,16,,0,127,,,,,0-based,
 KORG,NTS-1,Envelope Generator,Release,Sets the time required for the EG to reach 0 once a note has ended,19,,0,127,,,,,0-based,
