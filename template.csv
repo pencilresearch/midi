@@ -2,4 +2,4 @@
 Lofty,Trundler,Oscillators,Glide rate,"Adjusts the glide (portmanteau) time	",5,,0,127,1,1,0,127,0-based,Default is zero.,
 Lofty,Trundler,Oscillators,Glide switch,Enables or disables glide.,65,,0,127,1,2,0,127,0-based,,0-63: Off; 64:127: On
 Lofty,Trundler,Oscillators,Note sync,Enables and disables Note Sync,81,,0,127,,,,,0-based,,0: Off; 1-127: On
-Lofty,Trundler,Amp,Pain,Pans between left to right channel,10,,0,127,30,0,0,127,Centered,Left…Centered…Right,
+Lofty,Trundler,Amp,Pan,Pans between left to right channel,10,,0,127,30,0,0,127,Centered,Left…Centered…Right,
