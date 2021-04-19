@@ -1,0 +1,18 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+KORG,Electribe ER-1,Oscillator,Pitch,Adjusts the pitch of the oscillator,,,,,2,2,0,127,0-based,,
+KORG,Electribe ER-1,Oscillator,Mod Depth,Adjusts the pitch modulation depth,,,,,2,6,0,127,Centered,,
+KORG,Electribe ER-1,Oscillator,Mod Speed,Adjusts the pitch modulation speed,,,,,2,5,0,127,0-based,,
+KORG,Electribe ER-1,Oscillator,Mod Type,Selects from six modulation types,,,,,2,4,0,5,0-based,,0: saw wave; 1: square wave; 2: triangle wave; 3: random pitch; 4: noise decay; 5: decline ramp
+KORG,Electribe ER-1,Oscillator,Wave,Select sine or triangle wave oscillator type,,,,,2,3,0,127,0-based,,0: sine wave; 127: triangle wave
+KORG,Electribe ER-1,Amp,Decay,Set envelope decay time,,,,,2,8,0,127,0-based,,
+KORG,Electribe ER-1,Amp,Level,Sets part volume,,,,,2,7,0,127,0-based,,
+KORG,Electribe ER-1,Amp,Pan,Pans between left and right channel,,,,,2,1,0,127,Centered,,
+KORG,Electribe ER-1,Amp,Low Boost,Boosts then distorts the low end while cutting high end frequencies,,,,,2,0,0,127,0-based,,
+KORG,Electribe ER-1,Motion Seq,Motion Seq,"Selects from off, smooth, trig hold",,,,,2,9,0,2,0-based,,0: Off; 1: Smooth; 2: Trig Hold
+KORG,Electribe ER-1,Delay,Type,"Selects from default delay, motion seq delay, tempo delay",,,,,2,107,0,2,0-based,,
+KORG,Electribe ER-1,Delay,Depth,Sets the depth of the delay effect,,,,,2,100,0,127,0-based,,
+KORG,Electribe ER-1,Delay,Time,Sets the delay time,,,,,2,101,0,127,0-based,,
+KORG,Electribe ER-1,Ring Mod,Ring Mod 1,Toggles ring mod on synth 1 and synth 2,,,,,2,102,0,127,0-based,,0: Off; 127: On
+KORG,Electribe ER-1,Ring Mod,Ring Mod 2,Toggles ring mod on synths 4 with audio tracks,,,,,2,103,0,127,0-based,,0: Off; 127: On
+KORG,Electribe ER-1,Mute,Mute Synths,Mute or unmute any combination of synths with a single message,,,,,2,109,0,15,0-based,Best used with binary as each bit mutes a part,0b00001111: mute all; 0b00000000: unmute all; 0b00000011: mute synths 1 & 2
+KORG,Electribe ER-1,Mute,Mute PCM/Audio,Mute or unmute any combination of drum samples or audio inputs with a single message,,,,,2,110,0,63,0-based,Best used with binary as each bit mutes a part,0b00111111: mute all; 0b00000000: all unmuted; 0b00000110: mute both crash and open high hat
