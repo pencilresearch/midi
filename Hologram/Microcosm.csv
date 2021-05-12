@@ -1,7 +1,7 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,,
 Hologram,Microcosm,Time,Subdivision,,5,,0,5,,,,,0-based,,(0)=1/4; (1)=1/2; (2)=TAP; (3)=2x; (4)=4x; (5)=8x
 Hologram,Microcosm,Special Sauce,Activity,Controls the density of the effects. Increase value to add complexity and variety.,6,,0,127,,,,,0-based,,
-Hologram,Microcosm,Modulation,Shape,Applies a contour to the volume or filter characteristics of the effect.,7,,0,127,,,,,0-based,,0-31; 32-63; 64-95; 96-127
+Hologram,Microcosm,Modulation,Shape,Applies a contour to the volume or filter characteristics of the effect.,7,,0,127,,,,,0-based,,0-31: &#8851;; 32-63; 64-95: &#8743;; 96-127:
 Hologram,Microcosm,Filter,Cutoff,Cuts high frequencies with the Low-pass filter.,8,,0,127,,,,,0-based,,
 Hologram,Microcosm,Effect,Mix,Sets the balance between input signal and effect.,9,,0,127,,,,,0-based,,
 Hologram,Microcosm,Time,Time,Controls either the Time Subdivision or Global Tempo.,10,,0,127,,,,,0-based,,
