@@ -14,6 +14,8 @@ We welcome and value contributions from the community. You can open issues here 
 
 If you want to add a new device, download `template.csv` to get started. You can edit this file with a spreadsheet program (like Excel) or a text editor. 
 
+[👉 Get template.csv 👈](https://raw.githubusercontent.com/usercamp/midi/main/template.csv)
+
 Each CSV should contain our best effort to document that device's entire list of MIDI CCs (and NRPNs). If there's any vagueness in your definitions, you can add explanations in the Notes column. Once your CSV is merged into this repository, your device will appear on the MIDI database's website with our thanks!
 
 ### File names and structure
