@@ -14,7 +14,7 @@ Hologram,Microcosm,Effect,Volume,Adjusts the effect master volume.,16,,0,127,,,,
 Hologram,Microcosm,Looper,Looper playbak speed,,17,,0,127,,,,,0-based,,
 Hologram,Microcosm,Looper,Looper playbak (stepped),,18,,0,127,,,,,0-based,,(0)=1/4; (1)=1/2; (2)=TAP; (3)=2x; (4)=4x; (5)=8x
 Hologram,Microcosm,Modulation,Depth,,19,,0,127,,,,,0-based,,
-Hologram,Microcosm,Reverb,Time,Selects 1 of 4 reverb modes. These reverb options vary in length and character.,20,,0,127,,,,,0-based,Documents show 0~127, but description implies quartiles,???
+Hologram,Microcosm,Reverb,Time,"Selects 1 of 4 reverb modes. These reverb options vary in length and character.",20,,0,127,,,,,0-based,"Documents show 0~127, but description implies quartiles",???
 Hologram,Microcosm,Looper,Fade time,,21,,0,127,,,,,0-based,,
 Hologram,Microcosm,Looper,On/Off,,22,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Hologram,Microcosm,Looper,Playback direction,,23,,0,127,,,,,0-based,,0-63: Forward; 64-127: Reverse
