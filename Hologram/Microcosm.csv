@@ -9,7 +9,7 @@ Hologram,Microcosm,Special Sauce,Repeats,Determines the effect duration or frequ
 Hologram,Microcosm,Reverb,Space,"Mixes in reverberation and delay. When at 127, mix is 100% wet.",12,,0,127,,,,,0-based,,0~127
 Hologram,Microcosm,Looper,Loop level,Sets the playback volume of Phrase Looper.,13,,0,127,,,,,0-based,,0~127
 Hologram,Microcosm,Modulation,Frequency,Sets the Pitch Modulation rate.,14,,0,127,,,,,0-based,,0~127
-Hologram,Microcosm,Filter,Responance,Adjusts the filter resonance.,15,,0,127,,,,,0-based,,0~127
+Hologram,Microcosm,Filter,Resonance,Adjusts the filter resonance.,15,,0,127,,,,,0-based,,0~127
 Hologram,Microcosm,Effect,Volume,Adjusts the effect master volume.,16,,0,127,,,,,0-based,,0~127
 Hologram,Microcosm,Looper,Looper playback speed,,17,,0,127,,,,,0-based,,
 Hologram,Microcosm,Looper,Looper playback (stepped),,18,,0,127,,,,,0-based,,(0)=1/4; (1)=1/2; (2)=TAP; (3)=2x; (4)=4x; (5)=8x
