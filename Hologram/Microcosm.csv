@@ -4,7 +4,7 @@ Hologram,Microcosm,Special Sauce,Activity,Controls the density of the effects. I
 Hologram,Microcosm,Modulation,Shape,Applies a contour to the volume or filter characteristics of the effect.,7,,0,127,,,,,0-based,,0-31: Square; 32-63: Ramp; 64-95: Triangle; 96-127: Saw
 Hologram,Microcosm,Filter,Cutoff,Cuts high frequencies with the Low-pass filter.,8,,0,127,,,,,0-based,,0~127
 Hologram,Microcosm,Effect,Mix,Sets the balance between input signal and effect.,9,,0,127,,,,,0-based,,0~127
-Hologram,Microcosm,Time,Time,Controls either the Time Subdivision or Global Tempo.,10,,0,127,,,,,0-based,,0~127
+Hologram,Microcosm,Time,Time,Controls either the Time Subdivision or Global Tempo.,10,,0,127,,,,,0-based,"Seems this should be ON or OFF, and thus 0-63; 64-127",0~127
 Hologram,Microcosm,Special Sauce,Repeats,Determines the effect duration or frequency. Works in tandem with Activity knob. Repeats function varies preset to preset.,11,,0,127,,,,,0-based,,
 Hologram,Microcosm,Reverb,Space,"Mixes in reverberation and delay. When at 127, mix is 100% wet.",12,,0,127,,,,,0-based,,0~127
 Hologram,Microcosm,Looper,Loop level,Sets the playback volume of Phrase Looper.,13,,0,127,,,,,0-based,,0~127
