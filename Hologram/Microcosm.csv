@@ -6,7 +6,7 @@ Hologram,Microcosm,Filter,Cutoff,Cuts high frequencies with the Low-pass filter.
 Hologram,Microcosm,Effect,Mix,Sets the balance between input signal and effect.,9,,0,127,,,,,0-based,,
 Hologram,Microcosm,Time,Time,Controls either the Time Subdivision or Global Tempo.,10,,0,127,,,,,0-based,,
 Hologram,Microcosm,Special Sauce,Repeats,Determines the effect duration or frequency. Works in tandem with Activity knob. Repeats function varies preset to preset.,11,,0,127,,,,,0-based,,
-Hologram,Microcosm,Reverb,Space,Mixes in reverberation and delay. When at 127, mix is 100% wet.,12,,0,127,,,,,0-based,,0~127
+Hologram,Microcosm,Reverb,Space,"Mixes in reverberation and delay. When at 127, mix is 100% wet.",12,,0,127,,,,,0-based,,0~127
 Hologram,Microcosm,Looper,Loop level,Sets the playback volume of Phrase Looper.,13,,0,127,,,,,0-based,,
 Hologram,Microcosm,Modulation,Frequency,Sets the Pitch Modulation rate.,14,,0,127,,,,,0-based,,
 Hologram,Microcosm,Filter,Responance,Adjusts the filter resonance.,15,,0,127,,,,,0-based,,
