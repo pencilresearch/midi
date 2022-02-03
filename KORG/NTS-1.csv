@@ -17,7 +17,7 @@ KORG,NTS-1,Reverb,Mix,Sets the dry/wet balance of the effect,36,,0,127,,,,,0-bas
 KORG,NTS-1,Filter,Type,Selects the filter type,42,,0,127,,,,,0-based,Lowpass-2pole; Lowpass-4 pole; Bandpass-2pole; Bandpass-4pole; Highpass-2 pole; Highpass-4pole; Off
 KORG,NTS-1,Filter,Cutoff,Sets the cutoff frequency altering the brightness of the sound,43,,0,127,,,,,0-based,
 KORG,NTS-1,Filter,Resonance,Adds emphasis to the overtones occurring at the cutoff frequency,44,,0,127,,,,,0-based,
-KORG,NTS-1,Filter,Sweep Depth,,46,,0,127,,,,,0-based,Cutoff sweep depth: u100-u001; --; d000-d100 Sets the direction (up/down) and depth of the cutoff sweep
+KORG,NTS-1,Filter,Sweep Depth,,45,,0,127,,,,,0-based,Cutoff sweep depth: u100-u001; --; d000-d100 Sets the direction (up/down) and depth of the cutoff sweep
 KORG,NTS-1,Filter,Sweep Rate,Sweep rate: F0.0–F30.0; Sets the cutoff sweep frequency,46,,0,127,,,,,0-based,
 KORG,NTS-1,Oscillator,Type,,53,,0,127,,,,,0-based,"Sawtooth; Square; VPM; User OSC. Comes preloaded with user oscillator ""Waves"""
 KORG,NTS-1,Oscillator,Shape,Amount of wave-shaping applied,54,,0,127,,,,,0-based,
