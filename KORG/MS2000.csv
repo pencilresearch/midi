@@ -1,46 +1,46 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-KORG,MS2000,Pitch,Portamento,,5,,0,127,,,,,0-based,
-KORG,MS2000,OSC 1,OSC 1 wave,,77,,0,127,,,,,0-based,0 to 15: saw; 16 to 31: pulse; 32 to 47: tri; 48 to 63: sin; 64 to 79: vox wave; 80 to 95: DWGS; 96 to 111: noise; 112 to 127: audio in
-KORG,MS2000,OSC 1,OSC 1 control 1,,14,,0,127,,,,,0-based,
-KORG,MS2000,OSC 1,OSC 1 control 2,,15,,0,127,,,,,0-based,
-KORG,MS2000,OSC 2 / Audio In 2,OSC 2 wave,,78,,0,127,,,,,0-based,0 to 42: saw; 43 to 85: squ; 86 to 127: tri
-KORG,MS2000,OSC 2 / Audio In 2,OSC 2 modulation,,82,,0,127,,,,,0-based,0 to 31: off; 32 to 63: ring; 64 to 95: sync; 96 to 127: ring sync
-KORG,MS2000,OSC 2 / Audio In 2,OSC 2 semitone,,18,,0,127,,,,,0-based,
-KORG,MS2000,OSC 2 / Audio In 2,OSC 2 tune,,19,,0,127,,,,,Centered,
-KORG,MS2000,Mixer,OSC 1 level,,20,,0,127,,,,,0-based,
-KORG,MS2000,Mixer,OSC 2 level,,21,,0,127,,,,,0-based,
-KORG,MS2000,Mixer,Noise level,,22,,0,127,,,,,0-based,
-KORG,MS2000,Filter,Filter type,,83,,0,127,,,,,0-based,0 to 31: 24LPF; 32 to 63: 12LPF; 64 to 95: 12BPF; 96 to 127: 12HPF
-KORG,MS2000,Filter,Filter cutoff,,74,,0,127,,,,,0-based,
-KORG,MS2000,Filter,Filter resonance,,71,,0,127,,,,,0-based,
-KORG,MS2000,Filter,Filter EG 1 intensity,,79,,0,127,,,,,Centered,
-KORG,MS2000,Filter,Filter KBD track,,85,,0,127,,,,,Centered,
-KORG,MS2000,Amp,Amp level,,7,,0,127,,,,,0-based,
-KORG,MS2000,Amp,Amp panpot,,10,,0,127,,,,,Centered,
-KORG,MS2000,Amp,Amp EG2/gate,,86,,0,127,,,,,0-based,0 to 63: EG2; 64 to 127: gate
-KORG,MS2000,Amp,Amp distortion,,92,,0,127,,,,,0-based,0 to 63: off; 64 to 127: on
-KORG,MS2000,EG 1,EG 1 attack,,23,,0,127,,,,,0-based,
-KORG,MS2000,EG 1,EG 1 decay,,24,,0,127,,,,,0-based,
-KORG,MS2000,EG 1,EG 1 sustain,,25,,0,127,,,,,0-based,
-KORG,MS2000,EG 1,EG 1 release,,26,,0,127,,,,,0-based,
-KORG,MS2000,EG 2,EG 2 attack,,73,,0,127,,,,,0-based,
-KORG,MS2000,EG 2,EG 2 decay,,75,,0,127,,,,,0-based,
-KORG,MS2000,EG 2,EG 2 sustain,,70,,0,127,,,,,0-based,
-KORG,MS2000,EG 2,EG 2 release,,72,,0,127,,,,,0-based,
-KORG,MS2000,LFO 1,LFO 1 wave,,87,,0,127,,,,,0-based,0 to 31: saw; 32 to 63: square; 64 to 95: tri; 96 to 127: S/H
-KORG,MS2000,LFO 1,LFO 1 frequency,,27,,0,127,,,,,0-based,
-KORG,MS2000,LFO 2,LFO 2 wave,,88,,0,127,,,,,0-based,0 to 31: saw; 32 to 63: square(+); 64 to 95: tri; 96 to 127: S/H
-KORG,MS2000,LFO 2,LFO 2 frequency,,76,,0,127,,,,,0-based,
-KORG,MS2000,Patches,Patch 1 intensity,,28,,0,127,,,,,Centered,
-KORG,MS2000,Patches,Patch 2 intensity,,29,,0,127,,,,,Centered,
-KORG,MS2000,Patches,Patch 3 intensity,,30,,0,127,,,,,Centered,
-KORG,MS2000,Patches,Patch 4 intensity,,31,,0,127,,,,,Centered,
-KORG,MS2000,Sequencer,Sequencer on/off,,89,,0,127,,,,,0-based,0 to 63: off; 64 to 127: on
-KORG,MS2000,Mod FX,Mod FX LFO speed,,12,,0,127,,,,,0-based,
-KORG,MS2000,Mod FX,Mod FX depth,,93,,0,127,,,,,0-based,
-KORG,MS2000,Delay FX,Delay time,,13,,0,127,,,,,0-based,
-KORG,MS2000,Delay FX,Delay depth,,94,,0,127,,,,,0-based,
-KORG,MS2000,Vocoder-specific,Audio in 2 HPF level,,18,,0,127,,,,,0-based,
-KORG,MS2000,Vocoder-specific,Audio in 2 threshold,,19,,0,127,,,,,0-based,
-KORG,MS2000,Vocoder-specific,Formant shift,,83,,0,127,,,,,0-based,0 to 25: 0; 26 to 51: +1; 52 to 76: +2; 77 to 102: -1; 103 to 127: -2
-KORG,MS2000,Vocoder-specific,Filter modulation intensity,,79,,,127,,,,,Centered,
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+KORG,MS2000,Pitch,Portamento,,5,,0,127,,,,,0-based,,
+KORG,MS2000,OSC 1,OSC 1 wave,,77,,0,127,,,,,0-based,,0-15: Saw; 16-31: Pulse; 32-47: Tri; 48-63: Sin; 64-79: Vox wave; 80-95: DWGS; 96-111: Noise; 112-127: Audio in
+KORG,MS2000,OSC 1,OSC 1 control 1,,14,,0,127,,,,,0-based,,
+KORG,MS2000,OSC 1,OSC 1 control 2,,15,,0,127,,,,,0-based,,
+KORG,MS2000,OSC 2 / Audio In 2,OSC 2 wave,,78,,0,127,,,,,0-based,,0-42: Saw; 43-85: Squ; 86-127: Tri
+KORG,MS2000,OSC 2 / Audio In 2,OSC 2 modulation,,82,,0,127,,,,,0-based,,0-31: Off; 32-63: Ring; 64-95: Sync; 96-127: Ring sync
+KORG,MS2000,OSC 2 / Audio In 2,OSC 2 semitone,,18,,0,127,,,,,0-based,,
+KORG,MS2000,OSC 2 / Audio In 2,OSC 2 tune,,19,,0,127,,,,,Centered,,
+KORG,MS2000,Mixer,OSC 1 level,,20,,0,127,,,,,0-based,,
+KORG,MS2000,Mixer,OSC 2 level,,21,,0,127,,,,,0-based,,
+KORG,MS2000,Mixer,Noise level,,22,,0,127,,,,,0-based,,
+KORG,MS2000,Filter,Filter type,,83,,0,127,,,,,0-based,,0-31: 24LPF; 32-63: 12LPF; 64-95: 12BPF; 96-127: 12HPF
+KORG,MS2000,Filter,Filter cutoff,,74,,0,127,,,,,0-based,,
+KORG,MS2000,Filter,Filter resonance,,71,,0,127,,,,,0-based,,
+KORG,MS2000,Filter,Filter EG 1 intensity,,79,,0,127,,,,,Centered,,
+KORG,MS2000,Filter,Filter KBD track,,85,,0,127,,,,,Centered,,
+KORG,MS2000,Amp,Amp level,,7,,0,127,,,,,0-based,,
+KORG,MS2000,Amp,Amp panpot,,10,,0,127,,,,,Centered,,
+KORG,MS2000,Amp,Amp EG2/gate,,86,,0,127,,,,,0-based,,0-63: EG2; 64-127: Gate
+KORG,MS2000,Amp,Amp distortion,,92,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+KORG,MS2000,EG 1,EG 1 attack,,23,,0,127,,,,,0-based,,
+KORG,MS2000,EG 1,EG 1 decay,,24,,0,127,,,,,0-based,,
+KORG,MS2000,EG 1,EG 1 sustain,,25,,0,127,,,,,0-based,,
+KORG,MS2000,EG 1,EG 1 release,,26,,0,127,,,,,0-based,,
+KORG,MS2000,EG 2,EG 2 attack,,73,,0,127,,,,,0-based,,
+KORG,MS2000,EG 2,EG 2 decay,,75,,0,127,,,,,0-based,,
+KORG,MS2000,EG 2,EG 2 sustain,,70,,0,127,,,,,0-based,,
+KORG,MS2000,EG 2,EG 2 release,,72,,0,127,,,,,0-based,,
+KORG,MS2000,LFO 1,LFO 1 wave,,87,,0,127,,,,,0-based,,0-31: Saw; 32-63: Square; 64-95: Tri; 96-127: S/H
+KORG,MS2000,LFO 1,LFO 1 frequency,,27,,0,127,,,,,0-based,,
+KORG,MS2000,LFO 2,LFO 2 wave,,88,,0,127,,,,,0-based,,0-31: Saw; 32-63: Square(+); 64-95: Tri; 96-127: S/H
+KORG,MS2000,LFO 2,LFO 2 frequency,,76,,0,127,,,,,0-based,,
+KORG,MS2000,Patches,Patch 1 intensity,,28,,0,127,,,,,Centered,,
+KORG,MS2000,Patches,Patch 2 intensity,,29,,0,127,,,,,Centered,,
+KORG,MS2000,Patches,Patch 3 intensity,,30,,0,127,,,,,Centered,,
+KORG,MS2000,Patches,Patch 4 intensity,,31,,0,127,,,,,Centered,,
+KORG,MS2000,Sequencer,Sequencer on/off,,89,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+KORG,MS2000,Mod FX,Mod FX LFO speed,,12,,0,127,,,,,0-based,,
+KORG,MS2000,Mod FX,Mod FX depth,,93,,0,127,,,,,0-based,,
+KORG,MS2000,Delay FX,Delay time,,13,,0,127,,,,,0-based,,
+KORG,MS2000,Delay FX,Delay depth,,94,,0,127,,,,,0-based,,
+KORG,MS2000,Vocoder-specific,Audio in 2 HPF level,,18,,0,127,,,,,0-based,,
+KORG,MS2000,Vocoder-specific,Audio in 2 threshold,,19,,0,127,,,,,0-based,,
+KORG,MS2000,Vocoder-specific,Formant shift,,83,,0,127,,,,,0-based,,0-25: 0; 26-51: +1; 52-76: +2; 77-102: -1; 103-127: -2
+KORG,MS2000,Vocoder-specific,Filter modulation intensity,,79,,0,127,,,,,Centered,,
