@@ -1,18 +1,18 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
 Tasty Chips,GR-1,General,Modulation wheel,,1,,,,,,,,0-based,
 Tasty Chips,GR-1,General,Position,,2,,,,,,,,0-based,Start and end of sample
 Tasty Chips,GR-1,General,Density,,3,,,,,,,,0-based,From 0.1 to 1000 grains per second
 Tasty Chips,GR-1,General,Grain size,,4,,,,,,,,0-based,From 5ms to 1000ms
 Tasty Chips,GR-1,General,Spray,,5,,,,,,,,0-based,From 0 to 3s max distance
-Tasty Chips,GR-1,General,NRPN value MSB,,6,,,,,,,,0-based,From -1 to +1 octave
+Tasty Chips,GR-1,General,NRPN value MSB,,6,,,,,,,,Centered,From -1 to +1 octave
 Tasty Chips,GR-1,General,Tune,,7,,,,,,,,0-based,From 0Hz to 20kHz
 Tasty Chips,GR-1,Filter,Cutoff,,8,,,,,,,,0-based,From mono to total stereo
 Tasty Chips,GR-1,Filter,Resonance,,9,,,,,,,,Centered,From -2x to +2x replay speed
-Tasty Chips,GR-1,General,Panspray,,10,,,,,,,,Centered,From no sides to no center
+Tasty Chips,GR-1,General,Panspray,,10,,,,,,,,0-based,From no sides to no center
 Tasty Chips,GR-1,General,Scan,,11,,,,,,,,Centered,From left to right
-Tasty Chips,GR-1,Window,Window sides,,12,,,,,,,,Centered,From hollow to fat
-Tasty Chips,GR-1,Window,Window title,,13,,,,,,,,0-based,0: sine; 1: random; 2: saw; 3: square
-Tasty Chips,GR-1,Window,Window curve,,14,,,,,,,,0-based,0: sine; 1: random; 2: saw; 3: square
+Tasty Chips,GR-1,Window,Window sides,,12,,,,,,,,0-based,From hollow to fat
+Tasty Chips,GR-1,Window,Window title,,13,,,,,,,,0-based,,0: Sine; 1: Random; 2: Saw; 3: Square
+Tasty Chips,GR-1,Window,Window curve,,14,,,,,,,,0-based,,0: Sine; 1: Random; 2: Saw; 3: Square
 Tasty Chips,GR-1,LFO 1,LFO 1 waveform,,15,,,,,,,,0-based,From 50mHz to 50Hz
 Tasty Chips,GR-1,LFO 2,LFO 2 waveform,,16,,,,,,,,0-based,
 Tasty Chips,GR-1,LFO 1,LFO 1 frequency,,17,,,,,,,,0-based,From 50mHz to 50Hz
@@ -25,14 +25,14 @@ Tasty Chips,GR-1,Envelope,Attack time,,23,,,,,,,,0-based,From 0ms to 12s
 Tasty Chips,GR-1,Envelope,Decay time,,24,,,,,,,,0-based,From 0ms to 16s
 Tasty Chips,GR-1,Envelope,Sustain amplitude,,25,,,,,,,,0-based,
 Tasty Chips,GR-1,Envelope,Release time,,26,,,,,,,,0-based,From 0ms to 16s
-Tasty Chips,GR-1,LFO 1,LFO 1 destination,,27,,,,,,,,0-based,0: tune; 1: pos; 2: spray; 3: size; 4: dens; 5: cutoff
-Tasty Chips,GR-1,LFO 2,LFO 2 destination,,28,,,,,,,,0-based,0: tune; 1: pos; 2: spray; 3: size; 4: dens; 5: cutoff
-Tasty Chips,GR-1,CV 1,CV 1 destination,,29,,,,,,,,0-based,0: tune; 1: pos; 2: spray; 3: size; 4: dens; 5: cutoff
-Tasty Chips,GR-1,CV 2,CV 2 destination,,30,,,,,,,,0-based,0: tune; 1: pos; 2: spray; 3: size; 4: dens; 5: cutoff
+Tasty Chips,GR-1,LFO 1,LFO 1 destination,,27,,,,,,,,0-based,,0: Tune; 1: Pos; 2: Spray; 3: Size; 4: Dens; 5: Cutoff
+Tasty Chips,GR-1,LFO 2,LFO 2 destination,,28,,,,,,,,0-based,,0: Tune; 1: Pos; 2: Spray; 3: Size; 4: Dens; 5: Cutoff
+Tasty Chips,GR-1,CV 1,CV 1 destination,,29,,,,,,,,0-based,,0: Tune; 1: Pos; 2: Spray; 3: Size; 4: Dens; 5: Cutoff
+Tasty Chips,GR-1,CV 2,CV 2 destination,,30,,,,,,,,0-based,,0: Tune; 1: Pos; 2: Spray; 3: Size; 4: Dens; 5: Cutoff
 Tasty Chips,GR-1,LFO 1,LFO 1 key sync,,31,,,,,,,,0-based,
 Tasty Chips,GR-1,LFO 2,LFO 2 key sync,,32,,,,,,,,0-based,
 Tasty Chips,GR-1,General,Scan key sync,,33,,,,,,,,0-based,
-Tasty Chips,GR-1,General,Patch volume,,36,,,,,,,,0-based,From 0.10 to 10.0
+Tasty Chips,GR-1,General,Patch volume,,36,,,,,,,,0-based,From 0.10 to 10.0,
 Tasty Chips,GR-1,General,Resample antialias on/off,,37,,,,,,,,0-based,
-Tasty Chips,GR-1,General,Master volume,,39,,,,,,,,0-based,From 0.003 to 1.00
-Tasty Chips,GR-1,General,Pitch bend range,,60,,,,,,,,Centered,0: -1 octave; 64: original pitch; 127: +1 octave
+Tasty Chips,GR-1,General,Master volume,,39,,,,,,,,0-based,From 0.003 to 1.00,
+Tasty Chips,GR-1,General,Pitch bend range,,60,,,,,,,,Centered,,0: -1 octave; 64: original pitch; 127: +1 octave
