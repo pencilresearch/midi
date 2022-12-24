@@ -30,7 +30,7 @@ Novation,Circuit,Mixer,post FX level,sysex patch address: 59,59,,52,82,,,,,Cente
 Novation,Circuit,Filter,routing,sysex patch address: 60,60,,0,2,,,,,0-based,0: Normal; 1: Osc 1 bypasses the filter;  2: Osc 1 + Osc 2 bypasses the filter
 Novation,Circuit,Filter,drive,sysex patch address: 61,63,,0,127,,,,,0-based,
 Novation,Circuit,Filter,drive type,sysex patch address: 62,65,,0,6,,,,,0-based,0: diode; 1: valve; 2: clipper; 3: cross-over; 4: rectifier; 5: bit reducer; 6: rate reducer
-Novation,Circuit,Filter,type,sysex patch address: 63,68,,0,5,,,,,0-based,0: low pass 12dB; 1: low pass 24dB; 2: band pass 6/\6dB; 3: band pass 12/\12 dB; 4: high pass 12dB; 5: high pass 24dB
+Novation,Circuit,Filter,type,sysex patch address: 63,68,,0,5,,,,,0-based,0: low pass 12dB; 1: low pass 24dB; 2: band pass 6db-6dB; 3: band pass 12db-12 dB; 4: high pass 12dB; 5: high pass 24dB
 Novation,Circuit,Filter,frequency,sysex patch address: 64,74,,0,127,,,,,0-based,
 Novation,Circuit,Filter,tracking,sysex patch address: 65,69,,0,127,,,,,0-based,
 Novation,Circuit,Filter,resonance,sysex patch address: 66,71,,0,127,,,,,0-based,
