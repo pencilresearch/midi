@@ -26,8 +26,8 @@ Modal,Craft,VCF,FEG Amount,,32,,0,127,,,,,Centered,,
 Modal,Craft,General,Morph,,33,,0,127,,,,,0-based,,0: LP; 64: BP; 127: HP
 Modal,Craft,VCF,Cutoff,,34,,0,127,,,,,0-based,0Hz - 22kHz,
 Modal,Craft,VCF,Reso,,35,,0,127,,,,,0-based,None-Full,
-Modal,Craft,LFO,"LFO1 Rate, no sync",,36,,0,127,,,,,0-based,,0~127: 0.02Hz to 32Hz
-Modal,Craft,LFO,"LFO Rate, sync",,36,,0,127,,,,,0-based,,0-7: 1/16; 8-15: 1/8; 16-23: 3/16; 24-31: 1/4; 32-39: 3/8; 40-47: 1/2; 48-55: 3/4; 56-63: 1; 64-71: 3/2; 72-79: 2; 80-87: 3; 88-95: 4; 96-103: 6 /104-111: 8; 112-119: 12; 120-127: 16
+Modal,Craft,LFO,"LFO1 Rate, no sync",,36,,0,127,,,,,0-based,"Depends on LFO1 MIDI Sync, CC 52",0~127: 0.02Hz to 32Hz
+Modal,Craft,LFO,"LFO Rate, sync",,36,,0,127,,,,,0-based,"Depends on LFO1 MIDI Sync, CC 52",0-7: 1/16; 8-15: 1/8; 16-23: 3/16; 24-31: 1/4; 32-39: 3/8; 40-47: 1/2; 48-55: 3/4; 56-63: 1; 64-71: 3/2; 72-79: 2; 80-87: 3; 88-95: 4; 96-103: 6 /104-111: 8; 112-119: 12; 120-127: 16
 Modal,Craft,LFO,LFO1 Depth,,37,,0,127,,,,,Centered,,
 Modal,Craft,LFO,LFO1 Shape,,39,,0,127,,,,,0-based,,0~32: Sine to Triangle; 33~64: Triangle to Sawtooth; 65~96: Sawtooth to Square; 97~127: Square to Sample and Hold
 Modal,Craft,General,Octave,,40,,0,127,,,,,0-based,Octaves -2 to +4,
@@ -41,8 +41,8 @@ Modal,Craft,LFO,"LFO2 Rate, sync",,47,,0,127,,,,,0-based,"Depends on LFO2 MIDI S
 Modal,Craft,LFO,LFO2 Depth,,48,,0,127,,,,,Centered,,
 Modal,Craft,LFO,LFO2 Shape,,50,,0,127,,,,,0-based,,0~32: Sine to Triangle; 33~64: Triangle to Sawtooth; 65~96: Sawtooth to Square; 97~127: Square to Sample and Hold
 Modal,Craft,VCA,AEG Amount,,51,,0,127,,,,,Centered,,
-Modal,Craft,LFO,LFO1 MIDI Sync,,52,,0,127,,,,,0-based,"Depends on LFO1 MIDI Sync, CC 52",0-63: Off; 64-127: On
-Modal,Craft,LFO,LFO2 MIDI Sync,,54,,0,127,,,,,0-based,"Depends on LFO1 MIDI Sync, CC 52",0-63: Off; 64-127: On
+Modal,Craft,LFO,LFO1 MIDI Sync,,52,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal,Craft,LFO,LFO2 MIDI Sync,,54,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Modal,Craft,General,Delay MIDI Sync,,55,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Modal,Craft,LFO,LFO1 Mode,,56,,0,127,,,,,0-based,,0-41: Retrig; 42-83: Free; 84-127: Single
 Modal,Craft,LFO,LFO2 Mode,,57,,0,127,,,,,0-based,,0-41: Retrig; 42-83: Free; 84-127: Single
