@@ -1,13 +1,13 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-Yamaha,reface CP,General,Type,,80,,0,127,,,,,0-based,0-21: Rd I; 22-42: Rd II; 43-64: Wr; 65-85: Clv; 86-106: Toy; 107-127: CP
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Yamaha,reface CP,General,Type,,80,,0,127,,,,,0-based,,0-21: Rd I; 22-42: Rd II; 43-64: Wr; 65-85: Clv; 86-106: Toy; 107-127: CP
 Yamaha,reface CP,General,Drive,,81,,0,127,,,,,0-based,
-Yamaha,reface CP,Tremolo/wah,Tremolo/wah switch,,17,,0,127,,,,,0-based,0-42: off; 43-85: tremolo; 86-127: wah
+Yamaha,reface CP,Tremolo/wah,Tremolo/wah switch,,17,,0,127,,,,,0-based,,0-42: Off; 43-85: Tremolo; 86-127: Wah
 Yamaha,reface CP,Tremolo/wah,Tremolo/wah depth,,18,,0,127,,,,,0-based,
 Yamaha,reface CP,Tremolo/wah,Tremolo/wah rate,,19,,0,127,,,,,0-based,
-Yamaha,reface CP,Chorus/phaser,Chorus/phaser switch,,85,,0,127,,,,,0-based,0-42: off; 43-85: chorus; 86-127: phaser
+Yamaha,reface CP,Chorus/phaser,Chorus/phaser switch,,85,,0,127,,,,,0-based,,0-42: Off; 43-85: Chorus; 86-127: Phaser
 Yamaha,reface CP,Chorus/phaser,Chorus/phaser depth,,86,,0,127,,,,,0-based,
 Yamaha,reface CP,Chorus/phaser,Chorus/phaser speed,,87,,0,127,,,,,0-based,
-Yamaha,reface CP,Digital delay/analog delay,Digital delay/analog delay switch,,88,,0,127,,,,,0-based,0-42: off; 43-85: digital delay; 86-127: analog delay
+Yamaha,reface CP,Digital delay/analog delay,Digital delay/analog delay switch,,88,,0,127,,,,,0-based,,0-42: Off; 43-85: Digital delay; 86-127: Analog delay
 Yamaha,reface CP,Digital delay/analog delay,Digital delay/analog delay depth,,89,,0,127,,,,,0-based,
 Yamaha,reface CP,Digital delay/analog delay,Digital delay/analog delay time,,90,,0,127,,,,,0-based,
-Yamaha,reface CP,Digital delay/analog delay,Reverb depth,,91,,0,127,,,,,0-based,
+Yamaha,reface CP,Digital delay/analog delay,Reverb depth,,91,,0,127,,,,,0-based,,
