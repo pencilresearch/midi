@@ -59,7 +59,7 @@ Waldorf,Blofeld,Mix,Noise color,,62,,0,127,,,,,0-based,
 Waldorf,Blofeld,General,Sustain pedal,,64,,0,127,,,,,0-based,
 Waldorf,Blofeld,General,Glide active,,65,,0,127,,,,,0-based,
 Waldorf,Blofeld,General,Sostenuto,,66,,0,127,,,,,0-based,
-Waldorf,Blofeld,General,Routing,,67,,0,127,,,,,0-based,
+Waldorf,Blofeld,General,Filter Routing,,67,,0,1,,,,,0-based, 0: Parallel, 1: Serial
 Waldorf,Blofeld,Filter,Filter 1 type,,68,,0,10,,,,,0-based,,0: Bypass; 1: LP 24dB; 2: LP 12dB; 3: BP 24dB; 4: BP 12dB; 5: HP 24dB; 6: HP 12dB; 7: Notch 24dB; 8: Notch 12dB; 9: Comb; 10: PPG LP
 Waldorf,Blofeld,Filter,Filter 1 cutoff,,69,,0,127,,,,,0-based,
 Waldorf,Blofeld,Filter,Filter 1 resonance,,70,,0,127,,,,,0-based,
