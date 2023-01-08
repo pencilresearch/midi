@@ -3,16 +3,16 @@ Novation,Bass Station II,Master,Portamento,,5,,0,127,,,,,0-based,,0: off
 Novation,Bass Station II,Master,Patch volume,,7,,0,127,,,,,0-based,,
 Novation,Bass Station II,Master,Overlay bank selection,,,,,,0,112,0,8,0-based,Firmware v4.14,0: no overlays; 1-8: use overlay bank
 Novation,Bass Station II,Master,Overlay write protection,,,,,,0,116,0,1,0-based,Firmware v4.14,0: disabled; 1: enabled
-Novation,Bass Station II,Oscillator,Osc 1 fine,,26,58,-100,100,,,,,Centered,,to 1 dec place, no 0 for ints
+Novation,Bass Station II,Oscillator,Osc 1 fine,,26,58,-100,100,,,,,Centered,,to 1 dec place (no 0 for ints)
 Novation,Bass Station II,Oscillator,Osc 1 coarse,,27,59,-63,63,,,,,Centered,,
 Novation,Bass Station II,Oscillator,Osc 1 LFO 1 depth,,28,60,-127,127,,,,,Centered,,
 Novation,Bass Station II,Oscillator,Osc 1 range,,70,,63,66,,,,,,,63: 16’; 64: 8’; 65: 4’; 66: 2’
 Novation,Bass Station II,Oscillator,Osc 1 Mod Env depth,,71,,-63,63,,,,,Centered,,
 Novation,Bass Station II,Oscillator,Osc 1 Mod Env PW amount,,72,,-63,63,,,,,Centered,,
-Novation,Bass Station II,Oscillator,Osc 1 LFO 2 PW amount,,73,,-90,90,,,,,Centered,,63,64: 0%
+Novation,Bass Station II,Oscillator,Osc 1 LFO 2 PW amount,,73,,-90,90,,,,,Centered,,63-64: 0%
 Novation,Bass Station II,Oscillator,Osc 1 waveform,,,,,,0,72,0,384,0-based,,(MSB) 0: sine; 1: triangle; 2: sawtooth; 3: pulse
 Novation,Bass Station II,Oscillator,Osc 1 manual PW amount,,74,,5,95,,,,,Centered,,64: 50%
-Novation,Bass Station II,Oscillator,Osc 2 fine,,29,61,-100,100,,,,,Centered,,to 1 dec place, no 0 for ints
+Novation,Bass Station II,Oscillator,Osc 2 fine,,29,61,-100,100,,,,,Centered,,to 1 dec place (no 0 for ints)
 Novation,Bass Station II,Oscillator,Osc 2 coarse,,30,62,-63,63,,,,,Centered,,
 Novation,Bass Station II,Oscillator,Osc 2 LFO 1 depth,,31,63,-127,127,,,,,Centered,,
 Novation,Bass Station II,Oscillator,Osc 2 range,,75,,63,66,,,,,,,63: 16’; 64: 8’; 65: 4’; 66: 2’
