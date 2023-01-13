@@ -1,0 +1,93 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Novation,Bass Station II,Master,Portamento,,5,,0,127,,,,,0-based,,0: Off
+Novation,Bass Station II,Master,Patch volume,,7,,0,127,,,,,0-based,,
+Novation,Bass Station II,Master,Overlay bank selection,,,,,,0,112,0,8,0-based,Firmware v4.14,0: No overlays; 1~8: Use overlay bank
+Novation,Bass Station II,Master,Overlay write protection,,,,,,0,116,0,1,0-based,Firmware v4.14,0: Disabled; 1: Enabled
+Novation,Bass Station II,Oscillator,Osc 1 fine,,26,58,0,201,,,,,Centered,To 1 dec place (no 0 for ints),
+Novation,Bass Station II,Oscillator,Osc 1 coarse,,27,59,0,127,,,,,Centered,,
+Novation,Bass Station II,Oscillator,Osc 1 LFO 1 depth,,28,60,0,255,,,,,Centered,,
+Novation,Bass Station II,Oscillator,Osc 1 range,,70,,63,66,,,,,0-based,,63: 16; 64: 8;  65: 4; 66: 2
+Novation,Bass Station II,Oscillator,Osc 1 Mod Env depth,,71,,0,127,,,,,Centered,,
+Novation,Bass Station II,Oscillator,Osc 1 Mod Env PW amount,,72,,0,127,,,,,Centered,,
+Novation,Bass Station II,Oscillator,Osc 1 LFO 2 PW amount,,73,,0,127,,,,,Centered,,63-64: 0%
+Novation,Bass Station II,Oscillator,Osc 1 waveform,,,,,,0,72,0,384,0-based,Usage is for MSB,0: Sine; 1: Triangle; 2: Sawtooth; 3: Pulse
+Novation,Bass Station II,Oscillator,Osc 1 manual PW amount,,74,,5,95,,,,,Centered,,64: 50%
+Novation,Bass Station II,Oscillator,Osc 2 fine,,29,61,0,201,,,,,Centered,To 1 dec place (no 0 for ints),
+Novation,Bass Station II,Oscillator,Osc 2 coarse,,30,62,0,127,,,,,Centered,,
+Novation,Bass Station II,Oscillator,Osc 2 LFO 1 depth,,31,63,0,255,,,,,Centered,,
+Novation,Bass Station II,Oscillator,Osc 2 range,,75,,63,66,,,,,0-based,,63: 16; 64: 8;  65: 4; 66: 2
+Novation,Bass Station II,Oscillator,Osc 2 Mod Env depth,,76,,0,127,,,,,Centered,,
+Novation,Bass Station II,Oscillator,Osc 2 Mod Env PW amount,,77,,0,127,,,,,Centered,,
+Novation,Bass Station II,Oscillator,Osc 2 LFO 2 PW amount,,78,,0,127,,,,,Centered,,63-64: 0%
+Novation,Bass Station II,Oscillator,Osc 2 waveform,,,,,,0,82,0,384,0-based,Usage is for MSB,0: Sine; 1: Triangle; 2: Sawtooth; 3: Pulse
+Novation,Bass Station II,Oscillator,Osc 2 manual PW amount,,79,,5,95,,,,,Centered,,64: 50%
+Novation,Bass Station II,Oscillator,Sub osc waveform,,80,,0,2,,,,,0-based,,0: Sine; 1: Pulse; 2: Square
+Novation,Bass Station II,Oscillator,Sub osc oct,,81,,62,63,,,,,0-based,,62: -2 octaves below Osc 1; 63: -1 octave below Osc 1
+Novation,Bass Station II,Oscillator,Bend amount,,107,,0,127,,,,,Centered,,63-64: 0 semitones
+Novation,Bass Station II,Oscillator,Osc 1-2 sync,,110,,0,1,,,,,0-based,,0: Off; 1: On
+Novation,Bass Station II,Oscillator,Paraphonic mode,,,,,,0,107,0,128,0-based,Firmware v2.5. Usage is for MSB.,0: Disabled; 1: Enabled
+Novation,Bass Station II,Oscillator,Osc tuning error,,,,,,0,111,0,896,0-based,Firmware v2.5. Usage is for MSB.,0: Off; 7: Ca. 1 semitone
+Novation,Bass Station II,Oscillator,Sub osc coarse tuning,,,,,,0,84,0,16256,0-based,Firmware v4.14. Usage is for MSB.,0: Match Osc 1
+Novation,Bass Station II,Oscillator,Sub osc fine tuning,,,,,,0,77,0,16256,0-based,Firmware v4.14. Usage is for MSB.,0: Match OSC 1
+Novation,Bass Station II,Oscillator,Glide divergence,,,,,,0,113,0,1920,0-based,Firmware v4.14. Usage is for MSB.,0: Off; 1-15: Osc 2 slower than Osc 1
+Novation,Bass Station II,Mixer,Osc 1 level,,20,52,0,255,,,,,0-based,,
+Novation,Bass Station II,Mixer,Osc 2 level,,21,53,0,255,,,,,0-based,,
+Novation,Bass Station II,Mixer,Sub osc level,,22,54,0,255,,,,,0-based,,
+Novation,Bass Station II,Mixer,Noise level,,23,55,0,255,,,,,0-based,,
+Novation,Bass Station II,Mixer,Ring mod level,,24,56,0,255,,,,,0-based,,
+Novation,Bass Station II,Mixer,External signal level,,25,57,0,255,,,,,0-based,,
+Novation,Bass Station II,Filter,Frequency,,16,48,0,255,,,,,0-based,,
+Novation,Bass Station II,Filter,LFO 2 depth,,17,49,0,255,,,,,Centered,,
+Novation,Bass Station II,Filter,Resonance,,82,,0,127,,,,,0-based,,
+Novation,Bass Station II,Filter,Type,,83,,0,1,,,,,0-based,,0: Classic; 1: Acid
+Novation,Bass Station II,Filter,Shape,,84,,0,2,,,,,0-based,,0: LP; 1: BP; 2: HP
+Novation,Bass Station II,Filter,Mod Env depth,,85,,0,127,,,,,Centered,,
+Novation,Bass Station II,Mixer,Limit,,95,,0,127,,,,,0-based,,
+Novation,Bass Station II,Filter,Slope,,106,,0,1,,,,,0-based,,0: 12dB; 1: 24dB
+Novation,Bass Station II,Filter,Overdrive,,114,,0,127,,,,,0-based,,
+Novation,Bass Station II,Filter,Filter tracking,,,,,,0,108,0,896,0-based,Firmware v2.5. Usage is for MSB.,0: Full tracking; 7: No tracking
+Novation,Bass Station II,Envelope,Amp Env attack,,90,,0,127,,,,,0-based,,
+Novation,Bass Station II,Envelope,Amp Env decay,,91,,0,127,,,,,0-based,,
+Novation,Bass Station II,Envelope,Amp Env sustain,,92,,0,127,,,,,0-based,,
+Novation,Bass Station II,Envelope,Amp Env release,,93,,0,127,,,,,0-based,,
+Novation,Bass Station II,Envelope,Amp Env mode,,,,,,0,73,0,256,0-based,Usage is for MSB,0: Multi; 1: Single; 2: Autoglide
+Novation,Bass Station II,Envelope,Amp Env retrigger,,,,,,0,109,0,128,0-based,Firmware v2.5. Usage is for MSB.,0: Disabled; 1: Enabled
+Novation,Bass Station II,Envelope,Amp Env fixed duration sustain,,,,,,0,114,0,128,0-based,Firmware v4.14. Usage is for MSB.,0: Disabled; 1: Enabled (decay is duration and overrides retrigger mode)
+Novation,Bass Station II,Envelope,Amp Env retrigger count,,,,,,0,117,0,2048,0-based,Firmware v4.14. Usage is for MSB.,0: Loop indefinitely; 1~16: Number of loops when retrig is active
+Novation,Bass Station II,Envelope,Mod Env attack,,102,,0,127,,,,,0-based,,
+Novation,Bass Station II,Envelope,Mod Env decay,,103,,0,127,,,,,0-based,,
+Novation,Bass Station II,Envelope,Mod Env sustain,,104,,0,127,,,,,0-based,,
+Novation,Bass Station II,Envelope,Mod Env release,,105,,0,127,,,,,0-based,,
+Novation,Bass Station II,Envelope,Mod Env mode,,,,,,0,105,0,256,0-based,Usage is for MSB,0: Multi; 1: Single; 2: Autoglide
+Novation,Bass Station II,Envelope,Mod Env retrigger,,,,,,0,110,0,128,0-based,Firmware v2.5. Usage is for MSB.,0: Disabled; 1: Enabled
+Novation,Bass Station II,Envelope,Mod Env fixed duration sustain,,,,,,0,115,0,128,0-based,Firmware v4.14. Usage is for MSB.,0: Disabled; 1: Enabled (decay is duration and overrides retrigger mode)
+Novation,Bass Station II,Envelope,Mod Env retrigger count,,,,,,0,118,0,2048,0-based,Firmware v4.14. Usage is for MSB.,0: Loop indefinitely; 1~16: Number of loops when retrig is active
+Novation,Bass Station II,LFO,LFO 1 speed,,18,50,0,255,,,,,0-based,,
+Novation,Bass Station II,LFO,LFO 1 delay,,86,,0,127,,,,,0-based,,0: Off
+Novation,Bass Station II,LFO,LFO 1 waveform,,88,,0,3,,,,,0-based,,0: Triangle; 1: Sawtooth; 2: Square; 3: S&H
+Novation,Bass Station II,LFO,LFO 1 slew,,,,,,0,86,,,0-based,,
+Novation,Bass Station II,LFO,LFO 1 speed/sync,,,,,,0,87,0,128,0-based,Usage is for MSB,0: Speed; 1: BPM sync
+Novation,Bass Station II,LFO,LFO 1 key sync,,,,,,0,89,0,128,0-based,Usage is for MSB,0: Disabled; 1: Enabled
+Novation,Bass Station II,LFO,LFO 2 speed,,19,51,0,255,,,,,0-based,,
+Novation,Bass Station II,LFO,LFO 2 delay,,87,,0,127,,,,,0-based,,0: Off
+Novation,Bass Station II,LFO,LFO 2 waveform,,89,,0,3,,,,,0-based,,0: Triangle; 1: Sawtooth; 2: Square; 3: S&H
+Novation,Bass Station II,LFO,LFO 2 slew,,,,,,0,90,,,0-based,,
+Novation,Bass Station II,LFO,LFO 2 speed/sync,,,,,,0,91,0,128,0-based,,0: Speed; 1: BPM sync
+Novation,Bass Station II,LFO,LFO 2 key sync,,,,,,0,93,0,128,0-based,,0: Disabled; 1: Enabled
+Novation,Bass Station II,FX,Distortion,,94,,0,127,,,,,0-based,,
+Novation,Bass Station II,FX,Osc Filter Mod,,115,,0,127,,,,,0-based,,0: Off
+Novation,Bass Station II,Arpeggiator,Enable,,108,,0,1,,,,,0-based,,0: Disabled; 1: Enabled
+Novation,Bass Station II,Arpeggiator,Latch,,109,,0,1,,,,,0-based,,0: Disabled; 1: Enabled
+Novation,Bass Station II,Arpeggiator,Octaves,,111,,0,3,,,,,0-based,,0~3: Octaves above root
+Novation,Bass Station II,Arpeggiator,Arp swing,,116,,0,100,,,,,Centered,,50: No swing
+Novation,Bass Station II,Arpeggiator,Rhythm,,119,,0,31,,,,,0-based,,
+Novation,Bass Station II,Arpeggiator,Note mode,,118,,0,7,,,,,0-based,,0: Up; 1: Dn; 2: Updn; 3: Updn2; 4: Played; 5: Random; 6: Play; 7: Record
+Novation,Bass Station II,Arpeggiator,Seq retrig,,,,,,0,106,0,128,0-based,Usage is for MSB,0: Disabled; 1: Enabled
+Novation,Bass Station II,Mod wheel,LFO 1 osc pitch,,,,,,0,70,,,Centered,Usage is for MSB,63: No effect
+Novation,Bass Station II,Mod wheel,LFO 2 filter freq,,,,,,0,71,,,Centered,Usage is for MSB,63: No effect
+Novation,Bass Station II,Aftertouch,Filter freq,,,,,,0,74,,,0-based,,
+Novation,Bass Station II,Aftertouch,LFO 1 osc pitch,,,,,,0,75,,,Centered,Usage is for MSB,63: No effect
+Novation,Bass Station II,Aftertouch,LFO 2 speed,,,,,,0,76,,,Centered,Usage is for MSB,63: No effect
+Novation,Bass Station II,Mod wheel,Osc 2 pitch,,,,,,0,78,,,Centered,Usage is for MSB,63: No effect
+Novation,Bass Station II,Velocity,Amp Env ,,112,,0,127,,,,,0-based,,
+Novation,Bass Station II,Velocity,Mod Env ,,113,,0,127,,,,,0-based,,
