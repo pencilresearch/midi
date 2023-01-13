@@ -1,0 +1,71 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+IK Multimedia,Uno Drum,General,Output level,,7,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sequencer,Swing amount,,9,,50,70,,,,,0-based,,50: no swing
+IK Multimedia,Uno Drum,Sequencer,Sequencer division,,12,,0,3,,,,,0-based,,0: 8th note triplet; 1: 16th note triplet; 2: 16th note; 3: 32nd note
+IK Multimedia,Uno Drum,Sequencer,Pattern length,,13,,0,63,,,,,0-based,,0~63: length 1~64 notes
+IK Multimedia,Uno Drum,FX,Compressor amount,,17,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,FX,Drive amount,,18,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 1 level,,20,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 1 tune,,21,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 1 snap,,22,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 1 decay,,23,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 1 FM tune,,24,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 1 FM amount,,25,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 1 sweep time,,26,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 2 level,,27,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 2 tune,,28,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 2 snap,,29,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 2 decay,,30,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Snare level,,31,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Snare tune,,32,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Snare snap,,33,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Snare decay,,34,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Snare LPF,,35,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Clap level,,36,,0,127,,,,,0-based,wrong in manual,
+IK Multimedia,Uno Drum,Sound,Clap tune,,37,,0,127,,,,,0-based,missing in manual,1 value for analog sound; 128 otherwise
+IK Multimedia,Uno Drum,Sound,Clap decay,,38,,0,127,,,,,0-based,,8 values for analog sound; 128 otherwise
+IK Multimedia,Uno Drum,Sound,Closed Hat level,,39,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Closed Hat tune,,40,,0,127,,,,,0-based,,4 values for analog sound; 128 otherwise
+IK Multimedia,Uno Drum,Sound,Closed Hat decay,,41,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Open Hat level,,42,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Open Hat tune,,43,,0,127,,,,,0-based,,4 values for analog sound; 128 otherwise
+IK Multimedia,Uno Drum,Sound,Open Hat decay,,44,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Rim level,,45,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Rim tune,,46,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Rim decay,,47,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Tom 1 level,,48,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Tom 1 tune,,49,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Tom 1 decay,,50,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Tom 2 level,,51,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Tom 2 tune,,52,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Tom 2 decay,,53,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Cowbell level,,54,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Cowbell tune,,55,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Cowbell decay,,56,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Ride level,,57,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Ride tune,,58,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Ride decay,,59,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Cymbal level,,60,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Cymbal tune,,61,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Cymbal decay,,62,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sequencer,Stutter type,,70,,0,10,,,,,0-based,,0: off; 1: loop 8; 2: loop 4; 3: loop triplets 1; 4: loop triplets 2; 5: fill style 1; 6: fill style 2; 7: tune up; 8: tune down; 9: madness 1; 10: madness 2
+IK Multimedia,Uno Drum,Sequencer,Stutter amount,,71,,0,127,,,,,0-based,,13 values for types 0~8
+IK Multimedia,Uno Drum,Sequencer,Stutter enable,,72,,0,127,,,,,0-based,,"0~63: off, 64~127: on"
+IK Multimedia,Uno Drum,Sequencer,Roll type,,73,,0,7,,,,,0-based,,0: 8th note triplet; 1: 16th note triplet; 2: 16th note; 3: 32nd note; 4~7: fill
+IK Multimedia,Uno Drum,Sequencer,Roll enable,,74,,0,127,,,,,0-based,,"0~63: off, 64~127: on"
+IK Multimedia,Uno Drum,Sequencer,Pad double velocity enable,,75,,0,127,,,,,0-based,,"0~63: off, 64~127: on"
+IK Multimedia,Uno Drum,General,Metronome enable,,76,,0,2,,,,,0-based,,0: off; 1: on during rec; 2: always on
+IK Multimedia,Uno Drum,Sequencer,Pad note length,,77,,0,127,,,,,0-based,,
+IK Multimedia,Uno Drum,Sound,Kick 1 sound,,80,,1,5,,,,,0-based,,1: analog; 2~5: sample
+IK Multimedia,Uno Drum,Sound,Kick 2 sounds,,81,,1,5,,,,,0-based,,1: analog; 2~5: sample
+IK Multimedia,Uno Drum,Sound,Snare sound,,82,,1,5,,,,,0-based,,1: analog; 2~5: sample
+IK Multimedia,Uno Drum,Sound,Clap sound,,83,,1,5,,,,,0-based,,1: analog; 2~5: sample
+IK Multimedia,Uno Drum,Sound,Closed Hat sound,,84,,1,5,,,,,0-based,,1: analog; 2~5: sample
+IK Multimedia,Uno Drum,Sound,Open Hat sound,,85,,1,5,,,,,0-based,,1: analog; 2~5: sample
+IK Multimedia,Uno Drum,Sound,Rim sound,,86,,1,5,,,,,0-based,,1~sample
+IK Multimedia,Uno Drum,Sound,Tom 1 sound,,87,,1,5,,,,,0-based,,1~sample
+IK Multimedia,Uno Drum,Sound,Tom 2 sound,,88,,1,5,,,,,0-based,,1~sample
+IK Multimedia,Uno Drum,Sound,Cowbell sound,,89,,1,5,,,,,0-based,,1~sample
+IK Multimedia,Uno Drum,Sound,Ride sound,,90,,1,5,,,,,0-based,,1~sample
+IK Multimedia,Uno Drum,Sound,Cymbal sound,,91,,1,5,,,,,0-based,,1~sample
+IK Multimedia,Uno Drum,General,All notes off,,123,,,,,,,,0-based,,
