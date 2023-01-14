@@ -50,10 +50,10 @@ IK Multimedia,Uno Drum,Sound,Cymbal tune,,61,,0,127,,,,,0-based,,
 IK Multimedia,Uno Drum,Sound,Cymbal decay,,62,,0,127,,,,,0-based,,
 IK Multimedia,Uno Drum,Sequencer,Stutter type,,70,,0,10,,,,,0-based,,0: Off; 1: Loop 8; 2: Loop 4; 3: Loop triplets 1; 4: Loop triplets 2; 5: Fill style 1; 6: Fill style 2; 7: Tune up; 8: Tune down; 9: Madness 1; 10: Madness 2
 IK Multimedia,Uno Drum,Sequencer,Stutter amount,,71,,0,127,,,,,0-based,,0~127: 13 stutter types
-IK Multimedia,Uno Drum,Sequencer,Stutter enable,,72,,0,127,,,,,0-based,,"0-63: Off, 64-127: On"
+IK Multimedia,Uno Drum,Sequencer,Stutter enable,,72,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 IK Multimedia,Uno Drum,Sequencer,Roll type,,73,,0,7,,,,,0-based,,0: 8th note triplet; 1: 16th note triplet; 2: 16th note; 3: 32nd note; 4~7: fill
-IK Multimedia,Uno Drum,Sequencer,Roll enable,,74,,0,127,,,,,0-based,,"0-63: Off, 64-127: On"
-IK Multimedia,Uno Drum,Sequencer,Pad double velocity enable,,75,,0,127,,,,,0-based,,"0-63: Off, 64-127: On"
+IK Multimedia,Uno Drum,Sequencer,Roll enable,,74,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+IK Multimedia,Uno Drum,Sequencer,Pad double velocity enable,,75,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 IK Multimedia,Uno Drum,General,Metronome enable,,76,,0,2,,,,,0-based,,0: Off; 1: On during rec; 2: Always on
 IK Multimedia,Uno Drum,Sequencer,Pad note length,,77,,0,127,,,,,0-based,,
 IK Multimedia,Uno Drum,Sound,Kick 1 sound,,80,,1,5,,,,,0-based,,1: Analog; 2~5: Select sample slot
@@ -68,4 +68,4 @@ IK Multimedia,Uno Drum,Sound,Tom 2 sound,,88,,1,5,,,,,0-based,,1~5: Select sampl
 IK Multimedia,Uno Drum,Sound,Cowbell sound,,89,,1,5,,,,,0-based,,1~5: Select sample slot
 IK Multimedia,Uno Drum,Sound,Ride sound,,90,,1,5,,,,,0-based,,1~5: Select sample slot
 IK Multimedia,Uno Drum,Sound,Cymbal sound,,91,,1,5,,,,,0-based,,1~5: Select sample slot
-IK Multimedia,Uno Drum,General,All notes off,,123,,,,,,,,0-based,,
+IK Multimedia,Uno Drum,General,All notes off,,123,,0,127,,,,,0-based,,
