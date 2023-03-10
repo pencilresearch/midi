@@ -27,8 +27,8 @@ KORG,minilogue xd,VCO 2,VCO 2 level,,40,,0,127,,,,,0-based,,
 KORG,minilogue xd,General,Cross mod depth,,41,,0,127,,,,,0-based,,
 KORG,minilogue xd,VCF,Cutoff,,43,,0,127,,,,,0-based,,
 KORG,minilogue xd,VCF,Resonance,,44,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCO 1,VCO 1 octave,,48,,0,127,,,,,0-based,,0-31: 16’; 32-63: 8’; 64-95: 4’; 96-127: 2’
-KORG,minilogue xd,VCO 2,VCO 2 octave,,49,,0,127,,,,,0-based,,0-31: 16’; 32-63: 8’; 64-95: 4’; 96-127: 2’
+KORG,minilogue xd,VCO 1,VCO 1 octave,,48,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+KORG,minilogue xd,VCO 2,VCO 2 octave,,49,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
 KORG,minilogue xd,VCO 1,VCO 1 wave,,50,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
 KORG,minilogue xd,VCO 2,VCO 2 wave,,51,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
 KORG,minilogue xd,Multi,Multi type,,53,,0,127,,,,,0-based,,0-42: Noise; 43-85: VPM; 86-127: USR
