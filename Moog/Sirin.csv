@@ -1,41 +1,41 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-Moog,Sirin,Modulation,LFO rate,Adjusts the LFO frequency,3,35,0,127,,,,,0-based,
-Moog,Sirin,Modulation,LFO VCO amount,Adjusts the modulation amount to the VCOs,13,45,0,127,,,,,0-based,
-Moog,Sirin,Modulation,LFO VCF amount,Adjusts the modulation amount to the VCF,12,44,0,127,,,,,0-based,
-Moog,Sirin,Modulation,LFO MIDI sync,Enables or disables syncing the LFO to MIDI clock messages,87,,0,127,,,,,0-based,
-Moog,Sirin,Modulation,LFO sync clock div,Sets the LFO sync clock divider,86,,0,127,,,,,0-based,
-Moog,Sirin,Modulation,LFO key trigger,Retriggers the LFO to the start of the cycle,82,,0,127,,,,,0-based,0-63: internal; 64-127: MIDI clock
-Moog,Sirin,Oscillators,VCO 1 wave,Sets the waveform of VCO 1,70,,0,127,,,,,0-based,0-63: saw; 64-127: square
-Moog,Sirin,Oscillators,VCO 2 wave,Sets the waveform of VCO 2,71,,0,127,,,,,0-based,0-63: saw; 64-127: square
-Moog,Sirin,Oscillators,VCO 2 frequency,Adjusts the frequency of VCO 2,17,49,0,127,,,,,0-based,
-Moog,Sirin,Oscillators,VCO 2 beat,Adjusts the beat frequency of VCO 2 (default is 64),18,50,0,127,,,,,0-based,
-Moog,Sirin,Oscillators,Note sync,Enables or disables note sync (default is off),81,,0,127,,,,,0-based,0-63: off; 64-127: on
-Moog,Sirin,Oscillators,Glide rate,Adjusts the glide (portamento) rate time,5,,0,127,,,,,0-based,
-Moog,Sirin,Oscillators,Glide switch,Sets the state of the glide switch,65,,0,127,,,,,0-based,0-63: off; 64-127: on
-Moog,Sirin,Oscillators,Glide type,"Selects the type of glide: linear, constant rate, linear constant time, or exponential",92,,0,127,,,,,0-based,0-42: LCR; 43-84: LCT; 85-127: EXP
-Moog,Sirin,Oscillators,Legato glide,Sets the state of the legato glide parameter when glide is enabled,83,,0,127,,,,,0-based,0-63: always glide; 64-127: glide on legato notes only
-Moog,Sirin,Mixer,VCO 1 level,Adjusts the level of VCO 1,15,47,0,127,,,,,0-based,
-Moog,Sirin,Mixer,VCO 2 level,Adjusts the level of VCO 2,16,48,0,127,,,,,0-based,
-Moog,Sirin,Mixer,External In level,Adjusts the level of the external audio input (default is 64 for 50% level),27,59,0,127,,,,,0-based,
-Moog,Sirin,Filter,Filter cutoff,Adjusts the filter cutoff frequency,19,51,0,127,,,,,0-based,
-Moog,Sirin,Filter,Filter resonance,Adjusts the filter resonance parameter,21,53,0,127,,,,,0-based,
-Moog,Sirin,Filter,Filter EG amount,Adjusts the EG,22,50,0,127,,,,,0-based,
-Moog,Sirin,Filter,Filter KB track,Sets the amount of keyboard tracking for the filter (default is 32 - about 50%),20,54,0,127,,,,,0-based,
-Moog,Sirin,Filter,Filter velocity sensitivity,Setgs the amount of filter velocity sensitivity (default is 64 for 50%),89,,0,127,,,,,0-based,
-Moog,Sirin,Envelopes,VCF attack,Adjusts the filter envelope attack time,23,55,0,127,,,,,0-based,
-Moog,Sirin,Envelopes,VCF delay / release,Adjusts the filter envelope decay and release time,24,56,0,127,,,,,0-based,
-Moog,Sirin,Envelopes,VCF sustain,Adjusts the filter envelope sustain level,25,57,0,127,,,,,0-based,
-Moog,Sirin,Envelopes,VCA attack,Adjusts the volume envelope attack time,28,60,0,127,,,,,0-based,
-Moog,Sirin,Envelopes,VCA decay / release,Adjusts the volume envelope decay and release time,29,61,0,127,,,,,0-based,
-Moog,Sirin,Envelopes,CVA sustain,Adjusts the volume envelope sustain level,30,62,0,127,,,,,0-based,
-Moog,Sirin,Envelopes,Release switch,Sets the state of the release parameter,72,,0,127,,,,,0-based,0-42: legato on; 43-84: legato off; 85-127: EG reset
-Moog,Sirin,Envelopes,Trigger mode,Sets the state of the envelope trigger,73,,0,127,,,,,0-based,
-Moog,Sirin,Volume,VCA (output) level,Adjusts the audio output and the headphone volume,7,39,0,127,,,,,0-based,
-Moog,Sirin,Volume,Volume velocity sensitivity,Sets the amount of volume velocity sensitivity (default is 64 for 50%),90,,0,127,,,,,0-based,
-Moog,Sirin,Keyboard response,Key priority,Sets the note priority (default is last),91,0,0,127,,,,,0-based,0-42: low; 43-84: high; 87-127: last
-Moog,Sirin,Mod wheel response,Mod wheel,Modulation performance control,1,33,0,127,,,,,0-based,
-Moog,Sirin,Pitch wheel response,Bend up amount,Pitch wheel up performance control (default is +3 semitones),107,,0,127,,,,,0-based,"0-15: off; 16-31: 2 semitones; 32-47: 3 semitones, 48-63: 4 semitones; 64-79: 5 semitones; 80-95: 7 semitones; 96-111: 12 semitones; 112-127: 24 semitones"
-Moog,Sirin,Pitch wheel response,Bend down amount,Pitch wheel down performance control (default is -3 semitones),108,,0,127,,,,,0-based,"0-15: off; 16-31: 2 semitones; 32-47: 3 semitones, 48-63: 4 semitones; 64-79: 5 semitones; 80-95: 7 semitones; 96-111: 12 semitones; 112-127: 24 semitones"
-Moog,Sirin,Control,Local control off,Sets the state of the local control off parameter,122,,0,127,,,,,0-based,0 for off; 127 for on
-Moog,Sirin,All sounds off,MIDI panic message,,120,,0,127,,,,,0-based,
-Moog,Sirin,All notes off,MIDI panic message,,123,,0,127,,,,,0-based,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Moog,Sirin,Modulation,LFO rate,Adjusts the LFO frequency,3,35,0,127,,,,,0-based,,
+Moog,Sirin,Modulation,LFO VCO amount,Adjusts the modulation amount to the VCOs,13,45,0,127,,,,,0-based,,
+Moog,Sirin,Modulation,LFO VCF amount,Adjusts the modulation amount to the VCF,12,44,0,127,,,,,0-based,,
+Moog,Sirin,Modulation,LFO MIDI sync,Enables or disables syncing the LFO to MIDI clock messages,87,,0,127,,,,,0-based,,
+Moog,Sirin,Modulation,LFO sync clock div,Sets the LFO sync clock divider,86,,0,127,,,,,0-based,,
+Moog,Sirin,Modulation,LFO key trigger,Retriggers the LFO to the start of the cycle,82,,0,127,,,,,0-based,,0-63: Internal; 64-127: MIDI clock
+Moog,Sirin,Oscillators,VCO 1 wave,Sets the waveform of VCO 1,70,,0,127,,,,,0-based,,0-63: Saw; 64-127: Square
+Moog,Sirin,Oscillators,VCO 2 wave,Sets the waveform of VCO 2,71,,0,127,,,,,0-based,,0-63: Saw; 64-127: Square
+Moog,Sirin,Oscillators,VCO 2 frequency,Adjusts the frequency of VCO 2,17,49,0,127,,,,,0-based,,
+Moog,Sirin,Oscillators,VCO 2 beat,Adjusts the beat frequency of VCO 2 (default is 64),18,50,0,127,,,,,0-based,,
+Moog,Sirin,Oscillators,Note sync,Enables or disables note sync (default is off),81,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Sirin,Oscillators,Glide rate,Adjusts the glide (portamento) rate time,5,,0,127,,,,,0-based,,
+Moog,Sirin,Oscillators,Glide switch,Sets the state of the glide switch,65,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Sirin,Oscillators,Glide type,"Selects the type of glide: linear, constant rate, linear constant time, or exponential",92,,0,127,,,,,0-based,,0-42: LCR; 43-84: LCT; 85-127: EXP
+Moog,Sirin,Oscillators,Legato glide,Sets the state of the legato glide parameter when glide is enabled,83,,0,127,,,,,0-based,,0-63: Always glide; 64-127: Glide on legato notes only
+Moog,Sirin,Mixer,VCO 1 level,Adjusts the level of VCO 1,15,47,0,127,,,,,0-based,,
+Moog,Sirin,Mixer,VCO 2 level,Adjusts the level of VCO 2,16,48,0,127,,,,,0-based,,
+Moog,Sirin,Mixer,External In level,Adjusts the level of the external audio input (default is 64 for 50% level),27,59,0,127,,,,,0-based,,
+Moog,Sirin,Filter,Filter cutoff,Adjusts the filter cutoff frequency,19,51,0,127,,,,,0-based,,
+Moog,Sirin,Filter,Filter resonance,Adjusts the filter resonance parameter,21,53,0,127,,,,,0-based,,
+Moog,Sirin,Filter,Filter EG amount,Adjusts the EG,22,50,0,127,,,,,0-based,,
+Moog,Sirin,Filter,Filter KB track,Sets the amount of keyboard tracking for the filter (default is 32 - about 50%),20,54,0,127,,,,,0-based,,
+Moog,Sirin,Filter,Filter velocity sensitivity,Setgs the amount of filter velocity sensitivity (default is 64 for 50%),89,,0,127,,,,,0-based,,
+Moog,Sirin,Envelopes,VCF attack,Adjusts the filter envelope attack time,23,55,0,127,,,,,0-based,,
+Moog,Sirin,Envelopes,VCF delay / release,Adjusts the filter envelope decay and release time,24,56,0,127,,,,,0-based,,
+Moog,Sirin,Envelopes,VCF sustain,Adjusts the filter envelope sustain level,25,57,0,127,,,,,0-based,,
+Moog,Sirin,Envelopes,VCA attack,Adjusts the volume envelope attack time,28,60,0,127,,,,,0-based,,
+Moog,Sirin,Envelopes,VCA decay / release,Adjusts the volume envelope decay and release time,29,61,0,127,,,,,0-based,,
+Moog,Sirin,Envelopes,CVA sustain,Adjusts the volume envelope sustain level,30,62,0,127,,,,,0-based,,
+Moog,Sirin,Envelopes,Release switch,Sets the state of the release parameter,72,,0,127,,,,,0-based,,0-42: Legato on; 43-84: Legato off; 85-127: EG reset
+Moog,Sirin,Envelopes,Trigger mode,Sets the state of the envelope trigger,73,,0,127,,,,,0-based,,
+Moog,Sirin,Volume,VCA (output) level,Adjusts the audio output and the headphone volume,7,39,0,127,,,,,0-based,,
+Moog,Sirin,Volume,Volume velocity sensitivity,Sets the amount of volume velocity sensitivity (default is 64 for 50%),90,,0,127,,,,,0-based,,
+Moog,Sirin,Keyboard response,Key priority,Sets the note priority (default is last),91,0,0,127,,,,,0-based,,0-42: Low; 43-84: High; 87-127: Last
+Moog,Sirin,Mod wheel response,Mod wheel,Modulation performance control,1,33,0,127,,,,,0-based,,
+Moog,Sirin,Pitch wheel response,Bend up amount,Pitch wheel up performance control (default is +3 semitones),107,,0,127,,,,,0-based,,"0-15: Off; 16-31: 2 semitones; 32-47: 3 semitones, 48-63: 4 semitones; 64-79: 5 semitones; 80-95: 7 semitones; 96-111: 12 semitones; 112-127: 24 semitones"
+Moog,Sirin,Pitch wheel response,Bend down amount,Pitch wheel down performance control (default is -3 semitones),108,,0,127,,,,,0-based,,"0-15: Off; 16-31: 2 semitones; 32-47: 3 semitones, 48-63: 4 semitones; 64-79: 5 semitones; 80-95: 7 semitones; 96-111: 12 semitones; 112-127: 24 semitones"
+Moog,Sirin,Control,Local control off,Sets the state of the local control off parameter,122,,0,127,,,,,0-based,,0: Off; 127: On
+Moog,Sirin,All sounds off,MIDI panic message,,120,,0,127,,,,,0-based,,
+Moog,Sirin,All notes off,MIDI panic message,,123,,0,127,,,,,0-based,,

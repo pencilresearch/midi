@@ -2,7 +2,7 @@
 
 This is the MIDI CC and NRPN database maintained by User Camp. We want to document the MIDI implementation of every synthesizer. 
 
-You might like to [visit the project's website](https://midi.user.camp) to browse this data more conveniently.
+You might like to [visit the project's website at https://midi.guide](https://midi.guide/) to browse this data more conveniently.
 
 As well as the website, this database powers Condukt's built-in device definitions. Condukt is a performance MIDI controller for iPad. You can [sign up for Condukt's development newsletter](https://user.camp/apps/condukt/), or [follow us on Twitter](https://twitter.com/goodcondukt).
 
@@ -10,7 +10,7 @@ The portions of this database that refer to specific devices may be owned by the
 
 ## Contributing
 
-We welcome and value contributions from the community. You can open issues here on GitHub, or send us pull requests. Alternatively, download and alter any CSV you like, and email it to [midi@user.camp](mailto:midi@user.camp) and we'll publish your changes for you.
+We welcome and value contributions from the community. You can open issues here on GitHub, or send us pull requests. Alternatively, download and alter any CSV you like, and email it to [midi@midi.guide](mailto:midi@midi.guide) and we'll publish your changes for you.
 
 If you want to add a new device, download `template.csv` to get started. You can edit this file with a spreadsheet program (like Excel) or a text editor. 
 

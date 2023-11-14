@@ -1,30 +1,30 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes
-KORG,NTS-1,Envelope Generator,Type,Selects the amplitude EG type,14,,0,127,,,,,0-based,ADSR; AHR; AR; ARloop; Open
-KORG,NTS-1,Envelope Generator,Attack,Sets the time required for the EG to reach it’s maximum level once a note is played,16,,0,127,,,,,0-based,
-KORG,NTS-1,Envelope Generator,Release,Sets the time required for the EG to reach 0 once a note has ended,19,,0,127,,,,,0-based,
-KORG,NTS-1,Tremolo,Depth,,20,,0,127,,,,,0-based,
-KORG,NTS-1,Tremolo,Rate,,21,,0,127,,,,,0-based,
-KORG,NTS-1,Oscillator,LFO Rate,,24,,0,127,,,,,0-based,
-KORG,NTS-1,Oscillator,LFO Depth,,26,,0,127,,,,,0-based,
-KORG,NTS-1,Modulation,Time,,28,,0,127,,,,,0-based,
-KORG,NTS-1,Modulation,Depth,,29,,0,127,,,,,0-based,
-KORG,NTS-1,Delay,Time,,30,,0,127,,,,,0-based,
-KORG,NTS-1,Delay,Depth,,31,,0,127,,,,,0-based,
-KORG,NTS-1,Delay,Mix,,33,,0,127,,,,,0-based,
-KORG,NTS-1,Reverb,Time,,34,,0,127,,,,,0-based,
-KORG,NTS-1,Reverb,Depth,,35,,0,127,,,,,0-based,
-KORG,NTS-1,Reverb,Mix,Sets the dry/wet balance of the effect,36,,0,127,,,,,0-based,Dry/wet mix: d100-d001; --; w001-w100
-KORG,NTS-1,Filter,Type,Selects the filter type,42,,0,127,,,,,0-based,Lowpass-2pole; Lowpass-4 pole; Bandpass-2pole; Bandpass-4pole; Highpass-2 pole; Highpass-4pole; Off
-KORG,NTS-1,Filter,Cutoff,Sets the cutoff frequency altering the brightness of the sound,43,,0,127,,,,,0-based,
-KORG,NTS-1,Filter,Resonance,Adds emphasis to the overtones occurring at the cutoff frequency,44,,0,127,,,,,0-based,
-KORG,NTS-1,Filter,Sweep Depth,,46,,0,127,,,,,0-based,Cutoff sweep depth: u100-u001; --; d000-d100 Sets the direction (up/down) and depth of the cutoff sweep
-KORG,NTS-1,Filter,Sweep Rate,Sweep rate: F0.0–F30.0; Sets the cutoff sweep frequency,46,,0,127,,,,,0-based,
-KORG,NTS-1,Oscillator,Type,,53,,0,127,,,,,0-based,"Sawtooth; Square; VPM; User OSC. Comes preloaded with user oscillator ""Waves"""
-KORG,NTS-1,Oscillator,Shape,Amount of wave-shaping applied,54,,0,127,,,,,0-based,
-KORG,NTS-1,Oscillator,Alt,,55,,0,127,,,,,0-based,
-KORG,NTS-1,Modulation,Type,,88,,0,127,,,,,0-based,Off; Chorus; Ensemble; Phaser; Flanger
-KORG,NTS-1,Delay,Type,,89,,0,127,,,,,0-based,Off; Stereo; Mono; Ping Pong; High Pass; Tape
-KORG,NTS-1,Reverb,Type,,90,,0,127,,,,,0-based,Off; Hall; Plate; Space; Riser; Submarine
-KORG,NTS-1,Arpeggiator (ARP),Pattern,ARP pattern length,117,,0,127,,,,,0-based,1-24
-KORG,NTS-1,Arpeggiator (ARP),Intervals,,118,,0,127,,,,,0-based,
-KORG,NTS-1,Arpeggiator (ARP),Length,,119,,0,127,,,,,0-based,
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+KORG,NTS-1,Envelope Generator,Type,Selects the amplitude EG type,14,,0,127,,,,,0-based,,0: ADSR; 25: AHR; 50: AR; 75: AR loop; 127: Open
+KORG,NTS-1,Envelope Generator,Attack,Sets the time required for the EG to reach its maximum level once a note is played,16,,0,127,,,,,0-based,,
+KORG,NTS-1,Envelope Generator,Release,Sets the time required for the EG to reach 0 once a note has ended,19,,0,127,,,,,0-based,,
+KORG,NTS-1,Tremolo,Depth,,20,,0,127,,,,,0-based,,
+KORG,NTS-1,Tremolo,Rate,,21,,0,127,,,,,0-based,,
+KORG,NTS-1,Oscillator,LFO Rate,,24,,0,127,,,,,0-based,,
+KORG,NTS-1,Oscillator,LFO Depth,,26,,0,127,,,,,0-based,,
+KORG,NTS-1,Modulation,Time,,28,,0,127,,,,,0-based,,
+KORG,NTS-1,Modulation,Depth,,29,,0,127,,,,,0-based,,
+KORG,NTS-1,Delay,Time,,30,,0,127,,,,,0-based,,
+KORG,NTS-1,Delay,Depth,,31,,0,127,,,,,0-based,,
+KORG,NTS-1,Delay,Mix,,33,,0,127,,,,,0-based,,
+KORG,NTS-1,Reverb,Time,,34,,0,127,,,,,0-based,,
+KORG,NTS-1,Reverb,Depth,,35,,0,127,,,,,0-based,,
+KORG,NTS-1,Reverb,Mix,Sets the dry/wet balance of the effect,36,,0,127,,,,,Centered,,
+KORG,NTS-1,Filter,Type,Selects the filter type,42,,0,127,,,,,0-based,,0: Lowpass-2pole; 18: Lowpass-4 pole; 36: Bandpass-2pole; 54: Bandpass-4pole; 72: Highpass-2 pole; 90: Highpass-4pole; 127: Off
+KORG,NTS-1,Filter,Cutoff,Sets the cutoff frequency altering the brightness of the sound,43,,0,127,,,,,0-based,,
+KORG,NTS-1,Filter,Resonance,Adds emphasis to the overtones occurring at the cutoff frequency,44,,0,127,,,,,0-based,,
+KORG,NTS-1,Filter,Sweep Depth,,45,,0,127,,,,,Centered,,0~62: Cutoff depth (up); 63: None; 64~127: Cutoff depth (down)
+KORG,NTS-1,Filter,Sweep Rate,Sweep rate: F0.0–F30.0; Sets the cutoff sweep frequency,46,,0,127,,,,,0-based,,
+KORG,NTS-1,Oscillator,Type,,53,,0,127,,,,,0-based,"Comes preloaded with user oscillator ""Waves""",0: Sawtooth; 25: Tri; 50: Square; 75: VPM; 127: Waves (User)
+KORG,NTS-1,Oscillator,Shape,Amount of wave-shaping applied,54,,0,127,,,,,0-based,,
+KORG,NTS-1,Oscillator,Alt,,55,,0,127,,,,,0-based,,
+KORG,NTS-1,FX,Modulation type,,88,,0,127,,,,,0-based,,0: Off; 25: Chorus; 50: Ensemble; 75: Phase; 127: Flanger
+KORG,NTS-1,FX,Delay type,,89,,0,127,,,,,0-based,,0: Off; 21: Stereo; 42: MNono; 63: Ping pong; 84: Highpass; 127: Tape
+KORG,NTS-1,FX,Reverb type,,90,,0,127,,,,,0-based,,0: Off; 21: Hall; 42: Plate; 63: Space; 84: Riser; 127: Submarine
+KORG,NTS-1,Arpeggiator,Pattern,ARP pattern length,117,,0,127,,,,,0-based,,0: Up; 12: Down; 24: Up-down; 36: Down-up; 48: Conv; 60: Div; 72: Conv-div; 84: Div-conv; 96: Rand; 127: Stoch
+KORG,NTS-1,Arpeggiator,Intervals,,118,,0,127,,,,,0-based,,0: Oct; 21: Maj; 42: Sus; 63: Aug; 84: Min; 127: Dim
+KORG,NTS-1,Arpeggiator,Length,,119,,0,127,,,,,0-based,,

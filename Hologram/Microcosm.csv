@@ -1,0 +1,36 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Hologram,Microcosm,Time,Subdivision,,5,,0,127,,,,,0-based,,0: 1/4; 1: 1/2; 2: TAP; 3: 2x; 4: 4x; 5: 8x
+Hologram,Microcosm,Special Sauce,Activity,Controls the density of the effects. Increase value to add complexity and variety.,6,,0,127,,,,,0-based,,
+Hologram,Microcosm,Modulation,Shape,Applies a contour to the volume or filter characteristics of the effect.,7,,0,127,,,,,0-based,,0-31: Square; 32-63: Ramp; 64-95: Triangle; 96-127: Saw
+Hologram,Microcosm,Filter,Cutoff,Cuts high frequencies with the Low-pass filter.,8,,0,127,,,,,0-based,,
+Hologram,Microcosm,Effect,Mix,Sets the balance between input signal and effect.,9,,0,127,,,,,0-based,,
+Hologram,Microcosm,Time,Time,Controls either the Time Subdivision or Global Tempo.,10,,0,127,,,,,0-based,,
+Hologram,Microcosm,Special Sauce,Repeats,Determines the effect duration or frequency. Works in tandem with Activity knob. Repeats function varies preset to preset.,11,,0,127,,,,,0-based,,
+Hologram,Microcosm,Reverb,Space,"Mixes in reverberation and delay. When at 127, mix is 100% wet.",12,,0,127,,,,,0-based,,
+Hologram,Microcosm,Looper,Loop level,Sets the playback volume of Phrase Looper.,13,,0,127,,,,,0-based,,
+Hologram,Microcosm,Modulation,Frequency,Sets the Pitch Modulation rate.,14,,0,127,,,,,0-based,,
+Hologram,Microcosm,Filter,Resonance,Adjusts the filter resonance.,15,,0,127,,,,,0-based,,
+Hologram,Microcosm,Effect,Volume,Adjusts the effect master volume.,16,,0,127,,,,,0-based,,
+Hologram,Microcosm,Looper,Looper playback speed,,17,,0,127,,,,,0-based,,
+Hologram,Microcosm,Looper,Looper playback (stepped),,18,,0,127,,,,,0-based,,0: 1/4; 1: 1/2; 2: TAP; 3: 2x; 4: 4x; 5: 8x
+Hologram,Microcosm,Modulation,Depth,,19,,0,127,,,,,0-based,,
+Hologram,Microcosm,Reverb,Time,Selects 1 of 4 reverb modes. These reverb options vary in length and character.,20,,0,127,,,,,0-based,Usage unconfirmed,0~31: Bright room; 32~63: Dark medium; 64~95: Large hall; 96~127: Ambient
+Hologram,Microcosm,Looper,Fade time,,21,,0,127,,,,,0-based,,
+Hologram,Microcosm,Looper,On/Off,,22,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Hologram,Microcosm,Looper,Playback direction,,23,,0,127,,,,,0-based,,0-63: Forward; 64-127: Reverse
+Hologram,Microcosm,Looper,Routing,,24,,0,127,,,,,0-based,,0-63: Post-FX; 64-127: Pre-FX
+Hologram,Microcosm,Looper,Only,Allows you to mute the effects and use the pedal as a traditional looper.,25,,0,127,,,,,0-based,"Pitch Modulation, Reverb, and Filter remain active in Looper Only mode. Mix allows you to blend back and forth.",0-63: Looper & Effects; 64-127: Looper Only
+Hologram,Microcosm,Looper,Burst,"Burst allows for the creation of fast, one-layer loops.",26,,0,127,,,,,0-based,Phrases recorded in Burst mode will not be saved within User Presets unless Burst is deselected after recording.,0-63: Default; 64-127: Burst
+Hologram,Microcosm,Looper,Quantized,"When the Phrase Looper is set to Quantize, Microcosm will trim your loop to the nearest beat in order to synchronize the loop to the effect tempo.",27,,0,127,,,,,0-based,"Effect subdivision can be changed freely while Quantize mode is active, but if the global tempo changes, the effect and loop will no longer be in sync. Simply switching presets will reset the global tempo to the quantized loop's tempo while this mode is active, re-syncing the effect and loop tempos.",0-63: Free; 64-127: Quantize
+Hologram,Microcosm,Looper,Record,,28,,0,127,,,,,0-based,,
+Hologram,Microcosm,Looper,Play,,29,,0,127,,,,,0-based,,
+Hologram,Microcosm,Looper,Overdub,,30,,0,127,,,,,0-based,You can infinitely record on top of your looped phrase by adding to the Overdub Layer.,
+Hologram,Microcosm,Looper,Stop,,31,,0,127,,,,,0-based,This action will end playback but retain the recording for recall. Trigger CC29 to return to phrase playback.,0-127: Stop
+Hologram,Microcosm,Looper,Erase,,34,,0,127,,,,,0-based,,0-127: Erase
+Hologram,Microcosm,Looper,Undo,,35,,0,127,,,,,0-based,Erases the Overdub Layer but retains the initial phrase.,0-127: Undo
+Hologram,Microcosm,Preset,Copy,,45,,0,127,,,,,0-based,,0-127: Copy
+Hologram,Microcosm,Preset,Save,,46,,0,127,,,,,0-based,,0-127: Save
+Hologram,Microcosm,Effect,Reverse effect,Reverse effect playback.,47,,0,127,,,,,0-based,,0-127: Reverse effect
+Hologram,Microcosm,Time,Hold Sampler,On to freeze a recent piece of your playing into a continuous playback cycle.,48,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Hologram,Microcosm,Time,Tap tempo,Microcosm smoothly matches the tempo to the timing of quarter note taps.,93,,0,127,,,,,0-based,,0-127: Tap
+Hologram,Microcosm,Effect,Bypass,Engages or disengages Microcosm.,102,,0,127,,,,,0-based,,0-63: Bypass; 64-127: Engage

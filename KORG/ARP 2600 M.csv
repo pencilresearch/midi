@@ -1,0 +1,6 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+KORG,ARP 2600 M,General,Portamento time,,5,,0,127,,,,,0-based,,0~127: Portamento time
+KORG,ARP 2600 M,General,Portamento,,65,,0,127,,,,,0-based,,0: Off; 1-127: On
+KORG,ARP 2600 M,General,Hold 2,,69,,0,127,,,,,0-based,Works as an interval latch.,0: Off; 1-127: On
+KORG,ARP 2600 M,General,All sound off,,120,,0,127,,,,,0-based,Treated as 'All notes off',0: Off; 1-127: On
+KORG,ARP 2600 M,General,Reset all controllers,,121,,0,127,,,,,0-based,,0: Off; 1-127: On
