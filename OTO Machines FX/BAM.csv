@@ -1,0 +1,13 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+OTO Machines FX,BAM,,Size,,12,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Predly,,13,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,MIX,,14,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Revtime,,15,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Damping,,16,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Active,,17,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Type,,18,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Ingain,,19,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Lowcut,,20,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Highcut,,21,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Chorus,,22,,0,127,,,,,0-based,,
+OTO Machines FX,BAM,,Freeze,,23,,0,127,,,,,0-based,,
