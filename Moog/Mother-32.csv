@@ -1,0 +1,8 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Moog,Mother-32,,Assign1,,1,,0,127,,,,,0-based,,
+Moog,Mother-32,,Assign2,,2,,0,127,,,,,0-based,,
+Moog,Mother-32,,Assign3,,4,,0,127,,,,,0-based,,
+Moog,Mother-32,,Assign4,,7,,0,127,,,,,0-based,,
+Moog,Mother-32,,Portamento Time,,5,,0,127,,,,,0-based,,
+Moog,Mother-32,,Portamento,,65,,0,127,,,,,0-based,,
+Moog,Mother-32,,Sustain,,64,,0,127,,,,,0-based,,
