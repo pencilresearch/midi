@@ -1,0 +1,57 @@
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Roland,System-1 (System-1M),General,Mod,,1,,0,127,,,,,0-based,,0: Off; 127: On
+Roland,System-1 (System-1M),Filter,Lpf cutoff,,3,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),General,Portamento,,5,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Filter,Reso,,9,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),General,Pedal control,,11,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),FX,Amp crusher,,12,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),FX,Delay time,,13,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Mix,Mixer osc1,,16,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Mix,Mixer osc2,,17,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Mix,Mixer sub osc,,18,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Mix,Mixer noise,,19,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),General,Pitch env,,22,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Pitch attack,,23,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Pitch decay,,24,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),LFO,Lfo pitch,,26,,0,127,,,,,Centered,
+Roland,System-1 (System-1M),LFO,Lfo fade time,,27,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),LFO,Lfo filter,,28,,0,127,,,,,Centered,
+Roland,System-1 (System-1M),LFO,Lfo rate,,29,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),LFO,Lfo amp,,30,,0,127,,,,,Centered,
+Roland,System-1 (System-1M),LFO,Lfo type,,35,,0,127,,,,,0-based,,0: Sin; 25: Tri; 51: Saw; 76: Squ; 102: S&H; 127: Digi
+Roland,System-1 (System-1M),Oscillators,Osc1 type,,46,,0,127,,,,,0-based,,0: Saw; 25: Squ; 51: Tri; 76: Saw2; 102: Squ2; 127: Tri2
+Roland,System-1 (System-1M),Oscillators,Osc1 range,,47,,0,127,,,,,0-based,,0: 64'; 25: 32'; 51: 16'; 76: 8'; 102: 4'; 127: 2'
+Roland,System-1 (System-1M),Oscillators,Osc1 color,,50,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Oscillators,Osc1 cross mod,,52,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Oscillators,Osc2 color,,55,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Oscillators,Osc2 tune,,56,,0,127,,,,,Centered,
+Roland,System-1 (System-1M),Oscillators,Osc1 mod,,60,,0,127,,,,,0-based,,0: Man; 25: LFO; 51: P. Env; 76: F. Env; 102: A. Env; 127: S. Osc
+Roland,System-1 (System-1M),Oscillators,Osc2 type,,61,,0,127,,,,,0-based,,0: Saw; 25: Squ; 51: Tri; 76: Saw2; 102: Squ2; 127: Tri2
+Roland,System-1 (System-1M),Oscillators,Osc2 range,,62,,0,127,,,,,0-based,,0: 64'; 25: 32'; 51: 16'; 76: 8'; 102: 4'; 127: 2'
+Roland,System-1 (System-1M),Oscillators,Osc2 mod,,63,,0,127,,,,,0-based,,0: Man; 25: LFO; 51: P. Env; 76: F. Env; 102: A. Env; 127: S. Osc
+Roland,System-1 (System-1M),General,Pedal hold,,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Roland,System-1 (System-1M),General,Amp tone,,69,,0,127,,,,,Centered,
+Roland,System-1 (System-1M),Filter,Hpf cutoff,,79,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Filter,Filter env,,81,,0,127,,,,,Centered,
+Roland,System-1 (System-1M),Filter,Filter key,,82,,0,127,,,,,Centered,
+Roland,System-1 (System-1M),Envelopes,Filter attack,,83,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Filter decay,,84,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Filter sustain,,85,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Filter release,,86,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Amp attack,,89,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Amp decay,,90,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),FX,Reverb,,91,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),FX,Delay,,94,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Amp sustain,,96,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Envelopes,Amp release,,97,,0,127,,,,,0-based,
+Roland,System-1 (System-1M),Oscillators,Osc1 variant toggle,,105,,0,1,,,,,0-based,,0: Std; 1: Akt
+Roland,System-1 (System-1M),Oscillators,Osc2 variant toggle,,106,,0,1,,,,,0-based,,0: Std; 1: Alt
+Roland,System-1 (System-1M),Oscillators,Osc2 ring,,111,,0,127,,,,,0-based,,0: Off; 127: On
+Roland,System-1 (System-1M),Oscillators,Osc2 sync,,112,,0,127,,,,,0-based,,0: Off; 127: On
+Roland,System-1 (System-1M),General,Mixer osc type,,113,,0,127,,,,,0-based,,0: 2Oct; 127: 1Oct
+Roland,System-1 (System-1M),General,Mixer noise type,,114,,0,127,,,,,0-based,,0: Pink; 127: White
+Roland,System-1 (System-1M),Filter,Filter type,,115,,0,127,,,,,0-based,,0: 24db; 127: 12db
+Roland,System-1 (System-1M),General,Legato,,116,,0,127,,,,,0-based,,0: Off; 127: On
+Roland,System-1 (System-1M),LFO,Lfo key trigger,,117,,0,127,,,,,0-based,,0: Off; 127: On
+Roland,System-1 (System-1M),General,Tempo sync,,118,,0,127,,,,,0-based,,0: Off; 127: On
+Roland,System-1 (System-1M),General,Mono,,119,,0,127,,,,,0-based,,0: Mono; 64: Uni; 127: Poly

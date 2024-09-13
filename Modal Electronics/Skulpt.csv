@@ -1,0 +1,100 @@
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Modal Electronics,Skulpt,General,Seq load,,0,,0,63,,,,,0-based,,
+Modal Electronics,Skulpt,Mod wheel,Modulation wheel,,1,,0,63,,,,,0-based,,
+Modal Electronics,Skulpt,General,Glide,,5,,0,127,,,,,0-based,0 - 2.5 seconds; exponential,
+Modal Electronics,Skulpt,General,Headphone volume,,7,,0,127,,,,,0-based,,
+Modal Electronics,Skulpt,General,Voice mode,,9,,0,127,,,,,0-based,,0-42: Mono; 43-85: Duo; 86-127: Poly
+Modal Electronics,Skulpt,General,Expression pedal,,11,,0,63,,,,,0-based,Min and max values need verification,
+Modal Electronics,Skulpt,Effects,Distortion,,12,,0,127,,,,,0-based,,
+Modal Electronics,Skulpt,Effects,Delay,,13,,0,127,,,,,0-based,,
+Modal Electronics,Skulpt,Effects,Delay time,,14,,0,127,,,,,0-based,No sync: 0-250ms. Sync: 8 steps with longest delay time possible divided down.,
+Modal Electronics,Skulpt,Effects,Delay feedback,,15,,0,127,,,,,0-based,Ranges from 0-90%,
+Modal Electronics,Skulpt,Oscillators,OSC1 wave,,16,,0,127,,,,,0-based,,0-21: Sine; 22-42: Tri; 43-63: Saw; 64-127: PWM
+Modal Electronics,Skulpt,Oscillators,OSC2 wave,,17,,0,127,,,,,0-based,,0-21: Sine; 22-42: Tri; 43-63: Saw; 64-85: Square; 86-127: White noise
+Modal Electronics,Skulpt,Oscillators,OSC mix,,18,,0,127,,,,,0-based,Orientation needs verification,
+Modal Electronics,Skulpt,Oscillators,FM amount,,19,,0,127,,,,,Centered,Plus or minus 2 octaves. Orientation needs verification.,
+Modal Electronics,Skulpt,Oscillators,Spread,,20,,0,127,,,,,0-based,,0-63: Unison; 64-70: Major; 71-77: Minor; 78-84: Major 6th; 85-91: Sus 4th; 92-98: 5ths; 99-105: 5th + oct; 106-112: oct + 1 + 2; 113-119: oct + 1 - 1; 119-127: oct - 1 - 2
+Modal Electronics,Skulpt,Oscillators,Chord mode,,21,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Skulpt,Envelopes,FEG attack,,22,,0,127,,,,,0-based,0-4 seconds,
+Modal Electronics,Skulpt,Envelopes,FEG decay,,23,,0,127,,,,,0-based,0-2 seconds,
+Modal Electronics,Skulpt,Envelopes,FEG sustain,,24,,0,127,,,,,0-based,0-1 seconds,
+Modal Electronics,Skulpt,Envelopes,FEG release,,25,,0,127,,,,,0-based,0-4 seconds,
+Modal Electronics,Skulpt,Envelopes,AEG attack,,26,,0,127,,,,,0-based,0-4 seconds,
+Modal Electronics,Skulpt,Envelopes,AEG decay,,27,,0,127,,,,,0-based,0-2 seconds,
+Modal Electronics,Skulpt,Envelopes,AEG sustain,,28,,0,127,,,,,0-based,0-1 seconds,
+Modal Electronics,Skulpt,Envelopes,AEG release,,29,,0,127,,,,,0-based,0-4 seconds,
+Modal Electronics,Skulpt,Oscillators,OSC2 course detune,,30,,0,127,,,,,0-based,Plus or minus 4 octaves,
+Modal Electronics,Skulpt,Oscillators,OSC2 fine detune,,31,,0,127,,,,,0-based,Plus or minus 1 semitone,
+Modal Electronics,Skulpt,Envelopes,FEG amount,,32,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Oscillators,Morph,,33,,0,127,,,,,0-based,,0: LP; 64: BP; 127: HP
+Modal Electronics,Skulpt,Filter,Cutoff,,34,,0,127,,,,,0-based,0Hz to 2kHz,
+Modal Electronics,Skulpt,Filter,Reso,,35,,0,127,,,,,0-based,,
+Modal Electronics,Skulpt,LFO,"LFO1 rate, no sync",,36,,0,127,,,,,0-based,"Behavior dependent on LFO1 MIDI Sync, CC 52",0~127: 0.02Hz to 32Hz
+Modal Electronics,Skulpt,LFO,"LFO1 rate, sync",,36,,0,127,,,,,0-based,"Behavior dependent on LFO1 MIDI Sync, CC 52",0-7: 1/16; 8-15: 1/8; 16-23: 3/16; 24-31: 1/4; 32-39: 3/8; 40-47: 1/2; 48-55: 3/4; 56-63: 1; 64-71: 3/2; 72-79: 2; 80-87: 3; 88-95: 4; 96-103: 6 /104-111: 8; 112-119: 12; 120-127: 16
+Modal Electronics,Skulpt,LFO,LFO1 depth,,37,,0,127,,,,,0-based,,
+Modal Electronics,Skulpt,LFO,LFO1 shape,,39,,0,127,,,,,0-based,,0-14: Sine; 15-31: iSine; 32-47: Tri; 48-63: iTri; 64-79: Ramp up; 80-95: Ramp down; 96-120: Square; 121-127: iSquare
+Modal Electronics,Skulpt,Oscillators,Octave,,40,,0,127,,,,,0-based,Octaves -2 to +4,
+Modal Electronics,Skulpt,Envelopes,MEG attack,,43,,0,127,,,,,0-based,0-4 seconds,
+Modal Electronics,Skulpt,Envelopes,MEG decay,,44,,0,127,,,,,0-based,0-2 seconds,
+Modal Electronics,Skulpt,Envelopes,MEG sustain,,45,,0,127,,,,,0-based,0-1 seconds,
+Modal Electronics,Skulpt,Envelopes,MEG release,,46,,0,127,,,,,0-based,0-4 seconds,
+Modal Electronics,Skulpt,LFO,"LFO2 rate, no sync",,47,,0,127,,,,,0-based,"Behavior dependent on LFO2 MIDI Sync, CC 54",0-63:  0-32Hz Free; 64-71: Root/8; 72-79: Root/4; 80-87: Root/2; 88-95: Root; 96-103: Root*1.5; 104-111: Root*2; 112-119: Root*2.5; 120-127: Root*3
+Modal Electronics,Skulpt,LFO,"LFO2 rate, sync",,47,,0,127,,,,,0-based,"Behavior dependent on LFO2 MIDI Sync, CC 54",0-7: 1/16; 8-15: 1/8; 16-23: 1/4; 24-31: 1/2; 32-39: 1; 40-47: 5/4; 48-55: 2; 56-63: 4
+Modal Electronics,Skulpt,LFO,LFO2 depth,,48,,0,127,,,,,0-based,,
+Modal Electronics,Skulpt,Envelopes,MEG amount,,49,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,LFO,LFO2 shape,,50,,0,127,,,,,0-based,,0-14: Sine; 15-31: iSine; 32-47: Tri; 48-63: iTri; 64-79: Ramp up; 80-95: Ramp down; 96-120: Square; 121-127: iSquare
+Modal Electronics,Skulpt,Envelopes,AEG amount,,51,,0,127,,,,,0-based,,
+Modal Electronics,Skulpt,LFO,LFO1 MIDI sync,,52,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Skulpt,General,Ring mod,,53,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Skulpt,LFO,LFO2 MIDI sync,,54,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Skulpt,Effects,Delay MIDI sync,,55,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Skulpt,LFO,LFO1 mode,,56,,0,127,,,,,0-based,,0-41: Retrig; 42-83: Free; 84-127: Single
+Modal Electronics,Skulpt,LFO,LFO2 mode,,57,,0,127,,,,,0-based,,0-41: Retrig; 42-83: Free; 84-127: Single
+Modal Electronics,Skulpt,Arpeggiator,Arp status,,58,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Skulpt,Arpeggiator,Arp octave,,59,,0,127,,,,,0-based,,0-31: 1 octave; 32-63: 2 octaves; 64-95: 3 octaves; 96-127: 4 octaves
+Modal Electronics,Skulpt,Arpeggiator,Arp direction,,60,,0,127,,,,,0-based,,0-20: Forwards; 21-41: Backwards; 42-62: Pendulum; 63-83: Note forwards; 84-104: Note backwards; 105-127: Note pendulum
+Modal Electronics,Skulpt,Arpeggiator,Arp division,,61,,0,127,,,,,0-based,Value / 16 = 1/32nd 1/24th 1/16th 1/12th 1/8th 1/6th 1/4th or 1/2,
+Modal Electronics,Skulpt,General,Velo depth,,62,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,General,Note depth,,63,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,General,Sustain pedal,,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Skulpt,General,Aftertouch depth,,65,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,General,Ext depth,,66,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Sequencer,Sequence length,,67,,0,127,,,,,0-based,,0-31: 1 bar; 32-63: 2 bars; 64-95: 4 bars; 96-127: 8 bars
+Modal Electronics,Skulpt,Sequencer,Sequence hold,,70,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Skulpt,Sequencer,Sequence loop,,71,,0,127,,,,,0-based,,0: Set loop stop point; 127: Set loop start point
+Modal Electronics,Skulpt,General,Transpose,,75,,0,127,,,,,0-based,From -24 to +36 sent as (value + 24) * 2,
+Modal Electronics,Skulpt,Sequencer,Swing,,78,,0,127,,,,,0-based,,
+Modal Electronics,Skulpt,Animate,Anim 1 cc,,80,,0,127,,,,,0-based,CC number of new destination,
+Modal Electronics,Skulpt,Animate,Anim 2 cc,,81,,0,127,,,,,0-based,CC number of new destination,
+Modal Electronics,Skulpt,Animate,Anim 3 cc,,82,,0,127,,,,,0-based,CC number of new destination,
+Modal Electronics,Skulpt,Animate,Anim 4 cc,,83,,0,127,,,,,0-based,CC number of new destination,
+Modal Electronics,Skulpt,Envelopes,All envelope attack,,84,,0,127,,,,,0-based,0-4 seconds,
+Modal Electronics,Skulpt,Envelopes,All envelope decay,,85,,0,127,,,,,0-based,0-2 seconds,
+Modal Electronics,Skulpt,Envelopes,All envelope sustain,,86,,0,127,,,,,0-based,0-1 seconds,
+Modal Electronics,Skulpt,Envelopes,All envelope release,,87,,0,127,,,,,0-based,0-4 seconds,
+Modal Electronics,Skulpt,Mod slots,Mod slot 1 depth,,88,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 2 depth,,89,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 3 depth,,90,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 4 depth,,91,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 5 depth,,92,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 6 depth,,93,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 7 depth,,94,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 8 depth,,95,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod wheel,Mod wheel depth,,96,,0,127,,,,,Centered,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 1 source,,101,,0,7,,,,,0-based,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 2 source,,102,,0,7,,,,,0-based,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 3 source,,103,,0,7,,,,,0-based,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 4 source,,104,,0,7,,,,,0-based,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 5 source,,105,,0,7,,,,,0-based,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 6 source,,106,,0,7,,,,,0-based,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 7 source,,107,,0,7,,,,,0-based,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 8 source,,108,,0,7,,,,,0-based,,
+Modal Electronics,Skulpt,Mod slots,Mod slot 1 dest,,111,,0,36,,,,,0-based,Listed as CC 101 in the manual,
+Modal Electronics,Skulpt,Mod slots,Mod slot 2 dest,,112,,0,36,,,,,0-based,Listed as CC 102 in the manual,
+Modal Electronics,Skulpt,Mod slots,Mod slot 3 dest,,113,,0,36,,,,,0-based,Listed as CC 103 in the manual,
+Modal Electronics,Skulpt,Mod slots,Mod slot 4 dest,,114,,0,36,,,,,0-based,Listed as CC 104 in the manual,
+Modal Electronics,Skulpt,Mod slots,Mod slot 5 dest,,115,,0,36,,,,,0-based,Listed as CC 105 in the manual,
+Modal Electronics,Skulpt,Mod slots,Mod slot 6 dest,,116,,0,36,,,,,0-based,Listed as CC 106 in the manual,
+Modal Electronics,Skulpt,Mod slots,Mod slot 7 dest,,117,,0,36,,,,,0-based,Listed as CC 107 in the manual,
+Modal Electronics,Skulpt,Mod slots,Mod slot 8 dest,,118,,0,36,,,,,0-based,Listed as CC 108 in the manual,
+Modal Electronics,Skulpt,General,Randomise patch,,121,,0,1,,,,,0-based,,

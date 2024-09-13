@@ -1,0 +1,50 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Modal Electronics,Craft,General,Modulation Wheel,,1,,0,127,,,,,0-based,,
+Modal Electronics,Craft,General,Glide,,5,,0,127,,,,,0-based,"0 - 2.5 seconds, exponential",
+Modal Electronics,Craft,General,Headphone Volume,,7,,0,127,,,,,0-based,Silence - full volume,
+Modal Electronics,Craft,General,Expression Pedal,,11,,0,127,,,,,0-based,,
+Modal Electronics,Craft,FX,Distortion,,12,,0,127,,,,,0-based,Dry - Wet,
+Modal Electronics,Craft,FX,Delay,,13,,0,127,,,,,0-based,Dry - Wet,
+Modal Electronics,Craft,FX,Delay Time,,14,,0,127,,,,,0-based,"No Sync: 0 - 250 milliseconds / Sync: 8 steps, Longest delay time possible divided down ",
+Modal Electronics,Craft,FX,Delay Feedback,,15,,0,127,,,,,0-based,0% - 90%,
+Modal Electronics,Craft,VCO,Osc1 Wave,,16,,0,127,,,,,0-based,,
+Modal Electronics,Craft,VCO,Osc2 Wave,,17,,0,127,,,,,0-based,,
+Modal Electronics,Craft,VCO,Osc Mix,,18,,0,127,,,,,Centered,Osc1 - Osc2,
+Modal Electronics,Craft,VCO,Osc-Mod Amount,,19,,0,127,,,,,0-based,0 - Full,
+Modal Electronics,Craft,VCO,Spread,,20,,0,127,,,,,0-based,,0-63: Unison; 64-70: Major; 71-77: Minor; 78-84: Major 6th; 85-91: Sus 4th; 92-98: 5ths; 99-105: 5th + Oct; 106-112: Oct + 1 + 2; 113-119: Oct + 1 - 1; 119-127: Oct - 1 - 2
+Modal Electronics,Craft,VCF,FEG Attack,,22,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,VCF,FEG Decay,,23,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,VCF,FEG Sustain,,24,,0,127,,,,,0-based,0-1,
+Modal Electronics,Craft,VCF,FEG Release,,25,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,VCA,AEG Attack,,26,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,VCA,AEG Decay,,27,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,VCA,AEG Sustain,,28,,0,127,,,,,0-based,0-1,
+Modal Electronics,Craft,VCA,AEG Release,,29,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,VCO,Osc2 Course Detune,,30,,0,127,,,,,0-based,+/- 4 Octaves,
+Modal Electronics,Craft,VCO,Osc2 Fine Detune,,31,,0,127,,,,,0-based,-/+ 1 Semitone,
+Modal Electronics,Craft,VCF,FEG Amount,,32,,0,127,,,,,Centered,,
+Modal Electronics,Craft,General,Morph,,33,,0,127,,,,,0-based,,0: LP; 64: BP; 127: HP
+Modal Electronics,Craft,VCF,Cutoff,,34,,0,127,,,,,0-based,0Hz - 22kHz,
+Modal Electronics,Craft,VCF,Reso,,35,,0,127,,,,,0-based,None-Full,
+Modal Electronics,Craft,LFO,"LFO1 Rate, no sync",,36,,0,127,,,,,0-based,"Depends on LFO1 MIDI Sync, CC 52",0~127: 0.02Hz to 32Hz
+Modal Electronics,Craft,LFO,"LFO Rate, sync",,36,,0,127,,,,,0-based,"Depends on LFO1 MIDI Sync, CC 52",0-7: 1/16; 8-15: 1/8; 16-23: 3/16; 24-31: 1/4; 32-39: 3/8; 40-47: 1/2; 48-55: 3/4; 56-63: 1; 64-71: 3/2; 72-79: 2; 80-87: 3; 88-95: 4; 96-103: 6 /104-111: 8; 112-119: 12; 120-127: 16
+Modal Electronics,Craft,LFO,LFO1 Depth,,37,,0,127,,,,,Centered,,
+Modal Electronics,Craft,LFO,LFO1 Shape,,39,,0,127,,,,,0-based,,0~32: Sine to Triangle; 33~64: Triangle to Sawtooth; 65~96: Sawtooth to Square; 97~127: Square to Sample and Hold
+Modal Electronics,Craft,General,Octave,,40,,0,127,,,,,0-based,Octaves -2 to +4,
+Modal Electronics,Craft,General,Osc-Mod Mode,,41,,0,127,,,,,0-based,16 Modes,
+Modal Electronics,Craft,Mod,MEG Attack,,43,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,Mod,MEG Decay,,44,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,Mod,MEG Sustain,,45,,0,127,,,,,0-based,0-1,
+Modal Electronics,Craft,Mod,MEG Release,,46,,0,127,,,,,0-based,0-4 Seconds,
+Modal Electronics,Craft,LFO,"LFO2 Rate, no sync",,47,,0,127,,,,,0-based,"Depends on LFO2 MIDI Sync, CC 54",0-63:  0-32Hz Free; 64-71: Root/8; 72-79: Root/4; 80-87: Root/2; 88-95: Root; 96-103: Root*1.5; 104-111: Root*2; 112-119: Root*2.5; 120-127: Root*3
+Modal Electronics,Craft,LFO,"LFO2 Rate, sync",,47,,0,127,,,,,0-based,"Depends on LFO2 MIDI Sync, CC 54",0-7: 1/16; 8-15: 1/8; 16-23: 1/4; 24-31: 1/2; 32-39: 1; 40-47: 5/4; 48-55: 2; 56-63: 4
+Modal Electronics,Craft,LFO,LFO2 Depth,,48,,0,127,,,,,Centered,,
+Modal Electronics,Craft,LFO,LFO2 Shape,,50,,0,127,,,,,0-based,,0~32: Sine to Triangle; 33~64: Triangle to Sawtooth; 65~96: Sawtooth to Square; 97~127: Square to Sample and Hold
+Modal Electronics,Craft,VCA,AEG Amount,,51,,0,127,,,,,Centered,,
+Modal Electronics,Craft,LFO,LFO1 MIDI Sync,,52,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Craft,LFO,LFO2 MIDI Sync,,54,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Craft,General,Delay MIDI Sync,,55,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Craft,LFO,LFO1 Mode,,56,,0,127,,,,,0-based,,0-41: Retrig; 42-83: Free; 84-127: Single
+Modal Electronics,Craft,LFO,LFO2 Mode,,57,,0,127,,,,,0-based,,0-41: Retrig; 42-83: Free; 84-127: Single
+Modal Electronics,Craft,General,Arp Status,,58,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Modal Electronics,Craft,General,Sustain Pedal,,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On

@@ -1,0 +1,83 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Moog,Subsequent 37,Oscillators,OSC 1 wave,,9,41,0,127,,,,,0-based,,
+Moog,Subsequent 37,Oscillators,OSC 2 frequency,,12,44,0,127,,,,,0-based,,
+Moog,Subsequent 37,Oscillators,OSC 2 beat frequency,,13,45,0,127,,,,,0-based,,
+Moog,Subsequent 37,Oscillators,OSC 2 wave,,14,46,0,127,,,,,0-based,,
+Moog,Subsequent 37,Oscillators,OSC 1 octave,,74,,0,127,,,,,0-based,,0: 16'; 32: 8'; 64: 4'; 96: 2'
+Moog,Subsequent 37,Oscillators,OSC 2 octave,,75,,0,127,,,,,0-based,,0: 16'; 32: 8'; 64: 4'; 96: 2'
+Moog,Subsequent 37,Oscillators,OSC 2 hard sync on/off,,77,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Oscillators,OSC duo mode on/off,,110,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Oscillators,OSC KB reset on/off,,81,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,LFO,LFO 1 rate,,3,35,0,127,,,,,0-based,,
+Moog,Subsequent 37,LFO,LFO 2 rate,,8,40,0,127,,,,,0-based,,
+Moog,Subsequent 37,LFO,LFO 1 range,,76,,0,127,,,,,0-based,,0: Low range; 43: Medium range; 85: High range
+Moog,Subsequent 37,LFO,LFO 2 range,,78,,0,127,,,,,0-based,,0: Low range; 43: Medium range; 85: High range
+Moog,Subsequent 37,LFO,LFO 1 KB reset,,93,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,LFO,LFO 2 KB reset,,95,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Glide,Glide,,65,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Glide,Glide type,,85,,0,127,,,,,0-based,,0: LCR; 43: LCT; 85: EXP
+Moog,Subsequent 37,Glide,Glide legato,,94,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Glide,Glide dest OSC 1/2/both,,102,,0,127,,,,,0-based,,0: OSC 1 + OSC 2; 43: OSC 1; 85: OSC 2
+Moog,Subsequent 37,Mod,Mod 1 source,,71,,0,127,,,,,0-based,,0: Triangle LFO; 21: Square LFO; 43: Saw LFO; 64: Ramp LFO; 85: S&H LFO; 107: F.EG/PGM
+Moog,Subsequent 37,Mod,Mod 1 destination,,91,,0,127,,,,,0-based,,0: LFO 2 rate; 18: VCA level; 37: OSC 1 wave; 55: OSC 1 + OSC 2 wave; 73: OSC 2 wave; 91: noise level; 110: EG time/PGM
+Moog,Subsequent 37,Mod,Mod 1 PGM destination amount,,20,52,0,127,,,,,0-based,,
+Moog,Subsequent 37,Mod,Mod 1 OSC 1/2 select,,70,,0,127,,,,,0-based,,0: OSC 1 + OSC 2; 43: OSC 1; 85: OSC 2
+Moog,Subsequent 37,Mod,Mod 2 pitch amount,,15,47,0,127,,,,,0-based,,
+Moog,Subsequent 37,Mod,Mod 2 filter amount,,16,48,0,127,,,,,0-based,,
+Moog,Subsequent 37,Mod,Mod 2 PGM destination amount,,17,49,0,127,,,,,0-based,,
+Moog,Subsequent 37,Mod,Mod 2 source,,72,,0,127,,,,,0-based,,0: Triangle LFO; 21: Square LFO; 43: Saw LFO; 64: Ramp LFO; 85: S&H LFO; 107: F.EG/PGM
+Moog,Subsequent 37,Mod,Mod 2 destination,,92,,0,127,,,,,0-based,,0: LFO 2 rate; 18: VCA level; 37: OSC 1 wave; 55: OSC 1 + OSC 2 wave; 73: OSC 2 wave; 91: noise level; 110: EG time/PGM
+Moog,Subsequent 37,Mod,Mod 2 OSC 1/2 SEL,,88,,0,127,,,,,0-based,,0: OSC 1 + OSC 2; 43: OSC 1; 85: OSC 2
+Moog,Subsequent 37,Filter,Filter multidrive,,18,50,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter,Filter cutoff,,19,51,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter,Filter resonance,,21,53,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter,Filter KB amount,,22,54,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter,Filter slopes (poles),,109,,0,127,,,,,0-based,,0: -6dB; 32: -12dB; 64: -18dB; 96: -24dB
+Moog,Subsequent 37,Filter EG,Filter EG attack time,,23,55,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG decay time,,24,56,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG sustain time,,25,57,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG release time,,26,58,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG amount,,27,59,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG KB amount,,79,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG reset,,82,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Filter EG,Filter EG velocity amount,,86,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG delay,,103,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG hold,,105,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Filter EG,Filter EG multi trig,,112,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Amp EG,Amp EG attack time,,28,60,0,127,,,,,0-based,,
+Moog,Subsequent 37,Amp EG,Amp EG decay time,,29,61,0,127,,,,,0-based,,
+Moog,Subsequent 37,Amp EG,Amp EG sustain time,,30,62,0,127,,,,,0-based,,
+Moog,Subsequent 37,Amp EG,Amp EG release time,,31,63,0,127,,,,,0-based,,
+Moog,Subsequent 37,Amp EG,Amp EG KB amount,,80,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Amp EG,Amp EG reset,,83,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Amp EG,Amp EG velocity amount,,87,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Amp EG,Amp EG delay,,104,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Amp EG,Amp EG hold,,106,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Amp EG,Amp EG multi trig,,113,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Arpeggiator,Arpeggiator latch,,69,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Arpeggiator,Arpeggiator on/off,,73,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Levels,OSC 1 level,,114,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Levels,OSC 1 sub level,,115,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Levels,OSC 2 level,,116,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Levels,Noise level,,117,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Levels,Feedback ext/level,,118,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,KB transpose,,119,,0,127,,,,,Centered,-12 to +13 semitones,
+Moog,Subsequent 37,Other,Local control on/off,,122,,0,127,,,,,0-based,,0: Off; 127: On
+Moog,Subsequent 37,Other,Bank select (MSB),,0,,0,0,,,,,0-based,0 is the only valid value,
+Moog,Subsequent 37,Other,Bank select (LSB),,,32,0,2,,,,,0-based,,0: Preset banks 1-8; 2: preset banks 9-16
+Moog,Subsequent 37,Other,Mod wheel,,1,33,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,MIDI breath control (reserved),,2,34,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,Mod 1 pitch amount,,4,36,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,Glide time,,5,37,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,Data entry (reserved),,6,38,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,Master volume,,7,39,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,MIDI pan (reserved),,10,42,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,Mod 1 filter amount,,11,43,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,Hold pedal/sustain,,64,,0,127,,,,,0-based,,0: Off; 64: On
+Moog,Subsequent 37,Other,Portamento control (reserved),,84,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,Data decrement (reserved),,97,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,KB octave,,89,,0,127,,,,,Centered,,0: -2 octaves; 26: -1 octaves; 51: 0 octaves; 77: +1 octaves; 102: +2 octaves
+Moog,Subsequent 37,Other,Data increment (reserved),,96,,0,127,,,,,0-based,,
+Moog,Subsequent 37,Other,Pitch bend up amount,,107,,0,127,,,,,0-based,0-24 semitones,
+Moog,Subsequent 37,Other,Pitch bend down amount,,108,,0,127,,,,,0-based,0-24 semitones,
+Moog,Subsequent 37,Other,KB control lo/hi,,111,,0,127,,,,,0-based,,0: Neither; 32: Lo; 64: Hi

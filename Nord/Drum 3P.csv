@@ -1,5 +1,5 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Nord,Drum 3P,,Bank Select MSB,,,,0,127,,,,,0-based,,
+Nord,Drum 3P,,Bank Select MSB,,0,,0,127,,,,,0-based,,
 Nord,Drum 3P,,Level,,7,,0,127,,,,,0-based,,
 Nord,Drum 3P,,PAN,,10,,0,127,,,,,0-based,,
 Nord,Drum 3P,,Reverb Type,,12,,0,127,,,,,0-based,,
