@@ -15,4 +15,4 @@ Make Noise,0-Coast,General,Aftertouch scale B,"Sets the amount of aftertouch on 
 Make Noise,0-Coast,General,Velocity scale A,Sets the minimum velocity value for MIDI channel A,112,,0,127,,,,,0-based,,
 Make Noise,0-Coast,General,Velocity scale B,Sets the minimum velocity value for MIDI channel B,113,,0,127,,,,,0-based,,
 Make Noise,0-Coast,MIDI and CV control,MIDI block switch,Turns the MIDI clock on or off,114,,0,127,,,,,0-based,,0: Off; 1: On
-Make Noise,0-Coast,General,Tempo in divisor,Divides the tempo in as reflected in clock out,116,,0,127,,,,,0-based,,0-1: 1/1; 2~127: Set divisor
+Make Noise,0-Coast,General,Tempo in divisor,Divides the tempo in as reflected in clock out,116,,0,127,,,,,0-based,,0 to 1: 1/1; 2~127: Set divisor
