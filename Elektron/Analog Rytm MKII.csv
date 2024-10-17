@@ -9,7 +9,7 @@ Elektron,Analog Rytm MKII,Trig,LFO Trig,,14,,0,1,3,6,0,1,0-based,,0: Off; 1: On
 Elektron,Analog Rytm MKII,Kit,Track Level,,95,,0,127,1,100,0,127,0-based,,
 Elektron,Analog Rytm MKII,Kit,Track Mute (seq. mute),,94,,0,1,1,101,0,1,0-based,,0: Unmute; 1: Mute
 Elektron,Analog Rytm MKII,Kit,Track Solo (seq. mute),,93,,0,1,1,102,0,1,0-based,,0: Unsolo; 1: Solo
-Elektron,Analog Rytm MKII,Kit,Track Machine Type,,15,,1,33,1,103,1,33,0-based,,1: BD Classic; 13: BD FM; 21: BD Plastic; 22: BD Silky; 26: BD Sharp; 30: BD Accoustic; 28: SY Dual VCO; 29: SY Chip; 32: SY Raw; 2: SD Hard; 3: SD Classic; 14: SD FM; 23: SD Natural; 31: SD Accoustic; 15: UT Noise; 16: UT Impulse; 27: Disable; 4: RS Hard; 5: RS Hard; 6: CP Classic; 7: BT Classic; 8: XT Classic; 9: CH Classic; 17: CH Metallic; 10: OH Classic; 18: OH Metallic; 24: HH Basic; 33: HH Lab; 11: CY Classic; 19: CY Metallic; 25: CY Ride; 12: CB Classic; 20: CB Metallic
+Elektron,Analog Rytm MKII,Kit,Track Machine Type,,15,,1,33,1,103,1,33,0-based,,1: BD Classic; 13: BD FM; 21: BD Plastic; 22: BD Silky; 26: BD Sharp; 30: BD Acoustic; 28: SY Dual VCO; 29: SY Chip; 32: SY Raw; 2: SD Hard; 3: SD Classic; 14: SD FM; 23: SD Natural; 31: SD Acoustic; 15: UT Noise; 16: UT Impulse; 27: Disable; 4: RS Hard; 5: RS Hard; 6: CP Classic; 7: BT Classic; 8: XT Classic; 9: CH Classic; 17: CH Metallic; 10: OH Classic; 18: OH Metallic; 24: HH Basic; 33: HH Lab; 11: CY Classic; 19: CY Metallic; 25: CY Ride; 12: CB Classic; 20: CB Metallic
 Elektron,Analog Rytm MKII,Kit,Active Scene,,92,,0,127,1,104,0,127,0-based,,
 Elektron,Analog Rytm MKII,Performance,Performance Parameter 1,,35,,0,127,0,0,0,127,0-based,,
 Elektron,Analog Rytm MKII,Performance,Performance Parameter 2,,36,,0,127,0,1,0,127,0-based,,
@@ -59,7 +59,7 @@ Elektron,Analog Rytm MKII,LFO,LFO Speed,,102,,0,127,1,32,0,127,0-based,,
 Elektron,Analog Rytm MKII,LFO,LFO Multiplier,,103,,0,23,1,33,0,23,0-based,,
 Elektron,Analog Rytm MKII,LFO,LFO Fade In/Out,,104,,0,127,1,34,0,127,0-based,,
 Elektron,Analog Rytm MKII,LFO,LFO Destination,,105,,0,41,1,35,0,41,0-based,,
-Elektron,Analog Rytm MKII,LFO,LFO Waveform,,106,,0,6,1,36,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Sawtooth, 4: Exponential; 5: Ramp; 6: Random
+Elektron,Analog Rytm MKII,LFO,LFO Waveform,,106,,0,6,1,36,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Sawtooth; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Analog Rytm MKII,LFO,LFO Start Phase,,107,,0,127,1,37,0,127,0-based,,
 Elektron,Analog Rytm MKII,LFO,LFO Trig Mode,,108,,0,4,1,38,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Analog Rytm MKII,LFO,LFO Depth,,109,118,0,127,1,39,0,127,Centered,,
@@ -119,7 +119,7 @@ Elektron,Analog Rytm MKII,Synth: BD Classic,Tune,,17,,0,127,1,1,0,127,Centered,,
 Elektron,Analog Rytm MKII,Synth: BD Classic,Sweep Depth,,21,,0,127,1,5,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Classic,Sweep Time,,20,,0,127,1,4,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Classic,Decay,,18,,0,127,1,2,0,127,0-based,,
-Elektron,Analog Rytm MKII,Synth: BD Classic,Waveform,,22,,0,3,1,6,0,3,0-based,,0: Sine; 1: Asymmetric Sine; 2: Triangle
+Elektron,Analog Rytm MKII,Synth: BD Classic,Waveform,,22,,0,2,1,6,0,2,0-based,,0: Sine; 1: Asymmetric Sine; 2: Triangle
 Elektron,Analog Rytm MKII,Synth: BD Classic,Hold,,19,,0,127,1,3,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Classic,Transient Tick,,23,,0,55,1,7,0,55,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Classic,Level,,16,,0,127,1,0,0,127,0-based,,
@@ -139,6 +139,14 @@ Elektron,Analog Rytm MKII,Synth: BD Silky,Hold,,21,,0,127,1,5,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Silky,Dust Level,,23,,0,127,1,7,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Silky,VCO Click,,22,,0,127,1,6,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Silky,Level,,16,,0,127,1,0,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Acoustic,Tune,,17,,0,127,1,1,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: BD Acoustic,Sweep Time,,20,,0,127,1,4,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Acoustic,Sweep Depth,,19,,0,127,1,3,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Acoustic,Decay,,18,,0,127,1,2,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Acoustic,Hold Time,,21,,0,127,1,5,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Acoustic,Impact,,22,,0,127,1,6,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Acoustic,Waveform,,23,,0,11,1,7,0,11,0-based,,0: Sine (reset); 1: Sine (free); 2: Asymmetric Sine (reset); 3: Asymmetric Sine (free); 4: Triangle (reset); 5: Triangle (free); 6: Sinetooth (reset); 7: Sinetooth (free); 8: Sawtooth (reset); 9: Sawtooth (free); 10: Square (reset); 11: Square (free)
+Elektron,Analog Rytm MKII,Synth: BD Acoustic,Level,,16,,0,127,1,0,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: SD Natural,Tune,,17,,0,127,1,1,0,127,Centered,,
 Elektron,Analog Rytm MKII,Synth: SD Natural,Noise Decay,,19,,0,127,1,3,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: SD Natural,Noise Balance,,21,,0,127,1,5,0,127,0-based,,
@@ -171,6 +179,14 @@ Elektron,Analog Rytm MKII,Synth: SD FM,FM Amount,,23,,0,127,1,7,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: SD FM,Noise Decay,,21,,0,127,1,5,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: SD FM,Noise Level,,22,,0,127,1,6,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: SD FM,Level,,16,,0,127,1,0,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: SD Acoustic,Tune,,17,,0,127,1,1,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: SD Acoustic,Noise Decay,,19,,0,127,1,3,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: SD Acoustic,Noise Balance,,21,,0,127,1,5,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: SD Acoustic,Decay Time,,18,,0,127,1,2,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: SD Acoustic,Hold Time,,20,,0,127,1,4,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: SD Acoustic,Impact,,22,,0,127,1,6,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: SD Acoustic,Sweep Depth,,23,,0,127,1,7,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: SD Acoustic,Level,,16,,0,127,1,0,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: RS Hard,Tune,,17,,0,127,1,1,0,127,Centered,,
 Elektron,Analog Rytm MKII,Synth: RS Hard,Sweep Time,,23,,0,127,1,7,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: RS Hard,Sweep Depth,,19,,0,127,1,3,0,127,0-based,,
@@ -195,6 +211,7 @@ Elektron,Analog Rytm MKII,Synth: CP Classic,Noise Tone,,17,,0,127,1,1,0,127,0-ba
 Elektron,Analog Rytm MKII,Synth: CP Classic,Noise Decay,,18,,0,127,1,2,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: CP Classic,Noise Level,,21,,0,127,1,5,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: CP Classic,Level,,16,,0,127,1,0,0,127,0-based,,
+
 Elektron,Analog Rytm MKII,Synth: Dual VCO,Osc 1 Tune,,17,,0,127,,,,,Centered,,
 Elektron,Analog Rytm MKII,Synth: Dual VCO,Osc 2 Detune,,20,,0,127,,,,,Centered,,
 Elektron,Analog Rytm MKII,Synth: Dual VCO,Osc 1 Decay,,18,,0,127,,,,,0-based,,
@@ -203,6 +220,22 @@ Elektron,Analog Rytm MKII,Synth: Dual VCO,Osc Config,,21,,0,79,,,,,0-based,,0: S
 Elektron,Analog Rytm MKII,Synth: Dual VCO,Bend,,23,,0,127,,,,,Centered,,
 Elektron,Analog Rytm MKII,Synth: Dual VCO,Balance,,19,,0,127,,,,,Centered,,
 Elektron,Analog Rytm MKII,Synth: Dual VCO,Level,,16,,0,127,,,,,0-based,,
+Elektron,Analog Rytm MKII,Synth: Chip,Tune,,17,,0,127,,,,,Centered,,
+Elektron,Analog Rytm MKII,Synth: Chip,Waveform,,19,,0,127,,,,,0-based,,0: Analog Sine; 1: Asymmetric Sine; 2: Triangle; 3: Sinesaw; 4: Saw; 5: Square; 6: Noise; 7: Anim 1; 8: Anim 2; 9: Anim 3; 10: Anim 4; 11: Anim 5; 12: PWM+; 13: PWM-; 14: .TRI; 15: +TRI; 16: TRI+; 17: TRI*; 18: .SAW; 19: +SAW; 20: SAW+; 21: SAW*; 22: .SQR; 23: +SQR; 24: SQR+; 25: SQR*; 26: TBL1; 27: TBL2; 28: TBL3; 29: P1%; 30: P2%; 31: P3%; 32: P4%; 33: P5%; 34: P6%; 35: P7%; 36: P8%; 37: P9%; 38: P10%; 39: P11%; 40: P12%; 41: P13%; 42: P14%; 43: P15%; 44: P16%; 45: P17%; 46: P18%; 47: P19%; 48: P20%; 49: P21%; 50: P22%; 51: P23%; 52: P24%; 53: P25%; 54: P26%; 55: P27%; 56: P28%; 57: P29%; 58: P30%; 59: P31%; 60: P32%; 61: P33%; 62: P34%; 63: P35%; 64: P36%; 65: P37%; 66: P38%; 67: P39%; 68: P40%; 69: P41%; 70: P42%; 71: P43%; 72: P44%; 73: P45%; 74: P46%; 75: P47%; 76: P48%; 77: P49%; 78: P50%; 79: P51%; 80: P52%; 81: P53%; 82: P54%; 83: P55%; 84: P56%; 85: P57%; 86: P58%; 87: P59%; 88: P60%; 89: P61%; 90: P62%; 91: P63%; 92: P64%; 93: P65%; 94: P66%; 95: P67%; 96: P68%; 97: P69%; 98: P70%; 99: P71%; 100: P72%; 101: P73%; 102: P74%; 103: P75%; 104: P76%; 105: P77%; 106: P78%; 107: P79%; 108: P80%; 109: P81%; 110: P82%; 111: P83%; 112: P84%; 113: P85%; 114: P86%; 115: P87%; 116: P88%; 117: P89%; 118: P90%; 119: P91%; 120: P92%; 121: P93%; 122: P94%; 123: P95%; 124: P96%; 125: P97%; 126: P98%; 127: P99%
+Elektron,Analog Rytm MKII,Synth: Chip,Speed,,20,,0,127,,,,,0-based,,
+Elektron,Analog Rytm MKII,Synth: Chip,Decay,,18,,0,127,,,,,0-based,,
+Elektron,Analog Rytm MKII,Synth: Chip,Offset 2,,21,,40,88,,,,,Centered,,
+Elektron,Analog Rytm MKII,Synth: Chip,Offset 3,,22,,40,88,,,,,Centered,,
+Elektron,Analog Rytm MKII,Synth: Chip,Offset 4,,23,,40,88,,,,,Centered,,
+Elektron,Analog Rytm MKII,Synth: Chip,Level,,16,,0,127,,,,,0-based,,
+Elektron,Analog Rytm MKII,Synth: Raw,Tune,,17,,0,127,1,1,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: Raw,Detune,,20,,40,88,1,4,40,88,Centered,,
+Elektron,Analog Rytm MKII,Synth: Raw,Balance,,23,,0,127,1,7,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: Raw,Osc 2 Decay,,18,,0,127,1,2,0,127,0-based,,0-126: Time; 127: Infinite
+Elektron,Analog Rytm MKII,Synth: Raw,Osc 1 Wave,,21,,0,6,1,5,0,6,0-based,,0: Sine; 1: Asymetric Sine; 2: Triangle; 3: Sinesaw; 4: Assymetric Saw; 5: Saw; 6: Ring Modulator
+Elektron,Analog Rytm MKII,Synth: Raw,Osc 2 Wave,,22,,0,1,1,6,0,1,0-based,,0: Sine; 1: Sinesaw
+Elektron,Analog Rytm MKII,Synth: Raw,Noise Level,,19,,0,127,1,3,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: Raw,Level,,16,,0,127,1,0,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: BT Classic,Tune,,17,,0,127,1,1,0,127,Centered,,
 Elektron,Analog Rytm MKII,Synth: BT Classic,Decay,,18,,0,127,1,2,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: BT Classic,Snap,,21,,0,3,1,5,0,3,0-based,,
@@ -236,6 +269,14 @@ Elektron,Analog Rytm MKII,Synth: HH Basic,Transient Decay,,20,,0,127,1,4,0,127,0
 Elektron,Analog Rytm MKII,Synth: HH Basic,Decay,,18,,0,127,1,2,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: HH Basic,Osc Reset,,21,,0,1,1,5,0,1,0-based,,0: Off; 1: On
 Elektron,Analog Rytm MKII,Synth: HH Basic,Level,,16,,0,127,1,0,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: HH Lab,Tune 1,,17,,0,127,1,1,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: HH Lab,Decay,,18,,0,127,1,2,0,127,0-based,,
+Elektron,Analog Rytm MKII,Synth: HH Lab,Tune 2,,19,,0,127,1,3,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: HH Lab,Tune 3,,20,,0,127,1,4,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: HH Lab,Tune 4,,21,,0,127,1,5,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: HH Lab,Tune 5,,22,,0,127,1,6,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: HH Lab,Tune 6,,23,,0,127,1,7,0,127,Centered,,
+Elektron,Analog Rytm MKII,Synth: HH Lab,Level,,16,,0,127,1,0,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: CY Metallic,Tune,,17,,0,127,1,1,0,127,Centered,,
 Elektron,Analog Rytm MKII,Synth: CY Metallic,Tone,,19,,0,127,1,3,0,127,Centered,,
 Elektron,Analog Rytm MKII,Synth: CY Metallic,Transient Decay,,20,,0,127,1,4,0,127,0-based,,
