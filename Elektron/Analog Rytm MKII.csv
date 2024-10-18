@@ -47,14 +47,14 @@ Elektron,Analog Rytm MKII,Amp,Amp: Delay Send,,82,,0,127,1,28,0,127,0-based,,
 Elektron,Analog Rytm MKII,Amp,Amp: Reverb Send,,83,,0,127,1,29,0,127,0-based,,
 Elektron,Analog Rytm MKII,Amp,Amp: Pan,,10,,0,127,1,30,0,127,Centered,,
 Elektron,Analog Rytm MKII,Amp,Amp: Volume,,7,,0,127,1,31,0,127,0-based,,
-Elektron,Analog Rytm MKII,LFO,LFO Speed,,102,,0,127,1,32,0,127,0-based,,
-Elektron,Analog Rytm MKII,LFO,LFO Multiplier,,103,,0,23,1,33,0,23,0-based,,
-Elektron,Analog Rytm MKII,LFO,LFO Fade In/Out,,104,,0,127,1,34,0,127,0-based,,
-Elektron,Analog Rytm MKII,LFO,LFO Destination,,105,,0,41,1,35,0,41,0-based,,
-Elektron,Analog Rytm MKII,LFO,LFO Waveform,,106,,0,6,1,36,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Sawtooth; 4: Exponential; 5: Ramp; 6: Random
-Elektron,Analog Rytm MKII,LFO,LFO Start Phase,,107,,0,127,1,37,0,127,0-based,,
-Elektron,Analog Rytm MKII,LFO,LFO Trig Mode,,108,,0,4,1,38,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Analog Rytm MKII,LFO,LFO Depth,,109,118,0,127,1,39,0,127,Centered,,
+Elektron,Analog Rytm MKII,LFO,LFO: Speed,,102,,0,127,1,32,0,127,0-based,,
+Elektron,Analog Rytm MKII,LFO,LFO: Multiplier,,103,,0,23,1,33,0,23,0-based,,
+Elektron,Analog Rytm MKII,LFO,LFO: Fade In/Out,,104,,0,127,1,34,0,127,0-based,,
+Elektron,Analog Rytm MKII,LFO,LFO: Destination,,105,,0,41,1,35,0,41,0-based,,
+Elektron,Analog Rytm MKII,LFO,LFO: Waveform,,106,,0,6,1,36,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Sawtooth; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Analog Rytm MKII,LFO,LFO: Start Phase,,107,,0,127,1,37,0,127,0-based,,
+Elektron,Analog Rytm MKII,LFO,LFO: Trig Mode,,108,,0,4,1,38,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Analog Rytm MKII,LFO,LFO: Depth,,109,118,0,127,1,39,0,127,Centered,,
 Elektron,Analog Rytm MKII,FX: Delay,Delay: Time,,16,,0,127,2,0,0,127,0-based,,
 Elektron,Analog Rytm MKII,FX: Delay,Delay: Pingpong,,17,,0,1,2,1,0,1,0-based,,0: Off; 1: On
 Elektron,Analog Rytm MKII,FX: Delay,Delay: Stereo Width,,18,,0,127,2,2,0,127,Centered,,
