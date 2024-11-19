@@ -230,7 +230,7 @@ Elektron,Analog Rytm MKII,Synth: SY Chip,SY Chip: Level,,16,,0,127,,,,,0-based,,
 Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Tune,,17,,0,127,1,1,0,127,Centered,,
 Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Detune,,20,,40,88,1,4,40,88,Centered,,
 Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Balance,,23,,0,127,1,7,0,127,Centered,,
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 2 Decay,,18,,0,127,1,2,0,127,0-based,,0-126: Time; 127: Infinite
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 2 Decay,,18,,0,127,1,2,0,127,0-based,,0~126: Time; 127: Infinite
 Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 1 Wave,,21,,0,6,1,5,0,6,0-based,,0: Sine; 1: Asymetric Sine; 2: Triangle; 3: Sinesaw; 4: Assymetric Saw; 5: Saw; 6: Ring Modulator
 Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 2 Wave,,22,,0,1,1,6,0,1,0-based,,0: Sine; 1: Sinesaw
 Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Noise Level,,19,,0,127,1,3,0,127,0-based,,
@@ -305,7 +305,7 @@ Elektron,Analog Rytm MKII,Synth: CB Metallic,CB Metallic: Level,,16,,0,127,1,0,0
 Elektron,Analog Rytm MKII,Synth: UT Noise,UT Noise: LP Frequency,,17,,0,127,1,1,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: UT Noise,UT Noise: LP Resonance,,21,,0,127,1,5,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: UT Noise,UT Noise: Attack,,23,,0,127,1,7,0,127,0-based,,
-Elektron,Analog Rytm MKII,Synth: UT Noise,UT Noise: Decay,,18,,0,127,1,2,0,127,0-based,,0-126: Time; 127: Infinite 
+Elektron,Analog Rytm MKII,Synth: UT Noise,UT Noise: Decay,,18,,0,127,1,2,0,127,0-based,,0~126: Time; 127: Infinite
 Elektron,Analog Rytm MKII,Synth: UT Noise,UT Noise: HP Frequency,,22,,0,127,1,6,0,127,0-based,,
 Elektron,Analog Rytm MKII,Synth: UT Noise,UT Noise: Sweep Depth,,19,,0,127,1,3,0,127,Centered,,
 Elektron,Analog Rytm MKII,Synth: UT Noise,UT Noise: Sweep Time,,20,,0,127,1,4,0,127,0-based,,
