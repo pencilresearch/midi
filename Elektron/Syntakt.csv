@@ -5,14 +5,14 @@ Elektron,Syntakt,Trig,Trig: Note,,3,,0,127,3,0,0,127,0-based,,
 Elektron,Syntakt,Trig,Trig: Velocity,,4,,1,127,3,1,1,127,0-based,,
 Elektron,Syntakt,Trig,Trig: Length,,5,,0,127,3,2,0,127,0-based,,6: 1/32; 14: 1/16; 30: 1/8; 38: 3.00; 46: 1/4; 62: 1/2; 78: 16.0; 94: 32.0; 110: 64.0; 127: Infinite; 0-127: Length
 Elektron,Syntakt,Trig,Trig: Filter,,13,,0,1,,,,,0-based,,0: Off; 1: On
-Elektron,Syntakt,Trig,Trig: LFO,,14,,0,1,,,,,0-based,, 0: Off; 1: On
+Elektron,Syntakt,Trig,Trig: LFO,,14,,0,1,,,,,0-based,,0: Off; 1: On
 Elektron,Syntakt,Filter,Filter: Frequency,,74,,0,127,1,20,0,16256,0-based,,
 Elektron,Syntakt,Filter,Filter: Resonance,,75,,0,127,1,21,0,16256,0-based,,
 Elektron,Syntakt,Filter,Filter: Type,,76,,0,7,1,22,0,7,0-based,,0: LP; 1: HP; 2: EQ 1; 3: EQ 2; 4: EQ 3; 5: EQ 4; 6: EQ 5; 7: Off
-Elektron,Syntakt,Filter,Filter: Attack Time,,70,,0,127,1,16,0,127,0-based,,0-126: Time; 127: Infinite
+Elektron,Syntakt,Filter,Filter: Attack Time,,70,,0,127,1,16,0,127,0-based,,0~126: Time; 127: Infinite
 Elektron,Syntakt,Filter,Filter: Decay Time,,71,,0,127,1,17,0,127,0-based,,
 Elektron,Syntakt,Filter,Filter: Sustain Level,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Syntakt,Filter,Filter: Release Time,,73,,0,127,1,19,0,127,0-based,,0-126: Time; 127: Infinite
+Elektron,Syntakt,Filter,Filter: Release Time,,73,,0,127,1,19,0,127,0-based,,0~126: Time; 127: Infinite
 Elektron,Syntakt,Filter,Filter: Envelope Depth,,77,,0,127,1,23,0,16256,Centered,,
 Elektron,Syntakt,Filter,Filter: Envelope Delay,,78,,0,127,,,0,127,0-based,,
 Elektron,Syntakt,Filter,Filter: Envelope Reset,,111,,0,1,1,56,0,1,0-based,,0: Off; 1: On
@@ -62,7 +62,7 @@ Elektron,Syntakt,FX: External Mixer,Input: LR,,16,,0,127,2,30,0,16256,0-based,,
 Elektron,Syntakt,FX: External Mixer,Input: Balance,,17,,0,127,2,32,0,127,Centered,,
 Elektron,Syntakt,FX: External Mixer,Input: Delay Send,,18,,0,127,2,33,0,16256,0-based,,
 Elektron,Syntakt,FX: External Mixer,Input: Reverb Send,,18,,0,127,2,35,0,16256,0-based,,
-Elektron,Syntakt,FX: External Mixer,Input: FX Routing,,29,,0,1,2,38,0,1,0-based,,0:Pre; 1: Post
+Elektron,Syntakt,FX: External Mixer,Input: FX Routing,,29,,0,1,2,38,0,1,0-based,,0: Pre; 1: Post
 Elektron,Syntakt,Pattern,Pattern: Mute,,110,,0,1,1,104,0,1,0-based,,0: Unmuted; 1: Muted
 Elektron,Syntakt,Analog FX: Synth,AFX Synth: Drive,,15,,0,127,1,29,0,127,0-based,,
 Elektron,Syntakt,Analog FX: Filter,AFX Filter: Frequency,,70,,0,127,1,20,0,16256,0-based,,
@@ -105,7 +105,7 @@ Elektron,Syntakt,Synth: BD Modern,BD Modern: Overdrive,,24,,0,127,1,8,0,127,0-ba
 Elektron,Syntakt,Synth: BD Hard,BD Hard: Tune,,17,,40,88,1,1,5120,11264,Centered,,
 Elektron,Syntakt,Synth: BD Hard,BD Hard: Sweep Time,,18,,0,127,1,2,0,127,0-based,,
 Elektron,Syntakt,Synth: BD Hard,BD Hard: Snap Amount,,19,,0,127,1,3,0,127,0-based,,
-Elektron,Syntakt,Synth: BD Hard,BD Hard: Decay,,20,,0,127,1,4,0,127,0-based,,0-126: Time; 127: Infinite
+Elektron,Syntakt,Synth: BD Hard,BD Hard: Decay,,20,,0,127,1,4,0,127,0-based,,0~126: Time; 127: Infinite
 Elektron,Syntakt,Synth: BD Hard,BD Hard: Waveform,,21,,0,2,1,5,0,2,0-based,,0: Sine; 1: Asymmetric Sine; 2: Triangle
 Elektron,Syntakt,Synth: BD Hard,BD Hard: Hold Time,,22,,0,127,1,6,0,127,0-based,,
 Elektron,Syntakt,Synth: BD Hard,BD Hard: Tick Level,,23,,0,127,1,7,0,127,0-based,,
@@ -113,7 +113,7 @@ Elektron,Syntakt,Synth: BD Hard,BD Hard: Overdrive,,24,,0,127,1,8,0,127,0-based,
 Elektron,Syntakt,Synth: BD Classic,BD Classic: Tune,,17,,40,88,1,1,5120,11264,Centered,,
 Elektron,Syntakt,Synth: BD Classic,BD Classic: Sweep Time,,18,,0,127,1,2,0,127,0-based,,
 Elektron,Syntakt,Synth: BD Classic,BD Classic: Sweep Depth,,19,,0,127,1,3,0,127,0-based,,
-Elektron,Syntakt,Synth: BD Classic,BD Classic: Decay,,20,,0,127,1,4,0,127,0-based,,0-126: Time; 127: Infinite
+Elektron,Syntakt,Synth: BD Classic,BD Classic: Decay,,20,,0,127,1,4,0,127,0-based,,0~126: Time; 127: Infinite
 Elektron,Syntakt,Synth: BD Classic,BD Classic: Waveform,,21,,0,2,1,5,0,2,0-based,,0: Sine; 1: Asymmetric Sine; 2: Triangle
 Elektron,Syntakt,Synth: BD Classic,BD Classic: Hold Time,,22,,0,127,1,6,0,127,0-based,,
 Elektron,Syntakt,Synth: BD Classic,BD Classic: Transient,,23,,0,55,1,7,0,55,0-based,,0: Off; 1~5: Tic; 6~10: A1; 11~15: B1; 16~20: C1; 21~25: D1; 26~30: E1; 31~35: A2; 36~40: B2; 41~45: C2; 46~50: D2; 51~55: E2 
@@ -319,7 +319,7 @@ Elektron,Syntakt,Synth: SY Chord,SY Chord: Wave Sweep,,18,,0,127,1,2,0,127,0-bas
 Elektron,Syntakt,Synth: SY Chord,SY Chord: Punch,,19,,0,1,1,3,0,1,0-based,,0: Off; 1: On
 Elektron,Syntakt,Synth: SY Chord,SY Chord: Decay,,20,,0,127,1,4,0,127,0-based,,
 Elektron,Syntakt,Synth: SY Chord,SY Chord: Type,,21,,0,37,1,5,0,37,0-based,,0: Unison × 2; 1: Unison × 3; 2: Unison × 4; 3: minor; 4: Major; 5: sus2; 6: sus4; 7: m7; 8: M7; 9: mMaj7; 10: Maj7; 11: 7sus4; 12: dim7; 13: madd9; 14: Madd9; 15: m6; 16: M6; 17: mb5; 18: Mb5; 19: m7b5; 20: M7b5; 21: M#5; 22: m7#5; 23: M7#5; 24: mb6; 25: m9no5; 26: M9no5; 27: Madd9b5; 28: Maj7b5; 29: M7b9no5; 30: sus4#5b9; 31: sus4add#5; 32: Maddb5; 33: M6add4no5; 34: Maj7/6no5; 35: Maj9no5; 36: Fourth; 37: Fifth
-Elektron,Syntakt,Synth: SY Chord,SY Chord: Chord/Osc Balance,,22,,0,127,1,6,0,127,0-based,,32: Root; 62: Inv 1; 74: Inv 2; 84: Inv 3; 0-127: Balance
+Elektron,Syntakt,Synth: SY Chord,SY Chord: Chord/Osc Balance,,22,,0,127,1,6,0,127,0-based,,32: Root; 62: Inv 1; 74: Inv 2; 84: Inv 3; 0~127: Balance
 Elektron,Syntakt,Synth: SY Chord,SY Chord: Filter Envelope,,23,,0,127,1,7,0,127,0-based,,
 Elektron,Syntakt,Synth: SY Chord,SY Chord: Overdrive,,24,,0,127,1,8,0,127,0-based,,
 Elektron,Syntakt,Synth: SY Tone,SY Tone: Tune,,17,,40,88,1,1,5120,11264,Centered,,
@@ -348,8 +348,8 @@ Elektron,Syntakt,Synth: SY Swarm,SY Swarm: Fundamental Sub,,23,,0,127,1,7,0,127,
 Elektron,Syntakt,Synth: SY Swarm,SY Swarm: Overdrive,,24,,0,127,1,8,0,127,0-based,,
 Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Osc 1 Tune,,17,,40,88,1,1,5120,11264,Centered,,
 Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Osc 2 Detune,,18,,48,80,1,2,6144,10240,0-based,,
-Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Osc 1 Decay,,19,,0,127,1,3,0,127,0-based,,0-126: Time; 127: Infinite
-Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Osc 2 Decay,,20,,0,127,1,4,0,127,0-based,,0-126: Time; 127: Infinite
+Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Osc 1 Decay,,19,,0,127,1,3,0,127,0-based,,0~126: Time; 127: Infinite
+Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Osc 2 Decay,,20,,0,127,1,4,0,127,0-based,,0~126: Time; 127: Infinite
 Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Osc Config,,21,,0,79,1,5,0,79,0-based,,0: Sine + Sine -; 1: Sine + Sine; 2: Sine + Skewed Sine -; 3: Sine + Skewed Sine; 4: Sine + Triangle -; 5: Sine + Triangle; 6: Sine + Sinesaw -; 7: Sine + Sinesaw; 8: Sine + Saw -; 9: Sine + Saw; 10: Sine R Sine -; 11: Sine R Sine; 12: Sine R Skewed Sine -; 13: Sine R Skewed Sine; 14: Sine R Triangle -; 15: Sine R Triangle; 16: Sine R Sinesaw -; 17: Sine R Sinesaw; 18: Sine R Saw -; 19: Sine R Saw; 20: Sine F Sine -; 21: Sine F Sine; 22: Sine F Skewed Sine -; 23: Sine F Skewed Sine; 24: Sine F Triangle -; 25: Sine F Triangle; 26: Sine F Sinesaw -; 27: Sine F Sinesaw; 28: Sine F Saw -; 29: Sine F Saw; 30: Sine FR Sine -; 31: Sine FR Sine; 32: Sine FR Skewed Sine -; 33: Sine FR Skewed Sine; 34: Sine FR Triangle -; 35: Sine FR Triangle; 36: Sine FR Sinesaw -; 37: Sine FR Sinesaw; 38: Sine FR Saw -; 39: Sine FR Saw; 40: Sinesaw + Sine -; 41: Sinesaw + Sine; 42: Sinesaw + Skewed Sine -; 43: Sinesaw + Skewed Sine; 44: Sinesaw + Triangle -; 45: Sinesaw + Triangle; 46: Sinesaw + Sinesaw -; 47: Sinesaw + Sinesaw; 48: Sinesaw + Saw -; 49: Sinesaw + Saw; 50: Sinesaw R Sine -; 51: Sinesaw R Sine; 52: Sinesaw R Skewed Sine -; 53: Sinesaw R Skewed Sine; 54: Sinesaw R Triangle -; 55: Sinesaw R Triangle; 56: Sinesaw R Sinesaw -; 57: Sinesaw R Sinesaw; 58: Sinesaw R Saw -; 59: Sinesaw R Saw; 60: Sinesaw F Sine -; 61: Sinesaw F Sine; 62: Sinesaw F Skewed Sine -; 63: Sinesaw F Skewed Sine; 64: Sinesaw F Triangle -; 65: Sinesaw F Triangle; 66: Sinesaw F Sinesaw -; 67: Sinesaw F Sinesaw; 68: Sinesaw F Saw -; 69: Sinesaw F Saw; 70: Sinesaw FR Sine -; 71: Sinesaw FR Sine; 72: Sinesaw FR Skewed Sine -; 73: Sinesaw FR Skewed Sine; 74: Sinesaw FR Triangle -; 75: Sinesaw FR Triangle; 76: Sinesaw FR Sinesaw -; 77: Sinesaw FR Sinesaw; 78: Sinesaw FR Saw -; 79: Sinesaw FR Saw
 Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Bend,,22,,0,127,1,6,0,127,Centered,,
 Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Balance,,23,,0,127,1,7,0,127,0-based,,
@@ -357,7 +357,7 @@ Elektron,Syntakt,Synth: SY Dual VCO,SY Dual VCO: Overdrive,,24,,0,127,1,8,0,127,
 Elektron,Syntakt,Synth: SY Raw,SY Raw: Osc 1 Tune,,17,,40,88,1,1,5120,11264,Centered,,
 Elektron,Syntakt,Synth: SY Raw,SY Raw: Detune,,18,,48,80,1,2,6144,10240,0-based,,
 Elektron,Syntakt,Synth: SY Raw,SY Raw: Osc 2 Level,,19,,0,127,1,3,0,127,0-based,,
-Elektron,Syntakt,Synth: SY Raw,SY Raw: Osc 2 Decay,,20,,0,127,1,4,0,127,0-based,,0-126: Time; 127: Infinite
+Elektron,Syntakt,Synth: SY Raw,SY Raw: Osc 2 Decay,,20,,0,127,1,4,0,127,0-based,,0~126: Time; 127: Infinite
 Elektron,Syntakt,Synth: SY Raw,SY Raw: Osc 1 Wave,,21,,0,5,1,5,0,5,0-based,,0: Sine; 1: Asymetric Sine; 2: Triangle; 3: Sinesaw; 4: Saw; 5: Square
 Elektron,Syntakt,Synth: SY Raw,SY Raw: Osc 2 Wave,,22,,0,6,1,6,0,6,0-based,,0: Sine; 1: Asymetric Sine; 2: Triangle; 3: Sinesaw; 4: Saw; 5: Square; 6: Ring Modulator
 Elektron,Syntakt,Synth: SY Raw,SY Raw: Noise Level,,23,,0,127,1,7,0,127,0-based,,
