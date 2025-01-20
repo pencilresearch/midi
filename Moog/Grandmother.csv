@@ -20,4 +20,4 @@ Moog,Grandmother,Glide,Legato glide,,94,,0,127,,,,,0-based,,0: Off; 64: On
 Moog,Grandmother,Glide,Gated glide,,103,,0,127,,,,,0-based,,0: Off; 64: On
 Moog,Grandmother,General,Pitch bend up amount,,107,,0,127,,,,,0-based,,0~123: 0 to 24 semitones
 Moog,Grandmother,General,Pitch bend down amount,,108,,0,127,,,,,0-based,,0~123: 0 to 24 semitones
-Moog,Grandmother,General,Keyboard transpose (semitones,,119,,0,127,,,,,Centered,,0~123: -12 to +12 semitones
+Moog,Grandmother,General,Keyboard transpose (semitones),,119,,0,127,,,,,Centered,,0~123: -12 to +12 semitones
