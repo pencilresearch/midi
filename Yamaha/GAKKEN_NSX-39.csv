@@ -1,0 +1,41 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+YAMAHA,NSX-39,Voice Control,Bank Select,Voice Bank Selection,0,32,0,127,,,,,,Normal RAS DrumKit,GM/RAS
+YAMAHA,NSX-39,Voice Control,Modulation,Modulation Control,1,,0,127,,,,,,,GM/RAS eVocaloid
+YAMAHA,NSX-39,Voice Control,Portamento Time,Time Control,5,,0,127,,,,,,,GM/RAS
+YAMAHA,NSX-39,Voice Control,Data Entry MSB,Time Control,6,,0,127,,,,,,,GM/RAS
+YAMAHA,NSX-39,Voice Control,Main Volume,Volume Control,7,,0,127,,,,,,Affects volumes [1][7],GM/RAS SDI eVocaloid
+YAMAHA,NSX-39,Voice Control,Panpot,Pan Position,10,,0,127,,,,,L64...C...R63,Affects volumes [2][7],GM/RAS SDI
+YAMAHA,NSX-39,Voice Control,Expression,Expression Control,11,,0,127,,,,,,Affects volumes [1][7],GM/RAS eVocaloid
+YAMAHA,NSX-39,Voice Control,Bank Select LSB,Voice Bank Selection,32,,0,127,,,,,,Affects volumes [1][7],GM/RAS eVocaloid
+YAMAHA,NSX-39,Voice Control,Bank Select LSB,Voice Bank Selection,38,,0,127,,,,,,Affects volumes [1][7],GM/RAS eVocaloid
+YAMAHA,NSX-39,Voice Control,Sustain,Damper Pedal,64,,0,127,,,,,,,GM/RAS eVocaloid
+YAMAHA,NSX-39,Voice Control,Portamento,Portamento,65,,0,127,,,,,,,GM/RAS 
+YAMAHA,NSX-39,Voice Control,Sostenuto,Sostenuto Pedal,66,,0,127,,,,,OFF/ON,,GM/RAS
+YAMAHA,NSX-39,Voice Control,Soft Pedal,Soft Pedal,67,,0,127,,,,,OFF/ON,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Harmonic Content,Timbre Control,71,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Release Time,Envelope Control,72,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Attack Time,Envelope Control,73,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Brightness,Filter Control,74,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Decay Time,Envelope Control,75,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Vibrato Rate,LFO Speed,76,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Vibrato Depth,LFO Depth,77,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Vibrato Delay,LFO Delay,78,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Sound Parameters,Articulation 1,General Purpose Controller (Articulation 1),80,,0,127,,,,,OFF/ON,,RAS
+YAMAHA,NSX-39,Sound Parameters,Articulation 2,General Purpose Controller (Articulation 2),81,,0,127,,,,,OFF/ON,,RAS
+YAMAHA,NSX-39,Sound Parameters,Vibrato Delay,LFO Delay,84,,0,127,,,,,-64...0...+63,,GM/RAS
+YAMAHA,NSX-39,Effects,Reverb Send Level,Effect1 Depth,91,,0,127,,,,,,Affects volumes [4][9],GM/RAS SDI eVocaloid
+YAMAHA,NSX-39,Effects,Chorus Send Level,Effect3 Depth,93,,0,127,,,,,,Affects volumes [5][10],GM/RAS SDI eVocaloid
+YAMAHA,NSX-39,Effects,Variation Send Level,Effect4 Depth,94,,0,127,,,,,,Affects volumes [6][11],GM/RAS eVocaloid
+YAMAHA,NSX-39,Control,RPN Increment,Data Increment,96,,,,,,,,Data byte is ignored,GM/RAS,
+YAMAHA,NSX-39,Control,RPN Decrement,Data Decrement,97,,,,,,,,Data byte is ignored,GM/RAS,
+YAMAHA,NSX-39,Control,NRPN LSB,Non-Registered Parameter LSB,98,0,127,,,,,,Default: 7F,GM/RAS eVocaloid,
+YAMAHA,NSX-39,Control,NRPN MSB,Non-Registered Parameter MSB,99,0,127,,,,,,Default: 7F,GM/RAS eVocaloid,
+YAMAHA,NSX-39,Control,RPN LSB,Registered Parameter LSB,100,0,127,,,,,,Default: 7F,GM/RAS eVocaloid,
+YAMAHA,NSX-39,Control,RPN MSB,Registered Parameter MSB,101,0,127,,,,,,Default: 7F,GM/RAS eVocaloid,
+YAMAHA,NSX-39,System,All Sound Off,System Control,120,,0,0,,,,,,,GM/RAS eVocaloid
+YAMAHA,NSX-39,System,Reset Controllers,System Control,121,,0,0,,,,,,,GM/RAS eVocaloid
+YAMAHA,NSX-39,System,All Notes Off,System Control,123,,0,0,,,,,,,GM/RAS eVocaloid
+YAMAHA,NSX-39,System,Omni Off,System Control,124,,0,0,,,,,,,GM/RAS
+YAMAHA,NSX-39,System,Omni On,System Control,125,,0,0,,,,,,,GM/RAS
+YAMAHA,NSX-39,System,Mono,System Control,126,,0,16,,,,,,,GM/RAS
+YAMAHA,NSX-39,System,Poly,System Control,127,,0,0,,,,,,,GM/RAS
