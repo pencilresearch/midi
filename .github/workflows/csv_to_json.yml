@@ -25,13 +25,23 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: Convert CSV to JSON
-        run: node csvtojson.js
+      - name: Run CSV to JSON Conversion
+        run: |
+          echo "Starting conversion..."
+          node csvtojson.js > conversion.log 2>&1 || echo "⚠️ Script failed with exit code $?"
+          cat conversion.log  # Show full logs
+
+      - name: Debug JSON Output
+        run: |
+          echo "Checking JSON output..."
+          ls -lah Json || echo "⚠️ No Json directory found"
+          find Json -type f || echo "⚠️ No JSON files found"
+          head -n 20 Json/*.json || echo "⚠️ JSON files exist but failed to read"
 
       - name: Commit and Push JSON Files
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
-          git add Json/*.json Json/*.json.gz
-          git commit -m "Update MIDI JSON database" || echo "No changes to commit"
-          git push
+          
+          git add Json/*.json Json/*.json.gz || echo "⚠️ No files to stage"
+          git diff --staged --quiet || (git commit -m "Update MIDI JSON database" && git push)
