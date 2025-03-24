@@ -3,8 +3,8 @@ const path = require('path');
 const zlib = require('zlib');
 
 const VERSION = "1.0.0"; // Update when changing database structure
-const sourcePath = path.join(__dirname); // Root folder
-const outputDir = path.join(__dirname, 'Json'); // Store JSON output
+const rootPath = __dirname; // Root folder (the directory where your script is located)
+const outputDir = path.join(rootPath, 'Json'); // Store JSON output in the Json folder
 
 // Ensure output directory exists
 if (!fs.existsSync(outputDir)) {
@@ -92,20 +92,20 @@ function convertDatabase() {
     const timestamp = new Date().toISOString();
     const database = { version: VERSION, generatedAt: timestamp, devices: [buildGenericDevice()] };
 
-    // Traverse manufacturer folders and find CSV files
-    const manufacturerFolders = fs.readdirSync(sourcePath).filter(file => fs.statSync(path.join(sourcePath, file)).isDirectory());
+    // Traverse manufacturer folders and find CSV files in the root (not in the 'Json' folder)
+    const manufacturerFolders = fs.readdirSync(rootPath).filter(file => fs.statSync(path.join(rootPath, file)).isDirectory() && file !== 'Json');
 
     manufacturerFolders.forEach(folder => {
         console.log(`📦 Processing folder: ${folder}`);
         
         // Find CSV files inside each manufacturer folder
-        const csvFiles = fs.readdirSync(path.join(sourcePath, folder)).filter(file => file.endsWith('.csv'));
+        const csvFiles = fs.readdirSync(path.join(rootPath, folder)).filter(file => file.endsWith('.csv'));
 
         console.log(`Found ${csvFiles.length} CSV file(s) in manufacturer folder: ${folder}`);
 
         csvFiles.forEach(file => {
             try {
-                const csvContent = fs.readFileSync(path.join(sourcePath, folder, file), 'utf8');
+                const csvContent = fs.readFileSync(path.join(rootPath, folder, file), 'utf8');
                 const deviceData = parseCSV(csvContent);
                 if (deviceData.length > 0) {
                     const manufacturer = deviceData[0].manufacturer;
