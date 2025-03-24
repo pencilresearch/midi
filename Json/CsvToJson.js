@@ -2,6 +2,40 @@ const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 
+/**
+ * CSV Format:
+ * manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+ * Example:
+ * Lofty,Trundler,Oscillators,Glide rate,"Adjusts the glide (portmanteau) time",5,,0,127,1,1,0,127,0-based,Default is zero.,
+ * Lofty,Trundler,Oscillators,Glide switch,Enables or disables glide.,65,,0,127,1,2,0,127,0-based,,0-63: Off; 64-127: On
+ * Lofty,Trundler,Oscillators,Note sync,Enables and disables Note Sync,81,,0,127,,,,,0-based,,0: Off; 1-127: On
+ * Lofty,Trundler,Amp,Pan,Pans between left to right channel,10,,0,127,30,0,0,127,Centered,Left…Centered…Right,0~127: Pan amount
+ *
+ * JSON Format:
+ * {
+ *   "version": "1.0.0", // Database version
+ *   "generatedAt": "timestamp", // Timestamp of database generation
+ *   "devices": [
+ *     {
+ *       "name": "Manufacturer Device", // Full name of the device
+ *       "manufacturer": "Manufacturer", // Manufacturer name
+ *       "commands": [
+ *         {
+ *           "name": "Parameter Name", // Parameter name from CSV
+ *           "section": "Section", // Section from CSV
+ *           "description": "Description", // Parameter description from CSV
+ *           "value": [176, msb, min, max, type], // MIDI value and range
+ *           "notes": "Notes", // Optional notes
+ *           "usage": "Usage" // Optional usage
+ *         },
+ *         // more commands here
+ *       ]
+ *     },
+ *     // more devices here
+ *   ]
+ * }
+ */
+
 const VERSION = "1.0.0"; // Update when changing database structure
 const rootPath = path.join(__dirname, '..'); // Root folder (one level up from current script)
 const outputDir = path.join(rootPath, 'Json'); // Store JSON output in the Json folder
