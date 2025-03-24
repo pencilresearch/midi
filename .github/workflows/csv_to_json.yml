@@ -20,7 +20,7 @@ jobs:
       - name: Run CSV to JSON Conversion
         run: |
           echo "Starting conversion..."
-          node csvtojson.js > conversion.log 2>&1 || echo "⚠️ Script failed with exit code $?"
+          node /Json/csvtojson.js > conversion.log 2>&1 || echo "⚠️ Script failed with exit code $?"
           cat conversion.log  # Show full logs
 
       - name: Debug JSON Output
