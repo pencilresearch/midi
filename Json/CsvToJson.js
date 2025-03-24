@@ -50,7 +50,7 @@ const zlib = require('zlib');
 
 
 
-const VERSION = "1.0.0";
+const VERSION = "1.0.1"; //Updated Json
 const rootPath = path.join(__dirname, '..');
 const outputDir = path.join(rootPath, 'Json');
 
