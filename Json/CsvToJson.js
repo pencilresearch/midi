@@ -61,27 +61,23 @@ function parseCSV(csvText) {
             section: fields[2],
             name: fields[3],
             description: fields[4],
-            cc: { msb: parseInt(fields[5]) || undefined, lsb: parseInt(fields[6]) || undefined, min: parseInt(fields[7]) || 0, max: parseInt(fields[8]) || 127 },
-            nrpn: { msb: parseInt(fields[9]) || undefined, lsb: parseInt(fields[10]) || undefined, min: parseInt(fields[11]) || 0, max: parseInt(fields[12]) || 127 },
+            cc: {
+                msb: parseInt(fields[5]) || undefined,
+                lsb: fields[6] ? parseInt(fields[6]) : undefined,
+                min: parseInt(fields[7]) || 0,
+                max: parseInt(fields[8]) || 127
+            },
+            nrpn: {
+                msb: parseInt(fields[9]) || undefined,
+                lsb: fields[10] ? parseInt(fields[10]) : undefined,
+                min: parseInt(fields[11]) || 0,
+                max: parseInt(fields[12]) || 127
+            },
             orientation: fields[13] || undefined,
             notes: fields[14] || undefined,
             usage: fields[15] || undefined
         };
     });
-}
-
-// Builds a "Generic MIDI Device"
-function buildGenericDevice() {
-    return {
-        name: "Generic MIDI Device",
-        commands: [
-            { name: "Note On", value: [144, 0, 0, 127, "range"] },
-            { name: "Note Off", value: [128, 0, 0, 127, "range"] },
-            { name: "Program Change", value: [192, 0, 0, 127, "range"] },
-            { name: "Channel Pressure", value: [208, 0, 0, 127, "range"] },
-            { name: "Pitch Bend", value: [224, 0, 0, 16383, "range"] }
-        ]
-    };
 }
 
 // Converts CSVs into a single JSON database
@@ -90,7 +86,7 @@ function convertDatabase() {
 
     removeOldDatabases(outputDir);
     const timestamp = new Date().toISOString();
-    const database = { version: VERSION, generatedAt: timestamp, devices: [buildGenericDevice()] };
+    const database = { version: VERSION, generatedAt: timestamp, devices: [] };
 
     // Traverse manufacturer folders and find CSV files in the root (not in the 'Json' folder)
     const manufacturerFolders = fs.readdirSync(rootPath).filter(file => fs.statSync(path.join(rootPath, file)).isDirectory() && file !== 'Json');
@@ -123,7 +119,7 @@ function convertDatabase() {
                     });
                 }
             } catch (error) {
-                console.error(`❌ Error processing ${file} in ${folder}:`, error);
+                console.error(`❌ Error processing ${file}:`, error);
             }
         });
     });
