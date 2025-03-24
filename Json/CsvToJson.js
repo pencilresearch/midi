@@ -17,16 +17,28 @@ const zlib = require('zlib');
  *   "generatedAt": "timestamp", // Timestamp of database generation
  *   "devices": [
  *     {
- *       "name": "Manufacturer Device", // Full name of the device
- *       "manufacturer": "Manufacturer", // Manufacturer name
+ *       "name": "Device Name", // Device name from CSV
+ *       "manufacturer": "Manufacturer", // Manufacturer name from CSV
  *       "commands": [
  *         {
  *           "name": "Parameter Name", // Parameter name from CSV
  *           "section": "Section", // Section from CSV
  *           "description": "Description", // Parameter description from CSV
- *           "value": [176, msb, min, max, type], // MIDI value and range
+ *           "cc": {
+ *             "msb": msb, // MSB value
+ *             "lsb": lsb, // LSB value (if present)
+ *             "min": min, // Minimum CC value
+ *             "max": max  // Maximum CC value
+ *           },
+ *           "nrpn": {
+ *             "msb": msb, // NRPN MSB value (if present)
+ *             "lsb": lsb, // NRPN LSB value (if present)
+ *             "min": min, // Minimum NRPN value
+ *             "max": max  // Maximum NRPN value
+ *           },
+ *           "orientation": "Orientation", // Orientation from CSV
  *           "notes": "Notes", // Optional notes
- *           "usage": "Usage" // Optional usage
+ *           "usage": "Usage" // Optional usage instructions
  *         },
  *         // more commands here
  *       ]
@@ -36,43 +48,35 @@ const zlib = require('zlib');
  * }
  */
 
-const VERSION = "1.0.0"; // Update when changing database structure
-const rootPath = path.join(__dirname, '..'); // Root folder (one level up from current script)
-const outputDir = path.join(rootPath, 'Json'); // Store JSON output in the Json folder
 
-// Ensure output directory exists
+
+const VERSION = "1.0.0";
+const rootPath = path.join(__dirname, '..');
+const outputDir = path.join(rootPath, 'Json');
+
 if (!fs.existsSync(outputDir)) {
     fs.mkdirSync(outputDir, { recursive: true });
     console.log(`Created output directory: ${outputDir}`);
 }
 
-// Removes old JSON database files
 function removeOldDatabases(directory) {
-    const files = fs.readdirSync(directory);
-    files.forEach(file => {
-        if (file.startsWith('midi-database-v') && file.endsWith('.json') ||
-            file === 'midi-database-version.json') {
+    fs.readdirSync(directory).forEach(file => {
+        if (file.startsWith('midi-database-v') && file.endsWith('.json') || file === 'midi-database-version.json') {
             fs.unlinkSync(path.join(directory, file));
             console.log(`Removed old file: ${file}`);
         }
     });
 }
 
-// Writes JSON and Gzipped JSON
 function writeFiles(database) {
     const timestamp = database.generatedAt;
     const versionFile = path.join(outputDir, 'midi-database-version.json');
     const jsonFile = path.join(outputDir, `midi-database-v${VERSION}.json`);
     const gzipFile = jsonFile + '.gz';
 
-    // Version info
     fs.writeFileSync(versionFile, JSON.stringify({ version: VERSION, lastUpdated: timestamp, filename: path.basename(gzipFile) }, null, 2));
-
-    // Write JSON
     const minified = JSON.stringify(database);
     fs.writeFileSync(jsonFile, minified);
-
-    // Write Gzipped JSON
     fs.writeFileSync(gzipFile, zlib.gzipSync(minified));
 
     console.log(`\n✅ Database saved to ${outputDir}`);
@@ -81,7 +85,6 @@ function writeFiles(database) {
     console.log(`- ${path.basename(gzipFile)}`);
 }
 
-// Parses CSV content into JSON objects
 function parseCSV(csvText) {
     const lines = csvText.split('\n')
         .map(line => line.trim())
@@ -96,41 +99,35 @@ function parseCSV(csvText) {
             name: fields[3],
             description: fields[4],
             cc: {
-                msb: parseInt(fields[5]) || undefined,
-                lsb: fields[6] ? parseInt(fields[6]) : undefined,
-                min: parseInt(fields[7]) || 0,
-                max: parseInt(fields[8]) || 127
+                msb: fields[5] ? parseInt(fields[5]) : null,
+                lsb: fields[6] ? parseInt(fields[6]) : null,
+                min: fields[7] ? parseInt(fields[7]) : 0,
+                max: fields[8] ? parseInt(fields[8]) : 127
             },
             nrpn: {
-                msb: parseInt(fields[9]) || undefined,
-                lsb: fields[10] ? parseInt(fields[10]) : undefined,
-                min: parseInt(fields[11]) || 0,
-                max: parseInt(fields[12]) || 127
+                msb: fields[9] ? parseInt(fields[9]) : null,
+                lsb: fields[10] ? parseInt(fields[10]) : null,
+                min: fields[11] ? parseInt(fields[11]) : 0,
+                max: fields[12] ? parseInt(fields[12]) : 127
             },
-            orientation: fields[13] || undefined,
-            notes: fields[14] || undefined,
-            usage: fields[15] || undefined
+            orientation: fields[13] || null,
+            notes: fields[14] || null,
+            usage: fields[15] || null
         };
     });
 }
 
-// Converts CSVs into a single JSON database
 function convertDatabase() {
     console.log('\n🚀 Starting MIDI database conversion...');
-
     removeOldDatabases(outputDir);
     const timestamp = new Date().toISOString();
     const database = { version: VERSION, generatedAt: timestamp, devices: [] };
 
-    // Traverse manufacturer folders and find CSV files in the root (not in the 'Json' folder)
     const manufacturerFolders = fs.readdirSync(rootPath).filter(file => fs.statSync(path.join(rootPath, file)).isDirectory() && file !== 'Json');
 
     manufacturerFolders.forEach(folder => {
         console.log(`📦 Processing folder: ${folder}`);
-        
-        // Find CSV files inside each manufacturer folder
         const csvFiles = fs.readdirSync(path.join(rootPath, folder)).filter(file => file.endsWith('.csv'));
-
         console.log(`Found ${csvFiles.length} CSV file(s) in manufacturer folder: ${folder}`);
 
         csvFiles.forEach(file => {
@@ -139,18 +136,28 @@ function convertDatabase() {
                 const deviceData = parseCSV(csvContent);
                 if (deviceData.length > 0) {
                     const manufacturer = deviceData[0].manufacturer;
-                    database.devices.push({
-                        name: `${manufacturer} ${deviceData[0].device}`,
-                        manufacturer,
-                        commands: deviceData.map(param => ({
-                            name: param.name,
-                            section: param.section,
-                            description: param.description,
-                            value: [176, param.cc.msb || 0, param.cc.min, param.cc.max, param.cc.max <= 1 ? "toggle" : "range"],
-                            notes: param.notes,
-                            usage: param.usage
-                        }))
-                    });
+                    const deviceName = deviceData[0].device;
+                    const deviceEntry = database.devices.find(d => d.name === `${manufacturer} ${deviceName}`);
+                    if (!deviceEntry) {
+                        database.devices.push({
+                            name: `${manufacturer} ${deviceName}`,
+                            manufacturer,
+                            commands: []
+                        });
+                    }
+                    const device = database.devices.find(d => d.name === `${manufacturer} ${deviceName}`);
+                    device.commands.push(...deviceData.map(param => ({
+                        name: param.name,
+                        section: param.section,
+                        description: param.description,
+                        midi: {
+                            cc: param.cc.msb !== null ? [176, param.cc.msb, param.cc.min, param.cc.max] : null,
+                            nrpn: param.nrpn.msb !== null ? [99, param.nrpn.msb, 98, param.nrpn.lsb, 6, param.nrpn.min, 38, param.nrpn.max] : null
+                        },
+                        orientation: param.orientation,
+                        notes: param.notes,
+                        usage: param.usage
+                    })));
                 }
             } catch (error) {
                 console.error(`❌ Error processing ${file}:`, error);
