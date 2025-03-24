@@ -92,33 +92,40 @@ function convertDatabase() {
     const timestamp = new Date().toISOString();
     const database = { version: VERSION, generatedAt: timestamp, devices: [buildGenericDevice()] };
 
-    // Find CSV files in the root directory
-    const csvFiles = fs.readdirSync(sourcePath).filter(file => file.endsWith('.csv'));
+    // Traverse manufacturer folders and find CSV files
+    const manufacturerFolders = fs.readdirSync(sourcePath).filter(file => fs.statSync(path.join(sourcePath, file)).isDirectory());
 
-    console.log(`📦 Found ${csvFiles.length} CSV files in root directory...`);
+    manufacturerFolders.forEach(folder => {
+        console.log(`📦 Processing folder: ${folder}`);
+        
+        // Find CSV files inside each manufacturer folder
+        const csvFiles = fs.readdirSync(path.join(sourcePath, folder)).filter(file => file.endsWith('.csv'));
 
-    csvFiles.forEach(file => {
-        try {
-            const csvContent = fs.readFileSync(path.join(sourcePath, file), 'utf8');
-            const deviceData = parseCSV(csvContent);
-            if (deviceData.length > 0) {
-                const manufacturer = deviceData[0].manufacturer;
-                database.devices.push({
-                    name: `${manufacturer} ${deviceData[0].device}`,
-                    manufacturer,
-                    commands: deviceData.map(param => ({
-                        name: param.name,
-                        section: param.section,
-                        description: param.description,
-                        value: [176, param.cc.msb || 0, param.cc.min, param.cc.max, param.cc.max <= 1 ? "toggle" : "range"],
-                        notes: param.notes,
-                        usage: param.usage
-                    }))
-                });
+        console.log(`Found ${csvFiles.length} CSV file(s) in manufacturer folder: ${folder}`);
+
+        csvFiles.forEach(file => {
+            try {
+                const csvContent = fs.readFileSync(path.join(sourcePath, folder, file), 'utf8');
+                const deviceData = parseCSV(csvContent);
+                if (deviceData.length > 0) {
+                    const manufacturer = deviceData[0].manufacturer;
+                    database.devices.push({
+                        name: `${manufacturer} ${deviceData[0].device}`,
+                        manufacturer,
+                        commands: deviceData.map(param => ({
+                            name: param.name,
+                            section: param.section,
+                            description: param.description,
+                            value: [176, param.cc.msb || 0, param.cc.min, param.cc.max, param.cc.max <= 1 ? "toggle" : "range"],
+                            notes: param.notes,
+                            usage: param.usage
+                        }))
+                    });
+                }
+            } catch (error) {
+                console.error(`❌ Error processing ${file} in ${folder}:`, error);
             }
-        } catch (error) {
-            console.error(`❌ Error processing ${file}:`, error);
-        }
+        });
     });
 
     writeFiles(database);
