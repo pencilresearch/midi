@@ -3,7 +3,7 @@ const path = require('path');
 const zlib = require('zlib');
 
 const VERSION = "1.0.0"; // Update when changing database structure
-const rootPath = __dirname; // Root folder (the directory where your script is located)
+const rootPath = path.join(__dirname, '..'); // Root folder (one level up from current script)
 const outputDir = path.join(rootPath, 'Json'); // Store JSON output in the Json folder
 
 // Ensure output directory exists
