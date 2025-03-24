@@ -1,0 +1,37 @@
+name: Convert CSV to JSON
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+  workflow_dispatch:  # Allow manual triggering
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '18'
+
+      - name: Install Dependencies
+        run: npm install
+
+      - name: Convert CSV to JSON
+        run: node csvtojson.js
+
+      - name: Commit and Push JSON Files
+        run: |
+          git config --global user.name "GitHub Actions"
+          git config --global user.email "actions@github.com"
+          git add Json/*.json Json/*.json.gz
+          git commit -m "Update MIDI JSON database" || echo "No changes to commit"
+          git push
