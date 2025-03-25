@@ -1,41 +1,41 @@
-"Generic","MIDI Device","Performance","Modulation Wheel","Controls vibrato depth","1",,"0","127",,,,,"0-based","Used for tremolo, vibrato, or filter modulation."
-"Generic","MIDI Device","Performance","Breath Controller","Controls expression via breath input","2",,"0","127",,,,,"0-based","Common in wind controllers."
-"Generic","MIDI Device","Performance","Foot Controller","Expression pedal control","4",,"0","127",,,,,"0-based","Similar to mod wheel."
-"Generic","MIDI Device","Performance","Portamento Time","Adjusts portamento (glide) speed","5",,"0","127",,,,,"0-based","Slower glide at higher values."
-"Generic","MIDI Device","Performance","Data Entry","Used for adjusting NRPN and RPN values","6",,"0","127",,,,,"0-based","Works with CC 98/99 (NRPN) and CC 100/101 (RPN)."
-"Generic","MIDI Device","Performance","Volume","Controls overall output volume","7",,"0","127",,,,,"0-based","Standard volume CC."
-"Generic","MIDI Device","Performance","Balance","Controls stereo balance","8",,"0","127",,,,,"Centered","0 = Left, 64 = Center, 127 = Right."
-"Generic","MIDI Device","Performance","Pan","Pans between left and right channels","10",,"0","127",,,,,"Centered","0 = Left, 64 = Center, 127 = Right."
-"Generic","MIDI Device","Performance","Expression Pedal","Controls secondary volume","11",,"0","127",,,,,"0-based","Acts like a volume pedal."
-"Generic","MIDI Device","Performance","Effect Control 1","Assigns to various effect parameters","12",,"0","127",,,,,"0-based","Device-specific assignment."
-"Generic","MIDI Device","Performance","Effect Control 2","Assigns to various effect parameters","13",,"0","127",,,,,"0-based","Device-specific assignment."
-"Generic","MIDI Device","Oscillators","Glide Rate","Controls portamento speed","5",,"0","127","1","1","0","127","0-based","Higher values = slower glide."
-"Generic","MIDI Device","Oscillators","Glide Switch","Enables or disables glide","65",,"0","127","1","2","0","127","0-based","0-63: Off; 64-127: On."
-"Generic","MIDI Device","Oscillators","Octave Shift","Shifts the pitch in octaves","76",,"0","127","1","10","-2","2","Centered","0: No shift; -2: Down two octaves; +2: Up two octaves."
-"Generic","MIDI Device","Filters","Cutoff Frequency","Controls the filter cutoff","74",,"0","127",,,,,"0-based","Lower = darker, higher = brighter."
-"Generic","MIDI Device","Filters","Resonance","Controls filter resonance","71",,"0","127",,,,,"0-based","Higher values increase resonance."
-"Generic","MIDI Device","Filters","Filter Type","Switches between different filter types","102",,"0","127",,,,,"0-based","0: LPF; 1: HPF; 2: BPF."
-"Generic","MIDI Device","Amp","Attack Time","Controls attack speed","73",,"0","127",,,,,"0-based","Faster attack at lower values."
-"Generic","MIDI Device","Amp","Decay Time","Controls decay speed","75",,"0","127",,,,,"0-based","Shorter decay at lower values."
-"Generic","MIDI Device","Amp","Sustain Level","Controls sustain level","70",,"0","127",,,,,"0-based","Higher values = longer sustain."
-"Generic","MIDI Device","Amp","Release Time","Controls release speed","72",,"0","127",,,,,"0-based","Longer release at higher values."
-"Generic","MIDI Device","Effects","Reverb Level","Controls reverb depth","91",,"0","127",,,,,"0-based","Higher values = more reverb."
-"Generic","MIDI Device","Effects","Chorus Level","Controls chorus effect depth","93",,"0","127",,,,,"0-based","Standard chorus effect."
-"Generic","MIDI Device","Effects","Delay Time","Controls delay speed","94",,"0","127",,,,,"0-based","Shorter times at lower values."
-"Generic","MIDI Device","Effects","Phaser Depth","Controls phaser effect","95",,"0","127",,,,,"0-based","Higher values = more phasing."
-"Generic","MIDI Device","Effects","Compression Amount","Controls compression level","96",,"0","127",,,,,"0-based","Higher values = more compression."
-"Generic","MIDI Device","Effects","Overdrive Amount","Controls distortion amount","97",,"0","127",,,,,"0-based","More distortion at higher values."
-"Generic","MIDI Device","Effects","Filter Envelope Depth","Controls filter envelope amount","92",,"0","127",,,,,"0-based","Affects filter modulation."
-"Generic","MIDI Device","Effects","Tremolo Rate","Controls tremolo speed","77",,"0","127",,,,,"0-based","Faster tremolo at higher values."
-"Generic","MIDI Device","Effects","Vibrato Depth","Controls vibrato amount","78",,"0","127",,,,,"0-based","More vibrato at higher values."
-"Generic","MIDI Device","Program","Program Change","Switches patches/programs",,,"0","127",,,,,"0-based","Standard patch change."
-"Generic","MIDI Device","Program","Bank Select MSB","Switches between banks","0",,"0","127",,,,,"0-based","MSB for bank select."
-"Generic","MIDI Device","Program","Bank Select LSB","Used with MSB to select banks","32",,"0","127",,,,,"0-based","LSB for bank select."
-"Generic","MIDI Device","System","Reset","Resets MIDI device","255",,"0","127",,,,,"0-based","Full system reset."
-"Generic","MIDI Device","System","Local Control","Enables or disables local control","122",,"0","127",,,,,"0-based","0: Off; 127: On."
-"Generic","MIDI Device","System","All Notes Off","Turns off all notes","123",,"0","127",,,,,"0-based","Silences all sounds."
-"Generic","MIDI Device","System","Mono Mode On","Forces monophonic mode","126",,"0","127",,,,,"0-based","1: Mono; 2-16: Number of voices."
-"Generic","MIDI Device","System","Poly Mode On","Forces polyphonic mode","127",,"0","127",,,,,"0-based","Allows multiple notes at once."
+Generic,MIDI Device,Performance,Modulation Wheel,Controls vibrato depth,1,,0,127,,,,,0-based,Used for tremolo, vibrato, or filter modulation.
+Generic,MIDI Device,Performance,Breath Controller,Controls expression via breath input,2,,0,127,,,,,0-based,Common in wind controllers.
+Generic,MIDI Device,Performance,Foot Controller,Expression pedal control,4,,0,127,,,,,0-based,Similar to mod wheel.
+Generic,MIDI Device,Performance,Portamento Time,Adjusts portamento (glide) speed,5,,0,127,,,,,0-based,Slower glide at higher values.
+Generic,MIDI Device,Performance,Data Entry,Used for adjusting NRPN and RPN values,6,,0,127,,,,,0-based,Works with CC 98/99 (NRPN) and CC 100/101 (RPN).
+Generic,MIDI Device,Performance,Volume,Controls overall output volume,7,,0,127,,,,,0-based,Standard volume CC.
+Generic,MIDI Device,Performance,Balance,Controls stereo balance,8,,0,127,,,,,Centered,0 = Left, 64 = Center, 127 = Right.
+Generic,MIDI Device,Performance,Pan,Pans between left and right channels,10,,0,127,,,,,Centered,0 = Left, 64 = Center, 127 = Right.
+Generic,MIDI Device,Performance,Expression Pedal,Controls secondary volume,11,,0,127,,,,,0-based,Acts like a volume pedal.
+Generic,MIDI Device,Performance,Effect Control 1,Assigns to various effect parameters,12,,0,127,,,,,0-based,Device-specific assignment.
+Generic,MIDI Device,Performance,Effect Control 2,Assigns to various effect parameters,13,,0,127,,,,,0-based,Device-specific assignment.
+Generic,MIDI Device,Oscillators,Glide Rate,Controls portamento speed,5,,0,127,1,1,0,127,0-based,Higher values = slower glide.
+Generic,MIDI Device,Oscillators,Glide Switch,Enables or disables glide,65,,0,127,1,2,0,127,0-based,0-63: Off; 64-127: On.
+Generic,MIDI Device,Oscillators,Octave Shift,Shifts the pitch in octaves,76,,0,127,1,10,-2,2,Centered,0: No shift; -2: Down two octaves; +2: Up two octaves.
+Generic,MIDI Device,Filters,Cutoff Frequency,Controls the filter cutoff,74,,0,127,,,,,0-based,Lower = darker, higher = brighter.
+Generic,MIDI Device,Filters,Resonance,Controls filter resonance,71,,0,127,,,,,0-based,Higher values increase resonance.
+Generic,MIDI Device,Filters,Filter Type,Switches between different filter types,102,,0,127,,,,,0-based,0: LPF; 1: HPF; 2: BPF.
+Generic,MIDI Device,Amp,Attack Time,Controls attack speed,73,,0,127,,,,,0-based,Faster attack at lower values.
+Generic,MIDI Device,Amp,Decay Time,Controls decay speed,75,,0,127,,,,,0-based,Shorter decay at lower values.
+Generic,MIDI Device,Amp,Sustain Level,Controls sustain level,70,,0,127,,,,,0-based,Higher values = longer sustain.
+Generic,MIDI Device,Amp,Release Time,Controls release speed,72,,0,127,,,,,0-based,Longer release at higher values.
+Generic,MIDI Device,Effects,Reverb Level,Controls reverb depth,91,,0,127,,,,,0-based,Higher values = more reverb.
+Generic,MIDI Device,Effects,Chorus Level,Controls chorus effect depth,93,,0,127,,,,,0-based,Standard chorus effect.
+Generic,MIDI Device,Effects,Delay Time,Controls delay speed,94,,0,127,,,,,0-based,Shorter times at lower values.
+Generic,MIDI Device,Effects,Phaser Depth,Controls phaser effect,95,,0,127,,,,,0-based,Higher values = more phasing.
+Generic,MIDI Device,Effects,Compression Amount,Controls compression level,96,,0,127,,,,,0-based,Higher values = more compression.
+Generic,MIDI Device,Effects,Overdrive Amount,Controls distortion amount,97,,0,127,,,,,0-based,More distortion at higher values.
+Generic,MIDI Device,Effects,Filter Envelope Depth,Controls filter envelope amount,92,,0,127,,,,,0-based,Affects filter modulation.
+Generic,MIDI Device,Effects,Tremolo Rate,Controls tremolo speed,77,,0,127,,,,,0-based,Faster tremolo at higher values.
+Generic,MIDI Device,Effects,Vibrato Depth,Controls vibrato amount,78,,0,127,,,,,0-based,More vibrato at higher values.
+Generic,MIDI Device,Program,Program Change,Switches patches/programs,,,0,127,,,,,0-based,Standard patch change.
+Generic,MIDI Device,Program,Bank Select MSB,Switches between banks,0,,0,127,,,,,0-based,MSB for bank select.
+Generic,MIDI Device,Program,Bank Select LSB,Used with MSB to select banks,32,,0,127,,,,,0-based,LSB for bank select.
+Generic,MIDI Device,System,Reset,Resets MIDI device,255,,0,127,,,,,0-based,Full system reset.
+Generic,MIDI Device,System,Local Control,Enables or disables local control,122,,0,127,,,,,0-based,0: Off; 127: On.
+Generic,MIDI Device,System,All Notes Off,Turns off all notes,123,,0,127,,,,,0-based,Silences all sounds.
+Generic,MIDI Device,System,Mono Mode On,Forces monophonic mode,126,,0,127,,,,,0-based,1: Mono; 2-16: Number of voices.
+Generic,MIDI Device,System,Poly Mode On,Forces polyphonic mode,127,,0,127,,,,,0-based,Allows multiple notes at once.
 
 
 
