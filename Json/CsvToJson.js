@@ -60,12 +60,21 @@ if (!fs.existsSync(outputDir)) {
 }
 
 function removeOldDatabases(directory) {
+    console.log('🧹 Cleaning old database files...');
+    const removed = [];
     fs.readdirSync(directory).forEach(file => {
         if (file.startsWith('midi-database')) {
             fs.unlinkSync(path.join(directory, file));
-            console.log(`Removed old file: ${file}`);
+            removed.push(file);
         }
     });
+    
+    if (removed.length > 0) {
+        console.log(`✅ Removed ${removed.length} old files:`);
+        removed.forEach(file => console.log(`  - ${file}`));
+    } else {
+        console.log('ℹ️ No old database files found to remove');
+    }
 }
 
 function writeFiles(database) {
