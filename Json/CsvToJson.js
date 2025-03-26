@@ -61,7 +61,7 @@ if (!fs.existsSync(outputDir)) {
 
 function removeOldDatabases(directory) {
     fs.readdirSync(directory).forEach(file => {
-        if (file.startsWith('midi-database-v') && file.endsWith('.json') || file === 'midi-database-version.json') {
+        if (file.startsWith('midi-database')) {
             fs.unlinkSync(path.join(directory, file));
             console.log(`Removed old file: ${file}`);
         }
