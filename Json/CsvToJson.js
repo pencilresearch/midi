@@ -50,7 +50,7 @@ const zlib = require('zlib');
 
 
 
-const VERSION = "1.0.5"; //Updated 1010 Blackbox
+const VERSION = "1.1.0"; //Updated devices
 const rootPath = path.join(__dirname, '..');
 const outputDir = path.join(rootPath, 'Json');
 
