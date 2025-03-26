@@ -18,7 +18,8 @@ jobs:
         uses: actions/checkout@v3
         with:
           fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
+          # Use a personal access token with proper permissions
+          token: ${{ secrets.PAT_TOKEN }}
 
       - name: Run CSV to JSON Conversion
         run: |
@@ -38,14 +39,25 @@ jobs:
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
           
-          # Ensure we have the latest changes
-          git pull origin main --rebase
+          # First fetch the latest changes
+          git fetch origin
           
-          # First remove any old database files from git's perspective
+          # Remove old database files from Git tracking
           git rm -f Json/midi-database-*.json Json/midi-database-*.json.gz 2>/dev/null || echo "No old files to remove from Git"
           
-          # Add new files
+          # Add the new files
           git add Json/*.json Json/*.json.gz || echo "⚠️ No files to stage"
           
-          # Commit and push if there are changes
-          git diff --staged --quiet || (git commit -m "Update MIDI JSON database" && git push)
+          # Only proceed if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Create a commit
+            git commit -m "Update MIDI JSON database"
+            
+            # Try to rebase first
+            git pull --rebase origin main
+            
+            # Push with force if needed
+            git push -f
+          fi
