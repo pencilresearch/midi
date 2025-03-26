@@ -1,0 +1,38 @@
+Kemper,Profiler,Expression,Wah Pedal,Controls wah-wah effect,1,,0,127,,,,,0-based,,0-127: Wah position
+Kemper,Profiler,Expression,Pitch Pedal,Controls pitch shifting,4,,0,127,,,,,0-based,,0-127: Pitch amount
+Kemper,Profiler,Expression,Volume Pedal,Controls output volume,7,,0,127,,,,,0-based,,0-127: Volume level
+Kemper,Profiler,Expression,Panorama,Controls stereo panning,10,,0,127,,,,,Centered,,0: Hard left; 64: Center; 127: Hard right
+Kemper,Profiler,Expression,Morph Pedal,Controls morphing between sounds,11,,0,127,,,,,0-based,,0-127: Morph amount
+Kemper,Profiler,Delay,Delay Mix,Controls delay wet/dry mix,68,,0,127,,,,,0-based,Module DLY,0-127: Mix amount
+Kemper,Profiler,Delay,Delay Feedback,Controls delay feedback amount,69,,0,127,,,,,0-based,Module DLY,0-127: Feedback amount
+Kemper,Profiler,Reverb,Reverb Mix,Controls reverb wet/dry mix,70,,0,127,,,,,0-based,Module REV,0-127: Mix amount
+Kemper,Profiler,Reverb,Reverb Time,Controls reverb decay time,71,,0,127,,,,,0-based,Module REV,0-127: Time length
+Kemper,Profiler,Amplifier,Gain,Controls amplifier gain,72,,0,127,,,,,0-based,,0-127: Gain amount
+Kemper,Profiler,Output,Monitor Volume,Controls monitor output volume,73,,0,127,,,,,0-based,,0-127: Volume level
+Kemper,Profiler,Effects,All Effects A-MOD Toggle,Inverts on/off state of all effects from A to MOD,16,,0,127,,,,,0-based,,Any value toggles state
+Kemper,Profiler,Effects,A Module Toggle,Enables/disables A module,17,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Effects,B Module Toggle,Enables/disables B module,18,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Effects,C Module Toggle,Enables/disables C module,19,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Effects,D Module Toggle,Enables/disables D module,20,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Effects,X Module Toggle,Enables/disables X module,22,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Effects,MOD Module Toggle,Enables/disables MOD module,24,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Delay,DLY Module Toggle (No Spillover),Enables/disables DLY module without spillover,26,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Delay,DLY Module Toggle (With Spillover),Enables/disables DLY module with spillover,27,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Reverb,REV Module Toggle (No Spillover),Enables/disables REV module without spillover,28,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Reverb,REV Module Toggle (With Spillover),Enables/disables REV module with spillover,29,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Kemper,Profiler,Global,Tap Tempo,Sets tempo via tap function,30,,0,127,,,,,0-based,,Any value triggers tap
+Kemper,Profiler,Global,Tuner Mode,Enables/disables tuner mode,31,,0,127,,,,,0-based,,Any value toggles tuner
+Kemper,Profiler,Effects,Rotary Speaker Speed,Toggles between slow and fast rotary speeds,33,,0,127,,,,,0-based,,Any value toggles speed
+Kemper,Profiler,Delay,Delay Infinity,Toggles infinite delay feedback,34,,0,127,,,,,0-based,,Any value toggles state
+Kemper,Profiler,Effects,Freeze,Freezes audio in delay and reverb effects,35,,0,127,,,,,0-based,,Any value toggles freeze
+Kemper,Profiler,Morphing,Morph Button,Controls morphing between base and morph sounds,80,,0,127,,,,,0-based,,"1-127: Morphs to Morph Sound; 0: Returns to Base Sound or closes transaction"
+Kemper,Profiler,Performance,Performance Preload,Preloads a performance,47,,0,124,,,,,0-based,,"0-124: Preloads Performance 1-125, requires Slot selection via CC #50-54"
+Kemper,Profiler,Navigation,Up Navigation (Performance),Navigates up through performances,48,,0,1,,,,,0-based,In Performance Mode,"0: Stop scrolling/single step; 1: Step up and auto-scroll"
+Kemper,Profiler,Navigation,Up Navigation (Browser),Navigates up through rigs in browser mode,48,,0,2,,,,,0-based,In Browser Mode,"0: One rig up; 1: Five rigs up; 2: First rig of next higher bank"
+Kemper,Profiler,Navigation,Down Navigation (Performance),Navigates down through performances,49,,0,1,,,,,0-based,In Performance Mode,"0: Stop scrolling/single step; 1: Step down and auto-scroll"
+Kemper,Profiler,Navigation,Down Navigation (Browser),Navigates down through rigs in browser mode,49,,0,2,,,,,0-based,In Browser Mode,"0: One rig down; 1: Five rigs down; 2: Last rig of next lower bank"
+Kemper,Profiler,Slots,Slot 1 Select,Loads slot 1 of current performance,50,,0,127,,,,,0-based,Also loads Rig 1 in Browser Mode,Any value activates
+Kemper,Profiler,Slots,Slot 2 Select,Loads slot 2 of current performance,51,,0,127,,,,,0-based,Also loads Rig 2 in Browser Mode,Any value activates
+Kemper,Profiler,Slots,Slot 3 Select,Loads slot 3 of current performance,52,,0,127,,,,,0-based,Also loads Rig 3 in Browser Mode,Any value activates
+Kemper,Profiler,Slots,Slot 4 Select,Loads slot 4 of current performance,53,,0,127,,,,,0-based,Also loads Rig 4 in Browser Mode,Any value activates
+Kemper,Profiler,Slots,Slot 5 Select,Loads slot 5 of current performance,54,,0,127,,,,,0-based,Also loads Rig 5 in Browser Mode,Any value activates
