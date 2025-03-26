@@ -1,102 +1,102 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Generic,MIDI Device,Basic Controls,Bank Select,MSB of bank select,0,,0,127,,,,,0-based,Bank selection is completed using both Bank Select MSB and LSB followed by Program Change
-Generic,MIDI Device,Basic Controls,Bank Select LSB,LSB of bank select,32,,0,127,,,,,0-based,Used with CC 0 for full 14-bit bank selection
-Generic,MIDI Device,Basic Controls,Modulation Wheel,Controls modulation depth,1,,0,127,,,,,0-based,Standard mod wheel controller
-Generic,MIDI Device,Basic Controls,Modulation Wheel LSB,Fine control for modulation,33,,0,127,,,,,0-based,Used with CC 1 for high-resolution control
-Generic,MIDI Device,Basic Controls,Bank Select,MSB of bank select,0,,0,127,,,,,0-based,Bank selection is completed using both Bank Select MSB and LSB followed by Program Change
-Generic,MIDI Device,Basic Controls,Bank Select LSB,LSB of bank select,32,,0,127,,,,,0-based,Used with CC 0 for full 14-bit bank selection
-Generic,MIDI Device,Basic Controls,Modulation Wheel,Controls modulation depth,1,,0,127,,,,,0-based,Standard mod wheel controller
-Generic,MIDI Device,Basic Controls,Modulation Wheel LSB,Fine control for modulation,33,,0,127,,,,,0-based,Used with CC 1 for high-resolution control
-Generic,MIDI Device,Basic Controls,Breath Controller,Controls expression via breath pressure,2,,0,127,,,,,0-based,Commonly used with wind controllers
-Generic,MIDI Device,Basic Controls,Foot Controller,Expression control via foot pedal,4,,0,127,,,,,0-based,Assignable foot controller
-Generic,MIDI Device,Basic Controls,Portamento Time,Controls speed of portamento effect,5,,0,127,,,,,0-based,Higher values = slower glide between notes
-Generic,MIDI Device,Basic Controls,Data Entry MSB,Sets value for registered/non-registered parameters,6,,0,127,,,,,0-based,Used with RPN/NRPN parameters
-Generic,MIDI Device,Basic Controls,Data Entry LSB,Fine adjustment for RPN/NRPN parameters,38,,0,127,,,,,0-based,Used with CC 6 for high-resolution parameter control
-Generic,MIDI Device,Basic Controls,Channel Volume,Controls channel output level,7,,0,127,,,,,0-based,Main volume control for the channel
-Generic,MIDI Device,Basic Controls,Channel Volume LSB,Fine control for channel volume,39,,0,127,,,,,0-based,Used with CC 7 for high-resolution volume control
-Generic,MIDI Device,Basic Controls,Balance,Controls left-right balance,8,,0,127,,,,,,Centered,0 = full left, 64 = center, 127 = full right
-Generic,MIDI Device,Effect Controls,Effect Control 1,General purpose effect depth control,12,,0,127,,,,,0-based,Default = reverb send level
-Generic,MIDI Device,Effect Controls,Effect Control 2,Secondary effect depth control,13,,0,127,,,,,0-based,Commonly used for chorus send level
-Generic,MIDI Device,Effect Controls,Effects 1 Depth,Reverb send level,91,,0,127,,,,,0-based,Controls depth of reverb effect
-Generic,MIDI Device,Effect Controls,Effects 2 Depth,Tremolo depth,92,,0,127,,,,,0-based,Controls depth of tremolo effect
-Generic,MIDI Device,Effect Controls,Effects 3 Depth,Chorus send level,93,,0,127,,,,,0-based,Controls depth of chorus effect
-Generic,MIDI Device,Effect Controls,Effects 4 Depth,Detune depth,94,,0,127,,,,,0-based,Controls amount of detune effect
-Generic,MIDI Device,Effect Controls,Effects 5 Depth,Phaser depth,95,,0,127,,,,,0-based,Controls depth of phaser effect
-Generic,MIDI Device,General Purpose,General Purpose Controller 1,Assignable controller,16,,0,127,,,,,0-based,General purpose controller
-Generic,MIDI Device,General Purpose,General Purpose Controller 2,Assignable controller,17,,0,127,,,,,0-based,General purpose controller
-Generic,MIDI Device,General Purpose,General Purpose Controller 3,Assignable controller,18,,0,127,,,,,0-based,General purpose controller
-Generic,MIDI Device,General Purpose,General Purpose Controller 4,Assignable controller,19,,0,127,,,,,0-based,General purpose controller
-Generic,MIDI Device,General Purpose,General Purpose Controller 5,Assignable controller,80,,0,127,,,,,0-based,General purpose controller
-Generic,MIDI Device,General Purpose,General Purpose Controller 6,Assignable controller,81,,0,127,,,,,0-based,General purpose controller
-Generic,MIDI Device,General Purpose,General Purpose Controller 7,Assignable controller,82,,0,127,,,,,0-based,General purpose controller
-Generic,MIDI Device,General Purpose,General Purpose Controller 8,Assignable controller,83,,0,127,,,,,0-based,General purpose controller
-Generic,MIDI Device,Pedals,Damper Pedal,Sustain pedal (hold) control,64,,0,127,,,,,0-based,0-63 = off, 64-127 = on
-Generic,MIDI Device,Pedals,Portamento On/Off,Activates portamento effect,65,,0,127,,,,,0-based,0-63 = off, 64-127 = on
-Generic,MIDI Device,Pedals,Sostenuto,Sostenuto pedal control,66,,0,127,,,,,0-based,0-63 = off, 64-127 = on
-Generic,MIDI Device,Pedals,Soft Pedal,Soft pedal control,67,,0,127,,,,,0-based,0-63 = off, 64-127 = on
-Generic,MIDI Device,Pedals,Legato Footswitch,Controls legato playback,68,,0,127,,,,,0-based,0-63 = normal, 64-127 = legato
-Generic,MIDI Device,Pedals,Hold 2,Alternative hold control,69,,0,127,,,,,0-based,0-63 = off, 64-127 = on
-Generic,MIDI Device,Sound Controls,Sound Controller 1,Sound variation control,70,,0,127,,,,,0-based,Default: Sound Variation
-Generic,MIDI Device,Sound Controls,Sound Controller 2,Timbre/harmonic content control,71,,0,127,,,,,0-based,Default: Timbre/Harmonic Intensity
-Generic,MIDI Device,Sound Controls,Sound Controller 3,Release time control,72,,0,127,,,,,0-based,Default: Release Time
-Generic,MIDI Device,Sound Controls,Sound Controller 4,Attack time control,73,,0,127,,,,,0-based,Default: Attack Time
-Generic,MIDI Device,Sound Controls,Sound Controller 5,Brightness control,74,,0,127,,,,,0-based,Default: Brightness (filter cutoff)
-Generic,MIDI Device,Sound Controls,Sound Controller 6,Decay time control,75,,0,127,,,,,0-based,Default: Decay Time
-Generic,MIDI Device,Sound Controls,Sound Controller 7,Vibrato rate control,76,,0,127,,,,,0-based,Default: Vibrato Rate
-Generic,MIDI Device,Sound Controls,Sound Controller 8,Vibrato depth control,77,,0,127,,,,,0-based,Default: Vibrato Depth
-Generic,MIDI Device,Sound Controls,Sound Controller 9,Vibrato delay control,78,,0,127,,,,,0-based,Default: Vibrato Delay
-Generic,MIDI Device,Sound Controls,Sound Controller 10,Undefined sound controller,79,,0,127,,,,,0-based,Undefined by default
-Generic,MIDI Device,Sound Controls,Portamento Control,Controls portamento source note,84,,0,127,,,,,0-based,Specifies the source note for portamento
-Generic,MIDI Device,RPN/NRPN,Data Increment,Increments data for RPN/NRPN parameter,96,,0,127,,,,,0-based,Increments current RPN/NRPN value by 1
-Generic,MIDI Device,RPN/NRPN,Data Decrement,Decrements data for RPN/NRPN parameter,97,,0,127,,,,,0-based,Decrements current RPN/NRPN value by 1
-Generic,MIDI Device,RPN/NRPN,NRPN LSB,Non-registered parameter number LSB,98,,0,127,,,,,0-based,Selects LSB of NRPN parameter to be edited
-Generic,MIDI Device,RPN/NRPN,NRPN MSB,Non-registered parameter number MSB,99,,0,127,,,,,0-based,Selects MSB of NRPN parameter to be edited
-Generic,MIDI Device,RPN/NRPN,RPN LSB,Registered parameter number LSB,100,,0,127,,,,,0-based,Selects LSB of RPN parameter to be edited
-Generic,MIDI Device,RPN/NRPN,RPN MSB,Registered parameter number MSB,101,,0,127,,,,,0-based,Selects MSB of RPN parameter to be edited
-Generic,MIDI Device,RPNs,Pitch Bend Sensitivity,Controls pitch bend range in semitones,,,,,0,0,0,127,0-based,"Set by RPN 0,0 then Data Entry MSB","0 = no bend effect, typical value is 2 semitones"
-Generic,MIDI Device,RPNs,Fine Tuning,Fine control of channel tuning in cents,,,,,0,1,0,127,,Centered,"Set by RPN 0,1 then Data Entry MSB/LSB","Center is 8192 (64,0), range is +/- 100 cents"
-Generic,MIDI Device,RPNs,Coarse Tuning,Coarse control of channel tuning in semitones,,,,,0,2,0,127,,Centered,"Set by RPN 0,2 then Data Entry MSB","Center is 64, range is +/- 64 semitones"
-Generic,MIDI Device,RPNs,Tuning Program,Selects stored tuning program,,,,,0,3,0,127,0-based,"Set by RPN 0,3 then Data Entry MSB"
-Generic,MIDI Device,RPNs,Tuning Bank,Selects bank of tuning programs,,,,,0,4,0,127,0-based,"Set by RPN 0,4 then Data Entry MSB"
-Generic,MIDI Device,RPNs,Null Function,Deactivates RPN/NRPN editing,,,,,127,127,0,0,0-based,"Set by RPN 127,127",Disables data entry controls until new RPN/NRPN selected
-Generic,MIDI Device,Channel Mode,All Sound Off,Immediately silences all sound,120,,0,0,,,,,0-based,Emergency sound cutoff
-Generic,MIDI Device,Channel Mode,Reset All Controllers,Resets all controllers to default values,121,,0,0,,,,,0-based,Returns all controllers to default state
+Generic,MIDI Device,Basic Controls,Bank Select,MSB of bank select,0,,0,127,,,,,0-based,Bank selection is completed using both Bank Select MSB and LSB followed by Program Change,
+Generic,MIDI Device,Basic Controls,Bank Select LSB,LSB of bank select,32,,0,127,,,,,0-based,Used with CC 0 for full 14-bit bank selection,
+Generic,MIDI Device,Basic Controls,Modulation Wheel,Controls modulation depth,1,,0,127,,,,,0-based,Standard mod wheel controller,
+Generic,MIDI Device,Basic Controls,Modulation Wheel LSB,Fine control for modulation,33,,0,127,,,,,0-based,Used with CC 1 for high-resolution control,
+Generic,MIDI Device,Basic Controls,Bank Select,MSB of bank select,0,,0,127,,,,,0-based,Bank selection is completed using both Bank Select MSB and LSB followed by Program Change,
+Generic,MIDI Device,Basic Controls,Bank Select LSB,LSB of bank select,32,,0,127,,,,,0-based,Used with CC 0 for full 14-bit bank selection,
+Generic,MIDI Device,Basic Controls,Modulation Wheel,Controls modulation depth,1,,0,127,,,,,0-based,Standard mod wheel controller,
+Generic,MIDI Device,Basic Controls,Modulation Wheel LSB,Fine control for modulation,33,,0,127,,,,,0-based,Used with CC 1 for high-resolution control,
+Generic,MIDI Device,Basic Controls,Breath Controller,Controls expression via breath pressure,2,,0,127,,,,,0-based,Commonly used with wind controllers,
+Generic,MIDI Device,Basic Controls,Foot Controller,Expression control via foot pedal,4,,0,127,,,,,0-based,Assignable foot controller,
+Generic,MIDI Device,Basic Controls,Portamento Time,Controls speed of portamento effect,5,,0,127,,,,,0-based,Higher values = slower glide between notes,
+Generic,MIDI Device,Basic Controls,Data Entry MSB,Sets value for registered/non-registered parameters,6,,0,127,,,,,0-based,Used with RPN/NRPN parameters,
+Generic,MIDI Device,Basic Controls,Data Entry LSB,Fine adjustment for RPN/NRPN parameters,38,,0,127,,,,,0-based,Used with CC 6 for high-resolution parameter control,
+Generic,MIDI Device,Basic Controls,Channel Volume,Controls channel output level,7,,0,127,,,,,0-based,Main volume control for the channel,
+Generic,MIDI Device,Basic Controls,Channel Volume LSB,Fine control for channel volume,39,,0,127,,,,,0-based,Used with CC 7 for high-resolution volume control,
+Generic,MIDI Device,Basic Controls,Balance,Controls left-right balance,8,,0,127,,,,,Centered,0 = full left 64 = center 127 = full right,
+Generic,MIDI Device,Effect Controls,Effect Control 1,General purpose effect depth control,12,,0,127,,,,,0-based,Default = reverb send level,
+Generic,MIDI Device,Effect Controls,Effect Control 2,Secondary effect depth control,13,,0,127,,,,,0-based,Commonly used for chorus send level,
+Generic,MIDI Device,Effect Controls,Effects 1 Depth,Reverb send level,91,,0,127,,,,,0-based,Controls depth of reverb effect,
+Generic,MIDI Device,Effect Controls,Effects 2 Depth,Tremolo depth,92,,0,127,,,,,0-based,Controls depth of tremolo effect,
+Generic,MIDI Device,Effect Controls,Effects 3 Depth,Chorus send level,93,,0,127,,,,,0-based,Controls depth of chorus effect,
+Generic,MIDI Device,Effect Controls,Effects 4 Depth,Detune depth,94,,0,127,,,,,0-based,Controls amount of detune effect,
+Generic,MIDI Device,Effect Controls,Effects 5 Depth,Phaser depth,95,,0,127,,,,,0-based,Controls depth of phaser effect,
+Generic,MIDI Device,General Purpose,General Purpose Controller 1,Assignable controller,16,,0,127,,,,,0-based,General purpose controller,
+Generic,MIDI Device,General Purpose,General Purpose Controller 2,Assignable controller,17,,0,127,,,,,0-based,General purpose controller,
+Generic,MIDI Device,General Purpose,General Purpose Controller 3,Assignable controller,18,,0,127,,,,,0-based,General purpose controller,
+Generic,MIDI Device,General Purpose,General Purpose Controller 4,Assignable controller,19,,0,127,,,,,0-based,General purpose controller,
+Generic,MIDI Device,General Purpose,General Purpose Controller 5,Assignable controller,80,,0,127,,,,,0-based,General purpose controller,
+Generic,MIDI Device,General Purpose,General Purpose Controller 6,Assignable controller,81,,0,127,,,,,0-based,General purpose controller,
+Generic,MIDI Device,General Purpose,General Purpose Controller 7,Assignable controller,82,,0,127,,,,,0-based,General purpose controller,
+Generic,MIDI Device,General Purpose,General Purpose Controller 8,Assignable controller,83,,0,127,,,,,0-based,General purpose controller,
+Generic,MIDI Device,Pedals,Damper Pedal,Sustain pedal (hold) control,64,,0,127,,,,,0-based,0-63 = off 64-127 = on,
+Generic,MIDI Device,Pedals,Portamento On/Off,Activates portamento effect,65,,0,127,,,,,0-based,0-63 = off 64-127 = on,
+Generic,MIDI Device,Pedals,Sostenuto,Sostenuto pedal control,66,,0,127,,,,,0-based,0-63 = off 64-127 = on,
+Generic,MIDI Device,Pedals,Soft Pedal,Soft pedal control,67,,0,127,,,,,0-based,0-63 = off 64-127 = on,
+Generic,MIDI Device,Pedals,Legato Footswitch,Controls legato playback,68,,0,127,,,,,0-based,0-63 = normal 64-127 = legato,
+Generic,MIDI Device,Pedals,Hold 2,Alternative hold control,69,,0,127,,,,,0-based,0-63 = off 64-127 = on,
+Generic,MIDI Device,Sound Controls,Sound Controller 1,Sound variation control,70,,0,127,,,,,0-based,Default: Sound Variation,
+Generic,MIDI Device,Sound Controls,Sound Controller 2,Timbre/harmonic content control,71,,0,127,,,,,0-based,Default: Timbre/Harmonic Intensity,
+Generic,MIDI Device,Sound Controls,Sound Controller 3,Release time control,72,,0,127,,,,,0-based,Default: Release Time,
+Generic,MIDI Device,Sound Controls,Sound Controller 4,Attack time control,73,,0,127,,,,,0-based,Default: Attack Time,
+Generic,MIDI Device,Sound Controls,Sound Controller 5,Brightness control,74,,0,127,,,,,0-based,Default: Brightness (filter cutoff),
+Generic,MIDI Device,Sound Controls,Sound Controller 6,Decay time control,75,,0,127,,,,,0-based,Default: Decay Time,
+Generic,MIDI Device,Sound Controls,Sound Controller 7,Vibrato rate control,76,,0,127,,,,,0-based,Default: Vibrato Rate,
+Generic,MIDI Device,Sound Controls,Sound Controller 8,Vibrato depth control,77,,0,127,,,,,0-based,Default: Vibrato Depth,
+Generic,MIDI Device,Sound Controls,Sound Controller 9,Vibrato delay control,78,,0,127,,,,,0-based,Default: Vibrato Delay,
+Generic,MIDI Device,Sound Controls,Sound Controller 10,Undefined sound controller,79,,0,127,,,,,0-based,Undefined by default,
+Generic,MIDI Device,Sound Controls,Portamento Control,Controls portamento source note,84,,0,127,,,,,0-based,Specifies the source note for portamento,
+Generic,MIDI Device,RPN/NRPN,Data Increment,Increments data for RPN/NRPN parameter,96,,0,127,,,,,0-based,Increments current RPN/NRPN value by 1,
+Generic,MIDI Device,RPN/NRPN,Data Decrement,Decrements data for RPN/NRPN parameter,97,,0,127,,,,,0-based,Decrements current RPN/NRPN value by 1,
+Generic,MIDI Device,RPN/NRPN,NRPN LSB,Non-registered parameter number LSB,98,,0,127,,,,,0-based,Selects LSB of NRPN parameter to be edited,
+Generic,MIDI Device,RPN/NRPN,NRPN MSB,Non-registered parameter number MSB,99,,0,127,,,,,0-based,Selects MSB of NRPN parameter to be edited,
+Generic,MIDI Device,RPN/NRPN,RPN LSB,Registered parameter number LSB,100,,0,127,,,,,0-based,Selects LSB of RPN parameter to be edited,
+Generic,MIDI Device,RPN/NRPN,RPN MSB,Registered parameter number MSB,101,,0,127,,,,,0-based,Selects MSB of RPN parameter to be edited,
+Generic,MIDI Device,RPNs,Pitch Bend Sensitivity,Controls pitch bend range in semitones,,,,,0,0,0,127,0-based,Set by RPN 0 0 then Data Entry MSB,0 = no bend effect typical value is 2 semitones
+Generic,MIDI Device,RPNs,Fine Tuning,Fine control of channel tuning in cents,,,,,0,1,0,127,Centered,Set by RPN 0 1 then Data Entry MSB/LSB Center is 8192 (64/0) range is +/- 100 cents,
+Generic,MIDI Device,RPNs,Coarse Tuning,Coarse control of channel tuning in semitones,,,,,0,2,0,127,Centered,Set by RPN 0 2 then Data Entry MSB Center is 64 range is +/- 64 semitones,
+Generic,MIDI Device,RPNs,Tuning Program,Selects stored tuning program,,,,,0,3,0,127,0-based,Set by RPN 0 3 then Data Entry MSB,
+Generic,MIDI Device,RPNs,Tuning Bank,Selects bank of tuning programs,,,,,0,4,0,127,0-based,Set by RPN 0 4 then Data Entry MSB,
+Generic,MIDI Device,RPNs,Null Function,Deactivates RPN/NRPN editing,,,,,127,127,0,0,0-based,Set by RPN 127,Disables data entry controls until new RPN/NRPN selected
+Generic,MIDI Device,Channel Mode,All Sound Off,Immediately silences all sound,120,,0,0,,,,,0-based,Emergency sound cutoff,
+Generic,MIDI Device,Channel Mode,Reset All Controllers,Resets all controllers to default values,121,,0,0,,,,,0-based,Returns all controllers to default state,
 Generic,MIDI Device,Channel Mode,Local Control,Enables/disables local control of sound generator,122,,0,127,,,,,0-based,0 = off (MIDI control only), 127 = on (normal operation)
-Generic,MIDI Device,Channel Mode,All Notes Off,Releases all currently held notes,123,,0,0,,,,,0-based,Sends Note Off for all notes
-Generic,MIDI Device,Channel Mode,Omni Mode Off,Disables Omni mode (responds only to specified channel),124,,0,0,,,,,0-based,Also performs All Notes Off
-Generic,MIDI Device,Channel Mode,Omni Mode On,Enables Omni mode (responds to all channels),125,,0,0,,,,,0-based,Also performs All Notes Off
-Generic,MIDI Device,Channel Mode,Mono Mode On,Enables monophonic operation,126,,0,127,,,,,0-based,Turns off poly mode and all notes. Value = # of channels or 0 for omni
-Generic,MIDI Device,Channel Mode,Poly Mode On,Enables polyphonic operation,127,,0,0,,,,,0-based,Turns off mono mode and all notes
-Generic,MIDI Device,System Exclusive,Non-Real Time - Sample Dump Header,Transfers sample data header information,,,,,,,,,0-based,"F0 7E <device ID> 01 <sample format> <sample period> <sample length MSB> <sample length> <sample length LSB> <sustain loop start point MSB> <...> <sustain loop end point LSB> <loop type> F7",Used to begin a sample dump
-Generic,MIDI Device,System Exclusive,Non-Real Time - Sample Data Packet,Transfers sample data packets,,,,,,,,,0-based,"F0 7E <device ID> 02 <packet number> <data...> <checksum> F7",Used during sample dump transmission
-Generic,MIDI Device,System Exclusive,Non-Real Time - Sample Dump Request,Requests sample data from a device,,,,,,,,,0-based,"F0 7E <device ID> 03 <sample number> F7",Initiates a sample dump request
-Generic,MIDI Device,System Exclusive,Non-Real Time - MIDI Time Code,Transfers MTC-related information,,,,,,,,,0-based,"F0 7E <device ID> 04 <sub-ID 2> <data...> F7",Various MTC functions based on sub-ID 2
-Generic,MIDI Device,System Exclusive,Non-Real Time - General Information,General device information,,,,,,,,,0-based,"F0 7E <device ID> 06 <sub-ID 2> <data...> F7","Identity Request (01), Identity Reply (02)"
-Generic,MIDI Device,System Exclusive,Non-Real Time - File Dump,Transfers file data between devices,,,,,,,,,0-based,"F0 7E <device ID> 07 <sub-ID 2> <data...> F7","Header (01), Data Packet (02), Request (03)"
-Generic,MIDI Device,System Exclusive,Non-Real Time - MIDI Tuning Standard,Transfers tuning information,,,,,,,,,0-based,"F0 7E <device ID> 08 <sub-ID 2> <data...> F7","Bulk Dump Request (00), Bulk Dump Reply (01), etc."
-Generic,MIDI Device,System Exclusive,Real Time - MIDI Time Code,Real-time MTC messages,,,,,,,,,0-based,"F0 7F <device ID> 01 <sub-ID 2> <data...> F7","Full Message (01), User Bits (02)"
-Generic,MIDI Device,System Exclusive,Real Time - MIDI Show Control,Show control commands,,,,,,,,,0-based,"F0 7F <device ID> 02 <command format> <command> <data...> F7","Controls lighting, sound, machinery for shows"
-Generic,MIDI Device,System Exclusive,Real Time - Notation Information,Score/notation data,,,,,,,,,0-based,"F0 7F <device ID> 03 <sub-ID 2> <data...> F7",Transfers notation-specific information
-Generic,MIDI Device,System Exclusive,Real Time - Device Control,Remote device control,,,,,,,,,0-based,"F0 7F <device ID> 04 <sub-ID 2> <data...> F7","Master Volume (01), Master Balance (02)"
-Generic,MIDI Device,System Exclusive,Real Time - MIDI Machine Control,Transport controls,,,,,,,,,0-based,"F0 7F <device ID> 06 <command> <data...> F7","Stop (01), Play (02), Record (06), FF (04), Rewind (05)"
-Generic,MIDI Device,System Exclusive,Real Time - MIDI Tuning Standard,Real-time tuning changes,,,,,,,,,0-based,"F0 7F <device ID> 08 <sub-ID 2> <data...> F7","Scale/Octave Tune 1-byte (02), Scale/Octave Tune 2-byte (07)"
-Generic,MIDI Device,Channel Voice,Note Off,Ends a note,,,,,,,,,0-based,"Status byte: 8n (n=channel), Data: note number, velocity",Note off messages (can also use Note On with zero velocity)
-Generic,MIDI Device,Channel Voice,Note On,Starts a note,,,,,,,,,0-based,"Status byte: 9n (n=channel), Data: note number, velocity",Note on messages (velocity 0 = Note Off)
-Generic,MIDI Device,Channel Voice,Polyphonic Key Pressure,Note-specific aftertouch,,,,,,,,,0-based,"Status byte: An (n=channel), Data: note number, pressure value",Per-note pressure/aftertouch
-Generic,MIDI Device,Channel Voice,Control Change,Controller messages,,,,,,,,,0-based,"Status byte: Bn (n=channel), Data: controller number, value",Standard control change messages (see CC list above)
-Generic,MIDI Device,Channel Voice,Program Change,Selects program/preset,,,,,,,,,0-based,"Status byte: Cn (n=channel), Data: program number",Changes instrument/sound program
-Generic,MIDI Device,Channel Voice,Channel Pressure,Channel-wide aftertouch,,,,,,,,,0-based,"Status byte: Dn (n=channel), Data: pressure value",Channel pressure/aftertouch (applies to all notes)
-Generic,MIDI Device,Channel Voice,Pitch Bend,Pitch wheel control,,,,,,,,,Centered,"Status byte: En (n=channel), Data: LSB, MSB",14-bit pitch bend value (8192/0x2000 = center)
-Generic,MIDI Device,System Common,System Exclusive,Manufacturer-specific data,,,,,,,,,0-based,"Status byte: F0, End byte: F7",Manufacturer-specific messages
-Generic,MIDI Device,System Common,MIDI Time Code Quarter Frame,MTC timing data,,,,,,,,,0-based,"Status byte: F1, Data: time code data",Quarter frame of SMPTE time code
-Generic,MIDI Device,System Common,Song Position Pointer,Sequencer position,,,,,,,,,0-based,"Status byte: F2, Data: LSB, MSB",14-bit position in MIDI beats (1 beat = 6 MIDI clocks)
-Generic,MIDI Device,System Common,Song Select,Selects sequencer song,,,,,,,,,0-based,"Status byte: F3, Data: song number",Selects song/sequence to play
-Generic,MIDI Device,System Common,Tune Request,Analog synth tuning,,,,,,,,,0-based,"Status byte: F6, No data bytes",Requests analog synthesizers to tune oscillators
-Generic,MIDI Device,System Real Time,Timing Clock,Sequencer timing,,,,,,,,,0-based,"Status byte: F8, No data bytes",24 clocks per quarter note for synchronization
-Generic,MIDI Device,System Real Time,Start,Starts sequence,,,,,,,,,0-based,"Status byte: FA, No data bytes",Start playing sequence from beginning
-Generic,MIDI Device,System Real Time,Continue,Resumes sequence,,,,,,,,,0-based,"Status byte: FB, No data bytes",Continue playing sequence from current position
-Generic,MIDI Device,System Real Time,Stop,Stops sequence,,,,,,,,,0-based,"Status byte: FC, No data bytes",Stop playing sequence
-Generic,MIDI Device,System Real Time,Active Sensing,Connection verification,,,,,,,,,0-based,"Status byte: FE, No data bytes",Sent every 300ms to confirm connection is active
-Generic,MIDI Device,System Real Time,System Reset,System reset,,,,,,,,,0-based,"Status byte: FF, No data bytes",Reset all devices to power-up condition
-Generic,MIDI Device,System,Mono Mode On,Forces monophonic mode,126,,0,127,,,,,0-based,1: Mono; 2-16: Number of voices.
-Generic,MIDI Device,System,Poly Mode On,Forces polyphonic mode,127,,0,127,,,,,0-based,Allows multiple notes at once.
+Generic,MIDI Device,Channel Mode,All Notes Off,Releases all currently held notes,123,,0,0,,,,,0-based,Sends Note Off for all notes,
+Generic,MIDI Device,Channel Mode,Omni Mode Off,Disables Omni mode (responds only to specified channel),124,,0,0,,,,,0-based,Also performs All Notes Off,
+Generic,MIDI Device,Channel Mode,Omni Mode On,Enables Omni mode (responds to all channels),125,,0,0,,,,,0-based,Also performs All Notes Off,
+Generic,MIDI Device,Channel Mode,Mono Mode On,Enables monophonic operation,126,,0,127,,,,,0-based,Turns off poly mode and all notes. Value = # of channels or 0 for omni,
+Generic,MIDI Device,Channel Mode,Poly Mode On,Enables polyphonic operation,127,,0,0,,,,,0-based,Turns off mono mode and all notes,
+Generic,MIDI Device,System Exclusive,Non-Real Time - Sample Dump Header,Transfers sample data header information,,,,,,,,,0-based,F0 7E <device ID> 01 <sample format> <sample period> <sample length MSB> <sample length> <sample length LSB> <sustain loop start point MSB> <...> <sustain loop end point LSB> <loop type> F7,Used to begin a sample dump
+Generic,MIDI Device,System Exclusive,Non-Real Time - Sample Data Packet,Transfers sample data packets,,,,,,,,,0-based,F0 7E <device ID> 02 <packet number> <data...> <checksum> F7,Used during sample dump transmission
+Generic,MIDI Device,System Exclusive,Non-Real Time - Sample Dump Request,Requests sample data from a device,,,,,,,,,0-based,F0 7E <device ID> 03 <sample number> F7,Initiates a sample dump request
+Generic,MIDI Device,System Exclusive,Non-Real Time - MIDI Time Code,Transfers MTC-related information,,,,,,,,,0-based,F0 7E <device ID> 04 <sub-ID 2> <data...> F7,Various MTC functions based on sub-ID 2
+Generic,MIDI Device,System Exclusive,Non-Real Time - General Information,General device information,,,,,,,,,0-based,F0 7E <device ID> 06 <sub-ID 2> <data...> F7,Identity Request (01) Identity Reply (02)
+Generic,MIDI Device,System Exclusive,Non-Real Time - File Dump,Transfers file data between devices,,,,,,,,,0-based,F0 7E <device ID> 07 <sub-ID 2> <data...> F7,Header (01) Data Packet (02) Request (03)
+Generic,MIDI Device,System Exclusive,Non-Real Time - MIDI Tuning Standard,Transfers tuning information,,,,,,,,,0-based,F0 7E <device ID> 08 <sub-ID 2> <data...> F7,Bulk Dump Request (00) Bulk Dump Reply (01)
+Generic,MIDI Device,System Exclusive,Real Time - MIDI Time Code,Real-time MTC messages,,,,,,,,,0-based,F0 7F <device ID> 01 <sub-ID 2> <data...> F7,Full Message (01) User Bits (02)
+Generic,MIDI Device,System Exclusive,Real Time - MIDI Show Control,Show control commands,,,,,,,,,0-based,F0 7F <device ID> 02 <command format> <command> <data...> F7,Controls lighting sound machinery for shows
+Generic,MIDI Device,System Exclusive,Real Time - Notation Information,Score/notation data,,,,,,,,,0-based,F0 7F <device ID> 03 <sub-ID 2> <data...> F7,Transfers notation-specific information
+Generic,MIDI Device,System Exclusive,Real Time - Device Control,Remote device control,,,,,,,,,0-based,F0 7F <device ID> 04 <sub-ID 2> <data...> F7,Master Volume (01) Master Balance (02)
+Generic,MIDI Device,System Exclusive,Real Time - MIDI Machine Control,Transport controls,,,,,,,,,0-based,F0 7F <device ID> 06 <command> <data...> F7,Stop (01) Play (02) Record (06) FF (04) Rewind (05)
+Generic,MIDI Device,System Exclusive,Real Time - MIDI Tuning Standard,Real-time tuning changes,,,,,,,,,0-based,F0 7F <device ID> 08 <sub-ID 2> <data...> F7,Scale/Octave Tune 1-byte (02) Scale/Octave Tune 2-byte (07)
+Generic,MIDI Device,Channel Voice,Note Off,Ends a note,,,,,,,,,0-based,Status byte: 8n (n=channel) Data: note number, velocity Note off messages (can also use Note On with zero velocity)
+Generic,MIDI Device,Channel Voice,Note On,Starts a note,,,,,,,,,0-based,Status byte: 9n (n=channel) Data: note number, velocity Note on messages (velocity 0 = Note Off)
+Generic,MIDI Device,Channel Voice,Polyphonic Key Pressure,Note-specific aftertouch,,,,,,,,,0-based,Status byte: An (n=channel) Data: note number pressure value, Per-note pressure/aftertouch
+Generic,MIDI Device,Channel Voice,Control Change,Controller messages,,,,,,,,,0-based,Status byte: Bn (n=channel) Data: controller number value, Standard control change messages (see CC list above)
+Generic,MIDI Device,Channel Voice,Program Change,Selects program/preset,,,,,,,,,0-based,Status byte: Cn (n=channel) Data: program number,Changes instrument/sound program
+Generic,MIDI Device,Channel Voice,Channel Pressure,Channel-wide aftertouch,,,,,,,,,0-based,Status byte: Dn (n=channel) Data: pressure value,Channel pressure/aftertouch (applies to all notes)
+Generic,MIDI Device,Channel Voice,Pitch Bend,Pitch wheel control,,,,,,,,,Centered,Status byte: En (n=channel) Data: LSB MSB,14-bit pitch bend value (8192/0x2000 = center)
+Generic,MIDI Device,System Common,System Exclusive,Manufacturer-specific data,,,,,,,,,0-based,Status byte: F0 End byte: F7,Manufacturer-specific messages
+Generic,MIDI Device,System Common,MIDI Time Code Quarter Frame,MTC timing data,,,,,,,,,0-based,Status byte: F1 Data: time code data,Quarter frame of SMPTE time code
+Generic,MIDI Device,System Common,Song Position Pointer,Sequencer position,,,,,,,,,0-based,Status byte: F2 Data: LSB MSB,14-bit position in MIDI beats (1 beat = 6 MIDI clocks)
+Generic,MIDI Device,System Common,Song Select,Selects sequencer song,,,,,,,,,0-based,Status byte: F3 Data: song number,Selects song/sequence to play
+Generic,MIDI Device,System Common,Tune Request,Analog synth tuning,,,,,,,,,0-based,Status byte: F6 No data bytes,Requests analog synthesizers to tune oscillators
+Generic,MIDI Device,System Real Time,Timing Clock,Sequencer timing,,,,,,,,,0-based,Status byte: F8 No data bytes,24 clocks per quarter note for synchronization
+Generic,MIDI Device,System Real Time,Start,Starts sequence,,,,,,,,,0-based,Status byte: FA No data bytes,Start playing sequence from beginning
+Generic,MIDI Device,System Real Time,Continue,Resumes sequence,,,,,,,,,0-based,Status byte: FB No data bytes,Continue playing sequence from current position
+Generic,MIDI Device,System Real Time,Stop,Stops sequence,,,,,,,,,0-based,Status byte: FC No data bytes,Stop playing sequence
+Generic,MIDI Device,System Real Time,Active Sensing,Connection verification,,,,,,,,,0-based,Status byte: FE No data bytes,Sent every 300ms to confirm connection is active
+Generic,MIDI Device,System Real Time,System Reset,System reset,,,,,,,,,0-based,Status byte: FF No data bytes,Reset all devices to power-up condition
+Generic,MIDI Device,System,Mono Mode On,Forces monophonic mode,126,,0,127,,,,,0-based,1: Mono; 2-16: Number of voices.,
+Generic,MIDI Device,System,Poly Mode On,Forces polyphonic mode,127,,0,127,,,,,0-based,Allows multiple notes at once.,
