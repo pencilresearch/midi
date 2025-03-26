@@ -2,18 +2,18 @@ Generic,MIDI Device,Basic Controls,Bank Select,MSB of bank select,0,,0,127,,,,,,
 Generic,MIDI Device,Basic Controls,Bank Select LSB,LSB of bank select,32,,0,127,,,,,,0-based,Used with CC 0 for full 14-bit bank selection,
 Generic,MIDI Device,Basic Controls,Modulation Wheel,Controls modulation depth,1,,0,127,,,,,,0-based,Standard mod wheel controller,
 Generic,MIDI Device,Basic Controls,Modulation Wheel LSB,Fine control for modulation,33,,0,127,,,,,,0-based,Used with CC 1 for high-resolution control,
-Generic,MIDI Device,Basic Controls,Breath Controller,Controls expression via breath pressure,2,,0,127,,,,,,0-based,Commonly used with wind controllers,
-Generic,MIDI Device,Basic Controls,Foot Controller,Expression control via foot pedal,4,,0,127,,,,,,0-based,Assignable foot controller,
-Generic,MIDI Device,Basic Controls,Portamento Time,Controls speed of portamento effect,5,,0,127,,,,,,0-based,Higher values = slower glide between notes,
-Generic,MIDI Device,Basic Controls,Data Entry MSB,Sets value for registered/non-registered parameters,6,,0,127,,,,,,0-based,Used with RPN/NRPN parameters,
-Generic,MIDI Device,Basic Controls,Data Entry LSB,Fine adjustment for RPN/NRPN parameters,38,,0,127,,,,,,0-based,Used with CC 6 for high-resolution parameter control,
-Generic,MIDI Device,Basic Controls,Channel Volume,Controls channel output level,7,,0,127,,,,,,0-based,Main volume control for the channel,
-Generic,MIDI Device,Basic Controls,Channel Volume LSB,Fine control for channel volume,39,,0,127,,,,,,0-based,Used with CC 7 for high-resolution volume control,
-Generic,MIDI Device,Basic Controls,Balance,Controls left-right balance,8,,0,127,,,,,,Centered,0 = full left, 64 = center, 127 = full right,
-Generic,MIDI Device,Basic Controls,Pan,Controls left-right position in stereo field,10,,0,127,,,,,,Centered,0 = full left, 64 = center, 127 = full right,
-Generic,MIDI Device,Basic Controls,Expression Controller,Relative volume control,11,,0,127,,,,,,0-based,Relative to Channel Volume (CC 7),
-Generic,MIDI Device,Basic Controls,Expression Controller LSB,Fine control for expression,43,,0,127,,,,,,0-based,Used with CC 11 for high-resolution expression control,
-Generic,MIDI Device,Effect Controls,Effect Control 1,General purpose effect depth control,12,,0,127,,,,,,0-based,Default = reverb send level,
+Generic,MIDI Device,Basic Controls,Bank Select,MSB of bank select,0,,0,127,,,,,,0-based,Bank selection is completed using both Bank Select MSB and LSB followed by Program Change
+Generic,MIDI Device,Basic Controls,Bank Select LSB,LSB of bank select,32,,0,127,,,,,,0-based,Used with CC 0 for full 14-bit bank selection
+Generic,MIDI Device,Basic Controls,Modulation Wheel,Controls modulation depth,1,,0,127,,,,,,0-based,Standard mod wheel controller
+Generic,MIDI Device,Basic Controls,Modulation Wheel LSB,Fine control for modulation,33,,0,127,,,,,,0-based,Used with CC 1 for high-resolution control
+Generic,MIDI Device,Basic Controls,Breath Controller,Controls expression via breath pressure,2,,0,127,,,,,,0-based,Commonly used with wind controllers
+Generic,MIDI Device,Basic Controls,Foot Controller,Expression control via foot pedal,4,,0,127,,,,,,0-based,Assignable foot controller
+Generic,MIDI Device,Basic Controls,Portamento Time,Controls speed of portamento effect,5,,0,127,,,,,,0-based,Higher values = slower glide between notes
+Generic,MIDI Device,Basic Controls,Data Entry MSB,Sets value for registered/non-registered parameters,6,,0,127,,,,,,0-based,Used with RPN/NRPN parameters
+Generic,MIDI Device,Basic Controls,Data Entry LSB,Fine adjustment for RPN/NRPN parameters,38,,0,127,,,,,,0-based,Used with CC 6 for high-resolution parameter control
+Generic,MIDI Device,Basic Controls,Channel Volume,Controls channel output level,7,,0,127,,,,,,0-based,Main volume control for the channel
+Generic,MIDI Device,Basic Controls,Channel Volume LSB,Fine control for channel volume,39,,0,127,,,,,,0-based,Used with CC 7 for high-resolution volume control
+Generic,MIDI Device,Basic Controls,Balance,Controls left-right balance,8,,0,127,,,,,,Centered,0 = full left, 64 = center, 127 = full rightGeneric,MIDI Device,Effect Controls,Effect Control 1,General purpose effect depth control,12,,0,127,,,,,,0-based,Default = reverb send level,
 Generic,MIDI Device,Effect Controls,Effect Control 2,Secondary effect depth control,13,,0,127,,,,,,0-based,Commonly used for chorus send level,
 Generic,MIDI Device,Effect Controls,Effects 1 Depth,Reverb send level,91,,0,127,,,,,,0-based,Controls depth of reverb effect,
 Generic,MIDI Device,Effect Controls,Effects 2 Depth,Tremolo depth,92,,0,127,,,,,,0-based,Controls depth of tremolo effect,
