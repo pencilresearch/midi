@@ -16,6 +16,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run CSV to JSON Conversion
         run: |
@@ -34,6 +37,9 @@ jobs:
         run: |
           git config --global user.name "GitHub Actions"
           git config --global user.email "actions@github.com"
+          
+          # Ensure we have the latest changes
+          git pull origin main --rebase
           
           # First remove any old database files from git's perspective
           git rm -f Json/midi-database-*.json Json/midi-database-*.json.gz 2>/dev/null || echo "No old files to remove from Git"
