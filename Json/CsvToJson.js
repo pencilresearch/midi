@@ -50,7 +50,7 @@ const zlib = require('zlib');
 
 
 
-const VERSION = "1.0.4"; //Updated Json
+const VERSION = "1.0.5"; //Updated 1010 Blackbox
 const rootPath = path.join(__dirname, '..');
 const outputDir = path.join(rootPath, 'Json');
 
