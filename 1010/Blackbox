@@ -57,7 +57,7 @@
 1010 Music,Blackbox,Sequences,Sequence Select 7,Select and trigger sequence 7,,,,,,,,,0-based,MIDI Note 58,
 1010 Music,Blackbox,Sequences,Sequence Select 8,Select and trigger sequence 8,,,,,,,,,0-based,MIDI Note 59,
 1010 Music,Blackbox,Sequences,Sequence Select 9,Select and trigger sequence 9,,,,,,,,,0-based,MIDI Note 60,
-1010 Music,Blackbox,Sequences,Sequence Select 10,Select and trigger sequence 10,,,,,,,,,0-based,MIDI Note 61,
+1010 Music,Blackbox,Sequences,Sequence Select 10,Select and trigger sequence 10,,,,,,,,,0-based,MIDI Note 61, 
 1010 Music,Blackbox,Sequences,Sequence Select 11,Select and trigger sequence 11,,,,,,,,,0-based,MIDI Note 62,
 1010 Music,Blackbox,Sequences,Sequence Select 12,Select and trigger sequence 12,,,,,,,,,0-based,MIDI Note 63,
 1010 Music,Blackbox,Sequences,Sequence Select 13,Select and trigger sequence 13,,,,,,,,,0-based,MIDI Note 64,
