@@ -19,7 +19,7 @@ jobs:
         with:
           fetch-depth: 0
           # Use a personal access token with proper permissions
-          token: ${{ secrets.PAT_TOKEN }}
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Run CSV to JSON Conversion
         run: |
