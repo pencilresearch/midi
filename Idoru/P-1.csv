@@ -1,0 +1,10 @@
+Idoru,P-1,Transport,Previous Song,Selects the previous song in the playlist,21,,0,127,,,,,0-based,Also can use MIDI Note C1 (24),
+Idoru,P-1,Transport,Next Song,Selects the next song in the playlist,22,,0,127,,,,,0-based,Also can use MIDI Note D1 (26),
+Idoru,P-1,Transport,Play/Pause,Toggles playback between play and pause states,23,,0,127,,,,,0-based,Also can use MIDI Note E1 (28),Sends MIDI Start (FA) or Continue (FB) commands
+Idoru,P-1,Transport,Stop,Stops playback,24,,0,127,,,,,0-based,Also can use MIDI Note F1 (29),Sends MIDI Stop (FC) command
+Idoru,P-1,Song Selection,Direct Select & Play Song,Directly selects and plays a song by position,20,,1,40,,,,,1-based,Can also use Program Change messages,Value of 1-40 equals song position in playlist; 0 is ignored
+Idoru,P-1,Song Selection,Direct Select Song,Directly selects a song without playing,19,,1,40,,,,,1-based,,Value of 1-40 equals song position in playlist; 0 is ignored
+Idoru,P-1,Setlist,Previous Setlist,Selects the previous setlist,,,,,,,,,0-based,Uses MIDI Note G0 (31),
+Idoru,P-1,Setlist,Next Setlist,Selects the next setlist,,,,,,,,,0-based,Uses MIDI Note A0 (33),
+Idoru,P-1,Setlist,Direct Select Setlist,Directly selects a setlist,18,,1,7,,,,,1-based,,Value of 1-7 equals setlist; 0 is ignored
+Idoru,P-1,Setlist,Direct Select Setlist & Play Song,Selects setlist and plays specific song,0,,1,7,,,,,1-based,Requires Program Change message after Bank Select,CC0: 1-7 equals setlist number (0 ignored); PC: 1-40 equals song position (0 ignored)
