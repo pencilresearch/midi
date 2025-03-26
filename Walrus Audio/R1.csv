@@ -1,0 +1,15 @@
+Walrus Audio,R1,Reverb,Decay,Controls the decay time/length of the reverb tail,3,,0,127,,,,,0-based,,0-127: Decay time
+Walrus Audio,R1,Dynamics,Swell,Controls the attack time of the reverb effect,14,,0,127,,,,,0-based,,0-127: Swell amount
+Walrus Audio,R1,Mix,Mix,Controls the dry/wet mix of the reverb effect,15,,0,127,,,,,0-based,,0-127: Mix amount
+Walrus Audio,R1,Modulation,Rate,Controls the speed of the modulation,20,,0,127,,,,,0-based,,0-127: Modulation rate
+Walrus Audio,R1,Modulation,Depth,Controls the intensity of the modulation,21,,0,127,,,,,0-based,,0-127: Modulation depth
+Walrus Audio,R1,Time,Pre Delay,Controls the delay before the reverb effect begins,22,,0,127,,,,,0-based,,0-127: Pre-delay time
+Walrus Audio,R1,Program,Prog,Selects between different reverb programs/algorithms,23,,1,6,,,,,0-based,,1: Spring; 2: Hall; 3: Plate; 4: BFR; 5: RFRCT; 6: Air
+Walrus Audio,R1,EQ,Lo,Controls the low frequency content in the reverb,24,,0,127,,,,,0-based,,0-127: Low EQ amount
+Walrus Audio,R1,EQ,High,Controls the high frequency content in the reverb,25,,0,127,,,,,0-based,,0-127: High EQ amount
+Walrus Audio,R1,Parameter X,X,Controls a program-specific secondary parameter,26,,0,127,,,,,0-based,,0-127: X parameter amount
+Walrus Audio,R1,Control,Tweak Switch,Selects which parameter is controlled by the tweak knob,27,,0,127,,,,,0-based,,0-42: Rate; 43-85: Depth; 86-127: Pre Delay
+Walrus Audio,R1,Bank,A|B|C| Switch (Bank),Selects between preset banks,28,,0,127,,,,,0-based,,0-42: Bank A; 43-85: Bank B; 86-127: Bank C
+Walrus Audio,R1,Control,Tune Switch,Selects the tuning mode,29,,0,127,,,,,0-based,,0-42: Left; 43-85: Middle; 86-127: Right
+Walrus Audio,R1,Bypass,Bypass Switch,Controls the bypass state of the effect,30,,0,127,,,,,0-based,,0: Bypassed; 127: Engaged
+Walrus Audio,R1,Control,Sus/Latch,Controls the sustain/latch function,31,,0,127,,,,,0-based,,0: Sustain off; 127: Sustain on

@@ -1,0 +1,22 @@
+Electro Harmonix,ModRex,Controls,Expression,Controls parameters via external expression pedal,4,,0,127,,,,,0-based,,0-127: Expression value
+Electro Harmonix,ModRex,Output,Volume,Controls the overall output volume,7,,0,127,,,,,0-based,,0-127: Volume level
+Electro Harmonix,ModRex,Modulation,MOD Type,Selects the modulation effect type,18,,0,3,,,,,0-based,,0-3: Modulation type selection
+Electro Harmonix,ModRex,Filter,FILTER Type,Selects the filter type,19,,0,2,,,,,0-based,,0-2: Filter type selection
+Electro Harmonix,ModRex,Modulation,MOD Shape,Selects the modulation LFO shape,20,,0,3,,,,,0-based,,0-3: Modulation shape selection
+Electro Harmonix,ModRex,Tremolo,TREM Shape,Selects the tremolo LFO shape,21,,0,2,,,,,0-based,,0-2: Tremolo shape selection
+Electro Harmonix,ModRex,Pan,PAN Shape,Selects the pan LFO shape,22,,0,2,,,,,0-based,,0-2: Pan shape selection
+Electro Harmonix,ModRex,Filter,FILTER Shape,Selects the filter LFO shape,23,,0,3,,,,,0-based,,0-3: Filter shape selection
+Electro Harmonix,ModRex,Modulation,MOD R-INV On,Enables modulation right channel inversion,24,,127,127,,,,,0-based,,127: Right channel inversion on
+Electro Harmonix,ModRex,Modulation,MOD R-INV Off,Disables modulation right channel inversion,24,,0,0,,,,,0-based,,0: Right channel inversion off
+Electro Harmonix,ModRex,Filter,FILTER R-INV On,Enables filter right channel inversion,25,,127,127,,,,,0-based,,127: Right channel inversion on
+Electro Harmonix,ModRex,Filter,FILTER R-INV Off,Disables filter right channel inversion,25,,0,0,,,,,0-based,,0: Right channel inversion off
+Electro Harmonix,ModRex,Modulation,MOD Division,Sets the rhythmic division for modulation,26,,0,9,,,,,0-based,,0-9: Division value
+Electro Harmonix,ModRex,Tremolo,TREM Division,Sets the rhythmic division for tremolo,27,,0,9,,,,,0-based,,0-9: Division value
+Electro Harmonix,ModRex,Pan,PAN Division,Sets the rhythmic division for panning,28,,0,9,,,,,0-based,,0-9: Division value
+Electro Harmonix,ModRex,Filter,FILTER Division,Sets the rhythmic division for filter,29,,0,9,,,,,0-based,,0-9: Division value
+Electro Harmonix,ModRex,Modulation,MOD Feedback,Controls the feedback amount for modulation,30,,0,127,,,,,0-based,,0-127: Feedback amount
+Electro Harmonix,ModRex,Filter,FILTER Resonance,Controls the resonance amount for filter,31,,0,127,,,,,0-based,,0-127: Resonance amount
+Electro Harmonix,ModRex,Tremolo,TREM Depth,Controls the depth of the tremolo effect,92,,0,127,,,,,0-based,,0-127: Depth amount
+Electro Harmonix,ModRex,Modulation,MOD Depth,Controls the depth of the modulation effect,93,,0,127,,,,,0-based,,0-127: Depth amount
+Electro Harmonix,ModRex,Pan,PAN Depth,Controls the depth of the panning effect,94,,0,127,,,,,0-based,,0-127: Depth amount
+Electro Harmonix,ModRex,Filter,FILTER Depth,Controls the depth of the filter effect,95,,0,127,,,,,0-based,,0-127: Depth amount

@@ -1,0 +1,15 @@
+AVID,Eleven Rack,Effects,Distortion Bypass,Enables or bypasses the distortion module,25,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Effects,Modulation Bypass,Enables or bypasses the modulation module,50,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Effects,Delay Bypass,Enables or bypasses the delay module,28,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Effects,Reverb Bypass,Enables or bypasses the reverb module,36,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Routing,FX Loop Bypass,Enables or bypasses the external effects loop,107,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Effects,FX1 Bypass,Enables or bypasses the FX1 module,63,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Effects,FX2 Bypass,Enables or bypasses the FX2 module,86,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Effects,Wah Bypass,Enables or bypasses the wah effect,43,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Amp,Amp Bypass,Enables or bypasses the amp model,111,,0,127,,,,,0-based,,0-63: Enabled; 64-127: Bypassed
+AVID,Eleven Rack,Amp,Amp Output,Controls the output level of the amp model,92,,0,127,,,,,0-based,,0-127: Output level
+AVID,Eleven Rack,Volume,Volume Pedal Position,Controls the position of the virtual volume pedal,7,,0,127,,,,,0-based,Standard MIDI volume CC,0-127: Volume position
+AVID,Eleven Rack,Effects,Wah Position,Controls the position of the virtual wah pedal,4,,0,127,,,,,0-based,Standard MIDI foot controller CC,0-127: Wah position
+AVID,Eleven Rack,Effects,Multi FX Control,Controls the assignable multi-effect parameter,11,,0,127,,,,,0-based,Standard MIDI expression controller CC,0-127: Effect amount
+AVID,Eleven Rack,Tempo,Tap Tempo,Sends a tap tempo command,64,,0,127,,,,,0-based,Standard MIDI sustain pedal CC,0-63: Off; 64-127: Tap
+AVID,Eleven Rack,Utility,Tuner,Activates the built-in tuner,69,,0,127,,,,,0-based,,0-63: Off; 64-127: Tuner on

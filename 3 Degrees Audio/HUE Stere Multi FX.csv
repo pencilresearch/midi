@@ -1,0 +1,17 @@
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 1,Controls the first effect parameter,1,,0,127,,,,,0-based,,0-127: Parameter 1 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 2,Controls the second effect parameter,2,,0,127,,,,,0-based,,0-127: Parameter 2 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 3,Controls the third effect parameter,3,,0,127,,,,,0-based,,0-127: Parameter 3 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 4,Controls the fourth effect parameter,4,,0,127,,,,,0-based,,0-127: Parameter 4 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 5,Controls the fifth effect parameter,5,,0,127,,,,,0-based,,0-127: Parameter 5 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 6,Controls the sixth effect parameter,6,,0,127,,,,,0-based,,0-127: Parameter 6 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 7,Controls the seventh effect parameter,7,,0,127,,,,,0-based,,0-127: Parameter 7 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 8,Controls the eighth effect parameter,8,,0,127,,,,,0-based,,0-127: Parameter 8 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 9,Controls the ninth effect parameter,9,,0,127,,,,,0-based,,0-127: Parameter 9 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 10,Controls the tenth effect parameter,10,,0,127,,,,,0-based,,0-127: Parameter 10 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 11,Controls the eleventh effect parameter,11,,0,127,,,,,0-based,,0-127: Parameter 11 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 12,Controls the twelfth effect parameter,12,,0,127,,,,,0-based,,0-127: Parameter 12 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 13,Controls the thirteenth effect parameter,13,,0,127,,,,,0-based,,0-127: Parameter 13 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 14,Controls the fourteenth effect parameter,14,,0,127,,,,,0-based,,0-127: Parameter 14 value
+3 Degrees Audio,HUE Stereo Multi FX,Effects,Parameter 15,Controls the fifteenth effect parameter,15,,0,127,,,,,0-based,,0-127: Parameter 15 value
+3 Degrees Audio,HUE Stereo Multi FX,Bypass,Enable,Enables the effect,0,,1,1,,,,,0-based,,1: Effect enabled
+3 Degrees Audio,HUE Stereo Multi FX,Bypass,Bypass,Bypasses the effect,0,,0,0,,,,,0-based,,0: Effect bypassed

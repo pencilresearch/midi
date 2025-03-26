@@ -1,0 +1,51 @@
+Source Audio,Nemesis,Engine,Delay Engine,Selects the delay algorithm type,1,,0,23,,,,,0-based,,"0: Digital; 1: Diffuse; 2: Analog; 3: Tape; 4: Noise Tape; 5: Degrade; 6: Shifter; 7: Helix; 8: Reverse; 9: Sweeper; 10: Rhythmic; 11: Slapback; 12: Resonant Analog; 13: Tremolo; 14: Sequenced Filters; 15: Dub; 16: Chorus; 17: Flanger; 18: Double Helix; 19: Complex Rhythmic; 20: Lo-Fi Retro; 21: Warped Record; 22: Compound Shifter; 23: Oil Can"
+Source Audio,Nemesis,Time,Delay Time,Controls the delay time,2,,0,127,,,,,0-based,,0-127: Delay time value
+Source Audio,Nemesis,Time,Maximum Delay Time,Sets the maximum delay time range,3,,0,127,,,,,0-based,,0-127: Maximum delay time value
+Source Audio,Nemesis,Core,Feedback,Controls the feedback/repeats amount,5,,0,127,,,,,0-based,,0-127: Feedback amount
+Source Audio,Nemesis,Core,Wet/Dry Mix,Controls the balance between dry and wet signals,6,,0,127,,,,,0-based,,0-127: Mix amount
+Source Audio,Nemesis,Modulation,Modulation Depth,Controls depth of time modulation,7,,0,127,,,,,0-based,,0-127: Modulation depth
+Source Audio,Nemesis,Modulation,Modulation Rate,Controls rate of time modulation,8,,0,127,,,,,0-based,,0-127: Modulation rate
+Source Audio,Nemesis,Core,Intensity,Assignable parameter controlled by Intensity knob,9,,0,127,,,,,0-based,Function depends on Intensity Knob Remap,0-127: Intensity amount
+Source Audio,Nemesis,Core,Output Level,Controls the output level,10,,0,127,,,,,0-based,Range 0dB to +8dB,0-127: Output level
+Source Audio,Nemesis,Core,Diffusion,Controls smearing/diffusion of repeats,11,,0,127,,,,,0-based,,0-127: Diffusion amount
+Source Audio,Nemesis,Core,Distortion,Controls amount of distortion on delay repeats,12,,0,127,,,,,0-based,,0-127: Distortion amount
+Source Audio,Nemesis,Filter,High Pass Filter,Controls high-pass filter frequency,13,,0,127,,,,,0-based,,"0: No filtering; 16: 120 Hz; 32: 170 Hz; 48: 250 Hz; 64: 360 Hz; 80: 515 Hz; 96: 740 Hz; 112: 1070 Hz; 127: 1500 Hz"
+Source Audio,Nemesis,Filter,Low Pass Filter,Controls low-pass filter frequency,14,,0,127,,,,,0-based,,"0: No filtering; 16: 11000 Hz; 32: 7500 Hz; 48: 5100 Hz; 64: 3500 Hz; 80: 2400 Hz; 96: 1650 Hz; 112: 900 Hz; 127: 400 Hz"
+Source Audio,Nemesis,Filter,Sample Rate Reduction,Controls sample rate reduction,15,,0,127,,,,,0-based,,"0: No reduction; 1: 12000 Hz; 16: 8000 Hz; 32: 6000 Hz; 48: 4400 Hz; 64: 3200 Hz; 80: 2300 Hz; 96: 1500 Hz; 112: 800 Hz; 127: 200 Hz"
+Source Audio,Nemesis,Sweep Filter,Sweep Filter Frequency,Controls the center frequency of sweep filter,16,,0,127,,,,,0-based,,"0: 55 Hz; 16: 100 Hz; 32: 170 Hz; 48: 300 Hz; 64: 500 Hz; 80: 900 Hz; 96: 1600 Hz; 112: 2800 Hz; 127: 4700 Hz"
+Source Audio,Nemesis,Sweep Filter,Sweep Filter Q,Controls resonance of sweep filter,17,,0,127,,,,,0-based,,0: No resonance; 127: Maximum resonance
+Source Audio,Nemesis,Sweep Filter,Sweep Filter Depth,Controls sweep range of filter modulation,18,,0,127,,,,,0-based,,"0: No sweep (fixed frequency); 42: From 1/2 to 2x center frequency; 63: From 1/3 to 3x center frequency; 85: From 1/4 to 4x center frequency; 127: From 1/8 to 8x center frequency"
+Source Audio,Nemesis,Sweep Filter,Sweep Filter Mix,Controls mix level of sweep filter effect,19,,0,127,,,,,0-based,,0-127: Sweep filter mix
+Source Audio,Nemesis,Tape,Wow and Flutter Depth,Controls depth of wow and flutter modulation,20,,0,127,,,,,0-based,,0-127: Wow and flutter depth
+Source Audio,Nemesis,Tape,Wow and Flutter Rate,Controls rate of wow and flutter modulation,21,,0,127,,,,,0-based,,0-127: Wow and flutter rate
+Source Audio,Nemesis,Tape,Wow Modulation Noise,Controls amount of noise in wow modulation,22,,0,127,,,,,0-based,,"0: ""New"" tape; 20: ""Old"" tape; 40: ""Warped"" tape; >50: Noise and distortion"
+Source Audio,Nemesis,Tremolo,Tremolo Depth,Controls depth of tremolo effect,23,,0,127,,,,,0-based,,"0: No tremolo; 63: Maximum tremolo (sine LFO); 127: Doubled tremolo (twice speed, rectified sine LFO)"
+Source Audio,Nemesis,Pitch,Pitch Shift Control,Controls amount of pitch shifting,24,,0,125,,,,,0-based,See detailed pitch shift table,0-125: Pitch shift values from +31 to -31 semitones and reverse versions
+Source Audio,Nemesis,Taps,Tap 1 Level,Controls level of first delay tap,25,,0,127,,,,,0-based,,"0: Silent; 16: -12dB; 31: -6dB; 45: -3dB; 63: 0dB; 127: +6dB"
+Source Audio,Nemesis,Taps,Tap 1 Pan,Controls panning of first delay tap,26,,0,127,,,,,0-based,,0: 100% Left; 63: Centered; 127: 100% Right
+Source Audio,Nemesis,Taps,Tap 2 Level,Controls level of second delay tap,27,,0,127,,,,,0-based,,"0: Silent; 16: -12dB; 31: -6dB; 45: -3dB; 63: 0dB; 127: +6dB"
+Source Audio,Nemesis,Taps,Tap 2 Pan,Controls panning of second delay tap,28,,0,127,,,,,0-based,,0: 100% Left; 63: Centered; 127: 100% Right
+Source Audio,Nemesis,Taps,Tap 2 Delay Time,Controls time offset of second delay tap,29,,0,127,,,,,0-based,,"0: Minimum delay; 31-32: 1/4 of delay time (16th note); 42-43: 1/3 of delay time (triplet); 63-64: 1/2 of delay time (8th note); 85: 2/3 of delay time (swung 8th); 95-96: 3/4 of delay time (dotted 8th); 127: Same as tap 1"
+Source Audio,Nemesis,Filter,Input Low Pass Filter,Controls low-pass filtering of input signal,30,,0,127,,,,,0-based,,"0: No filtering; 16: 15000 Hz; 32: 10000 Hz; 48: 7500 Hz; 64: 5500 Hz; 80: 4000 Hz; 96: 3000 Hz; 112: 2000 Hz; 127: 1500 Hz"
+Source Audio,Nemesis,Core,Feedback Maximum,Controls maximum feedback for self-oscillation,31,,0,3,,,,,0-based,,"0: 1.00x (No self-oscillation); 1: 1.25x; 2: 1.50x; 3: 2.00x"
+Source Audio,Nemesis,Modulation,LFO Lock to Delay Time,Syncs LFO rate to delay time,32,,0,1,,,,,0-based,,0: LFO runs at own rate; 1: LFO locks to delay time
+Source Audio,Nemesis,Phase,Invert Left Wet Phase,Inverts phase of left wet signal,33,,0,1,,,,,0-based,,0: In-phase; 1: Out-of-phase
+Source Audio,Nemesis,Phase,Invert Right Wet Phase,Inverts phase of right wet signal,34,,0,1,,,,,0-based,,0: In-phase; 1: Out-of-phase
+Source Audio,Nemesis,Routing,I/O Routing Option,Sets input/output routing configuration,35,,0,6,,,,,0-based,,"0: Auto-detect; 1: Mono In - Mono/Stereo Out, Hardware Bypass; 2: Mono In - Mono Out, Output 1 Wet, Output 2 Dry; 3: Mono In - Stereo Out, Soft Bypass; 4: Stereo In - Stereo Out; 5: Feedback Loop Insert; 6: External Loop Pre-Delay"
+Source Audio,Nemesis,Feedback,Multi-Feedback Mode,Controls feedback routing configuration,36,,0,3,,,,,0-based,,"0: Use Effect Default; 1: Tap 1 only (Feedback = 1.0); 2: Tap 2 only (Feedback = 1.0); 3: Both Tap 1 and Tap 2 (Each = 0.5)"
+Source Audio,Nemesis,Routing,Merge Stereo Outputs,Controls stereo output configuration,37,,0,1,,,,,0-based,,0: Normal Stereo; 1: Merged L+R on both outputs
+Source Audio,Nemesis,Global,Bypass,Controls effect bypass state,38,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: Engaged
+Source Audio,Nemesis,Configuration,Intensity Knob Remap,Reassigns function of Intensity knob,39,,0,14,,,,,0-based,,"0: Factory Default; 1: Output Volume; 2: Diffusion; 3: Distortion; 4: Low Cut Filter; 5: High Cut Filter; 6: Sample Rate Reduction; 7: Sweep Filter Frequency; 8: Sweep Filter Q; 9: Sweep Filter Depth; 10: Sweep Filter Mix; 11: Wow and Flutter Noise; 12: Tremolo Depth; 13: Pitch Control; 14: Delay Effect Send Level"
+Source Audio,Nemesis,Configuration,Mod Knob Remap,Reassigns function of Mod knob,40,,0,3,,,,,0-based,,"0: Time Modulation; 1: Tape Modulation (Wow/Flutter); 2: Filter Modulation; 3: Tremolo Depth"
+Source Audio,Nemesis,Configuration,Rate Knob Remap,Reassigns function of Rate knob,41,,0,1,,,,,0-based,,0: Modulation Rate; 1: Tape Speed (Wow/Flutter Rate)
+Source Audio,Nemesis,Time,Tempo Division,Sets rhythmic subdivision of delay time,42,,0,14,,,,,0-based,,"0: Whole Notes; 1: Dotted Half Notes; 2: Half Notes; 3: Golden Ratio; 4: Dotted Quarters; 5: Swing Quarters; 6: Quarter Notes; 7: Dotted 8ths; 8: Swing 8ths; 9: Inverse Golden Ratio; 10: Straight 8ths; 11: Triplets; 12: 16th Notes; 13: Sextuplets; 14: 32nd Notes"
+Source Audio,Nemesis,Pitch,Octave Shift Control,Controls octave shifting amount,50,,0,127,,,,,0-based,,0: Octave Down; 63: Unison; 127: Octave Up
+Source Audio,Nemesis,Core,Delay Send Control,Controls how much input is sent to delay,51,,0,127,,,,,0-based,,0: No input to delay; 127: Full input to delay
+Source Audio,Nemesis,Presets,Preset Down,Decrements selected preset,80,,0,127,,,,,0-based,Any value decrements preset (wraps around),Any: Decrement preset
+Source Audio,Nemesis,Presets,Preset Up,Increments selected preset,82,,0,127,,,,,0-based,Any value increments preset (wraps around),Any: Increment preset
+Source Audio,Nemesis,Global,Remote Tap,Remote tap tempo control,93,,0,127,,,,,0-based,Any value triggers tap,Any: Tap tempo
+Source Audio,Nemesis,Special,Infinite Hold,Activates infinite repeat/hold mode,97,,0,127,,,,,0-based,,0-63: Hold off; 64-127: Hold active
+Source Audio,Nemesis,Global,Bypass Alt,Alternate bypass control,101,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: Engaged
+Source Audio,Nemesis,Global,Remote Bypass,Remote toggle bypass control,102,,0,127,,,,,0-based,Any value toggles bypass state,Any: Toggle bypass
+Source Audio,Nemesis,Presets,Recall Preset Bypassed,Recalls preset in bypassed state,103,,0,127,,,,,0-based,Value indicates preset number,0-127: Preset number
+Source Audio,Nemesis,Presets,Recall Preset Engaged,Recalls preset in engaged state,104,,0,127,,,,,0-based,Value indicates preset number,0-127: Preset number

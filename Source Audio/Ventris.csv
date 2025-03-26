@@ -1,0 +1,53 @@
+Source Audio,Ventris,Engine A,Reverb Engine A,Selects the reverb algorithm for engine A,1,,0,13,,,,,0-based,,"0: Room; 1: Hall; 2: E-Dome; 3: True Spring; 4: Plate; 5: Lo-Fi; 6: Modverb; 7: Shimmer; 8: Echoverb; 9: Swell; 10: Offspring; 11: Reverse; 12: Outboard Spring; 13: Metal Box"
+Source Audio,Ventris,Engine A,Time A,Controls decay time for engine A,2,,0,127,,,,,0-based,,0-127: Decay time
+Source Audio,Ventris,Engine A,Mix A,Controls wet/dry mix for engine A,3,,0,127,,,,,0-based,,0-127: Mix amount
+Source Audio,Ventris,Engine A,Pre-Delay A,Controls pre-delay time for engine A,4,,0,127,,,,,0-based,,0-127: Pre-delay time
+Source Audio,Ventris,Engine A,Treble A,Controls high frequency response for engine A,5,,0,127,,,,,0-based,,0-127: Treble amount
+Source Audio,Ventris,Engine A,Output A,Controls output level for engine A,6,,0,127,,,,,0-based,,0-127: Output level
+Source Audio,Ventris,Engine A,Bass A,Controls low frequency response for engine A,7,,0,127,,,,,0-based,,0-127: Bass amount
+Source Audio,Ventris,Engine A,Diffusion A,Controls diffusion amount for engine A,8,,0,127,,,,,0-based,,0-127: Diffusion amount
+Source Audio,Ventris,Engine A,Modulation Depth A,Controls modulation depth for engine A,9,,0,127,,,,,0-based,,0-127: Modulation depth
+Source Audio,Ventris,Engine A,Modulation Rate A,Controls modulation rate for engine A,10,,0,127,,,,,0-based,,0-127: Modulation rate
+Source Audio,Ventris,Engine A,Pre-Delay Feedback A,Controls pre-delay feedback for engine A,11,,0,127,,,,,0-based,,0-127: Pre-delay feedback amount
+Source Audio,Ventris,Engine A,Pre-Delay Mod Depth A,Controls pre-delay modulation depth for engine A,12,,0,127,,,,,0-based,,0-127: Pre-delay modulation depth
+Source Audio,Ventris,Engine A,Size A,Controls room size for engine A,13,,0,127,,,,,0-based,,0-127: Room size
+Source Audio,Ventris,Engine A,Input Low Cut A,Controls input high-pass filter for engine A,14,,0,7,,,,,0-based,,"0: Offspring; 1: 20Hz; 2: 100Hz; 3: 125Hz; 4: 150Hz; 5: 200Hz; 6: 250Hz; 7: Default Setting"
+Source Audio,Ventris,Engine A,Engine Param 1 A,Engine-specific parameter 1 for engine A,15,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine A,Engine Param 2 A,Engine-specific parameter 2 for engine A,16,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine A,Engine Param 3 A,Engine-specific parameter 3 for engine A,17,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine A,Engine Param 4 A,Engine-specific parameter 4 for engine A,18,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine A,Engine Param 5 A,Engine-specific parameter 5 for engine A,19,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine A,Engine Special Control A,Engine-specific special control for engine A,20,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Control value
+Source Audio,Ventris,Engine B,Reverb Engine B,Selects the reverb algorithm for engine B,25,,0,13,,,,,0-based,,"0: Room; 1: Hall; 2: E-Dome; 3: True Spring; 4: Plate; 5: Lo-Fi; 6: Modverb; 7: Shimmer; 8: Echoverb; 9: Swell; 10: Offspring; 11: Reverse; 12: Outboard Spring; 13: Metal Box"
+Source Audio,Ventris,Engine B,Time B,Controls decay time for engine B,26,,0,127,,,,,0-based,,0-127: Decay time
+Source Audio,Ventris,Engine B,Mix B,Controls wet/dry mix for engine B,27,,0,127,,,,,0-based,,0-127: Mix amount
+Source Audio,Ventris,Engine B,Pre-Delay B,Controls pre-delay time for engine B,28,,0,127,,,,,0-based,,0-127: Pre-delay time
+Source Audio,Ventris,Engine B,Treble B,Controls high frequency response for engine B,29,,0,127,,,,,0-based,,0-127: Treble amount
+Source Audio,Ventris,Engine B,Output B,Controls output level for engine B,30,,0,127,,,,,0-based,,0-127: Output level
+Source Audio,Ventris,Engine B,Bass B,Controls low frequency response for engine B,31,,0,127,,,,,0-based,,0-127: Bass amount
+Source Audio,Ventris,Engine B,Diffusion B,Controls diffusion amount for engine B,32,,0,127,,,,,0-based,,0-127: Diffusion amount
+Source Audio,Ventris,Engine B,Modulation Depth B,Controls modulation depth for engine B,33,,0,127,,,,,0-based,,0-127: Modulation depth
+Source Audio,Ventris,Engine B,Modulation Rate B,Controls modulation rate for engine B,34,,0,127,,,,,0-based,,0-127: Modulation rate
+Source Audio,Ventris,Engine B,Pre-Delay Feedback B,Controls pre-delay feedback for engine B,35,,0,127,,,,,0-based,,0-127: Pre-delay feedback amount
+Source Audio,Ventris,Engine B,Pre-Delay Mod Depth B,Controls pre-delay modulation depth for engine B,36,,0,127,,,,,0-based,,0-127: Pre-delay modulation depth
+Source Audio,Ventris,Engine B,Size B,Controls room size for engine B,37,,0,127,,,,,0-based,,0-127: Room size
+Source Audio,Ventris,Engine B,Input Low Cut B,Controls input high-pass filter for engine B,38,,0,7,,,,,0-based,,"0: Offspring; 1: 20Hz; 2: 100Hz; 3: 125Hz; 4: 150Hz; 5: 200Hz; 6: 250Hz; 7: Default Setting"
+Source Audio,Ventris,Engine B,Engine Param 1 B,Engine-specific parameter 1 for engine B,39,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine B,Engine Param 2 B,Engine-specific parameter 2 for engine B,40,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine B,Engine Param 3 B,Engine-specific parameter 3 for engine B,41,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine B,Engine Param 4 B,Engine-specific parameter 4 for engine B,42,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine B,Engine Param 5 B,Engine-specific parameter 5 for engine B,43,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Parameter value
+Source Audio,Ventris,Engine B,Engine Special Control B,Engine-specific special control for engine B,44,,0,127,,,,,0-based,Function depends on selected reverb engine,0-127: Control value
+Source Audio,Ventris,Global,Dual/Single Mode,Controls how engines A and B are used,50,,0,3,,,,,0-based,,"0: Selects Reverb A; 1: Selects Reverb B; 2: Selects A&B Parallel; 3: Selects A&B Cascade"
+Source Audio,Ventris,Routing,I/O Routing Option,Sets input/output routing configuration,53,,0,7,,,,,0-based,,"0: Auto-detect; 1: Mono in - Stereo Out; 2: Stereo In - Stereo Out; 3: Mono In - Mono Out - Dry out 2; 4: Stereo In - Wet Sum to Mono; 5: Dual Mono - Independent Stereo; 6: Mono In - Independent Stereo Out; 7: Pre-Processing External Loop"
+Source Audio,Ventris,Global,Reverb Send,Controls how much input is sent to the reverb,54,,0,127,,,,,0-based,,0-127: Reverb send amount
+Source Audio,Ventris,Global,A/B Crossfade,Controls crossfade between engines A and B,55,,0,127,,,,,0-based,0: Full A; 127: Full B,0-127: Crossfade value
+Source Audio,Ventris,Presets,Preset Decrement,Decrements selected preset,80,,0,127,,,,,0-based,Any value decrements preset,Any: Decrement preset
+Source Audio,Ventris,Presets,Preset Increment,Increments selected preset,82,,0,127,,,,,0-based,Any value increments preset,Any: Increment preset
+Source Audio,Ventris,Global,Remote Tap Tempo,Remote tap tempo control,93,,0,127,,,,,0-based,Any value triggers tap tempo,Any: Tap tempo
+Source Audio,Ventris,Global,Remote Hold Function,Activates the hold/freeze function,97,,0,127,,,,,0-based,,0-63: Hold off; 64-127: Hold active
+Source Audio,Ventris,Global,Remote Expression,Controls external expression pedal mapping,100,,0,127,,,,,0-based,,0-127: Expression position
+Source Audio,Ventris,Global,Bypass/Engage,Controls effect bypass state,101,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: Engaged
+Source Audio,Ventris,Global,Toggle Bypass/Engage,Remote toggle bypass control,102,,0,127,,,,,0-based,Any value toggles bypass state,Any: Toggle bypass
+Source Audio,Ventris,Presets,Recall Preset - Bypass,Recalls preset in bypassed state,103,,0,127,,,,,0-based,Value indicates preset number,0-127: Preset number
+Source Audio,Ventris,Presets,Recall Preset - Engage,Recalls preset in engaged state,104,,0,127,,,,,0-based,Value indicates preset number,0-127: Preset number

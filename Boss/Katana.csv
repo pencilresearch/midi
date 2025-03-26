@@ -1,0 +1,7 @@
+Boss,Katana,Effects,FX1 SW Toggle,Toggles FX1 on/off,16,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Boss,Katana,Effects,FX2 SW Toggle,Toggles FX2 on/off,17,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Boss,Katana,Effects,FX3 SW Toggle,Toggles FX3 on/off,18,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Boss,Katana,Routing,EFFECT LOOP SW Toggle,Toggles external effects loop on/off,19,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Boss,Katana,Expression,GA-FC EXP PEDAL (FX) Toggle,Toggles GA-FC expression pedal FX function,80,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Boss,Katana,Expression,GA-FC EXP PEDAL (VOLUME) Toggle,Toggles GA-FC expression pedal volume function,81,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Boss,Katana,Expression,EXP PEDAL Toggle,Toggles expression pedal function,82,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON

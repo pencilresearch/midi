@@ -1,0 +1,4 @@
+Line 6,M5,Global,FX On/Off,Turns the effect on or off,11,,0,127,,,,,0-based,,0-63: Bypass; 64-127: On
+Line 6,M5,Global,Tap Tempo,Sets tempo via tap function,64,,0,127,,,,,0-based,,64-127: Trigger tap
+Line 6,M5,Global,Tuner Mode,Activates or deactivates the tuner,69,,0,127,,,,,0-based,,0-63: Exit tuner; 64-127: Enter tuner
+Line 6,M5,Expression,Expression Pedal,Controls the assigned parameter,1,,0,127,,,,,0-based,,0-127: Pedal position

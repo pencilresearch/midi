@@ -1,0 +1,29 @@
+Electro-Harmonix,HOG 2,Expression,Expression Pedal Coarse,Controls the selected expression parameter with coarse resolution,4,,0,127,,,,,0-based,Works with parameter selected by EXP. MODE,0-127: Expression pedal position
+Electro-Harmonix,HOG 2,Volume,Master Volume,Controls the master output volume,7,,0,127,,,,,0-based,,0-127: Volume level
+Electro-Harmonix,HOG 2,Expression,Expression Pedal Fine,Provides fine control over the expression parameter,36,,0,127,,,,,0-based,Works with CC #4 for precise control,0-127: Fine expression control
+Electro-Harmonix,HOG 2,Freeze,Freeze+Gliss Control,Controls freeze and glissando functions,64,,0,127,,,,,0-based,Uses standard sustain pedal CC,"0: No Freeze; 1-126: Varying glissando; 127: Freeze Hold"
+Electro-Harmonix,HOG 2,Global,Bypass,Controls bypass state of the effect,85,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: Effect on
+Electro-Harmonix,HOG 2,Expression,EXP Footswitch,Emulates pressing the expression footswitch,86,,0,127,,,,,0-based,,0-63: Released; 64-127: Pressed
+Electro-Harmonix,HOG 2,Envelope,Envelope Footswitch,Toggles the envelope mode,87,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Electro-Harmonix,HOG 2,Spectral,Spectral Gate,Toggles the spectral gate mode,88,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Electro-Harmonix,HOG 2,Expression,Expression Mode,Selects the active expression mode,89,,0,127,,,,,0-based,Jumps directly to selected mode,"0-9: Octave Bend; 10-19: Step Bend; 20-29: Volume; 30-39: Freeze+Gliss; 40-49: Freeze+Vol; 50-59: Wah Wah; 60-127: Filter"
+Electro-Harmonix,HOG 2,Expression,Expression Reverse,Toggles the expression reverse function,90,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Electro-Harmonix,HOG 2,Mixer,Dry Output,Controls the volume of the dry signal,102,,0,127,,,,,0-based,,0-127: Dry level
+Electro-Harmonix,HOG 2,Mixer,-2 Octaves,Controls the volume of notes 2 octaves below,103,,0,127,,,,,0-based,,0-127: -2 octaves level
+Electro-Harmonix,HOG 2,Mixer,-1 Octave,Controls the volume of notes 1 octave below,104,,0,127,,,,,0-based,,0-127: -1 octave level
+Electro-Harmonix,HOG 2,Mixer,Original,Controls the volume of original signal through effects,105,,0,127,,,,,0-based,,0-127: Original level
+Electro-Harmonix,HOG 2,Mixer,+5th,Controls the volume of notes a perfect fifth above,106,,0,127,,,,,0-based,,0-127: +5th level
+Electro-Harmonix,HOG 2,Mixer,+1 Octave,Controls the volume of notes 1 octave above,107,,0,127,,,,,0-based,,0-127: +1 octave level
+Electro-Harmonix,HOG 2,Mixer,+1 Octave+5th,Controls the volume of notes 1 octave and fifth above,108,,0,127,,,,,0-based,,0-127: +1 octave+5th level
+Electro-Harmonix,HOG 2,Mixer,+2 Octaves,Controls the volume of notes 2 octaves above,109,,0,127,,,,,0-based,,0-127: +2 octaves level
+Electro-Harmonix,HOG 2,Mixer,+2 Octaves+3rd,Controls the volume of notes 2 octaves and third above,110,,0,127,,,,,0-based,,0-127: +2 octaves+3rd level
+Electro-Harmonix,HOG 2,Mixer,+3 Octaves,Controls the volume of notes 3 octaves above,111,,0,127,,,,,0-based,,0-127: +3 octaves level
+Electro-Harmonix,HOG 2,Mixer,+4 Octaves,Controls the volume of notes 4 octaves above,112,,0,127,,,,,0-based,,0-127: +4 octaves level
+Electro-Harmonix,HOG 2,Envelope,Lower Slider,Controls the lower threshold of the envelope,113,,0,127,,,,,0-based,,0-127: Lower threshold
+Electro-Harmonix,HOG 2,Envelope,Upper Slider,Controls the upper threshold of the envelope,114,,0,127,,,,,0-based,,0-127: Upper threshold
+Electro-Harmonix,HOG 2,Filter,Frequency Slider,Controls the filter cutoff frequency,115,,0,127,,,,,0-based,,0-127: Filter frequency
+Electro-Harmonix,HOG 2,Filter,Resonance Slider,Controls the filter resonance,116,,0,127,,,,,0-based,,0-127: Resonance amount
+Electro-Harmonix,HOG 2,Presets,Save Preset,Saves current settings to specified preset number,117,,0,119,,,,,0-based,Preset is saved immediately upon receiving message,0-119: Save to preset number; 120-127: Ignored
+Electro-Harmonix,HOG 2,Presets,Load Preset,Loads specified preset number,118,,0,127,,,,,0-based,,"0-119: Load preset number; 120-127: WYSIWYG mode"
+Electro-Harmonix,HOG 2,Global,OMNI Off,Sets the HOG 2 to respond only to its assigned MIDI channel,124,,0,1,,,,,0-based,Must be sent on the HOG 2's current channel,0→1: Enable OMNI Off
+Electro-Harmonix,HOG 2,Global,OMNI On,Sets the HOG 2 to respond to all MIDI channels,125,,0,1,,,,,0-based,Must be sent on the HOG 2's current channel,0→1: Enable OMNI On

@@ -1,0 +1,29 @@
+Eventide,H9,Main Controls,Bypass,Bypasses the effect,11,,0,127,,,,,0-based,Default CC assignment,0-63: Bypassed; 64-127: Active
+Eventide,H9,Main Controls,Activate,Enables the effect (unbypass),12,,0,127,,,,,0-based,Default CC assignment,0-63: Bypassed; 64-127: Active
+Eventide,H9,Main Controls,Toggle,Toggles between active and bypass states,,,0,127,,,,,0-based,CC assignable in system mode,Any value toggles state
+Eventide,H9,Main Controls,Tuner,Activates the tuner function,13,,0,127,,,,,0-based,Default CC assignment,0-63: Off; 64-127: On
+Eventide,H9,Main Controls,Tap Tempo,Triggers tap tempo function,,,0,127,,,,,0-based,CC assignable in system mode,Any value triggers tap
+Eventide,H9,Expression,HOTKNOB/Expression Pedal,Controls the assigned expression parameter,3,,0,127,,,,,0-based,Default CC assignment,0-127: Expression amount
+Eventide,H9,Preset Navigation,Preset Increment,Increments preset number without loading,,,0,127,,,,,0-based,CC assignable in system mode,Any value increments preset
+Eventide,H9,Preset Navigation,Preset Decrement,Decrements preset number without loading,,,0,127,,,,,0-based,CC assignable in system mode,Any value decrements preset
+Eventide,H9,Preset Navigation,Next Preset,Loads the next preset,,,0,127,,,,,0-based,CC assignable in system mode,Any value loads next preset
+Eventide,H9,Preset Navigation,Previous Preset,Loads the previous preset,,,0,127,,,,,0-based,CC assignable in system mode,Any value loads previous preset
+Eventide,H9,Performance,Performance Switch,Toggles or enables the Performance Switch function,,,0,127,,,,,0-based,CC assignable in system mode,Any value toggles function
+Eventide,H9,Parameters,Parameter Control Knob 0,Controls parameter knob 0,,,0,127,,,,,0-based,CC assignable in system mode (KB0),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 1,Controls parameter knob 1,,,0,127,,,,,0-based,CC assignable in system mode (KB1),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 2,Controls parameter knob 2,,,0,127,,,,,0-based,CC assignable in system mode (KB2),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 3,Controls parameter knob 3,,,0,127,,,,,0-based,CC assignable in system mode (KB3),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 4,Controls parameter knob 4,,,0,127,,,,,0-based,CC assignable in system mode (KB4),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 5,Controls parameter knob 5,,,0,127,,,,,0-based,CC assignable in system mode (KB5),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 6,Controls parameter knob 6,,,0,127,,,,,0-based,CC assignable in system mode (KB6),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 7,Controls parameter knob 7,,,0,127,,,,,0-based,CC assignable in system mode (KB7),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 8,Controls parameter knob 8,,,0,127,,,,,0-based,CC assignable in system mode (KB8),0-127: Parameter value
+Eventide,H9,Parameters,Parameter Control Knob 9,Controls parameter knob 9,,,0,127,,,,,0-based,CC assignable in system mode (KB9),0-127: Parameter value
+Eventide,H9,Volume Controls,Input Swell,Controls input level swell,,,0,127,,,,,0-based,CC assignable in system mode (ISW),0-127: Swell amount
+Eventide,H9,Volume Controls,Output Swell,Controls output level swell,,,0,127,,,,,0-based,CC assignable in system mode (OSW),0-127: Swell amount
+Eventide,H9,Looper,Record,Activates looper record function,51,,0,127,,,,,0-based,Default CC assignment (Looper algorithm only),0-63: Off; 64-127: On
+Eventide,H9,Looper,Play,Activates looper playback,52,,0,127,,,,,0-based,Default CC assignment (Looper algorithm only),0-63: Off; 64-127: On
+Eventide,H9,Looper,Stop,Stops looper recording or playback,53,,0,127,,,,,0-based,Default CC assignment (Looper algorithm only),0-63: Off; 64-127: On
+Eventide,H9,Looper,Empty,Erases the current loop recording,,,0,127,,,,,0-based,CC assignable in system mode (Looper algorithm only),Any value triggers erase
+Eventide,H9,Looper,Direction,Changes looper playback direction,54,,0,127,,,,,0-based,Default CC assignment (Looper algorithm only),Any value toggles direction
+Eventide,H9,Looper,Octave,Changes looper playback speed by octave,55,,0,127,,,,,0-based,Default CC assignment (Looper algorithm only),Any value toggles octave

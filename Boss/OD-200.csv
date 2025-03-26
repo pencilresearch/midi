@@ -1,0 +1,14 @@
+BOSS,OD-200,Drive,Drive,Controls the amount of distortion/overdrive,,,0,127,,,,,0-based,CC number is user assignable,0-127: Drive amount
+BOSS,OD-200,Level,Level,Controls the output level,,,0,127,,,,,0-based,CC number is user assignable,0-127: Level amount
+BOSS,OD-200,EQ,Low,Controls the low frequency response,,,0,127,,,,,0-based,CC number is user assignable,0-127: Low amount
+BOSS,OD-200,EQ,Middle,Controls the mid frequency response,,,0,127,,,,,0-based,CC number is user assignable,0-127: Middle amount
+BOSS,OD-200,EQ,High,Controls the high frequency response,,,0,127,,,,,0-based,CC number is user assignable,0-127: High amount
+BOSS,OD-200,Booster,Booster Pre Level,Controls the pre-booster level,,,0,127,,,,,0-based,CC number is user assignable,0-127: Pre booster amount
+BOSS,OD-200,Booster,Booster Post Level,Controls the post-booster level,,,0,127,,,,,0-based,CC number is user assignable,0-127: Post booster amount
+BOSS,OD-200,Switch,On/Off Switch,Controls the effect bypass state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On
+BOSS,OD-200,Booster,Booster On/Off,Controls the booster on/off state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On
+BOSS,OD-200,Memory,Memory/Boost Switch,Controls memory selection or boost,,,0,127,,,,,0-based,CC number is user assignable,0-127: Memory/boost selection
+BOSS,OD-200,Control,Control 1,Assignable controller 1,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,OD-200,Control,Control 2,Assignable controller 2,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,OD-200,Expression,Expression,Expression pedal control,,,0,127,,,,,0-based,CC number is user assignable,0-127: Expression position
+BOSS,OD-200,Effect,Effect On/Off,Controls the overall effect on/off state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On

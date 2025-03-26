@@ -1,0 +1,12 @@
+GFI System,Specular Tempus,Knobs,Blend,Controls wet/dry mix,14,,0,127,,,,,0-based,,0-127: Blend amount
+GFI System,Specular Tempus,Knobs,Decay / Time,Controls decay time or delay time,15,,0,127,,,,,0-based,Parameter function varies based on algorithm,0-127: Decay/Time amount
+GFI System,Specular Tempus,Knobs,Param,Controls algorithm-specific parameter,16,,0,127,,,,,0-based,Parameter function varies based on algorithm,0-127: Parameter value
+GFI System,Specular Tempus,Knobs,Intensity / Repeats,Controls effect intensity or delay repeats,17,,0,127,,,,,0-based,Parameter function varies based on algorithm,0-127: Intensity/Repeats amount
+GFI System,Specular Tempus,Preset,Load Patch A,Loads preset A from current bank,18,,0,127,,,,,0-based,,Any value loads Patch A
+GFI System,Specular Tempus,Preset,Load Patch B,Loads preset B from current bank,19,,0,127,,,,,0-based,,Any value loads Patch B
+GFI System,Specular Tempus,Navigation,Bank Down,Decrements to previous bank,20,,0,127,,,,,0-based,,Any value moves to previous bank
+GFI System,Specular Tempus,Navigation,Bank Up,Increments to next bank,21,,0,127,,,,,0-based,,Any value moves to next bank
+GFI System,Specular Tempus,Global,Bypass,Controls effect bypass state,22,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+GFI System,Specular Tempus,Global,Kill Dry,Removes dry signal from output,23,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Specular Tempus,Global,Aux-Out Switch,Controls auxiliary output,24,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Specular Tempus,Global,Tap Tempo,Sets tempo via tap function,25,,0,127,,,,,0-based,,Any value triggers tap

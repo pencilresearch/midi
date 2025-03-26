@@ -1,0 +1,60 @@
+Nord,Electro 3,Mode,Preset/Manual Select,Toggles between preset and manual mode,3,,0,127,,,,,0-based,,0-63: Manual; 64-127: Preset
+Nord,Electro 3,Master,Gain,Controls the overall output gain level,7,,0,127,,,,,0-based,,0-127: Gain amount
+Nord,Electro 3,Organ,Organ Model Select,Selects the organ model type,9,,0,127,,,,,0-based,,Values select different organ models
+Nord,Electro 3,Expression,Control Pedal,Controls parameters via expression pedal,11,,0,127,,,,,0-based,,0-127: Pedal position
+Nord,Electro 3,Piano,Piano Type,Selects the piano type,12,,0,127,,,,,0-based,,Values select different piano types
+Nord,Electro 3,Mix,Part Mix Level,Controls the mix level between parts,13,,0,127,,,,,0-based,,0-127: Mix level
+Nord,Electro 3,Drawbars,Drawbar up 2-1,Controls upper manual drawbar 1,16,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar up 2-2,Controls upper manual drawbar 2,17,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar up 2-3,Controls upper manual drawbar 3,18,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar up 2-4,Controls upper manual drawbar 4,19,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar up 2-5,Controls upper manual drawbar 5,20,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar up 2-6,Controls upper manual drawbar 6,21,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar up 2-7,Controls upper manual drawbar 7,22,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar up 2-8,Controls upper manual drawbar 8,23,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar up 2-9,Controls upper manual drawbar 9,24,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Organ,Oct Shift Organ Upper,Shifts the octave of upper organ manual,27,,0,127,,,,,0-based,,Values represent octave shift
+Nord,Electro 3,Organ,Oct Shift Organ Lower,Shifts the octave of lower organ manual,28,,0,127,,,,,0-based,,Values represent octave shift
+Nord,Electro 3,Piano,Oct Shift Piano,Shifts the octave of the piano section,29,,0,127,,,,,0-based,,Values represent octave shift
+Nord,Electro 3,Effects,Effect 1 Select,Selects effect 1 type,60,,0,127,,,,,0-based,,Values select different effect types
+Nord,Electro 3,Effects,Effect 2 Select,Selects effect 2 type,61,,0,127,,,,,0-based,,Values select different effect types
+Nord,Electro 3,Effects,Effect 2 Rate,Controls the rate of effect 2,62,,0,127,,,,,0-based,,0-127: Rate amount
+Nord,Electro 3,Effects,Effect 1 Rate,Controls the rate of effect 1,63,,0,127,,,,,0-based,,0-127: Rate amount
+Nord,Electro 3,Drawbars,Drawbar lo 1-1,Controls lower manual drawbar 1,70,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar lo 1-2,Controls lower manual drawbar 2,71,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar lo 1-3,Controls lower manual drawbar 3,72,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar lo 1-4,Controls lower manual drawbar 4,73,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar lo 1-5,Controls lower manual drawbar 5,74,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar lo 1-6,Controls lower manual drawbar 6,75,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar lo 1-7,Controls lower manual drawbar 7,76,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar lo 1-8,Controls lower manual drawbar 8,77,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Drawbars,Drawbar lo 1-9,Controls lower manual drawbar 9,78,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 3,Rotary,Rotary Stop Mode,Controls the rotary speaker stop behavior,79,,0,127,,,,,0-based,,Values select different stop modes
+Nord,Electro 3,Effects,Effect 2 On/Off,Toggles effect 2 on/off,80,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Speaker,Speaker/Comp Select,Selects speaker/compressor type,81,,0,127,,,,,0-based,,Values select different speaker/comp types
+Nord,Electro 3,Rotary,Rotary Speed,Controls rotary speaker speed (slow/fast),82,,0,127,,,,,0-based,,0-63: Slow; 64-127: Fast
+Nord,Electro 3,Piano,Piano Mono,Toggles mono mode for piano,83,,0,127,,,,,0-based,,0-63: Stereo; 64-127: Mono
+Nord,Electro 3,Vibrato,Vib Mode,Selects vibrato/chorus mode,84,,0,127,,,,,0-based,,Values select different vibrato modes
+Nord,Electro 3,Vibrato,Vib On/Off,Toggles vibrato/chorus on/off,85,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Speaker,Speaker/Comp On/Off,Toggles speaker/compressor on/off,86,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Percussion,Perc On/Off,Toggles percussion on/off,87,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Percussion,Perc Decay,Sets percussion decay time,88,,0,127,,,,,0-based,,0-63: Slow; 64-127: Fast
+Nord,Electro 3,Percussion,Perc Level,Sets percussion level,89,,0,127,,,,,0-based,,0-63: Soft; 64-127: Hard
+Nord,Electro 3,Delay,Delay Rate,Controls delay time,92,,0,127,,,,,0-based,,0-127: Delay time
+Nord,Electro 3,Delay,Delay Ping Pong,Toggles ping-pong delay effect,93,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Delay,Delay On/Off,Toggles delay effect on/off,94,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Percussion,Perc Hard,Toggles between soft and hard percussion,95,,0,127,,,,,0-based,,0-63: Soft; 64-127: Hard
+Nord,Electro 3,Reverb,Reverb Select,Selects reverb type,96,,0,127,,,,,0-based,,Values select different reverb types
+Nord,Electro 3,Reverb,Reverb On/Off,Toggles reverb effect on/off,97,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Piano,Piano Dynamics,Controls piano dynamic response,98,,0,127,,,,,0-based,,0-127: Dynamics amount
+Nord,Electro 3,Reverb,Reverb Wet/Dry,Controls reverb wet/dry mix,102,,0,127,,,,,0-based,,0-127: Wet/dry balance
+Nord,Electro 3,Clav,Clav EQ Brill On/Off,Toggles brilliance EQ for clavinet on/off,103,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Clav,Clav EQ Treble On/Off,Toggles treble EQ for clavinet on/off,104,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Clav,Clav EQ Medium On/Off,Toggles medium EQ for clavinet on/off,105,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Clav,Clav EQ Soft On/Off,Toggles soft EQ for clavinet on/off,106,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,Speaker,Speaker/Comp Drive,Controls speaker/compressor drive amount,111,,0,127,,,,,0-based,,0-127: Drive amount
+Nord,Electro 3,EQ,EQ Treble,Controls the treble EQ,113,,0,127,,,,,0-based,,0-127: Treble amount
+Nord,Electro 3,EQ,EQ Bass,Controls the bass EQ,114,,0,127,,,,,0-based,,0-127: Bass amount
+Nord,Electro 3,EQ,EQ On/Off,Toggles EQ on/off,115,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Electro 3,EQ,EQ Mid,Controls the mid EQ,116,,0,127,,,,,0-based,,0-127: Mid amount
+Nord,Electro 3,Vibrato,Vib On/Off Preset 1/LOW,Toggles vibrato for preset 1/LOW,117,,0,127,,,,,0-based,,0-63: Off; 64-127: On

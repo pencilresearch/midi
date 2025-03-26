@@ -1,0 +1,13 @@
+Quilter,Illumine Reverb,Level,Level B/Toe/Max,Controls maximum output level,7,39,27,127,,,,,0-based,"Maximum value depends on Gain Structure: Low Noise=127, Balanced=122, High Headroom=92","27-127: Level amount"
+Quilter,Illumine Reverb,Expression,Expression Input,Controls expression pedal input,11,43,0,127,,,,,0-based,,0-127: Expression amount
+Quilter,Illumine Reverb,Mix,Mix B/Toe/Max,Controls maximum wet/dry mix,16,48,0,127,,,,,0-based,,0-127: Mix amount
+Quilter,Illumine Reverb,Parameters,Parameter 1 B/Toe/Max,Controls maximum value for effect parameter 1,17,49,0,127,,,,,0-based,Effect-dependent parameter,0-127: Parameter value
+Quilter,Illumine Reverb,Parameters,Parameter 2 B/Toe/Max,Controls maximum value for effect parameter 2,18,50,0,127,,,,,0-based,Effect-dependent parameter,0-127: Parameter value
+Quilter,Illumine Reverb,Parameters,Parameter 3 B/Toe/Max,Controls maximum value for effect parameter 3,19,51,0,127,,,,,0-based,Effect-dependent parameter,0-127: Parameter value
+Quilter,Illumine Reverb,Level,Level A/Heel/Min,Controls minimum output level,20,52,27,127,,,,,0-based,"Minimum value is 27","27-127: Level amount"
+Quilter,Illumine Reverb,Mix,Mix A/Heel/Min,Controls minimum wet/dry mix,21,53,0,127,,,,,0-based,,0-127: Mix amount
+Quilter,Illumine Reverb,Parameters,Parameter 1 A/Heel/Min,Controls minimum value for effect parameter 1,22,54,0,127,,,,,0-based,Effect-dependent parameter,0-127: Parameter value
+Quilter,Illumine Reverb,Parameters,Parameter 2 A/Heel/Min,Controls minimum value for effect parameter 2,23,55,0,127,,,,,0-based,Effect-dependent parameter,0-127: Parameter value
+Quilter,Illumine Reverb,Parameters,Parameter 3 A/Heel/Min,Controls minimum value for effect parameter 3,24,56,0,127,,,,,0-based,Effect-dependent parameter,0-127: Parameter value
+Quilter,Illumine Reverb,Global,Engage,Controls effect bypass/engage state,80,,0,127,,,,,0-based,,0-63: Bypass; 64-127: Engage
+Quilter,Illumine Reverb,Global,Sync Echo Time,Synchronizes echo time to MIDI beat clock,81,,0,127,,,,,0-based,,0-63: Do not sync; 64-127: Sync

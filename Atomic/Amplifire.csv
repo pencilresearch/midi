@@ -1,0 +1,38 @@
+Atomic,Amplifire,Wah,Wah Pedal Enable,Enables or disables the wah pedal function,21,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Volume,Volume Pedal Enable,Enables or disables the volume pedal function,22,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Expression,Expression A,Controls assignable expression parameter A,23,,0,127,,,,,0-based,,0-127: Expression A value
+Atomic,Amplifire,Expression,Expression B,Controls assignable expression parameter B,24,,0,127,,,,,0-based,,0-127: Expression B value
+Atomic,Amplifire,Tempo,Tap Tempo Press,Sends tap tempo information,18,,0,127,,,,,0-based,,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Global,Bypass Amplifire,Bypasses the entire Amplifire unit,80,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Atomic,Amplifire,Routing,Effect Loop Enable,Enables or disables the external effect loop,81,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Volume,Volume Enable,Enables or disables the volume control,20,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Wah,Wah Enable,Enables or disables the wah effect,19,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Drive,Boost Enable,Enables or disables the boost effect,82,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Effects,Effect Enable,Enables or disables the modulation effects section,83,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Modulation,Chorus Enable,Enables or disables the chorus effect,25,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Modulation,Flanger Enable,Enables or disables the flanger effect,26,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Modulation,Phaser Enable,Enables or disables the phaser effect,27,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Modulation,Tremolo Enable,Enables or disables the tremolo effect,28,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Modulation,Pitchshifter Enable,Enables or disables the pitch shifter effect,29,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Delay,Echo Enable,Enables or disables the echo/delay effect,84,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Ambience,Reverb Enable,Enables or disables the reverb effect,85,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Dynamics,Noise Gate Enable,Enables or disables the noise gate,86,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Dynamics,Compressor Enable,Enables or disables the compressor,17,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,EQ,Graphic EQ Enable,Enables or disables the graphic equalizer,87,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,EQ,Pre-EQ Enable,Enables or disables the pre-amplifier equalizer,12,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,EQ,Parametric 1,Controls parametric EQ parameter 1,88,,0,127,,,,,0-based,,0-127: Parameter value
+Atomic,Amplifire,EQ,Parametric 2,Controls parametric EQ parameter 2,89,,0,127,,,,,0-based,,0-127: Parameter value
+Atomic,Amplifire,EQ,Parametric 3,Controls parametric EQ parameter 3,90,,0,127,,,,,0-based,,0-127: Parameter value
+Atomic,Amplifire,Amp,Amp Enable,Enables or disables the amplifier simulation,16,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Atomic,Amplifire,Footswitch,FS1 Press,Activates footswitch 1 function,13,,0,127,,,,,0-based,,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS2 Press,Activates footswitch 2 function,14,,0,127,,,,,0-based,,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS3 Press,Activates footswitch 3 function,15,,0,127,,,,,0-based,,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS4 Press,Activates footswitch 4 function,11,,0,127,,,,,0-based,AA12 model only,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS5 Press,Activates footswitch 5 function,10,,0,127,,,,,0-based,AA12 model only,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS6 Press,Activates footswitch 6 function,9,,0,127,,,,,0-based,AA12 model only,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS7 Press,Activates footswitch 7 function,8,,0,127,,,,,0-based,,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS8 Press,Activates footswitch 8 function,7,,0,127,,,,,0-based,,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS9 Press,Activates footswitch 9 function,6,,0,127,,,,,0-based,,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS0 Press,Activates footswitch 0 function,5,,0,127,,,,,0-based,,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS+ Press,Activates footswitch + function,4,,0,127,,,,,0-based,AA12 model only,0-63: Off; 64-127: On (momentary)
+Atomic,Amplifire,Footswitch,FS- Press,Activates footswitch - function,3,,0,127,,,,,0-based,AA12 model only,0-63: Off; 64-127: On (momentary)

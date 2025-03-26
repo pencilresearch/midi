@@ -1,0 +1,12 @@
+BOSS,MD-200,Rate,Rate,Controls the rate/speed of modulation,,,0,127,,,,,0-based,CC number is user assignable,0-127: Rate amount
+BOSS,MD-200,Depth,Depth,Controls the depth/intensity of modulation,,,0,127,,,,,0-based,CC number is user assignable,0-127: Depth amount
+BOSS,MD-200,Level,Effect Level,Controls the effect output level,,,0,127,,,,,0-based,CC number is user assignable,0-127: Level amount
+BOSS,MD-200,Parameter,Parameter 1,Controls first mode-specific parameter,,,0,127,,,,,0-based,CC number is user assignable,0-127: Parameter amount
+BOSS,MD-200,Parameter,Parameter 2,Controls second mode-specific parameter,,,0,127,,,,,0-based,CC number is user assignable,0-127: Parameter amount
+BOSS,MD-200,Parameter,Parameter 3,Controls third mode-specific parameter,,,0,127,,,,,0-based,CC number is user assignable,0-127: Parameter amount
+BOSS,MD-200,Switch,On/Off Switch,Controls the effect bypass state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On
+BOSS,MD-200,Memory,Memory,Selects memory/preset slot,,,0,127,,,,,0-based,CC number is user assignable,0-127: Memory selection
+BOSS,MD-200,Control,Control 1,Assignable controller 1,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,MD-200,Control,Control 2,Assignable controller 2,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,MD-200,Expression,Expression,Expression pedal control,,,0,127,,,,,0-based,CC number is user assignable,0-127: Expression position
+BOSS,MD-200,Effect,Effect On/Off,Controls the overall effect on/off state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On

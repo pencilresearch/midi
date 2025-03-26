@@ -1,0 +1,6 @@
+BluGuitar,Amp1,Output,2nd Master,Controls secondary master volume level,7,,0,127,,,,,0-based,Range -10dB,0-127: 2nd Master volume
+BluGuitar,Amp1,Preamp,Gain / Clean Volume,Controls preamp gain or clean channel volume,20,,0,127,,,,,0-based,Range 1-10,0-127: Gain/Volume level
+BluGuitar,Amp1,Power,PowerSoak,Controls power attenuation level,30,,0,127,,,,,0-based,"Step values: 0.15W, 1W, 1.5W, 2W, 7W, 20W, 40W, 100W","0-15: 0.15W; 16-31: 1W; 32-47: 1.5W; 48-63: 2W; 64-79: 7W; 80-95: 20W; 96-111: 40W; 112-127: 100W"
+BluGuitar,Amp1,Routing,FX-LOOP,Enables or disables effects loop,40,,0,127,,,,,0-based,on/off,0-63: Off; 64-127: On
+BluGuitar,Amp1,Effects,Reverb,Enables or disables reverb effect,50,,0,127,,,,,0-based,on/off,0-63: Off; 64-127: On
+BluGuitar,Amp1,Effects,Boost,Enables or disables boost circuit,60,,0,127,,,,,0-based,on/off,0-63: Off; 64-127: On

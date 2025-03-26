@@ -1,0 +1,16 @@
+Voodoolab,GCX,Audio Loops,Loop 1,Controls audio loop/latched switch 1,80,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Audio Loops,Loop 2,Controls audio loop/latched switch 2,81,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Audio Loops,Loop 3,Controls audio loop/latched switch 3,82,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Audio Loops,Loop 4,Controls audio loop/latched switch 4,83,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Audio Loops,Loop 5,Controls audio loop/latched switch 5,84,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Audio Loops,Loop 6,Controls audio loop/latched switch 6,85,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Audio Loops,Loop 7,Controls audio loop/latched switch 7,86,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Audio Loops,Loop 8,Controls audio loop/latched switch 8,87,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Momentary,Switch 1,Controls momentary switch 1,104,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Momentary,Switch 2,Controls momentary switch 2,105,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Momentary,Switch 3,Controls momentary switch 3,106,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Momentary,Switch 4,Controls momentary switch 4,107,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Momentary,Switch 5,Controls momentary switch 5,108,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Momentary,Switch 6,Controls momentary switch 6,109,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Momentary,Switch 7,Controls momentary switch 7,110,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On
+Voodoolab,GCX,Momentary,Switch 8,Controls momentary switch 8,111,,0,127,,,,,0-based,Only responds on MIDI channel 16,0: Off; 127: On

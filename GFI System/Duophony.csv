@@ -1,0 +1,25 @@
+GFI System,Duophony,Loop,Loop X,Controls loop X state,14,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Duophony,Loop,Loop Y,Controls loop Y state,15,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Duophony,Routing,Modes,Selects signal mixing mode,16,,0,2,,,,,0-based,,0: XY Mix; 1: Y plus X; 2: X plus Y
+GFI System,Duophony,Routing,Routing,Sets routing configuration,17,,0,127,,,,,0-based,,0: Parallel; 127: Series
+GFI System,Duophony,Phase,Phase X,Controls phase of X signal,18,,0,127,,,,,0-based,,0: Normal; 127: Inverted
+GFI System,Duophony,Expression,Expression,Controls expression pedal parameter,19,,0,127,,,,,0-based,,0-127: Expression value
+GFI System,Duophony,Tempo,Tap Tempo,Sets tempo via tap function,20,,0,127,,,,,0-based,,Any value triggers tap
+GFI System,Duophony,Tempo,Subdivision,Sets tempo subdivision,21,,0,8,,,,,0-based,,"0: Whole.2; 1: Whole.4; 2: Whole; 3: Half; 4: Quarter; 5: Dotted; 6: 8th Note; 7: Triplet; 8: 16th Note"
+GFI System,Duophony,Global,Bypass/Engage,Controls global bypass state,22,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+GFI System,Duophony,Mix,Mix,Controls overall wet/dry mix,23,,0,127,,,,,0-based,,0-127: Mix amount
+GFI System,Duophony,Mix,Mix (Left),Controls wet/dry mix for left channel,24,,0,127,,,,,0-based,,0-127: Mix amount
+GFI System,Duophony,Mix,Mix (Right),Controls wet/dry mix for right channel,25,,0,127,,,,,0-based,,0-127: Mix amount
+GFI System,Duophony,Dry,Dry Level,Controls overall dry signal level,26,,0,127,,,,,0-based,,0-127: Dry level
+GFI System,Duophony,Dry,Dry Level (Left),Controls dry signal level for left channel,27,,0,127,,,,,0-based,,0-127: Dry level
+GFI System,Duophony,Dry,Dry Level (Right),Controls dry signal level for right channel,28,,0,127,,,,,0-based,,0-127: Dry level
+GFI System,Duophony,LFO,LFO Speed,Controls LFO speed,29,,0,127,,,,,0-based,,0-127: Speed value
+GFI System,Duophony,LFO,LFO Depth,Controls LFO modulation depth,30,,0,127,,,,,0-based,,0-127: Depth amount
+GFI System,Duophony,LFO,LFO,Enables or disables LFO,31,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Duophony,Gain,Gain X,Controls gain for X signal,32,,0,127,,,,,0-based,"Mapped to dB values: 0-3: OFF; 4-7: -30dB; 8-11: -24dB; 12-15: -20dB; 16-19: -18dB; 20-23: -16dB; 24-27: -14dB; 28-31: -12dB; 32-35: -10dB; 36-39: -8dB; 40-43: -6dB; 44-47: -5dB; 48-51: -4dB; 52-55: -3dB; 56-59: -2.5dB; 60-63: -2dB; 64-67: -1.5dB; 68-71: -1dB; 72-75: -0.5dB; 76-79: 0dB (Unity); 80-83: +0.5dB; 84-87: +1dB; 88-91: +1.5dB; 92-95: +2dB; 96-99: +2.5dB; 100-103: +3dB; 104-107: +3.5dB; 108-111: +4dB; 112-115: +4.5dB; 116-119: +5dB; 120-123: +5.5dB; 124-127: +6dB",0-127: Maps to specific gain values in dB
+GFI System,Duophony,Gain,Gain Y,Controls gain for Y signal,33,,0,127,,,,,0-based,"Mapped to dB values: 0-3: OFF; 4-7: -30dB; 8-11: -24dB; 12-15: -20dB; 16-19: -18dB; 20-23: -16dB; 24-27: -14dB; 28-31: -12dB; 32-35: -10dB; 36-39: -8dB; 40-43: -6dB; 44-47: -5dB; 48-51: -4dB; 52-55: -3dB; 56-59: -2.5dB; 60-63: -2dB; 64-67: -1.5dB; 68-71: -1dB; 72-75: -0.5dB; 76-79: 0dB (Unity); 80-83: +0.5dB; 84-87: +1dB; 88-91: +1.5dB; 92-95: +2dB; 96-99: +2.5dB; 100-103: +3dB; 104-107: +3.5dB; 108-111: +4dB; 112-115: +4.5dB; 116-119: +5dB; 120-123: +5.5dB; 124-127: +6dB",0-127: Maps to specific gain values in dB
+GFI System,Duophony,Mute,Mute L,Mutes left output channel,34,,0,127,,,,,0-based,Right output always remains unmuted,0: Mutes Left output; 127: Unmutes Left output
+GFI System,Duophony,Mute,Mute R,Mutes right output channel,35,,0,127,,,,,0-based,Left output always remains unmuted,0: Mutes Right output; 127: Unmutes Right output
+GFI System,Duophony,Mute,Mute LR,Mutes both output channels,36,,0,127,,,,,0-based,,0: Mutes both outputs; 127: Unmutes both outputs
+GFI System,Duophony,Wet Mute,Wet Mute L,Mutes wet signal in left channel,37,,0,127,,,,,0-based,Wet right always remains unmuted,0: Mutes Wet Left; 127: Unmutes Wet Left
+GFI System,Duophony,Wet Mute,Wet Mute R,Mutes wet signal in right channel,38,,0,127,,,,,0-based,Wet left always remains unmuted,0: Mutes Wet Right; 127: Unmutes Wet Right

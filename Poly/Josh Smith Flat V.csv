@@ -1,0 +1,34 @@
+Poly,Josh Smith Flat V,Channel B Active,HPF Frequency,Controls high-pass filter frequency for active side,14,,0,127,,,,,0-based,,0-127: Frequency value
+Poly,Josh Smith Flat V,Channel B Active,Volume,Controls volume level for active side,15,,0,127,,,,,0-based,,0-127: Volume level
+Poly,Josh Smith Flat V,Channel B Active,Gain,Controls gain amount for active side,16,,0,127,,,,,0-based,,0-127: Gain amount
+Poly,Josh Smith Flat V,Channel B Active,LPF Frequency,Controls low-pass filter frequency for active side,17,,0,127,,,,,0-based,,0-127: Frequency value
+Poly,Josh Smith Flat V,Channel B Active,HPF Resonance,Controls high-pass filter resonance for active side,18,,0,127,,,,,0-based,,0-127: Resonance amount
+Poly,Josh Smith Flat V,Channel B Active,Sense,Controls sensitivity for active side,19,,0,127,,,,,0-based,,0-127: Sensitivity amount
+Poly,Josh Smith Flat V,Channel B Active,Speed,Controls speed parameter for active side,20,,0,127,,,,,0-based,,0-127: Speed value
+Poly,Josh Smith Flat V,Channel B Active,LPF Resonance,Controls low-pass filter resonance for active side,21,,0,127,,,,,0-based,,0-127: Resonance amount
+Poly,Josh Smith Flat V,Channel B Side 1,HPF Frequency,Controls high-pass filter frequency for side 1,22,,0,127,,,,,0-based,,0-127: Frequency value
+Poly,Josh Smith Flat V,Channel B Side 1,Volume,Controls volume level for side 1,23,,0,127,,,,,0-based,,0-127: Volume level
+Poly,Josh Smith Flat V,Channel B Side 1,Gain,Controls gain amount for side 1,24,,0,127,,,,,0-based,,0-127: Gain amount
+Poly,Josh Smith Flat V,Channel B Side 1,LPF Frequency,Controls low-pass filter frequency for side 1,25,,0,127,,,,,0-based,,0-127: Frequency value
+Poly,Josh Smith Flat V,Channel B Side 1,HPF Resonance,Controls high-pass filter resonance for side 1,26,,0,127,,,,,0-based,,0-127: Resonance amount
+Poly,Josh Smith Flat V,Channel B Side 1,Sense,Controls sensitivity for side 1,27,,0,127,,,,,0-based,,0-127: Sensitivity amount
+Poly,Josh Smith Flat V,Channel B Side 1,Speed,Controls speed parameter for side 1,28,,0,127,,,,,0-based,,0-127: Speed value
+Poly,Josh Smith Flat V,Channel B Side 1,LPF Resonance,Controls low-pass filter resonance for side 1,29,,0,127,,,,,0-based,,0-127: Resonance amount
+Poly,Josh Smith Flat V,Channel B Side 2,HPF Frequency,Controls high-pass filter frequency for side 2,30,,0,127,,,,,0-based,,0-127: Frequency value
+Poly,Josh Smith Flat V,Channel B Side 2,Volume,Controls volume level for side 2,31,,0,127,,,,,0-based,,0-127: Volume level
+Poly,Josh Smith Flat V,Channel B Side 2,Gain,Controls gain amount for side 2,32,,0,127,,,,,0-based,,0-127: Gain amount
+Poly,Josh Smith Flat V,Channel B Side 2,LPF Frequency,Controls low-pass filter frequency for side 2,33,,0,127,,,,,0-based,,0-127: Frequency value
+Poly,Josh Smith Flat V,Channel B Side 2,HPF Resonance,Controls high-pass filter resonance for side 2,34,,0,127,,,,,0-based,,0-127: Resonance amount
+Poly,Josh Smith Flat V,Channel B Side 2,Sense,Controls sensitivity for side 2,35,,0,127,,,,,0-based,,0-127: Sensitivity amount
+Poly,Josh Smith Flat V,Channel B Side 2,Speed,Controls speed parameter for side 2,36,,0,127,,,,,0-based,,0-127: Speed value
+Poly,Josh Smith Flat V,Channel B Side 2,LPF Resonance,Controls low-pass filter resonance for side 2,37,,0,127,,,,,0-based,,0-127: Resonance amount
+Poly,Josh Smith Flat V,Global,Diode Type,Selects diode type,38,,0,127,,,,,0-based,,"0-31: Schottky; 32-63: Germanium; 64-95: Silicon; 96-127: LED"
+Poly,Josh Smith Flat V,Global,LFO Type,Selects LFO waveform type,39,,0,127,,,,,0-based,,"0-31: Sine; 32-63: Triangle; 64-95: Square; 96-127: Envelope"
+Poly,Josh Smith Flat V,Global,Side Selection,Selects between side 1 and side 2,40,,0,127,,,,,0-based,,0-63: Side 1; 64-127: Side 2
+Poly,Josh Smith Flat V,Global,Channel Selection,Selects which channels are active,41,,0,127,,,,,0-based,,"0-31: Bypass; 32-63: A on; 64-95: B on; 96-127: Both on"
+Poly,Josh Smith Flat V,Global,A/B Routing,Controls signal routing between channels A and B,42,,0,127,,,,,0-based,,0-63: A to B; 64-127: B to A
+Poly,Josh Smith Flat V,System,Visualization Mode,Controls display visualization mode,43,,0,127,,,,,0-based,,0-127: Visualization mode
+Poly,Josh Smith Flat V,System,Battery Mode,Controls battery mode settings,44,,0,127,,,,,0-based,,0-127: Battery mode setting
+Poly,Josh Smith Flat V,System,Blending Status,Controls blending status,45,,0,127,,,,,0-based,,0-127: Blending status
+Poly,Josh Smith Flat V,System,Dump Presets,Triggers preset dump operation,85,,0,127,,,,,0-based,,127: Dump presets
+Poly,Josh Smith Flat V,Expression,Blend Override,Controls blend between channels A and B,1,,0,127,,,,,0-based,Designed for expression pedal or mod wheel control,0-127: A to B blend amount

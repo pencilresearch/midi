@@ -1,0 +1,10 @@
+BOSS,IR-200,Amp,Gain,Controls the amp gain/distortion amount,,,0,127,,,,,0-based,CC number is user assignable,0-127: Gain amount
+BOSS,IR-200,Amp,Level,Controls the output level,,,0,127,,,,,0-based,CC number is user assignable,0-127: Level amount
+BOSS,IR-200,Solo,Solo Switch,Activates the solo mode,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On
+BOSS,IR-200,Solo,Solo Level,Controls the level in solo mode,,,0,127,,,,,0-based,CC number is user assignable,0-127: Solo level amount
+BOSS,IR-200,Preset,Down Switch,Decrements the preset number,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: Decrement
+BOSS,IR-200,Preset,Up Switch,Increments the preset number,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: Increment
+BOSS,IR-200,Control,Control 1,Assignable controller 1,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,IR-200,Control,Control 2,Assignable controller 2,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,IR-200,Expression,Expression,Expression pedal control,,,0,127,,,,,0-based,CC number is user assignable,0-127: Expression position
+BOSS,IR-200,Bypass,Bypass On/Off,Controls the bypass state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Active; 64-127: Bypassed

@@ -1,0 +1,30 @@
+GFI System,Synesthesia,Bypass Controls,DSP-X,Controls bypass state of DSP-X,14,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+GFI System,Synesthesia,Bypass Controls,DSP-Y,Controls bypass state of DSP-Y,15,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+GFI System,Synesthesia,Ramp Controls,Ramp-X,Triggers ramp function for DSP-X,16,,0,127,,,,,0-based,Momentary control,0: Release; 127: Trigger
+GFI System,Synesthesia,Ramp Controls,Ramp-Y,Triggers ramp function for DSP-Y,17,,0,127,,,,,0-based,Momentary control,0: Release; 127: Trigger
+GFI System,Synesthesia,Tempo Controls,X Tap-Divide,Sets tempo division for DSP-X,18,,0,7,,,,,0-based,,"0: Ignore Tap/MIDI Clock; 1: 4:1 (4x slower); 2: 2:1 (2x slower); 3: 1:1; 4: 1:2 (2x faster); 5: 1:3 (3x faster); 6: 1:4 (4x faster); 7: 3:4 (4/3x faster - dotted 8th)"
+GFI System,Synesthesia,Tempo Controls,Y Tap-Divide,Sets tempo division for DSP-Y,19,,0,7,,,,,0-based,,"0: Ignore Tap/MIDI Clock; 1: 4:1 (4x slower); 2: 2:1 (2x slower); 3: 1:1; 4: 1:2 (2x faster); 5: 1:3 (3x faster); 6: 1:4 (4x faster); 7: 3:4 (4/3x faster - dotted 8th)"
+GFI System,Synesthesia,Algorithms,X Algorithm,Selects algorithm for DSP-X,20,,0,36,,,,,0-based,,0-36: Algorithm selection
+GFI System,Synesthesia,Algorithms,Y Algorithm,Selects algorithm for DSP-Y,21,,0,36,,,,,0-based,,0-36: Algorithm selection
+GFI System,Synesthesia,Global,Bypass/Engage,Controls global bypass state,22,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+GFI System,Synesthesia,Tempo Controls,Tap Tempo,Sets tempo via tap function,23,,0,127,,,,,0-based,,Any value triggers tap
+GFI System,Synesthesia,Routing,Pre/Post,Switches between pre and post mode,24,,0,127,,,,,0-based,,0: Pre; 127: Post
+GFI System,Synesthesia,Routing,DSP Routing,Selects routing configuration for DSPs,25,,0,2,,,,,0-based,,0: Cascade; 1: Mixture; 2: Split
+GFI System,Synesthesia,Preset,Load Patch A/B,Loads either patch A or B,26,,0,127,,,,,0-based,,0: Load A; 127: Load B
+GFI System,Synesthesia,Modulation,Toggle Rotor Speed,Toggles between rotor speeds,27,,0,127,,,,,0-based,,Any value toggles speed
+GFI System,Synesthesia,Sequence,Reset Sequence,Resets the current sequence,28,,0,127,,,,,0-based,,Any value resets sequence
+GFI System,Synesthesia,Navigation,Bank Up/Down,Navigates between banks,29,,0,127,,,,,0-based,,0: Bank Down; 127: Bank Up
+GFI System,Synesthesia,DSP-X Parameters,X-Speed,Controls speed parameter for DSP-X,30,,0,127,,,,,0-based,,0-127: Speed value
+GFI System,Synesthesia,DSP-X Parameters,X-Depth,Controls depth parameter for DSP-X,31,,0,127,,,,,0-based,,0-127: Depth value
+GFI System,Synesthesia,DSP-X Parameters,X-Tweak,Controls tweak parameter for DSP-X,32,,0,127,,,,,0-based,,0-127: Tweak value
+GFI System,Synesthesia,DSP-X Parameters,X-SP1,Controls special parameter 1 for DSP-X,33,,0,127,,,,,0-based,Range depends on selected algorithm,0-127: Parameter value
+GFI System,Synesthesia,DSP-X Parameters,X-SP2,Controls special parameter 2 for DSP-X,34,,0,127,,,,,0-based,Range depends on selected algorithm,0-127: Parameter value
+GFI System,Synesthesia,DSP-X Parameters,X-SP3,Controls special parameter 3 for DSP-X,35,,0,127,,,,,0-based,Range depends on selected algorithm,0-127: Parameter value
+GFI System,Synesthesia,DSP-Y Parameters,Y-Speed,Controls speed parameter for DSP-Y,36,,0,127,,,,,0-based,,0-127: Speed value
+GFI System,Synesthesia,DSP-Y Parameters,Y-Depth,Controls depth parameter for DSP-Y,37,,0,127,,,,,0-based,,0-127: Depth value
+GFI System,Synesthesia,DSP-Y Parameters,Y-Tweak,Controls tweak parameter for DSP-Y,38,,0,127,,,,,0-based,,0-127: Tweak value
+GFI System,Synesthesia,DSP-Y Parameters,Y-SP1,Controls special parameter 1 for DSP-Y,39,,0,127,,,,,0-based,Range depends on selected algorithm,0-127: Parameter value
+GFI System,Synesthesia,DSP-Y Parameters,Y-SP2,Controls special parameter 2 for DSP-Y,40,,0,127,,,,,0-based,Range depends on selected algorithm,0-127: Parameter value
+GFI System,Synesthesia,DSP-Y Parameters,Y-SP3,Controls special parameter 3 for DSP-Y,41,,0,127,,,,,0-based,Range depends on selected algorithm,0-127: Parameter value
+GFI System,Synesthesia,Expression,Expression,Controls expression pedal parameter,42,,0,127,,,,,0-based,,0-127: Expression value
+GFI System,Synesthesia,Navigation,Patch Up/Down,Navigates between patches,43,,0,127,,,,,0-based,,0: Patch Down; 127: Patch Up

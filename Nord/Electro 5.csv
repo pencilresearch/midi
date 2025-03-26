@@ -1,0 +1,74 @@
+Nord,Electro 5,Mode,Preset/Manual Select,Toggles between preset and manual mode,3,,0,127,,,,,0-based,,0-63: Manual; 64-127: Preset
+Nord,Electro 5,Master,Gain,Controls the overall output gain level,7,,0,127,,,,,0-based,,0-127: Gain amount
+Nord,Electro 5,Organ,Organ Model,Selects the organ model type,9,,0,127,,,,,0-based,,Values select different organ models
+Nord,Electro 5,Expression,Control Pedal,Controls parameters via expression pedal,11,,0,127,,,,,0-based,,0-127: Pedal position
+Nord,Electro 5,Piano,Piano Type,Selects the piano type,12,,0,127,,,,,0-based,,Values select different piano types
+Nord,Electro 5,Sample,Sample Synth Attack,Controls the attack time of the sample synth,33,,0,127,,,,,0-based,,0-127: Attack time
+Nord,Electro 5,Sample,Sample Synth Release,Controls the release time of the sample synth,34,,0,127,,,,,0-based,,0-127: Release time
+Nord,Electro 5,Sample,Sample Synth Sample,Selects the sample for the sample synth,35,,0,127,,,,,0-based,,Values select different samples
+Nord,Electro 5,Sample,Sample Synth Dynamics,Controls the dynamic response of the sample synth,36,,0,127,,,,,0-based,,0-127: Dynamics amount
+Nord,Electro 5,Sample,Sample Synth Filter Velocity,Controls velocity sensitivity of the filter,37,,0,127,,,,,0-based,,0-127: Velocity sensitivity
+Nord,Electro 5,Routing,Part Lower Sound Engine Select,Selects the sound engine for the lower part,39,,0,127,,,,,0-based,,Values select different engines
+Nord,Electro 5,Routing,Part Upper Sound Engine Select,Selects the sound engine for the upper part,40,,0,127,,,,,0-based,,Values select different engines
+Nord,Electro 5,Routing,Part Lower Enable,Enables/disables the lower part,41,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Routing,Part Upper Enable,Enables/disables the upper part,42,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Piano,Piano Model,Selects the piano model,44,,0,127,,,,,0-based,,Values select different piano models
+Nord,Electro 5,Piano,Piano Variation,Selects the piano variation,45,,0,127,,,,,0-based,,Values select different variations
+Nord,Electro 5,Piano,Piano KBD Touch,Controls keyboard touch response for piano,46,,0,127,,,,,0-based,,0-127: Touch sensitivity
+Nord,Electro 5,System,Program/Set List/Live mode toggle,Toggles between program, set list, and live modes,48,,0,127,,,,,0-based,,Values select different modes
+Nord,Electro 5,System,Set List Slot Select,Selects the set list slot,49,,0,127,,,,,0-based,,0-127: Slot number
+Nord,Electro 5,Keyboard,KB Split Mode,Selects the keyboard split mode,50,,0,127,,,,,0-based,,Values select different split modes
+Nord,Electro 5,Keyboard,KB Split Point,Sets the keyboard split point,51,,0,127,,,,,0-based,,0-127: Split point position
+Nord,Electro 5,Transpose,Transpose Enable,Enables/disables transpose function,52,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Transpose,Transpose Value,Sets the transpose value in semitones,53,,0,127,,,,,0-based,,Values represent semitone shift
+Nord,Electro 5,Octave,Octave Shift Part Lower,Shifts the octave of the lower part,54,,0,127,,,,,0-based,,Values represent octave shift
+Nord,Electro 5,Octave,Octave Shift Part Upper,Shifts the octave of the upper part,55,,0,127,,,,,0-based,,Values represent octave shift
+Nord,Electro 5,Sustain,Sustain Pedal Enable Part Lower,Enables/disables sustain pedal for lower part,56,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Sustain,Sustain Pedal Enable Part Upper,Enables/disables sustain pedal for upper part,57,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Control,Ctrl Pedal Enable Part Lower,Enables/disables control pedal for lower part,58,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Control,Ctrl Pedal Enable Part Upper,Enables/disables control pedal for upper part,59,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Effects,Effect 1 Type,Selects the type for effect 1,60,,0,127,,,,,0-based,,Values select different effect types
+Nord,Electro 5,Effects,Effect 2 Type,Selects the type for effect 2,61,,0,127,,,,,0-based,,Values select different effect types
+Nord,Electro 5,Effects,Effect 2 Rate,Controls the rate for effect 2,62,,0,127,,,,,0-based,,0-127: Rate amount
+Nord,Electro 5,Effects,Effect 1 Rate,Controls the rate for effect 1,63,,0,127,,,,,0-based,,0-127: Rate amount
+Nord,Electro 5,Organ,Organ Drawbar 1,Controls the first organ drawbar,16,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar 2,Controls the second organ drawbar,17,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar 3,Controls the third organ drawbar,18,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar 4,Controls the fourth organ drawbar,19,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar 5,Controls the fifth organ drawbar,20,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar 6,Controls the sixth organ drawbar,21,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar 7,Controls the seventh organ drawbar,22,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar 8,Controls the eighth organ drawbar,23,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar 9,Controls the ninth organ drawbar,24,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Electro 5,Organ,Organ Drawbar Live,Live control of organ drawbars,25,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Effects,Effect 1 Part Select,Selects which part effect 1 applies to,72,,0,127,,,,,0-based,,Values select different parts
+Nord,Electro 5,Effects,Effect 2 Part Select,Selects which part effect 2 applies to,73,,0,127,,,,,0-based,,Values select different parts
+Nord,Electro 5,Effects,Effect 1 Ctrl Pedal,Assigns control pedal to effect 1,74,,0,127,,,,,0-based,,0-127: Control amount
+Nord,Electro 5,Effects,Effect 2 Deep Mode,Activates deep mode for effect 2,75,,0,127,,,,,0-based,,0-63: Normal; 64-127: Deep mode
+Nord,Electro 5,Rotary,Rotary Stop Mode,Controls rotary speaker stop behavior,79,,0,127,,,,,0-based,,Values select different stop modes
+Nord,Electro 5,Effects,Effect 2 Enable,Enables/disables effect 2,80,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Speaker,Spkr/Comp Type,Selects speaker/compressor type,81,,0,127,,,,,0-based,,Values select different types
+Nord,Electro 5,Rotary,Rotary Speed,Controls rotary speaker speed (slow/fast),82,,0,127,,,,,0-based,,0-63: Slow; 64-127: Fast
+Nord,Electro 5,Organ,Organ Vibrato Type,Selects organ vibrato type,84,,0,127,,,,,0-based,,Values select different vibrato types
+Nord,Electro 5,Organ,Organ Vibrato Enable,Enables/disables organ vibrato,85,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Speaker,Spkr/Comp Enable,Enables/disables speaker/compressor,86,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Organ,Organ Percussion Enable,Enables/disables organ percussion,87,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Organ,Organ Percussion Speed,Selects percussion decay speed,88,,0,127,,,,,0-based,,0-63: Slow; 64-127: Fast
+Nord,Electro 5,Piano,Piano Mono Mode,Sets piano mono/stereo mode,89,,0,127,,,,,0-based,,0-63: Stereo; 64-127: Mono
+Nord,Electro 5,Rotary,Rotor Pedal,Controls rotary speed via pedal,90,,0,127,,,,,0-based,,0-63: Slow; 64-127: Fast
+Nord,Electro 5,Delay,Delay Tempo,Sets delay tempo,92,,0,127,,,,,0-based,,0-127: Tempo value
+Nord,Electro 5,Delay,Delay Dry/Wet,Controls delay dry/wet mix,102,,0,127,,,,,0-based,,0-127: Mix amount
+Nord,Electro 5,Delay,Delay Feedback,Controls delay feedback amount,104,,0,127,,,,,0-based,,0-127: Feedback amount
+Nord,Electro 5,EQ,EQ Treble,Controls treble EQ amount,113,,0,127,,,,,0-based,,0-127: Treble amount
+Nord,Electro 5,EQ,EQ Mid Frequency,Controls mid EQ frequency,117,,0,127,,,,,0-based,,0-127: Frequency value
+Nord,Electro 5,EQ,EQ Mid,Controls mid EQ amount,116,,0,127,,,,,0-based,,0-127: Mid amount
+Nord,Electro 5,EQ,EQ Bass,Controls bass EQ amount,114,,0,127,,,,,0-based,,0-127: Bass amount
+Nord,Electro 5,EQ,EQ Enable,Enables/disables EQ,115,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,EQ,EQ Part Select,Selects which part EQ applies to,119,,0,127,,,,,0-based,,Values select different parts
+Nord,Electro 5,Speaker,Spkr/Comp Drive,Controls speaker/compressor drive amount,111,,0,127,,,,,0-based,,0-127: Drive amount
+Nord,Electro 5,Reverb,Reverb Type,Selects reverb type,96,,0,127,,,,,0-based,,Values select different reverb types
+Nord,Electro 5,Reverb,Reverb Enable,Enables/disables reverb,97,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Reverb,Reverb Dry/Wet,Controls reverb dry/wet mix,102,,0,127,,,,,0-based,,0-127: Mix amount
+Nord,Electro 5,Delay,Delay Enable,Enables/disables delay effect,94,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Electro 5,Organ,Organ Percussion Harmonic,Selects percussion harmonic,95,,0,127,,,,,0-based,,0-63: Third; 64-127: Second
+Nord,Electro 5,Effects,Effect 1 Enable,Enables/disables effect 1,69,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled

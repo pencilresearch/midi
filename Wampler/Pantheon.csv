@@ -1,0 +1,9 @@
+Wampler,Pantheon,Channels,Channel 1 State,Controls on/off state of Channel 1,0,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Pantheon,Channels,Channel 2 State,Controls on/off state of Channel 2,1,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Pantheon,Channels,Both Channels Off,Sets both channels to off state,2,,0,127,,,,,0-based,Any value will trigger both channels off,0-127: Turn both channels off
+Wampler,Pantheon,Channels,Channel 1 On Only,Sets Channel 1 on and Channel 2 off,3,,0,127,,,,,0-based,Any value will trigger Ch1 on and Ch2 off,0-127: Turn Ch1 on and Ch2 off
+Wampler,Pantheon,Channels,Channel 2 On Only,Sets Channel 1 off and Channel 2 on,4,,0,127,,,,,0-based,Any value will trigger Ch1 off and Ch2 on,0-127: Turn Ch1 off and Ch2 on
+Wampler,Pantheon,Channels,Both Channels On,Sets both channels to on state,5,,0,127,,,,,0-based,Any value will trigger both channels on,0-127: Turn both channels on
+Wampler,Pantheon,Presets,Preset Increment,Increments through presets,16,,0,127,,,,,0-based,Any value increments to next preset,0-127: Increment preset
+Wampler,Pantheon,Presets,Preset Decrement,Decrements through presets,17,,0,127,,,,,0-based,Any value decrements to previous preset,0-127: Decrement preset
+Wampler,Pantheon,Global,MIDI Channel Assign,Sets which MIDI channel the device responds to,32,,0,16,,,,,0-based,Can be sent on any channel,"0-15: MIDI channels 1-16; 16: Omni mode"

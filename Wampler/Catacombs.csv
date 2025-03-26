@@ -1,0 +1,25 @@
+Wampler,Catacombs,Global,Bypass State,Controls overall bypass state of delay and reverb,1,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Catacombs,Delay,Delay State,Controls bypass state of delay section,2,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Catacombs,Reverb,Reverb State,Controls bypass state of reverb section,3,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Catacombs,Delay,Delay Program,Selects delay algorithm,4,,0,5,,,,,0-based,,"0: ANLG; 1: BBD; 2: FTE; 3: SPC; 4: TAPE; 5: DIGI"
+Wampler,Catacombs,Delay,Delay Time,Controls delay time via knob emulation,5,,0,127,,,,,0-based,20ms to 2000ms,0: 20ms; 127: 2000ms
+Wampler,Catacombs,Delay,Delay Time High,Sets high byte of delay time in ms,6,,0,15,,,,,0-based,Used with Delay Time Low for precise ms control,0-15: High byte value (delay time in ms / 128)
+Wampler,Catacombs,Delay,Delay Time Low,Sets low byte of delay time in ms,7,,0,127,,,,,0-based,Used with Delay Time High for precise ms control,0-127: Low byte value (fractional part * 128)
+Wampler,Catacombs,Delay,Delay Feedback,Controls feedback/repeats amount,8,,0,127,,,,,0-based,Emulates Delay Feedback knob,0-127: Feedback amount
+Wampler,Catacombs,Delay,Delay Tone,Controls tone/EQ of delay repeats,9,,0,127,,,,,0-based,Emulates Delay Tone knob,0-127: Tone amount
+Wampler,Catacombs,Delay,Delay Level,Controls output level of delay effect,10,,0,127,,,,,0-based,Emulates Delay Level knob,0-127: Level amount
+Wampler,Catacombs,Reverb,Reverb Program,Selects reverb algorithm,11,,6,10,,,,,0-based,,"6: Shimmer; 7: Plate; 8: Spring; 9: Room; 10: Hall"
+Wampler,Catacombs,Reverb,Reverb Shimmer,Controls shimmer effect intensity,12,,0,127,,,,,0-based,Emulates Reverb Shimmer knob,0-127: Shimmer amount
+Wampler,Catacombs,Reverb,Reverb Decay,Controls reverb decay time,13,,0,127,,,,,0-based,Emulates Reverb Decay knob,0-127: Decay time
+Wampler,Catacombs,Reverb,Reverb Tone,Controls tone/EQ of reverb effect,14,,0,127,,,,,0-based,Emulates Reverb Tone knob,0-127: Tone amount
+Wampler,Catacombs,Reverb,Reverb Level,Controls output level of reverb effect,15,,0,127,,,,,0-based,Emulates Reverb Level knob,0-127: Level amount
+Wampler,Catacombs,Modulation,Mod Depth,Controls depth of modulation effect,16,,0,127,,,,,0-based,Emulates Mod Depth knob,0-127: Mod depth
+Wampler,Catacombs,Modulation,Mod Rate,Controls rate of modulation effect,17,,0,127,,,,,0-based,Emulates Mod Rate knob,0-127: Mod rate
+Wampler,Catacombs,Tempo,Subdivision,Sets rhythmic subdivision for tap tempo,18,,0,14,,,,,0-based,0-7 accessible via front panel,"0: Quarter; 1: Dotted Eighth; 2: Eighth; 3: Sixteenth; 4: Half; 5: Whole; 6: Dotted Quarter; 7: Triplet Quarter; 8: Dotted Sixteenth; 9: Dotted Half; 10: Dotted Whole; 11: Triplet Sixteenth; 12: Triplet Eighth; 13: Triplet Half; 14: Triplet Whole"
+Wampler,Catacombs,Tempo,Tap Tempo,Sends a tap tempo input,81,,0,0,,,,,0-based,,0: Trigger tap tempo
+Wampler,Catacombs,Presets,Preset Decrement,Decrements current preset number,82,,0,127,,,,,0-based,Value 0 reloads current preset,0: Reload current preset; 1-127: Decrement preset
+Wampler,Catacombs,Presets,Preset Increment,Increments current preset number,83,,0,127,,,,,0-based,Value 0 reloads current preset,0: Reload current preset; 1-127: Increment preset
+Wampler,Catacombs,Global,Footswitch Mode,Sets function of right footswitch,84,,0,127,,,,,0-based,,"0, 3-127: Tap Tempo; 1: Preset Increment; 2: Reverb Separate"
+Wampler,Catacombs,Global,Routing Mode,Sets signal routing between delay and reverb,86,,0,2,,,,,0-based,,"0: Parallel; 1: Series D->R; 2: Series R->D"
+Wampler,Catacombs,Global,MIDI Clock Enable,Enables/disables synchronization to MIDI clock,99,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Catacombs,Global,Expression Pedal,Emulates expression pedal input,100,,0,127,,,,,0-based,,0-127: Expression position

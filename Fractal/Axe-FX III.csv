@@ -1,0 +1,22 @@
+Fractal Audio,Axe-Fx III,External,External Control 1,Controls external parameter 1,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 2,Controls external parameter 2,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 3,Controls external parameter 3,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 4,Controls external parameter 4,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 5,Controls external parameter 5,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 6,Controls external parameter 6,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 7,Controls external parameter 7,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 8,Controls external parameter 8,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 9,Controls external parameter 9,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 10,Controls external parameter 10,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 11,Controls external parameter 11,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 12,Controls external parameter 12,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 13,Controls external parameter 13,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 14,Controls external parameter 14,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 15,Controls external parameter 15,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,External,External Control 16,Controls external parameter 16,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab External. No fixed CC#.",0-127: Parameter value
+Fractal Audio,Axe-Fx III,Effects Bypass,Effect Block Bypass,Bypasses any effect block,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab Bypass. No fixed CC#.",0-63: Active; 64-127: Bypassed
+Fractal Audio,Axe-Fx III,Channel,Effect Block Channel,Selects channel for any effect block,,,0,3,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab Channel. No fixed CC#.",0: Channel A; 1: Channel B; 2: Channel C; 3: Channel D
+Fractal Audio,Axe-Fx III,Looper,Looper Controls,Controls looper functions,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab Looper. No fixed CC#.","Depends on specific looper function"
+Fractal Audio,Axe-Fx III,Global,Tempo Tap,Sets tempo via tap function,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab Other. No fixed CC#.","Any value triggers tap"
+Fractal Audio,Axe-Fx III,Global,Tuner,Activates the tuner function,,,0,127,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab Other. No fixed CC#.","0-63: Off; 64-127: On"
+Fractal Audio,Axe-Fx III,Scenes,Scene Select,Directly selects a scene,,,0,7,,,,,0-based,"Configure in SETUP - MIDI/REMOTE - Tab Other. No fixed CC#.","0: Scene 1; 1: Scene 2; 2: Scene 3; etc."

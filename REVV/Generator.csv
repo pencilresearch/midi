@@ -1,0 +1,28 @@
+REVV,Generator,Channel Select,Channel 1,Activates Channel 1,13,,0,127,,,,,0-based,Any value switches to Channel 1,0-127: Switch to Channel 1
+REVV,Generator,Channel Select,Channel 1 Wide,Activates Channel 1 with wide mode,14,,0,127,,,,,0-based,Any value switches to Channel 1 Wide,0-127: Switch to Channel 1 Wide
+REVV,Generator,Channel 2,Low Drive,Activates Channel 2 with low drive,15,,0,127,,,,,0-based,Any value switches to Channel 2 low drive,0-127: Switch to Channel 2 Low Drive
+REVV,Generator,Channel 2,Medium Drive,Activates Channel 2 with medium drive,16,,0,127,,,,,0-based,Any value switches to Channel 2 medium drive,0-127: Switch to Channel 2 Medium Drive
+REVV,Generator,Channel 2,High Drive,Activates Channel 2 with high drive,17,,0,127,,,,,0-based,Any value switches to Channel 2 high drive,0-127: Switch to Channel 2 High Drive
+REVV,Generator,Channel 3,Low Aggression,Activates Channel 3 with low aggression,18,,0,127,,,,,0-based,Any value switches to Channel 3 low aggression,0-127: Switch to Channel 3 Low Aggression
+REVV,Generator,Channel 3,Medium Aggression,Activates Channel 3 with medium aggression,19,,0,127,,,,,0-based,Any value switches to Channel 3 medium aggression,0-127: Switch to Channel 3 Medium Aggression
+REVV,Generator,Channel 3,High Aggression,Activates Channel 3 with high aggression,20,,0,127,,,,,0-based,Any value switches to Channel 3 high aggression,0-127: Switch to Channel 3 High Aggression
+REVV,Generator,Channel 4,Low Aggression,Activates Channel 4 with low aggression,21,,0,127,,,,,0-based,Any value switches to Channel 4 low aggression,0-127: Switch to Channel 4 Low Aggression
+REVV,Generator,Channel 4,Medium Aggression,Activates Channel 4 with medium aggression,22,,0,127,,,,,0-based,Any value switches to Channel 4 medium aggression,0-127: Switch to Channel 4 Medium Aggression
+REVV,Generator,Channel 4,High Aggression,Activates Channel 4 with high aggression,23,,0,127,,,,,0-based,Any value switches to Channel 4 high aggression,0-127: Switch to Channel 4 High Aggression
+REVV,Generator,Channel 3,Aggression Toggle,Toggles through aggression levels for Channel 3,18,,0,127,,,,,0-based,Any value toggles aggression level,0-127: Toggle Channel 3 Aggression
+REVV,Generator,Channel 4,Aggression Toggle,Toggles through aggression levels for Channel 4,19,,0,127,,,,,0-based,Any value toggles aggression level,0-127: Toggle Channel 4 Aggression
+REVV,Generator,Features,Noise Gate,Controls noise gate,26,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Features,Masters,Controls masters function,27,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Features,Fat,Controls fat voicing,28,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Features,Bright,Controls bright voicing,29,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Features,Mute,Mutes the output,30,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Features,Reverb,Controls internal reverb,31,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Features,Pre-Post,Controls pre/post routing,33,,0,127,,,,,0-based,,0-63: Pre; 64-127: Post
+REVV,Generator,Features,Cut,Controls cut function,34,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Features,FX Loop,Controls effects loop,35,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Two Notes,Power Amp,Controls Two Notes power amp,36,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Two Notes,Reverb,Controls Two Notes reverb,37,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Two Notes,Noise Gate,Controls Two Notes noise gate,38,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Two Notes,Twin Tracker,Controls Two Notes twin tracker,39,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Two Notes,EQ,Controls Two Notes EQ,40,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,Generator,Two Notes,EQ R,Controls Two Notes EQ R,41,,0,127,,,,,0-based,,0-63: Off; 64-127: On

@@ -1,0 +1,52 @@
+Blackstar,Silverline Deluxe,Voice,Voice: Clean Warm,Selects Clean Warm voice,5,,0,0,,,,,0-based,,0: Clean Warm voice selected
+Blackstar,Silverline Deluxe,Voice,Voice: Clean Bright,Selects Clean Bright voice,5,,1,1,,,,,0-based,,1: Clean Bright voice selected
+Blackstar,Silverline Deluxe,Voice,Voice: Crunch,Selects Crunch voice,5,,2,2,,,,,0-based,,2: Crunch voice selected
+Blackstar,Silverline Deluxe,Voice,Voice: Super Crunch,Selects Super Crunch voice,5,,3,3,,,,,0-based,,3: Super Crunch voice selected
+Blackstar,Silverline Deluxe,Voice,Voice: OD1,Selects OD1 voice,5,,4,4,,,,,0-based,,4: OD1 voice selected
+Blackstar,Silverline Deluxe,Voice,Voice: OD2,Selects OD2 voice,5,,5,5,,,,,0-based,,5: OD2 voice selected
+Blackstar,Silverline Deluxe,Preamp,Gain,Adjusts preamp gain/distortion amount,6,,0,127,,,,,0-based,,0-127: Gain amount
+Blackstar,Silverline Deluxe,Preamp,Volume,Adjusts preamp volume level,7,,0,127,,,,,0-based,,0-127: Volume level
+Blackstar,Silverline Deluxe,EQ,Bass,Adjusts low frequency EQ,8,,0,127,,,,,0-based,,0-127: Bass amount
+Blackstar,Silverline Deluxe,EQ,Middle,Adjusts mid frequency EQ,9,,0,127,,,,,0-based,,0-127: Middle amount
+Blackstar,Silverline Deluxe,EQ,Treble,Adjusts high frequency EQ,10,,0,127,,,,,0-based,,0-127: Treble amount
+Blackstar,Silverline Deluxe,EQ,ISF,Adjusts Infinite Shape Feature (ISF) between American and British tone,11,,0,127,,,,,0-based,,0: American tone; 127: British tone; 0-127: Blend
+Blackstar,Silverline Deluxe,Response,Response: EL84,Selects EL84 power amp response,12,,0,0,,,,,0-based,,0: EL84 response selected
+Blackstar,Silverline Deluxe,Response,Response: 6V6,Selects 6V6 power amp response,12,,1,1,,,,,0-based,,1: 6V6 response selected
+Blackstar,Silverline Deluxe,Response,Response: EL34,Selects EL34 power amp response,12,,2,2,,,,,0-based,,2: EL34 response selected
+Blackstar,Silverline Deluxe,Response,Response: KT66,Selects KT66 power amp response,12,,3,3,,,,,0-based,,3: KT66 response selected
+Blackstar,Silverline Deluxe,Response,Response: 6L6,Selects 6L6 power amp response,12,,4,4,,,,,0-based,,4: 6L6 response selected
+Blackstar,Silverline Deluxe,Response,Response: KT88,Selects KT88 power amp response,12,,5,5,,,,,0-based,,5: KT88 response selected
+Blackstar,Silverline Deluxe,Modulation,Mod Effect: Phaser,Selects Phaser modulation effect,13,,0,0,,,,,0-based,,0: Phaser selected
+Blackstar,Silverline Deluxe,Modulation,Mod Effect: Flanger,Selects Flanger modulation effect,13,,1,1,,,,,0-based,,1: Flanger selected
+Blackstar,Silverline Deluxe,Modulation,Mod Effect: Chorus,Selects Chorus modulation effect,13,,2,2,,,,,0-based,,2: Chorus selected
+Blackstar,Silverline Deluxe,Modulation,Mod Effect: Tremolo,Selects Tremolo modulation effect,13,,3,3,,,,,0-based,,3: Tremolo selected
+Blackstar,Silverline Deluxe,Modulation,Modulation Adjust 1,Adjusts first parameter of selected modulation effect,14,,0,127,,,,,0-based,,0-127: Parameter value
+Blackstar,Silverline Deluxe,Modulation,Modulation Adjust 2,Adjusts second parameter of selected modulation effect,15,,0,127,,,,,0-based,,0-127: Parameter value
+Blackstar,Silverline Deluxe,Modulation,Modulation Level,Adjusts level/mix of modulation effect,16,,0,127,,,,,0-based,,0-127: Modulation level
+Blackstar,Silverline Deluxe,Modulation,Modulation Rate,Adjusts rate/speed of modulation effect,17,,0,127,,,,,0-based,,0-127: Modulation rate
+Blackstar,Silverline Deluxe,Delay,Delay Effect: Linear,Selects Linear delay effect,18,,0,0,,,,,0-based,,0: Linear delay selected
+Blackstar,Silverline Deluxe,Delay,Delay Effect: Analogue,Selects Analogue delay effect,18,,1,1,,,,,0-based,,1: Analogue delay selected
+Blackstar,Silverline Deluxe,Delay,Delay Effect: Tape,Selects Tape delay effect,18,,2,2,,,,,0-based,,2: Tape delay selected
+Blackstar,Silverline Deluxe,Delay,Delay Effect: Multi,Selects Multi delay effect,18,,3,3,,,,,0-based,,3: Multi delay selected
+Blackstar,Silverline Deluxe,Delay,Delay Adjust 1,Adjusts first parameter of selected delay effect,19,,0,127,,,,,0-based,,0-127: Parameter value
+Blackstar,Silverline Deluxe,Delay,Delay Adjust 2,Adjusts second parameter of selected delay effect,20,,0,127,,,,,0-based,,0-127: Parameter value
+Blackstar,Silverline Deluxe,Delay,Delay Level,Adjusts level/mix of delay effect,21,,0,127,,,,,0-based,,0-127: Delay level
+Blackstar,Silverline Deluxe,Reverb,Reverb Effect: Room,Selects Room reverb effect,22,,0,0,,,,,0-based,,0: Room reverb selected
+Blackstar,Silverline Deluxe,Reverb,Reverb Effect: Hall,Selects Hall reverb effect,22,,1,1,,,,,0-based,,1: Hall reverb selected
+Blackstar,Silverline Deluxe,Reverb,Reverb Effect: Spring,Selects Spring reverb effect,22,,2,2,,,,,0-based,,2: Spring reverb selected
+Blackstar,Silverline Deluxe,Reverb,Reverb Effect: Plate,Selects Plate reverb effect,22,,3,3,,,,,0-based,,3: Plate reverb selected
+Blackstar,Silverline Deluxe,Reverb,Reverb Adjust 1,Adjusts first parameter of selected reverb effect,23,,0,127,,,,,0-based,,0-127: Parameter value
+Blackstar,Silverline Deluxe,Reverb,Reverb Adjust 2,Adjusts second parameter of selected reverb effect,24,,0,127,,,,,0-based,,0-127: Parameter value
+Blackstar,Silverline Deluxe,Reverb,Reverb Level,Adjusts level/mix of reverb effect,25,,0,127,,,,,0-based,,0-127: Reverb level
+Blackstar,Silverline Deluxe,Modulation,Modulation: On,Enables modulation effect,64,,127,127,,,,,0-based,,127: Modulation enabled
+Blackstar,Silverline Deluxe,Modulation,Modulation: Off,Disables modulation effect,64,,0,0,,,,,0-based,,0: Modulation disabled
+Blackstar,Silverline Deluxe,Delay,Delay: On,Enables delay effect,65,,127,127,,,,,0-based,,127: Delay enabled
+Blackstar,Silverline Deluxe,Delay,Delay: Off,Disables delay effect,65,,0,0,,,,,0-based,,0: Delay disabled
+Blackstar,Silverline Deluxe,Reverb,Reverb: On,Enables reverb effect,66,,127,127,,,,,0-based,,127: Reverb enabled
+Blackstar,Silverline Deluxe,Reverb,Reverb: Off,Disables reverb effect,66,,0,0,,,,,0-based,,0: Reverb disabled
+Blackstar,Silverline Deluxe,Delay,Delay Tap,Tap tempo for delay time,68,,127,127,,,,,0-based,,127: Tap (momentary)
+Blackstar,Silverline Deluxe,Routing,Effects Loop Mode: On,Enables effects loop,69,,127,127,,,,,0-based,,127: Effects loop enabled
+Blackstar,Silverline Deluxe,Routing,Effects Loop Mode: Off,Disables effects loop,69,,0,0,,,,,0-based,,0: Effects loop disabled
+Blackstar,Silverline Deluxe,Output,Super Wide Stereo: On,Enables super wide stereo mode,70,,127,127,,,,,0-based,,127: Super wide stereo enabled
+Blackstar,Silverline Deluxe,Output,Super Wide Stereo: Off,Disables super wide stereo mode,70,,0,0,,,,,0-based,,0: Super wide stereo disabled
+Blackstar,Silverline Deluxe,System,Save Current Patch,Saves current settings to the active patch,119,,127,127,,,,,0-based,,127: Save patch (momentary)

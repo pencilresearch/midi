@@ -1,0 +1,23 @@
+Line 6,HX Stomp,Expression,EXP 1 Pedal,Emulates Expression Pedal 1,1,,0,127,,,,,0-based,,0-127: Pedal position
+Line 6,HX Stomp,Expression,EXP 2 Pedal,Emulates Expression Pedal 2,2,,0,127,,,,,0-based,,0-127: Pedal position
+Line 6,HX Stomp,Footswitches,Stomp FS1,Emulates Footswitch 1,49,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS2,Emulates Footswitch 2,50,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS3,Emulates Footswitch 3,51,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS4,Emulates Footswitch 4,52,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS5,Emulates Footswitch 5,53,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS7,Emulates Footswitch 7,54,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS8,Emulates Footswitch 8,55,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS9,Emulates Footswitch 9,56,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS10,Emulates Footswitch 10,57,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Footswitches,Stomp FS11,Emulates Footswitch 11,58,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Expression,EXP Toe Switch,Emulates Expression Pedal Toe Switch,59,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Looper,Looper Record/Overdub,Controls looper record and overdub functions,60,,0,127,,,,,0-based,FS8 function,0-63: Overdub; 64-127: Record
+Line 6,HX Stomp,Looper,Looper Play/Stop,Controls looper playback and stop functions,61,,0,127,,,,,0-based,FS9 function,0-63: Stop; 64-127: Play
+Line 6,HX Stomp,Looper,Looper Play Once,Plays looper once and stops,62,,0,127,,,,,0-based,FS3 function,64-127: Trigger play once
+Line 6,HX Stomp,Looper,Looper Undo/Redo,Undoes or redoes the last looper recording,63,,0,127,,,,,0-based,FS2 function,64-127: Trigger undo/redo
+Line 6,HX Stomp,Global,Tap Tempo,Sets tempo via tap function,64,,0,127,,,,,0-based,,64-127: Trigger tap
+Line 6,HX Stomp,Looper,Looper Forward/Reverse,Controls looper playback direction,65,,0,127,,,,,0-based,FS11 function,0-63: Forward; 64-127: Reverse
+Line 6,HX Stomp,Looper,Looper Full/Half Speed,Controls looper playback speed,66,,0,127,,,,,0-based,FS10 function,0-63: Full speed; 64-127: Half speed
+Line 6,HX Stomp,Looper,Looper On/Off,Enables or disables the looper,67,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Global,Tuner,Activates the tuner screen,68,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Stomp,Snapshots,Snapshot Select,Selects a snapshot or increments to next,69,,0,8,,,,,0-based,,0-7: Snapshots 1-8; 8: Next snapshot

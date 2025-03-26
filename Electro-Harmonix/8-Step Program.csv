@@ -1,0 +1,27 @@
+Electro-Harmonix,8-Step Program,Expression,Expression Pedal,Emulates expression pedal control for the selected parameter,4,,0,127,,,,,0-based,Controls parameter selected by EXP. MODE,0-127: Expression pedal position
+Electro-Harmonix,8-Step Program,Steps,Step 1 Slider,Controls the setting or value for Step 1,16,,0,127,,,,,0-based,,0-127: Step 1 value
+Electro-Harmonix,8-Step Program,Steps,Step 2 Slider,Controls the setting or value for Step 2,17,,0,127,,,,,0-based,,0-127: Step 2 value
+Electro-Harmonix,8-Step Program,Steps,Step 3 Slider,Controls the setting or value for Step 3,18,,0,127,,,,,0-based,,0-127: Step 3 value
+Electro-Harmonix,8-Step Program,Steps,Step 4 Slider,Controls the setting or value for Step 4,19,,0,127,,,,,0-based,,0-127: Step 4 value
+Electro-Harmonix,8-Step Program,Steps,Step 5 Slider,Controls the setting or value for Step 5,20,,0,127,,,,,0-based,,0-127: Step 5 value
+Electro-Harmonix,8-Step Program,Steps,Step 6 Slider,Controls the setting or value for Step 6,21,,0,127,,,,,0-based,,0-127: Step 6 value
+Electro-Harmonix,8-Step Program,Steps,Step 7 Slider,Controls the setting or value for Step 7,22,,0,127,,,,,0-based,,0-127: Step 7 value
+Electro-Harmonix,8-Step Program,Steps,Step 8 Slider,Controls the setting or value for Step 8,23,,0,127,,,,,0-based,,0-127: Step 8 value
+Electro-Harmonix,8-Step Program,Tempo,Rate Slider,Controls the tempo of the sequencer,24,,0,127,,,,,0-based,Equivalent to moving the RATE slider,0-127: Rate value
+Electro-Harmonix,8-Step Program,Sequence,Glide,Controls the glide between steps,25,,0,127,,,,,0-based,,0-127: Glide amount
+Electro-Harmonix,8-Step Program,Sequence,Direction,Controls the sequencer direction,26,,0,3,,,,,0-based,,"0: Forward; 1: Reverse; 2: Bounce; 3: Random"
+Electro-Harmonix,8-Step Program,Sequence,Sequence Length,Controls the number of active steps,27,,1,8,,,,,0-based,,1-8: Number of steps
+Electro-Harmonix,8-Step Program,Sequence,Depth,Controls the intensity of modulation,28,,0,127,,,,,0-based,"0-100: 0% to 100%; 101-127: Amplifies values below max","0-127: Depth amount"
+Electro-Harmonix,8-Step Program,Tempo,Tap Divide,Controls the rhythmic subdivision,29,,0,6,,,,,0-based,,"0: Off/Quarter note; 1: Dotted 8th; 2: Quarter note triplet; 3: 8th note; 4: 8th note triplet; 5: 16th note; 6: 32nd note"
+Electro-Harmonix,8-Step Program,Expression,Expression Mode,Selects what parameter is controlled by expression,30,,0,5,,,,,0-based,,"0: Off; 1: Rate; 2: Depth; 3: Glide; 4: Sequence Length; 5: External Clock"
+Electro-Harmonix,8-Step Program,Sequence,Play Mode,Controls the sequencer playback mode,31,,0,2,,,,,0-based,Display flashes when changed,"0: Loop; 1: 1-Shot; 2: Step-Thru"
+Electro-Harmonix,8-Step Program,Controls,Encoder Mode,Selects the function of the encoder,33,,0,4,,,,,0-based,,"0: Glide; 1: Direction; 2: Sequence Length; 3: Depth; 4: Preset"
+Electro-Harmonix,8-Step Program,Controls,Play Footswitch,Controls start/stop of sequencer,34,,0,127,,,,,0-based,"In Step-Thru mode, any value advances sequence","0: Stop; 127: Start"
+Electro-Harmonix,8-Step Program,Controls,Reset Footswitch,Resets the sequence to first step,35,,0,127,,,,,0-based,Only value 127 triggers reset,127: Reset sequence
+Electro-Harmonix,8-Step Program,Controls,Tap Footswitch,Sends tap tempo input,36,,0,127,,,,,0-based,Only value 127 triggers tap,127: Tap tempo
+Electro-Harmonix,8-Step Program,Controls,Tap Divide Button,Presses the Tap Divide button,37,,0,127,,,,,0-based,Only value 127 triggers button press,127: Press button
+Electro-Harmonix,8-Step Program,Controls,Expression Mode Button,Presses the Expression Mode button,39,,0,127,,,,,0-based,Only value 127 triggers button press,127: Press button
+Electro-Harmonix,8-Step Program,Controls,Encoder Mode Button,Presses the Mode button,40,,0,127,,,,,0-based,Only value 127 triggers button press,127: Press button
+Electro-Harmonix,8-Step Program,Sequence,Sequence Step,Forces sequencer to jump to specific step,41,,1,8,,,,,0-based,"Only when sequencer is stopped or in Step-Thru mode","1-8: Jump to step number"
+Electro-Harmonix,8-Step Program,Presets,Save Preset,Saves current settings to specified preset number,117,,0,99,,,,,0-based,Preset is saved immediately upon receiving message,0-99: Save to preset number
+Electro-Harmonix,8-Step Program,Presets,Load Preset,Loads specified preset number,118,,0,127,,,,,0-based,,"0-99: Load preset number; 100-127: Unload current preset"

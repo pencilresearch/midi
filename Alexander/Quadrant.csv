@@ -1,0 +1,15 @@
+Alexander,Quadrant,Tempo,Tap Tempo,Sets tempo via tap tempo,93,,0,127,,,,,0-based,Any value triggers a tap,0-127: Tap (momentary)
+Alexander,Quadrant,Ramp,Ramp - Set Speed,Sets the speed of the ramp function,97,,1,8,,,,,0-based,,1-8: Ramp speed value
+Alexander,Quadrant,Ramp,Ramp - Trigger,Triggers the ramp function,97,,9,127,,,,,0-based,Any value in range triggers the ramp,9-127: Trigger (momentary)
+Alexander,Quadrant,Expression,Expression Pedal,Controls parameters via expression pedal,100,,0,127,,,,,0-based,,0: Heel down; 127: Toe down
+Alexander,Quadrant,Bypass,Bypass,Bypasses the effect,102,,0,63,,,,,0-based,,0-63: Effect bypassed
+Alexander,Quadrant,Bypass,Engage,Engages the effect,102,,64,127,,,,,0-based,,64-127: Effect engaged
+Alexander,Quadrant,Controls,Pedal Knobs - Lower Right Main,Controls the lower right knob in main mode,50,,0,127,,,,,0-based,,0: Counter-clockwise; 127: Clockwise
+Alexander,Quadrant,Controls,Pedal Knobs - Upper Left Main,Controls the upper left knob in main mode,51,,0,127,,,,,0-based,,0: Counter-clockwise; 127: Clockwise
+Alexander,Quadrant,Controls,Pedal Knobs - Upper Right Main,Controls the upper right knob in main mode,52,,0,127,,,,,0-based,,0: Counter-clockwise; 127: Clockwise
+Alexander,Quadrant,Controls,Pedal Knobs - Lower Left Main,Controls the lower left knob in main mode,53,,0,127,,,,,0-based,,0: Counter-clockwise; 127: Clockwise
+Alexander,Quadrant,Controls,Pedal Knobs - Lower Right Alt,Controls the lower right knob in alt mode,54,,0,127,,,,,0-based,,0: Counter-clockwise; 127: Clockwise
+Alexander,Quadrant,Controls,Pedal Knobs - Upper Left Alt,Controls the upper left knob in alt mode,55,,0,127,,,,,0-based,,0: Counter-clockwise; 127: Clockwise
+Alexander,Quadrant,Controls,Pedal Knobs - Upper Right Alt,Controls the upper right knob in alt mode,56,,0,127,,,,,0-based,,0: Counter-clockwise; 127: Clockwise
+Alexander,Quadrant,Controls,Pedal Knobs - Lower Left Alt,Controls the lower left knob in alt mode,57,,0,127,,,,,0-based,,0: Counter-clockwise; 127: Clockwise
+Alexander,Quadrant,Mode,Mode Select,Selects between the device's operating modes,59,,0,7,,,,,0-based,,0-7: Selects modes 1-8

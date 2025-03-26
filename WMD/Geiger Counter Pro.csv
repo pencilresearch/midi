@@ -1,0 +1,48 @@
+WMD,Geiger Counter Pro,Level,Level,Controls the overall output level,7,,0,127,,,,,0-based,,0-127: Output level
+WMD,Geiger Counter Pro,Distortion,Gain,Controls the input gain/distortion amount,20,,0,127,,,,,0-based,,0-127: Gain amount
+WMD,Geiger Counter Pro,Tone,Tone,Controls the tone/EQ,21,,0,127,,,,,0-based,,0-127: Tone amount
+WMD,Geiger Counter Pro,Mix,Mix,Controls the dry/wet signal mix,22,,0,127,,,,,0-based,,0-127: Mix amount
+WMD,Geiger Counter Pro,Filter,Filter MSB,Controls the filter cutoff (Most Significant Byte),23,,0,127,,,,,0-based,Used with Filter LSB for high-resolution control,0-127: Filter MSB value
+WMD,Geiger Counter Pro,Filter,Filter LSB,Fine control for filter cutoff (Least Significant Byte),55,,0,127,,,,,0-based,Used with Filter MSB for high-resolution control,0-127: Filter LSB value
+WMD,Geiger Counter Pro,Bit Crusher,Bit Depth MSB,Controls the bit depth/resolution (Most Significant Byte),24,,0,127,,,,,0-based,Used with Bit Depth LSB for high-resolution control,0-127: Bit depth MSB value
+WMD,Geiger Counter Pro,Bit Crusher,Bit Depth LSB,Fine control for bit depth (Least Significant Byte),56,,0,127,,,,,0-based,Used with Bit Depth MSB for high-resolution control,0-127: Bit depth LSB value
+WMD,Geiger Counter Pro,Sample Rate,Sample Rate MSB,Controls the sample rate (Most Significant Byte),25,,0,127,,,,,0-based,Used with Sample Rate LSB for high-resolution control,0-127: Sample rate MSB value
+WMD,Geiger Counter Pro,Sample Rate,Sample Rate LSB,Fine control for sample rate (Least Significant Byte),57,,0,127,,,,,0-based,Used with Sample Rate MSB for high-resolution control,0-127: Sample rate LSB value
+WMD,Geiger Counter Pro,Waveshaper,Bank MSB,Selects the waveshaper bank,26,,0,127,,,,,0-based,,0-127: Bank selection
+WMD,Geiger Counter Pro,Waveshaper,Table MSB,Selects the waveshaper table (Most Significant Byte),27,,0,127,,,,,0-based,Used with Table LSB for high-resolution control,0-127: Table MSB value
+WMD,Geiger Counter Pro,Waveshaper,Table LSB,Fine control for waveshaper table (Least Significant Byte),59,,0,127,,,,,0-based,Used with Table MSB for high-resolution control,0-127: Table LSB value
+WMD,Geiger Counter Pro,Bypass,Bypass Pedal,Bypasses the effect,28,,1,1,,,,,0-based,Momentary function,1: Bypass (momentary)
+WMD,Geiger Counter Pro,Bypass,Engage Pedal,Engages the effect,28,,2,2,,,,,0-based,Momentary function,2: Engage (momentary)
+WMD,Geiger Counter Pro,Tone,Tone Off,Disables the tone control,28,,11,11,,,,,0-based,Momentary function,11: Tone off (momentary)
+WMD,Geiger Counter Pro,Tone,Tone On,Enables the tone control,28,,12,12,,,,,0-based,Momentary function,12: Tone on (momentary)
+WMD,Geiger Counter Pro,Mix,Dry On,Enables the dry signal,28,,17,17,,,,,0-based,Momentary function,17: Dry on (momentary)
+WMD,Geiger Counter Pro,Mix,Dry Off,Disables the dry signal,28,,18,18,,,,,0-based,Momentary function,18: Dry off (momentary)
+WMD,Geiger Counter Pro,Sample Rate,Sample Rate: Normal,Sets sample rate control to normal mode,28,,21,21,,,,,0-based,Momentary function,21: Normal mode (momentary)
+WMD,Geiger Counter Pro,Sample Rate,Sample Rate: Fine,Sets sample rate control to fine mode,28,,22,22,,,,,0-based,Momentary function,22: Fine mode (momentary)
+WMD,Geiger Counter Pro,Bit Crusher,Bit Depth Post Table,Sets bit depth processing to post-table,28,,31,31,,,,,0-based,Momentary function,31: Post-table (momentary)
+WMD,Geiger Counter Pro,Bit Crusher,Bit Depth Pre Table,Sets bit depth processing to pre-table,28,,32,32,,,,,0-based,Momentary function,32: Pre-table (momentary)
+WMD,Geiger Counter Pro,Bit Crusher,Bit Depth Mode (Mask Disable),Disables bit depth mask mode,28,,33,33,,,,,0-based,Momentary function,33: Mask disabled (momentary)
+WMD,Geiger Counter Pro,Bit Crusher,Bit Depth Mode (Mask Enable),Enables bit depth mask mode,28,,34,34,,,,,0-based,Momentary function,34: Mask enabled (momentary)
+WMD,Geiger Counter Pro,Bit Crusher,Full Bit Depth (12 bit w/ no Gate),Sets full bit depth mode (12-bit with no gate),28,,35,35,,,,,0-based,Momentary function,35: Full bit depth (momentary)
+WMD,Geiger Counter Pro,Morph,Morph Off,Disables morph mode,28,,41,41,,,,,0-based,Momentary function,41: Morph off (momentary)
+WMD,Geiger Counter Pro,Morph,Morph On,Enables morph mode,28,,42,42,,,,,0-based,Momentary function,42: Morph on (momentary)
+WMD,Geiger Counter Pro,System,Randomize,Randomizes the effect parameters,28,,50,50,,,,,0-based,Momentary function,50: Randomize (momentary)
+WMD,Geiger Counter Pro,System,Save to Active Preset,Saves the current settings to the active preset,28,,60,60,,,,,0-based,Momentary function,60: Save (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Nothing,Clears CV 1 routing,28,,70,70,,,,,0-based,Momentary function,70: No routing (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Gain,Routes CV 1 to gain parameter,28,,71,71,,,,,0-based,Momentary function,71: Route to gain (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Tone,Routes CV 1 to tone parameter,28,,72,72,,,,,0-based,Momentary function,72: Route to tone (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Samples,Routes CV 1 to sample rate parameter,28,,73,73,,,,,0-based,Momentary function,73: Route to sample rate (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Bits,Routes CV 1 to bit depth parameter,28,,74,74,,,,,0-based,Momentary function,74: Route to bit depth (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Bank,Routes CV 1 to bank parameter,28,,75,75,,,,,0-based,Momentary function,75: Route to bank (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Table,Routes CV 1 to table parameter,28,,76,76,,,,,0-based,Momentary function,76: Route to table (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Blend,Routes CV 1 to blend/mix parameter,28,,77,77,,,,,0-based,Momentary function,77: Route to blend (momentary)
+WMD,Geiger Counter Pro,Routing,CV 1 Route to: Filter,Routes CV 1 to filter parameter,28,,78,78,,,,,0-based,Momentary function,78: Route to filter (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Nothing,Clears CV 2 routing,28,,80,80,,,,,0-based,Momentary function,80: No routing (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Gain,Routes CV 2 to gain parameter,28,,81,81,,,,,0-based,Momentary function,81: Route to gain (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Tone,Routes CV 2 to tone parameter,28,,82,82,,,,,0-based,Momentary function,82: Route to tone (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Samples,Routes CV 2 to sample rate parameter,28,,83,83,,,,,0-based,Momentary function,83: Route to sample rate (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Bits,Routes CV 2 to bit depth parameter,28,,84,84,,,,,0-based,Momentary function,84: Route to bit depth (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Bank,Routes CV 2 to bank parameter,28,,85,85,,,,,0-based,Momentary function,85: Route to bank (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Table,Routes CV 2 to table parameter,28,,86,86,,,,,0-based,Momentary function,86: Route to table (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Blend,Routes CV 2 to blend/mix parameter,28,,87,87,,,,,0-based,Momentary function,87: Route to blend (momentary)
+WMD,Geiger Counter Pro,Routing,CV 2 Route to: Filter,Routes CV 2 to filter parameter,28,,88,88,,,,,0-based,Momentary function,88: Route to filter (momentary)

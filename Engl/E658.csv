@@ -1,0 +1,19 @@
+ENGL,E658,Global,Amp Mute,Mutes the amplifier output,7,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,Global,M.V.B.,Controls Master Volume Boost function,14,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,Preamp,Gain Boost,Boosts the preamp gain,22,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,Preamp,Noise Gate,Controls the built-in noise gate,24,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,Reverb,Reverb On/Off,Enables or disables the reverb effect,28,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,FX Loop,FX Loop On/Off,Enables or disables the effects loop,30,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,Reverb,Reverb,Controls the reverb amount,35,,0,127,,,,,0-based,,0-127: Reverb amount
+ENGL,E658,IR,IR Bypass,Bypasses the IR (Impulse Response) section,41,,0,127,,,,,0-based,,0-63: IR active; 64-127: IR bypassed
+ENGL,E658,Reverb,Reverb Tails,Enables or disables reverb tails when bypassed,46,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,Delay,Delay Tails,Enables or disables delay tails when bypassed,47,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,Delay,Delay On/Off,Enables or disables the delay effect,52,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ENGL,E658,Delay,Delay Mix,Controls the delay wet/dry mix,53,,0,127,,,,,0-based,,0-127: Mix amount
+ENGL,E658,Delay,Delay Tap,Sets delay time via tap tempo,54,,0,127,,,,,0-based,Momentary tap tempo control,0-127: Tap value/trigger
+ENGL,E658,Delay,Delay Feedback,Controls the delay feedback amount,55,,0,127,,,,,0-based,,0-127: Feedback amount
+ENGL,E658,Delay,Delay Damping,Controls the damping of delay repeats,56,,0,127,,,,,0-based,,0-127: Damping amount
+ENGL,E658,Reverb,Reverb Lows,Controls the low frequency content of reverb,57,,0,127,,,,,0-based,,0-127: Low frequency amount
+ENGL,E658,Reverb,Reverb Decay,Controls the decay time of the reverb,58,,0,127,,,,,0-based,,0-127: Decay time
+ENGL,E658,Reverb,Reverb Damping,Controls the damping of reverb reflections,59,,0,127,,,,,0-based,,0-127: Damping amount
+ENGL,E658,Reverb,Reverb Predelay,Controls the pre-delay time of the reverb,60,,0,127,,,,,0-based,,0-127: Pre-delay time

@@ -1,0 +1,89 @@
+Fractal Audio,Ultra,Volumes,Input Volume,Controls input volume level,10,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Volume level
+Fractal Audio,Ultra,Volumes,Out1 Volume,Controls output 1 volume level,11,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Volume level
+Fractal Audio,Ultra,Volumes,Out2 Volume,Controls output 2 volume level,12,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Volume level
+Fractal Audio,Ultra,Global,Bypass,Bypasses the entire unit,13,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Global,Tap Tempo,Sets tempo via tap function,14,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value triggers tap
+Fractal Audio,Ultra,Global,Tuner,Activates the tuner function,15,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,External,External 1,Controls external parameter 1,16,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,Ultra,External,External 2,Controls external parameter 2,17,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,Ultra,External,External 3,Controls external parameter 3,18,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,Ultra,External,External 4,Controls external parameter 4,19,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,Ultra,External,External 5,Controls external parameter 5,20,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,Ultra,External,External 6,Controls external parameter 6,21,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,Ultra,External,External 7,Controls external parameter 7,22,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,Ultra,External,External 8,Controls external parameter 8,23,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,Ultra,Looper,Looper 1 Record,Activates looper 1 record function,24,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 1 Play,Activates looper 1 playback,25,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 1 Once,Plays looper 1 once then stops,26,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 1 Dub,Activates looper 1 overdub function,27,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 1 Reverse,Reverses looper 1 playback direction,28,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 2 Record,Activates looper 2 record function,29,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 2 Play,Activates looper 2 playback,30,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 2 Once,Plays looper 2 once then stops,31,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 2 Dub,Activates looper 2 overdub function,32,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Looper,Looper 2 Reverse,Reverses looper 2 playback direction,33,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,Ultra,Global,Global Bypass,Bypasses all effects,34,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Volumes,Volume Increment,Increments the volume level,35,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value increments volume
+Fractal Audio,Ultra,Volumes,Volume Decrement,Decrements the volume level,36,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value decrements volume
+Fractal Audio,Ultra,Effects Bypass,Amp 1 Bypass,Bypasses the amp 1 block,37,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Amp 2 Bypass,Bypasses the amp 2 block,38,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Cabinet 1 Bypass,Bypasses the cabinet 1 block,39,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Cabinet 2 Bypass,Bypasses the cabinet 2 block,40,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Chorus 1 Bypass,Bypasses the chorus 1 block,41,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Chorus 2 Bypass,Bypasses the chorus 2 block,42,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Compressor 1 Bypass,Bypasses the compressor 1 block,43,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Compressor 2 Bypass,Bypasses the compressor 2 block,44,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Crossover 1 Bypass,Bypasses the crossover 1 block,45,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Crossover 2 Bypass,Bypasses the crossover 2 block,46,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Delay 1 Bypass,Bypasses the delay 1 block,47,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Delay 2 Bypass,Bypasses the delay 2 block,48,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Drive 1 Bypass,Bypasses the drive 1 block,49,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Drive 2 Bypass,Bypasses the drive 2 block,50,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Enhancer Bypass,Bypasses the enhancer block,51,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Filter 1 Bypass,Bypasses the filter 1 block,52,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Filter 2 Bypass,Bypasses the filter 2 block,53,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Filter 3 Bypass,Bypasses the filter 3 block,54,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Filter 4 Bypass,Bypasses the filter 4 block,55,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Flanger 1 Bypass,Bypasses the flanger 1 block,56,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Flanger 2 Bypass,Bypasses the flanger 2 block,57,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Formant Bypass,Bypasses the formant block,58,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,FX Loop Bypass,Bypasses the effects loop,59,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Gate 1 Bypass,Bypasses the gate 1 block,60,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Gate 2 Bypass,Bypasses the gate 2 block,61,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Graphic EQ 1 Bypass,Bypasses the graphic EQ 1 block,62,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Graphic EQ 2 Bypass,Bypasses the graphic EQ 2 block,63,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Graphic EQ 3 Bypass,Bypasses the graphic EQ 3 block,64,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Graphic EQ 4 Bypass,Bypasses the graphic EQ 4 block,65,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Megatap Bypass,Bypasses the megatap block,66,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Multicomp 1 Bypass,Bypasses the multicomp 1 block,67,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Multicomp 2 Bypass,Bypasses the multicomp 2 block,68,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Multi Delay 1 Bypass,Bypasses the multi delay 1 block,69,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Multi Delay 2 Bypass,Bypasses the multi delay 2 block,70,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Parametric EQ 1 Bypass,Bypasses the parametric EQ 1 block,71,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Parametric EQ 2 Bypass,Bypasses the parametric EQ 2 block,72,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Parametric EQ 3 Bypass,Bypasses the parametric EQ 3 block,73,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Parametric EQ 4 Bypass,Bypasses the parametric EQ 4 block,74,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Phaser 1 Bypass,Bypasses the phaser 1 block,75,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Phaser 2 Bypass,Bypasses the phaser 2 block,76,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Pitch 1 Bypass,Bypasses the pitch 1 block,77,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Pitch 2 Bypass,Bypasses the pitch 2 block,78,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Quad Chorus 1 Bypass,Bypasses the quad chorus 1 block,79,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Quad Chorus 2 Bypass,Bypasses the quad chorus 2 block,80,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Resonator 1 Bypass,Bypasses the resonator 1 block,81,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Resonator 2 Bypass,Bypasses the resonator 2 block,82,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Reverb 1 Bypass,Bypasses the reverb 1 block,83,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Reverb 2 Bypass,Bypasses the reverb 2 block,84,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Ring Modulator Bypass,Bypasses the ring modulator block,85,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Rotary 1 Bypass,Bypasses the rotary 1 block,86,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Rotary 2 Bypass,Bypasses the rotary 2 block,87,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Synth 1 Bypass,Bypasses the synth 1 block,88,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Synth 2 Bypass,Bypasses the synth 2 block,89,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Tremolo 1 Bypass,Bypasses the tremolo 1 block,90,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Tremolo 2 Bypass,Bypasses the tremolo 2 block,91,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Vocoder Bypass,Bypasses the vocoder block,92,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Volume 1 Bypass,Bypasses the volume 1 block,93,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Volume 2 Bypass,Bypasses the volume 2 block,94,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Volume 3 Bypass,Bypasses the volume 3 block,95,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Volume 4 Bypass,Bypasses the volume 4 block,96,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Wah 1 Bypass,Bypasses the wah 1 block,97,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,Ultra,Effects Bypass,Wah 2 Bypass,Bypasses the wah 2 block,98,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed

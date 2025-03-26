@@ -1,0 +1,45 @@
+Diezel,VHX,Utility,Power Amp Mute/Tuner,Toggles power amp mute and enables tuner screen,1,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Tempo,Global Tap Tempo,Sets the global tempo via tap,2,,0,127,,,,,0-based,,0-63: Release; 64-127: Tap
+Diezel,VHX,Tempo,Delay A Tap Tempo,Sets the Delay A tempo via tap,3,,0,127,,,,,0-based,,0-63: Release; 64-127: Tap
+Diezel,VHX,Tempo,Tremolo Tap Tempo,Sets the Tremolo tempo via tap,4,,0,127,,,,,0-based,,0-63: Release; 64-127: Tap
+Diezel,VHX,Tempo,Delay B Tap Tempo,Sets the Delay B tempo via tap,5,,0,127,,,,,0-based,,0-63: Release; 64-127: Tap
+Diezel,VHX,Preamp,Preamp Volume Boost,Adds a +3dB boost to preamp volume,6,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Volume,Master Volume,Controls the master output volume,7,,0,127,,,,,0-based,,0-127: Volume level
+Diezel,VHX,Preamp,Preamp Volume,Controls the preamp volume level,8,,0,127,,,,,0-based,,0-127: Volume level
+Diezel,VHX,EQ,Mid-Cut,Controls the mid-cut amount,9,,0,127,,,,,0-based,,0-127: Mid-cut amount
+Diezel,VHX,Preamp,Preamp Voice,Controls the preamp voice character,10,,0,127,,,,,0-based,,0-127: Voice parameter
+Diezel,VHX,Preamp,Preamp Bright,Controls the preamp brightness,11,,0,127,,,,,0-based,,0-127: Brightness amount
+Diezel,VHX,Preamp,Preamp Shape,Controls the preamp shape character,12,,0,127,,,,,0-based,,0-127: Shape parameter
+Diezel,VHX,Global,All FX & Preamp Loop,Toggles all effects and preamp loop on/off,16,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Routing,Preamp Loop,Toggles the preamp loop on/off,17,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,FX 1,Toggles effect 1 on/off,18,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,FX 2,Toggles effect 2 on/off,19,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,FX 3,Toggles effect 3 on/off,20,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,FX 4,Toggles effect 4 on/off,21,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,FX 5,Toggles effect 5 on/off,22,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,FX 6,Toggles effect 6 on/off,23,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Routing,Loop A,Toggles loop A on/off,24,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Routing,Loop B,Toggles loop B on/off,25,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Noise Gate,Toggles the noise gate on/off,26,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Compressor,Toggles the compressor on/off,27,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Pitch,Toggles the pitch shifter on/off,28,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Delay,Toggles the delay on/off,29,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Chorus,Toggles the chorus on/off,30,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Flanger,Toggles the flanger on/off,31,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Phaser,Toggles the phaser on/off,32,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Tremolo,Toggles the tremolo on/off,33,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Reverb,Toggles the reverb on/off,34,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,GEQ,Toggles the graphic EQ on/off,35,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Wah,Toggles the wah effect on/off,36,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Delay B,Toggles the delay B on/off,37,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Effects,Rotary,Toggles the rotary speaker effect on/off,38,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Diezel,VHX,Delay,Delay A Level,Controls the output level of Delay A,64,,0,127,,,,,0-based,,0-127: Level amount
+Diezel,VHX,Delay,Delay B Level,Controls the output level of Delay B,65,,0,127,,,,,0-based,,0-127: Level amount
+Diezel,VHX,Delay,Delay A Feedback,Controls the feedback amount for Delay A,66,,0,127,,,,,0-based,,0-127: Feedback amount
+Diezel,VHX,Delay,Delay B Feedback,Controls the feedback amount for Delay B,67,,0,127,,,,,0-based,,0-127: Feedback amount
+Diezel,VHX,Expression,Wah Pedal,Controls the wah pedal position,68,,0,127,,,,,0-based,,0-127: Pedal position
+Diezel,VHX,Expression,Pitch Shift Pedal,Controls the pitch shift pedal position,69,,0,127,,,,,0-based,,0-127: Pedal position
+Diezel,VHX,Routing,Loop A Send Level,Controls the send level to Loop A,70,,0,127,,,,,0-based,,0-127: Send level
+Diezel,VHX,Routing,Loop B Send Level,Controls the send level to Loop B,71,,0,127,,,,,0-based,,0-127: Send level
+Diezel,VHX,Presets,Next Preset,Selects the next preset (current PC+1),96,,0,127,,,,,0-based,,0-63: No change; 64-127: Next preset
+Diezel,VHX,Presets,Previous Preset,Selects the previous preset (current PC-1),97,,0,127,,,,,0-based,,0-63: No change; 64-127: Previous preset

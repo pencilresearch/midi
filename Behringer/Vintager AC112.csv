@@ -1,0 +1,8 @@
+Behringer,Vintager AC112,Level,Volume,Adjusts the input sensitivity of the Effects module,7,,0,127,,,,,0-based,"Has no impact on the Master volume, set the maximum volume with master on the unit and use this control to reduce the volume below the set maximum",0-127: Volume level
+Behringer,Vintager AC112,Routing,Channel,Selects between clean and overdrive channel,10,,0,1,,,,,0-based,,0: Clean Channel; 1: Overdrive Channel
+Behringer,Vintager AC112,Effects,Effect Bypass,Turns on and off the effects channel,11,,0,1,,,,,0-based,,0: Effects OFF; 1: Effects ON
+Behringer,Vintager AC112,Effects,Parameter Control,Adjusts the "Parameter" control on the top panel,12,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Vintager AC112,Effects,Effect A Control,Adjusts the "Effect A" control on the top panel,13,,0,127,,,,,0-based,,0-127: Effect A value
+Behringer,Vintager AC112,Effects,Effect B Control,Adjusts the "Effect B" control on the top panel,14,,0,127,,,,,0-based,,0-127: Effect B value
+Behringer,Vintager AC112,Effects,Wah/Modulation,Controls the wah or modulation effect,15,,0,127,,,,,0-based,,0-127: Wah/Modulation amount
+Behringer,Vintager AC112,System,Store Enable,Saves parameter changes to the current active preset,18,,0,127,,,,,0-based,,0-63: Don't store; 64-127: Store changes

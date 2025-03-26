@@ -1,0 +1,80 @@
+Arturia,Matrixbrute,Performance,Sustain Pedal,Controls sustain pedal function,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Arturia,Matrixbrute,Expression,Expression Pedal 1,Controls assignable expression pedal 1,3,,0,127,,,,,0-based,,0-127: Expression amount
+Arturia,Matrixbrute,Expression,Expression Pedal 2,Controls assignable expression pedal 2,4,,0,127,,,,,0-based,,0-127: Expression amount
+Arturia,Matrixbrute,VCO1,Fine,Fine-tunes VCO1 frequency,65,,0,127,,,,,0-based,,0-127: Fine tuning amount
+Arturia,Matrixbrute,VCO1,Coarse,Coarse-tunes VCO1 frequency,66,,0,127,,,,,0-based,,0-127: Coarse tuning amount
+Arturia,Matrixbrute,VCO1,Waveform Select,Selects VCO1 waveform,67,,0,127,,,,,0-based,,0-127: Waveform selection
+Arturia,Matrixbrute,VCO1,Sub,Controls VCO1 sub-oscillator level,9,,0,127,,,,,0-based,,0-127: Sub level
+Arturia,Matrixbrute,VCO1,Ultrasaw,Controls VCO1 ultrasaw amount,668,,0,127,,,,,0-based,,0-127: Ultrasaw amount
+Arturia,Matrixbrute,VCO1,Sawtooth,Controls VCO1 sawtooth wave level,10,,0,127,,,,,0-based,,0-127: Sawtooth level
+Arturia,Matrixbrute,VCO1,Square,Controls VCO1 square wave level,12,,0,127,,,,,0-based,,0-127: Square level
+Arturia,Matrixbrute,VCO1,Triangle,Controls VCO1 triangle wave level,13,,0,127,,,,,0-based,,0-127: Triangle level
+Arturia,Matrixbrute,VCO1,Pulse Width,Controls VCO1 pulse width,69,,0,127,,,,,0-based,,0-127: Pulse width
+Arturia,Matrixbrute,VCO1,Metalizer,Controls VCO1 metalizer amount,10,,0,127,,,,,0-based,,0-127: Metalizer amount
+Arturia,Matrixbrute,VCO2,Fine,Fine-tunes VCO2 frequency,71,,0,127,,,,,0-based,,0-127: Fine tuning amount
+Arturia,Matrixbrute,VCO2,Coarse,Coarse-tunes VCO2 frequency,72,,0,127,,,,,0-based,,0-127: Coarse tuning amount
+Arturia,Matrixbrute,VCO2,Waveform Select,Selects VCO2 waveform,73,,0,127,,,,,0-based,,0-127: Waveform selection
+Arturia,Matrixbrute,VCO2,Sub,Controls VCO2 sub-oscillator level,14,,0,127,,,,,0-based,,0-127: Sub level
+Arturia,Matrixbrute,VCO2,Ultrasaw,Controls VCO2 ultrasaw amount,74,,0,127,,,,,0-based,,0-127: Ultrasaw amount
+Arturia,Matrixbrute,VCO2,Sawtooth,Controls VCO2 sawtooth wave level,15,,0,127,,,,,0-based,,0-127: Sawtooth level
+Arturia,Matrixbrute,VCO2,Square,Controls VCO2 square wave level,16,,0,127,,,,,0-based,,0-127: Square level
+Arturia,Matrixbrute,VCO2,Triangle,Controls VCO2 triangle wave level,17,,0,127,,,,,0-based,,0-127: Triangle level
+Arturia,Matrixbrute,VCO2,Pulse Width,Controls VCO2 pulse width,75,,0,127,,,,,0-based,,0-127: Pulse width
+Arturia,Matrixbrute,VCO2,Metalizer,Controls VCO2 metalizer amount,76,,0,127,,,,,0-based,,0-127: Metalizer amount
+Arturia,Matrixbrute,VCO3,Coarse,Coarse-tunes VCO3/LFO3 frequency,22,,0,127,,,,,0-based,,0-127: Coarse tuning amount
+Arturia,Matrixbrute,Audio Mod,VCO1>VCO2,Controls audio modulation from VCO1 to VCO2,77,,0,127,,,,,0-based,,0-127: Modulation amount
+Arturia,Matrixbrute,Audio Mod,VCO1<VCO3>VCO2,Controls VCO3 modulation between VCO1 and VCO2,78,,0,127,,,,,0-based,,0-127: Modulation amount
+Arturia,Matrixbrute,Audio Mod,VCF1<VCO3>VCF2,Controls VCO3 modulation between VCF1 and VCF2,79,,0,127,,,,,0-based,,0-127: Modulation amount
+Arturia,Matrixbrute,Audio Mod,VCO1<Noise>VCF1,Controls noise modulation between VCO1 and VCF1,80,,0,127,,,,,0-based,,0-127: Modulation amount
+Arturia,Matrixbrute,Mixer,VCO1,Controls VCO1 level in the mixer,18,,0,127,,,,,0-based,,0-127: VCO1 level
+Arturia,Matrixbrute,Mixer,VCO2,Controls VCO2 level in the mixer,19,,0,127,,,,,0-based,,0-127: VCO2 level
+Arturia,Matrixbrute,Mixer,VCO3,Controls VCO3 level in the mixer,20,,0,127,,,,,0-based,,0-127: VCO3 level
+Arturia,Matrixbrute,Mixer,Noise,Controls noise level in the mixer,21,,0,127,,,,,0-based,,0-127: Noise level
+Arturia,Matrixbrute,Mixer,External,Controls external input level in the mixer,89,,0,127,,,,,0-based,,0-127: External input level
+Arturia,Matrixbrute,Steiner Filter,Drive,Controls Steiner filter drive amount,81,,0,127,,,,,0-based,,0-127: Drive amount
+Arturia,Matrixbrute,Steiner Filter,Cutoff,Controls Steiner filter cutoff frequency,23,,0,127,,,,,0-based,,0-127: Cutoff frequency
+Arturia,Matrixbrute,Steiner Filter,Resonance,Controls Steiner filter resonance,83,,0,127,,,,,0-based,,0-127: Resonance amount
+Arturia,Matrixbrute,Steiner Filter,Brute Factor,Controls Steiner filter Brute Factor,82,,0,127,,,,,0-based,,0-127: Brute Factor amount
+Arturia,Matrixbrute,Steiner Filter,Env 1 Amount,Controls envelope 1 modulation amount to Steiner filter,24,,0,127,,,,,0-based,,0-127: Envelope amount
+Arturia,Matrixbrute,Steiner Filter,Steiner Out,Controls Steiner filter output level,7,,0,127,,,,,0-based,,0-127: Output level
+Arturia,Matrixbrute,Filter Global,Master Cutoff,Controls master cutoff for both filters,27,,0,127,,,,,0-based,,0-127: Master cutoff
+Arturia,Matrixbrute,Ladder Filter,Drive,Controls Ladder filter drive amount,85,,0,127,,,,,0-based,,0-127: Drive amount
+Arturia,Matrixbrute,Ladder Filter,Brute Factor,Controls Ladder filter Brute Factor,86,,0,127,,,,,0-based,,0-127: Brute Factor amount
+Arturia,Matrixbrute,Ladder Filter,Cutoff,Controls Ladder filter cutoff frequency,25,,0,127,,,,,0-based,,0-127: Cutoff frequency
+Arturia,Matrixbrute,Ladder Filter,Env 1 Amount,Controls envelope 1 modulation amount to Ladder filter,26,,0,127,,,,,0-based,,0-127: Envelope amount
+Arturia,Matrixbrute,Ladder Filter,Resonance,Controls Ladder filter resonance,87,,0,127,,,,,0-based,,0-127: Resonance amount
+Arturia,Matrixbrute,Ladder Filter,Ladder Out,Controls Ladder filter output level,8,,0,127,,,,,0-based,,0-127: Output level
+Arturia,Matrixbrute,LFO1,Phase,Controls LFO1 phase,90,,0,127,,,,,0-based,,0-127: Phase amount
+Arturia,Matrixbrute,LFO1,Rate,Controls LFO1 rate/speed,91,,0,127,,,,,0-based,,0-127: Rate value
+Arturia,Matrixbrute,LFO2,Delay,Controls LFO2 delay before activation,92,,0,127,,,,,0-based,,0-127: Delay time
+Arturia,Matrixbrute,LFO2,Rate,Controls LFO2 rate/speed,93,,0,127,,,,,0-based,,0-127: Rate value
+Arturia,Matrixbrute,ENV1,Velo/VCF,Controls velocity sensitivity for ENV1,94,,0,127,,,,,0-based,,0-127: Velocity sensitivity
+Arturia,Matrixbrute,ENV1,Attack,Controls ENV1 attack time,102,,0,127,,,,,0-based,,0-127: Attack time
+Arturia,Matrixbrute,ENV1,Decay,Controls ENV1 decay time,103,,0,127,,,,,0-based,,0-127: Decay time
+Arturia,Matrixbrute,ENV1,Sustain,Controls ENV1 sustain level,28,,0,127,,,,,0-based,,0-127: Sustain level
+Arturia,Matrixbrute,ENV1,Release,Controls ENV1 release time,104,,0,127,,,,,0-based,,0-127: Release time
+Arturia,Matrixbrute,ENV2,Velo/VCF,Controls velocity sensitivity for ENV2,95,,0,127,,,,,0-based,,0-127: Velocity sensitivity
+Arturia,Matrixbrute,ENV2,Attack,Controls ENV2 attack time,105,,0,127,,,,,0-based,,0-127: Attack time
+Arturia,Matrixbrute,ENV2,Decay,Controls ENV2 decay time,106,,0,127,,,,,0-based,,0-127: Decay time
+Arturia,Matrixbrute,ENV2,Sustain,Controls ENV2 sustain level,29,,0,127,,,,,0-based,,0-127: Sustain level
+Arturia,Matrixbrute,ENV2,Release,Controls ENV2 release time,107,,0,127,,,,,0-based,,0-127: Release time
+Arturia,Matrixbrute,ENV3,Delay,Controls ENV3 delay before activation,108,,0,127,,,,,0-based,,0-127: Delay time
+Arturia,Matrixbrute,ENV3,Attack,Controls ENV3 attack time,109,,0,127,,,,,0-based,,0-127: Attack time
+Arturia,Matrixbrute,ENV3,Decay,Controls ENV3 decay time,110,,0,127,,,,,0-based,,0-127: Decay time
+Arturia,Matrixbrute,ENV3,Sustain,Controls ENV3 sustain level,30,,0,127,,,,,0-based,,0-127: Sustain level
+Arturia,Matrixbrute,ENV3,Release,Controls ENV3 release time,111,,0,127,,,,,0-based,,0-127: Release time
+Arturia,Matrixbrute,Analog FX,Delay Time,Controls analog delay time,112,,0,127,,,,,0-based,,0-127: Delay time
+Arturia,Matrixbrute,Analog FX,Regeneration,Controls analog effect regeneration/feedback,113,,0,127,,,,,0-based,,0-127: Regeneration amount
+Arturia,Matrixbrute,Analog FX,Tone/Rate,Controls tone or rate of analog effects,114,,0,127,,,,,0-based,,0-127: Tone/Rate value
+Arturia,Matrixbrute,Analog FX,Width/Depth,Controls width or depth of analog effects,115,,0,127,,,,,0-based,,0-127: Width/Depth amount
+Arturia,Matrixbrute,Analog FX,Dry/Wet,Controls dry/wet mix of analog effects,31,,0,127,,,,,0-based,,0-127: Dry/Wet balance
+Arturia,Matrixbrute,Sequencer,Rate,Controls sequencer rate/tempo,116,,0,127,,,,,0-based,,0-127: Sequencer rate
+Arturia,Matrixbrute,Sequencer,Swing,Controls sequencer swing amount,117,,0,127,,,,,0-based,,0-127: Swing amount
+Arturia,Matrixbrute,Sequencer,Gate,Controls sequencer gate time,118,,0,127,,,,,0-based,,0-127: Gate time
+Arturia,Matrixbrute,Performance,Mod Wheel,Controls modulation wheel amount,1,,0,127,,,,,0-based,,0-127: Modulation amount
+Arturia,Matrixbrute,Performance,Pitch Bend Range,Sets the range of pitch bend,119,,0,127,,,,,0-based,,0-127: Pitch bend range
+Arturia,Matrixbrute,Performance,Glide,Controls portamento/glide time between notes,5,,0,127,,,,,0-based,,0-127: Glide time
+Arturia,Matrixbrute,Macro,Macro Knob 1,Controls assignable macro knob 1,11,,0,127,,,,,0-based,,0-127: Macro 1 value
+Arturia,Matrixbrute,Macro,Macro Knob 2,Controls assignable macro knob 2,2,,0,127,,,,,0-based,,0-127: Macro 2 value
+Arturia,Matrixbrute,Macro,Macro Knob 3,Controls assignable macro knob 3,4,,0,127,,,,,0-based,,0-127: Macro 3 value
+Arturia,Matrixbrute,Macro,Macro Knob 4,Controls assignable macro knob 4,3,,0,127,,,,,0-based,,0-127: Macro 4 value

@@ -1,0 +1,15 @@
+Darkglass,Microtubes Infinity,Dynamics,Compression,Controls the amount of compression,0,,0,127,,,,,0-based,,0-127: Compression amount
+Darkglass,Microtubes Infinity,Distortion,Drive,Controls distortion drive amount,1,,0,127,,,,,0-based,,0-127: Drive amount
+Darkglass,Microtubes Infinity,Distortion,Character,Controls distortion character/tone,2,,0,127,,,,,0-based,,0-127: Character amount
+Darkglass,Microtubes Infinity,Mix,Blend,Controls dry/wet signal mix,3,,0,127,,,,,0-based,,0-127: Blend amount
+Darkglass,Microtubes Infinity,Level,Level,Controls output level,4,,0,127,,,,,0-based,,0-127: Output level
+Darkglass,Microtubes Infinity,Output,Headphone volume,Controls headphone output level,5,,0,127,,,,,0-based,,0-127: Headphone volume
+Darkglass,Microtubes Infinity,EQ,Slider 1,Controls leftmost EQ slider,6,,0,127,,,,,0-based,Leftmost frequency band,0-127: Slider 1 position
+Darkglass,Microtubes Infinity,EQ,Slider 2,Controls 2nd EQ slider,7,,0,127,,,,,0-based,,0-127: Slider 2 position
+Darkglass,Microtubes Infinity,EQ,Slider 3,Controls 3rd EQ slider,8,,0,127,,,,,0-based,,0-127: Slider 3 position
+Darkglass,Microtubes Infinity,EQ,Slider 4,Controls 4th EQ slider,9,,0,127,,,,,0-based,,0-127: Slider 4 position
+Darkglass,Microtubes Infinity,EQ,Slider 5,Controls 5th EQ slider,10,,0,127,,,,,0-based,,0-127: Slider 5 position
+Darkglass,Microtubes Infinity,EQ,Slider 6,Controls rightmost EQ slider,11,,0,127,,,,,0-based,Rightmost frequency band,0-127: Slider 6 position
+Darkglass,Microtubes Infinity,Dynamics,Compression ratio,Controls the compression ratio,12,,0,127,,,,,0-based,,0-127: Compression ratio
+Darkglass,Microtubes Infinity,Distortion,Distortion mode,Selects different distortion algorithms,13,,0,127,,,,,0-based,,0-21: Bypass distortion; 22-42: Clean tube preamp; 43-63: Vintage Microtubes; 64-85: Microtubes B3K; 86-106: Vintage Microtubes multi-band; 107-127: Microtubes B3K multi-band
+Darkglass,Microtubes Infinity,Cabinet,Active cabsim,Controls cabinet simulation,14,,0,127,,,,,0-based,,0-63: Off; 64-127: On

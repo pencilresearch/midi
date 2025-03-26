@@ -1,0 +1,29 @@
+Electro Harmonix,45000,Levels,Clix Level,Controls the click track level,9,,0,127,,,,,0-based,,0-127: Click level
+Electro Harmonix,45000,Levels,Dry Out Slider,Controls the dry signal output level,20,,0,127,,,,,0-based,,0-127: Dry level
+Electro Harmonix,45000,Levels,Track 1 Play/Feedback Slider,Controls playback level and feedback for Track 1,21,,0,127,,,,,0-based,,0-127: Track 1 level
+Electro Harmonix,45000,Levels,Track 2 Play/Feedback Slider,Controls playback level and feedback for Track 2,22,,0,127,,,,,0-based,,0-127: Track 2 level
+Electro Harmonix,45000,Levels,Track 3 Play/Feedback Slider,Controls playback level and feedback for Track 3,23,,0,127,,,,,0-based,,0-127: Track 3 level
+Electro Harmonix,45000,Levels,Track 4 Play/Feedback Slider,Controls playback level and feedback for Track 4,24,,0,127,,,,,0-based,,0-127: Track 4 level
+Electro Harmonix,45000,Levels,Mix Track Play/Feedback Slider,Controls playback level and feedback for Mix Track,25,,0,127,,,,,0-based,,0-127: Mix track level
+Electro Harmonix,45000,Tempo,Tempo Slider,Controls the tempo/speed of playback,26,,0,127,,,,,0-based,,0-127: Tempo value
+Electro Harmonix,45000,Pan,Dry Out Pan,Controls the panning of the dry signal,27,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Electro Harmonix,45000,Pan,Track 1 Pan,Controls the panning of Track 1,28,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Electro Harmonix,45000,Pan,Track 2 Pan,Controls the panning of Track 2,29,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Electro Harmonix,45000,Pan,Track 3 Pan,Controls the panning of Track 3,30,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Electro Harmonix,45000,Pan,Track 4 Pan,Controls the panning of Track 4,31,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Electro Harmonix,45000,Transport,Push REC Button,Activates record mode,102,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Transport,Push NEW Button,Starts a new loop,103,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Transport,Push PLAY Button,Starts playback,104,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Track,Push TRACK SELECT Button,Selects the next track,105,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Sync,Push EXT SYNC Button,Toggles external sync mode,106,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Mix,Push MIXDOWN Button,Activates mixdown mode,107,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Mode,Push STEREO Button,Toggles stereo mode,108,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Mode,Push REVERSE Button,Toggles reverse playback,109,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Mode,Push OCTAVE Button,Toggles octave shift mode,110,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Recording,Push PUNCH-IN Button,Toggles punch-in recording mode,111,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Quantize,Push QUANTIZE Button,Toggles quantization,112,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Loop,Loop Down,Selects the previous loop,113,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Loop,Loop Up,Selects the next loop,114,,127,127,,,,,0-based,Momentary button press,127: Press (momentary)
+Electro Harmonix,45000,Loop,Loop Select,Directly selects a specific loop,115,,0,99,,,,,0-based,,0-99: Loop number
+Electro Harmonix,45000,MIDI,OMNI: Off,Disables OMNI mode (responds only to selected MIDI channel),124,,0,0,,,,,0-based,,0: OMNI Off
+Electro Harmonix,45000,MIDI,OMNI: On,Enables OMNI mode (responds to all MIDI channels),125,,0,0,,,,,0-based,,0: OMNI On

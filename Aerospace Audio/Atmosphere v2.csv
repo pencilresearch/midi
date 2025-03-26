@@ -1,0 +1,60 @@
+Aerospace Audio,Atmosphere v2,Transport,Abort,Stops the currently engaged soundscape,0,,0,0,,,,,0-based,,0: Stop soundscape
+Aerospace Audio,Atmosphere v2,Transport,Engage,Engages the currently cued soundscape,0,,1,1,,,,,0-based,,1: Play soundscape
+Aerospace Audio,Atmosphere v2,Bank,Bank Decrement,Decrements to previous bank,1,,0,0,,,,,0-based,,0: Previous bank
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 1,Cues Bank 1 for selection,1,,1,1,,,,,0-based,,1: Bank 1
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 2,Cues Bank 2 for selection,1,,2,2,,,,,0-based,,2: Bank 2
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 3,Cues Bank 3 for selection,1,,3,3,,,,,0-based,,3: Bank 3
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 4,Cues Bank 4 for selection,1,,4,4,,,,,0-based,,4: Bank 4
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 5,Cues Bank 5 for selection,1,,5,5,,,,,0-based,,5: Bank 5
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 6,Cues Bank 6 for selection,1,,6,6,,,,,0-based,,6: Bank 6
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 7,Cues Bank 7 for selection,1,,7,7,,,,,0-based,,7: Bank 7
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 8,Cues Bank 8 for selection,1,,8,8,,,,,0-based,,8: Bank 8
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 9,Cues Bank 9 for selection,1,,9,9,,,,,0-based,,9: Bank 9
+Aerospace Audio,Atmosphere v2,Bank,Select Bank 10,Cues Bank 10 for selection,1,,10,10,,,,,0-based,,10: Bank 10
+Aerospace Audio,Atmosphere v2,Bank,Bank Increment,Increments to next bank,1,,11,11,,,,,0-based,,11: Next bank
+Aerospace Audio,Atmosphere v2,Bank,Toggle Available Banks,Toggles between available banks,1,,12,12,,,,,0-based,Requires FW 3.0+,12: Toggle banks
+Aerospace Audio,Atmosphere v2,Patch,Patch Decrement,Decrements to previous patch,2,,0,0,,,,,0-based,,0: Previous patch
+Aerospace Audio,Atmosphere v2,Patch,Select Patch 1,Cues Patch 1 for selection,2,,1,1,,,,,0-based,,1: Patch 1
+Aerospace Audio,Atmosphere v2,Patch,Select Patch 2,Cues Patch 2 for selection,2,,2,2,,,,,0-based,,2: Patch 2
+Aerospace Audio,Atmosphere v2,Patch,Select Patch 3,Cues Patch 3 for selection,2,,3,3,,,,,0-based,,3: Patch 3
+Aerospace Audio,Atmosphere v2,Patch,Select Patch 4,Cues Patch 4 for selection,2,,4,4,,,,,0-based,,4: Patch 4
+Aerospace Audio,Atmosphere v2,Patch,Select Patch 5,Cues Patch 5 for selection,2,,5,5,,,,,0-based,,5: Patch 5
+Aerospace Audio,Atmosphere v2,Patch,Patch Increment,Increments to next patch,2,,6,6,,,,,0-based,,6: Next patch
+Aerospace Audio,Atmosphere v2,Key,Key Decrement,Decrements to previous key,3,,0,0,,,,,0-based,,0: Previous key
+Aerospace Audio,Atmosphere v2,Key,A,Cues key of A,3,,1,1,,,,,0-based,,1: Key of A
+Aerospace Audio,Atmosphere v2,Key,A#,Cues key of A#,3,,2,2,,,,,0-based,,2: Key of A#
+Aerospace Audio,Atmosphere v2,Key,B,Cues key of B,3,,3,3,,,,,0-based,,3: Key of B
+Aerospace Audio,Atmosphere v2,Key,C,Cues key of C,3,,4,4,,,,,0-based,,4: Key of C
+Aerospace Audio,Atmosphere v2,Key,C#,Cues key of C#,3,,5,5,,,,,0-based,,5: Key of C#
+Aerospace Audio,Atmosphere v2,Key,D,Cues key of D,3,,6,6,,,,,0-based,,6: Key of D
+Aerospace Audio,Atmosphere v2,Key,D#,Cues key of D#,3,,7,7,,,,,0-based,,7: Key of D#
+Aerospace Audio,Atmosphere v2,Key,E,Cues key of E,3,,8,8,,,,,0-based,,8: Key of E
+Aerospace Audio,Atmosphere v2,Key,F,Cues key of F,3,,9,9,,,,,0-based,,9: Key of F
+Aerospace Audio,Atmosphere v2,Key,F#,Cues key of F#,3,,10,10,,,,,0-based,,10: Key of F#
+Aerospace Audio,Atmosphere v2,Key,G,Cues key of G,3,,11,11,,,,,0-based,,11: Key of G
+Aerospace Audio,Atmosphere v2,Key,G#,Cues key of G#,3,,12,12,,,,,0-based,,12: Key of G#
+Aerospace Audio,Atmosphere v2,Key,Key Increment,Increments to next key,3,,13,13,,,,,0-based,,13: Next key
+Aerospace Audio,Atmosphere v2,Tonality,Major,Cues major tonality,3,,14,14,,,,,0-based,Requires FW 3.0+,14: Major tonality
+Aerospace Audio,Atmosphere v2,Tonality,Minor,Cues minor tonality,3,,15,15,,,,,0-based,Requires FW 3.0+,15: Minor tonality
+Aerospace Audio,Atmosphere v2,Tonality,Neutral,Cues neutral tonality,3,,16,16,,,,,0-based,Requires FW 3.0+,16: Neutral tonality
+Aerospace Audio,Atmosphere v2,Setlist,Song Decrement,Decrements setlist selection,4,,0,0,,,,,0-based,,0: Previous song
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 1,Cues Song 1 in setlist,4,,1,1,,,,,0-based,,1: Song 1
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 2,Cues Song 2 in setlist,4,,2,2,,,,,0-based,,2: Song 2
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 3,Cues Song 3 in setlist,4,,3,3,,,,,0-based,,3: Song 3
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 4,Cues Song 4 in setlist,4,,4,4,,,,,0-based,,4: Song 4
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 5,Cues Song 5 in setlist,4,,5,5,,,,,0-based,,5: Song 5
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 6,Cues Song 6 in setlist,4,,6,6,,,,,0-based,,6: Song 6
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 7,Cues Song 7 in setlist,4,,7,7,,,,,0-based,,7: Song 7
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 8,Cues Song 8 in setlist,4,,8,8,,,,,0-based,,8: Song 8
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 9,Cues Song 9 in setlist,4,,9,9,,,,,0-based,,9: Song 9
+Aerospace Audio,Atmosphere v2,Setlist,Select Song 10,Cues Song 10 in setlist,4,,10,10,,,,,0-based,,10: Song 10
+Aerospace Audio,Atmosphere v2,Setlist,Song Increment,Increments setlist selection,4,,11,11,,,,,0-based,,11: Next song
+Aerospace Audio,Atmosphere v2,View,Toggle View,Toggles between Live View and Setlist View,4,,12,12,,,,,0-based,,12: Toggle view
+Aerospace Audio,Atmosphere v2,View,Live View,Cues Live View,4,,13,13,,,,,0-based,,13: Live view
+Aerospace Audio,Atmosphere v2,View,Setlist View,Cues Setlist View,4,,14,14,,,,,0-based,,14: Setlist view
+Aerospace Audio,Atmosphere v2,Setlist,Clear Setlist,Clears setlist,4,,15,15,,,,,0-based,,15: Clear setlist
+Aerospace Audio,Atmosphere v2,Volume,Adjust Volume: Instant,Instantly sets volume to value,10,,0,127,,,,,0-based,Best for dynamic/expression mapped value,0-127: Volume level
+Aerospace Audio,Atmosphere v2,Volume,Adjust Volume: Smooth,Smoothly fades volume to value,11,,0,127,,,,,0-based,Best for static/button triggered value,0-127: Volume level
+Aerospace Audio,Atmosphere v2,Crossfade,Crossfade,Adjusts crossfade duration,12,,0,127,,,,,0-based,,0-127: Crossfade time
+Aerospace Audio,Atmosphere v2,Loop,Loop Off,Turns off soft-looping of soundscapes,13,,0,0,,,,,0-based,,0: Loop off
+Aerospace Audio,Atmosphere v2,Loop,Loop On,Turns on soft-looping of soundscapes,13,,1,1,,,,,0-based,,1: Loop on

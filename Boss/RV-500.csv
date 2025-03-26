@@ -1,0 +1,16 @@
+BOSS,RV-500,Reverb Parameters,Time/Value Knob (Reverb),Controls the reverb decay time,17,,0,127,,,,,0-based,Emulates the TIME/VALUE knob for reverb,0-127: Time amount
+BOSS,RV-500,Reverb Parameters,Pre-Delay Knob (Reverb),Controls the reverb pre-delay time,18,,0,127,,,,,0-based,Emulates the PRE-DELAY knob for reverb,0-127: Pre-delay amount
+BOSS,RV-500,Reverb Parameters,Effect Level Knob (Reverb),Controls the level of the reverb effect,19,,0,127,,,,,0-based,Emulates the E.LEVEL knob for reverb,0-127: Effect level
+BOSS,RV-500,Reverb Parameters,Low Knob (Reverb),Controls the low frequency content of reverb,20,,0,127,,,,,0-based,Emulates the LOW knob for reverb,0-127: Low amount
+BOSS,RV-500,Reverb Parameters,High Knob (Reverb),Controls the high frequency content of reverb,21,,0,127,,,,,0-based,Emulates the HIGH knob for reverb,0-127: High amount
+BOSS,RV-500,Delay Parameters,Time/Value Knob (Delay),Controls the delay time,22,,0,127,,,,,0-based,Emulates the TIME/VALUE knob for delay,0-127: Time amount
+BOSS,RV-500,Delay Parameters,Pre-Delay Knob (Delay),Controls the delay pre-delay time,23,,0,127,,,,,0-based,Emulates the PRE-DELAY knob for delay,0-127: Pre-delay amount
+BOSS,RV-500,Delay Parameters,Effect Level Knob (Delay),Controls the level of the delay effect,24,,0,127,,,,,0-based,Emulates the E.LEVEL knob for delay,0-127: Effect level
+BOSS,RV-500,Delay Parameters,Low Knob (Delay),Controls the low frequency content of delay,25,,0,127,,,,,0-based,Emulates the LOW knob for delay,0-127: Low amount
+BOSS,RV-500,Delay Parameters,High Knob (Delay),Controls the high frequency content of delay,26,,0,127,,,,,0-based,Emulates the HIGH knob for delay,0-127: High amount
+BOSS,RV-500,Controls,CTL 1 Switch,Controls the CTL 1 switch function,80,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,RV-500,Controls,CTL 2 Switch,Controls the CTL 2 switch function,81,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,RV-500,Controls,Expression Pedal,Controls the parameter assigned to EXP pedal,16,,0,127,,,,,0-based,,0-127: Expression position
+BOSS,RV-500,Bypass,Effect On/Bypass,Controls the bypass state of the effect,27,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: On
+BOSS,RV-500,Bypass,Effect A On/Bypass,Controls the bypass state of effect A,28,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: On
+BOSS,RV-500,Bypass,Effect B On/Bypass,Controls the bypass state of effect B,29,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: On

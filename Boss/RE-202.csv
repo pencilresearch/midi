@@ -1,0 +1,14 @@
+Boss,RE-202,Time,TAP TIME (MSB),Controls the delay time (Most Significant Byte),16,,0,127,,,,,0-based,Used with TAP TIME (LSB) for high-resolution time control,0-127: Delay time (MSB)
+Boss,RE-202,Echo,REPEAT RATE,Controls the delay rate/speed,17,,0,127,,,,,0-based,,0-127: Repeat rate
+Boss,RE-202,Echo,INTENSITY,Controls the feedback/regeneration amount,18,,0,127,,,,,0-based,,0-127: Feedback intensity
+Boss,RE-202,Mix,ECHO VOL,Controls the volume/mix level of the echo effect,19,,0,127,,,,,0-based,,0-127: Echo volume
+Boss,RE-202,EQ,BASS,Controls low frequency response,20,,0,127,,,,,0-based,,0-127: Bass amount
+Boss,RE-202,EQ,TREBLE,Controls high frequency response,21,,0,127,,,,,0-based,,0-127: Treble amount
+Boss,RE-202,Reverb,REVERB VOL,Controls the volume/mix level of the reverb effect,22,,0,127,,,,,0-based,,0-127: Reverb volume
+Boss,RE-202,Character,SATURATION,Controls the tape saturation amount,23,,0,127,,,,,0-based,,0-127: Saturation amount
+Boss,RE-202,Character,WOW & FLUTTER,Controls the tape wow and flutter amount,24,,0,127,,,,,0-based,,0-127: Wow & flutter amount
+Boss,RE-202,Bypass,EFFECT ON/OFF,Enables or bypasses the effect,27,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Boss,RE-202,Time,TAP TIME (LSB),Fine control of the delay time (Least Significant Byte),48,,0,127,,,,,0-based,Used with TAP TIME (MSB) for high-resolution time control,0-127: Delay time (LSB)
+Boss,RE-202,Time,TAP TEMPO,Sets delay time via tap tempo,82,,0,127,,,,,0-based,Momentary function,0-63: OFF; 64-127: ON (tap)
+Boss,RE-202,Effects,TWIST,Activates the twist effect for momentary pitch changes,83,,0,127,,,,,0-based,Momentary effect,0-63: OFF; 64-127: ON
+Boss,RE-202,Effects,WARP,Activates the warp effect for momentary feedback increase,84,,0,127,,,,,0-based,Momentary effect,0-63: OFF; 64-127: ON

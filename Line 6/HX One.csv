@@ -1,0 +1,40 @@
+Line 6,HX One,Global,ON Switch,Toggles effect on/off,1,,0,127,,,,,0-based,For MIDI footswitches,"Any value toggles effect state"
+Line 6,HX One,Global,FLUX Switch,Emulates FLUX switch function,2,,0,127,,,,,0-based,HX One does not need to be in FLUX Mode,"Any value triggers FLUX switch"
+Line 6,HX One,Expression,Expression Pedal,Emulates Expression Pedal,3,,0,12,,,,,0-based,When Settings > Pedal Jack is set to "ExpFS4",0-12: Pedal position
+Line 6,HX One,Global,Bypass/Engage,Directly sets bypass state,4,,0,127,,,,,0-based,Independent of CC1 toggle,0-63: Bypass; 64-127: Engage
+Line 6,HX One,Navigation,View Select,Controls HX One's display views,5,,0,2,,,,,0-based,,"0: Home; 1: Preset List; 2: Tuner"
+Line 6,HX One,Global,Tap Tempo,Sets tempo via tap function,93,,0,127,,,,,0-based,,"Any value triggers tap"
+Line 6,HX One,Parameters,Parameter 1,Controls effect parameter 1,21,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 2,Controls effect parameter 2,22,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 3,Controls effect parameter 3,23,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 4,Controls effect parameter 4,24,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 5,Controls effect parameter 5,25,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 6,Controls effect parameter 6,26,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 7,Controls effect parameter 7,27,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 8,Controls effect parameter 8,28,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 9,Controls effect parameter 9,29,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 10,Controls effect parameter 10,30,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 11,Controls effect parameter 11,31,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 12,Controls effect parameter 12,33,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 13,Controls effect parameter 13,34,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 14,Controls effect parameter 14,35,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 15,Controls effect parameter 15,36,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 16,Controls effect parameter 16,37,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 17,Controls effect parameter 17,38,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 18,Controls effect parameter 18,39,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 19,Controls effect parameter 19,40,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 20,Controls effect parameter 20,41,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 21,Controls effect parameter 21,42,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 22,Controls effect parameter 22,43,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 23,Controls effect parameter 23,44,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Parameters,Parameter 24,Controls effect parameter 24,45,,0,127,,,,,0-based,,0-127: Parameter value
+Line 6,HX One,Flux,Flux On Time,Controls duration of on-state in Flux mode,46,,0,127,,,,,0-based,,0-127: Time value
+Line 6,HX One,Flux,Flux On Curve,Controls response curve for on-state in Flux mode,47,,0,10,,,,,0-based,,"0-4: Slow 5 to Slow 1; 5: Linear; 6-10: Fast 1 to Fast 5"
+Line 6,HX One,Flux,Flux Off Time,Controls duration of off-state in Flux mode,48,,0,127,,,,,0-based,,0-127: Time value
+Line 6,HX One,Flux,Flux Off Curve,Controls response curve for off-state in Flux mode,49,,0,10,,,,,0-based,,"0-4: Slow 5 to Slow 1; 5: Linear; 6-10: Fast 1 to Fast 5"
+Line 6,HX One,Looper,Looper Record/Overdub,Controls looper record and overdub functions,60,,0,127,,,,,0-based,,0-63: Overdub; 64-127: Record
+Line 6,HX One,Looper,Looper Play/Stop,Controls looper playback and stop functions,61,,0,127,,,,,0-based,,0-63: Stop; 64-127: Play
+Line 6,HX One,Looper,Looper Play Once,Plays looper once and stops,62,,0,127,,,,,0-based,,64-127: Trigger play once
+Line 6,HX One,Looper,Looper Undo/Redo,Undoes or redoes the last looper recording,63,,0,127,,,,,0-based,,64-127: Trigger undo/redo
+Line 6,HX One,Looper,Looper Forward/Reverse,Controls looper playback direction,65,,0,127,,,,,0-based,,0-63: Forward; 64-127: Reverse
+Line 6,HX One,Looper,Looper Full/Half Speed,Controls looper playback speed,66,,0,127,,,,,0-based,,0-63: Full speed; 64-127: Half speed

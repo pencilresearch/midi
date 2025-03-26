@@ -1,0 +1,56 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Nord,A1,Controller,Mod Wheel,Modulates assigned parameters,1,,0,127,,,,,0-based,,0-127: Modulation amount
+Nord,A1,System,LFO Master Clock Enable,Enables/disables master clock sync for LFO,2,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Oscillator,Glide Rate,Controls the portamento/glide time between notes,5,,0,127,,,,,0-based,,0-127: Glide time
+Nord,A1,Expression,Volume Pedal,Controls volume via external pedal,7,,0,127,,,,,0-based,Transmits if enabled as Volume in System menu,0-127: Volume level
+Nord,A1,Arpeggiator,Arp Tempo/Clk Divisions,Sets the arpeggiator tempo or clock divisions,9,,0,127,,,,,0-based,,0-127: Tempo/division value
+Nord,A1,Output,Pan,Controls stereo position,10,,0,127,,,,,0-based,,0: Full left; 64: Center; 127: Full right
+Nord,A1,Expression,Control Pedal,Controls assigned parameters via external pedal,11,,0,127,,,,,0-based,Transmits if enabled as Morph in System menu,0-127: Control amount
+Nord,A1,Voice,Mono Selector,Switches between mono and poly modes,15,,0,127,,,,,0-based,,0-63: Poly; 64-127: Mono
+Nord,A1,Voice,Unison,Controls the unison effect,16,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Pitch,Octave Shift,Shifts the keyboard octave up or down,17,,0,127,,,,,0-based,,0-42: -3 octaves; 43-85: -2 octaves; 86-127: -1 octave
+Nord,A1,LFO,LFO Rate/Clk Divisions,Controls LFO speed or clock divisions when synced,19,,0,127,,,,,0-based,,0-127: Rate/division value
+Nord,A1,LFO,LFO Waveform Selector,Selects the LFO waveform shape,20,,0,127,,,,,0-based,,Values correspond to different waveforms
+Nord,A1,Envelope,Mod Envelope Attack,Controls attack time of modulation envelope,26,,0,127,,,,,0-based,,0-127: Attack time
+Nord,A1,Envelope,Mod Envelope Decay/Sustain,Controls decay time and sustain level of mod envelope,27,,0,127,,,,,0-based,,0-127: Decay/sustain value
+Nord,A1,Envelope,Mod Envelope Release,Controls release time of modulation envelope,28,,0,127,,,,,0-based,,0-127: Release time
+Nord,A1,Envelope,Mod Envelope Velocity,Controls velocity sensitivity of mod envelope,29,,0,127,,,,,0-based,,0-127: Velocity sensitivity
+Nord,A1,Oscillator,Osc Waveform Selector,Selects the oscillator waveform,30,,0,127,,,,,0-based,,Values correspond to different waveforms
+Nord,A1,Oscillator,Osc Control,Controls oscillator parameters,31,,0,127,,,,,0-based,,0-127: Parameter value
+Nord,A1,System,Bank Select LSB,Selects bank (LSB),32,,0,127,,,,,0-based,,0-127: Bank LSB value
+Nord,A1,Oscillator,Osc Configuration,Selects oscillator configuration,33,,0,127,,,,,0-based,,Values correspond to different configurations
+Nord,A1,LFO,LFO Envelope Selector,Selects LFO envelope type,34,,0,127,,,,,0-based,,Values correspond to different envelope types
+Nord,A1,Envelope,Amp Envelope Velocity,Controls velocity sensitivity of amp envelope,35,,0,127,,,,,0-based,,0-127: Velocity sensitivity
+Nord,A1,Envelope,Amp Envelope Decay,Controls decay time of amplitude envelope,36,,0,127,,,,,0-based,,0-127: Decay time
+Nord,A1,Envelope,Mod Envelope Invert,Inverts the modulation envelope,38,,0,127,,,,,0-based,,0-63: Normal; 64-127: Inverted
+Nord,A1,Filter,Filter Resonance,Controls filter resonance/emphasis,42,,0,127,,,,,0-based,,0-127: Resonance amount
+Nord,A1,Filter,Filter Mod Envelope Amount,Controls how much mod envelope affects filter,43,,0,127,,,,,0-based,,0-127: Envelope amount
+Nord,A1,Filter,Filter Type,Selects filter type,44,,0,127,,,,,0-based,,Values correspond to different filter types
+Nord,A1,Filter,Filter Keyboard Tracking,Controls how keyboard position affects filter cutoff,46,,0,127,,,,,0-based,,0-127: Tracking amount
+Nord,A1,Filter,Filter Drive,Controls filter saturation/drive amount,47,,0,127,,,,,0-based,,0-127: Drive amount
+Nord,A1,Filter,Filter LFO Modulation Amount,Controls how much LFO affects filter,48,,0,127,,,,,0-based,,0-127: LFO mod amount
+Nord,A1,Delay,Delay Master Clock Enable,Enables/disables master clock sync for delay,51,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Effects,FX On/Off,Toggles effects on/off,52,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Effects,FX Selection,Selects effect type,53,,0,127,,,,,0-based,,Values correspond to different effects
+Nord,A1,Performance,Hold Enable,Enables hold function (notes continue after release),54,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Effects,FX Amount,Controls effect amount/depth,55,,0,127,,,,,0-based,,0-127: Effect amount
+Nord,A1,Effects,Vibrato Select,Selects vibrato type,56,,0,127,,,,,0-based,,Values correspond to different vibrato types
+Nord,A1,Performance,Hold,Toggles hold function on/off,58,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Performance,Sustain Pedal,Controls sustain via external pedal,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Oscillator,Osc LFO Modulation Amount,Controls how much LFO affects oscillator,68,,0,127,,,,,0-based,,0-127: LFO mod amount
+Nord,A1,Oscillator,Osc Mod Envelope Amount,Controls how much mod envelope affects oscillator,69,,0,127,,,,,0-based,,0-127: Envelope amount
+Nord,A1,Output,Output Level,Controls the output volume level,71,,0,127,,,,,0-based,,0-127: Level
+Nord,A1,Envelope,Amp Envelope Release,Controls release time of amplitude envelope,72,,0,127,,,,,0-based,,0-127: Release time
+Nord,A1,Envelope,Amp Envelope Attack,Controls attack time of amplitude envelope,73,,0,127,,,,,0-based,,0-127: Attack time
+Nord,A1,Filter,Filter Frequency,Controls filter cutoff frequency,74,,0,127,,,,,0-based,,0-127: Frequency
+Nord,A1,Delay,Delay Amount,Controls the wet/dry mix of delay effect,76,,0,127,,,,,0-based,,0-127: Delay amount
+Nord,A1,Delay,Delay Tempo/Clk Divisions,Controls delay time or clock divisions when synced,78,,0,127,,,,,0-based,,0-127: Tempo/division value
+Nord,A1,Delay,Delay Feedback,Controls delay feedback/repeat amount,79,,0,127,,,,,0-based,,0-127: Feedback amount
+Nord,A1,Delay,Delay On/Off,Toggles delay effect on/off,99,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Delay,Delay Ping Pong,Toggles ping-pong effect for delay,100,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Reverb,Reverb Selector,Selects reverb type,96,,0,127,,,,,0-based,,Values correspond to different reverb types
+Nord,A1,Reverb,Reverb On/Off,Toggles reverb effect on/off,97,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,A1,Reverb,Reverb Amount,Controls reverb wet/dry mix,98,,0,127,,,,,0-based,,0-127: Reverb amount
+Nord,A1,Performance,Slot Enable,Enables/disables the current slot,115,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,A1,Performance,Pitch Bend Range,Sets the range of the pitch bend wheel,118,,0,127,,,,,0-based,,0-127: Pitch bend range in semitones
+Nord,A1,Performance,Slot Focus,Selects which slot is currently active,119,,0,127,,,,,0-based,,Values correspond to different slots
