@@ -1,6 +1,4 @@
-const fs = require('fs');
-const path = require('path');
-const zlib = require('zlib');
+const VERSION = "1.1.0"; //Update 1.x.y || x = new device, y for updates
 
 /*
  CSV Format:
@@ -104,8 +102,9 @@ const zlib = require('zlib');
 */
 
 
-
-const VERSION = "1.1.0"; //Updated devices
+const fs = require('fs');
+const path = require('path');
+const zlib = require('zlib');
 const rootPath = path.join(__dirname, '..');
 const outputDir = path.join(rootPath, 'Json');
 
