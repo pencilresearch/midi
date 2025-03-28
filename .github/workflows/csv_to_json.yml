@@ -4,60 +4,99 @@ on:
   push:
     branches:
       - main
+    paths:
+      - 'CSV/**'  # Only run when CSV files change
   pull_request:
     branches:
       - main
-  workflow_dispatch:
+    paths:
+      - 'CSV/**'  # Only run when CSV files change
+  workflow_dispatch:  # Allow manual triggering regardless of changes
 
 jobs:
   convert:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Explicitly request write permission
 
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v3
         with:
-          fetch-depth: 0
-          # Use a personal access token with proper permissions
-          token: ${{ secrets.GITHUB_TOKEN }}
+          fetch-depth: 0  # Get complete history for better git operations
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Clean Previous Output
+        run: |
+          echo "Cleaning old database files..."
+          rm -f Json/midi-database-*.json Json/midi-database-*.json.gz Json/midi-database-version.json
+          echo "Files in Json directory after cleanup:"
+          ls -la Json/
 
       - name: Run CSV to JSON Conversion
         run: |
           echo "Starting conversion..."
-          node Json/CsvToJson.js > conversion.log 2>&1 || echo "⚠️ Script failed with exit code $?"
-          cat conversion.log  # Show full logs
+          node Json/CsvToJson.js 2>&1 | tee conversion.log
+          echo "Files generated:"
+          find Json -name "midi-database-*.json" -o -name "midi-database-*.json.gz" -o -name "midi-database-version.json"
 
-      - name: Debug JSON Output
+      - name: Verify Conversion Success
         run: |
-          echo "Checking JSON output..."
-          ls -lah Json || echo "⚠️ No Json directory found"
-          find Json -type f || echo "⚠️ No JSON files found"
-          head -n 20 Json/*.json || echo "⚠️ JSON files exist but failed to read"
+          # Check if at least one database file was created
+          if [ $(find Json -name "midi-database-*.json" | wc -l) -eq 0 ]; then
+            echo "❌ Error: No database files were generated!"
+            cat conversion.log
+            exit 1
+          fi
+          
+          # Check if version file exists
+          if [ ! -f Json/midi-database-version.json ]; then
+            echo "❌ Error: Version file was not generated!"
+            cat conversion.log
+            exit 1
+          fi
+          
+          echo "✅ Conversion successful!"
 
-      - name: Commit and Push JSON Files
+      - name: Commit and Push Changes
         run: |
-          git config --global user.name "GitHub Actions"
-          git config --global user.email "actions@github.com"
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
-          # First fetch the latest changes
-          git fetch origin
+          # Add all the database files specifically
+          git add Json/midi-database-*.json Json/midi-database-*.json.gz Json/midi-database-version.json
           
-          # Remove old database files from Git tracking
-          git rm -f Json/midi-database-*.json Json/midi-database-*.json.gz 2>/dev/null || echo "No old files to remove from Git"
-          
-          # Add the new files
-          git add Json/*.json Json/*.json.gz || echo "⚠️ No files to stage"
-          
-          # Only proceed if there are changes to commit
+          # Check if we have changes to commit
           if git diff --staged --quiet; then
             echo "No changes to commit"
-          else
-            # Create a commit
-            git commit -m "Update MIDI JSON database"
-            
-            # Try to rebase first
-            git pull --rebase origin main
-            
-            # Push with force if needed
-            git push -f
+            exit 0
           fi
+          
+          git commit -m "Update MIDI device database [skip ci]"
+          
+          # Push changes (retry up to 3 times if it fails)
+          max_retries=3
+          retry_count=0
+          
+          while [ $retry_count -lt $max_retries ]; do
+            echo "Pushing changes (attempt $((retry_count+1))/$max_retries)..."
+            
+            if git push; then
+              echo "✅ Push successful!"
+              exit 0
+            else
+              retry_count=$((retry_count+1))
+              
+              if [ $retry_count -lt $max_retries ]; then
+                echo "Push failed, pulling latest changes and retrying..."
+                git pull --rebase
+              else
+                echo "❌ Failed to push after $max_retries attempts."
+                exit 1
+              fi
+            fi
+          done
