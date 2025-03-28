@@ -1,4 +1,6 @@
-const VERSION = "1.1.0"; //Update this when new devices are added!
+const fs = require('fs');
+const path = require('path');
+const zlib = require('zlib');
 
 /*
  CSV Format:
@@ -103,9 +105,7 @@ const VERSION = "1.1.0"; //Update this when new devices are added!
 
 
 
-const fs = require('fs');
-const path = require('path');
-const zlib = require('zlib');
+const VERSION = "1.1.0"; //Updated devices
 const rootPath = path.join(__dirname, '..');
 const outputDir = path.join(rootPath, 'Json');
 
@@ -185,7 +185,7 @@ function convertDatabase() {
     console.log('\n🚀 Starting MIDI database conversion...');
     removeOldDatabases(outputDir);
     const timestamp = new Date().toISOString();
-    const database = {}; // New empty structure based on jsonTemplate.txt
+    const database = { version: VERSION, generatedAt: timestamp, devices: [] };
 
     const manufacturerFolders = fs.readdirSync(rootPath).filter(file => fs.statSync(path.join(rootPath, file)).isDirectory() && file !== 'Json');
 
