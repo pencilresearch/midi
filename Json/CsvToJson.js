@@ -211,8 +211,6 @@ function convertDatabase() {
                     // Create device node if it doesn't exist
                     if (!database[manufacturer][deviceName]) {
                         database[manufacturer][deviceName] = {
-                            brand: deviceData[0].manufacturer,
-                            device: deviceData[0].device,
                             midi_thru: "", 
                             midi_in: "",
                             midi_clock: "",
