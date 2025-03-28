@@ -1,56 +1,111 @@
+const VERSION = "1.1.0"; //Update this when new devices are added!
+
+/*
+ CSV Format:
+ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+ Example:
+ Lofty,Trundler,Oscillators,Glide rate,"Adjusts the glide (portmanteau) time",5,,0,127,1,1,0,127,0-based,Default is zero.,
+ Lofty,Trundler,Oscillators,Glide switch,Enables or disables glide.,65,,0,127,1,2,0,127,0-based,,0-63: Off; 64-127: On
+ Lofty,Trundler,Oscillators,Note sync,Enables and disables Note Sync,81,,0,127,,,,,0-based,,0: Off; 1-127: On
+ Lofty,Trundler,Amp,Pan,Pans between left to right channel,10,,0,127,30,0,0,127,Centered,Left…Centered…Right,0~127: Pan amount
+ 
+  JSON Format:
+    {
+    "brand": {
+      "device": {
+        "midi_thru": true|false|"", 
+        "midi_in": "TRS|DIN|USB|...|"",
+        "midi_clock": true|false|"",
+        "phantom_power": "None|Required|Optional|...|"",
+        "midi_channel": {
+          "instructions": "Step by step instructions for setting MIDI channel... or empty string"
+        },
+
+        "instructions": "General device instructions or empty string",
+        "cc": [
+          {
+            "name": "Parameter Name",
+            "description": "Detailed description or empty string",
+            "usage" : "Further Details or empty string",
+            "curve": "Toggle|0-based|1-based|Centered",
+            "value": 0,
+            "min": 0,
+            "max": 127,
+            "type": "Parameter|System|Scene......",
+          },
+          {
+            "name": "Another Parameter",
+            "description": "Detailed description or empty string",
+            "usage" : "Further Details or empty string",
+            "curve": "Toggle|0-based|1-based|Centered",
+            "value": 1,
+            "min": 0,
+            "max": 127,
+            "type": "Parameter|System|Scene......",
+          }
+        ],
+        "nrpn": [
+          {
+            "name": "NRPN Parameter Name",
+            "description": "Detailed description or empty string",
+            "usage" : "Further Details or empty string",
+            "curve": "Toggle|0-based|1-based|Centered",
+            "msb": 99,
+            "lsb": 98,
+            "min": 0,
+            "max": 16383,
+            "type": "Parameter|System|Scene......",
+          },
+          {
+            "name": "Another NRPN Parameter",
+            "description": "Detailed description or empty string",
+            "usage" : "Further Details or empty string",
+            "curve": "Toggle|0-based|1-based|Centered",
+            "msb": 99,
+            "lsb": 99,
+            "min": 0,
+            "max": 16383,
+            "type": "Parameter|System|Scene......",
+          }
+        ],
+        "pc": [
+          {
+            "name": "Parameter Name",
+            "description": "Detailed description or empty string",
+            "usage" : "Further Details or empty string",
+            "curve": "Toggle|0-based|1-based|Centered",
+            "value": 0,
+            "min": 0,
+            "max": 127,
+            "type": "Parameter|System|Scene......",
+          },
+          {
+            "name": "Another Parameter",
+            "description": "Detailed description or empty string",
+            "usage" : "Further Details or empty string",
+            "value": 1,
+            "min": 0,
+            "max": 127,
+            "type": "Parameter|System|Scene......",
+          }
+        ],
+      },
+      "another_device": {
+        // Same structure as above for each device
+      }
+    },
+    "another_brand_": {
+      // Same structure as above for each brand
+    }
+  }
+
+*/
+
+
+
 const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
-
-/**
- * CSV Format:
- * manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
- * Example:
- * Lofty,Trundler,Oscillators,Glide rate,"Adjusts the glide (portmanteau) time",5,,0,127,1,1,0,127,0-based,Default is zero.,
- * Lofty,Trundler,Oscillators,Glide switch,Enables or disables glide.,65,,0,127,1,2,0,127,0-based,,0-63: Off; 64-127: On
- * Lofty,Trundler,Oscillators,Note sync,Enables and disables Note Sync,81,,0,127,,,,,0-based,,0: Off; 1-127: On
- * Lofty,Trundler,Amp,Pan,Pans between left to right channel,10,,0,127,30,0,0,127,Centered,Left…Centered…Right,0~127: Pan amount
- *
- * JSON Format:
- * {
- *   "version": "1.0.0", // Database version
- *   "generatedAt": "timestamp", // Timestamp of database generation
- *   "devices": [
- *     {
- *       "name": "Device Name", // Device name from CSV
- *       "manufacturer": "Manufacturer", // Manufacturer name from CSV
- *       "commands": [
- *         {
- *           "name": "Parameter Name", // Parameter name from CSV
- *           "section": "Section", // Section from CSV
- *           "description": "Description", // Parameter description from CSV
- *           "cc": {
- *             "msb": msb, // MSB value
- *             "lsb": lsb, // LSB value (if present)
- *             "min": min, // Minimum CC value
- *             "max": max  // Maximum CC value
- *           },
- *           "nrpn": {
- *             "msb": msb, // NRPN MSB value (if present)
- *             "lsb": lsb, // NRPN LSB value (if present)
- *             "min": min, // Minimum NRPN value
- *             "max": max  // Maximum NRPN value
- *           },
- *           "orientation": "Orientation", // Orientation from CSV
- *           "notes": "Notes", // Optional notes
- *           "usage": "Usage" // Optional usage instructions
- *         },
- *         // more commands here
- *       ]
- *     },
- *     // more devices here
- *   ]
- * }
- */
-
-
-
-const VERSION = "1.1.0"; //Updated devices
 const rootPath = path.join(__dirname, '..');
 const outputDir = path.join(rootPath, 'Json');
 
@@ -130,7 +185,7 @@ function convertDatabase() {
     console.log('\n🚀 Starting MIDI database conversion...');
     removeOldDatabases(outputDir);
     const timestamp = new Date().toISOString();
-    const database = { version: VERSION, generatedAt: timestamp, devices: [] };
+    const database = {}; // New empty structure based on jsonTemplate.txt
 
     const manufacturerFolders = fs.readdirSync(rootPath).filter(file => fs.statSync(path.join(rootPath, file)).isDirectory() && file !== 'Json');
 
@@ -143,30 +198,66 @@ function convertDatabase() {
             try {
                 const csvContent = fs.readFileSync(path.join(rootPath, folder, file), 'utf8');
                 const deviceData = parseCSV(csvContent);
+                
                 if (deviceData.length > 0) {
-                    const manufacturer = deviceData[0].manufacturer;
-                    const deviceName = deviceData[0].device;
-                    const deviceEntry = database.devices.find(d => d.name === `${manufacturer} ${deviceName}`);
-                    if (!deviceEntry) {
-                        database.devices.push({
-                            name: `${manufacturer} ${deviceName}`,
-                            manufacturer,
-                            commands: []
-                        });
+                    const manufacturer = deviceData[0].manufacturer.toLowerCase().replace(/\s+/g, '_');
+                    const deviceName = deviceData[0].device.toLowerCase().replace(/\s+/g, '_');
+                    
+                    // Create manufacturer node if it doesn't exist
+                    if (!database[manufacturer]) {
+                        database[manufacturer] = {};
                     }
-                    const device = database.devices.find(d => d.name === `${manufacturer} ${deviceName}`);
-                    device.commands.push(...deviceData.map(param => ({
-                        name: param.name,
-                        section: param.section,
-                        description: param.description,
-                        midi: {
-                            cc: param.cc.msb !== null ? [176, param.cc.msb, param.cc.min, param.cc.max] : null,
-                            nrpn: param.nrpn.msb !== null ? [99, param.nrpn.msb, 98, param.nrpn.lsb, 6, param.nrpn.min, 38, param.nrpn.max] : null
-                        },
-                        orientation: param.orientation,
-                        notes: param.notes,
-                        usage: param.usage
-                    })));
+                    
+                    // Create device node if it doesn't exist
+                    if (!database[manufacturer][deviceName]) {
+                        database[manufacturer][deviceName] = {
+                            brand: deviceData[0].manufacturer,
+                            device: deviceData[0].device,
+                            midi_thru: "", 
+                            midi_in: "",
+                            midi_clock: "",
+                            phantom_power: "",
+                            midi_channel: {
+                                instructions: ""
+                            },
+                            instructions: "",
+                            cc: [],
+                            nrpn: [],
+                            pc: []
+                        };
+                    }
+                    
+                    // Process parameters
+                    deviceData.forEach(param => {
+                        // Process CC parameters
+                        if (param.cc.msb !== null) {
+                            database[manufacturer][deviceName].cc.push({
+                                name: param.name,
+                                description: param.description || "",
+                                usage: param.usage || "",
+                                curve: param.orientation || "0-based",
+                                value: param.cc.msb,
+                                min: param.cc.min,
+                                max: param.cc.max,
+                                type: param.section || "Parameter",
+                            });
+                        }
+                        
+                        // Process NRPN parameters
+                        if (param.nrpn.msb !== null && param.nrpn.lsb !== null) {
+                            database[manufacturer][deviceName].nrpn.push({
+                                name: param.name,
+                                description: param.description || "",
+                                usage: param.usage || "",
+                                curve: param.orientation || "0-based",
+                                msb: param.nrpn.msb,
+                                lsb: param.nrpn.lsb,
+                                min: param.nrpn.min,
+                                max: param.nrpn.max,
+                                type: param.section || "Parameter",
+                            });
+                        }
+                    });
                 }
             } catch (error) {
                 console.error(`❌ Error processing ${file}:`, error);
@@ -174,12 +265,37 @@ function convertDatabase() {
         });
     });
 
-    writeFiles(database);
+    // Write the database in the new format
+    const jsonFile = path.join(outputDir, `midi-database-v${VERSION}.json`);
+    const gzipFile = jsonFile + '.gz';
+    const versionFile = path.join(outputDir, 'midi-database-version.json');
+
+    fs.writeFileSync(versionFile, JSON.stringify({ 
+        version: VERSION, 
+        lastUpdated: timestamp, 
+        filename: path.basename(gzipFile) 
+    }, null, 2));
+    
+    const minified = JSON.stringify(database);
+    fs.writeFileSync(jsonFile, minified);
+    fs.writeFileSync(gzipFile, zlib.gzipSync(minified));
+
+    console.log(`\n✅ Database saved to ${outputDir}`);
+    console.log(`- ${path.basename(versionFile)}`);
+    console.log(`- ${path.basename(jsonFile)}`);
+    console.log(`- ${path.basename(gzipFile)}`);
+    
+    // Count manufacturers and devices for summary
+    const manufacturers = Object.keys(database);
+    let deviceCount = 0;
+    manufacturers.forEach(mfr => {
+        deviceCount += Object.keys(database[mfr]).length;
+    });
 
     console.log('\n✅ Conversion complete!');
-    console.log(`📂 Devices: ${database.devices.length}`);
+    console.log(`📂 Manufacturers: ${manufacturers.length}`);
+    console.log(`📂 Devices: ${deviceCount}`);
     console.log(`📌 Version: ${VERSION}`);
     console.log(`📅 Generated: ${timestamp}`);
 }
-
 convertDatabase();
