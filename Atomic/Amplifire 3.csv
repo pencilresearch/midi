@@ -1,0 +1,50 @@
+Atomic,Amplifire 3,Expression,Wah Pedal,Controls the wah pedal position,21,,0,127,,,,,0-based,,0-127: Wah position
+Atomic,Amplifire 3,Expression,Volume Pedal,Controls the volume pedal level,22,,0,127,,,,,0-based,,0-127: Volume level
+Atomic,Amplifire 3,Expression,Expression A,Controls assignable expression parameter A,23,,0,127,,,,,0-based,,0-127: Expression A value
+Atomic,Amplifire 3,Expression,Expression B,Controls assignable expression parameter B,24,,0,127,,,,,0-based,,0-127: Expression B value
+Atomic,Amplifire 3,Performance,Tap Tempo,Sets tempo via tap function,18,,127,127,,,,,0-based,,127: Tap (momentary)
+Atomic,Amplifire 3,Global,Bypass Amplifire,Bypasses the entire Amplifire unit,80,,0,0,,,,,0-based,,0: Bypassed
+Atomic,Amplifire 3,Global,Enable Amplifire,Enables the entire Amplifire unit,80,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Routing,Effect Loop Enable,Enables the external effect loop,81,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Routing,Effect Loop Disable,Disables the external effect loop,81,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Expression,Volume Enable,Enables the volume control,20,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Expression,Volume Disable,Disables the volume control,20,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Wah Enable,Enables the wah effect,19,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Wah Disable,Disables the wah effect,19,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Boost Enable,Enables the boost effect,82,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Boost Disable,Disables the boost effect,82,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Effect Enable,Enables the effects section,83,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Effect Disable,Disables the effects section,83,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Chorus Enable,Enables the chorus effect,25,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Chorus Disable,Disables the chorus effect,25,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Flanger Enable,Enables the flanger effect,26,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Flanger Disable,Disables the flanger effect,26,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Phaser Enable,Enables the phaser effect,27,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Phaser Disable,Disables the phaser effect,27,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Tremolo Enable,Enables the tremolo effect,28,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Tremolo Disable,Disables the tremolo effect,28,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Pitchshifter Enable,Enables the pitch shifter effect,29,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Pitchshifter Disable,Disables the pitch shifter effect,29,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Echo Enable,Enables the echo/delay effect,84,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Echo Disable,Disables the echo/delay effect,84,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Effects,Reverb Enable,Enables the reverb effect,85,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Effects,Reverb Disable,Disables the reverb effect,85,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Dynamics,Noise Gate Enable,Enables the noise gate,86,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Dynamics,Noise Gate Disable,Disables the noise gate,86,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Dynamics,Compressor Enable,Enables the compressor,17,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Dynamics,Compressor Disable,Disables the compressor,17,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,EQ,Graphic EQ Enable,Enables the graphic equalizer,87,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,EQ,Graphic EQ Disable,Disables the graphic equalizer,87,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,EQ,Pre-EQ Enable,Enables the pre-amplifier equalizer,12,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,EQ,Pre-EQ Disable,Disables the pre-amplifier equalizer,12,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,EQ,Parametric 1 Enable,Enables parametric EQ band 1,88,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,EQ,Parametric 1 Disable,Disables parametric EQ band 1,88,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,EQ,Parametric 2 Enable,Enables parametric EQ band 2,89,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,EQ,Parametric 2 Disable,Disables parametric EQ band 2,89,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,EQ,Parametric 3 Enable,Enables parametric EQ band 3,90,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,EQ,Parametric 3 Disable,Disables parametric EQ band 3,90,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Amp,Amp Enable,Enables the amplifier simulation,16,,127,127,,,,,0-based,,127: Enabled
+Atomic,Amplifire 3,Amp,Amp Disable,Disables the amplifier simulation,16,,0,0,,,,,0-based,,0: Disabled
+Atomic,Amplifire 3,Footswitch,FS1 Press,Activates footswitch 1 function,13,,127,127,,,,,0-based,,127: Pressed (momentary)
+Atomic,Amplifire 3,Footswitch,FS2 Press,Activates footswitch 2 function,14,,127,127,,,,,0-based,,127: Pressed (momentary)
+Atomic,Amplifire 3,Footswitch,FS3 Press,Activates footswitch 3 function,15,,127,127,,,,,0-based,,127: Pressed (momentary)

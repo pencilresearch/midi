@@ -1,0 +1,10 @@
+Electro-Harmonix,Holiest Grail,Pre-Delay,Pre-Delay Time,Controls the pre-delay time before reverb onset,20,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Pre-delay time
+Electro-Harmonix,Holiest Grail,Pre-Delay,Pre-Delay Feedback,Controls the amount of pre-delay feedback,21,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Feedback amount
+Electro-Harmonix,Holiest Grail,Reverb,Reverb Decay,Controls the length of the reverb tail,22,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Decay time
+Electro-Harmonix,Holiest Grail,Reverb,Reverb Damping,Controls the high frequency roll-off in the reverb tail,23,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Damping amount
+Electro-Harmonix,Holiest Grail,Reverb,Reverb Diffusion,Controls the density of the reverb reflections,24,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Diffusion amount
+Electro-Harmonix,Holiest Grail,Mix,Dry Output Level,Controls the level of the dry (unaffected) signal,25,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Dry level
+Electro-Harmonix,Holiest Grail,Mix,Spring Output Level,Controls the level of the spring reverb component,26,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Spring level
+Electro-Harmonix,Holiest Grail,Mix,Reverb Output Level,Controls the level of the reverb effect,27,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Reverb level
+Electro-Harmonix,Holiest Grail,Presets,Bank Selector,Selects between the 4 preset banks,28,,0,127,,,,,0-based,"Not saved with presets, does not affect program load",0-127: Bank selection
+Electro-Harmonix,Holiest Grail,Expression,Footpedal/CV Input,Controls parameter assigned to expression input,30,,0,127,,,,,0-based,Transmits on MIDI Channel 1 only,0-127: Expression position

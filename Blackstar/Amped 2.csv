@@ -1,0 +1,31 @@
+Blackstar,Amped 2,Voice,USA Voice,Selects the USA voice type,1,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Voice,UK Voice,Selects the UK voice type,2,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Voice,Flat Voice,Selects the Flat voice type,3,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Preamp,Bass,Controls the bass EQ level,4,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Bass amount
+Blackstar,Amped 2,Preamp,Middle,Controls the middle EQ level,5,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Middle amount
+Blackstar,Amped 2,Preamp,Treble,Controls the treble EQ level,6,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Treble amount
+Blackstar,Amped 2,Preamp,Gain,Controls the preamp gain amount,7,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Gain amount
+Blackstar,Amped 2,Response,EL84,Selects the EL84 power amp response,8,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Response,EL34,Selects the EL34 power amp response,10,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Response,6L6,Selects the 6L6 power amp response,12,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Response,Presence,Controls the power amp presence,15,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Presence amount
+Blackstar,Amped 2,Master,Master Volume,Controls the master output volume,16,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Volume level
+Blackstar,Amped 2,Drive,Drive Footswitch,Toggles the drive effect on/off,25,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 2,Drive,Drive Type - Boost,Selects the Boost drive type,26,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Drive,Drive Type - Drive,Selects the Drive drive type,27,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Drive,Drive Type - Fuzz,Selects the Fuzz drive type,28,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Drive,Drive Drive,Controls the drive amount of the drive effect,29,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Drive amount
+Blackstar,Amped 2,Drive,Drive Tone,Controls the tone of the drive effect,30,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Tone amount
+Blackstar,Amped 2,Drive,Drive Level,Controls the output level of the drive effect,31,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Level amount
+Blackstar,Amped 2,Modulation,Modulation Footswitch,Toggles the modulation effect on/off,38,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 2,Modulation,Mod Type - Chorus/Flanger,Selects the Chorus/Flanger modulation type,39,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Modulation,Mod Type - Tremolo,Selects the Tremolo modulation type,40,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Modulation,Mod Type - Phaser,Selects the Phaser modulation type,41,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Modulation,Modulation Time,Controls the time/rate of the modulation effect,42,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Time amount
+Blackstar,Amped 2,Modulation,Modulation Time Division,Selects rhythmic subdivision for time-based modulation,43,,0,9,,,,,0-based,Default MIDI channel is 1,"0: 1/1; 1: 1/2; 2: 1/4; 3: 1/4D; 4: 1/4T; 5: 1/8; 6: 1/8D; 7: 1/8T; 8: 1/16; 9: 1/32"
+Blackstar,Amped 2,Modulation,Modulation Depth,Controls the depth of the modulation effect,44,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Depth amount
+Blackstar,Amped 2,Modulation,Modulation Level,Controls the output level of the modulation effect,45,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Level amount
+Blackstar,Amped 2,Modulation,Modulation Hold,Enables the modulation hold function,46,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 2,Modulation,Modulation Pre,Sets the modulation to pre position,47,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Modulation,Modulation Post,Sets the modulation to post position,48,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 2,Tempo,Tap Tempo,Sends a tap tempo input,100,,0,127,,,,,0-based,Only value 127 is recognized; recommend "momentary" setting,0-126: Ignored; 127: Tap

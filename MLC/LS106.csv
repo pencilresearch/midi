@@ -1,0 +1,26 @@
+MLC,LS10/6,Mono Loops,Loop 1,Controls audio loop 1 (mono mode),11,,0,127,,,,,0-based,Toggles mono loop 1,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 2,Controls audio loop 2 (mono mode),12,,0,127,,,,,0-based,Toggles mono loop 2,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 3,Controls audio loop 3 (mono mode),13,,0,127,,,,,0-based,Toggles mono loop 3,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 4,Controls audio loop 4 (mono mode),14,,0,127,,,,,0-based,Toggles mono loop 4,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 5,Controls audio loop 5 (mono mode),15,,0,127,,,,,0-based,Toggles mono loop 5,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 6,Controls audio loop 6 (mono mode),16,,0,127,,,,,0-based,Toggles mono loop 6,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 7,Controls audio loop 7 (mono mode),17,,0,127,,,,,0-based,Toggles mono loop 7,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 8,Controls audio loop 8 (mono mode),18,,0,127,,,,,0-based,Toggles mono loop 8,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 9,Controls audio loop 9 (mono mode),19,,0,127,,,,,0-based,Toggles mono loop 9,0: OFF; 127: ON
+MLC,LS10/6,Mono Loops,Loop 10,Controls audio loop 10 (mono mode),20,,0,127,,,,,0-based,Toggles mono loop 10,0: OFF; 127: ON
+MLC,LS10/6,Switches,Switch 1,Controls switch 1 (normal mode),21,,0,127,,,,,0-based,Toggles switch 1,0: OFF; 127: ON
+MLC,LS10/6,Switches,Switch 2,Controls switch 2 (normal mode),22,,0,127,,,,,0-based,Toggles switch 2,0: OFF; 127: ON
+MLC,LS10/6,Switches,Switch 3,Controls switch 3 (normal mode),23,,0,127,,,,,0-based,Toggles switch 3,0: OFF; 127: ON
+MLC,LS10/6,Switches,Switch 4,Controls switch 4 (normal mode),24,,0,127,,,,,0-based,Toggles switch 4,0: OFF; 127: ON
+MLC,LS10/6,Switches,Switch 5,Controls switch 5 (normal mode),25,,0,127,,,,,0-based,Toggles switch 5,0: OFF; 127: ON
+MLC,LS10/6,Switches,Switch 6,Controls switch 6 (normal mode),26,,0,127,,,,,0-based,Toggles switch 6,0: OFF; 127: ON
+MLC,LS10/6,Stereo Loops,Loop 1+7,Controls stereo pair of loops 1 and 7,30,,0,127,,,,,0-based,Toggles stereo loops 1+7,0: OFF; 127: ON
+MLC,LS10/6,Stereo Loops,Loop 2+8,Controls stereo pair of loops 2 and 8,31,,0,127,,,,,0-based,Toggles stereo loops 2+8,0: OFF; 127: ON
+MLC,LS10/6,Stereo Loops,Loop 3+9,Controls stereo pair of loops 3 and 9,32,,0,127,,,,,0-based,Toggles stereo loops 3+9,0: OFF; 127: ON
+MLC,LS10/6,Stereo Loops,Loop 4+10,Controls stereo pair of loops 4 and 10,33,,0,127,,,,,0-based,Toggles stereo loops 4+10,0: OFF; 127: ON
+MLC,LS10/6,Momentary Switches,Switch 1 Momentary,Controls switch 1 in momentary mode (60ms),35,,0,127,,,,,0-based,Momentary operation,0: OFF; 127: ON for 60ms
+MLC,LS10/6,Momentary Switches,Switch 2 Momentary,Controls switch 2 in momentary mode (60ms),36,,0,127,,,,,0-based,Momentary operation,0: OFF; 127: ON for 60ms
+MLC,LS10/6,Momentary Switches,Switch 3 Momentary,Controls switch 3 in momentary mode (60ms),37,,0,127,,,,,0-based,Momentary operation,0: OFF; 127: ON for 60ms
+MLC,LS10/6,Momentary Switches,Switch 4 Momentary,Controls switch 4 in momentary mode (60ms),38,,0,127,,,,,0-based,Momentary operation,0: OFF; 127: ON for 60ms
+MLC,LS10/6,Momentary Switches,Switch 5 Momentary,Controls switch 5 in momentary mode (60ms),39,,0,127,,,,,0-based,Momentary operation,0: OFF; 127: ON for 60ms
+MLC,LS10/6,Momentary Switches,Switch 6 Momentary,Controls switch 6 in momentary mode (60ms),40,,0,127,,,,,0-based,Momentary operation,0: OFF; 127: ON for 60ms

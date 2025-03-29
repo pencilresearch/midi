@@ -1,0 +1,37 @@
+Atomic,Amplifire 12,Expression,Wah Pedal,Controls the wah effect,21,,0,127,,,,,0-based,,0-127: Wah position
+Atomic,Amplifire 12,Expression,Volume Pedal,Controls output volume,22,,0,127,,,,,0-based,,0-127: Volume level
+Atomic,Amplifire 12,Expression,Expression A,Controls parameter assigned to Expression A,23,,0,127,,,,,0-based,,0-127: Expression A position
+Atomic,Amplifire 12,Expression,Expression B,Controls parameter assigned to Expression B,24,,0,127,,,,,0-based,,0-127: Expression B position
+Atomic,Amplifire 12,Tempo,Tap Tempo,Sends a tap tempo input,18,,0,127,,,,,0-based,,0-63: Off; 64-127: Tap
+Atomic,Amplifire 12,Global,Bypass,Bypasses the entire Amplifire unit,80,,0,127,,,,,0-based,,0-63: Effect on; 64-127: Bypassed
+Atomic,Amplifire 12,Routing,Effect Loop,Enables/disables the external effect loop,81,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Volume,Enables/disables the volume effect,20,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Wah,Enables/disables the wah effect,19,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Boost,Enables/disables the boost effect,82,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Effect,Enables/disables the generic effect block,83,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Chorus,Enables/disables the chorus effect,25,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Flanger,Enables/disables the flanger effect,26,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Phaser,Enables/disables the phaser effect,27,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Tremolo,Enables/disables the tremolo effect,28,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Pitch Shifter,Enables/disables the pitch shifter effect,29,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Echo,Enables/disables the echo/delay effect,84,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Reverb,Enables/disables the reverb effect,85,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Noise Gate,Enables/disables the noise gate effect,86,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Effects,Compressor,Enables/disables the compressor effect,17,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,EQ,Graphic EQ,Enables/disables the graphic EQ,87,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,EQ,Pre-EQ,Enables/disables the pre-EQ,12,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,EQ,Parametric EQ 1,Enables/disables the first parametric EQ,88,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,EQ,Parametric EQ 2,Enables/disables the second parametric EQ,89,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,EQ,Parametric EQ 3,Enables/disables the third parametric EQ,90,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Amp,Amp,Enables/disables the amplifier model,16,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Atomic,Amplifire 12,Footswitches,FS1,Emulates pressing footswitch 1,13,,0,127,,,,,0-based,,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS2,Emulates pressing footswitch 2,14,,0,127,,,,,0-based,,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS3,Emulates pressing footswitch 3,15,,0,127,,,,,0-based,,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS4,Emulates pressing footswitch 4,11,,0,127,,,,,0-based,Amplifire 12 only,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS5,Emulates pressing footswitch 5,10,,0,127,,,,,0-based,Amplifire 12 only,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS6,Emulates pressing footswitch 6,9,,0,127,,,,,0-based,Amplifire 12 only,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS7,Emulates pressing footswitch 7,8,,0,127,,,,,0-based,Amplifire 12 only,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS8,Emulates pressing footswitch 8,7,,0,127,,,,,0-based,Amplifire 12 only,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS9,Emulates pressing footswitch 9,6,,0,127,,,,,0-based,Amplifire 12 only,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS0,Emulates pressing footswitch 0,5,,0,127,,,,,0-based,Amplifire 12 only,0-63: Release; 64-127: Press
+Atomic,Amplifire 12,Footswitches,FS+,Emulates pressing footswitch +,4,,0,127,,,,,0-based,Amplifire 12 only,0-63: Release; 64-127: Press

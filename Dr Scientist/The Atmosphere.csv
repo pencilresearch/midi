@@ -1,0 +1,55 @@
+Dr Scientist,The Atmosphere,Bypass,Bypass Type: Trails,Sets bypass mode to trails (reverb tails continue when bypassed),3,,0,0,,,,,0-based,,0: Trails bypass mode
+Dr Scientist,The Atmosphere,Bypass,Bypass Type: True,Sets bypass mode to true bypass (signal completely bypasses effect),3,,127,127,,,,,0-based,,127: True bypass mode
+Dr Scientist,The Atmosphere,Level,Volume Control,Controls the overall output volume,7,,0,127,,,,,0-based,,0-127: Volume level
+Dr Scientist,The Atmosphere,Mix,Mix Control,Controls the dry/wet mix of the reverb effect,8,,0,127,,,,,0-based,,0-127: Mix amount
+Dr Scientist,The Atmosphere,Tempo,Remote Tap,Remotely taps tempo for LFO synchronization,9,,127,127,,,,,0-based,,127: Tap (momentary)
+Dr Scientist,The Atmosphere,LFO,LFO Depth,Controls the depth/intensity of the LFO modulation,15,,1,10,,,,,0-based,,1-10: Depth amount
+Dr Scientist,The Atmosphere,LFO,LFO Shape,Selects the waveform shape for the LFO,20,,1,8,,,,,0-based,,1-8: LFO shape selection
+Dr Scientist,The Atmosphere,Reverb,Infinite Reverb: Off,Disables infinite reverb mode,21,,0,0,,,,,0-based,,0: Infinite reverb off
+Dr Scientist,The Atmosphere,Reverb,Infinite Reverb: On,Enables infinite reverb mode,21,,127,127,,,,,0-based,,127: Infinite reverb on
+Dr Scientist,The Atmosphere,System,Save Settings to Preset,Saves current settings to the current preset,22,,0,127,,,,,0-based,,0-127: Save (momentary)
+Dr Scientist,The Atmosphere,LFO,LFO Rate x1 (in BPM),Controls LFO rate at normal speed in BPM,23,,0,127,,,,,0-based,,0-127: Rate value
+Dr Scientist,The Atmosphere,LFO,LFO Rate x2 (in BPM),Controls LFO rate at 2x speed in BPM,24,,0,127,,,,,0-based,,0-127: Rate value
+Dr Scientist,The Atmosphere,LFO,LFO Rate x3 (in BPM),Controls LFO rate at 3x speed in BPM,25,,0,127,,,,,0-based,,0-127: Rate value
+Dr Scientist,The Atmosphere,Control,Left Stomp Press Action,Configures action for pressing the left stomp switch,29,,1,6,,,,,0-based,,1-6: Action selection
+Dr Scientist,The Atmosphere,Control,Left Stomp Hold Action,Configures action for holding the left stomp switch,30,,1,5,,,,,0-based,,1-5: Action selection
+Dr Scientist,The Atmosphere,Display,Bypass Screen Selection,Selects what screen to show when bypassed,31,,1,11,,,,,0-based,,1-11: Screen selection
+Dr Scientist,The Atmosphere,Bypass,Bypass Footswitch: On,Enables the effect (turns off bypass),80,,127,127,,,,,0-based,,127: Effect enabled
+Dr Scientist,The Atmosphere,Bypass,Bypass Footswitch: Off,Bypasses the effect,80,,0,0,,,,,0-based,,0: Effect bypassed
+Dr Scientist,The Atmosphere,Control,Left Stomp Press,Simulates pressing the left stomp switch,81,,127,127,,,,,0-based,,127: Press (momentary)
+Dr Scientist,The Atmosphere,Control,Left Stomp Hold: Infinite,Simulates holding left stomp for infinite reverb off,82,,0,0,,,,,0-based,,0: Infinite off
+Dr Scientist,The Atmosphere,Control,Left Stomp Hold: On,Simulates holding left stomp for infinite reverb on,82,,127,127,,,,,0-based,,127: Infinite on
+Dr Scientist,The Atmosphere,LFO,LFO State: On,Enables LFO modulation,83,,127,127,,,,,0-based,,127: LFO on
+Dr Scientist,The Atmosphere,LFO,LFO State: Off,Disables LFO modulation,83,,0,0,,,,,0-based,,0: LFO off
+Dr Scientist,The Atmosphere,Reverb,Resolution Control,Controls reverb resolution/diffusion,94,,0,127,,,,,0-based,,0-127: Resolution amount
+Dr Scientist,The Atmosphere,Reverb,Decay Control,Controls reverb decay/length time,102,,0,127,,,,,0-based,,0-127: Decay amount
+Dr Scientist,The Atmosphere,Reverb,CTRL 1,Controls user-assignable reverb parameter 1,103,,0,127,,,,,0-based,,0-127: Control 1 value
+Dr Scientist,The Atmosphere,Reverb,CTRL 2,Controls user-assignable reverb parameter 2,104,,0,127,,,,,0-based,,0-127: Control 2 value
+Dr Scientist,The Atmosphere,Preset,Patch Up,Selects the next preset,105,,127,127,,,,,0-based,,127: Next preset (momentary)
+Dr Scientist,The Atmosphere,Preset,Patch Down,Selects the previous preset,106,,127,127,,,,,0-based,,127: Previous preset (momentary)
+Dr Scientist,The Atmosphere,Mapping,Map Decay to Expression: Off,Disables mapping decay parameter to expression pedal,107,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map Decay to Expression: On,Enables mapping decay parameter to expression pedal,107,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map CTRL 1 to Expression: Off,Disables mapping control 1 to expression pedal,108,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map CTRL 1 to Expression: On,Enables mapping control 1 to expression pedal,108,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map CTRL 2 to Expression: Off,Disables mapping control 2 to expression pedal,109,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map CTRL 2 to Expression: On,Enables mapping control 2 to expression pedal,109,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map Resolution to Expression: Off,Disables mapping resolution to expression pedal,110,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map Resolution to Expression: On,Enables mapping resolution to expression pedal,110,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map Mix to Expression: Off,Disables mapping mix to expression pedal,111,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map Mix to Expression: On,Enables mapping mix to expression pedal,111,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map Volume to Expression: Off,Disables mapping volume to expression pedal,112,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map Volume to Expression: On,Enables mapping volume to expression pedal,112,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map Decay to LFO: Off,Disables mapping decay parameter to LFO,113,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map Decay to LFO: On,Enables mapping decay parameter to LFO,113,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map CTRL 1 to LFO: Off,Disables mapping control 1 to LFO,114,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map CTRL 1 to LFO: On,Enables mapping control 1 to LFO,114,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map CTRL 2 to LFO: Off,Disables mapping control 2 to LFO,115,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map CTRL 2 to LFO: On,Enables mapping control 2 to LFO,115,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map Resolution to LFO: Off,Disables mapping resolution to LFO,116,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map Resolution to LFO: On,Enables mapping resolution to LFO,116,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map Mix to LFO: Off,Disables mapping mix to LFO,117,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map Mix to LFO: On,Enables mapping mix to LFO,117,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,Mapping,Map Volume to LFO: Off,Disables mapping volume to LFO,118,,0,0,,,,,0-based,,0: Mapping off
+Dr Scientist,The Atmosphere,Mapping,Map Volume to LFO: On,Enables mapping volume to LFO,118,,127,127,,,,,0-based,,127: Mapping on
+Dr Scientist,The Atmosphere,System,Toggle Default/Preset: Default,Sets device to use default settings,119,,0,0,,,,,0-based,,0: Use default settings
+Dr Scientist,The Atmosphere,System,Toggle Default/Preset: Preset,Sets device to use preset settings,119,,127,127,,,,,0-based,,127: Use preset settings

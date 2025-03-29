@@ -1,0 +1,25 @@
+Blackstar,Amped 1,Voice,USA Voice,Selects the USA voice type,1,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Voice,UK Voice,Selects the UK voice type,2,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Voice,Flat Voice,Selects the Flat voice type,3,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Preamp,Bass,Controls the bass EQ level,4,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Bass amount
+Blackstar,Amped 1,Preamp,Middle,Controls the middle EQ level,5,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Middle amount
+Blackstar,Amped 1,Preamp,Treble,Controls the treble EQ level,6,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Treble amount
+Blackstar,Amped 1,Preamp,Gain,Controls the preamp gain amount,7,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Gain amount
+Blackstar,Amped 1,Response,EL84,Selects the EL84 power amp response,8,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Response,EL34,Selects the EL34 power amp response,10,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Response,6L6,Selects the 6L6 power amp response,12,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Master,Master Volume,Controls the master output volume,16,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Volume level
+Blackstar,Amped 1,Response,KT88,Selects the KT88 power amp response,18,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Response,6V6,Selects the 6V6 power amp response,20,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Response,LINEAR,Selects the Linear power amp response,22,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,FX Loop,FX Loop Pre,Sets the effects loop to pre position,75,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,FX Loop,FX Loop Post,Sets the effects loop to post position,76,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,FX Loop,FX Loop Series,Sets the effects loop to series mode,77,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,FX Loop,FX Loop Parallel,Sets the effects loop to parallel mode,78,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Reverb,Reverb Footswitch,Toggles the reverb effect on/off,86,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 1,Reverb,Reverb Level,Controls the reverb effect level,91,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Reverb level
+Blackstar,Amped 1,Reverb,Reverb Hold,Enables the reverb hold function,92,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 1,Presets,Preset Footswitch,Triggers preset selection,99,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 1,Power Level,1W Power,Sets the power output to 1 watt,110,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Power Level,20W Power,Sets the power output to 20 watts,111,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 1,Power Level,100W Power,Sets the power output to 100 watts,112,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On

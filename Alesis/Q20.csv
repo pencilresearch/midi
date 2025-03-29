@@ -1,0 +1,16 @@
+Alesis,Q20,Block Groups,EQ Bypass,Bypasses all EQ blocks,12,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Block Groups,Chorus Bypass,Bypasses all Chorus blocks,13,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Block Groups,Flanger Bypass,Bypasses all Flanger blocks,14,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Block Groups,Phaser Bypass,Bypasses all Phaser blocks,15,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Block Groups,Pitch Bypass,Bypasses all Pitch Shifter/Pitch Detune/Ring Modulator blocks,16,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Block Groups,Delay Bypass,Bypasses all Delay blocks,17,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Block Groups,Reverb Bypass,Bypasses all Reverb blocks,18,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Block Groups,Modulation Bypass,Bypasses all Tremolo/Leslie blocks,19,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Individual Blocks,Block 1 Bypass,Bypasses Block #1,71,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Individual Blocks,Block 2 Bypass,Bypasses Block #2,72,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Individual Blocks,Block 3 Bypass,Bypasses Block #3,73,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Individual Blocks,Block 4 Bypass,Bypasses Block #4,74,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Individual Blocks,Block 5 Bypass,Bypasses Block #5,75,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Individual Blocks,Block 6 Bypass,Bypasses Block #6,76,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Individual Blocks,Block 7 Bypass,Bypasses Block #7,77,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed
+Alesis,Q20,Individual Blocks,Block 8 Bypass,Bypasses Block #8,78,,0,127,,,,,0-based,,0-63: Active; 64-127: Bypassed

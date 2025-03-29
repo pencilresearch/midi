@@ -1,0 +1,66 @@
+Behringer,X32,Channel,Channel 01-32 Mute,Mutes/unmutes channel,40,,0,127,,,,,0-based,MIDI channel corresponds to X32 channel,0: Unmuted; 127: Muted
+Behringer,X32,Channel,Channel 01-32 Fader,Controls channel fader level,0,,0,127,,,,,0-based,MIDI channel corresponds to X32 channel,0: -∞; 127: +10dB
+Behringer,X32,Channel,Channel 01-32 Pan,Controls channel pan position,16,,0,127,,,,,Centered,MIDI channel corresponds to X32 channel,0: Hard left; 64: Center; 127: Hard right
+Behringer,X32,Channel,Channel 01-32 Solo,Solo specific channel,17,,0,127,,,,,0-based,MIDI channel corresponds to X32 channel,0: Inactive; 127: Active
+Behringer,X32,Channel,Channel 01-16 Select,Selects channel 1-16,32,,0,127,,,,,0-based,MIDI channel 16,Value determines selected channel (0-15)
+Behringer,X32,Channel,Channel 17-32 Select,Selects channel 17-32,32,,0,127,,,,,0-based,MIDI channel 17,Value determines selected channel (0-15)
+Behringer,X32,Aux In,Aux In 01-08 Mute,Mutes/unmutes aux input,40,,0,127,,,,,0-based,MIDI channels 33-40,0: Unmuted; 127: Muted
+Behringer,X32,Aux In,Aux In 01-08 Fader,Controls aux input fader level,0,,0,127,,,,,0-based,MIDI channels 33-40,0: -∞; 127: +10dB
+Behringer,X32,Aux In,Aux In 01-08 Pan,Controls aux input pan position,16,,0,127,,,,,Centered,MIDI channels 33-40,0: Hard left; 64: Center; 127: Hard right
+Behringer,X32,Aux In,Aux In 01-08 Solo,Solo specific aux input,17,,0,127,,,,,0-based,MIDI channels 33-40,0: Inactive; 127: Active
+Behringer,X32,Aux In,Aux In 01-08 Select,Selects aux input,32,,0,127,,,,,0-based,MIDI channel 18,Value determines selected aux in (0-7)
+Behringer,X32,FX Return,FX Return 01-08 Mute,Mutes/unmutes effect return,40,,0,127,,,,,0-based,MIDI channels 41-48,0: Unmuted; 127: Muted
+Behringer,X32,FX Return,FX Return 01-08 Fader,Controls effect return fader level,0,,0,127,,,,,0-based,MIDI channels 41-48,0: -∞; 127: +10dB
+Behringer,X32,FX Return,FX Return 01-08 Pan,Controls effect return pan position,16,,0,127,,,,,Centered,MIDI channels 41-48,0: Hard left; 64: Center; 127: Hard right
+Behringer,X32,FX Return,FX Return 01-08 Solo,Solo specific effect return,17,,0,127,,,,,0-based,MIDI channels 41-48,0: Inactive; 127: Active
+Behringer,X32,FX Return,FX Return 01-08 Select,Selects effect return,32,,0,127,,,,,0-based,MIDI channel 19,Value determines selected FX return (0-7)
+Behringer,X32,Bus,Bus 01-16 Mute,Mutes/unmutes bus,40,,0,127,,,,,0-based,MIDI channels 49-64,0: Unmuted; 127: Muted
+Behringer,X32,Bus,Bus 01-16 Fader,Controls bus fader level,0,,0,127,,,,,0-based,MIDI channels 49-64,0: -∞; 127: +10dB
+Behringer,X32,Bus,Bus 01-16 Pan,Controls bus pan position,16,,0,127,,,,,Centered,MIDI channels 49-64,0: Hard left; 64: Center; 127: Hard right
+Behringer,X32,Bus,Bus 01-16 Solo,Solo specific bus,17,,0,127,,,,,0-based,MIDI channels 49-64,0: Inactive; 127: Active
+Behringer,X32,Bus,Bus 01-16 Select,Selects bus,32,,0,127,,,,,0-based,MIDI channel 20,Value determines selected bus (0-15)
+Behringer,X32,Matrix,Matrix 01-06 Mute,Mutes/unmutes matrix,40,,0,127,,,,,0-based,MIDI channels 65-70,0: Unmuted; 127: Muted
+Behringer,X32,Matrix,Matrix 01-06 Fader,Controls matrix fader level,0,,0,127,,,,,0-based,MIDI channels 65-70,0: -∞; 127: +10dB
+Behringer,X32,Matrix,Matrix 01-06 Pan,Controls matrix pan position,16,,0,127,,,,,Centered,MIDI channels 65-70,0: Hard left; 64: Center; 127: Hard right
+Behringer,X32,Matrix,Matrix 01-06 Solo,Solo specific matrix,17,,0,127,,,,,0-based,MIDI channels 65-70,0: Inactive; 127: Active
+Behringer,X32,Matrix,Matrix 01-06 Select,Selects matrix,32,,0,127,,,,,0-based,MIDI channel 21,Value determines selected matrix (0-5)
+Behringer,X32,DCA,DCA 01-08 Mute,Mutes/unmutes DCA group,40,,0,127,,,,,0-based,MIDI channels 71-78,0: Unmuted; 127: Muted
+Behringer,X32,DCA,DCA 01-08 Fader,Controls DCA fader level,0,,0,127,,,,,0-based,MIDI channels 71-78,0: -∞; 127: +10dB
+Behringer,X32,DCA,DCA 01-08 Solo,Solo specific DCA group,17,,0,127,,,,,0-based,MIDI channels 71-78,0: Inactive; 127: Active
+Behringer,X32,DCA,DCA 01-08 Select,Selects DCA group,32,,0,127,,,,,0-based,MIDI channel 22,Value determines selected DCA (0-7)
+Behringer,X32,Main,Main LR Mute,Mutes/unmutes main LR output,40,,0,127,,,,,0-based,MIDI channel 79,0: Unmuted; 127: Muted
+Behringer,X32,Main,Main LR Fader,Controls main LR fader level,0,,0,127,,,,,0-based,MIDI channel 79,0: -∞; 127: +10dB
+Behringer,X32,Main,Main LR Solo,Solo main LR output,17,,0,127,,,,,0-based,MIDI channel 79,0: Inactive; 127: Active
+Behringer,X32,Main,Main LR Select,Selects main LR,32,,0,127,,,,,0-based,MIDI channel 23,127: Select main LR
+Behringer,X32,Main,Center Mute,Mutes/unmutes mono/center output,40,,0,127,,,,,0-based,MIDI channel 80,0: Unmuted; 127: Muted
+Behringer,X32,Main,Center Fader,Controls mono/center fader level,0,,0,127,,,,,0-based,MIDI channel 80,0: -∞; 127: +10dB
+Behringer,X32,Main,Center Solo,Solo mono/center output,17,,0,127,,,,,0-based,MIDI channel 80,0: Inactive; 127: Active
+Behringer,X32,Main,Center Select,Selects mono/center,32,,0,127,,,,,0-based,MIDI channel 23,126: Select mono/center
+Behringer,X32,Group,Group 01-04 Mute,Mutes/unmutes mute group,48,,0,127,,,,,0-based,MIDI channel 16,Values 116-119 for groups 1-4
+Behringer,X32,Group,Group 05-08 Mute,Mutes/unmutes mute group,48,,0,127,,,,,0-based,MIDI channel 17,Values 116-119 for groups 5-8
+Behringer,X32,Monitor,Monitor Source,Selects monitor source,64,,0,127,,,,,0-based,MIDI channel 16,"0-5: LR, Aux 1-6; 64-69: Bus 1-6; 70-77: Input 1-8"
+Behringer,X32,Monitor,Monitor Level,Controls monitor output level,0,,0,127,,,,,0-based,MIDI channel 15,0: -∞; 127: +10dB
+Behringer,X32,Monitor,Monitor Mono Sum,Enables/disables monitor mono sum,67,,0,127,,,,,0-based,MIDI channel 16,0: Disabled; 127: Enabled
+Behringer,X32,Monitor,Monitor Dim,Enables/disables monitor dim function,66,,0,127,,,,,0-based,MIDI channel 16,0: Disabled; 127: Enabled
+Behringer,X32,Talkback,Talkback On,Enables/disables talkback,70,,0,127,,,,,0-based,MIDI channel 16,0: Disabled; 127: Enabled
+Behringer,X32,Talkback,Talkback Level,Controls talkback level,71,,0,127,,,,,0-based,MIDI channel 16,0: -∞; 127: +10dB
+Behringer,X32,Talkback,Talkback A Enable,Enables/disables talkback to target A,72,,0,127,,,,,0-based,MIDI channel 16,0: Disabled; 127: Enabled
+Behringer,X32,Talkback,Talkback B Enable,Enables/disables talkback to target B,73,,0,127,,,,,0-based,MIDI channel 16,0: Disabled; 127: Enabled
+Behringer,X32,Talkback,Talkback C Enable,Enables/disables talkback to target C,74,,0,127,,,,,0-based,MIDI channel 16,0: Disabled; 127: Enabled
+Behringer,X32,Transport,Transport Play/Stop,Controls playback,91,,0,127,,,,,0-based,MIDI channel 1,1: Stop; 2: Play
+Behringer,X32,Transport,Transport Record,Controls recording,94,,0,127,,,,,0-based,MIDI channel 1,1: Stop recording; 2: Start recording
+Behringer,X32,Transport,Transport Fast Forward,Fast forward function,92,,0,127,,,,,0-based,MIDI channel 1,Value > 64: Fast forward
+Behringer,X32,Transport,Transport Rewind,Rewind function,93,,0,127,,,,,0-based,MIDI channel 1,Value > 64: Rewind
+Behringer,X32,Scenes,Previous Scene,Recalls previous scene,46,,0,127,,,,,0-based,MIDI channel 16,127: Previous scene
+Behringer,X32,Scenes,Next Scene,Recalls next scene,47,,0,127,,,,,0-based,MIDI channel 16,127: Next scene
+Behringer,X32,Scenes,Scene Recall,Recalls specific scene,0,,0,99,,,,,0-based,MIDI channel 12,Scene number (0-99)
+Behringer,X32,Scenes,Scene Select,Selects current scene,0,,0,99,,,,,0-based,MIDI channel 13,Scene number (0-99)
+Behringer,X32,Utility,Tap Tempo,Sets tempo via tap,80,,0,127,,,,,0-based,MIDI channel 16,127: Tap tempo
+Behringer,X32,Utility,Assign Button A,Triggers assignable button A,90,,0,127,,,,,0-based,MIDI channel 16,127: Trigger button A
+Behringer,X32,Utility,Assign Button B,Triggers assignable button B,91,,0,127,,,,,0-based,MIDI channel 16,127: Trigger button B
+Behringer,X32,Utility,Assign Button C,Triggers assignable button C,92,,0,127,,,,,0-based,MIDI channel 16,127: Trigger button C
+Behringer,X32,Effects,FX 1-8 Parameter 1-8,Controls effect parameters,16,,0,127,,,,,0-based,Range of MIDI channels and CCs for FX parameters,Varies by effect type
+Behringer,X32,Layer,Channel Layer 1-16,Selects channel layer 1-16 (inputs 1-16),43,,0,127,,,,,0-based,MIDI channel 16,0: Not selected; 127: Selected
+Behringer,X32,Layer,Channel Layer 17-32,Selects channel layer 17-32 (inputs 17-32),44,,0,127,,,,,0-based,MIDI channel 16,0: Not selected; 127: Selected
+Behringer,X32,Layer,Mix Bus Layer,Selects mix bus layer,45,,0,127,,,,,0-based,MIDI channel 16,0: Not selected; 127: Selected
+Behringer,X32,Layer,Group/Sends/Returns Layer,Selects group/sends/returns layer,46,,0,127,,,,,0-based,MIDI channel 16,0: Not selected; 127: Selected

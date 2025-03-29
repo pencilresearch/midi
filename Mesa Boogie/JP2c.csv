@@ -1,0 +1,11 @@
+Mesa Boogie,JP2C,Channels,Channel 1,Activates Channel 1,20,,0,127,,,,,0-based,CH2 and CH3 will turn off automatically,0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Channels,Channel 2,Activates Channel 2,21,,0,127,,,,,0-based,CH1 and CH3 will turn off automatically,0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Channels,Channel 3,Activates Channel 3,22,,0,127,,,,,0-based,CH1 and CH2 will turn off automatically,0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Effects,EQ1,Enables/disables EQ1,23,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Effects,EQ2,Enables/disables EQ2,24,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Effects,FX Loop,Enables/disables effects loop,25,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Effects,Reverb,Enables/disables reverb,26,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Effects,Shred,Enables/disables shred mode,27,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Presets,CH1 & EQ,Activates Channel 1 with EQ,28,,0,127,,,,,0-based,"CH2 and CH3 will turn off automatically; EQ1 & EQ2 will turn on/off per the toggle",0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Presets,CH2 & EQ & SHRD,Activates Channel 2 with EQ and Shred,29,,0,127,,,,,0-based,"CH1 and CH3 will turn off automatically; EQ1/EQ2 & SHRD will turn on/off per the toggles",0-63: Off; 64-127: On
+Mesa Boogie,JP2C,Presets,CH3 & EQ & SHRD,Activates Channel 3 with EQ and Shred,30,,0,127,,,,,0-based,"CH1 and CH2 will turn off automatically; EQ1/EQ2 & SHRD will turn on/off per the toggles",0-63: Off; 64-127: On

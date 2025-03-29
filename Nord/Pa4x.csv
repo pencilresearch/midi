@@ -1,0 +1,75 @@
+Korg,Pa4x,Sound Selection,Bank Select,Controls sound selection,0,,0,127,,,,,0-based,,0-127: Sound bank
+Korg,Pa4x,Controller,Modulation 1 (Y+),Controls joystick forward movement,1,,0,127,,,,,0-based,,0-127: Modulation amount
+Korg,Pa4x,Controller,Modulation 2 (Y-),Controls joystick backward movement,2,,0,127,,,,,0-based,,0-127: Modulation amount
+Korg,Pa4x,Controller,Foot Controller,Controls parameters via foot controller,4,,0,127,,,,,0-based,,0-127: Controller amount
+Korg,Pa4x,Sound,Portamento Time,Controls the time for portamento between notes,5,,0,127,,,,,0-based,,0-127: Portamento time
+Korg,Pa4x,System,Data Entry MSB,Controls value for NRPN or RPN parameters,6,,0,127,,,,,0-based,Used with NRPN/RPN,0-127: Parameter value
+Korg,Pa4x,Mixer,Volume,Controls track volume of the channel,7,,0,127,,,,,0-based,,0-127: Volume level
+Korg,Pa4x,Mixer,Balance,Controls the left and right balance,8,,0,127,,,,,Centered,,0: Hard left; 64: Center; 127: Hard right
+Korg,Pa4x,Mixer,Pan,Controls the left and right track panning,10,,0,127,,,,,Centered,,0: Hard left; 64: Center; 127: Hard right
+Korg,Pa4x,Mixer,Expression,Controls track expression level,11,,0,127,,,,,0-based,,0-127: Expression level
+Korg,Pa4x,Effects,FX Controller 1,Controls effect parameter 1,12,,0,127,,,,,0-based,,0-127: Effect parameter
+Korg,Pa4x,Effects,FX Controller 2,Controls effect parameter 2,13,,0,127,,,,,0-based,,0-127: Effect parameter
+Korg,Pa4x,Controller,General Purpose 1,Assignable controller 1,16,,0,127,,,,,0-based,,0-127: Controller value
+Korg,Pa4x,Controller,General Purpose 2,Assignable controller 2,17,,0,127,,,,,0-based,,0-127: Controller value
+Korg,Pa4x,Controller,Slider,Controls assignable slider,18,,0,127,,,,,0-based,,0-127: Slider position
+Korg,Pa4x,Controller,General Purpose 4,Assignable controller 4,19,,0,127,,,,,0-based,,0-127: Controller value
+Korg,Pa4x,Performance,Damper Pedal/Sustain,Controls sustain function,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Korg,Pa4x,Performance,Portamento On/Off,Enables or disables portamento,65,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Korg,Pa4x,Performance,Sostenuto On/Off,Controls sostenuto function,66,,0,127,,,,,0-based,Holds notes that were "On" when pedal was pressed,0-63: Off; 64-127: On
+Korg,Pa4x,Performance,Soft Pedal On/Off,Controls soft pedal function,67,,0,127,,,,,0-based,Lowers the volume of played notes,0-63: Off; 64-127: On
+Korg,Pa4x,Performance,Legato Footswitch,Controls legato effect between notes,68,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Korg,Pa4x,Performance,Hold 2,Alternative hold function,69,,0,127,,,,,0-based,Notes fade according to release parameter,0-63: Off; 64-127: On
+Korg,Pa4x,Sound,Sustain Level,Controls the sustain level of notes,70,,0,127,,,,,0-based,,0-127: Sustain level
+Korg,Pa4x,Filter,Filter Resonance,Controls filter resonance amount,71,,0,127,,,,,0-based,,0-127: Resonance amount
+Korg,Pa4x,Envelope,Release,Controls release time of notes,72,,0,127,,,,,0-based,,0-127: Release time
+Korg,Pa4x,Envelope,Attack,Controls attack time of notes,73,,0,127,,,,,0-based,,0-127: Attack time
+Korg,Pa4x,Filter,Filter Cutoff,Controls filter cutoff frequency (Brilliance),74,,0,127,,,,,0-based,,0-127: Cutoff frequency
+Korg,Pa4x,Envelope,Decay Time,Controls decay time of notes,75,,0,127,,,,,0-based,,0-127: Decay time
+Korg,Pa4x,LFO,LFO1 Speed,Controls vibrato speed,76,,0,127,,,,,0-based,,0-127: Vibrato speed
+Korg,Pa4x,LFO,LFO1 Depth,Controls vibrato depth,77,,0,127,,,,,0-based,,0-127: Vibrato depth
+Korg,Pa4x,LFO,LFO1 Delay,Controls initial delay for vibrato,78,,0,127,,,,,0-based,,0-127: Vibrato delay
+Korg,Pa4x,Filter,Filter EG,Controls filter envelope generator,79,,0,127,,,,,0-based,,0-127: Filter EG amount
+Korg,Pa4x,Sound,Sound Controller 1,General purpose sound controller 1,80,,0,127,,,,,0-based,,0-127: Controller value
+Korg,Pa4x,Sound,Sound Controller 2,General purpose sound controller 2,81,,0,127,,,,,0-based,,0-127: Controller value
+Korg,Pa4x,Controller,General Purpose 7,Assignable controller 7,82,,0,127,,,,,0-based,,0-127: Controller value
+Korg,Pa4x,Controller,General Purpose 8,Assignable controller 8,83,,0,127,,,,,0-based,,0-127: Controller value
+Korg,Pa4x,Performance,Portamento CC Control,Controls portamento amount,84,,0,127,,,,,0-based,,0-127: Portamento amount
+Korg,Pa4x,Effects,FX1 Depth,Controls A/B Master FX1 (reverb) send level,91,,0,127,,,,,0-based,,0-127: Effect send level
+Korg,Pa4x,Effects,FX2 Controller,Controls effect 2 parameters,92,,0,127,,,,,0-based,,0-127: Effect parameter
+Korg,Pa4x,Effects,FX3 Depth,Controls A/B Master FX2 (modulation) send level,93,,0,127,,,,,0-based,,0-127: Effect send level
+Korg,Pa4x,Effects,FX4 Controller,Controls effect 4 parameters,94,,0,127,,,,,0-based,,0-127: Effect parameter
+Korg,Pa4x,Effects,FX5 Controller,Controls effect 5 parameters,95,,0,127,,,,,0-based,,0-127: Effect parameter
+Korg,Pa4x,System,Data Increment,Increments data for RPN and NRPN messages,96,,0,127,,,,,0-based,,0-127: Increment data
+Korg,Pa4x,System,Data Decrement,Decrements data for RPN and NRPN messages,97,,0,127,,,,,0-based,,0-127: Decrement data
+Korg,Pa4x,System,NRPN LSB,LSB part of NRPN parameter selection,98,,0,127,,,,,0-based,Used with CC#99 to select NRPN parameters,0-127: Parameter selection
+Korg,Pa4x,System,NRPN MSB,MSB part of NRPN parameter selection,99,,0,127,,,,,0-based,Used with CC#98 to select NRPN parameters,0-127: Parameter selection
+Korg,Pa4x,System,RPN LSB,LSB part of RPN parameter selection,100,,0,127,,,,,0-based,See MIDI Implementation Chart,0-127: Parameter selection
+Korg,Pa4x,System,RPN MSB,MSB part of RPN parameter selection,101,,0,127,,,,,0-based,See MIDI Implementation Chart,0-127: Parameter selection
+Korg,Pa4x,System,All Sound Off,Mutes all sounding notes immediately,120,,0,127,,,,,0-based,Regardless of release time or sustain,0-127: All sound off
+Korg,Pa4x,System,Reset All Controllers,Resets all controllers to default values,121,,0,127,,,,,0-based,,0-127: Reset controllers
+Korg,Pa4x,System,Local On/Off Switch,Controls internal connection of MIDI keyboard,122,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Korg,Pa4x,System,All Notes Off,Mutes all sounding notes,123,,0,127,,,,,0-based,Respects release time and sustain,0-127: All notes off
+Korg,Pa4x,System,Omni Mode Off,Sets to "Omni Off" mode,124,,0,127,,,,,0-based,,0-127: Omni Off
+Korg,Pa4x,System,Omni Mode On,Sets to "Omni On" mode,125,,0,127,,,,,0-based,,0-127: Omni On
+Korg,Pa4x,System,Mono Mode,Sets device to Monophonic mode,126,,0,127,,,,,0-based,,0-127: Mono Mode
+Korg,Pa4x,System,Poly Mode,Sets device to Polyphonic mode,127,,0,127,,,,,0-based,,0-127: Poly Mode
+Korg,Pa4x,Sound,Vibrato Rate,Controls vibrato rate in Song Play/Sequencer mode,,,0,127,1,8,0,127,0-based,Song Play/Sequencer mode only,0-127: Vibrato rate
+Korg,Pa4x,Sound,Vibrato Depth,Controls vibrato depth in Song Play/Sequencer mode,,,0,127,1,9,0,127,0-based,Song Play/Sequencer mode only; 64=No change,0-127: Vibrato depth
+Korg,Pa4x,Sound,Vibrato Decay,Controls vibrato decay in Song Play/Sequencer mode,,,0,127,1,10,0,127,0-based,Song Play/Sequencer mode only; 64=No change,0-127: Vibrato decay
+Korg,Pa4x,Filter,Filter Cutoff NRPN,Controls filter cutoff in Song Play/Sequencer mode,,,0,127,1,32,0,127,0-based,Song Play/Sequencer mode only; 64=No change,0-127: Filter cutoff
+Korg,Pa4x,Filter,Resonance NRPN,Controls filter resonance in Song Play/Sequencer mode,,,0,127,1,33,0,127,0-based,Song Play/Sequencer mode only; 64=No change,0-127: Resonance
+Korg,Pa4x,Envelope,EG Attack Time,Controls envelope attack time in Song Play/Sequencer mode,,,0,127,1,99,0,127,0-based,Song Play/Sequencer mode only; 64=No change,0-127: Attack time
+Korg,Pa4x,Envelope,EG Decay Time,Controls envelope decay time in Song Play/Sequencer mode,,,0,127,1,100,0,127,0-based,Song Play/Sequencer mode only; 64=No change,0-127: Decay time
+Korg,Pa4x,Envelope,EG Release Time,Controls envelope release time in Song Play/Sequencer mode,,,0,127,1,102,0,127,0-based,Song Play/Sequencer mode only; 64=No change,0-127: Release time
+Korg,Pa4x,Drum,Drum Filter Cutoff,Controls drum filter cutoff in Song Play/Sequencer mode,,,0,127,20,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Filter cutoff
+Korg,Pa4x,Drum,Drum Filter Resonance,Controls drum filter resonance in Song Play/Sequencer mode,,,0,127,21,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Resonance
+Korg,Pa4x,Drum,Drum EG Attack Time,Controls drum envelope attack time in Song Play/Sequencer mode,,,0,127,22,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Attack time
+Korg,Pa4x,Drum,Drum EG Decay Time,Controls drum envelope decay time in Song Play/Sequencer mode,,,0,127,23,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Decay time
+Korg,Pa4x,Drum,Drum Coarse Tune,Controls drum coarse tuning in Song Play/Sequencer mode,,,0,127,24,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Coarse tune
+Korg,Pa4x,Drum,Drum Fine Tune,Controls drum fine tuning in Song Play/Sequencer mode,,,0,127,25,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Fine tune
+Korg,Pa4x,Drum,Drum Volume,Controls drum volume in Song Play/Sequencer mode,,,0,127,26,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127)",0-127: Volume level
+Korg,Pa4x,Drum,Drum Panpot,Controls drum panning in Song Play/Sequencer mode,,,0,127,28,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Pan position
+Korg,Pa4x,Drum,Drum Reverb Send,Controls drum reverb send (FX1) in Song Play/Sequencer mode,,,0,127,29,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Reverb send level
+Korg,Pa4x,Drum,Drum Modulation Send,Controls drum modulation send (FX2) in Song Play/Sequencer mode,,,0,127,30,0-127,0,127,0-based,"Song Play/Sequencer mode only; LSB=drum number (0-127); 64=No change",0-127: Modulation send level
+Korg,Pa4x,SongBook,SongBook Entry,Controls SongBook entry selection in Style/Song Play mode,,,0,99,2,64,0,99,0-based,"Style Play and Song Play mode only",0-99: SongBook entry

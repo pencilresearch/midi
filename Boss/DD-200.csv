@@ -1,0 +1,12 @@
+BOSS,DD-200,Time,Time,Controls the delay time,17,,0,127,,,,,0-based,Default CC can be changed to 1-31 or 64-95,0-127: Delay time amount
+BOSS,DD-200,Feedback,Feedback,Controls the number of delay repeats,18,,0,127,,,,,0-based,Default CC can be changed to 1-31 or 64-95,0-127: Feedback amount
+BOSS,DD-200,Level,Effect Level,Controls the delay effect level,19,,0,127,,,,,0-based,Default CC can be changed to 1-31 or 64-95,0-127: Effect level
+BOSS,DD-200,Tone,Tone,Controls the tone/EQ of the delay repeats,20,,0,127,,,,,0-based,Default CC can be changed to 1-31 or 64-95,0-127: Tone amount
+BOSS,DD-200,Modulation,Modulation,Controls the modulation amount of the delay,21,,0,127,,,,,0-based,Default CC can be changed to 1-31 or 64-95,0-127: Modulation amount
+BOSS,DD-200,Parameter,Parameter,Controls mode-specific parameter,22,,0,127,,,,,0-based,Default CC can be changed to 1-31 or 64-95,0-127: Parameter amount
+BOSS,DD-200,Switch,On/Off Switch,Controls the effect bypass state,28,,0,127,,,,,0-based,Default CC can be changed to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,DD-200,Memory,Memory,Selects memory/preset slot,82,,0,127,,,,,0-based,Default CC can be changed to 1-31 or 64-95,0-127: Memory selection
+BOSS,DD-200,Control,Control 1,Assignable controller 1,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,DD-200,Control,Control 2,Assignable controller 2,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,DD-200,Expression,Expression,Expression pedal control,,,0,127,,,,,0-based,CC number is user assignable,0-127: Expression position
+BOSS,DD-200,Effect,Effect On/Off,Controls the overall effect on/off state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On

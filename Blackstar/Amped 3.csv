@@ -1,0 +1,36 @@
+Blackstar,Amped 3,Preamp,Volume,Controls the preamp volume level,2,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Volume amount
+Blackstar,Amped 3,Preamp,ISF,Controls the Infinite Shape Feature tone character,3,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: ISF amount
+Blackstar,Amped 3,Preamp,Bass,Controls the bass EQ level,4,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Bass amount
+Blackstar,Amped 3,Preamp,Middle,Controls the middle EQ level,5,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Middle amount
+Blackstar,Amped 3,Preamp,Treble,Controls the treble EQ level,6,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Treble amount
+Blackstar,Amped 3,Preamp,Gain,Controls the preamp gain amount,7,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Gain amount
+Blackstar,Amped 3,Response,EL84,Selects the EL84 power amp response,8,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Response,EL34,Selects the EL34 power amp response,10,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Response,6L6,Selects the 6L6 power amp response,12,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Response,Presence,Controls the power amp presence,15,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Presence amount
+Blackstar,Amped 3,Master,Master Volume,Controls the master output volume,16,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Volume level
+Blackstar,Amped 3,Clean,Clean Patch,Selects the Clean patch,25,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Clean,Warm Voice,Selects the Warm voice for Clean patch,26,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Clean,Bright Voice,Selects the Bright voice for Clean patch,27,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Crunch,Crunch Patch,Selects the Crunch patch,38,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Crunch,Crunch Voice,Selects the normal Crunch voice,39,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Crunch,Super Crunch Voice,Selects the Super Crunch voice,40,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Overdrive,Overdrive Patch,Selects the Overdrive patch,51,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Overdrive,OD1 Voice,Selects the OD1 voice for Overdrive patch,52,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Overdrive,OD2 Voice,Selects the OD2 voice for Overdrive patch,53,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Boost,Boost Footswitch,Toggles the boost effect on/off,59,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 3,Boost,Boost Post,Sets the boost to post position,60,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Boost,Boost Pre,Sets the boost to pre position,61,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Boost,Boost Level,Controls the level of the boost effect,64,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Boost level
+Blackstar,Amped 3,FX Loop,FX Loop Pre,Sets the effects loop to pre position,75,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,FX Loop,FX Loop Post,Sets the effects loop to post position,76,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,FX Loop,FX Loop Series,Sets the effects loop to series mode,77,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,FX Loop,FX Loop Parallel,Sets the effects loop to parallel mode,78,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Reverb,Reverb Footswitch,Toggles the reverb effect on/off,86,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 3,Reverb,Reverb Bright,Selects the bright reverb type,87,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Reverb,Reverb Dark,Selects the dark reverb type,88,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Reverb,Reverb Level,Controls the reverb effect level,91,,0,127,,,,,0-based,Default MIDI channel is 1,0-127: Reverb level
+Blackstar,Amped 3,Reverb,Reverb Hold,Enables the reverb hold function,92,,0,127,,,,,0-based,Default MIDI channel is 1,0: Off; 127: On
+Blackstar,Amped 3,Power Level,1W Power,Sets the power output to 1 watt,110,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Power Level,20W Power,Sets the power output to 20 watts,111,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On
+Blackstar,Amped 3,Power Level,100W Power,Sets the power output to 100 watts,112,,0,127,,,,,0-based,Default MIDI channel is 1,0-126: Off; 127: On

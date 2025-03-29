@@ -1,0 +1,15 @@
+Lexicon,MX200,Processor 1,Effect Type,Selects the effect type for Processor 1,12,,0,127,,,,,0-based,Controls which effect algorithm is active in Processor 1,0-127: Effect type selection
+Lexicon,MX200,Processor 1,Bypass,Controls bypass state of Processor 1,13,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: Active
+Lexicon,MX200,Processor 1,Pre Delay Knob,Controls pre-delay time for Processor 1,14,,0,127,,,,,0-based,Emulates the Pre Delay knob,0-127: Pre-delay amount
+Lexicon,MX200,Processor 1,Decay Knob,Controls decay time for Processor 1,15,,0,127,,,,,0-based,Emulates the Decay knob,0-127: Decay time
+Lexicon,MX200,Processor 1,Liveliness Knob,Controls liveliness/brightness for Processor 1,16,,0,127,,,,,0-based,Emulates the Liveliness knob,0-127: Liveliness amount
+Lexicon,MX200,Processor 1,Tempo,Controls tempo-related parameters for Processor 1,17,,0,127,,,,,0-based,Controls tempo-based settings,0-127: Tempo value
+Lexicon,MX200,Processor 1,Effect Mix,Controls wet/dry mix for Processor 1,26,,0,127,,,,,0-based,Emulates the Mix control for Processor 1,0-127: Mix amount
+Lexicon,MX200,Processor 2,Effect Type,Selects the effect type for Processor 2,19,,0,127,,,,,0-based,Controls which effect algorithm is active in Processor 2,0-127: Effect type selection
+Lexicon,MX200,Processor 2,Bypass,Controls bypass state of Processor 2,20,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: Active
+Lexicon,MX200,Processor 2,Pre Delay Knob,Controls pre-delay time for Processor 2,21,,0,127,,,,,0-based,Emulates the Pre Delay knob,0-127: Pre-delay amount
+Lexicon,MX200,Processor 2,Decay Knob,Controls decay time for Processor 2,22,,0,127,,,,,0-based,Emulates the Decay knob,0-127: Decay time
+Lexicon,MX200,Processor 2,Liveliness Knob,Controls liveliness/brightness for Processor 2,23,,0,127,,,,,0-based,Emulates the Liveliness knob,0-127: Liveliness amount
+Lexicon,MX200,Processor 2,Tempo,Controls tempo-related parameters for Processor 2,24,,0,127,,,,,0-based,Controls tempo-based settings,0-127: Tempo value
+Lexicon,MX200,Processor 2,Effect Mix,Controls wet/dry mix for Processor 2,27,,0,127,,,,,0-based,Emulates the Mix control for Processor 2,0-127: Mix amount
+Lexicon,MX200,Global,Effect Routing,Controls the routing configuration between processors,28,,0,127,,,,,0-based,Determines how Processor 1 and 2 are connected,0-127: Routing configuration

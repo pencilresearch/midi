@@ -1,0 +1,57 @@
+Nord,C2D,System,Bank Select MSB,Bank select MSB,0,,0,127,,,,,0-based,,0-127: MSB value
+Nord,C2D,Organ,Organ Preset Select,Selects between organ presets,3,,0,127,,,,,0-based,,Values select different presets
+Nord,C2D,Expression,Swell Pedal,Controls swell pedal function,4,,0,127,,,,,0-based,,0-127: Pedal position
+Nord,C2D,Master,Level,Controls the overall output level,7,,0,127,,,,,0-based,,0-127: Level amount
+Nord,C2D,Organ,Organ Model Selector,Selects the organ model type,9,,0,127,,,,,0-based,,Values select different models
+Nord,C2D,Drawbars,Drawbar A1,Controls drawbar A1 position,16,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar A2,Controls drawbar A2 position,17,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar A3,Controls drawbar A3 position,18,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar A4,Controls drawbar A4 position,19,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar A5,Controls drawbar A5 position,20,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar A6,Controls drawbar A6 position,21,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar A7,Controls drawbar A7 position,22,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar A8,Controls drawbar A8 position,23,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar A9,Controls drawbar A9 position,24,,0,127,,,,,0-based,Can be set to Drawbar/Presets,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B1,Controls drawbar B1 position,36,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B2,Controls drawbar B2 position,37,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B3,Controls drawbar B3 position,38,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B4,Controls drawbar B4 position,39,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B5,Controls drawbar B5 position,40,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B6,Controls drawbar B6 position,41,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B7,Controls drawbar B7 position,42,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B8,Controls drawbar B8 position,43,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Drawbars,Drawbar B9,Controls drawbar B9 position,44,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,C2D,Piano,Piano Model,Selects the piano model,45,,0,127,,,,,0-based,,Values select different models
+Nord,C2D,Piano,Piano Variation,Selects the piano variation,46,,0,127,,,,,0-based,,Values select different variations
+Nord,C2D,Piano,Piano KBD Touch,Adjusts piano keyboard touch sensitivity,47,,0,127,,,,,0-based,,0-127: Touch sensitivity
+Nord,C2D,Performance,Live Mode,Toggles live mode on/off,48,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Delay,Delay Swell Only,Applies delay to swell only,75,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Delay,Delay Amount,Controls the delay amount,76,,0,127,,,,,0-based,,0-127: Delay amount
+Nord,C2D,Delay,Delay Tempo,Sets the delay tempo,77,,0,127,,,,,0-based,,0-127: Tempo value
+Nord,C2D,Delay,Delay Feedback,Controls the delay feedback amount,78,,0,127,,,,,0-based,,0-127: Feedback amount
+Nord,C2D,Delay,Delay On/Off,Toggles delay effect on/off,80,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Speaker,Speaker Select,Selects the speaker type,81,,0,127,,,,,0-based,,Values select different speaker models
+Nord,C2D,Rotary,Rotary Speaker Control,Controls rotary speaker speed (slow/fast),82,,0,127,,,,,0-based,,0-63: Slow; 64-127: Fast
+Nord,C2D,Vibrato,Vib/Chorus/Trem Mode,Selects vibrato/chorus/tremolo mode,84,,0,127,,,,,0-based,,Values select different modes
+Nord,C2D,Vibrato,Vib On/Off (SW/GR),Toggles vibrato for Swell/Great,85,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Percussion,Perc On/Off,Toggles percussion on/off,87,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Percussion,Perc Third,Selects percussion harmonic (Third or Second),95,,0,127,,,,,0-based,,0-63: Second; 64-127: Third
+Nord,C2D,Coupling,Ped/GR Low coupler,Couples pedal to great low register,103,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Coupling,SW 16/GR,Couples swell 16' to great,104,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Coupling,Swell 16 & 4 coupler,Activates swell 16' and 4' couplers,105,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Coupling,Swell/Ped & Gr/Ped coupler,Couples swell/great to pedals,106,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Synth,Synth Bass On/Off,Toggles synth bass on/off,110,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Drive,Drive Amount,Controls the amount of drive/distortion,111,,0,127,,,,,0-based,,0-127: Drive amount
+Nord,C2D,Drive,Drive On/Off,Toggles drive effect on/off,112,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,EQ,EQ Treble,Controls the treble EQ amount,113,,0,127,,,,,0-based,,0-127: Treble amount
+Nord,C2D,EQ,EQ Bass,Controls the bass EQ amount,114,,0,127,,,,,0-based,,0-127: Bass amount
+Nord,C2D,EQ,EQ On/Off,Toggles EQ on/off,115,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,EQ,Ped Great Man,Routes EQ to pedal/great manual,116,,0,127,,,,,0-based,,Values select different routings
+Nord,C2D,EQ,EQ Mid Frequency,Controls the mid EQ center frequency,117,,0,127,,,,,0-based,,0-127: Frequency value
+Nord,C2D,System,Bank Select LSB,Bank select LSB,32,,0,127,,,,,0-based,,0-127: LSB value
+Nord,C2D,Performance,Sustain Pedal,Controls sustain pedal function,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Performance,Sostenuto,Controls sostenuto pedal function,66,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Performance,Soft Pedal,Controls soft pedal function,67,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Reverb,Reverb Selection,Selects reverb type,96,,0,127,,,,,0-based,,Values select different reverb types
+Nord,C2D,Reverb,Reverb On/Off,Toggles reverb effect on/off,97,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,C2D,Reverb,Reverb Amount,Controls the reverb amount,98,,0,127,,,,,0-based,,0-127: Reverb amount

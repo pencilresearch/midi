@@ -1,0 +1,11 @@
+BOSS,MD-500,Parameters,Rate/Value Knob,Controls the rate/speed of modulation effects,17,,0,127,,,,,0-based,Emulates the RATE/VALUE knob,0-127: Rate/value amount
+BOSS,MD-500,Parameters,Depth Knob,Controls the depth/intensity of modulation,18,,0,127,,,,,0-based,Emulates the DEPTH knob,0-127: Depth amount
+BOSS,MD-500,Parameters,Effect Level Knob,Controls the level of the modulation effect,19,,0,127,,,,,0-based,Emulates the E.LEVEL knob,0-127: Effect level
+BOSS,MD-500,Parameters,Parameter 1 Knob,Controls the first mode-specific parameter,20,,0,127,,,,,0-based,Emulates the PARAM 1 knob,0-127: Parameter 1 amount
+BOSS,MD-500,Parameters,Parameter 2 Knob,Controls the second mode-specific parameter,21,,0,127,,,,,0-based,Emulates the PARAM 2 knob,0-127: Parameter 2 amount
+BOSS,MD-500,Controls,CTL 1 Switch,Controls the CTL 1 switch function,80,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,MD-500,Controls,CTL 2 Switch,Controls the CTL 2 switch function,81,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,MD-500,Controls,Expression Pedal,Controls the parameter assigned to EXP pedal,16,,0,127,,,,,0-based,,0-127: Expression position
+BOSS,MD-500,Bypass,Effect On/Bypass,Controls the bypass state of the effect,27,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: On
+BOSS,MD-500,Bypass,Effect A On/Bypass,Controls the bypass state of effect A,28,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: On
+BOSS,MD-500,Bypass,Effect B On/Bypass,Controls the bypass state of effect B,29,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: On

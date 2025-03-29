@@ -1,0 +1,14 @@
+MLC,LS12/2,Mono Loops,Loop 1,Controls audio loop 1 (mono mode),11,,0,127,,,,,0-based,Toggles mono loop 1,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 2,Controls audio loop 2 (mono mode),12,,0,127,,,,,0-based,Toggles mono loop 2,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 3,Controls audio loop 3 (mono mode),13,,0,127,,,,,0-based,Toggles mono loop 3,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 4,Controls audio loop 4 (mono mode),14,,0,127,,,,,0-based,Toggles mono loop 4,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 5,Controls audio loop 5 (mono mode),15,,0,127,,,,,0-based,Toggles mono loop 5,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 6,Controls audio loop 6 (mono mode),16,,0,127,,,,,0-based,Toggles mono loop 6,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 7,Controls audio loop 7 (mono mode),17,,0,127,,,,,0-based,Toggles mono loop 7,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 8,Controls audio loop 8 (mono mode),18,,0,127,,,,,0-based,Toggles mono loop 8,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 9,Controls audio loop 9 (mono mode),19,,0,127,,,,,0-based,Toggles mono loop 9,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 10,Controls audio loop 10 (mono mode),20,,0,127,,,,,0-based,Toggles mono loop 10,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 11,Controls audio loop 11 (mono mode),21,,0,127,,,,,0-based,Toggles mono loop 11,0: OFF; 127: ON
+MLC,LS12/2,Mono Loops,Loop 12,Controls audio loop 12 (mono mode),22,,0,127,,,,,0-based,Toggles mono loop 12,0: OFF; 127: ON
+MLC,LS12/2,Switches,Switch 1,Controls switch 1 (normal mode),23,,0,127,,,,,0-based,Toggles switch 1,0: OFF; 127: ON
+MLC,LS12/2,Switches,Switch 2,Controls switch 2 (normal mode),24,,0,127,,,,,0-based,Toggles switch 2,0: OFF; 127: ON

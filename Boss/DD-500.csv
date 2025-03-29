@@ -1,0 +1,16 @@
+BOSS,DD-500,Controls,A Switch,Controls the A switch function,82,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,DD-500,Controls,B Switch,Controls the B switch function,83,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,DD-500,Controls,TAP/CTL Switch,Controls the TAP/CTL switch function,84,,0,127,,,,,0-based,,0-63: Off; 64-127: On/Tap
+BOSS,DD-500,Controls,Expression Pedal,Controls the parameter assigned to EXP pedal,16,,0,127,,,,,0-based,,0-127: Expression position
+BOSS,DD-500,Controls,CTL 1 Switch,Controls the CTL 1 switch function,80,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,DD-500,Controls,CTL 2 Switch,Controls the CTL 2 switch function,81,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,DD-500,Parameters,Feedback Knob,Controls the feedback/repeats amount,17,,0,127,,,,,0-based,Emulates the FEEDBACK knob,0-127: Feedback amount
+BOSS,DD-500,Parameters,Tone Knob,Controls the tone of the delay repeats,19,,0,127,,,,,0-based,Emulates the TONE knob,0-127: Tone amount
+BOSS,DD-500,Parameters,Effect Level Knob,Controls the level of the delay effect,18,,0,127,,,,,0-based,Emulates the E.LEVEL knob,0-127: Effect level
+BOSS,DD-500,Parameters,Modulation Depth Knob,Controls the depth of delay modulation,20,,0,127,,,,,0-based,Emulates the MOD DEPTH knob,0-127: Modulation depth
+BOSS,DD-500,Bypass,Delay On/Bypass,Controls the bypass state of the delay effect,21,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: On
+BOSS,DD-500,Looper,Phrase Loop,Controls the phrase loop function,22,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,DD-500,Looper,Record/Overdub,Controls the record/overdub function,23,,0,127,,,,,0-based,,0-63: Stop; 64-127: Record/Overdub
+BOSS,DD-500,Looper,Loop Playback,Controls the loop playback function,24,,0,127,,,,,0-based,,0-63: Stop; 64-127: Play
+BOSS,DD-500,Looper,Stop,Controls the stop function for the looper,25,,0,127,,,,,0-based,,0-63: Active; 64-127: Stop
+BOSS,DD-500,Looper,Clear,Clears the recorded loop,26,,0,127,,,,,0-based,,0-63: Retain; 64-127: Clear

@@ -1,0 +1,11 @@
+Walrus Audio,ACS1,EQ,Bass,Controls the low frequency response,3,,0,127,,,,,0-based,,0-127: Bass amount
+Walrus Audio,ACS1,EQ,Mid,Controls the midrange frequency response,14,,0,127,,,,,0-based,,0-127: Mid amount
+Walrus Audio,ACS1,EQ,Treb,Controls the high frequency response,15,,0,127,,,,,0-based,,0-127: Treble amount
+Walrus Audio,ACS1,Amp,Vol,Controls the overall output volume,20,,0,127,,,,,0-based,,0-127: Volume level
+Walrus Audio,ACS1,Amp,Gain,Controls the preamp gain/distortion amount,21,,0,127,,,,,0-based,,0-127: Gain amount
+Walrus Audio,ACS1,Room,Room,Controls the room ambience/reverb amount,22,,0,127,,,,,0-based,,0-127: Room amount
+Walrus Audio,ACS1,Cabinet,Cab Switch,Selects the cabinet simulation,27,,0,127,,,,,0-based,Six cabinet options across front and back positions,0-20: Front A; 22-42: Front B; 44-64: Front C; 66-86: Back A; 88-108: Back B; 110-127: Back C
+Walrus Audio,ACS1,Output,L + R Switch,Selects the output routing configuration,28,,0,127,,,,,0-based,Selects between left, stereo, and right output modes,0-42: Left; 43-85: Middle (stereo); 86-127: Right
+Walrus Audio,ACS1,Amp,Amp Switch,Selects the amp model,29,,0,127,,,,,0-based,Three different amp models available,0-42: Fullerton; 43-85: London; 86-127: Dartford
+Walrus Audio,ACS1,Bypass,Bypass Switch,Controls the bypass state of the effect,30,,0,127,,,,,0-based,Toggles between bypassed and engaged states,0: Bypassed; 127: Engaged
+Walrus Audio,ACS1,Boost,Boost Switch,Controls the boost function,31,,0,127,,,,,0-based,Toggles boost on/off,0: Boost off; 127: Boost on

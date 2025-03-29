@@ -1,0 +1,96 @@
+GFI System,Enieqma,Global,EQ Bypass/Engage,Controls global EQ bypass state,0,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+GFI System,Enieqma,Channel,EQ-L Bypass/Engage,Controls left channel EQ bypass,1,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+GFI System,Enieqma,Channel,EQ-R Bypass/Engage,Controls right channel EQ bypass,2,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+GFI System,Enieqma,Booster,Booster On/Off,Enables or disables the booster,3,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,Stereo,Stereo Expander,Controls stereo expansion mode,4,,0,2,,,,,0-based,,0: Off; 1: Short Delay; 2: Dimensional Expansion
+GFI System,Enieqma,Stereo,Delay,Controls stereo expansion delay time,5,,0,127,,,,,0-based,,0-127: Delay amount
+GFI System,Enieqma,Stereo,Depth,Controls stereo expansion depth,6,,0,127,,,,,0-based,,0-127: Depth amount
+GFI System,Enieqma,Preset,Preset Up/Down,Navigates between presets,7,,0,127,,,,,0-based,,0: Down; 127: Up
+GFI System,Enieqma,Global,EQ Mode,Selects the EQ mode,8,,0,5,,,,,0-based,,0: ParaEQ; 1: SimplEQ; 2: PultEQ; 3: SimplEQ + ParaEQ; 4: PultEQ + ParaEQ
+GFI System,Enieqma,Channel,EQ Channel Mode,Sets linked or independent channel mode for EQ,9,,0,127,,,,,0-based,,0: Linked; 127: Independent
+GFI System,Enieqma,Booster,Boost Channel Mode,Sets linked or independent channel mode for booster,10,,0,127,,,,,0-based,,0: Linked; 127: Independent
+GFI System,Enieqma,Global,Input Level,Controls input level,11,,0,127,,,,,0-based,,0-127: Input level
+GFI System,Enieqma,Volume,Volume (L),Controls left channel volume,12,,0,127,,,,,0-based,,0-127: Volume level
+GFI System,Enieqma,Volume,Volume (R),Controls right channel volume,13,,0,127,,,,,0-based,,0-127: Volume level
+GFI System,Enieqma,Booster,Boost Level (L),Controls left channel boost level,14,,0,127,,,,,0-based,,0-127: Boost level
+GFI System,Enieqma,Booster,Boost Level (R),Controls right channel boost level,15,,0,127,,,,,0-based,,0-127: Boost level
+GFI System,Enieqma,Prototype,Prototype (L),Selects left channel prototype,16,,0,43,,,,,0-based,"Max value varies by EQ type: 43 for ParaEQ, 11 for SimplEQ/PultEQ",0-N: Prototype selection
+GFI System,Enieqma,Prototype,Prototype (R),Selects right channel prototype,17,,0,43,,,,,0-based,"Max value varies by EQ type: 43 for ParaEQ, 11 for SimplEQ/PultEQ",0-N: Prototype selection
+GFI System,Enieqma,ParaEQ Left,ParaEQ Type (band 1 - L),Selects filter type for band 1 left channel,18,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Left,ParaEQ Type (band 2 - L),Selects filter type for band 2 left channel,19,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Left,ParaEQ Type (band 3 - L),Selects filter type for band 3 left channel,20,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Left,ParaEQ Type (band 4 - L),Selects filter type for band 4 left channel,21,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Left,ParaEQ Type (band 5 - L),Selects filter type for band 5 left channel,22,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Left,ParaEQ Gain (band 1 - L),Controls gain for band 1 left channel,23,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Left,ParaEQ Gain (band 2 - L),Controls gain for band 2 left channel,24,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Left,ParaEQ Gain (band 3 - L),Controls gain for band 3 left channel,25,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Left,ParaEQ Gain (band 4 - L),Controls gain for band 4 left channel,26,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Left,ParaEQ Gain (band 5 - L),Controls gain for band 5 left channel,27,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Left,ParaEQ Q (band 1 - L),Controls Q factor for band 1 left channel,28,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Left,ParaEQ Q (band 2 - L),Controls Q factor for band 2 left channel,29,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Left,ParaEQ Q (band 3 - L),Controls Q factor for band 3 left channel,30,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Left,ParaEQ Q (band 4 - L),Controls Q factor for band 4 left channel,31,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Left,ParaEQ Q (band 5 - L),Controls Q factor for band 5 left channel,32,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Left,ParaEQ Freq (band 1 - L),Controls frequency for band 1 left channel,33,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Left,ParaEQ Freq (band 2 - L),Controls frequency for band 2 left channel,34,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Left,ParaEQ Freq (band 3 - L),Controls frequency for band 3 left channel,35,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Left,ParaEQ Freq (band 4 - L),Controls frequency for band 4 left channel,36,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Left,ParaEQ Freq (band 5 - L),Controls frequency for band 5 left channel,37,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Left,ParaEQ State (band 1 - L),Enables or disables band 1 left channel,38,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Left,ParaEQ State (band 2 - L),Enables or disables band 2 left channel,39,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Left,ParaEQ State (band 3 - L),Enables or disables band 3 left channel,40,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Left,ParaEQ State (band 4 - L),Enables or disables band 4 left channel,41,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Left,ParaEQ State (band 5 - L),Enables or disables band 5 left channel,42,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Right,ParaEQ Type (band 1 - R),Selects filter type for band 1 right channel,43,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Right,ParaEQ Type (band 2 - R),Selects filter type for band 2 right channel,44,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Right,ParaEQ Type (band 3 - R),Selects filter type for band 3 right channel,45,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Right,ParaEQ Type (band 4 - R),Selects filter type for band 4 right channel,46,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Right,ParaEQ Type (band 5 - R),Selects filter type for band 5 right channel,47,,0,4,,,,,0-based,,0: Highpass; 1: Low-Shelving; 2: Bell; 3: High-Shelving; 4: Lowpass
+GFI System,Enieqma,ParaEQ Right,ParaEQ Gain (band 1 - R),Controls gain for band 1 right channel,48,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Right,ParaEQ Gain (band 2 - R),Controls gain for band 2 right channel,49,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Right,ParaEQ Gain (band 3 - R),Controls gain for band 3 right channel,50,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Right,ParaEQ Gain (band 4 - R),Controls gain for band 4 right channel,51,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Right,ParaEQ Gain (band 5 - R),Controls gain for band 5 right channel,52,,0,127,,,,,0-based,,0-127: Gain amount
+GFI System,Enieqma,ParaEQ Right,ParaEQ Q (band 1 - R),Controls Q factor for band 1 right channel,53,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Right,ParaEQ Q (band 2 - R),Controls Q factor for band 2 right channel,54,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Right,ParaEQ Q (band 3 - R),Controls Q factor for band 3 right channel,55,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Right,ParaEQ Q (band 4 - R),Controls Q factor for band 4 right channel,56,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Right,ParaEQ Q (band 5 - R),Controls Q factor for band 5 right channel,57,,0,127,,,,,0-based,,0-127: Q factor
+GFI System,Enieqma,ParaEQ Right,ParaEQ Freq (band 1 - R),Controls frequency for band 1 right channel,58,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Right,ParaEQ Freq (band 2 - R),Controls frequency for band 2 right channel,59,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Right,ParaEQ Freq (band 3 - R),Controls frequency for band 3 right channel,60,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Right,ParaEQ Freq (band 4 - R),Controls frequency for band 4 right channel,61,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Right,ParaEQ Freq (band 5 - R),Controls frequency for band 5 right channel,62,,0,127,,,,,0-based,,0-127: Frequency value
+GFI System,Enieqma,ParaEQ Right,ParaEQ State (band 1 - R),Enables or disables band 1 right channel,63,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Right,ParaEQ State (band 2 - R),Enables or disables band 2 right channel,64,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Right,ParaEQ State (band 3 - R),Enables or disables band 3 right channel,65,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Right,ParaEQ State (band 4 - R),Enables or disables band 4 right channel,66,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,ParaEQ Right,ParaEQ State (band 5 - R),Enables or disables band 5 right channel,67,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,SimplEQ Left,SimplEQ Type (L),Selects EQ type for left channel,68,,0,6,,,,,0-based,,0: Tonestack F; 1: Tonestack M; 2: Tonestack V; 3: Bass & Treble; 4: Wah; 5: Tilt; 6: Scooped-Tilt
+GFI System,Enieqma,SimplEQ Left,SimplEQ Bass (L),Controls bass for left channel,69,,0,127,,,,,0-based,,0-127: Bass amount
+GFI System,Enieqma,SimplEQ Left,SimplEQ Mids (L),Controls mids for left channel,70,,0,127,,,,,0-based,,0-127: Mids amount
+GFI System,Enieqma,SimplEQ Left,SimplEQ Treble (L),Controls treble for left channel,71,,0,127,,,,,0-based,,0-127: Treble amount
+GFI System,Enieqma,SimplEQ Right,SimplEQ Type (R),Selects EQ type for right channel,72,,0,6,,,,,0-based,,0: Tonestack F; 1: Tonestack M; 2: Tonestack V; 3: Bass & Treble; 4: Wah; 5: Tilt; 6: Scooped-Tilt
+GFI System,Enieqma,SimplEQ Right,SimplEQ Bass (R),Controls bass for right channel,73,,0,127,,,,,0-based,,0-127: Bass amount
+GFI System,Enieqma,SimplEQ Right,SimplEQ Mids (R),Controls mids for right channel,74,,0,127,,,,,0-based,,0-127: Mids amount
+GFI System,Enieqma,SimplEQ Right,SimplEQ Treble (R),Controls treble for right channel,75,,0,127,,,,,0-based,,0-127: Treble amount
+GFI System,Enieqma,PultEQ Left,PultEQ Low Peak (L),Controls low peak for left channel,76,,0,127,,,,,0-based,,0-127: Low peak amount
+GFI System,Enieqma,PultEQ Left,PultEQ Low Freq (L),Controls low frequency for left channel,77,,0,127,,,,,0-based,,0-127: Low frequency value
+GFI System,Enieqma,PultEQ Left,PultEQ Mid Dip (L),Controls mid dip for left channel,78,,0,127,,,,,0-based,,0-127: Mid dip amount
+GFI System,Enieqma,PultEQ Left,PultEQ Mid Freq (L),Controls mid frequency for left channel,79,,0,127,,,,,0-based,,0-127: Mid frequency value
+GFI System,Enieqma,PultEQ Left,PultEQ High Peak (L),Controls high peak for left channel,80,,0,127,,,,,0-based,,0-127: High peak amount
+GFI System,Enieqma,PultEQ Left,PultEQ High Freq (L),Controls high frequency for left channel,81,,0,127,,,,,0-based,,0-127: High frequency value
+GFI System,Enieqma,PultEQ Right,PultEQ Low Peak (R),Controls low peak for right channel,82,,0,127,,,,,0-based,,0-127: Low peak amount
+GFI System,Enieqma,PultEQ Right,PultEQ Low Freq (R),Controls low frequency for right channel,83,,0,127,,,,,0-based,,0-127: Low frequency value
+GFI System,Enieqma,PultEQ Right,PultEQ Mid Dip (R),Controls mid dip for right channel,84,,0,127,,,,,0-based,,0-127: Mid dip amount
+GFI System,Enieqma,PultEQ Right,PultEQ Mid Freq (R),Controls mid frequency for right channel,85,,0,127,,,,,0-based,,0-127: Mid frequency value
+GFI System,Enieqma,PultEQ Right,PultEQ High Peak (R),Controls high peak for right channel,86,,0,127,,,,,0-based,,0-127: High peak amount
+GFI System,Enieqma,PultEQ Right,PultEQ High Freq (R),Controls high frequency for right channel,87,,0,127,,,,,0-based,,0-127: High frequency value
+GFI System,Enieqma,Limiter,Limiter On/Off,Enables or disables the limiter,88,,0,127,,,,,0-based,,0: Off; 127: On
+GFI System,Enieqma,Limiter,Limiter Channel Mode,Sets linked or independent channel mode for limiter,89,,0,127,,,,,0-based,,0: Linked; 127: Independent
+GFI System,Enieqma,Limiter Left,Limiter Input Gain (L),Controls limiter input gain for left channel,90,,0,127,,,,,0-based,,0-127: Input gain
+GFI System,Enieqma,Limiter Left,Limiter Threshold (L),Controls limiter threshold for left channel,91,,0,127,,,,,0-based,,0-127: Threshold value
+GFI System,Enieqma,Limiter Left,Limiter Attack (L),Controls limiter attack time for left channel,92,,0,127,,,,,0-based,,0-127: Attack time
+GFI System,Enieqma,Limiter Right,Limiter Input Gain (R),Controls limiter input gain for right channel,93,,0,127,,,,,0-based,,0-127: Input gain
+GFI System,Enieqma,Limiter Right,Limiter Threshold (R),Controls limiter threshold for right channel,94,,0,127,,,,,0-based,,0-127: Threshold value
+GFI System,Enieqma,Limiter Right,Limiter Attack (R),Controls limiter attack time for right channel,95,,0,127,,,,,0-based,,0-127: Attack time

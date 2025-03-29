@@ -1,0 +1,70 @@
+Meris,Mercury X,Main,Mix,Controls wet/dry mix,1,,0,127,,,,,0-based,,0-127: Mix amount
+Meris,Mercury X,Main,Dry Trim,Controls dry signal level,2,,0,127,,,,,0-based,,0-127: Dry level
+Meris,Mercury X,Main,Wet Trim,Controls wet signal level,3,,0,127,,,,,0-based,,0-127: Wet level
+Meris,Mercury X,Main,Expression Pedal,Controls expression pedal parameter,4,,0,127,,,,,0-based,,0-127: Pedal position
+Meris,Mercury X,Preamp,Preamp Type,Selects preamp circuit type,5,,0,127,,,,,0-based,,"0-25: Off; 26-51: Volume Pedal; 52-76: Tube; 77-102: Transistor; 103-127: Op-Amp"
+Meris,Mercury X,Preamp,Preamp Location,Sets preamp position in signal chain,6,,0,127,,,,,0-based,,"0-25: Pre + Dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre Tank; 103-127: Post"
+Meris,Mercury X,Preamp,Gain/Vol Pedal Level,Controls preamp gain or volume pedal level,7,,0,127,,,,,0-based,,0-127: Level amount
+Meris,Mercury X,Main,Balance,Controls stereo balance,8,,0,127,,,,,Centered,,0-127: Balance position
+Meris,Mercury X,Preamp,Preamp Level,Controls preamp output level,11,,0,127,,,,,0-based,,0-127: Level amount
+Meris,Mercury X,Delay,Delay Structure,Selects between standard and reverse delay,13,,0,127,,,,,0-based,,"0-63: Standard; 64-127: Reverse"
+Meris,Mercury X,Main,Bypass,Enables or bypasses the effect,14,,0,127,,,,,0-based,,"0-63: FX Bypass; 64-127: FX Enable"
+Meris,Mercury X,Delay,Time,Controls delay time,15,,0,127,,,,,0-based,,0-127: Time amount
+Meris,Mercury X,Delay,Type,Selects delay type,16,,0,127,,,,,0-based,,"0-42: Digital; 43-85: BBD; 86-127: Magnetic"
+Meris,Mercury X,Delay,Left Note Division,Sets left channel note division,17,,0,127,,,,,0-based,,0-127: Division value
+Meris,Mercury X,Delay,Right Note Division,Sets right channel note division,18,,0,127,,,,,0-based,,0-127: Division value
+Meris,Mercury X,Delay,Feedback,Controls delay feedback amount,19,,0,127,,,,,0-based,,0-127: Feedback amount
+Meris,Mercury X,Delay,Cross Feedback,Controls cross-channel feedback amount,20,,0,127,,,,,0-based,,0-127: Cross feedback amount
+Meris,Mercury X,Delay,Modulation,Controls delay modulation amount,21,,0,127,,,,,0-based,,0-127: Modulation amount
+Meris,Mercury X,Delay,Damping,Controls high frequency attenuation,22,,0,127,,,,,0-based,,0-127: Damping amount
+Meris,Mercury X,Delay,Dry Blend,Controls dry signal mix in delay section,23,,0,127,,,,,0-based,,0-127: Dry blend amount
+Meris,Mercury X,Delay,Half Speed,Controls delay half-speed effect,24,,0,127,,,,,0-based,,0-127: Half speed amount
+Meris,Mercury X,Global,MIDI Clock,Sets MIDI clock behavior,28,,0,127,,,,,0-based,,"0-42: Use Global; 43-85: Force Listen; 86-127: Force Ignore"
+Meris,Mercury X,Reverb,Reverb Structure,Selects reverb algorithm,32,,0,127,,,,,0-based,,"0-15: Ultraplate; 16-31: Cathedra; 32-47: Spring; 48-63: 78 Room; 64-79: 78 Plate; 80-95: 78 Hall; 96-111: Prism; 112-127: Gravity"
+Meris,Mercury X,Reverb,Reverb Parameter 1,Controls reverb parameter 1,33,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Reverb Parameter 2,Controls reverb parameter 2,34,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Reverb Parameter 3,Controls reverb parameter 3,35,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Reverb Parameter 4,Controls reverb parameter 4,36,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Reverb Parameter 5,Controls reverb parameter 5,37,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Reverb Parameter 6,Controls reverb parameter 6,38,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Reverb Parameter 7,Controls reverb parameter 7,39,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Reverb Parameter 8,Controls reverb parameter 8,40,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Reverb Parameter 9,Controls reverb parameter 9,41,,0,127,,,,,0-based,Varies based on selected reverb structure,0-127: Parameter value
+Meris,Mercury X,Reverb,Predelay Blend,Controls reverb predelay blend,42,,0,127,,,,,0-based,,0-127: Blend amount
+Meris,Mercury X,Gate,Gate Attack,Controls gate attack time,43,,0,127,,,,,0-based,,0-127: Attack time
+Meris,Mercury X,Gate,Gate Hold,Controls gate hold time,44,,0,127,,,,,0-based,,0-127: Hold time
+Meris,Mercury X,Gate,Gate Decay,Controls gate decay time,45,,0,127,,,,,0-based,,0-127: Decay time
+Meris,Mercury X,Dynamics,Dynamics Type,Selects dynamics processor type,62,,0,127,,,,,0-based,,"0-15: Off; 16-31: Compressor; 32-47: Compressor Link; 48-63: Swell; 64-79: Diffusion; 80-95: Limiter; 96-111: Limiter Link; 112-127: Freeze"
+Meris,Mercury X,Dynamics,Dynamics Location,Sets dynamics processor position in signal chain,63,,0,127,,,,,0-based,,"0-25: Pre + Dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre Tank; 103-127: Post"
+Meris,Mercury X,Dynamics,Dynamics Parameter 1,Controls dynamics parameter 1,64,,0,127,,,,,0-based,Varies based on selected dynamics type,0-127: Parameter value
+Meris,Mercury X,Dynamics,Dynamics Parameter 2,Controls dynamics parameter 2,65,,0,127,,,,,0-based,Varies based on selected dynamics type,0-127: Parameter value
+Meris,Mercury X,Dynamics,Dynamics Parameter 3,Controls dynamics parameter 3,66,,0,127,,,,,0-based,Varies based on selected dynamics type,0-127: Parameter value
+Meris,Mercury X,Dynamics,Dynamics Parameter 4,Controls dynamics parameter 4,67,,0,127,,,,,0-based,Varies based on selected dynamics type,0-127: Parameter value
+Meris,Mercury X,Dynamics,Dynamics Parameter 5,Controls dynamics parameter 5,68,,0,127,,,,,0-based,Varies based on selected dynamics type,0-127: Parameter value
+Meris,Mercury X,Dynamics,Dynamics Parameter 6,Controls dynamics parameter 6,69,,0,127,,,,,0-based,Varies based on selected dynamics type,0-127: Parameter value
+Meris,Mercury X,Pitch,Pitch Type,Selects pitch effect type,70,,0,127,,,,,0-based,,"0-31: Off; 32-63: Poly Chroma; 64-95: Micro Shift; 96-127: Lo-Fi"
+Meris,Mercury X,Pitch,Pitch Location,Sets pitch effect position in signal chain,71,,0,127,,,,,0-based,,"0-25: Pre + Dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre Tank; 103-127: Post"
+Meris,Mercury X,Pitch,Pitch Parameter 1,Controls pitch parameter 1,72,,0,127,,,,,0-based,Varies based on selected pitch type,0-127: Parameter value
+Meris,Mercury X,Pitch,Pitch Parameter 2,Controls pitch parameter 2,73,,0,127,,,,,0-based,Varies based on selected pitch type,0-127: Parameter value
+Meris,Mercury X,Pitch,Pitch Parameter 3,Controls pitch parameter 3,74,,0,127,,,,,0-based,Varies based on selected pitch type,0-127: Parameter value
+Meris,Mercury X,Pitch,Pitch Parameter 4,Controls pitch parameter 4,75,,0,127,,,,,0-based,Varies based on selected pitch type,0-127: Parameter value
+Meris,Mercury X,Pitch,Pitch Parameter 5,Controls pitch parameter 5,76,,0,127,,,,,0-based,Varies based on selected pitch type,0-127: Parameter value
+Meris,Mercury X,Pitch,Pitch Parameter 6,Controls pitch parameter 6,77,,0,127,,,,,0-based,Varies based on selected pitch type,0-127: Parameter value
+Meris,Mercury X,Filter,Filter Type,Selects filter type,78,,0,127,,,,,0-based,,"0-31: Off; 32-63: Ladder; 64-95: State Var; 96-127: Parametric"
+Meris,Mercury X,Filter,Filter Location,Sets filter position in signal chain,79,,0,127,,,,,0-based,,"0-25: Pre + Dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre Tank; 103-127: Post"
+Meris,Mercury X,Filter,Filter Parameter 1,Controls filter parameter 1,80,,0,127,,,,,0-based,Varies based on selected filter type,0-127: Parameter value
+Meris,Mercury X,Filter,Filter Parameter 2,Controls filter parameter 2,81,,0,127,,,,,0-based,Varies based on selected filter type,0-127: Parameter value
+Meris,Mercury X,Filter,Filter Parameter 3,Controls filter parameter 3,82,,0,127,,,,,0-based,Varies based on selected filter type,0-127: Parameter value
+Meris,Mercury X,Filter,Filter Parameter 4,Controls filter parameter 4,83,,0,127,,,,,0-based,Varies based on selected filter type,0-127: Parameter value
+Meris,Mercury X,Filter,Filter Parameter 5,Controls filter parameter 5,84,,0,127,,,,,0-based,Varies based on selected filter type,0-127: Parameter value
+Meris,Mercury X,Filter,Filter Parameter 6,Controls filter parameter 6,85,,0,127,,,,,0-based,Varies based on selected filter type,0-127: Parameter value
+Meris,Mercury X,Modulation,Mod Type,Selects modulation effect type,86,,0,127,,,,,0-based,,"0-21: Off; 22-42: 79 Chorus; 43-63: Vibrato; 64-85: Vowel Mod; 86-106: Tremelo; 107-127: Hazy"
+Meris,Mercury X,Modulation,Mod Location,Sets modulation effect position in signal chain,87,,0,127,,,,,0-based,,"0-25: Pre + Dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre Tank; 103-127: Post"
+Meris,Mercury X,Modulation,Mod Parameter 1,Controls modulation parameter 1,88,,0,127,,,,,0-based,Varies based on selected modulation type,0-127: Parameter value
+Meris,Mercury X,Modulation,Mod Parameter 2,Controls modulation parameter 2,89,,0,127,,,,,0-based,Varies based on selected modulation type,0-127: Parameter value
+Meris,Mercury X,Modulation,Mod Parameter 3,Controls modulation parameter 3,90,,0,127,,,,,0-based,Varies based on selected modulation type,0-127: Parameter value
+Meris,Mercury X,Modulation,Mod Parameter 4,Controls modulation parameter 4,91,,0,127,,,,,0-based,Varies based on selected modulation type,0-127: Parameter value
+Meris,Mercury X,Modulation,Mod Parameter 5,Controls modulation parameter 5,92,,0,127,,,,,0-based,Varies based on selected modulation type,0-127: Parameter value
+Meris,Mercury X,Modulation,Mod Parameter 6,Controls modulation parameter 6,93,,0,127,,,,,0-based,Varies based on selected modulation type,0-127: Parameter value
+Meris,Mercury X,Global,Toggle Tuner Mode,Activates the tuner mode,117,,0,127,,,,,0-based,Momentary control,127: Press to activate
+Meris,Mercury X,Global,Hold Modifier,Triggers hold function,118,,0,127,,,,,0-based,,"127: Press; 0: Release (send release after every press)"

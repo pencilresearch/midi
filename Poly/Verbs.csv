@@ -1,0 +1,6 @@
+Poly,Verbs,Parameters,Onset,Controls attack characteristics of the reverb,14,,0,127,,,,,0-based,,0-127: Onset amount
+Poly,Verbs,Parameters,Mix,Controls wet/dry mix,15,,0,127,,,,,0-based,,0-127: Mix amount
+Poly,Verbs,Parameters,Low Cut,Controls low frequency filtering,16,,0,127,,,,,0-based,,0-127: Low cut amount
+Poly,Verbs,Parameters,Smoosh,Controls reverb density/character,17,,0,127,,,,,0-based,,0-127: Smoosh amount
+Poly,Verbs,Parameters,Crescendo,Enables or disables crescendo effect,18,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Poly,Verbs,Global,Bypass,Enables or bypasses the effect,19,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: Engaged

@@ -1,0 +1,109 @@
+Nord,Stage 3,Organ,Enable,Toggles the organ section on/off,9,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Organ,Level,Controls the organ section volume,13,,0,127,,,,,0-based,,0-127: Level amount
+Nord,Stage 3,Organ,Model,Selects the organ model,14,,0,127,,,,,0-based,,0-127: Model selection
+Nord,Stage 3,Organ,Preset,Selects an organ preset,15,,0,127,,,,,0-based,,0-127: Preset selection
+Nord,Stage 3,Organ,Drawbar 1,Controls the first drawbar level,16,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Drawbar 2,Controls the second drawbar level,17,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Drawbar 3,Controls the third drawbar level,18,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Drawbar 4,Controls the fourth drawbar level,19,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Drawbar 5,Controls the fifth drawbar level,20,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Drawbar 6,Controls the sixth drawbar level,21,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Drawbar 7,Controls the seventh drawbar level,22,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Drawbar 8,Controls the eighth drawbar level,23,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Drawbar 9,Controls the ninth drawbar level,24,,0,127,,,,,0-based,,0-127: Drawbar position
+Nord,Stage 3,Organ,Percussion Enable,Toggles organ percussion on/off,27,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Organ,Vibrato Type,Selects the vibrato type,26,,0,127,,,,,0-based,,0-127: Vibrato type
+Nord,Stage 3,Organ,Vibrato Enable,Toggles vibrato on/off,27,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Organ,Percussion Harmonic,Selects the percussion harmonic,28,,0,127,,,,,0-based,,0-127: Harmonic selection
+Nord,Stage 3,Organ,Percussion Speed,Controls the percussion decay speed,29,,0,127,,,,,0-based,,0-127: Speed amount
+Nord,Stage 3,Organ,Percussion Level,Controls the percussion volume,30,,0,127,,,,,0-based,,0-127: Level amount
+Nord,Stage 3,Organ,Octave Shift,Shifts the organ section octave,12,,0,127,,,,,0-based,,0-127: Octave shift value
+Nord,Stage 3,Organ,Swell,Controls the organ swell amount,4,,0,127,,,,,0-based,,0-127: Swell amount
+Nord,Stage 3,Piano,Enable,Toggles the piano section on/off,33,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Piano,Level,Controls the piano section volume,34,,0,127,,,,,0-based,,0-127: Level amount
+Nord,Stage 3,Piano,Octave Shift,Shifts the piano section octave,35,,0,127,,,,,0-based,,0-127: Octave shift value
+Nord,Stage 3,Piano,Type,Selects the piano type,36,,0,127,,,,,0-based,,0-127: Piano type
+Nord,Stage 3,Piano,Model,Selects the piano model,37,,0,127,,,,,0-based,,0-127: Model selection
+Nord,Stage 3,Piano,Variation,Selects a piano variation,38,,0,127,,,,,0-based,,0-127: Variation selection
+Nord,Stage 3,Piano,Layer Detune,Controls detuning between piano layers,39,,0,127,,,,,0-based,,0-127: Detune amount
+Nord,Stage 3,Piano,EQ,Adjusts the piano EQ,40,,0,127,,,,,0-based,,0-127: EQ amount
+Nord,Stage 3,Synth,Enable,Toggles the synth section on/off,41,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Synth,Level,Controls the synth section volume,42,,0,127,,,,,0-based,,0-127: Level amount
+Nord,Stage 3,Synth,Octave Shift,Shifts the synth section octave,43,,0,127,,,,,0-based,,0-127: Octave shift value
+Nord,Stage 3,Synth,Osc Config,Selects the oscillator configuration,44,,0,127,,,,,0-based,,0-127: Configuration selection
+Nord,Stage 3,Synth,Osc Bank,Selects the oscillator bank,45,,0,127,,,,,0-based,,0-127: Bank selection
+Nord,Stage 3,Synth,OscWave,Selects the oscillator waveform,47,,0,127,,,,,0-based,,0-127: Waveform selection
+Nord,Stage 3,Synth,Glide Rate,Controls the portamento time between notes,48,,0,127,,,,,0-based,,0-127: Glide amount
+Nord,Stage 3,Synth,Voice Mode,Selects the voice mode (mono/poly),49,,0,127,,,,,0-based,,0-127: Mode selection
+Nord,Stage 3,Synth,Unison,Controls the unison effect,50,,0,127,,,,,0-based,,0-127: Unison amount
+Nord,Stage 3,Synth,Vibrato Mode,Selects the vibrato mode,51,,0,127,,,,,0-based,,0-127: Mode selection
+Nord,Stage 3,Synth,Mod Envelope Attack,Controls the mod envelope attack time,52,,0,127,,,,,0-based,,0-127: Attack time
+Nord,Stage 3,Synth,Mod Envelope Decay,Controls the mod envelope decay time,53,,0,127,,,,,0-based,,0-127: Decay time
+Nord,Stage 3,Synth,Mod Envelope Velocity,Controls the mod envelope velocity sensitivity,54,,0,127,,,,,0-based,,0-127: Velocity amount
+Nord,Stage 3,Synth,Osc Pitch,Controls the oscillator pitch,55,,0,127,,,,,0-based,,0-127: Pitch amount
+Nord,Stage 3,Synth,Osc Ctrl,Controls the oscillator control parameter,56,,0,127,,,,,0-based,,0-127: Control amount
+Nord,Stage 3,Synth,Mod Envelope Release,Controls the mod envelope release time,57,,0,127,,,,,0-based,,0-127: Release time
+Nord,Stage 3,Synth,Osc Modulation,Controls the oscillator modulation amount,58,,0,127,,,,,0-based,,0-127: Modulation amount
+Nord,Stage 3,Synth,Filter Freq,Controls the filter cutoff frequency,59,,0,127,,,,,0-based,,0-127: Frequency amount
+Nord,Stage 3,Synth,Filter Resonance,Controls the filter resonance,60,,0,127,,,,,0-based,,0-127: Resonance amount
+Nord,Stage 3,Synth,Filter Drive,Controls the filter drive amount,61,,0,127,,,,,0-based,,0-127: Drive amount
+Nord,Stage 3,Synth,Filter LFO Amount,Controls the filter LFO modulation amount,62,,0,127,,,,,0-based,,0-127: Modulation amount
+Nord,Stage 3,Synth,Filter KBD Track,Controls the filter keyboard tracking,63,,0,127,,,,,0-based,,0-127: Tracking amount
+Nord,Stage 3,Synth,Filter Type,Selects the filter type,65,,0,127,,,,,0-based,,0-127: Filter type
+Nord,Stage 3,Synth,Amp Envelope Attack,Controls the amplitude envelope attack time,68,,0,127,,,,,0-based,,0-127: Attack time
+Nord,Stage 3,Synth,Amp Envelope Decay,Controls the amplitude envelope decay time,69,,0,127,,,,,0-based,,0-127: Decay time
+Nord,Stage 3,Synth,Amp Envelope Release,Controls the amplitude envelope release time,71,,0,127,,,,,0-based,,0-127: Release time
+Nord,Stage 3,Synth,Amp Envelope Velocity,Controls the amplitude envelope velocity sensitivity,72,,0,127,,,,,0-based,,0-127: Velocity amount
+Nord,Stage 3,Synth,Filter Modulation,Controls filter modulation amount,73,,0,127,,,,,0-based,,0-127: Modulation amount
+Nord,Stage 3,Synth,Arpeggiator Rate,Controls the arpeggiator speed,74,,0,127,,,,,0-based,,0-127: Rate amount
+Nord,Stage 3,Synth,Arpeggiator Pattern,Selects the arpeggiator pattern,75,,0,127,,,,,0-based,,0-127: Pattern selection
+Nord,Stage 3,Synth,Arpeggiator Range,Sets the arpeggiator octave range,76,,0,127,,,,,0-based,,0-127: Range value
+Nord,Stage 3,Synth,Arpeggiator Run,Toggles the arpeggiator on/off,77,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Synth,Keyboard Hold,Toggles the keyboard hold function,78,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Synth,LFO Rate,Controls the LFO speed,79,,0,127,,,,,0-based,,0-127: Rate amount
+Nord,Stage 3,Synth,LFO Wave,Selects the LFO waveform,80,,0,127,,,,,0-based,,0-127: Waveform selection
+Nord,Stage 3,Effects,Effect 1 Enable,Toggles effect 1 on/off,82,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Effects,Effect 1 Type,Selects the type for effect 1,83,,0,127,,,,,0-based,,0-127: Effect type
+Nord,Stage 3,Effects,Effect 1 Source,Selects the source for effect 1,84,,0,127,,,,,0-based,,0-127: Source selection
+Nord,Stage 3,Effects,Effect 1 Amount,Controls the amount/depth of effect 1,85,,0,127,,,,,0-based,,0-127: Effect amount
+Nord,Stage 3,Effects,Effect 1 Rate,Controls the rate/speed of effect 1,86,,0,127,,,,,0-based,,0-127: Rate amount
+Nord,Stage 3,Effects,Effect 2 Type,Selects the type for effect 2,87,,0,127,,,,,0-based,,0-127: Effect type
+Nord,Stage 3,Effects,Effect 2 Source,Selects the source for effect 2,88,,0,127,,,,,0-based,,0-127: Source selection
+Nord,Stage 3,Effects,Effect 2 Amount,Controls the amount/depth of effect 2,89,,0,127,,,,,0-based,,0-127: Effect amount
+Nord,Stage 3,Effects,Effect 2 Rate,Controls the rate/speed of effect 2,90,,0,127,,,,,0-based,,0-127: Rate amount
+Nord,Stage 3,Effects,Effect 2 Enable,Toggles effect 2 on/off,91,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Delay,Source,Selects the delay source,92,,0,127,,,,,0-based,,0-127: Source selection
+Nord,Stage 3,Delay,Amount,Controls the delay wet/dry mix,93,,0,127,,,,,0-based,,0-127: Amount value
+Nord,Stage 3,Delay,Rate,Controls the delay time,94,,0,127,,,,,0-based,,0-127: Rate value
+Nord,Stage 3,Delay,Feedback,Controls the delay feedback amount,95,,0,127,,,,,0-based,,0-127: Feedback amount
+Nord,Stage 3,Delay,Mode,Selects the delay mode,96,,0,127,,,,,0-based,,0-127: Mode selection
+Nord,Stage 3,Delay,Enable,Toggles delay on/off,97,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Delay,Ping-pong,Toggles ping pong delay mode,98,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Delay,Filter Type,Selects the delay filter type,99,,0,127,,,,,0-based,,0-127: Filter type
+Nord,Stage 3,Amp/EQ,Type,Selects the amp/EQ type,100,,0,127,,,,,0-based,,0-127: Type selection
+Nord,Stage 3,Amp/EQ,Drive,Controls the amp/EQ drive amount,101,,0,127,,,,,0-based,,0-127: Drive amount
+Nord,Stage 3,Amp/EQ,Bass,Controls the bass EQ,102,,0,127,,,,,0-based,,0-127: Bass amount
+Nord,Stage 3,Amp/EQ,Mid,Controls the mid EQ,103,,0,127,,,,,0-based,,0-127: Mid amount
+Nord,Stage 3,Amp/EQ,Treble,Controls the treble EQ,104,,0,127,,,,,0-based,,0-127: Treble amount
+Nord,Stage 3,Amp/EQ,Enable,Toggles amp/EQ on/off,105,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Amp/EQ,Source,Selects the amp/EQ source,106,,0,127,,,,,0-based,,0-127: Source selection
+Nord,Stage 3,Amp/EQ,Mid Frequency,Controls the mid frequency center point,107,,0,127,,,,,0-based,,0-127: Frequency value
+Nord,Stage 3,Rotary,Speed,Controls the rotary speaker speed,108,,0,127,,,,,0-based,,0-63: Slow; 64-127: Fast
+Nord,Stage 3,Rotary,Source,Selects the rotary speaker source,109,,0,127,,,,,0-based,,0-127: Source selection
+Nord,Stage 3,Rotary,Drive,Controls the rotary speaker drive amount,110,,0,127,,,,,0-based,,0-127: Drive amount
+Nord,Stage 3,Rotary,Enable,Toggles rotary speaker on/off,111,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Reverb,Bright,Toggles bright reverb mode,112,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Reverb,Amount,Controls the reverb amount,113,,0,127,,,,,0-based,,0-127: Amount value
+Nord,Stage 3,Reverb,Type,Selects the reverb type,115,,0,127,,,,,0-based,,0-127: Reverb type
+Nord,Stage 3,Reverb,Enable,Toggles reverb on/off,116,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Compressor,Amount,Controls the compressor amount,117,,0,127,,,,,0-based,,0-127: Amount value
+Nord,Stage 3,Compressor,Enable,Toggles compressor on/off,118,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Compressor,Mode,Selects the compressor mode,119,,0,127,,,,,0-based,,0-127: Mode selection
+Nord,Stage 3,Global,Panel Enable,Enables or disables the panel,3,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Nord,Stage 3,Global,Panel Focus,Sets which panel has focus,8,,0,127,,,,,0-based,,0-127: Panel selection
+Nord,Stage 3,Global,Song Mode,Controls the song mode,2,,0,127,,,,,0-based,,0-127: Mode selection
+Nord,Stage 3,Global,Song Part,Selects a song part,5,,0,127,,,,,0-based,,0-127: Part selection
+Nord,Stage 3,Pedals,Sustain,Controls the sustain pedal function,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Pedals,Sostenuto,Controls the sostenuto pedal function,66,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Pedals,Soft Pedal,Controls the soft pedal function,67,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Nord,Stage 3,Pedals,Control Pedal,Controls the expression/control pedal function,11,,0,127,,,,,0-based,,0-127: Pedal position

@@ -1,0 +1,24 @@
+Beetronics,Seabee Harmochorus,Expression,Expression Pedal,Emulates the expression pedal control,4,,0,127,,,,,0-based,,0-127: Expression pedal position
+Beetronics,Seabee Harmochorus,Modulation,Ramp,Controls ramp parameter,14,,0,127,,,,,0-based,,0-127: Ramp amount
+Beetronics,Seabee Harmochorus,Filter,Tone/Pattern,Controls tone filtering or pattern selection,15,,0,10,,,,,0-based,Dual function depending on mode,0: Tone; 1: Off; 2: HP; 3: BP; 4-11: LP/Pattern modes
+Beetronics,Seabee Harmochorus,Rate,Rate 1,Controls primary rate or delay time,16,,0,127,,,,,0-based,In STING mode this controls Delay Time 1,0-127: Rate/Time value
+Beetronics,Seabee Harmochorus,Modulation,Depth 1 / Harmony 1,Controls depth or harmony based on mode,17,,0,10,,,,,0-based,"Mode-dependent: ROTO=Depth 1, DUAL=Harmony 1, STING=Delay Time 2, ARP/MAD=Harmonies",0: No harmony; 1-10: Harmony/depth steps
+Beetronics,Seabee Harmochorus,Effects,Feedback,Controls effect feedback amount,18,,0,127,,,,,0-based,,0-127: Feedback amount
+Beetronics,Seabee Harmochorus,Mix,Mix,Controls dry/wet mix of the effect,19,,0,127,,,,,0-based,,0-127: Mix level
+Beetronics,Seabee Harmochorus,Rate,Rate 2,Controls secondary rate parameter,20,,0,127,,,,,0-based,Only active in ROTO and DUAL modes,0-127: Rate 2 value
+Beetronics,Seabee Harmochorus,Modulation,Depth 2 / Harmony 2,Controls secondary depth or harmony parameter,21,,0,127,,,,,0-based,"ROTO Mode = Depth 2, DUAL mode = Harmony 2",0-127: Depth/Harmony value
+Beetronics,Seabee Harmochorus,Modulation,Manual Ramp,Controls manual ramp parameter,22,,0,127,,,,,0-based,,0-127: Manual ramp position
+Beetronics,Seabee Harmochorus,Mode,Mode,Selects between different effect modes,23,,0,5,,,,,0-based,,0: ROTO; 1: DEPTH; 2: STING; 3: DUAL; 4: ARP; 5: MAD
+Beetronics,Seabee Harmochorus,Modulation,Ramp Type,Selects the ramp behavior type,24,,0,2,,,,,0-based,,0: A to B; 1: Up and Down; 2: Only Up
+Beetronics,Seabee Harmochorus,Bypass,Bypass,Bypasses the effect,102,,0,63,,,,,0-based,,0-63: Effect bypassed
+Beetronics,Seabee Harmochorus,Bypass,Engage,Enables the effect,102,,64,127,,,,,0-based,,64-127: Effect engaged
+Beetronics,Seabee Harmochorus,Control,Extra Tap,Triggers extra tap function,103,,0,127,,,,,0-based,Any value triggers the function,0-127: Extra tap (any value)
+Beetronics,Seabee Harmochorus,Control,Extra Tap - Press,Simulates pressing extra tap,104,,64,127,,,,,0-based,,64-127: Extra tap pressed
+Beetronics,Seabee Harmochorus,Control,Extra Tap - Release,Simulates releasing extra tap,104,,0,63,,,,,0-based,,0-63: Extra tap released
+Beetronics,Seabee Harmochorus,Control,Reset LFO,Resets the LFO phase,105,,0,127,,,,,0-based,Any value triggers the function,0-127: Reset LFO (any value)
+Beetronics,Seabee Harmochorus,Control,Double Click Action,Triggers double click function,106,,0,127,,,,,0-based,"Any value triggers the function, alternates between ramp up and down positions",0-127: Double click (any value)
+Beetronics,Seabee Harmochorus,Control,Ramp Trigger,Triggers ramp function,107,,0,127,,,,,0-based,"Any value triggers the function, first value emulates press, second value emulates release",0-127: Ramp trigger (any value)
+Beetronics,Seabee Harmochorus,Control,Ramp Trigger - Press,Simulates pressing ramp trigger,108,,64,127,,,,,0-based,,64-127: Ramp trigger pressed
+Beetronics,Seabee Harmochorus,Control,Ramp Trigger - Release,Simulates releasing ramp trigger,108,,0,63,,,,,0-based,,0-63: Ramp trigger released
+Beetronics,Seabee Harmochorus,Clock,MIDI Clock Enable - On,Enables synchronization to MIDI clock,109,,64,127,,,,,0-based,,64-127: MIDI clock enabled
+Beetronics,Seabee Harmochorus,Clock,MIDI Clock Enable - Off,Disables synchronization to MIDI clock,109,,0,63,,,,,0-based,,0-63: MIDI clock disabled

@@ -1,0 +1,8 @@
+Decibel Eleven,Loop Expander,Loop,Loop 1 On,Activates Loop 1,80,,127,127,,,,,0-based,"Used in modes 2, 3, 4 and 5",127: Loop 1 activated
+Decibel Eleven,Loop Expander,Loop,Loop 1 Off,Deactivates Loop 1,80,,0,0,,,,,0-based,"Used in modes 2, 3, 4 and 5",0: Loop 1 deactivated
+Decibel Eleven,Loop Expander,Loop,Loop 2 On,Activates Loop 2,81,,127,127,,,,,0-based,"Used in modes 2, 3, 4 and 5",127: Loop 2 activated
+Decibel Eleven,Loop Expander,Loop,Loop 2 Off,Deactivates Loop 2,81,,0,0,,,,,0-based,"Used in modes 2, 3, 4 and 5",0: Loop 2 deactivated
+Decibel Eleven,Loop Expander,Loop,Loop 3 On,Activates Loop 3,82,,127,127,,,,,0-based,"Used in modes 2, 3, 4 and 5",127: Loop 3 activated
+Decibel Eleven,Loop Expander,Loop,Loop 3 Off,Deactivates Loop 3,82,,0,0,,,,,0-based,"Used in modes 2, 3, 4 and 5",0: Loop 3 deactivated
+Decibel Eleven,Loop Expander,Loop,Loop 4 On,Activates Loop 4,83,,127,127,,,,,0-based,"Used in modes 2, 3, 4 and 5",127: Loop 4 activated
+Decibel Eleven,Loop Expander,Loop,Loop 4 Off,Deactivates Loop 4,83,,0,0,,,,,0-based,"Used in modes 2, 3, 4 and 5",0: Loop 4 deactivated
