@@ -211,7 +211,7 @@ function convertDatabase() {
     removeOldDatabases(outputDir);
 
     const timestamp = new Date().toISOString();
-    const database = { version: version, generatedAt: timestamp, devices: [] };
+    const database = { version: version, generatedAt: timestamp};
 
     const manufacturerFolders = fs.readdirSync(rootPath).filter(file =>
         fs.statSync(path.join(rootPath, file)).isDirectory() &&
