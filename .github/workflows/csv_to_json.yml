@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - 'CSV/**'  # Only run when CSV files change
+      - 'CSV/**/*.csv'  # Only run when CSV files change
   pull_request:
     branches:
       - main
     paths:
-      - 'CSV/**'  # Only run when CSV files change
+      - 'CSV/**/*.csv'  # Only run when CSV files change
   workflow_dispatch:  # Allow manual triggering regardless of changes
 
 jobs:
@@ -42,7 +42,7 @@ jobs:
           echo "Starting conversion..."
           node Json/CsvToJson.js 2>&1 | tee conversion.log
           echo "Files generated:"
-          find Json -name "midi-database-*.json" -o -name "midi-database-*.json.gz" -o -name "midi-database-version.json"
+          find Json -name "midi-database-*.json" -o -name "midi-database-*.json.gz" | sort
 
       - name: Verify Conversion Success
         run: |
@@ -53,12 +53,10 @@ jobs:
             exit 1
           fi
           
-          # Check if version file exists
-          if [ ! -f Json/midi-database-version.json ]; then
-            echo "❌ Error: Version file was not generated!"
-            cat conversion.log
-            exit 1
-          fi
+          # Extract the version number for the commit message
+          VERSION=$(find Json -name "midi-database-v*.json" | head -1 | sed -E 's/.*midi-database-v([0-9]+)\.json/\1/')
+          echo "Generated version: $VERSION"
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
           
           echo "✅ Conversion successful!"
 
@@ -68,7 +66,7 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           
           # Add all the database files specifically
-          git add Json/midi-database-*.json Json/midi-database-*.json.gz Json/midi-database-version.json
+          git add Json/midi-database-*.json Json/midi-database-*.json.gz
           
           # Check if we have changes to commit
           if git diff --staged --quiet; then
@@ -76,7 +74,8 @@ jobs:
             exit 0
           fi
           
-          git commit -m "Update MIDI device database [skip ci]"
+          # Use the extracted version in the commit message
+          git commit -m "Update MIDI database to version $VERSION [skip ci]"
           
           # Push changes (retry up to 3 times if it fails)
           max_retries=3

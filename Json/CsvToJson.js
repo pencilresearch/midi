@@ -1,5 +1,3 @@
-const VERSION = "1.1.0"; //Update 1.x.y || x = new device, y for updates
-
 /*
  CSV Format:
  manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
@@ -101,7 +99,6 @@ const VERSION = "1.1.0"; //Update 1.x.y || x = new device, y for updates
 
 */
 
-
 const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
@@ -113,6 +110,36 @@ if (!fs.existsSync(outputDir)) {
     console.log(`Created output directory: ${outputDir}`);
 }
 
+function determineVersion() {
+    console.log('🔍 Determining version number...');
+    let currentVersion = 1;
+
+    try {
+        const files = fs.readdirSync(outputDir);
+        const versionRegex = /midi-database-v(\d+)\.json$/;
+
+        const versions = files
+            .map(file => {
+                const match = file.match(versionRegex);
+                return match ? parseInt(match[1]) : null;
+            })
+            .filter(v => v !== null)
+            .sort((a, b) => b - a);
+
+        if (versions.length > 0) {
+            currentVersion = versions[0] + 1;
+            console.log(`📝 Found existing version: ${versions[0]}, incrementing to: ${currentVersion}`);
+        } else {
+            console.log(`📝 No existing version found, using initial version: ${currentVersion}`);
+        }
+    } catch (error) {
+        console.error('⚠️ Error determining version:', error);
+        console.log(`📝 Using default version: ${currentVersion}`);
+    }
+
+    return currentVersion;
+}
+
 function removeOldDatabases(directory) {
     console.log('🧹 Cleaning old database files...');
     const removed = [];
@@ -122,7 +149,7 @@ function removeOldDatabases(directory) {
             removed.push(file);
         }
     });
-    
+
     if (removed.length > 0) {
         console.log(`✅ Removed ${removed.length} old files:`);
         removed.forEach(file => console.log(`  - ${file}`));
@@ -131,19 +158,16 @@ function removeOldDatabases(directory) {
     }
 }
 
-function writeFiles(database) {
+function writeFiles(database, version) {
     const timestamp = database.generatedAt;
-    const versionFile = path.join(outputDir, 'midi-database-version.json');
-    const jsonFile = path.join(outputDir, `midi-database-v${VERSION}.json`);
+    const jsonFile = path.join(outputDir, `midi-database-v${version}.json`);
     const gzipFile = jsonFile + '.gz';
 
-    fs.writeFileSync(versionFile, JSON.stringify({ version: VERSION, lastUpdated: timestamp, filename: path.basename(gzipFile) }, null, 2));
     const minified = JSON.stringify(database);
     fs.writeFileSync(jsonFile, minified);
     fs.writeFileSync(gzipFile, zlib.gzipSync(minified));
 
     console.log(`\n✅ Database saved to ${outputDir}`);
-    console.log(`- ${path.basename(versionFile)}`);
     console.log(`- ${path.basename(jsonFile)}`);
     console.log(`- ${path.basename(gzipFile)}`);
 }
@@ -182,11 +206,20 @@ function parseCSV(csvText) {
 
 function convertDatabase() {
     console.log('\n🚀 Starting MIDI database conversion...');
-    removeOldDatabases(outputDir);
-    const timestamp = new Date().toISOString();
-    const database = { version: VERSION, generatedAt: timestamp, devices: [] };
 
-    const manufacturerFolders = fs.readdirSync(rootPath).filter(file => fs.statSync(path.join(rootPath, file)).isDirectory() && file !== 'Json');
+    const version = determineVersion();
+    removeOldDatabases(outputDir);
+
+    const timestamp = new Date().toISOString();
+    const database = { version: version, generatedAt: timestamp, devices: [] };
+
+    const manufacturerFolders = fs.readdirSync(rootPath).filter(file =>
+        fs.statSync(path.join(rootPath, file)).isDirectory() &&
+        file !== 'Json' &&
+        file !== '.git' &&
+        file !== '.github' &&
+        !file.startsWith('.')
+    );
 
     manufacturerFolders.forEach(folder => {
         console.log(`📦 Processing folder: ${folder}`);
@@ -197,20 +230,18 @@ function convertDatabase() {
             try {
                 const csvContent = fs.readFileSync(path.join(rootPath, folder, file), 'utf8');
                 const deviceData = parseCSV(csvContent);
-                
+
                 if (deviceData.length > 0) {
                     const manufacturer = deviceData[0].manufacturer.toLowerCase().replace(/\s+/g, '_');
                     const deviceName = deviceData[0].device.toLowerCase().replace(/\s+/g, '_');
-                    
-                    // Create manufacturer node if it doesn't exist
+
                     if (!database[manufacturer]) {
                         database[manufacturer] = {};
                     }
-                    
-                    // Create device node if it doesn't exist
+
                     if (!database[manufacturer][deviceName]) {
                         database[manufacturer][deviceName] = {
-                            midi_thru: "", 
+                            midi_thru: "",
                             midi_in: "",
                             midi_clock: "",
                             phantom_power: "",
@@ -223,10 +254,8 @@ function convertDatabase() {
                             pc: []
                         };
                     }
-                    
-                    // Process parameters
+
                     deviceData.forEach(param => {
-                        // Process CC parameters
                         if (param.cc.msb !== null) {
                             database[manufacturer][deviceName].cc.push({
                                 name: param.name,
@@ -239,8 +268,7 @@ function convertDatabase() {
                                 type: param.section || "Parameter",
                             });
                         }
-                        
-                        // Process NRPN parameters
+
                         if (param.nrpn.msb !== null && param.nrpn.lsb !== null) {
                             database[manufacturer][deviceName].nrpn.push({
                                 name: param.name,
@@ -262,37 +290,21 @@ function convertDatabase() {
         });
     });
 
-    // Write the database in the new format
-    const jsonFile = path.join(outputDir, `midi-database-v${VERSION}.json`);
-    const gzipFile = jsonFile + '.gz';
-    const versionFile = path.join(outputDir, 'midi-database-version.json');
+    writeFiles(database, version);
 
-    fs.writeFileSync(versionFile, JSON.stringify({ 
-        version: VERSION, 
-        lastUpdated: timestamp, 
-        filename: path.basename(gzipFile) 
-    }, null, 2));
-    
-    const minified = JSON.stringify(database);
-    fs.writeFileSync(jsonFile, minified);
-    fs.writeFileSync(gzipFile, zlib.gzipSync(minified));
-
-    console.log(`\n✅ Database saved to ${outputDir}`);
-    console.log(`- ${path.basename(versionFile)}`);
-    console.log(`- ${path.basename(jsonFile)}`);
-    console.log(`- ${path.basename(gzipFile)}`);
-    
-    // Count manufacturers and devices for summary
     const manufacturers = Object.keys(database);
     let deviceCount = 0;
     manufacturers.forEach(mfr => {
-        deviceCount += Object.keys(database[mfr]).length;
+        if (mfr !== 'version' && mfr !== 'generatedAt' && mfr !== 'devices') {
+            deviceCount += Object.keys(database[mfr]).length;
+        }
     });
 
     console.log('\n✅ Conversion complete!');
-    console.log(`📂 Manufacturers: ${manufacturers.length}`);
+    console.log(`📂 Manufacturers: ${manufacturers.length - 3}`);
     console.log(`📂 Devices: ${deviceCount}`);
-    console.log(`📌 Version: ${VERSION}`);
+    console.log(`📌 Version: ${version}`);
     console.log(`📅 Generated: ${timestamp}`);
 }
+
 convertDatabase();
