@@ -1,0 +1,107 @@
+IK Multimedia,Tonex,Global,Preset On/Off,Enables or disables the current preset,12,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Global,Expression Pedal,Controls expression pedal function,11,,0,127,,,,,0-based,,0-127: Expression amount
+IK Multimedia,Tonex,Navigation,MIDI Patch Bank,Selects MIDI patch bank,0,,0,1,,,,,0-based,Bank 0: Presets 00A-42B; Bank 1: Presets 42C-49C,0-1: Bank number
+IK Multimedia,Tonex,Navigation,Preset Down,Selects previous preset,86,,0,127,,,,,0-based,,Toggle function
+IK Multimedia,Tonex,Navigation,Preset Up,Selects next preset,87,,0,127,,,,,0-based,,Toggle function
+IK Multimedia,Tonex,Global,BPM,Controls tempo in beats per minute,88,,0,127,,,,,0-based,,0-127: Tempo value
+IK Multimedia,Tonex,Navigation,Bank Down,Selects previous bank,89,,0,127,,,,,0-based,,Toggle function
+IK Multimedia,Tonex,Navigation,Bank Up,Selects next bank,90,,0,127,,,,,0-based,,Toggle function
+IK Multimedia,Tonex,Global,Tuner,Enables or disables tuner,9,,0,127,,,,,0-based,,Toggle function
+IK Multimedia,Tonex,Global,Tap Tempo,Tap tempo function,10,,0,127,,,,,0-based,,Toggle function
+IK Multimedia,Tonex,Main Parameters,Gain,Controls amplifier gain,102,,0,127,,,,,0-based,,0-127: Gain amount
+IK Multimedia,Tonex,Main Parameters,Bass,Controls bass frequency response,23,,0,127,,,,,0-based,,0-127: Bass amount
+IK Multimedia,Tonex,Main Parameters,Mid,Controls mid frequency response,25,,0,127,,,,,0-based,,0-127: Mid amount
+IK Multimedia,Tonex,Main Parameters,Treble,Controls treble frequency response,28,,0,127,,,,,0-based,,0-127: Treble amount
+IK Multimedia,Tonex,Alt Parameters,Comp Threshold,Controls compressor threshold,19,,0,127,,,,,0-based,,0-127: Threshold amount
+IK Multimedia,Tonex,Alt Parameters,Gate Threshold,Controls noise gate threshold,15,,0,127,,,,,0-based,,0-127: Threshold amount
+IK Multimedia,Tonex,Alt Parameters,Presence,Controls presence frequency response,106,,0,127,,,,,0-based,,0-127: Presence amount
+IK Multimedia,Tonex,Alt Parameters,Depth,Controls depth frequency response,107,,0,127,,,,,0-based,,0-127: Depth amount
+IK Multimedia,Tonex,Model,Model Volume,Controls model volume,103,,0,127,,,,,0-based,,0-127: Volume amount
+IK Multimedia,Tonex,Model,Model Mix,Controls model mix level,104,,0,127,,,,,0-based,,0-127: Mix amount
+IK Multimedia,Tonex,Gate,Gate Power,Enables or disables noise gate,14,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Gate,Gate Release,Controls gate release time,16,,0,127,,,,,0-based,,0-127: Release time
+IK Multimedia,Tonex,Gate,Gate Depth,Controls gate depth,17,,0,127,,,,,0-based,,0-127: Depth amount
+IK Multimedia,Tonex,Gate,Gate Position,Sets gate position in signal chain,13,,0,127,,,,,0-based,,0: First; 127: Post Amp
+IK Multimedia,Tonex,Compressor,Comp Power,Enables or disables compressor,18,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Compressor,Comp Gain,Controls compressor gain,20,,0,127,,,,,0-based,,0-127: Gain amount
+IK Multimedia,Tonex,Compressor,Comp Attack,Controls compressor attack time,21,,0,127,,,,,0-based,,0-127: Attack time
+IK Multimedia,Tonex,Compressor,Comp Position,Sets compressor position in signal chain,22,,0,127,,,,,0-based,,0-127: Position value
+IK Multimedia,Tonex,EQ,Bass Hz,Controls bass frequency,24,,0,127,,,,,0-based,,0-127: Frequency value
+IK Multimedia,Tonex,EQ,Mid Q,Controls mid frequency Q factor,26,,0,127,,,,,0-based,,0-127: Q value
+IK Multimedia,Tonex,EQ,Mid Hz,Controls mid frequency,27,,0,127,,,,,0-based,,0-127: Frequency value
+IK Multimedia,Tonex,EQ,Treble Hz,Controls treble frequency,29,,0,127,,,,,0-based,,0-127: Frequency value
+IK Multimedia,Tonex,EQ,EQ Position,Sets EQ position in signal chain,30,,0,127,,,,,0-based,,0-127: Position value
+IK Multimedia,Tonex,Virtual Cabinet,Resonance,Controls cabinet resonance,108,,0,127,,,,,0-based,,0-127: Resonance amount
+IK Multimedia,Tonex,Virtual Cabinet,Mic 1 Type,Selects microphone type for Mic 1,109,,0,2,,,,,0-based,,0: Condenser; 1: Dynamic; 2: Ribbon
+IK Multimedia,Tonex,Virtual Cabinet,Mic 1 X Position,Controls Mic 1 horizontal position,110,,0,127,,,,,0-based,,0-127: Position value
+IK Multimedia,Tonex,Virtual Cabinet,Mic 1 Z Position,Controls Mic 1 distance from cabinet,111,,0,127,,,,,0-based,,0-127: Position value
+IK Multimedia,Tonex,Virtual Cabinet,Mic 2 Type,Selects microphone type for Mic 2,112,,0,2,,,,,0-based,,0: Condenser; 1: Dynamic; 2: Ribbon
+IK Multimedia,Tonex,Virtual Cabinet,Mic 2 X Position,Controls Mic 2 horizontal position,113,,0,127,,,,,0-based,,0-127: Position value
+IK Multimedia,Tonex,Virtual Cabinet,Mic 2 Z Position,Controls Mic 2 distance from cabinet,114,,0,127,,,,,0-based,,0-127: Position value
+IK Multimedia,Tonex,Virtual Cabinet,Mic Blend,Controls blend between Mic 1 and Mic 2,115,,0,127,,,,,0-based,,0-127: Blend amount
+IK Multimedia,Tonex,Modulation,Mod Power,Enables or disables modulation effect,32,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Modulation,Mod Type,Selects modulation effect type,33,,0,4,,,,,0-based,,0: Chorus; 1: Tremolo; 2: Phaser; 3: Flanger; 4: Rotary
+IK Multimedia,Tonex,Modulation,Mod Position,Sets modulation position in signal chain,31,,0,127,,,,,0-based,,0: Pre Amp; 127: Post Amp
+IK Multimedia,Tonex,Chorus,Chorus Sync,Enables or disables tempo sync for chorus,34,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Chorus,Chorus Rate,Controls chorus rate,35,,0,127,,,,,0-based,,0-127: Rate value
+IK Multimedia,Tonex,Chorus,Chorus Depth,Controls chorus depth,36,,0,127,,,,,0-based,,0-127: Depth amount
+IK Multimedia,Tonex,Chorus,Chorus Level,Controls chorus output level,37,,0,127,,,,,0-based,,0-127: Level amount
+IK Multimedia,Tonex,Tremolo,Tremolo Sync,Enables or disables tempo sync for tremolo,38,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Tremolo,Tremolo Rate,Controls tremolo rate,39,,0,127,,,,,0-based,,0-127: Rate value
+IK Multimedia,Tonex,Tremolo,Tremolo Shape,Controls tremolo waveform shape,40,,0,127,,,,,0-based,,0-127: Shape value
+IK Multimedia,Tonex,Tremolo,Tremolo Spread,Controls tremolo stereo spread,41,,0,127,,,,,0-based,,0-127: Spread amount
+IK Multimedia,Tonex,Tremolo,Tremolo Level,Controls tremolo output level,42,,0,127,,,,,0-based,,0-127: Level amount
+IK Multimedia,Tonex,Phaser,Phaser Sync,Enables or disables tempo sync for phaser,43,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Phaser,Phaser Rate,Controls phaser rate,44,,0,127,,,,,0-based,,0-127: Rate value
+IK Multimedia,Tonex,Phaser,Phaser Depth,Controls phaser depth,45,,0,127,,,,,0-based,,0-127: Depth amount
+IK Multimedia,Tonex,Phaser,Phaser Level,Controls phaser output level,46,,0,127,,,,,0-based,,0-127: Level amount
+IK Multimedia,Tonex,Flanger,Flanger Sync,Enables or disables tempo sync for flanger,47,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Flanger,Flanger Rate,Controls flanger rate,48,,0,127,,,,,0-based,,0-127: Rate value
+IK Multimedia,Tonex,Flanger,Flanger Depth,Controls flanger depth,49,,0,127,,,,,0-based,,0-127: Depth amount
+IK Multimedia,Tonex,Flanger,Flanger Feedback,Controls flanger feedback amount,50,,0,127,,,,,0-based,,0-127: Feedback amount
+IK Multimedia,Tonex,Flanger,Flanger Level,Controls flanger output level,51,,0,127,,,,,0-based,,0-127: Level amount
+IK Multimedia,Tonex,Rotary,Rotary Sync,Enables or disables tempo sync for rotary,52,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Rotary,Rotary Speed,Controls rotary speed,53,,0,127,,,,,0-based,,0-127: Speed value
+IK Multimedia,Tonex,Rotary,Rotary Radius,Controls rotary radius,54,,0,127,,,,,0-based,,0-127: Radius value
+IK Multimedia,Tonex,Rotary,Rotary Spread,Controls rotary stereo spread,55,,0,127,,,,,0-based,,0-127: Spread amount
+IK Multimedia,Tonex,Rotary,Rotary Level,Controls rotary output level,56,,0,127,,,,,0-based,,0-127: Level amount
+IK Multimedia,Tonex,Delay,Delay Power,Enables or disables delay effect,2,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Delay,Delay Type,Selects delay type,3,,0,1,,,,,0-based,,0: Digital; 1: Tape
+IK Multimedia,Tonex,Delay,Delay Position,Sets delay position in signal chain,1,,0,127,,,,,0-based,,0: Pre Amp; 127: Post Amp
+IK Multimedia,Tonex,Digital Delay,Digital Delay Sync,Enables or disables tempo sync for digital delay,4,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Digital Delay,Digital Delay Time,Controls digital delay time,5,,0,127,,,,,0-based,,0-127: Time value
+IK Multimedia,Tonex,Digital Delay,Digital Delay Feedback,Controls digital delay feedback amount,6,,0,127,,,,,0-based,,0-127: Feedback amount
+IK Multimedia,Tonex,Digital Delay,Digital Delay Mode,Selects digital delay mode,7,,0,1,,,,,0-based,,0: Normal; 1: Ping Pong
+IK Multimedia,Tonex,Digital Delay,Digital Delay Mix,Controls digital delay mix level,8,,0,127,,,,,0-based,,0-127: Mix amount
+IK Multimedia,Tonex,Tape Delay,Tape Delay Sync,Enables or disables tempo sync for tape delay,91,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Tape Delay,Tape Delay Time,Controls tape delay time,92,,0,127,,,,,0-based,,0-127: Time value
+IK Multimedia,Tonex,Tape Delay,Tape Delay Feedback,Controls tape delay feedback amount,93,,0,127,,,,,0-based,,0-127: Feedback amount
+IK Multimedia,Tonex,Tape Delay,Tape Delay Mode,Selects tape delay mode,94,,0,1,,,,,0-based,,0: Normal; 1: Ping Pong
+IK Multimedia,Tonex,Tape Delay,Tape Delay Mix,Controls tape delay mix level,95,,0,127,,,,,0-based,,0-127: Mix amount
+IK Multimedia,Tonex,Reverb,Reverb Power,Enables or disables reverb effect,75,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,Tonex,Reverb,Reverb Type,Selects reverb type,85,,0,5,,,,,0-based,,0: Spring 1; 1: Spring 2; 2: Spring 3; 3: Spring 4; 4: Room; 5: Plate
+IK Multimedia,Tonex,Reverb,Reverb Position,Sets reverb position in signal chain,84,,0,127,,,,,0-based,,0: Post Amp; 127: Last
+IK Multimedia,Tonex,Spring 1 Reverb,Spring 1 Time,Controls Spring 1 reverb time,59,,0,127,,,,,0-based,,0-127: Time value
+IK Multimedia,Tonex,Spring 1 Reverb,Spring 1 Pre-Delay,Controls Spring 1 pre-delay time,60,,0,127,,,,,0-based,,0-127: Pre-delay value
+IK Multimedia,Tonex,Spring 1 Reverb,Spring 1 Color,Controls Spring 1 tonal color,61,,0,127,,,,,0-based,,0-127: Color value
+IK Multimedia,Tonex,Spring 1 Reverb,Spring 1 Mix,Controls Spring 1 mix level,62,,0,127,,,,,0-based,,0-127: Mix amount
+IK Multimedia,Tonex,Spring 2 Reverb,Spring 2 Time,Controls Spring 2 reverb time,63,,0,127,,,,,0-based,,0-127: Time value
+IK Multimedia,Tonex,Spring 2 Reverb,Spring 2 Pre-Delay,Controls Spring 2 pre-delay time,64,,0,127,,,,,0-based,,0-127: Pre-delay value
+IK Multimedia,Tonex,Spring 2 Reverb,Spring 2 Color,Controls Spring 2 tonal color,65,,0,127,,,,,0-based,,0-127: Color value
+IK Multimedia,Tonex,Spring 2 Reverb,Spring 2 Mix,Controls Spring 2 mix level,66,,0,127,,,,,0-based,,0-127: Mix amount
+IK Multimedia,Tonex,Spring 3 Reverb,Spring 3 Time,Controls Spring 3 reverb time,67,,0,127,,,,,0-based,,0-127: Time value
+IK Multimedia,Tonex,Spring 3 Reverb,Spring 3 Pre-Delay,Controls Spring 3 pre-delay time,68,,0,127,,,,,0-based,,0-127: Pre-delay value
+IK Multimedia,Tonex,Spring 3 Reverb,Spring 3 Color,Controls Spring 3 tonal color,69,,0,127,,,,,0-based,,0-127: Color value
+IK Multimedia,Tonex,Spring 3 Reverb,Spring 3 Mix,Controls Spring 3 mix level,70,,0,127,,,,,0-based,,0-127: Mix amount
+IK Multimedia,Tonex,Spring 4 Reverb,Spring 4 Time,Controls Spring 4 reverb time,80,,0,127,,,,,0-based,,0-127: Time value
+IK Multimedia,Tonex,Spring 4 Reverb,Spring 4 Pre-Delay,Controls Spring 4 pre-delay time,81,,0,127,,,,,0-based,,0-127: Pre-delay value
+IK Multimedia,Tonex,Spring 4 Reverb,Spring 4 Color,Controls Spring 4 tonal color,82,,0,127,,,,,0-based,,0-127: Color value
+IK Multimedia,Tonex,Spring 4 Reverb,Spring 4 Mix,Controls Spring 4 mix level,83,,0,127,,,,,0-based,,0-127: Mix amount
+IK Multimedia,Tonex,Room Reverb,Room Time,Controls Room reverb time,71,,0,127,,,,,0-based,,0-127: Time value
+IK Multimedia,Tonex,Room Reverb,Room Pre-Delay,Controls Room pre-delay time,72,,0,127,,,,,0-based,,0-127: Pre-delay value
+IK Multimedia,Tonex,Room Reverb,Room Color,Controls Room tonal color,73,,0,127,,,,,0-based,,0-127: Color value
+IK Multimedia,Tonex,Room Reverb,Room Mix,Controls Room mix level,74,,0,127,,,,,0-based,,0-127: Mix amount
+IK Multimedia,Tonex,Plate Reverb,Plate Time,Controls Plate reverb time,76,,0,127,,,,,0-based,,0-127: Time value
+IK Multimedia,Tonex,Plate Reverb,Plate Pre-Delay,Controls Plate pre-delay time,77,,0,127,,,,,0-based,,0-127: Pre-delay value
+IK Multimedia,Tonex,Plate Reverb,Plate Color,Controls Plate tonal color,78,,0,127,,,,,0-based,,0-127: Color value
+IK Multimedia,Tonex,Plate Reverb,Plate Mix,Controls Plate mix level,79,,0,127,,,,,0-based,,0-127: Mix amount

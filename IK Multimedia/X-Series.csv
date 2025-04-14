@@ -1,0 +1,5 @@
+IK Multimedia,X-Series,Global,Expression,Controls the expression parameter,11,,0,127,,,,,0-based,,0-127: Expression amount
+IK Multimedia,X-Series,Global,Preset On/Off,Enables or disables the current preset,12,,0,127,,,,,0-based,,0: Off; 127: On
+IK Multimedia,X-Series,Global,X-MODE,Enables or disables X-MODE for the current preset,13,,0,127,,,,,0-based,,0: Bypass; 127: Engaged
+IK Multimedia,X-Series,Global,Model Selector,Selects the amp/effect model,14,,1,16,,,,,1-based,,1-16: Model number
+IK Multimedia,X-Series,Navigation,MIDI Patch Bank,Selects the MIDI patch bank,0,,0,2,,,,,0-based,,0-2: Bank number

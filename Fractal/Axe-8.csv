@@ -1,0 +1,74 @@
+Fractal Audio,AX-8,Volumes,IN1 Volume,Controls input 1 volume,10,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Volume level
+Fractal Audio,AX-8,Volumes,OUT1 Volume,Controls output 1 volume,11,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Volume level
+Fractal Audio,AX-8,Volumes,OUT2 Volume,Controls output 2 volume,12,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Volume level
+Fractal Audio,AX-8,Global,Tempo Tap,Sets tempo via tap function,14,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value triggers tap
+Fractal Audio,AX-8,Global,Tuner,Activates the tuner function,15,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,AX-8,External,External 1,Controls external parameter 1,,,0,127,,,,,0-based,Mapped to Pedal 1,0-127: Parameter value
+Fractal Audio,AX-8,External,External 2,Controls external parameter 2,,,0,127,,,,,0-based,Mapped to Pedal 2,0-127: Parameter value
+Fractal Audio,AX-8,External,External 3,Controls external parameter 3,,,0,127,,,,,0-based,Mapped to Pedal 3,0-127: Parameter value
+Fractal Audio,AX-8,External,External 4,Controls external parameter 4,,,0,127,,,,,0-based,Mapped to Pedal 4,0-127: Parameter value
+Fractal Audio,AX-8,External,External 5,Controls external parameter 5,20,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,AX-8,External,External 6,Controls external parameter 6,21,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,AX-8,External,External 7,Controls external parameter 7,22,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,AX-8,External,External 8,Controls external parameter 8,23,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,AX-8,External,External 9,Controls external parameter 9,24,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,AX-8,External,External 10,Controls external parameter 10,25,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,AX-8,External,External 11,Controls external parameter 11,26,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,AX-8,External,External 12,Controls external parameter 12,27,,0,127,,,,,0-based,Factory default MIDI CC setting,0-127: Parameter value
+Fractal Audio,AX-8,Looper,Looper 1 Record,Activates looper 1 record function,28,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,AX-8,Looper,Looper 1 Play,Activates looper 1 playback,29,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,AX-8,Looper,Looper 1 Once,Plays looper 1 once then stops,30,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,AX-8,Looper,Looper 1 Dub,Activates looper 1 overdub function,31,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,AX-8,Looper,Looper 1 Reverse,Reverses looper 1 playback direction,32,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,AX-8,Looper,Looper 2 Bypass,Bypasses looper 2,33,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Looper,Looper 2 Half Speed,Halves looper 2 playback speed,120,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Normal; 64-127: Half speed
+Fractal Audio,AX-8,Looper,Looper 2 Undo,Undoes last looper 2 recording,121,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value triggers undo
+Fractal Audio,AX-8,Global,Metronome,Activates the metronome,122,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Off; 64-127: On
+Fractal Audio,AX-8,Scenes,Scene Select,Directly selects a scene,34,,0,7,,,,,0-based,Factory default MIDI CC setting,0-7: Scene number
+Fractal Audio,AX-8,Scenes,Scene Increment,Increments to the next scene,123,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value increments scene
+Fractal Audio,AX-8,Scenes,Scene Decrement,Decrements to the previous scene,124,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value decrements scene
+Fractal Audio,AX-8,Volumes,Volume Increment,Increments the volume level,35,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value increments volume
+Fractal Audio,AX-8,Volumes,Volume Decrement,Decrements the volume level,36,,0,127,,,,,0-based,Factory default MIDI CC setting,Any value decrements volume
+Fractal Audio,AX-8,Effects Bypass,Chorus Bypass,Bypasses the chorus effect,41,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Compressor Bypass,Bypasses the compressor effect,43,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Delay 1 Bypass,Bypasses the delay 1 effect,47,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Delay 2 Bypass,Bypasses the delay 2 effect,48,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Drive 1 Bypass,Bypasses the drive 1 effect,49,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Drive 2 Bypass,Bypasses the drive 2 effect,50,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Enhancer Bypass,Bypasses the enhancer effect,51,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Filter 1 Bypass,Bypasses the filter 1 effect,52,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Filter 2 Bypass,Bypasses the filter 2 effect,53,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Flanger Bypass,Bypasses the flanger effect,56,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Formant Bypass,Bypasses the formant effect,58,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Gate/Exp Bypass,Bypasses the gate/expander effect,60,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,GraphEQ 1 Bypass,Bypasses the graphic EQ 1 effect,62,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,GraphEQ 2 Bypass,Bypasses the graphic EQ 2 effect,63,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,MultiDly Bypass,Bypasses the multi-delay effect,69,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,ParaEQ 1 Bypass,Bypasses the parametric EQ 1 effect,71,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,ParaEQ 2 Bypass,Bypasses the parametric EQ 2 effect,72,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Phaser Bypass,Bypasses the phaser effect,75,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Pitch Bypass,Bypasses the pitch effect,77,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Reverb Bypass,Bypasses the reverb effect,83,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,RingMod Bypass,Bypasses the ring modulator effect,85,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Rotary Bypass,Bypasses the rotary speaker effect,86,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Synth Bypass,Bypasses the synth effect,88,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Trem/Pan Bypass,Bypasses the tremolo/pan effect,90,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Vol/Pan 1 Bypass,Bypasses the volume/pan 1 effect,93,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,Vol/Pan 2 Bypass,Bypasses the volume/pan 2 effect,94,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects Bypass,WahWah Bypass,Bypasses the wah-wah effect,97,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: Active; 64-127: Bypassed
+Fractal Audio,AX-8,Effects X/Y,Chorus X/Y,Switches chorus between X and Y states,104,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Delay 1 X/Y,Switches delay 1 between X and Y states,106,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Delay 2 X/Y,Switches delay 2 between X and Y states,107,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Drive 1 X/Y,Switches drive 1 between X and Y states,108,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Drive 2 X/Y,Switches drive 2 between X and Y states,109,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Filter 1 X/Y,Switches filter 1 between X and Y states,,,0,127,,,,,0-based,No default MIDI CC assigned (NONE),0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Filter 2 X/Y,Switches filter 2 between X and Y states,,,0,127,,,,,0-based,No default MIDI CC assigned (NONE),0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Flanger X/Y,Switches flanger between X and Y states,110,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Gate/Exp X/Y,Switches gate/expander between X and Y states,,,0,127,,,,,0-based,No default MIDI CC assigned (NONE),0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,MultiDly X/Y,Switches multi-delay between X and Y states,,,0,127,,,,,0-based,No default MIDI CC assigned (NONE),0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Phaser X/Y,Switches phaser between X and Y states,112,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Pitch X/Y,Switches pitch between X and Y states,114,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Reverb X/Y,Switches reverb between X and Y states,116,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Rotary X/Y,Switches rotary speaker between X and Y states,125,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,Trem/Pan X/Y,Switches tremolo/pan between X and Y states,,,0,127,,,,,0-based,No default MIDI CC assigned (NONE),0-63: X; 64-127: Y
+Fractal Audio,AX-8,Effects X/Y,WahWah X/Y,Switches wah-wah between X and Y states,118,,0,127,,,,,0-based,Factory default MIDI CC setting,0-63: X; 64-127: Y

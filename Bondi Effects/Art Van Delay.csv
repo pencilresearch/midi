@@ -1,0 +1,13 @@
+Bondi Effects,Art Van Delay,Time,Time,Controls the delay time,50,,0,127,,,,,0-based,,0-127: Delay time
+Bondi Effects,Art Van Delay,Modulation,Depth,Controls the modulation depth of the delay,51,,0,127,,,,,0-based,,0-127: Modulation depth
+Bondi Effects,Art Van Delay,Modulation,Rate,Controls the modulation rate/speed,52,,0,127,,,,,0-based,,0-127: Modulation rate
+Bondi Effects,Art Van Delay,Mix,Level,Controls the mix level of the delay effect,53,,0,127,,,,,0-based,,0-127: Effect level
+Bondi Effects,Art Van Delay,Feedback,Feedback,Controls the amount of delay feedback/repeats,54,,0,127,,,,,0-based,,0-127: Feedback amount
+Bondi Effects,Art Van Delay,Time,Subdivision: 1/8,Sets delay subdivision to eighth notes,55,,0,0,,,,,0-based,,0: 1/8 subdivision
+Bondi Effects,Art Van Delay,Time,Subdivision: 1/4,Sets delay subdivision to quarter notes,55,,50,50,,,,,0-based,,50: 1/4 subdivision
+Bondi Effects,Art Van Delay,Time,Subdivision: 1/8d,Sets delay subdivision to dotted eighth notes,55,,80,80,,,,,0-based,,80: 1/8d subdivision
+Bondi Effects,Art Van Delay,Time,Subdivision: Triplet,Sets delay subdivision to triplet,55,,127,127,,,,,0-based,,127: Triplet subdivision
+Bondi Effects,Art Van Delay,Bypass,Bypass Pedal,Bypasses the effect,102,,0,0,,,,,0-based,,0: Effect bypassed
+Bondi Effects,Art Van Delay,Bypass,Engage Pedal,Engages the effect,102,,127,127,,,,,0-based,,127: Effect engaged
+Bondi Effects,Art Van Delay,Expression,Expression,Controls parameters via expression pedal,100,,0,127,,,,,0-based,,0-127: Expression value
+Bondi Effects,Art Van Delay,Time,Tap Tempo,Sets delay time via tap tempo,93,,127,127,,,,,0-based,,127: Tap (momentary)

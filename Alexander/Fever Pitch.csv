@@ -1,0 +1,44 @@
+Alexander,Fever Pitch,Pitches,LVLA,Volume level for pitch shift A,50,,0,127,,,,,0-based,,0-127: Volume level
+Alexander,Fever Pitch,Pitches,LVLB,Volume level for pitch shift B,51,,0,127,,,,,0-based,,0-127: Volume level
+Alexander,Fever Pitch,Pitches,LVLC,Volume level for pitch shift C,52,,0,127,,,,,0-based,,0-127: Volume level
+Alexander,Fever Pitch,Pitches,LVLD,Volume level for pitch shift D,53,,0,127,,,,,0-based,,0-127: Volume level
+Alexander,Fever Pitch,Level,DRY,Volume level for the dry/unaffected input signal,74,,0,127,,,,,0-based,,0-127: Dry volume level
+Alexander,Fever Pitch,Tuning,TUNA,Pitch tuning for pitch shift A,54,,0,127,,,,,0-based,,0-127: Pitch tuning
+Alexander,Fever Pitch,Tuning,TUNB,Pitch tuning for pitch shift B,55,,0,127,,,,,0-based,,0-127: Pitch tuning
+Alexander,Fever Pitch,Tuning,TUNC,Pitch tuning for pitch shift C,56,,0,127,,,,,0-based,,0-127: Pitch tuning
+Alexander,Fever Pitch,Tuning,TUND,Pitch tuning for pitch shift D,57,,0,127,,,,,0-based,,0-127: Pitch tuning
+Alexander,Fever Pitch,Tuning,SCAL,Scale selection for pitch shifting,75,,0,127,,,,,0-based,,0-127: Scale selection
+Alexander,Fever Pitch,Pan,PANA,Pan position for pitch shift A,58,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Alexander,Fever Pitch,Pan,PANB,Pan position for pitch shift B,59,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Alexander,Fever Pitch,Pan,PANC,Pan position for pitch shift C,60,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Alexander,Fever Pitch,Pan,PAND,Pan position for pitch shift D,61,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Alexander,Fever Pitch,Pan,DRY PAN,Pan position for dry/unaffected input signal,76,,0,127,,,,,Centered,Left...Center...Right,0-127: Pan position
+Alexander,Fever Pitch,Reverb,REVERB (DLY RPT),Reverb decay time or delay feedback,62,,0,127,,,,,0-based,Depends on mode (Reverb/Delay),0-127: Decay time (Reverb mode) or Feedback (Delay mode)
+Alexander,Fever Pitch,Time,PREDELAY (DLY TIME),Reverb pre-delay time or delay time,63,,0,127,,,,,0-based,Depends on mode (Reverb/Delay),0-127: Pre-delay (Reverb mode) or Delay time (Delay mode)
+Alexander,Fever Pitch,Tone,RVB TONE (DLY PAN),Reverb tone/damping or delay pan position,64,,0,127,,,,,0-based,Depends on mode (Reverb/Delay),0-127: Tone (Reverb mode) or Pan (Delay mode)
+Alexander,Fever Pitch,Mix,RVB MIX (DLY MIX),Reverb or delay mix level,65,,0,127,,,,,0-based,Depends on mode (Reverb/Delay),0-127: Mix amount
+Alexander,Fever Pitch,Time,DELAY SUBDIVISION,Sets the delay tap division or disables MIDI clock,77,,0,0,,,,,0-based,Delay mode only,0: Cycles through TRIP/8TH/DOT8/QTR/NCLK
+Alexander,Fever Pitch,Modulation,TREM RATE,Tremolo/Pan speed,66,,0,127,,,,,0-based,,0-127: Tremolo/Pan rate
+Alexander,Fever Pitch,Modulation,TREM DEPTH,Tremolo/Pan depth,67,,0,127,,,,,0-based,,0-127: Tremolo/Pan depth
+Alexander,Fever Pitch,Modulation,CHORUS RATE,Chorus/Vibrato speed,68,,0,127,,,,,0-based,,0-127: Chorus/Vibrato rate
+Alexander,Fever Pitch,Modulation,CHORUS DEPTH,Chorus/Vibrato depth,69,,0,127,,,,,0-based,,0-127: Chorus/Vibrato depth
+Alexander,Fever Pitch,Modulation,TREM MODE (TREM),Sets tremolo effect on wet signal only,78,,0,0,,,,,0-based,,0: Tremolo on wet signal
+Alexander,Fever Pitch,Modulation,TREM MODE (PAN),Sets panning effect on wet signal only,78,,32,32,,,,,0-based,,32: Panning on wet signal
+Alexander,Fever Pitch,Modulation,TREM MODE (TR+D),Sets tremolo effect on wet and dry signals,78,,64,64,,,,,0-based,,64: Tremolo on wet and dry signals
+Alexander,Fever Pitch,Modulation,TREM MODE (PN+D),Sets panning effect on wet and dry signals,78,,96,96,,,,,0-based,,96: Panning on wet and dry signals
+Alexander,Fever Pitch,Output,VOLUME,Master output volume,70,,0,127,,,,,0-based,,0-127: Volume level
+Alexander,Fever Pitch,Tone,TONE,Overall tone control,71,,0,127,,,,,0-based,,0-127: Tone amount
+Alexander,Fever Pitch,Ramp,RAMP RATE,Speed of the ramp function,72,,0,127,,,,,0-based,,0-127: Ramp rate
+Alexander,Fever Pitch,Ramp,RAMP TRIGGER (MOM),Sets momentary ramp mode (heel to toe),73,,0,0,,,,,0-based,,0: Momentary ramp mode
+Alexander,Fever Pitch,Ramp,RAMP TRIGGER (TOGG),Sets toggle ramp mode,73,,44,44,,,,,0-based,,44: Toggle ramp mode
+Alexander,Fever Pitch,Ramp,RAMP TRIGGER (REPT),Sets repeat ramp mode,73,,88,88,,,,,0-based,,88: Repeat ramp mode
+Alexander,Fever Pitch,Detune,DETUNE (OFF),Disables detune effect,79,,0,0,,,,,0-based,,0: Detune off
+Alexander,Fever Pitch,Detune,DETUNE (ON),Enables detune effect,79,,127,127,,,,,0-based,,127: Detune on
+Alexander,Fever Pitch,Mode,MODE SELECT (RVB),Selects reverb mode,49,,0,0,,,,,0-based,,0: Reverb mode
+Alexander,Fever Pitch,Mode,MODE SELECT (DLY),Selects delay mode,49,,127,127,,,,,0-based,,127: Delay mode
+Alexander,Fever Pitch,Tempo,TAP TEMPO,Sends a tap tempo signal,93,,0,127,,,,,0-based,Any value triggers a tap,0-127: Tap (momentary)
+Alexander,Fever Pitch,Ramp,RAMP TRIGGER,Triggers the ramp function,97,,0,127,,,,,0-based,Any value triggers the ramp,0-127: Trigger (momentary)
+Alexander,Fever Pitch,Expression,EXPRESSION PDL (HEEL),Expression pedal at minimum position,100,,0,0,,,,,0-based,,0: Expression heel position
+Alexander,Fever Pitch,Expression,EXPRESSION PDL (TOE),Expression pedal at maximum position,100,,127,127,,,,,0-based,,127: Expression toe position
+Alexander,Fever Pitch,Bypass,BYPASS (BYP),Bypasses the effect,102,,0,0,,,,,0-based,,0: Effect bypassed
+Alexander,Fever Pitch,Bypass,BYPASS (ON),Engages the effect,102,,127,127,,,,,0-based,,127: Effect engaged

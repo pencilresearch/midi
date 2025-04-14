@@ -1,0 +1,13 @@
+ART,SGX 2000/Nitro/T2,Expression,Left Expression Pedal,Controls parameter assigned to left X15 expression pedal,4,,0,127,,,,,0-based,,0-127: Pedal position
+ART,SGX 2000/Nitro/T2,Expression,Right Expression Pedal,Controls parameter assigned to right X15 expression pedal,11,,0,127,,,,,0-based,,0-127: Pedal position
+ART,SGX 2000/Nitro/T2,Effects,Exciter,Controls the exciter effect module,70,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Compressor,Controls the compressor effect module,71,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Distortion,Controls the distortion effect module,72,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Equalizer,Controls the equalizer effect module,73,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Expander/Noise Gate,Controls the expander/noise gate effect module,74,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Reverb,Controls the reverb effect module,75,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Delay,Controls the delay effect module,76,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Pitch Transposer,Controls the pitch transposer effect module,77,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Flange/Chorus,Controls the flange/chorus effect module,78,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Effects,Special Effects,Controls the special effects module,79,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+ART,SGX 2000/Nitro/T2,Global,Bypass,Controls the global bypass function,84,,0,127,,,,,0-based,,0-63: Effect on; 64-127: Bypassed

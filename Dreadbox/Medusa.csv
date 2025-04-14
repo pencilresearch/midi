@@ -1,0 +1,111 @@
+Dreadbox,Medusa,Oscillators,OSC1 Tuning,Controls fine tuning of oscillator 1,7,,0,127,,,,,0-based,,0-127: Fine tuning
+Dreadbox,Medusa,Oscillators,OSC1 U tuning,Controls micro tuning of oscillator 1,8,,0,127,,,,,0-based,,0-127: Micro tuning
+Dreadbox,Medusa,Oscillators,OSC1 Wave,Selects waveform for oscillator 1,9,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,Oscillators,OSC1 Octave,Sets octave for oscillator 1,10,,0,127,,,,,0-based,,0-127: Octave setting
+Dreadbox,Medusa,Oscillators,OSC2 Tuning,Controls fine tuning of oscillator 2,11,,0,127,,,,,0-based,,0-127: Fine tuning
+Dreadbox,Medusa,Oscillators,OSC2 U Tuning,Controls micro tuning of oscillator 2,12,,0,127,,,,,0-based,,0-127: Micro tuning
+Dreadbox,Medusa,Oscillators,OSC2 Wave,Selects waveform for oscillator 2,13,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,Oscillators,OSC2 Octave,Sets octave for oscillator 2,14,,0,127,,,,,0-based,,0-127: Octave setting
+Dreadbox,Medusa,Oscillators,OSC3 Tuning,Controls fine tuning of oscillator 3,15,,0,127,,,,,0-based,,0-127: Fine tuning
+Dreadbox,Medusa,Oscillators,OSC3 U Tuning,Controls micro tuning of oscillator 3,16,,0,127,,,,,0-based,,0-127: Micro tuning
+Dreadbox,Medusa,Oscillators,OSC3 Wave,Selects waveform for oscillator 3,17,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,Oscillators,OSC3 Octave,Sets octave for oscillator 3,18,,0,127,,,,,0-based,,0-127: Octave setting
+Dreadbox,Medusa,Oscillators,OSC4 Tuning,Controls fine tuning of oscillator 4,19,,0,127,,,,,0-based,,0-127: Fine tuning
+Dreadbox,Medusa,Oscillators,OSC4 U Tuning,Controls micro tuning of oscillator 4,20,,0,127,,,,,0-based,,0-127: Micro tuning
+Dreadbox,Medusa,Oscillators,OSC4 Wave,Selects waveform for oscillator 4,21,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,Oscillators,OSC4 Octave,Sets octave for oscillator 4,22,,0,127,,,,,0-based,,0-127: Octave setting
+Dreadbox,Medusa,Oscillators,OSC5 Tuning,Controls fine tuning of oscillator 5,23,,0,127,,,,,0-based,,0-127: Fine tuning
+Dreadbox,Medusa,Oscillators,OSC5 U Tuning,Controls micro tuning of oscillator 5,24,,0,127,,,,,0-based,,0-127: Micro tuning
+Dreadbox,Medusa,Oscillators,OSC5 Wave,Selects waveform for oscillator 5,25,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,Oscillators,OSC5 Octave,Sets octave for oscillator 5,26,,0,127,,,,,0-based,,0-127: Octave setting
+Dreadbox,Medusa,Oscillators,OSC6 Tuning,Controls fine tuning of oscillator 6,27,,0,127,,,,,0-based,,0-127: Fine tuning
+Dreadbox,Medusa,Oscillators,OSC6 U Tuning,Controls micro tuning of oscillator 6,28,,0,127,,,,,0-based,,0-127: Micro tuning
+Dreadbox,Medusa,Oscillators,OSC6 Wave,Selects waveform for oscillator 6,29,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,Oscillators,OSC6 Octave,Sets octave for oscillator 6,30,,0,127,,,,,0-based,,0-127: Octave setting
+Dreadbox,Medusa,Oscillators,OSC3 Osc12,Controls oscillator 3 modulation by oscillators 1 and 2,31,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,Oscillators,OSC3 Filter,Controls oscillator 3 filter modulation,32,,0,127,,,,,0-based,,0-127: Filter modulation
+Dreadbox,Medusa,Oscillators,OSC PW,Controls pulse width for pulse waveforms,33,,0,127,,,,,0-based,,0-127: Pulse width
+Dreadbox,Medusa,Oscillators,OSC Noise,Controls noise level in the oscillator section,34,,0,127,,,,,0-based,,0-127: Noise amount
+Dreadbox,Medusa,Oscillators,OSC Wavetable,Controls wavetable selection/position,35,,0,127,,,,,0-based,,0-127: Wavetable position
+Dreadbox,Medusa,Oscillators,OSC Sync 2,Controls oscillator sync for oscillator 2,36,,0,127,,,,,0-based,,0-127: Sync amount
+Dreadbox,Medusa,Oscillators,OSC Sync 3,Controls oscillator sync for oscillator 3,37,,0,127,,,,,0-based,,0-127: Sync amount
+Dreadbox,Medusa,Performance,Play Mode,Selects between play modes,38,,0,127,,,,,0-based,,0-127: Play mode selection
+Dreadbox,Medusa,Performance,Play Mode Glide,Controls glide/portamento amount in the selected play mode,39,,0,127,,,,,0-based,,0-127: Glide amount
+Dreadbox,Medusa,Filter,Filter Cutoff,Controls filter cutoff frequency,40,,0,127,,,,,0-based,,0-127: Cutoff frequency
+Dreadbox,Medusa,Filter,Filter Resonance,Controls filter resonance/emphasis,41,,0,127,,,,,0-based,,0-127: Resonance amount
+Dreadbox,Medusa,Filter,Filter Type,Selects filter type,42,,0,127,,,,,0-based,,0-127: Filter type selection
+Dreadbox,Medusa,Filter,Filter Track,Controls keyboard tracking amount for the filter,43,,0,127,,,,,0-based,,0-127: Keyboard tracking
+Dreadbox,Medusa,Mixer,Mixer OSC1 Analog,Controls analog oscillator 1 level in the mixer,44,,0,127,,,,,0-based,,0-127: OSC1 analog level
+Dreadbox,Medusa,Mixer,Mixer OSC2 Analog,Controls analog oscillator 2 level in the mixer,45,,0,127,,,,,0-based,,0-127: OSC2 analog level
+Dreadbox,Medusa,Mixer,Mixer OSC3 Analog,Controls analog oscillator 3 level in the mixer,46,,0,127,,,,,0-based,,0-127: OSC3 analog level
+Dreadbox,Medusa,Mixer,Mixer Noise,Controls noise level in the mixer,47,,0,127,,,,,0-based,,0-127: Noise level
+Dreadbox,Medusa,Mixer,Mixer OSC1 Digital,Controls digital oscillator 1 level in the mixer,48,,0,127,,,,,0-based,,0-127: OSC1 digital level
+Dreadbox,Medusa,Mixer,Mixer OSC2 Digital,Controls digital oscillator 2 level in the mixer,49,,0,127,,,,,0-based,,0-127: OSC2 digital level
+Dreadbox,Medusa,Mixer,Mixer OSC3 Digital,Controls digital oscillator 3 level in the mixer,50,,0,127,,,,,0-based,,0-127: OSC3 digital level
+Dreadbox,Medusa,Envelope,ENV1 Delay,Controls delay time before envelope 1 starts,51,,0,127,,,,,0-based,,0-127: Delay time
+Dreadbox,Medusa,Envelope,ENV1 Attack,Controls attack time for envelope 1,52,,0,127,,,,,0-based,,0-127: Attack time
+Dreadbox,Medusa,Envelope,ENV1 Decay,Controls decay time for envelope 1,53,,0,127,,,,,0-based,,0-127: Decay time
+Dreadbox,Medusa,Envelope,ENV1 Sustain,Controls sustain level for envelope 1,54,,0,127,,,,,0-based,,0-127: Sustain level
+Dreadbox,Medusa,Envelope,ENV1 Release,Controls release time for envelope 1,55,,0,127,,,,,0-based,,0-127: Release time
+Dreadbox,Medusa,Envelope,ENV1 Amount,Controls modulation amount for envelope 1,56,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,Envelope,ENV1 Target,Selects modulation target for envelope 1,57,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,Envelope,ENV1 Loop,Controls loop behavior for envelope 1,58,,0,127,,,,,0-based,,0-127: Loop setting
+Dreadbox,Medusa,Envelope,ENV2 Delay,Controls delay time before envelope 2 starts,59,,0,127,,,,,0-based,,0-127: Delay time
+Dreadbox,Medusa,Envelope,ENV2 Attack,Controls attack time for envelope 2,60,,0,127,,,,,0-based,,0-127: Attack time
+Dreadbox,Medusa,Envelope,ENV2 Decay,Controls decay time for envelope 2,61,,0,127,,,,,0-based,,0-127: Decay time
+Dreadbox,Medusa,Envelope,ENV2 Sustain,Controls sustain level for envelope 2,62,,0,127,,,,,0-based,,0-127: Sustain level
+Dreadbox,Medusa,Envelope,ENV2 Release,Controls release time for envelope 2,63,,0,127,,,,,0-based,,0-127: Release time
+Dreadbox,Medusa,Envelope,ENV2 Amount,Controls modulation amount for envelope 2,64,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,Envelope,ENV2 Target,Selects modulation target for envelope 2,65,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,Envelope,ENV2 Loop,Controls loop behavior for envelope 2,66,,0,127,,,,,0-based,,0-127: Loop setting
+Dreadbox,Medusa,Envelope,ENV3 Delay,Controls delay time before envelope 3 starts,67,,0,127,,,,,0-based,,0-127: Delay time
+Dreadbox,Medusa,Envelope,ENV3 Attack,Controls attack time for envelope 3,68,,0,127,,,,,0-based,,0-127: Attack time
+Dreadbox,Medusa,Envelope,ENV3 Decay,Controls decay time for envelope 3,69,,0,127,,,,,0-based,,0-127: Decay time
+Dreadbox,Medusa,Envelope,ENV3 Sustain,Controls sustain level for envelope 3,70,,0,127,,,,,0-based,,0-127: Sustain level
+Dreadbox,Medusa,Envelope,ENV3 Release,Controls release time for envelope 3,71,,0,127,,,,,0-based,,0-127: Release time
+Dreadbox,Medusa,Envelope,ENV3 Amount,Controls modulation amount for envelope 3,72,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,Envelope,ENV3 Target,Selects modulation target for envelope 3,73,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,Envelope,ENV3 Loop,Controls loop behavior for envelope 3,74,,0,127,,,,,0-based,,0-127: Loop setting
+Dreadbox,Medusa,Envelope,ENV4 Delay,Controls delay time before envelope 4 starts,75,,0,127,,,,,0-based,,0-127: Delay time
+Dreadbox,Medusa,Envelope,ENV4 Attack,Controls attack time for envelope 4,76,,0,127,,,,,0-based,,0-127: Attack time
+Dreadbox,Medusa,Envelope,ENV4 Decay,Controls decay time for envelope 4,77,,0,127,,,,,0-based,,0-127: Decay time
+Dreadbox,Medusa,Envelope,ENV4 Sustain,Controls sustain level for envelope 4,78,,0,127,,,,,0-based,,0-127: Sustain level
+Dreadbox,Medusa,Envelope,ENV4 Release,Controls release time for envelope 4,79,,0,127,,,,,0-based,,0-127: Release time
+Dreadbox,Medusa,Envelope,ENV4 Amount,Controls modulation amount for envelope 4,80,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,Envelope,ENV4 Loop,Controls loop behavior for envelope 4,82,,0,127,,,,,0-based,,0-127: Loop setting
+Dreadbox,Medusa,Envelope,ENV5 Delay,Controls delay time before envelope 5 starts,83,,0,127,,,,,0-based,,0-127: Delay time
+Dreadbox,Medusa,Envelope,ENV5 Attack,Controls attack time for envelope 5,84,,0,127,,,,,0-based,,0-127: Attack time
+Dreadbox,Medusa,Envelope,ENV5 Decay,Controls decay time for envelope 5,85,,0,127,,,,,0-based,,0-127: Decay time
+Dreadbox,Medusa,Envelope,ENV5 Sustain,Controls sustain level for envelope 5,86,,0,127,,,,,0-based,,0-127: Sustain level
+Dreadbox,Medusa,Envelope,ENV5 Release,Controls release time for envelope 5,87,,0,127,,,,,0-based,,0-127: Release time
+Dreadbox,Medusa,Envelope,ENV5 Amount,Controls modulation amount for envelope 5,88,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,Envelope,ENV5 Loop,Controls loop behavior for envelope 5,90,,0,127,,,,,0-based,,0-127: Loop setting
+Dreadbox,Medusa,LFO,LFO1 Rate,Controls rate/speed of LFO 1,91,,0,127,,,,,0-based,,0-127: LFO rate
+Dreadbox,Medusa,LFO,LFO1 Wave,Selects waveform for LFO 1,92,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,LFO,LFO1 Amount,Controls modulation amount for LFO 1,93,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,LFO,LFO1 Target,Selects modulation target for LFO 1,94,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,LFO,LFO1 Sync,Controls tempo sync behavior for LFO 1,95,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Medusa,LFO,LFO2 Rate,Controls rate/speed of LFO 2,96,,0,127,,,,,0-based,,0-127: LFO rate
+Dreadbox,Medusa,LFO,LFO2 Wave,Selects waveform for LFO 2,97,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,LFO,LFO2 Amount,Controls modulation amount for LFO 2,98,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,LFO,LFO2 Target,Selects modulation target for LFO 2,99,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,LFO,LFO2 Sync,Controls tempo sync behavior for LFO 2,100,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Medusa,LFO,LFO3 Rate,Controls rate/speed of LFO 3,101,,0,127,,,,,0-based,,0-127: LFO rate
+Dreadbox,Medusa,LFO,LFO3 Wave,Selects waveform for LFO 3,102,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,LFO,LFO3 Amount,Controls modulation amount for LFO 3,103,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,LFO,LFO3 Target,Selects modulation target for LFO 3,104,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,LFO,LFO3 Sync,Controls tempo sync behavior for LFO 3,105,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Medusa,LFO,LFO4 Rate,Controls rate/speed of LFO 4,106,,0,127,,,,,0-based,,0-127: LFO rate
+Dreadbox,Medusa,LFO,LFO4 Wave,Selects waveform for LFO 4,107,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,LFO,LFO4 Amount,Controls modulation amount for LFO 4,108,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,LFO,LFO4 Target,Selects modulation target for LFO 4,109,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,LFO,LFO4 Sync,Controls tempo sync behavior for LFO 4,110,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Medusa,LFO,LFO5 Rate,Controls rate/speed of LFO 5,111,,0,127,,,,,0-based,,0-127: LFO rate
+Dreadbox,Medusa,LFO,LFO5 Wave,Selects waveform for LFO 5,112,,0,127,,,,,0-based,,0-127: Wave selection
+Dreadbox,Medusa,LFO,LFO5 Amount,Controls modulation amount for LFO 5,113,,0,127,,,,,0-based,,0-127: Modulation amount
+Dreadbox,Medusa,LFO,LFO5 Target,Selects modulation target for LFO 5,114,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,LFO,LFO5 Sync,Controls tempo sync behavior for LFO 5,115,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Medusa,Modulation,Target X Select,Selects parameter for X-axis modulation,116,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,Modulation,Target Y Select,Selects parameter for Y-axis modulation,117,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,Modulation,Target Z Select,Selects parameter for Z-axis modulation,118,,0,127,,,,,0-based,,0-127: Target selection
+Dreadbox,Medusa,Modulation,Target Y Value,Controls Y-axis modulation value,119,,0,127,,,,,0-based,,0-127: Y-axis value

@@ -1,0 +1,8 @@
+Boss,DM-101,Time,DELAY TIME,Controls the delay time,17,,0,127,,,,,0-based,,0-127: Delay time
+Boss,DM-101,Feedback,INTENSITY,Controls the feedback/regeneration amount,18,,0,127,,,,,0-based,,0-127: Feedback intensity
+Boss,DM-101,Mix,VOLUME,Controls the volume/mix level of the delay effect,19,,0,127,,,,,0-based,,0-127: Delay volume
+Boss,DM-101,Modulation,MOD. RATE,Controls the modulation rate/speed,20,,0,127,,,,,0-based,,0-127: Modulation rate
+Boss,DM-101,Modulation,MOD. DEPTH,Controls the modulation depth amount,21,,0,127,,,,,0-based,,0-127: Modulation depth
+Boss,DM-101,Type,VARIATION,Selects between delay variations,20,,0,127,,,,,0-based,Same CC as MOD. RATE,0-127: Variation selection
+Boss,DM-101,Bypass,EFFECT ON / OFF,Enables or bypasses the effect,27,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Boss,DM-101,Time,TAP,Sets delay time via tap tempo,82,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON (momentary)

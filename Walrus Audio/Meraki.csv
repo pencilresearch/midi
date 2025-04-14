@@ -1,0 +1,19 @@
+Walrus Audio,Meraki,Division,Division L,Controls the rhythmic division for left delay,27,,0,127,,,,,0-based,,0-42: Dotted eighth; 43-85: Eighth note; 86-127: Quarter note
+Walrus Audio,Meraki,Division,Division R,Controls the rhythmic division for right delay,28,,0,127,,,,,0-based,,0-42: Dotted eighth; 43-85: Eighth note; 86-127: Quarter note
+Walrus Audio,Meraki,Sync,Sync,Controls the delay synchronization mode,26,,0,127,,,,,0-based,,0-42: Left; 43-85: Right; 86-127: Sync
+Walrus Audio,Meraki,Feedback,Feedback Path,Controls the feedback routing configuration,31,,0,127,,,,,0-based,,0-42: PingPong; 43-85: Serial; 86-127: Parallel
+Walrus Audio,Meraki,Time,Time,Controls the delay time for the left channel,14,,0,127,,,,,0-based,,0-127: Left delay time
+Walrus Audio,Meraki,Time,Time R,Controls the delay time for the right channel,15,,0,127,,,,,0-based,,0-127: Right delay time
+Walrus Audio,Meraki,Modulation,Mod Depth,Controls the modulation depth for the left channel,22,,0,127,,,,,0-based,,0-127: Left modulation depth
+Walrus Audio,Meraki,Modulation,Mod Depth R,Controls the modulation depth for the right channel,23,,0,127,,,,,0-based,,0-127: Right modulation depth
+Walrus Audio,Meraki,Modulation,Mod Rate,Controls the modulation rate for the left channel,24,,0,127,,,,,0-based,,0-127: Left modulation rate
+Walrus Audio,Meraki,Modulation,Mod Rate R,Controls the modulation rate for the right channel,23,,0,127,,,,,0-based,Note: Same CC as Mod Depth R,0-127: Right modulation rate
+Walrus Audio,Meraki,Modulation,Mod Shape L,Selects the modulation waveform for the left channel,102,,0,127,,,,,0-based,,0-42: Square; 43-85: Random; 86-127: Sine
+Walrus Audio,Meraki,Modulation,Mod Shape R,Selects the modulation waveform for the right channel,103,,0,127,,,,,0-based,,0-42: Square; 43-85: Random; 86-127: Sine
+Walrus Audio,Meraki,Modulation,Mod Phase,Sets the phase relationship between left and right modulation,104,,0,127,,,,,0-based,,0-42: 180 degrees; 43-85: 90 degrees; 86-127: 0 degrees
+Walrus Audio,Meraki,Bypass,Bypass,Controls the bypass state of the effect,29,,0,127,,,,,0-based,,0: Off (bypassed); 127: On (engaged)
+Walrus Audio,Meraki,Feedback,Feedback Ramp,Controls the feedback ramp function,85,,0,127,,,,,0-based,,0: Off; 127: On
+Walrus Audio,Meraki,Sync,Clock Bypass,Controls whether MIDI clock is used for synchronization,89,,0,127,,,,,0-based,,0: Off (use clock); 127: On (ignore clock)
+Walrus Audio,Meraki,Tempo,Tap Tempo,Sets delay time via tap tempo,30,,127,127,,,,,0-based,Momentary function,127: Tap (momentary)
+Walrus Audio,Meraki,Expression,Expression Destination,Selects which parameter is controlled by expression pedal,86,,0,127,,,,,0-based,,0-21: Time; 22-42: Mod; 43-63: Time R; 64-85: Mod R; 86-106: Mod Rate; 107-127: Mod Rate R
+Walrus Audio,Meraki,Bypass,Bypass Mode,Selects between trails and true bypass modes,87,,0,127,,,,,0-based,,0: Trails; 127: No Trails

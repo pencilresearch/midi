@@ -1,0 +1,58 @@
+Behringer,Wing,Input,Channel Mute,Mutes/unmutes specific channel,120,,0,127,,,,,0-based,CC 120 on respective MIDI channel,0: Unmuted; 127: Muted
+Behringer,Wing,Input,Channel Solo,Solo specific channel,122,,0,127,,,,,0-based,CC 122 on respective MIDI channel,0: Solo off; 127: Solo on
+Behringer,Wing,Input,Channel Fader,Controls channel fader level,7,,0,127,,,,,0-based,CC 7 on respective MIDI channel,0: -∞; 127: +10dB
+Behringer,Wing,Input,Channel Pan,Controls channel pan position,10,,0,127,,,,,Centered,CC 10 on respective MIDI channel,0: Hard left; 64: Center; 127: Hard right
+Behringer,Wing,Input,CH 1-16 SELECT,Selects channel 1-16,0,,0,127,,,,,0-based,MIDI channel 14,0-15: Select channel 1-16
+Behringer,Wing,Input,CH 17-32 SELECT,Selects channel 17-32,1,,0,127,,,,,0-based,MIDI channel 14,0-15: Select channel 17-32
+Behringer,Wing,Input,CH 33-48 SELECT,Selects channel 33-48,2,,0,127,,,,,0-based,MIDI channel 14,0-15: Select channel 33-48
+Behringer,Wing,Buses,Bus 1-16 Mute,Mutes/unmutes specific bus,120,,0,127,,,,,0-based,MIDI channel 15 + bus number,0: Unmuted; 127: Muted
+Behringer,Wing,Buses,Bus 1-16 Solo,Solo specific bus,122,,0,127,,,,,0-based,MIDI channel 15 + bus number,0: Solo off; 127: Solo on
+Behringer,Wing,Buses,Bus 1-16 Fader,Controls bus fader level,7,,0,127,,,,,0-based,MIDI channel 15 + bus number,0: -∞; 127: +10dB
+Behringer,Wing,Buses,Bus 1-16 Pan,Controls bus pan position,10,,0,127,,,,,Centered,MIDI channel 15 + bus number,0: Hard left; 64: Center; 127: Hard right
+Behringer,Wing,Bus Masters,Bus 1-16 SELECT,Selects bus 1-16,3,,0,127,,,,,0-based,MIDI channel 14,0-15: Select bus 1-16
+Behringer,Wing,Effects,FX1-8 Mute,Mutes/unmutes specific effect,120,,0,127,,,,,0-based,MIDI channel 31 + FX number,0: Unmuted; 127: Muted
+Behringer,Wing,Effects,FX1-8 Fader,Controls effect level,7,,0,127,,,,,0-based,MIDI channel 31 + FX number,0: -∞; 127: +10dB
+Behringer,Wing,Effects,FX1-8 SELECT,Selects effect 1-8,4,,0,127,,,,,0-based,MIDI channel 14,0-7: Select FX 1-8
+Behringer,Wing,Main,Main LR Mute,Mutes/unmutes main LR output,120,,0,127,,,,,0-based,MIDI channel 39,0: Unmuted; 127: Muted
+Behringer,Wing,Main,Main LR Fader,Controls main LR fader level,7,,0,127,,,,,0-based,MIDI channel 39,0: -∞; 127: +10dB
+Behringer,Wing,Main,Main LR SELECT,Selects Main LR,35,,0,127,,,,,0-based,MIDI channel 14,127: Select Main LR
+Behringer,Wing,Mono,Mono Mute,Mutes/unmutes mono output,120,,0,127,,,,,0-based,MIDI channel 40,0: Unmuted; 127: Muted
+Behringer,Wing,Mono,Mono Fader,Controls mono fader level,7,,0,127,,,,,0-based,MIDI channel 40,0: -∞; 127: +10dB
+Behringer,Wing,Mono,Mono SELECT,Selects Mono,36,,0,127,,,,,0-based,MIDI channel 14,127: Select Mono
+Behringer,Wing,Matrix,Matrix 1-6 Mute,Mutes/unmutes matrix output,120,,0,127,,,,,0-based,MIDI channel 41 + matrix number,0: Unmuted; 127: Muted
+Behringer,Wing,Matrix,Matrix 1-6 Fader,Controls matrix fader level,7,,0,127,,,,,0-based,MIDI channel 41 + matrix number,0: -∞; 127: +10dB
+Behringer,Wing,Matrix,Matrix 1-6 SELECT,Selects matrix 1-6,5,,0,127,,,,,0-based,MIDI channel 14,0-5: Select Matrix 1-6
+Behringer,Wing,DCA,DCA 1-8 Mute,Mutes/unmutes DCA group,120,,0,127,,,,,0-based,MIDI channel 47 + DCA number,0: Unmuted; 127: Muted
+Behringer,Wing,DCA,DCA 1-8 Fader,Controls DCA fader level,7,,0,127,,,,,0-based,MIDI channel 47 + DCA number,0: -∞; 127: +10dB
+Behringer,Wing,DCA,DCA 1-8 SELECT,Selects DCA 1-8,6,,0,127,,,,,0-based,MIDI channel 14,0-7: Select DCA 1-8
+Behringer,Wing,Transport,Play/Pause,Controls play/pause function,115,,0,127,,,,,0-based,MIDI channel 14,127: Toggle Play/Pause
+Behringer,Wing,Transport,Stop,Stops playback/recording,112,,0,127,,,,,0-based,MIDI channel 14,127: Stop
+Behringer,Wing,Transport,Record,Starts/stops recording,114,,0,127,,,,,0-based,MIDI channel 14,127: Toggle Record
+Behringer,Wing,Transport,Fast Forward,Fast forward function,116,,0,127,,,,,0-based,MIDI channel 14,127: Fast Forward
+Behringer,Wing,Transport,Rewind,Rewind function,117,,0,127,,,,,0-based,MIDI channel 14,127: Rewind
+Behringer,Wing,Snapshots,Previous Snapshot,Recalls previous snapshot,85,,0,127,,,,,0-based,MIDI channel 14,127: Previous Snapshot
+Behringer,Wing,Snapshots,Next Snapshot,Recalls next snapshot,86,,0,127,,,,,0-based,MIDI channel 14,127: Next Snapshot
+Behringer,Wing,Snapshots,Current Snapshot,Displays current snapshot number,84,,0,127,,,,,0-based,MIDI channel 14,0-127: Snapshot number
+Behringer,Wing,Snapshots,Go To Snapshot,Goes to specified snapshot,87,,0,127,,,,,0-based,MIDI channel 14,0-127: Snapshot number to recall
+Behringer,Wing,Automation,Automation On/Off,Enables/disables automation,105,,0,127,,,,,0-based,MIDI channel 14,0: Off; 127: On
+Behringer,Wing,EQ,EQ On/Off,Enables/disables EQ for selected channel,13,,0,127,,,,,0-based,MIDI channel for respective channel,0: Off; 127: On
+Behringer,Wing,EQ,Low Band Gain,Controls low band gain for selected channel,21,,0,127,,,,,Centered,MIDI channel for respective channel,-12dB to +12dB (64=center)
+Behringer,Wing,EQ,Low-Mid Band Gain,Controls low-mid band gain for selected channel,22,,0,127,,,,,Centered,MIDI channel for respective channel,-12dB to +12dB (64=center)
+Behringer,Wing,EQ,High-Mid Band Gain,Controls high-mid band gain for selected channel,23,,0,127,,,,,Centered,MIDI channel for respective channel,-12dB to +12dB (64=center)
+Behringer,Wing,EQ,High Band Gain,Controls high band gain for selected channel,24,,0,127,,,,,Centered,MIDI channel for respective channel,-12dB to +12dB (64=center)
+Behringer,Wing,Dynamics,Gate On/Off,Enables/disables gate for selected channel,14,,0,127,,,,,0-based,MIDI channel for respective channel,0: Off; 127: On
+Behringer,Wing,Dynamics,Gate Threshold,Controls gate threshold for selected channel,15,,0,127,,,,,0-based,MIDI channel for respective channel,0: -80dB; 127: 0dB
+Behringer,Wing,Dynamics,Compressor On/Off,Enables/disables compressor for selected channel,16,,0,127,,,,,0-based,MIDI channel for respective channel,0: Off; 127: On
+Behringer,Wing,Dynamics,Compressor Threshold,Controls compressor threshold for selected channel,17,,0,127,,,,,0-based,MIDI channel for respective channel,0: -60dB; 127: 0dB
+Behringer,Wing,Dynamics,Compressor Ratio,Controls compressor ratio for selected channel,18,,0,127,,,,,0-based,MIDI channel for respective channel,0: 1:1; 127: ∞:1
+Behringer,Wing,User,User Button 1-12,Triggers user-defined function,102,,0,127,,,,,0-based,MIDI channel 14,0-11: User buttons 1-12
+Behringer,Wing,Scenes,Store Scene,Stores current scene,90,,0,127,,,,,0-based,MIDI channel 14,127: Store current scene
+Behringer,Wing,Scenes,Recall Scene,Recalls a scene,91,,0,127,,,,,0-based,MIDI channel 14,0-127: Scene number to recall
+Behringer,Wing,Talkback,Talkback On/Off,Enables/disables talkback,55,,0,127,,,,,0-based,MIDI channel 14,0: Off; 127: On
+Behringer,Wing,Monitoring,Monitor Level,Controls monitor output level,8,,0,127,,,,,0-based,MIDI channel 15,0: -∞; 127: +10dB
+Behringer,Wing,Monitoring,Headphone Level,Controls headphone output level,9,,0,127,,,,,0-based,MIDI channel 15,0: -∞; 127: +10dB
+Behringer,Wing,Layers,Layer A,Selects Layer A,20,,0,127,,,,,0-based,MIDI channel 14,127: Select Layer A
+Behringer,Wing,Layers,Layer B,Selects Layer B,21,,0,127,,,,,0-based,MIDI channel 14,127: Select Layer B
+Behringer,Wing,Layers,Layer C,Selects Layer C,22,,0,127,,,,,0-based,MIDI channel 14,127: Select Layer C
+Behringer,Wing,Display,Home Screen,Navigate to home screen,100,,0,127,,,,,0-based,MIDI channel 14,127: Go to home screen
+Behringer,Wing,Display,Channel Screen,Navigate to channel screen,101,,0,127,,,,,0-based,MIDI channel 14,127: Go to channel screen

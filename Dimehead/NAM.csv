@@ -1,0 +1,47 @@
+Dimehead,NAM,Output,Volume,Controls the overall output volume,14,,0,127,,,,,0-based,,0-127: Volume level
+Dimehead,NAM,Room,Room,Controls the room ambience,15,,0,127,,,,,0-based,,0-127: Room amount
+Dimehead,NAM,Preamp,Gain,Controls preamp gain/distortion amount,16,,0,127,,,,,0-based,,0-127: Gain amount
+Dimehead,NAM,EQ,Bass,Controls low frequency EQ,17,,0,127,,,,,0-based,,0-127: Bass amount
+Dimehead,NAM,EQ,Bass Frequency,Sets the center frequency for bass control,114,,0,127,,,,,0-based,,0-127: Bass frequency
+Dimehead,NAM,EQ,Bass Q,Sets the width of the bass frequency band,115,,0,127,,,,,0-based,,0-127: Bass Q
+Dimehead,NAM,EQ,Mids,Controls mid frequency EQ,18,,0,127,,,,,0-based,,0-127: Mids amount
+Dimehead,NAM,EQ,Mids Frequency,Sets the center frequency for mids control,116,,0,127,,,,,0-based,,0-127: Mids frequency
+Dimehead,NAM,EQ,Mids Q,Sets the width of the mids frequency band,117,,0,127,,,,,0-based,,0-127: Mids Q
+Dimehead,NAM,EQ,Treble,Controls high frequency EQ,19,,0,127,,,,,0-based,,0-127: Treble amount
+Dimehead,NAM,EQ,Treble Frequency,Sets the center frequency for treble control,118,,0,127,,,,,0-based,,0-127: Treble frequency
+Dimehead,NAM,EQ,Treble Q,Sets the width of the treble frequency band,119,,0,127,,,,,0-based,,0-127: Treble Q
+Dimehead,NAM,Dynamics,Gate,Controls noise gate threshold,20,,0,127,,,,,0-based,,0-127: Gate threshold
+Dimehead,NAM,Preset,Bank Down,Selects the previous bank,12,,127,127,,,,,0-based,,127: Bank down (momentary)
+Dimehead,NAM,Preset,Bank Up,Selects the next bank,13,,127,127,,,,,0-based,,127: Bank up (momentary)
+Dimehead,NAM,Routing,FX Loop OFF,Disables the effects loop,21,,0,0,,,,,0-based,,0: Effects loop disabled
+Dimehead,NAM,Routing,FX Loop ON,Enables the effects loop,21,,127,127,,,,,0-based,,127: Effects loop enabled
+Dimehead,NAM,Routing,FX Loop Toggle,Toggles the effects loop on/off,22,,127,127,,,,,0-based,,127: Toggle effects loop (momentary)
+Dimehead,NAM,Boost,Disable Boost/FX,Disables the boost/effects section,25,,0,0,,,,,0-based,,0: Boost/FX disabled
+Dimehead,NAM,Boost,Enable Boost/FX,Enables the boost/effects section,25,,127,127,,,,,0-based,,127: Boost/FX enabled
+Dimehead,NAM,Boost,Toggle Boost/FX,Toggles the boost/effects section on/off,30,,127,127,,,,,0-based,,127: Toggle boost/FX (momentary)
+Dimehead,NAM,Boost,Boost/FX Gain,Controls gain amount for boost effect,26,,0,127,,,,,0-based,,0-127: Boost gain
+Dimehead,NAM,Boost,Boost/FX Bass,Controls low frequency for boost effect,27,,0,127,,,,,0-based,,0-127: Boost bass
+Dimehead,NAM,Boost,Boost/FX Mids,Controls mid frequency for boost effect,28,,0,127,,,,,0-based,,0-127: Boost mids
+Dimehead,NAM,Boost,Boost/FX Treble,Controls high frequency for boost effect,29,,0,127,,,,,0-based,,0-127: Boost treble
+Dimehead,NAM,Reverb,Disable Reverb,Disables the reverb effect,35,,0,0,,,,,0-based,,0: Reverb disabled
+Dimehead,NAM,Reverb,Enable Reverb,Enables the reverb effect,35,,127,127,,,,,0-based,,127: Reverb enabled
+Dimehead,NAM,Reverb,Toggle Reverb,Toggles the reverb effect on/off,37,,127,127,,,,,0-based,,127: Toggle reverb (momentary)
+Dimehead,NAM,Reverb,Reverb Mix,Controls the dry/wet mix of reverb,36,,0,127,,,,,0-based,,0-127: Reverb mix
+Dimehead,NAM,Delay,Disable Delay,Disables the delay effect,40,,0,0,,,,,0-based,,0: Delay disabled
+Dimehead,NAM,Delay,Enable Delay,Enables the delay effect,40,,127,127,,,,,0-based,,127: Delay enabled
+Dimehead,NAM,Delay,Toggle Delay,Toggles the delay effect on/off,48,,127,127,,,,,0-based,,127: Toggle delay (momentary)
+Dimehead,NAM,Delay,TAP Tempo,Sets delay time via tap tempo,49,,127,127,,,,,0-based,,127: Tap (momentary)
+Dimehead,NAM,Delay,Delay Mix,Controls the dry/wet mix of delay,41,,0,127,,,,,0-based,,0-127: Delay mix
+Dimehead,NAM,Delay,Delay Time,Controls the delay time,42,,0,127,,,,,0-based,,0-127: Delay time
+Dimehead,NAM,Delay,Delay Feedback,Controls the amount of delay feedback/repeats,43,,0,127,,,,,0-based,,0-127: Feedback amount
+Dimehead,NAM,Delay,Delay LFO Speed,Controls modulation speed for delay,44,,0,127,,,,,0-based,,0-127: LFO speed
+Dimehead,NAM,Delay,Delay LFO Depth,Controls modulation depth for delay,45,,0,127,,,,,0-based,,0-127: LFO depth
+Dimehead,NAM,Delay,Delay Highpass,Controls high-pass filter for delay repeats,46,,0,127,,,,,0-based,,0-127: Highpass frequency
+Dimehead,NAM,Delay,Delay Lowpass,Controls low-pass filter for delay repeats,47,,0,127,,,,,0-based,,0-127: Lowpass frequency
+Dimehead,NAM,Tremolo,Disable Tremolo,Disables the tremolo effect,50,,0,0,,,,,0-based,,0: Tremolo disabled
+Dimehead,NAM,Tremolo,Enable Tremolo,Enables the tremolo effect,50,,127,127,,,,,0-based,,127: Tremolo enabled
+Dimehead,NAM,Tremolo,Toggle Tremolo,Toggles the tremolo effect on/off,53,,127,127,,,,,0-based,,127: Toggle tremolo (momentary)
+Dimehead,NAM,Tremolo,Tremolo Depth,Controls the depth of the tremolo effect,51,,0,127,,,,,0-based,,0-127: Tremolo depth
+Dimehead,NAM,Tremolo,Tremolo Speed,Controls the speed of the tremolo effect,52,,0,127,,,,,0-based,,0-127: Tremolo speed
+Dimehead,NAM,Cabinet,IR Highpass,Controls high-pass filter for cabinet simulation,120,,0,127,,,,,0-based,,0-127: IR highpass frequency
+Dimehead,NAM,Cabinet,IR Lowpass,Controls low-pass filter for cabinet simulation,121,,0,127,,,,,0-based,,0-127: IR lowpass frequency

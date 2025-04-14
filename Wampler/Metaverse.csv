@@ -1,0 +1,22 @@
+Wampler,Metaverse,Global,Delay State,Controls bypass state of delay effect,1,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Metaverse,Programs,Delay Program,Selects delay algorithm type,2,,0,10,,,,,0-based,,"0: ANLG (Analog); 1: WET (Modulated analog); 2: BBD (Bucket Brigade); 3: JET (Analog flanger); 4: DOC (The Doctor); 5: FTE (Faux Tape Echo); 6: ETH (Ethereal); 7: MOD (Digital flanger); 8: SPC (Space Echo); 9: TAPE (Multi head); 10: DIGI (Digital)"
+Wampler,Metaverse,Delay,Delay Time,Controls delay time via knob emulation,3,,0,127,,,,,0-based,25ms to 2000ms,0: 25ms; 127: 2000ms
+Wampler,Metaverse,Delay,Delay Feedback,Controls feedback/repeats amount,4,,0,127,,,,,0-based,Emulates Feedback knob,0-127: Feedback amount
+Wampler,Metaverse,Tone,Tone,Controls tone/EQ of delay repeats,5,,0,127,,,,,0-based,Emulates Tone knob,0-127: Tone amount
+Wampler,Metaverse,Mix,Mix,Controls dry/wet balance,6,,0,127,,,,,0-based,"0: 100% dry, 0% wet; 95: 100% dry, 100% wet; 127: 0% dry, 100% wet","0-127: Mix amount"
+Wampler,Metaverse,Level,Level,Controls output level,7,,0,127,,,,,0-based,"0: -6dB; 63: 0dB; 127: +6dB","0-127: Level amount"
+Wampler,Metaverse,Modulation,Mod Depth,Controls depth of modulation effect,8,,0,127,,,,,0-based,Emulates Mod Depth knob,0-127: Mod depth
+Wampler,Metaverse,Modulation,Mod Rate,Controls rate of modulation effect,9,,0,127,,,,,0-based,Emulates Mod Rate knob,0-127: Mod rate
+Wampler,Metaverse,Modulation,Mod Feedback,Controls feedback of modulation effect,10,,0,127,,,,,0-based,"Only affects JET and MOD Programs",0-127: Mod feedback
+Wampler,Metaverse,TAPE Mode,Tape Heads,Selects tape head combination for TAPE program,11,,1,15,,,,,0-based,"Binary head selection: bit 0 = head 4 (16th); bit 1 = head 3 (8th); bit 2 = head 2 (dotted 8th); bit 3 = head 1 (quarter)","1-15: Head combination in binary format"
+Wampler,Metaverse,ETH Mode,Ethereal Mode,Selects delay mode for Ethereal program,12,,0,3,,,,,0-based,,"0: Quarter; 1: Quarter + quarter triplet; 2: Quarter + dotted eighth overlay; 3: Quarter + dotted eighth"
+Wampler,Metaverse,Tempo,Subdivision,Sets rhythmic subdivision for tap tempo,13,,0,14,,,,,0-based,0-7 accessible via front panel,"0: Quarter; 1: Dotted Eighth; 2: Eighth; 3: Sixteenth; 4: Half; 5: Whole; 6: Dotted Quarter; 7: Triplet Quarter; 8: Dotted Sixteenth; 9: Dotted Half; 10: Dotted Whole; 11: Triplet Sixteenth; 12: Triplet Eighth; 13: Triplet Half; 14: Triplet Whole"
+Wampler,Metaverse,Delay,Delay Time High,Sets high byte of delay time in ms,14,,0,15,,,,,0-based,Used with Delay Time Low for precise ms control,0-15: High byte value (delay time in ms / 128)
+Wampler,Metaverse,Delay,Delay Time Low,Sets low byte of delay time in ms,15,,0,127,,,,,0-based,Used with Delay Time High for precise ms control,0-127: Low byte value (fractional part * 128)
+Wampler,Metaverse,Tempo,Tap Tempo,Sends a tap tempo input,81,,0,0,,,,,0-based,,0: Trigger tap tempo
+Wampler,Metaverse,Presets,Preset Decrement,Decrements current preset number,82,,0,127,,,,,0-based,,0-127: Decrement preset
+Wampler,Metaverse,Presets,Preset Increment,Increments current preset number,83,,0,127,,,,,0-based,,0-127: Increment preset
+Wampler,Metaverse,Global,Tempo Switch Mode,Sets function of tempo switch,84,,0,127,,,,,0-based,,0: Tap tempo; 1-127: Preset increment
+Wampler,Metaverse,Global,Trails Mode,Enables/disables decay trails when bypassed,85,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Metaverse,Global,MIDI Clock Enable,Enables/disables synchronization to MIDI clock,99,,0,127,,,,,0-based,,0: Off; 1-127: On
+Wampler,Metaverse,Global,Expression Pedal,Emulates expression pedal input,100,,0,127,,,,,0-based,,0-127: Expression position

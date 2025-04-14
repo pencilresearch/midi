@@ -1,0 +1,55 @@
+REVV,D20,Power Amp,On/Off,Enables or disables the power amp section,0,,0,1,,,,,0-based,,0: Off; 1: On
+REVV,D20,Power Amp,Model,Selects power amp model,1,,0,7,,,,,0-based,,0-7: Different amp models
+REVV,D20,Power Amp,Volume,Controls power amp volume,2,,0,30,,,,,0-based,,0: 0dB; 30: 30dB
+REVV,D20,Power Amp,Presence,Controls power amp presence,3,,0,127,,,,,0-based,,0: 0%; 63: 50%; 127: 100%
+REVV,D20,Power Amp,Depth,Controls power amp depth,4,,0,127,,,,,0-based,,0: 0%; 63: 50%; 127: 100%
+REVV,D20,Power Amp,Type,Selects power amp tube type,5,,0,1,,,,,0-based,,0: Triode; 1: Pentode
+REVV,D20,Miking,On/Off,Enables or disables the cab miking section,6,,0,1,,,,,0-based,,0: Off; 1: On
+REVV,D20,Miking,Cab,Selects the cabinet model,8,,0,127,,,,,0-based,Maximum value depends on available cabs,0-x: Available cabinet models
+REVV,D20,Miking,File A,Selects IR file for mic A,9,,0,127,,,,,0-based,Maximum value depends on available files,0-x: Available IR files
+REVV,D20,Miking,File B,Selects IR file for mic B,10,,0,127,,,,,0-based,Maximum value depends on available files,0-x: Available IR files
+REVV,D20,Miking,Folder A,Selects IR folder for mic A,11,,0,3,,,,,0-based,,0: User 0; 1: User 1; 2: User 2; 3: User 3
+REVV,D20,Miking,Folder B,Selects IR folder for mic B,12,,0,3,,,,,0-based,,0: User 0; 1: User 1; 2: User 2; 3: User 3
+REVV,D20,Miking,Mic A,Selects microphone model for mic A,13,,0,7,,,,,0-based,,0-7: Available microphone models
+REVV,D20,Miking,Distance A,Controls distance of mic A from cabinet,14,,0,127,,,,,0-based,,0: 0%; 63: 50%; 127: 100%
+REVV,D20,Miking,Center A,Controls positioning of mic A from center to edge,15,,0,127,,,,,0-based,,0: 0% (edge); 63: 50%; 127: 100% (center)
+REVV,D20,Miking,Position A,Selects front or back position for mic A,16,,0,1,,,,,0-based,,0: Back; 1: Front
+REVV,D20,Miking,Level A,Controls volume level of mic A,35,,0,107,,,,,0-based,,0: -95dB; 95: 0dB; 107: 12dB
+REVV,D20,Miking,Phase A,Controls phase of mic A,36,,0,1,,,,,0-based,,0: Normal; 1: Invert
+REVV,D20,Miking,Mute A,Mutes or unmutes mic A,37,,0,1,,,,,0-based,,0: Off (no mute); 1: On (mute)
+REVV,D20,Miking,Mic B,Selects microphone model for mic B,38,,0,7,,,,,0-based,,0-7: Available microphone models
+REVV,D20,Miking,Distance B,Controls distance of mic B from cabinet,39,,0,127,,,,,0-based,,0: 0%; 63: 50%; 127: 100%
+REVV,D20,Miking,Center B,Controls positioning of mic B from center to edge,40,,0,127,,,,,0-based,,0: 0% (edge); 63: 50%; 127: 100% (center)
+REVV,D20,Miking,Position B,Selects front or back position for mic B,41,,0,1,,,,,0-based,,0: Back; 1: Front
+REVV,D20,Miking,Level B,Controls volume level of mic B,42,,0,107,,,,,0-based,,0: -95dB; 95: 0dB; 107: 12dB
+REVV,D20,Miking,Phase B,Controls phase of mic B,43,,0,1,,,,,0-based,,0: Normal; 1: Invert
+REVV,D20,Miking,Mute B,Mutes or unmutes mic B,44,,0,1,,,,,0-based,,0: Off (no mute); 1: On (mute)
+REVV,D20,EQ,On/Off,Enables or disables the EQ section,17,,0,1,,,,,0-based,,0: Off; 1: On
+REVV,D20,EQ,Mode,Selects EQ mode,18,,0,2,,,,,0-based,,0: Guitar; 1: Bass; 2: Custom
+REVV,D20,EQ,Gain: Low,Controls gain for low frequency band,19,,0,40,,,,,0-based,,0: -20dB; 20: 0dB; 40: 20dB
+REVV,D20,EQ,Gain: Low Mid,Controls gain for low-mid frequency band,20,,0,40,,,,,0-based,,0: -20dB; 20: 0dB; 40: 20dB
+REVV,D20,EQ,Gain: Mid,Controls gain for mid frequency band,21,,0,40,,,,,0-based,,0: -20dB; 20: 0dB; 40: 20dB
+REVV,D20,EQ,Gain: High Mid,Controls gain for high-mid frequency band,22,,0,40,,,,,0-based,,0: -20dB; 20: 0dB; 40: 20dB
+REVV,D20,EQ,Gain: High,Controls gain for high frequency band,23,,0,40,,,,,0-based,,0: -20dB; 20: 0dB; 40: 20dB
+REVV,D20,EQ,Freq: Low Cut,Sets the low cut frequency,45,,0,127,,,,,0-based,Specific mapping to Hz,0-127: Frequency value
+REVV,D20,EQ,Freq: Low,Sets the low band center frequency,46,,0,127,,,,,0-based,Specific mapping to Hz,0-127: Frequency value
+REVV,D20,EQ,Freq: Low Mid,Sets the low-mid band center frequency,47,,0,127,,,,,0-based,Specific mapping to Hz,0-127: Frequency value
+REVV,D20,EQ,Freq: Mid,Sets the mid band center frequency,48,,0,127,,,,,0-based,Specific mapping to Hz,0-127: Frequency value
+REVV,D20,EQ,Freq: High Mid,Sets the high-mid band center frequency,49,,0,127,,,,,0-based,Specific mapping to Hz,0-127: Frequency value
+REVV,D20,EQ,Freq: High,Sets the high band center frequency,50,,0,127,,,,,0-based,Specific mapping to Hz,0-127: Frequency value
+REVV,D20,Level,Preset Level,Controls the preset output level,24,,0,95,,,,,0-based,,0: -95dB; 95: 0dB
+REVV,D20,Reverb,On/Off,Enables or disables the reverb section,25,,0,1,,,,,0-based,,0: Off; 1: On
+REVV,D20,Reverb,Room,Selects reverb room type,26,,0,7,,,,,0-based,,0-7: Available room types
+REVV,D20,Reverb,Dry/Wet,Controls reverb mix,27,,0,127,,,,,0-based,,0: 0%; 63: 50%; 127: 100%
+REVV,D20,Arcade Mode,Cab,Selects cabinet model in arcade mode,8,,0,127,,,,,0-based,Same CC as in Miking section; maximum value depends on available cabs,0-x: Available cabinet models
+REVV,D20,Arcade Mode,Mic,Selects microphone model in arcade mode,13,,0,7,,,,,0-based,Same CC as Mic A in Miking section,0-7: Available microphone models
+REVV,D20,Arcade Mode,Room,Selects reverb room type in arcade mode,26,,0,7,,,,,0-based,Same CC as Room in Reverb section,0-7: Available room types
+REVV,D20,Arcade Mode,Power Amp,Controls power amp level in arcade mode,29,,0,30,,,,,0-based,,0: Off; 1: Min; 30: Max
+REVV,D20,Arcade Mode,Distance,Controls mic distance in arcade mode,30,,0,44,,,,,0-based,,0: Min; 44: Max
+REVV,D20,Arcade Mode,Tone,Controls tone in arcade mode,31,,0,44,,,,,0-based,,0: Min; 44: Max
+REVV,D20,Arcade Mode,Contour,Controls contour in arcade mode,32,,0,40,,,,,0-based,,0: Min; 40: Max
+REVV,D20,Arcade Mode,Preset Level,Controls preset level in arcade mode,33,,0,107,,,,,0-based,,0: -95dB; 95: 0dB; 107: 12dB
+REVV,D20,General,Preset Mode,Selects the preset mode,34,,0,2,,,,,0-based,,0: Simulation; 1: Arcade; 2: IR Loader
+REVV,D20,General,Out Level,Controls the output level,51,,0,107,,,,,0-based,,0: -95dB; 95: 0dB; 107: 12dB
+REVV,D20,General,Mute,Mutes or unmutes the output,52,,0,1,,,,,0-based,,0: Off (no mute); 1: On (mute)
+REVV,D20,General,Preset,Selects preset,54,,0,127,,,,,0-based,,0-127: Available presets

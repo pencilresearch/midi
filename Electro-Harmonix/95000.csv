@@ -1,0 +1,67 @@
+Electro Harmonix,95000,Controls,Value Knob Press,Simulates pressing the Value knob,3,,1,1,,,,,0-based,Momentary action,1: Press (momentary)
+Electro Harmonix,95000,Controls,Value Knob Down,Simulates turning the Value knob down,3,,2,2,,,,,0-based,Momentary action,2: Turn down (momentary)
+Electro Harmonix,95000,Controls,Value Knob Up,Simulates turning the Value knob up,3,,3,3,,,,,0-based,Momentary action,3: Turn up (momentary)
+Electro Harmonix,95000,Footswitch,Track FSW Press,Simulates pressing the Track footswitch,3,,100,100,,,,,0-based,Momentary action,100: Press (momentary)
+Electro Harmonix,95000,Footswitch,Undo FSW Press,Simulates pressing the Undo footswitch,3,,101,101,,,,,0-based,Momentary action,101: Press (momentary)
+Electro Harmonix,95000,Footswitch,Record FSW Press,Simulates pressing the Record footswitch,3,,102,102,,,,,0-based,Momentary action,102: Press (momentary)
+Electro Harmonix,95000,Footswitch,Play/Stop FSW Press,Simulates pressing the Play/Stop footswitch,3,,103,103,,,,,0-based,Momentary action,103: Press (momentary)
+Electro Harmonix,95000,Footswitch,Loop Down FSW Press,Simulates pressing the Loop Down footswitch,3,,104,104,,,,,0-based,Momentary action,104: Press (momentary)
+Electro Harmonix,95000,Footswitch,Loop Up FSW Press,Simulates pressing the Loop Up footswitch,3,,105,105,,,,,0-based,Momentary action,105: Press (momentary)
+Electro Harmonix,95000,Buttons,New Loop Button Press,Simulates pressing the New Loop button,3,,106,106,,,,,0-based,Momentary action,106: Press (momentary)
+Electro Harmonix,95000,Buttons,Reverse Button Press,Simulates pressing the Reverse button,3,,107,107,,,,,0-based,Momentary action,107: Press (momentary)
+Electro Harmonix,95000,Buttons,Oct Button Press,Simulates pressing the Octave button,3,,108,108,,,,,0-based,Momentary action,108: Press (momentary)
+Electro Harmonix,95000,Buttons,Tap Button Press,Simulates pressing the Tap button,3,,109,109,,,,,0-based,Momentary action,109: Press (momentary)
+Electro Harmonix,95000,Track Controls,Track 1 Button Press,Simulates pressing the Track 1 button,3,,110,110,,,,,0-based,Momentary action,110: Press (momentary)
+Electro Harmonix,95000,Track Controls,Track 2 Button Press,Simulates pressing the Track 2 button,3,,111,111,,,,,0-based,Momentary action,111: Press (momentary)
+Electro Harmonix,95000,Track Controls,Track 3 Button Press,Simulates pressing the Track 3 button,3,,112,112,,,,,0-based,Momentary action,112: Press (momentary)
+Electro Harmonix,95000,Track Controls,Track 4 Button Press,Simulates pressing the Track 4 button,3,,113,113,,,,,0-based,Momentary action,113: Press (momentary)
+Electro Harmonix,95000,Track Controls,Track 5 Button Press,Simulates pressing the Track 5 button,3,,114,114,,,,,0-based,Momentary action,114: Press (momentary)
+Electro Harmonix,95000,Track Controls,Track 6 Button Press,Simulates pressing the Track 6 button,3,,115,115,,,,,0-based,Momentary action,115: Press (momentary)
+Electro Harmonix,95000,Buttons,Mixdown Button Press,Simulates pressing the Mixdown button,3,,116,116,,,,,0-based,Momentary action,116: Press (momentary)
+Electro Harmonix,95000,Buttons,Punch Button Press,Simulates pressing the Punch button,3,,117,117,,,,,0-based,Momentary action,117: Press (momentary)
+Electro Harmonix,95000,Buttons,Quantize Button Press,Simulates pressing the Quantize button,3,,118,118,,,,,0-based,Momentary action,118: Press (momentary)
+Electro Harmonix,95000,Buttons,Page Button Press,Simulates pressing the Page button,3,,119,119,,,,,0-based,Momentary action,119: Press (momentary)
+Electro Harmonix,95000,Track Controls,Mute/Unmute Track 1,Toggles mute state of Track 1,3,,120,120,,,,,0-based,Momentary action,120: Toggle mute (momentary)
+Electro Harmonix,95000,Track Controls,Mute/Unmute Track 2,Toggles mute state of Track 2,3,,121,121,,,,,0-based,Momentary action,121: Toggle mute (momentary)
+Electro Harmonix,95000,Track Controls,Mute/Unmute Track 3,Toggles mute state of Track 3,3,,122,122,,,,,0-based,Momentary action,122: Toggle mute (momentary)
+Electro Harmonix,95000,Track Controls,Mute/Unmute Track 4,Toggles mute state of Track 4,3,,123,123,,,,,0-based,Momentary action,123: Toggle mute (momentary)
+Electro Harmonix,95000,Track Controls,Mute/Unmute Track 5,Toggles mute state of Track 5,3,,124,124,,,,,0-based,Momentary action,124: Toggle mute (momentary)
+Electro Harmonix,95000,Track Controls,Mute/Unmute Track 6,Toggles mute state of Track 6,3,,125,125,,,,,0-based,Momentary action,125: Toggle mute (momentary)
+Electro Harmonix,95000,Track Controls,Mute/Unmute Mixdown,Toggles mute state of Mixdown track,3,,126,126,,,,,0-based,Momentary action,126: Toggle mute (momentary)
+Electro Harmonix,95000,Buttons,Ext. Clock Button Press,Simulates pressing the External Clock button,3,,127,127,,,,,0-based,Momentary action,127: Press (momentary)
+Electro Harmonix,95000,Levels,Master Level,Controls the master output level,7,,0,127,,,,,0-based,,0-127: Master level
+Electro Harmonix,95000,Levels,CLIX Level,Controls the click track level,9,,0,127,,,,,0-based,,0-127: Click level
+Electro Harmonix,95000,Levels,Dry Output L Volume,Controls the left channel dry output volume,14,,0,127,,,,,0-based,,0-127: Dry left volume
+Electro Harmonix,95000,Levels,Dry Output R Volume,Controls the right channel dry output volume,15,,0,127,,,,,0-based,,0-127: Dry right volume
+Electro Harmonix,95000,Track Levels,Track 1 Volume,Controls the playback volume of Track 1,20,,0,127,,,,,0-based,,0-127: Track 1 volume
+Electro Harmonix,95000,Track Levels,Track 2 Volume,Controls the playback volume of Track 2,21,,0,127,,,,,0-based,,0-127: Track 2 volume
+Electro Harmonix,95000,Track Levels,Track 3 Volume,Controls the playback volume of Track 3,22,,0,127,,,,,0-based,,0-127: Track 3 volume
+Electro Harmonix,95000,Track Levels,Track 4 Volume,Controls the playback volume of Track 4,23,,0,127,,,,,0-based,,0-127: Track 4 volume
+Electro Harmonix,95000,Track Levels,Track 5 Volume,Controls the playback volume of Track 5,24,,0,127,,,,,0-based,,0-127: Track 5 volume
+Electro Harmonix,95000,Track Levels,Track 6 Volume,Controls the playback volume of Track 6,25,,0,127,,,,,0-based,,0-127: Track 6 volume
+Electro Harmonix,95000,Track Levels,Mixdown Volume,Controls the playback volume of the Mixdown track,26,,0,127,,,,,0-based,,0-127: Mixdown volume
+Electro Harmonix,95000,Tempo,Tempo,Controls the tempo/speed of playback,27,,0,127,,,,,0-based,,0-127: Tempo value
+Electro Harmonix,95000,Controls,Expression Pedal,Controls the assigned parameter via expression pedal,28,,0,127,,,,,0-based,,0-127: Expression value
+Electro Harmonix,95000,Pan,Dry Output L Pan,Controls the panning of the left dry output,29,,0,127,,,,,Centered,Left…Center…Right,0-127: Pan position
+Electro Harmonix,95000,Pan,Dry Output R Pan,Controls the panning of the right dry output,30,,0,127,,,,,Centered,Left…Center…Right,0-127: Pan position
+Electro Harmonix,95000,Pan,Track 1 Pan,Controls the panning of Track 1,85,,0,127,,,,,Centered,Left…Center…Right,0-127: Pan position
+Electro Harmonix,95000,Pan,Track 2 Pan,Controls the panning of Track 2,86,,0,127,,,,,Centered,Left…Center…Right,0-127: Pan position
+Electro Harmonix,95000,Pan,Track 3 Pan,Controls the panning of Track 3,87,,0,127,,,,,Centered,Left…Center…Right,0-127: Pan position
+Electro Harmonix,95000,Pan,Track 4 Pan,Controls the panning of Track 4,88,,0,127,,,,,Centered,Left…Center…Right,0-127: Pan position
+Electro Harmonix,95000,Pan,Track 5 Pan,Controls the panning of Track 5,89,,0,127,,,,,Centered,Left…Center…Right,0-127: Pan position
+Electro Harmonix,95000,Pan,Track 6 Pan,Controls the panning of Track 6,90,,0,127,,,,,Centered,Left…Center…Right,0-127: Pan position
+Electro Harmonix,95000,Overdub,Track 1 Overdub,Controls the overdub level for Track 1,102,,0,127,,,,,0-based,,0-127: Overdub level
+Electro Harmonix,95000,Overdub,Track 2 Overdub,Controls the overdub level for Track 2,103,,0,127,,,,,0-based,,0-127: Overdub level
+Electro Harmonix,95000,Overdub,Track 3 Overdub,Controls the overdub level for Track 3,104,,0,127,,,,,0-based,,0-127: Overdub level
+Electro Harmonix,95000,Overdub,Track 4 Overdub,Controls the overdub level for Track 4,105,,0,127,,,,,0-based,,0-127: Overdub level
+Electro Harmonix,95000,Overdub,Track 5 Overdub,Controls the overdub level for Track 5,106,,0,127,,,,,0-based,,0-127: Overdub level
+Electro Harmonix,95000,Overdub,Track 6 Overdub,Controls the overdub level for Track 6,107,,0,127,,,,,0-based,,0-127: Overdub level
+Electro Harmonix,95000,Overdub,Mixdown Overdub,Controls the overdub level for Mixdown track,108,,0,127,,,,,0-based,,0-127: Overdub level
+Electro Harmonix,95000,Settings,Count-in Secondary Page,Sets the count-in value on the secondary page,109,,0,8,,,,,0-based,,0-8: Count-in value
+Electro Harmonix,95000,Settings,Tempo Slider Resolution,Sets the resolution of the tempo slider,110,,0,1,,,,,0-based,,0: Low resolution; 1: High resolution
+Electro Harmonix,95000,Settings,Clix Mode Secondary Page Mode,Sets the click track mode,111,,0,2,,,,,0-based,,0: Off; 1: Play only; 2: Rec and Play
+Electro Harmonix,95000,Settings,Fade-out Secondary Page Mode,Sets the fade-out time,112,,0,99,,,,,0-based,,0-99: Fade-out time
+Electro Harmonix,95000,Loop,Loop Down,Selects the previous loop,113,,127,127,,,,,0-based,Momentary action,127: Select previous loop (momentary)
+Electro Harmonix,95000,Loop,Loop Up,Selects the next loop,114,,127,127,,,,,0-based,Momentary action,127: Select next loop (momentary)
+Electro Harmonix,95000,Loop,Loop Direct Select,Directly selects a specific loop,115,,0,99,,,,,0-based,,0-99: Loop number
+Electro Harmonix,95000,Tempo,Number of beats per bar,Sets the time signature (beats per measure),116,,1,8,,,,,0-based,,1-8: Beats per bar

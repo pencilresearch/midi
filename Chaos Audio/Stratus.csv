@@ -1,0 +1,6 @@
+Chaos Audio,Stratus,Global,Master Volume,Controls the overall output volume,7,,0,127,,,,,0-based,,0-127: Volume level
+Chaos Audio,Stratus,Effects,Bypass Effect,Bypasses a specific effect in the chain,14,,0,127,,,,,0-based,Effect position value determines which effect is bypassed,0: 1st effect; 1: 2nd effect; 2: 3rd effect; etc.
+Chaos Audio,Stratus,Effects,Enable Effect,Enables a specific effect in the chain,15,,0,127,,,,,0-based,Effect position value determines which effect is enabled,0: 1st effect; 1: 2nd effect; 2: 3rd effect; etc.
+Chaos Audio,Stratus,Effects,Toggle Effect,Toggles a specific effect in the chain on/off,16,,0,127,,,,,0-based,Effect position value determines which effect is toggled,0: 1st effect; 1: 2nd effect; 2: 3rd effect; etc.
+Chaos Audio,Stratus,Looper,Looper,Controls looper functions,17,,0,4,,,,,0-based,,0: Clear; 1: Record; 2: Play; 3: Overdub; 4: Pause
+Chaos Audio,Stratus,Mode,Mode Change,Switches between operating modes,18,,0,1,,,,,0-based,,0: Master Mode (Default); 1: Live Mode

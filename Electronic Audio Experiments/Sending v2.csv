@@ -1,0 +1,51 @@
+Electronic Audio Experiments,Sending v2,Expression,Expression MSB (14 bit),Controls parameters via expression pedal (Most Significant Byte),1,,0,127,,,,,0-based,Used with Expression LSB for high-resolution control,0-127: Expression MSB value
+Electronic Audio Experiments,Sending v2,Tone,Color,Controls the tonal color of the delay,12,,0,127,,,,,0-based,,0-127: Color amount
+Electronic Audio Experiments,Sending v2,Mix,Mix,Controls the dry/wet mix of the effect,13,,0,127,,,,,0-based,,0-127: Mix amount
+Electronic Audio Experiments,Sending v2,Feedback,Feedback,Controls the number of delay repeats,14,,0,127,,,,,0-based,,0-127: Feedback amount
+Electronic Audio Experiments,Sending v2,Tone,Filter,Controls the filter cutoff on the delay path,15,,0,127,,,,,0-based,,0-127: Filter amount
+Electronic Audio Experiments,Sending v2,LFO,LFO Rate,Controls the speed of the LFO modulation,16,,0,127,,,,,0-based,,0-127: LFO Rate
+Electronic Audio Experiments,Sending v2,LFO,LFO Depth,Controls the intensity of the LFO modulation,17,,0,127,,,,,0-based,,0-127: LFO Depth
+Electronic Audio Experiments,Sending v2,Time,Time,Controls the delay time (Most Significant Byte),18,,0,127,,,,,0-based,Used with Time LSB for high-resolution control,0-127: Time MSB value
+Electronic Audio Experiments,Sending v2,Chaos,Chaos Sample/Hold,Controls the randomization of the sample and hold function,19,,0,127,,,,,0-based,,0-127: Chaos amount
+Electronic Audio Experiments,Sending v2,Level,Level Trim,Controls the output level of the effect,20,,0,127,,,,,0-based,,0-127: Level amount
+Electronic Audio Experiments,Sending v2,Mix,Mix Mode,Selects between crossfade and effect only mix modes,21,,0,127,,,,,0-based,,0-63: Crossfade; 64-127: Effect only
+Electronic Audio Experiments,Sending v2,Time,Ramp Time,Controls the time for ramping between parameter changes,22,,0,127,,,,,0-based,,0-127: Ramp time
+Electronic Audio Experiments,Sending v2,LFO,LFO Arp Mode,Selects the LFO arpeggiator mode,23,,0,127,,,,,0-based,,0-22: Normal; 23-44: Octaves; 45-67: Octaves + 5ths; 68-89: Stacked 5ths; 90-111: Stacked 4ths; 112-127: Glitch Mode
+Electronic Audio Experiments,Sending v2,Chaos,Chaos,Controls the amount of randomization/chaos in the effect,24,,0,127,,,,,0-based,,0-127: Chaos amount
+Electronic Audio Experiments,Sending v2,LFO,LFO Shape,Selects the waveform shape for the LFO,25,,0,127,,,,,0-based,,0-42: Sine; 43-85: Square; 86-127: Triangle
+Electronic Audio Experiments,Sending v2,Time,Tap Divisions,Sets the rhythmic division for tap tempo,26,,0,127,,,,,0-based,,0-22: Dotted eighth; 23-44: Eighth note; 45-67: Quarter note triplet; 68-89: Dotted eighth; 90-111: Quarter note; 112-127: Half note
+Electronic Audio Experiments,Sending v2,LFO,LFO Skew,Controls the asymmetry of the LFO waveform,27,,0,127,,,,,Centered,Centered at 63/64,0-63: Ramp down (negative); 64-127: Ramp up (positive)
+Electronic Audio Experiments,Sending v2,Modulation,Color Mod ±,Controls positive or negative modulation of the Color parameter,28,,0,127,,,,,Centered,Centered at 63/64,0-63: Negative modulation; 64-127: Positive modulation
+Electronic Audio Experiments,Sending v2,Modulation,Mix Mod ±,Controls positive or negative modulation of the Mix parameter,29,,0,127,,,,,Centered,Centered at 63/64,0-63: Negative modulation; 64-127: Positive modulation
+Electronic Audio Experiments,Sending v2,Modulation,Feedback Mod ±,Controls positive or negative modulation of the Feedback parameter,30,,0,127,,,,,Centered,Centered at 63/64,0-63: Negative modulation; 64-127: Positive modulation
+Electronic Audio Experiments,Sending v2,Modulation,Filter Mod ±,Controls positive or negative modulation of the Filter parameter,31,,0,127,,,,,Centered,Centered at 63/64,0-63: Negative modulation; 64-127: Positive modulation
+Electronic Audio Experiments,Sending v2,Modulation,Time Mod ±,Controls positive or negative modulation of the Time parameter,32,,0,127,,,,,Centered,Centered at 63/64,0-63: Negative modulation; 64-127: Positive modulation
+Electronic Audio Experiments,Sending v2,Expression,Expression LSB (14 bit),Fine control for expression pedal (Least Significant Byte),33,,0,127,,,,,0-based,Used with Expression MSB for high-resolution control,0-127: Expression LSB value
+Electronic Audio Experiments,Sending v2,Expression,Color Expression,Maps expression pedal to Color parameter,34,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,Mix Expression,Maps expression pedal to Mix parameter,35,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,Feedback Expression,Maps expression pedal to Feedback parameter,36,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,Filter Expression,Maps expression pedal to Filter parameter,37,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,LFO Rate Expression,Maps expression pedal to LFO Rate parameter,38,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,LFO Depth Expression,Maps expression pedal to LFO Depth parameter,39,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,Time Expression,Maps expression pedal to Time parameter,40,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,Level Trim Expression,Maps expression pedal to Level Trim parameter,41,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,Swell Time Expression,Maps expression pedal to Swell Time parameter,42,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,LFO Arp Expression,Maps expression pedal to LFO Arp Mode parameter,43,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,Chaos Expression,Maps expression pedal to Chaos parameter,44,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,LFO Shape Expression,Maps expression pedal to LFO Shape parameter,45,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Expression,Time Div Expression,Maps expression pedal to Tap Divisions parameter,46,,0,127,,,,,0-based,,0-127: Expression mapping amount
+Electronic Audio Experiments,Sending v2,Level,Trails Level (Input Swell),Controls the level of delay trails during bypass or input swell,47,,0,127,,,,,0-based,,0-127: Trails level
+Electronic Audio Experiments,Sending v2,Time,Time LSB,Fine control for delay time (Least Significant Byte),50,,0,127,,,,,0-based,Used with Time MSB for high-resolution control,0-127: Time LSB value
+Electronic Audio Experiments,Sending v2,Tempo,Clock Divisor,Sets the clock division for MIDI clock sync,88,,0,127,,,,,0-based,Note: previously CC27,0-63: Normal speed; 64-127: Half speed
+Electronic Audio Experiments,Sending v2,Tempo,MIDI Clock Ignore,Controls whether MIDI clock is used for synchronization,89,,0,127,,,,,0-based,,0-63: Normal (use clock); 64-127: Ignore clock
+Electronic Audio Experiments,Sending v2,LFO,LFO Sync,Enables LFO synchronization to tempo,90,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Electronic Audio Experiments,Sending v2,LFO,LFO Phase Reset,Resets the LFO phase,91,,0,127,,,,,0-based,Momentary function,0-63: No action; 64-127: Reset phase
+Electronic Audio Experiments,Sending v2,LFO,LFO Phase Offset,Sets the starting phase offset for the LFO,92,,0,127,,,,,0-based,,0-127: Phase offset amount
+Electronic Audio Experiments,Sending v2,Tempo,Tap Tempo,Sets delay time via tap tempo,93,,0,127,,,,,0-based,Momentary function,0-63: No action; 64-127: Tap (momentary)
+Electronic Audio Experiments,Sending v2,Tempo,CV Clock Mode,Enables or disables CV clock input mode,94,,0,127,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Electronic Audio Experiments,Sending v2,Tempo,Tempo Skew,Controls positive or negative skewing of the tempo,95,,0,127,,,,,Centered,Centered at 63/64,0-63: Negative skew; 64-127: Positive skew
+Electronic Audio Experiments,Sending v2,Feedback,Feedback Swell,Activates feedback swell mode,97,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Electronic Audio Experiments,Sending v2,Expression,Expression (7-bit),Controls parameters via expression pedal (7-bit resolution),100,,0,127,,,,,0-based,Lower resolution alternative to 14-bit expression control,0-127: Expression value
+Electronic Audio Experiments,Sending v2,Bypass,Bypass,Controls the bypass state of the effect,102,,0,127,,,,,0-based,,0-63: Bypassed; 64-127: Active
+Electronic Audio Experiments,Sending v2,Bypass,Bypass Mode,Selects between standard and trails bypass modes,103,,0,127,,,,,0-based,,0-63: Standard; 64-127: Trails
+Electronic Audio Experiments,Sending v2,Mode,Swell mode,Selects between standard and hold swell modes,104,,0,127,,,,,0-based,,0-63: Standard; 64-127: Hold

@@ -1,0 +1,43 @@
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Time L,Controls the delay time for delay 1 left channel,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Delay time amount
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Time R,Controls the delay time for delay 1 right channel,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Delay time amount
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Time L,Controls the delay time for delay 2 left channel,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Delay time amount
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Time R,Controls the delay time for delay 2 right channel,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Delay time amount
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Feedback,Controls the feedback amount for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Feedback amount
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Feedback,Controls the feedback amount for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Feedback amount
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Out,Controls the output level for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Output level
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Out,Controls the output level for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Output level
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Modulation Rate,Controls the modulation rate for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Modulation rate
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Modulation Rate,Controls the modulation rate for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Modulation rate
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Modulation Depth,Controls the modulation depth for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Modulation depth
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Modulation Depth,Controls the modulation depth for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Modulation depth
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Filter On,Enables or disables the filter for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Filter On,Enables or disables the filter for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Time On,Enables or disables the time function for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Time On,Enables or disables the time function for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Phase On,Enables or disables the phase function for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Phase On,Enables or disables the phase function for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Mod On,Enables or disables modulation for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Mod On,Enables or disables modulation for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 1,DDL 1 Feedback Phase On,Enables or disables feedback phase for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Delay 2,DDL 2 Feedback Phase On,Enables or disables feedback phase for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Control,DDL 1/DDL 2 Tap,Provides tap tempo input for both delays,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Tap
+BOSS,SDE-3000D/EVH,Control,DDL 1 Lch Tap,Provides tap tempo input for delay 1 left channel,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Tap
+BOSS,SDE-3000D/EVH,Control,DDL 1 Rch Tap,Provides tap tempo input for delay 1 right channel,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Tap
+BOSS,SDE-3000D/EVH,Control,DDL 2 Lch Tap,Provides tap tempo input for delay 2 left channel,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Tap
+BOSS,SDE-3000D/EVH,Control,DDL 2 Rch Tap,Provides tap tempo input for delay 2 right channel,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Tap
+BOSS,SDE-3000D/EVH,Control,DDL 1 Hold,Activates hold function for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Hold
+BOSS,SDE-3000D/EVH,Control,DDL 2 Hold,Activates hold function for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Hold
+BOSS,SDE-3000D/EVH,Control,DDL 1 Moment,Activates momentary function for delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Moment
+BOSS,SDE-3000D/EVH,Control,DDL 2 Moment,Activates momentary function for delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: Moment
+BOSS,SDE-3000D/EVH,Volume,Foot Volume Pedal Position,Controls the position of the virtual volume pedal,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Volume position
+BOSS,SDE-3000D/EVH,Level,Direct Level,Controls the level of the direct (dry) signal,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Direct level
+BOSS,SDE-3000D/EVH,Control,Control 1,Assignable controller 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Control amount
+BOSS,SDE-3000D/EVH,Control,Control 2,Assignable controller 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Control amount
+BOSS,SDE-3000D/EVH,Control,Control 3,Assignable controller 3,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Control amount
+BOSS,SDE-3000D/EVH,Control,Control 4,Assignable controller 4,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Control amount
+BOSS,SDE-3000D/EVH,Control,Control 5,Assignable controller 5,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Control amount
+BOSS,SDE-3000D/EVH,Expression,Exp 1,Expression pedal 1 control,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Expression position
+BOSS,SDE-3000D/EVH,Expression,Exp 2,Expression pedal 2 control,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-127: Expression position
+BOSS,SDE-3000D/EVH,Global,Bypass,Controls the bypass state of the entire effect,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Active; 64-127: Bypassed
+BOSS,SDE-3000D/EVH,Global,DDL 1 Switch,Controls the on/off state of delay 1,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
+BOSS,SDE-3000D/EVH,Global,DDL 2 Switch,Controls the on/off state of delay 2,,,0,127,,,,,0-based,CC number is user assignable to 1-31 or 64-95,0-63: Off; 64-127: On
