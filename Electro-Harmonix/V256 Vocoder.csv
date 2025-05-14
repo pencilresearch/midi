@@ -1,0 +1,18 @@
+Electro-Harmonix,V256 Vocoder,Modulation,Modulation Depth,Controls the depth of the modulation effect,1,,0,127,,,,,0-based,,0-127: Modulation depth
+Electro-Harmonix,V256 Vocoder,Synth,Internal Synth Volume,Controls the volume of the internal synthesizer,7,,0,127,,,,,0-based,,0-127: Synth volume
+Electro-Harmonix,V256 Vocoder,Pitch,Maximum Pitch Bend,Sets the maximum range for pitch bend in semitones,14,,0,12,,,,,0-based,,0-12: Semitones range
+Electro-Harmonix,V256 Vocoder,Pitch,Fine Tuning,Adjusts the fine tuning of the pitch,15,,0,127,,,,,0-based,In 1.5625 cent increments,"0: -100 cents; 64: 0 cents; 127: +98.44 cents"
+Electro-Harmonix,V256 Vocoder,Blend,Blend Knob,Controls the wet/dry mix of the effect,20,,0,127,,,,,0-based,Emulates the BLEND knob,"0: Counter-clockwise (dry); 127: Clockwise (wet)"
+Electro-Harmonix,V256 Vocoder,Vocoder,Bands Knob,Controls the vocoder band characteristics,21,,0,127,,,,,0-based,Emulates the BANDS knob,"0: Counter-clockwise; 127: Clockwise"
+Electro-Harmonix,V256 Vocoder,EQ,Treble Knob,Controls the high frequency response,22,,0,127,,,,,0-based,Emulates the TREBLE knob,"0: Counter-clockwise; 127: Clockwise"
+Electro-Harmonix,V256 Vocoder,Voice,Gender Knob,Controls the gender/formant characteristics,23,,0,127,,,,,0-based,Emulates the GENDER knob,"0: Counter-clockwise; 127: Clockwise"
+Electro-Harmonix,V256 Vocoder,Pitch,Pitch Knob,Controls the pitch shifting amount,24,,0,127,,,,,0-based,Emulates the PITCH knob,"0: Counter-clockwise; 127: Clockwise"
+Electro-Harmonix,V256 Vocoder,Output,Instrument Output Blend,Controls blend between instrument and effect at the INST output,25,,0,127,,,,,0-based,,"0: 100% Instrument; 127: 100% Effect"
+Electro-Harmonix,V256 Vocoder,Modulation,LFO Rate,Controls the speed of the LFO modulation,26,,0,127,,,,,0-based,,"0: Stopped; 127: Maximum rate"
+Electro-Harmonix,V256 Vocoder,Global,Effect On/Bypass,Controls the bypass state of the effect,27,,0,127,,,,,0-based,,0: Bypassed; 127: Effect On
+Electro-Harmonix,V256 Vocoder,Controls,Mic Bypass/Freeze Footswitch,Emulates pressing the MIC BYPASS/Freeze footswitch,28,,0,127,,,,,0-based,,0: Released; 127: Pressed
+Electro-Harmonix,V256 Vocoder,Controls,Preset Footswitch,Emulates pressing the PRESET footswitch,29,,0,127,,,,,0-based,,0: Released; 127: Pressed
+Electro-Harmonix,V256 Vocoder,Controls,Encoder Press,Emulates pressing the encoder button,30,,0,127,,,,,0-based,,0: Released; 127: Pressed
+Electro-Harmonix,V256 Vocoder,Synth,Internal Synth Sustain,Controls the sustain function of the internal synth,64,,0,127,,,,,0-based,Standard sustain pedal CC,0-63: Off; 64-127: On
+Electro-Harmonix,V256 Vocoder,Global,OMNI Off,Sets the device to respond only to its assigned MIDI channel,124,,0,0,,,,,0-based,Only when received on default channel (16),0: Enable OMNI Off
+Electro-Harmonix,V256 Vocoder,Global,OMNI On,Sets the device to respond to all MIDI channels,125,,0,0,,,,,0-based,Only when received on default channel (16),0: Enable OMNI On

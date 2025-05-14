@@ -1,0 +1,17 @@
+Boss,RC-10R,Rhythm,Rhythm Start,Starts the rhythm playback,1,,0,95,,,,,0-based,,0-95: Start rhythm
+Boss,RC-10R,Rhythm,Rhythm Division,Switches rhythm between Pattern 1 and Pattern 2,2,,0,127,,,,,0-based,,0-63: PTN1; 64-127: PTN2
+Boss,RC-10R,Rhythm,Rhythm Fill-in,Plays a fill-in pattern,3,,0,127,,,,,0-based,,0-63: Off; 64-127: Play fill-in (momentary)
+Boss,RC-10R,Rhythm,Rhythm Stop,Stops the rhythm playback,4,,0,127,,,,,0-based,,0-63: Continue; 64-127: Stop (momentary)
+Boss,RC-10R,Rhythm,Rhythm Break,Temporarily breaks the rhythm playback,5,,0,127,,,,,0-based,,0-63: Normal play; 64-127: Break (momentary)
+Boss,RC-10R,Levels,Rhy Level,Adjusts the rhythm playback level,6,,0,127,,,,,0-based,,0-127: Rhythm level
+Boss,RC-10R,Loop,Loop Start,Starts the looper recording/playback,7,,0,127,,,,,0-based,,0-63: Stop; 64-127: Start (momentary)
+Boss,RC-10R,Loop,Loop Stop,Stops the looper playback,8,,0,127,,,,,0-based,,0-63: Continue; 64-127: Stop (momentary)
+Boss,RC-10R,Track,TRK1 Start,Starts playback of Track 1,9,,0,127,,,,,0-based,,0-63: Stop; 64-127: Start (momentary)
+Boss,RC-10R,Track,TRK1 Stop,Stops playback of Track 1,10,,0,127,,,,,0-based,,0-63: Continue; 64-127: Stop (momentary)
+Boss,RC-10R,Track,TRK1 UnRedo,Executes undo/redo on Track 1,11,,0,127,,,,,0-based,,0-63: Do nothing; 64-127: Undo/Redo (momentary)
+Boss,RC-10R,Track,TRK2 Start,Starts playback of Track 2,12,,0,127,,,,,0-based,,0-63: Stop; 64-127: Start (momentary)
+Boss,RC-10R,Track,TRK2 Stop,Stops playback of Track 2,13,,0,127,,,,,0-based,,0-63: Continue; 64-127: Stop (momentary)
+Boss,RC-10R,Track,TRK2 UnRedo,Executes undo/redo on Track 2,14,,0,127,,,,,0-based,,0-63: Do nothing; 64-127: Undo/Redo (momentary)
+Boss,RC-10R,Levels,Loop Level,Adjusts the looper playback level,15,,0,127,,,,,0-based,,0-127: Loop level
+Boss,RC-10R,Levels,Total Level,Adjusts the overall level of rhythm and looper together,16,,0,127,,,,,0-based,,0-127: Total level
+Boss,RC-10R,Global,All Break,Breaks both rhythm and looper playback simultaneously,17,,0,127,,,,,0-based,,0-63: Normal play; 64-127: Break all (momentary)

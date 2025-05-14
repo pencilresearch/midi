@@ -1,0 +1,101 @@
+name: Convert CSV to JSON
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'CSV/**/*.csv'  # Only run when CSV files change
+  pull_request:
+    branches:
+      - main
+    paths:
+      - 'CSV/**/*.csv'  # Only run when CSV files change
+  workflow_dispatch:  # Allow manual triggering regardless of changes
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Explicitly request write permission
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # Get complete history for better git operations
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16'
+
+      - name: Clean Previous Output
+        run: |
+          echo "Cleaning old database files..."
+          rm -f Json/midi-database-*.json Json/midi-database-*.json.gz Json/midi-database-version.json
+          echo "Files in Json directory after cleanup:"
+          ls -la Json/
+
+      - name: Run CSV to JSON Conversion
+        run: |
+          echo "Starting conversion..."
+          node Json/CsvToJson.js 2>&1 | tee conversion.log
+          echo "Files generated:"
+          find Json -name "midi-database-*.json" -o -name "midi-database-*.json.gz" | sort
+
+      - name: Verify Conversion Success
+        run: |
+          # Check if at least one database file was created
+          if [ $(find Json -name "midi-database-*.json" | wc -l) -eq 0 ]; then
+            echo "❌ Error: No database files were generated!"
+            cat conversion.log
+            exit 1
+          fi
+          
+          # Extract the version number for the commit message
+          VERSION=$(find Json -name "midi-database-v*.json" | head -1 | sed -E 's/.*midi-database-v([0-9]+)\.json/\1/')
+          echo "Generated version: $VERSION"
+          echo "VERSION=$VERSION" >> $GITHUB_ENV
+          
+          echo "✅ Conversion successful!"
+
+      - name: Commit and Push Changes
+        run: |
+          git config --global user.name "GitHub Actions Bot"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Add all the database files specifically
+          git add Json/midi-database-*.json Json/midi-database-*.json.gz
+          
+          # Check if we have changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          
+          # Use the extracted version in the commit message
+          git commit -m "Update MIDI database to version $VERSION [skip ci]"
+          
+          # Push changes (retry up to 3 times if it fails)
+          max_retries=3
+          retry_count=0
+          
+          while [ $retry_count -lt $max_retries ]; do
+            echo "Pushing changes (attempt $((retry_count+1))/$max_retries)..."
+            
+            if git push; then
+              echo "✅ Push successful!"
+              exit 0
+            else
+              retry_count=$((retry_count+1))
+              
+              if [ $retry_count -lt $max_retries ]; then
+                echo "Push failed, pulling latest changes and retrying..."
+                git pull --rebase
+              else
+                echo "❌ Failed to push after $max_retries attempts."
+                exit 1
+              fi
+            fi
+          done

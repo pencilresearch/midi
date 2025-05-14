@@ -1,0 +1,14 @@
+Vongon,Polyphrase,Feedback,Repeats,Controls the number of delay repeats,1,,0,127,,,,,0-based,,0-127: Feedback amount
+Vongon,Polyphrase,Tone,Tone,Controls the tonal color of the delay,2,,0,127,,,,,0-based,,0-127: Tone amount
+Vongon,Polyphrase,Modulation,Depth,Controls the depth of the modulation effect,3,,0,127,,,,,0-based,,0-127: Modulation depth
+Vongon,Polyphrase,Modulation,Rate,Controls the speed of the modulation effect,4,,0,127,,,,,0-based,,0-127: Modulation rate
+Vongon,Polyphrase,Control,Slider L,Controls the left channel slider parameter,5,,0,127,,,,,0-based,,0-127: Left slider position
+Vongon,Polyphrase,Control,Slider R,Controls the right channel slider parameter,6,,0,127,,,,,0-based,,0-127: Right slider position
+Vongon,Polyphrase,Mix,Mix,Controls the dry/wet mix of the effect,7,,0,127,,,,,0-based,,0-127: Mix amount
+Vongon,Polyphrase,Time,Time,Controls the delay time,8,,0,127,,,,,0-based,Stepped values for different time ranges,0-8: 85ms; 9-22: 170ms; 23-37: 341ms; 38-56: 682ms; 57-74: 1.3s; 75-91: 2.7s; 92-106: 5.5s; 107-120: 11s; 121-127: 22s
+Vongon,Polyphrase,Mode,Echo Style,Selects between different delay routing configurations,9,,0,127,,,,,0-based,,0-43: DUAL STEREO; 44-87: PING PONG; 88-127: MONO
+Vongon,Polyphrase,Sync,Sync,Enables or disables tap tempo synchronization,10,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Vongon,Polyphrase,Mode,Trig Mode,Enables or disables trigger mode,11,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Vongon,Polyphrase,Bypass,Bypass,Controls the bypass state of the effect,13,,0,127,,,,,0-based,,0-63: OFF (bypassed); 64-127: ON (engaged)
+Vongon,Polyphrase,Mode,Infinite,Enables or disables infinite repeat mode,14,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
+Vongon,Polyphrase,Tempo,Tap Tempo,Sets delay time via tap tempo,15,,0,127,,,,,0-based,Any value triggers a tap,0-127: Tap (momentary)

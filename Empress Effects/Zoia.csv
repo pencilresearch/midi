@@ -1,0 +1,3 @@
+Empress Effects,Zoia,Global,Bypass/Engage,Controls the bypass state of the entire device,60,,0,127,,,,,0-based,Toggles between active and bypass states,"0: Bypassed; 64: Toggle bypass state; 127: Engaged"
+Empress Effects,Zoia,Patches,Program Change,Selects and loads patches,,,0,127,,,,,0-based,Uses standard MIDI Program Change messages to recall patches,"0-127: Selects corresponding patch"
+Empress Effects,Zoia,Parameters,Starred Parameters,User-assignable controls for starred parameters,,,0,127,,,,,0-based,"Starred parameters can be assigned to any MIDI CC number through the Starred List menu. Use the 'learn' option to assign incoming CCs.","0-127: Parameter values"

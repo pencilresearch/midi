@@ -1,0 +1,12 @@
+BOSS,EQ-200,Time,Time,Controls time-based parameter,,,0,127,,,,,0-based,CC number is user assignable,0-127: Time amount
+BOSS,EQ-200,Pre-Delay,Pre-Delay,Controls pre-delay time,,,0,127,,,,,0-based,CC number is user assignable,0-127: Pre-delay amount
+BOSS,EQ-200,Level,Effect Level,Controls the effect output level,,,0,127,,,,,0-based,CC number is user assignable,0-127: Level amount
+BOSS,EQ-200,Parameter,Parameter,Controls mode-specific parameter,,,0,127,,,,,0-based,CC number is user assignable,0-127: Parameter amount
+BOSS,EQ-200,EQ,Low,Controls the low frequency band,,,0,127,,,,,0-based,CC number is user assignable,0-127: Low band amount
+BOSS,EQ-200,EQ,High,Controls the high frequency band,,,0,127,,,,,0-based,CC number is user assignable,0-127: High band amount
+BOSS,EQ-200,Switch,On/Off Switch,Controls the effect bypass state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On
+BOSS,EQ-200,Memory,Memory,Selects memory/preset slot,,,0,127,,,,,0-based,CC number is user assignable,0-127: Memory selection
+BOSS,EQ-200,Control,Control 1,Assignable controller 1,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,EQ-200,Control,Control 2,Assignable controller 2,,,0,127,,,,,0-based,CC number is user assignable,0-127: Control amount
+BOSS,EQ-200,Expression,Expression,Expression pedal control,,,0,127,,,,,0-based,CC number is user assignable,0-127: Expression position
+BOSS,EQ-200,Effect,Effect On/Off,Controls the overall effect on/off state,,,0,127,,,,,0-based,CC number is user assignable,0-63: Off; 64-127: On

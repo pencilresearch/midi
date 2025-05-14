@@ -1,0 +1,6 @@
+Oscillator Devices,Siren,Channel A,Absolute Volume A,Controls absolute volume of Channel A,20,,0,127,,,,,0-based,Overrides knob setting,"0: Mute; 64: Unity Gain; 127: +32dB (at +6dB input sensitivity)"
+Oscillator Devices,Siren,Channel A,Relative Volume A,Controls volume of Channel A relative to knob position,29,,0,127,,,,,0-based,Only in version 1.0.1,"0: Minimum; 127: Maximum (based on physical knob position)"
+Oscillator Devices,Siren,Channel B,Absolute Volume B,Controls absolute volume of Channel B,40,,0,127,,,,,0-based,Overrides knob setting,"0: Mute; 64: Unity Gain; 127: +32dB (at +6dB input sensitivity)"
+Oscillator Devices,Siren,Channel B,Relative Volume B,Controls volume of Channel B relative to knob position,49,,0,127,,,,,0-based,Only in version 1.0.1,"0: Minimum; 127: Maximum (based on physical knob position)"
+Oscillator Devices,Siren,Master,Absolute Master Volume,Controls absolute volume of both channels simultaneously,60,,0,127,,,,,0-based,Overrides knob settings for both channels,"0: Mute; 64: Unity Gain; 127: +32dB (at +6dB input sensitivity)"
+Oscillator Devices,Siren,Master,Relative Master Volume,Controls volume of both channels relative to knob positions,69,,0,127,,,,,0-based,Only in version 1.0.1,"0: Minimum; 127: Maximum (based on physical knob positions)"

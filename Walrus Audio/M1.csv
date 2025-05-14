@@ -1,0 +1,40 @@
+Walrus Audio,M1,LFO,Rate,Controls the speed of the main LFO,3,,0,127,,,,,0-based,,0-127: LFO rate
+Walrus Audio,M1,LFO,Depth,Controls the amplitude of the main LFO,9,,0,127,,,,,0-based,,0-127: LFO depth amount
+Walrus Audio,M1,Lo-Fi,Lo-Fi,Controls the lo-fi effects level,14,,0,127,,,,,0-based,,0-127: Lo-fi amount
+Walrus Audio,M1,LFO,Shape - Sine,Sets the LFO shape to sine wave,15,,0,0,,,,,0-based,,0: Sine wave
+Walrus Audio,M1,LFO,Shape - Triangle,Sets the LFO shape to triangle wave,15,,1,1,,,,,0-based,,1: Triangle wave
+Walrus Audio,M1,LFO,Shape - Square,Sets the LFO shape to square wave,15,,2,2,,,,,0-based,,2: Square wave
+Walrus Audio,M1,Tempo,Division - quarter note,Sets tempo division to quarter notes,16,,0,0,,,,,0-based,,0: Quarter note division
+Walrus Audio,M1,Tempo,Division - quarter triplet,Sets tempo division to quarter note triplets,16,,1,1,,,,,0-based,,1: Quarter triplet division
+Walrus Audio,M1,Tempo,Division - eighth note,Sets tempo division to eighth notes,16,,2,2,,,,,0-based,,2: Eighth note division
+Walrus Audio,M1,Program Type,Program Type 1,Sets program type to traditional variations,17,,0,0,,,,,0-based,"Chorus: Traditional, Phaser: 2-stage, Tremolo: Traditional, Vibrato: Traditional, Rotary: Horn & Drum, Filter: Lowpass",0: Type 1 variations
+Walrus Audio,M1,Program Type,Program Type 2,Sets program type to alternative variations,17,,1,1,,,,,0-based,"Chorus: Series, Phaser: 4-stage, Tremolo: Harmonic, Vibrato: Vinyl, Rotary: Horn, Filter: Highpass",1: Type 2 variations
+Walrus Audio,M1,Program Type,Program Type 3,Sets program type to experimental variations,17,,2,2,,,,,0-based,"Chorus: Tri-Chorus, Phaser: Univibe, Tremolo: Pattern, Vibrato: Tape, Rotary: Drum, Filter: Bandpass",2: Type 3 variations
+Walrus Audio,M1,Program Select,Prog Chorus,Selects Chorus program,18,,0,0,,,,,0-based,,0: Chorus program
+Walrus Audio,M1,Program Select,Prog Phaser,Selects Phaser program,18,,1,1,,,,,0-based,,1: Phaser program
+Walrus Audio,M1,Program Select,Prog Tremolo,Selects Tremolo program,18,,2,2,,,,,0-based,,2: Tremolo program
+Walrus Audio,M1,Program Select,Prog Vibrato,Selects Vibrato program,18,,3,3,,,,,0-based,,3: Vibrato program
+Walrus Audio,M1,Program Select,Prog Rotary,Selects Rotary program,18,,4,4,,,,,0-based,,4: Rotary program
+Walrus Audio,M1,Program Select,Prog Filter,Selects Filter program,18,,5,5,,,,,0-based,,5: Filter program
+Walrus Audio,M1,Tone,Tone,Controls the tone of the modulation program,19,,0,127,,,,,0-based,,0-127: Tone amount
+Walrus Audio,M1,LFO,Symmetry,Controls the modulation LFO wave symmetry,20,,0,127,,,,,Centered,Center value is symmetrical; extremes create asymmetrical waves,0-127: Symmetry amount
+Walrus Audio,M1,X Control,X Modulation Control,Controls program-specific secondary parameter,21,,0,127,,,,,0-based,"Chorus: Lag, Phaser: Feedback, Tremolo: Stereo Phase, Vibrato: Flutter, Rotary: Cab Simulation, Filter: Resonance",0-127: X control amount
+Walrus Audio,M1,Lo-Fi,Lo-Fi Env,Controls lo-fi tone envelope depth,22,,0,127,,,,,0-based,,0-127: Envelope depth
+Walrus Audio,M1,Lo-Fi,Lo-Fi Drive,Controls lo-fi drive/distortion amount,23,,0,127,,,,,0-based,,0-127: Drive amount
+Walrus Audio,M1,Lo-Fi,Lo-Fi Space,Controls lo-fi reverb space,24,,0,127,,,,,0-based,,0-127: Reverb amount
+Walrus Audio,M1,Lo-Fi,Lo-Fi Age,Controls lo-fi age character,25,,0,4,,,,,0-based,,0-4: Age character level
+Walrus Audio,M1,Lo-Fi,Lo-Fi Noise,Controls lo-fi noise amount,26,,0,127,,,,,0-based,,0-127: Noise amount
+Walrus Audio,M1,Lo-Fi,Lo-Fi Warble,Controls lo-fi tape warble amount,27,,0,127,,,,,0-based,,0-127: Warble amount
+Walrus Audio,M1,Bypass,Bypass,Bypasses the effect,31,,0,0,,,,,0-based,,0: Effect bypassed
+Walrus Audio,M1,Bypass,Engage,Engages the effect,31,,127,127,,,,,0-based,,127: Effect engaged
+Walrus Audio,M1,Tempo,Tap,Sends a tap tempo signal,85,,127,127,,,,,0-based,Momentary function,127: Tap (momentary)
+Walrus Audio,M1,Rotary,Rotary Speed,Controls the speed of the rotary effect,86,,0,127,,,,,0-based,,0-127: Rotary speed
+Walrus Audio,M1,Control,Skip Engage/Rotary Break - Disengaged,Disables Skip Engage/Rotary Break function,87,,0,0,,,,,0-based,,0: Function disengaged
+Walrus Audio,M1,Control,Skip Engage/Rotary Break - Engaged,Enables Skip Engage/Rotary Break function,87,,127,127,,,,,0-based,,127: Function engaged
+Walrus Audio,M1,Level,Output Volume,Controls the overall output volume,88,,0,127,,,,,0-based,,0-127: Volume level
+Walrus Audio,M1,Sync,MIDI Clock Ignore - Disengaged,Sets the pedal to follow MIDI clock,89,,0,0,,,,,0-based,,0: Follow MIDI clock
+Walrus Audio,M1,Sync,MIDI Clock Ignore - Engaged,Sets the pedal to ignore MIDI clock,89,,127,127,,,,,0-based,,127: Ignore MIDI clock
+Walrus Audio,M1,Control,Tweak Switch,Selects the tweak mode,90,,0,2,,,,,0-based,,0-2: Tweak mode selection
+Walrus Audio,M1,Bank,Bank Switch,Selects the program bank,102,,0,2,,,,,0-based,,0: Bank A; 1: Bank B; 2: Bank C
+Walrus Audio,M1,Control,Tune Switch,Selects the tuning mode,103,,0,2,,,,,0-based,,0-2: Tune mode selection
+Walrus Audio,M1,Mix,Dry/Wet Mix,Controls the balance between dry and wet signals,104,,0,127,,,,,0-based,,0-127: Mix amount

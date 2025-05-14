@@ -1,0 +1,31 @@
+Neural DSP,Quad Cortex,Expression,Expression Pedal 1,Controls expression pedal 1,1,,0,127,,,,,0-based,,0-127: Expression amount
+Neural DSP,Quad Cortex,Expression,Expression Pedal 2,Controls expression pedal 2,2,,0,127,,,,,0-based,,0-127: Expression amount
+Neural DSP,Quad Cortex,Navigation,Bank LSB,Setlist change,32,,0,127,,,,,0-based,Used with Program Change messages,
+Neural DSP,Quad Cortex,Footswitches,Footswitch A,Enable/bypass Footswitch A,35,,0,127,,,,,0-based,Functions in all modes,0-63: Bypass; 64-127: Enable
+Neural DSP,Quad Cortex,Footswitches,Footswitch B,Enable/bypass Footswitch B,36,,0,127,,,,,0-based,Functions in all modes,0-63: Bypass; 64-127: Enable
+Neural DSP,Quad Cortex,Footswitches,Footswitch C,Enable/bypass Footswitch C,37,,0,127,,,,,0-based,Functions in all modes,0-63: Bypass; 64-127: Enable
+Neural DSP,Quad Cortex,Footswitches,Footswitch D,Enable/bypass Footswitch D,38,,0,127,,,,,0-based,Functions in all modes,0-63: Bypass; 64-127: Enable
+Neural DSP,Quad Cortex,Footswitches,Footswitch E,Enable/bypass Footswitch E,39,,0,127,,,,,0-based,Functions in all modes,0-63: Bypass; 64-127: Enable
+Neural DSP,Quad Cortex,Footswitches,Footswitch F,Enable/bypass Footswitch F,40,,0,127,,,,,0-based,Functions in all modes,0-63: Bypass; 64-127: Enable
+Neural DSP,Quad Cortex,Footswitches,Footswitch G,Enable/bypass Footswitch G,41,,0,127,,,,,0-based,Functions in all modes,0-63: Bypass; 64-127: Enable
+Neural DSP,Quad Cortex,Footswitches,Footswitch H,Enable/bypass Footswitch H,42,,0,127,,,,,0-based,Functions in all modes,0-63: Bypass; 64-127: Enable
+Neural DSP,Quad Cortex,Scenes,Scene Select,Selects scenes A through H,43,,0,7,,,,,0-based,,0-7: Scenes A-H
+Neural DSP,Quad Cortex,Global,Tempo BPM,Sets the tempo in beats per minute,44,,0,127,,,,,0-based,,0-127: Tempo value
+Neural DSP,Quad Cortex,Global,Tuner,Enables/disables the tuner,45,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Neural DSP,Quad Cortex,Global,Gig View,Enables/disables Gig View,46,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Neural DSP,Quad Cortex,Modes,Mode Select,Selects operating mode,47,,0,2,,,,,0-based,,0: Preset Mode; 1: Scene Mode; 2: Stomp Mode
+Neural DSP,Quad Cortex,Global,Ignore Duplicate PC,Enables/disables duplicate program change filtering,62,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Neural DSP,Quad Cortex,Looper X,Open/Close Looper,Opens or closes the Looper X,48,,0,127,,,,,0-based,Always opens in performance mode,0-63: Close; 64-127: Open
+Neural DSP,Quad Cortex,Looper X,Duplicate,Duplicate/Stop Duplicate loop,49,,0,127,,,,,0-based,,64-127: Toggle Duplicate
+Neural DSP,Quad Cortex,Looper X,One Shot,Enable/disable One Shot mode,50,,0,127,,,,,0-based,,64-127: Toggle One Shot
+Neural DSP,Quad Cortex,Looper X,Half Speed,Enable/Disable Half Speed playback,51,,0,127,,,,,0-based,,64-127: Toggle Half Speed
+Neural DSP,Quad Cortex,Looper X,Punch In/Out,Controls punch in/out recording,52,,0,127,,,,,0-based,Value 0-63 works with momentary footswitch on release,0-63: Punch Out; 64-127: Punch In/Out
+Neural DSP,Quad Cortex,Looper X,Record,Controls recording functions,53,,0,127,,,,,0-based,Value 0-63 works with momentary footswitch on release,0-63: Stop recording; 64-127: Record/Overdub/Stop
+Neural DSP,Quad Cortex,Looper X,Play/Stop,Controls playback,54,,0,127,,,,,0-based,,64-127: Play/Stop
+Neural DSP,Quad Cortex,Looper X,Reverse,Enable/Disable Reverse playback,55,,0,127,,,,,0-based,,64-127: Toggle Reverse
+Neural DSP,Quad Cortex,Looper X,Undo/Redo,Undoes or redoes last action,56,,0,127,,,,,0-based,,64-127: Undo/Redo
+Neural DSP,Quad Cortex,Looper X,Duplicate Mode,Sets the duplicate mode,57,,0,1,,,,,0-based,,0: Free; 1: Sync
+Neural DSP,Quad Cortex,Looper X,Quantize,Sets quantization level,58,,0,9,,,,,0-based,,0: Off; 1-8: 1-8 Beat; 9: 16 Beats
+Neural DSP,Quad Cortex,Looper X,MIDI Clock Start,Enables/disables MIDI clock start,59,,0,1,,,,,0-based,,0: Off; 1: On
+Neural DSP,Quad Cortex,Looper X,Mode,Sets Looper X mode,60,,0,1,,,,,0-based,,0: Perform Mode; 1: Params Mode
+Neural DSP,Quad Cortex,Looper X,Routing Mode,Sets Looper X routing configuration,61,,0,13,,,,,0-based,,0-13: Various routing options (Grid > I/Os > Multi Out)

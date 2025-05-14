@@ -1,0 +1,36 @@
+RJM,Mini Amp Gizmo,Preamp,Volume,Controls preamp volume level,2,,0,127,,,,,0-based,,0-127: Volume level
+RJM,Mini Amp Gizmo,Preamp,ISF,Controls Infinite Shape Feature tone,3,,0,127,,,,,0-based,,0-127: ISF amount
+RJM,Mini Amp Gizmo,Preamp,Bass,Controls bass EQ,4,,0,127,,,,,0-based,,0-127: Bass level
+RJM,Mini Amp Gizmo,Preamp,Middle,Controls middle EQ,5,,0,127,,,,,0-based,,0-127: Middle level
+RJM,Mini Amp Gizmo,Preamp,Treble,Controls treble EQ,6,,0,127,,,,,0-based,,0-127: Treble level
+RJM,Mini Amp Gizmo,Preamp,Gain,Controls preamp gain,7,,0,127,,,,,0-based,,0-127: Gain level
+RJM,Mini Amp Gizmo,Response,EL84,Selects EL84 response type,8,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Response,EL34,Selects EL34 response type,10,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Response,6L6,Selects 6L6 response type,12,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Response,Presence,Controls presence,15,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Master,Master Volume,Controls master volume level,16,,0,127,,,,,0-based,,0-127: Volume level
+RJM,Mini Amp Gizmo,Clean,Clean Patch,Selects clean channel,25,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Clean,Warm Voice,Selects warm voice for clean channel,26,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Clean,Bright Voice,Selects bright voice for clean channel,27,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Crunch,Crunch Patch,Selects crunch channel,38,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Crunch,Crunch Voice,Selects standard crunch voice,39,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Crunch,Super Crunch Voice,Selects super crunch voice,40,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Overdrive,Overdrive Patch,Selects overdrive channel,51,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Overdrive,OD1 Voice,Selects overdrive voice 1,52,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Overdrive,OD2 Voice,Selects overdrive voice 2,53,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Boost,Boost Footswitch,Controls boost on/off state,59,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Boost,Boost Post,Sets boost to post position,60,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Boost,Boost Pre,Sets boost to pre position,61,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Boost,Boost Level,Controls boost level,64,,0,127,,,,,0-based,,0-127: Boost level
+RJM,Mini Amp Gizmo,FX Loop,FX Loop Pre,Sets FX loop to pre position,75,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,FX Loop,FX Loop Post,Sets FX loop to post position,76,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,FX Loop,FX Loop Series,Sets FX loop to series mode,77,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,FX Loop,FX Loop Parallel,Sets FX loop to parallel mode,78,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Reverb,Reverb Footswitch,Controls reverb on/off state,86,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Reverb,Reverb Bright,Selects bright reverb type,87,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Reverb,Reverb Dark,Selects dark reverb type,88,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Reverb,Reverb Level,Controls reverb level,91,,0,127,,,,,0-based,,0-127: Reverb level
+RJM,Mini Amp Gizmo,Reverb,Reverb Hold,Controls reverb hold function,92,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Power Level,1W,Sets power level to 1 watt,110,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Power Level,20W,Sets power level to 20 watts,111,,0,127,,,,,0-based,,0: Off; 127: On
+RJM,Mini Amp Gizmo,Power Level,100W,Sets power level to 100 watts,112,,0,127,,,,,0-based,,0: Off; 127: On

@@ -1,0 +1,113 @@
+Behringer,Deepmind 12D,System,Bank Select (MSB),Controls bank selection (Most Significant Byte),0,,0,127,,,,,0-based,,0-127: Bank selection
+Behringer,Deepmind 12D,Performance,Mod Wheel,Controls modulation amount,1,,0,127,,,,,0-based,,0-127: Modulation amount
+Behringer,Deepmind 12D,Performance,Breath Controller,Controls parameters via breath controller,2,,0,127,,,,,0-based,,0-127: Breath controller value
+Behringer,Deepmind 12D,Performance,Foot Controller,Controls parameters via foot controller,4,,0,127,,,,,0-based,,0-127: Foot controller value
+Behringer,Deepmind 12D,Oscillators,Portamento Time,Adjusts the portamento/glide time between notes,5,,0,127,,,,,0-based,,0-127: Portamento time
+Behringer,Deepmind 12D,Mixer,Volume,Controls overall volume,7,,0,127,,,,,0-based,,0-127: Volume level
+Behringer,Deepmind 12D,Mixer,Balance,Controls stereo balance,8,,0,127,,,,,Centered,,0: Full left; 64: Center; 127: Full right
+Behringer,Deepmind 12D,Mixer,Pan,Controls stereo position,10,,0,127,,,,,Centered,,0: Full left; 64: Center; 127: Full right
+Behringer,Deepmind 12D,Performance,Expression,Controls expression pedal mapping,11,,0,127,,,,,0-based,,0-127: Expression value
+Behringer,Deepmind 12D,Arpeggiator,Arp Rate,Controls arpeggiator speed,12,,0,127,,,,,0-based,,0-127: Arpeggiator rate
+Behringer,Deepmind 12D,Arpeggiator,Arp Gate Time,Controls arpeggiator note duration,13,,0,127,,,,,0-based,,0-127: Gate time
+Behringer,Deepmind 12D,LFO,LFO1 Rate,Controls LFO1 speed,16,,0,127,,,,,0-based,,0-127: LFO1 rate
+Behringer,Deepmind 12D,LFO,LFO1 Delay Time,Controls LFO1 delay before activation,17,,0,127,,,,,0-based,,0-127: LFO1 delay time
+Behringer,Deepmind 12D,LFO,LFO2 Rate,Controls LFO2 speed,18,,0,127,,,,,0-based,,0-127: LFO2 rate
+Behringer,Deepmind 12D,LFO,LFO2 Delay Time,Controls LFO2 delay before activation,19,,0,127,,,,,0-based,,0-127: LFO2 delay time
+Behringer,Deepmind 12D,Oscillators,OSC1 Pitch Modulation,Controls pitch modulation amount for oscillator 1,20,,0,127,,,,,0-based,,0-127: Pitch modulation amount
+Behringer,Deepmind 12D,Oscillators,OSC1 PWM,Controls pulse width modulation for oscillator 1,21,,0,127,,,,,0-based,,0-127: PWM amount
+Behringer,Deepmind 12D,Oscillators,OSC2 Pitch Modulation,Controls pitch modulation amount for oscillator 2,23,,0,127,,,,,0-based,,0-127: Pitch modulation amount
+Behringer,Deepmind 12D,Oscillators,OSC2 Tone Modulation,Controls tone modulation for oscillator 2,24,,0,127,,,,,0-based,,0-127: Tone modulation amount
+Behringer,Deepmind 12D,Oscillators,OSC2 Pitch,Controls pitch for oscillator 2,25,,0,127,,,,,0-based,,0-127: OSC2 pitch
+Behringer,Deepmind 12D,Oscillators,OSC2 Level,Controls level for oscillator 2,26,,0,127,,,,,0-based,,0-127: OSC2 level
+Behringer,Deepmind 12D,Oscillators,Noise Level,Controls noise generator level,27,,0,127,,,,,0-based,,0-127: Noise level
+Behringer,Deepmind 12D,Oscillators,Unison Detune,Controls detune amount in unison mode,28,,0,127,,,,,0-based,,0-127: Unison detune amount
+Behringer,Deepmind 12D,Filter,VCF Frequency,Controls filter cutoff frequency,29,,0,127,,,,,0-based,,0-127: Cutoff frequency
+Behringer,Deepmind 12D,Filter,VCF Resonance,Controls filter resonance,30,,0,127,,,,,0-based,,0-127: Resonance amount
+Behringer,Deepmind 12D,Filter,VCF Envelope Modulation,Controls envelope modulation amount for filter,31,,0,127,,,,,0-based,,0-127: Envelope modulation amount
+Behringer,Deepmind 12D,System,Bank Select (LSB),Controls bank selection (Least Significant Byte),32,,0,127,,,,,0-based,,0-127: Bank selection
+Behringer,Deepmind 12D,Filter,VCF LFO Modulation,Controls LFO modulation amount for filter,33,,0,127,,,,,0-based,,0-127: LFO modulation amount
+Behringer,Deepmind 12D,Filter,VCF Keyboard Modulation,Controls keyboard tracking for filter,34,,0,127,,,,,0-based,,0-127: Keyboard modulation amount
+Behringer,Deepmind 12D,Filter,HPF Frequency,Controls high-pass filter cutoff frequency,35,,0,127,,,,,0-based,,0-127: HPF cutoff frequency
+Behringer,Deepmind 12D,Amplifier,VCA Level,Controls amplifier level,36,,0,127,,,,,0-based,,0-127: VCA level
+Behringer,Deepmind 12D,Amplifier,VCA Envelope Attack,Controls amplifier envelope attack time,37,,0,127,,,,,0-based,,0-127: Attack time
+Behringer,Deepmind 12D,Amplifier,VCA Envelope Decay,Controls amplifier envelope decay time,39,,0,127,,,,,0-based,,0-127: Decay time
+Behringer,Deepmind 12D,Amplifier,VCA Envelope Sustain,Controls amplifier envelope sustain level,40,,0,127,,,,,0-based,,0-127: Sustain level
+Behringer,Deepmind 12D,Amplifier,VCA Envelope Release,Controls amplifier envelope release time,41,,0,127,,,,,0-based,,0-127: Release time
+Behringer,Deepmind 12D,Filter,VCF Envelope Attack,Controls filter envelope attack time,42,,0,127,,,,,0-based,,0-127: Attack time
+Behringer,Deepmind 12D,Filter,VCF Envelope Decay,Controls filter envelope decay time,43,,0,127,,,,,0-based,,0-127: Decay time
+Behringer,Deepmind 12D,Filter,VCF Envelope Sustain,Controls filter envelope sustain level,44,,0,127,,,,,0-based,,0-127: Sustain level
+Behringer,Deepmind 12D,Filter,VCF Envelope Release,Controls filter envelope release time,45,,0,127,,,,,0-based,,0-127: Release time
+Behringer,Deepmind 12D,Modulation,MOD Envelope Attack,Controls modulation envelope attack time,46,,0,127,,,,,0-based,,0-127: Attack time
+Behringer,Deepmind 12D,Modulation,MOD Envelope Decay,Controls modulation envelope decay time,47,,0,127,,,,,0-based,,0-127: Decay time
+Behringer,Deepmind 12D,Modulation,MOD Envelope Sustain,Controls modulation envelope sustain level,48,,0,127,,,,,0-based,,0-127: Sustain level
+Behringer,Deepmind 12D,Modulation,MOD Envelope Release,Controls modulation envelope release time,49,,0,127,,,,,0-based,,0-127: Release time
+Behringer,Deepmind 12D,Amplifier,VCA Envelope Attack Curve,Controls amplifier envelope attack curve shape,50,,0,127,,,,,0-based,,0-127: Attack curve
+Behringer,Deepmind 12D,Amplifier,VCA Envelope Decay Curve,Controls amplifier envelope decay curve shape,51,,0,127,,,,,0-based,,0-127: Decay curve
+Behringer,Deepmind 12D,Amplifier,VCA Envelope Sustain Curve,Controls amplifier envelope sustain curve shape,52,,0,127,,,,,0-based,,0-127: Sustain curve
+Behringer,Deepmind 12D,Amplifier,VCA Envelope Release Curve,Controls amplifier envelope release curve shape,53,,0,127,,,,,0-based,,0-127: Release curve
+Behringer,Deepmind 12D,Filter,VCF Envelope Attack Curve,Controls filter envelope attack curve shape,54,,0,127,,,,,0-based,,0-127: Attack curve
+Behringer,Deepmind 12D,Filter,VCF Envelope Decay Curve,Controls filter envelope decay curve shape,55,,0,127,,,,,0-based,,0-127: Decay curve
+Behringer,Deepmind 12D,Filter,VCF Envelope Sustain Curve,Controls filter envelope sustain curve shape,56,,0,127,,,,,0-based,,0-127: Sustain curve
+Behringer,Deepmind 12D,Filter,VCF Envelope Release Curve,Controls filter envelope release curve shape,57,,0,127,,,,,0-based,,0-127: Release curve
+Behringer,Deepmind 12D,Modulation,MOD Envelope Attack Curve,Controls modulation envelope attack curve shape,58,,0,127,,,,,0-based,,0-127: Attack curve
+Behringer,Deepmind 12D,Modulation,MOD Envelope Decay Curve,Controls modulation envelope decay curve shape,59,,0,127,,,,,0-based,,0-127: Decay curve
+Behringer,Deepmind 12D,Modulation,MOD Envelope Sustain Curve,Controls modulation envelope sustain curve shape,60,,0,127,,,,,0-based,,0-127: Sustain curve
+Behringer,Deepmind 12D,Modulation,MOD Envelope Release Curve,Controls modulation envelope release curve shape,61,,0,127,,,,,0-based,,0-127: Release curve
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 1,Controls parameter 1 for effects slot 1,62,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 2,Controls parameter 2 for effects slot 1,63,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Performance,Sustain Pedal,Controls sustain pedal function,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 3,Controls parameter 3 for effects slot 1,65,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 4,Controls parameter 4 for effects slot 1,66,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 5,Controls parameter 5 for effects slot 1,67,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 6,Controls parameter 6 for effects slot 1,68,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 7,Controls parameter 7 for effects slot 1,69,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 8,Controls parameter 8 for effects slot 1,70,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 9,Controls parameter 9 for effects slot 1,71,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 10,Controls parameter 10 for effects slot 1,72,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 11,Controls parameter 11 for effects slot 1,73,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Parameter 12,Controls parameter 12 for effects slot 1,74,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 1,Controls parameter 1 for effects slot 2,75,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 2,Controls parameter 2 for effects slot 2,76,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 3,Controls parameter 3 for effects slot 2,77,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 4,Controls parameter 4 for effects slot 2,78,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 5,Controls parameter 5 for effects slot 2,79,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 6,Controls parameter 6 for effects slot 2,80,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 7,Controls parameter 7 for effects slot 2,81,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 8,Controls parameter 8 for effects slot 2,82,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 9,Controls parameter 9 for effects slot 2,83,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 10,Controls parameter 10 for effects slot 2,84,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 11,Controls parameter 11 for effects slot 2,85,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Parameter 12,Controls parameter 12 for effects slot 2,86,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 1,Controls parameter 1 for effects slot 3,87,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 2,Controls parameter 2 for effects slot 3,88,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 3,Controls parameter 3 for effects slot 3,89,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 4,Controls parameter 4 for effects slot 3,90,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 5,Controls parameter 5 for effects slot 3,91,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 6,Controls parameter 6 for effects slot 3,92,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 7,Controls parameter 7 for effects slot 3,93,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 8,Controls parameter 8 for effects slot 3,94,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 9,Controls parameter 9 for effects slot 3,95,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 10,Controls parameter 10 for effects slot 3,102,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 11,Controls parameter 11 for effects slot 3,103,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Parameter 12,Controls parameter 12 for effects slot 3,104,,0,127,,,,,0-based,,0-127: Parameter value
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Type,Selects effect type for effects slot 1,105,,0,127,,,,,0-based,,0-127: Effect type selection
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Type,Selects effect type for effects slot 2,106,,0,127,,,,,0-based,,0-127: Effect type selection
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Type,Selects effect type for effects slot 3,107,,0,127,,,,,0-based,,0-127: Effect type selection
+Behringer,Deepmind 12D,Effects,Effects Slot 4 Type,Selects effect type for effects slot 4,108,,0,127,,,,,0-based,,0-127: Effect type selection
+Behringer,Deepmind 12D,Effects,Effects Slot 1 Gain,Controls gain for effects slot 1,109,,0,127,,,,,0-based,,0-127: Gain amount
+Behringer,Deepmind 12D,Effects,Effects Slot 2 Gain,Controls gain for effects slot 2,110,,0,127,,,,,0-based,,0-127: Gain amount
+Behringer,Deepmind 12D,Effects,Effects Slot 3 Gain,Controls gain for effects slot 3,111,,0,127,,,,,0-based,,0-127: Gain amount
+Behringer,Deepmind 12D,Effects,Effects Slot 4 Gain,Controls gain for effects slot 4,112,,0,127,,,,,0-based,,0-127: Gain amount
+Behringer,Deepmind 12D,Routing,Analog Thru,Controls analog thru routing,113,,0,127,,,,,0-based,,0-127: Analog thru amount
+Behringer,Deepmind 12D,Effects,Effects Mode,Controls global effects mode,114,,0,127,,,,,0-based,,0-127: Effects mode
+Behringer,Deepmind 12D,Performance,3D Controller X-Axis,Controls X-axis of 3D controller,115,,0,127,,,,,0-based,,0-127: X-axis position
+Behringer,Deepmind 12D,Performance,3D Controller Y-Axis,Controls Y-axis of 3D controller,116,,0,127,,,,,0-based,,0-127: Y-axis position
+Behringer,Deepmind 12D,Performance,3D Controller Z-Axis,Controls Z-axis of 3D controller,117,,0,127,,,,,0-based,,0-127: Z-axis position
+Behringer,Deepmind 12D,System,All Sound Off,Immediately silences all sounds,120,,127,127,,,,,0-based,,127: All sound off
+Behringer,Deepmind 12D,System,Reset All Controllers,Resets all controllers to default values,121,,127,127,,,,,0-based,,127: Reset controllers
+Behringer,Deepmind 12D,System,Local Control On/Off,Enables/disables local control,122,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Behringer,Deepmind 12D,System,All Notes Off,Turns off all notes,123,,127,127,,,,,0-based,,127: All notes off
+Behringer,Deepmind 12D,System,Omni Mode Off,Disables MIDI omni mode,124,,127,127,,,,,0-based,,127: Omni mode off
+Behringer,Deepmind 12D,System,Omni Mode On,Enables MIDI omni mode,125,,127,127,,,,,0-based,,127: Omni mode on
+Behringer,Deepmind 12D,System,Poly Mode Off,Disables polyphonic mode,126,,127,127,,,,,0-based,,127: Poly mode off
+Behringer,Deepmind 12D,System,Poly Mode On,Enables polyphonic mode,127,,127,127,,,,,0-based,,127: Poly mode on

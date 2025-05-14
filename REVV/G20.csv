@@ -1,0 +1,9 @@
+REVV,G20,Channel Select,Channel 1,Switches to Channel 1,16,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,G20,Channel 2,Low Aggression,Activates Channel 2 with low aggression,18,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,G20,Channel 2,Medium Aggression,Activates Channel 2 with medium aggression,19,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,G20,Channel 2,High Aggression,Activates Channel 2 with high aggression,20,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,G20,Channel 2,Plus Aggression Toggle,Toggles additional aggression on Channel 2,24,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,G20,Effects,Two Notes Reverb,Controls Two Notes Reverb function,26,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+REVV,G20,Power,Power Mode,Switches between 4W and 20W power modes,27,,0,127,,,,,0-based,,0-63: 4W; 64-127: 20W
+REVV,G20,Voice,Wide,Activates wide voicing mode,28,,0,127,,,,,0-based,,0-63: Normal; 64-127: Wide
+REVV,G20,FX Loop,Pre/Post,Changes FX loop from pre to post,29,,0,127,,,,,0-based,,0-63: Pre; 64-127: Post

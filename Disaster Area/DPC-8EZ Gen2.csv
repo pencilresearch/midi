@@ -1,0 +1,19 @@
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 1 Bypass,Bypasses Loop 1,50,,0,63,,,,,0-based,,0-63: Loop 1 bypassed
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 1 Engage,Engages Loop 1,50,,64,127,,,,,0-based,,64-127: Loop 1 engaged
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 2 Bypass,Bypasses Loop 2,51,,0,63,,,,,0-based,,0-63: Loop 2 bypassed
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 2 Engage,Engages Loop 2,51,,64,127,,,,,0-based,,64-127: Loop 2 engaged
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 3 Bypass,Bypasses Loop 3,52,,0,63,,,,,0-based,,0-63: Loop 3 bypassed
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 3 Engage,Engages Loop 3,52,,64,127,,,,,0-based,,64-127: Loop 3 engaged
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 4 Bypass,Bypasses Loop 4,53,,0,63,,,,,0-based,,0-63: Loop 4 bypassed
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 4 Engage,Engages Loop 4,53,,64,127,,,,,0-based,,64-127: Loop 4 engaged
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 5 Bypass,Bypasses Loop 5,54,,0,63,,,,,0-based,,0-63: Loop 5 bypassed
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 5 Engage,Engages Loop 5,54,,64,127,,,,,0-based,,64-127: Loop 5 engaged
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 6 Bypass,Bypasses Loop 6,55,,0,63,,,,,0-based,,0-63: Loop 6 bypassed
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 6 Engage,Engages Loop 6,55,,64,127,,,,,0-based,,64-127: Loop 6 engaged
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 7 Bypass,Bypasses Loop 7,56,,0,63,,,,,0-based,,0-63: Loop 7 bypassed
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 7 Engage,Engages Loop 7,56,,64,127,,,,,0-based,,64-127: Loop 7 engaged
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 8 Bypass,Bypasses Loop 8,57,,0,63,,,,,0-based,,0-63: Loop 8 bypassed
+Disaster Area,DPC-8EZ Gen2,Loop,Loop 8 Engage,Engages Loop 8,57,,64,127,,,,,0-based,,64-127: Loop 8 engaged
+Disaster Area,DPC-8EZ Gen2,Global,Unmute,Unmutes the signal path,58,,0,63,,,,,0-based,,0-63: Signal unmuted
+Disaster Area,DPC-8EZ Gen2,Global,Mute,Mutes the signal path,58,,64,127,,,,,0-based,,64-127: Signal muted
+Disaster Area,DPC-8EZ Gen2,System,Save,Saves current loop status to specified preset,122,,0,127,,,,,0-based,Value specifies the preset number to save to,0-127: Preset number to save

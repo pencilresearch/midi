@@ -1,0 +1,62 @@
+Behringer,X-AIR,Channel,Channel 01-16 Mute,Mutes/unmutes channel,60,,0,127,,,,,0-based,MIDI channels 1-16,0: Unmuted; 127: Muted
+Behringer,X-AIR,Channel,Channel 01-16 Fader,Controls channel fader level,7,,0,127,,,,,0-based,MIDI channels 1-16,0: -∞; 127: +10dB
+Behringer,X-AIR,Channel,Channel 01-16 Pan,Controls channel pan position,10,,0,127,,,,,Centered,MIDI channels 1-16,0: Hard left; 64: Center; 127: Hard right
+Behringer,X-AIR,Channel,Channel 01-16 Solo,Solo specific channel,26,,0,127,,,,,0-based,MIDI channels 1-16,0: Inactive; 127: Active
+Behringer,X-AIR,Channel,Channel 01-16 Low Cut,Enables low cut filter,28,,0,127,,,,,0-based,MIDI channels 1-16,0: Off; 127: On
+Behringer,X-AIR,Channel,Channel 01-16 Phantom Power,Enables 48V phantom power,29,,0,127,,,,,0-based,MIDI channels 1-16,0: Off; 127: On
+Behringer,X-AIR,Channel,Channel 01-16 Gate On,Enables gate processor,30,,0,127,,,,,0-based,MIDI channels 1-16,0: Off; 127: On
+Behringer,X-AIR,Channel,Channel 01-16 Gate Threshold,Controls gate threshold,31,,0,127,,,,,0-based,MIDI channels 1-16,0: -80dB; 127: 0dB
+Behringer,X-AIR,Channel,Channel 01-16 Comp On,Enables compressor processor,32,,0,127,,,,,0-based,MIDI channels 1-16,0: Off; 127: On
+Behringer,X-AIR,Channel,Channel 01-16 Comp Threshold,Controls compressor threshold,33,,0,127,,,,,0-based,MIDI channels 1-16,0: -60dB; 127: 0dB
+Behringer,X-AIR,Channel,Channel 01-16 EQ On,Enables EQ processor,34,,0,127,,,,,0-based,MIDI channels 1-16,0: Off; 127: On
+Behringer,X-AIR,Channel,Channel 01-16 EQ Low Gain,Controls low EQ band gain,35,,0,127,,,,,Centered,MIDI channels 1-16,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Channel,Channel 01-16 EQ Mid Gain,Controls mid EQ band gain,36,,0,127,,,,,Centered,MIDI channels 1-16,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Channel,Channel 01-16 EQ High Gain,Controls high EQ band gain,37,,0,127,,,,,Centered,MIDI channels 1-16,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Line In,Line In 01-04 Mute,Mutes/unmutes line input,60,,0,127,,,,,0-based,MIDI channels 17-20,0: Unmuted; 127: Muted
+Behringer,X-AIR,Line In,Line In 01-04 Fader,Controls line input fader level,7,,0,127,,,,,0-based,MIDI channels 17-20,0: -∞; 127: +10dB
+Behringer,X-AIR,Line In,Line In 01-04 Pan,Controls line input pan position,10,,0,127,,,,,Centered,MIDI channels 17-20,0: Hard left; 64: Center; 127: Hard right
+Behringer,X-AIR,Line In,Line In 01-04 Solo,Solo specific line input,26,,0,127,,,,,0-based,MIDI channels 17-20,0: Inactive; 127: Active
+Behringer,X-AIR,FX Return,FX Return 01-04 Mute,Mutes/unmutes effect return,60,,0,127,,,,,0-based,MIDI channels 21-24,0: Unmuted; 127: Muted
+Behringer,X-AIR,FX Return,FX Return 01-04 Fader,Controls effect return fader level,7,,0,127,,,,,0-based,MIDI channels 21-24,0: -∞; 127: +10dB
+Behringer,X-AIR,FX Return,FX Return 01-04 Pan,Controls effect return pan position,10,,0,127,,,,,Centered,MIDI channels 21-24,0: Hard left; 64: Center; 127: Hard right
+Behringer,X-AIR,FX Return,FX Return 01-04 Solo,Solo specific effect return,26,,0,127,,,,,0-based,MIDI channels 21-24,0: Inactive; 127: Active
+Behringer,X-AIR,Bus,Bus 01-06 Mute,Mutes/unmutes bus,60,,0,127,,,,,0-based,MIDI channels 25-30,0: Unmuted; 127: Muted
+Behringer,X-AIR,Bus,Bus 01-06 Fader,Controls bus fader level,7,,0,127,,,,,0-based,MIDI channels 25-30,0: -∞; 127: +10dB
+Behringer,X-AIR,Bus,Bus 01-06 Pan,Controls bus pan position,10,,0,127,,,,,Centered,MIDI channels 25-30,0: Hard left; 64: Center; 127: Hard right
+Behringer,X-AIR,Bus,Bus 01-06 Solo,Solo specific bus,26,,0,127,,,,,0-based,MIDI channels 25-30,0: Inactive; 127: Active
+Behringer,X-AIR,Bus,Bus 01-06 EQ On,Enables EQ processor for bus,34,,0,127,,,,,0-based,MIDI channels 25-30,0: Off; 127: On
+Behringer,X-AIR,Bus,Bus 01-06 EQ Low Gain,Controls low EQ band gain for bus,35,,0,127,,,,,Centered,MIDI channels 25-30,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Bus,Bus 01-06 EQ Mid Gain,Controls mid EQ band gain for bus,36,,0,127,,,,,Centered,MIDI channels 25-30,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Bus,Bus 01-06 EQ High Gain,Controls high EQ band gain for bus,37,,0,127,,,,,Centered,MIDI channels 25-30,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Main LR,Main LR Mute,Mutes/unmutes main LR output,60,,0,127,,,,,0-based,MIDI channel 31,0: Unmuted; 127: Muted
+Behringer,X-AIR,Main LR,Main LR Fader,Controls main LR fader level,7,,0,127,,,,,0-based,MIDI channel 31,0: -∞; 127: +10dB
+Behringer,X-AIR,Main LR,Main LR Solo,Solo main LR output,26,,0,127,,,,,0-based,MIDI channel 31,0: Inactive; 127: Active
+Behringer,X-AIR,Main LR,Main LR EQ On,Enables EQ processor for main LR,34,,0,127,,,,,0-based,MIDI channel 31,0: Off; 127: On
+Behringer,X-AIR,Main LR,Main LR EQ Low Gain,Controls low EQ band gain for main LR,35,,0,127,,,,,Centered,MIDI channel 31,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Main LR,Main LR EQ Mid Gain,Controls mid EQ band gain for main LR,36,,0,127,,,,,Centered,MIDI channel 31,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Main LR,Main LR EQ High Gain,Controls high EQ band gain for main LR,37,,0,127,,,,,Centered,MIDI channel 31,0: -15dB; 64: 0dB; 127: +15dB
+Behringer,X-AIR,Effects,FX 1-4 Parameter 1,Controls first parameter of effect,12,,0,127,,,,,0-based,MIDI channels 21-24,Value depends on effect type
+Behringer,X-AIR,Effects,FX 1-4 Parameter 2,Controls second parameter of effect,13,,0,127,,,,,0-based,MIDI channels 21-24,Value depends on effect type
+Behringer,X-AIR,Effects,FX 1-4 Parameter 3,Controls third parameter of effect,14,,0,127,,,,,0-based,MIDI channels 21-24,Value depends on effect type
+Behringer,X-AIR,Effects,FX 1-4 Parameter 4,Controls fourth parameter of effect,15,,0,127,,,,,0-based,MIDI channels 21-24,Value depends on effect type
+Behringer,X-AIR,Effects,FX 1-4 Parameter 5,Controls fifth parameter of effect,16,,0,127,,,,,0-based,MIDI channels 21-24,Value depends on effect type
+Behringer,X-AIR,Effects,FX 1-4 Parameter 6,Controls sixth parameter of effect,17,,0,127,,,,,0-based,MIDI channels 21-24,Value depends on effect type
+Behringer,X-AIR,Sends,Channel 01-16 to FX 1-4 Send,Controls send level to FX,20,,0,127,,,,,0-based,"MIDI channels 1-16, CC varies by FX",0: -∞; 127: +10dB
+Behringer,X-AIR,Sends,Channel 01-16 to Bus 1-6 Send,Controls send level to Bus,40,,0,127,,,,,0-based,"MIDI channels 1-16, CC varies by Bus",0: -∞; 127: +10dB
+Behringer,X-AIR,Monitor,Monitor Source,Selects monitor source,67,,0,127,,,,,0-based,MIDI channel 16,"0-1: LR/Aux; 2-7: Bus 1-6; 8-11: FX 1-4"
+Behringer,X-AIR,Monitor,Monitor Level,Controls monitor output level,8,,0,127,,,,,0-based,MIDI channel 16,0: -∞; 127: +10dB
+Behringer,X-AIR,Monitor,Mono Mix,Enables/disables mono sum for monitor,68,,0,127,,,,,0-based,MIDI channel 16,0: Disabled; 127: Enabled
+Behringer,X-AIR,Monitor,Dim,Enables/disables monitor dim function,66,,0,127,,,,,0-based,MIDI channel 16,0: Disabled; 127: Enabled
+Behringer,X-AIR,Headphones,Headphones Level,Controls headphones output level,9,,0,127,,,,,0-based,MIDI channel 16,0: -∞; 127: +10dB
+Behringer,X-AIR,Scenes,Scene Recall,Recalls specific scene,0,,0,99,,,,,0-based,MIDI channel 12,Scene number (0-99)
+Behringer,X-AIR,Scenes,Scene Previous,Recalls previous scene,46,,0,127,,,,,0-based,MIDI channel 16,127: Previous scene
+Behringer,X-AIR,Scenes,Scene Next,Recalls next scene,47,,0,127,,,,,0-based,MIDI channel 16,127: Next scene
+Behringer,X-AIR,Tap Tempo,Tap Tempo,Sets tempo via tap,64,,0,127,,,,,0-based,MIDI channel 16,127: Tap tempo
+Behringer,X-AIR,Transport,Play/Stop,Controls playback,91,,0,127,,,,,0-based,MIDI channel 16,1: Stop; 2: Play
+Behringer,X-AIR,Transport,Record,Controls recording,94,,0,127,,,,,0-based,MIDI channel 16,1: Stop recording; 2: Start recording
+Behringer,X-AIR,Transport,Fast Forward,Fast forward function,92,,0,127,,,,,0-based,MIDI channel 16,Value > 64: Fast forward
+Behringer,X-AIR,Transport,Rewind,Rewind function,93,,0,127,,,,,0-based,MIDI channel 16,Value > 64: Rewind
+Behringer,X-AIR,Mute Groups,Mute Group 1-4,Activates/deactivates mute group,80,,0,127,,,,,0-based,MIDI channel 16,"Values 0-3 select groups 1-4, then 0: Unmute; 127: Mute"
+Behringer,X-AIR,User,User Button A,Triggers user-defined function A,90,,0,127,,,,,0-based,MIDI channel 16,127: Trigger button A
+Behringer,X-AIR,User,User Button B,Triggers user-defined function B,91,,0,127,,,,,0-based,MIDI channel 16,127: Trigger button B
+Behringer,X-AIR,User,User Button C,Triggers user-defined function C,92,,0,127,,,,,0-based,MIDI channel 16,127: Trigger button C

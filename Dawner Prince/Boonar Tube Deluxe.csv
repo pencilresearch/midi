@@ -1,0 +1,23 @@
+Dawner Prince,Boonar Tube Deluxe,Input,Input Control,Controls the input gain/level,11,,0,127,,,,,0-based,,0-127: Input level
+Dawner Prince,Boonar Tube Deluxe,Tone,Tone,Controls the EQ/tone coloration,12,,0,127,,,,,0-based,,0-127: Tone amount
+Dawner Prince,Boonar Tube Deluxe,Output,Output Volume,Controls the output level,13,,0,127,,,,,0-based,,0-127: Output level
+Dawner Prince,Boonar Tube Deluxe,Swell,Length of Swell,Controls the duration of the swell effect,14,,0,127,,,,,0-based,,0-127: Swell length
+Dawner Prince,Boonar Tube Deluxe,Drum,Drum Age,Controls the simulated age of the drum,15,,0,127,,,,,0-based,,0-127: Drum age
+Dawner Prince,Boonar Tube Deluxe,Drum,Drum Speed,Controls the speed of the drum rotation,16,,0,127,,,,,0-based,,0-127: Drum speed
+Dawner Prince,Boonar Tube Deluxe,Heads,Head 1 Playback,Enables or disables playback from head 1,17,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Heads,Head 2 Playback,Enables or disables playback from head 2,18,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Heads,Head 3 Playback,Enables or disables playback from head 3,19,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Heads,Head 4 Playback,Enables or disables playback from head 4,20,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Feedback,Head 1 Feedback,Enables or disables feedback from head 1,21,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Feedback,Head 2 Feedback,Enables or disables feedback from head 2,22,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Feedback,Head 3 Feedback,Enables or disables feedback from head 3,23,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Feedback,Head 4 Feedback,Enables or disables feedback from head 4,24,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Configuration,Preamp Mode,Sets the preamp emulation mode,26,,1,2,,,,,1-based,,1: Modern; 2: Original
+Dawner Prince,Boonar Tube Deluxe,Configuration,Time Display,Sets the time display mode,27,,1,2,,,,,1-based,,1: MSEC; 2: BPM
+Dawner Prince,Boonar Tube Deluxe,Expression,Expression Pedal,Controls parameter assigned to expression pedal,28,,0,127,,,,,0-based,,0-127: Expression position
+Dawner Prince,Boonar Tube Deluxe,Tempo,Tap Tempo,Controls the tap tempo function,29,,0,127,,,,,0-based,,0: Release; 1-127: Press
+Dawner Prince,Boonar Tube Deluxe,Bypass,On/Off Bypass,Controls the bypass state of the pedal,30,,0,127,,,,,0-based,,0: Bypass; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Mode,Swell/Repeats,Switches between swell and repeats modes,31,,0,127,,,,,0-based,,0: Repeats; 1-127: Swell
+Dawner Prince,Boonar Tube Deluxe,Sync,MIDI Clock,Enables or disables MIDI clock sync,32,,0,127,,,,,0-based,,0: Off; 1-127: On
+Dawner Prince,Boonar Tube Deluxe,Bypass,Bypass Type,Sets the type of bypass circuit,33,,1,3,,,,,1-based,,1: True Bypass; 2: Buffered; 3: Buffered+Trails
+Dawner Prince,Boonar Tube Deluxe,Tempo,Tap Division,Sets the tap tempo subdivision,34,,1,4,,,,,1-based,,1: No Subdivision; 2: 2:1 Subdivision; 3: 3:1 Subdivision; 4: 4:1 Subdivision

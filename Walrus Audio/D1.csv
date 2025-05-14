@@ -1,0 +1,21 @@
+Walrus Audio,D1,Time,Time,Controls the delay time,14,,0,127,,,,,0-based,,0-127: Delay time
+Walrus Audio,D1,Feedback,Repeats,Controls the number of delay repeats,15,,0,127,,,,,0-based,,0-127: Number of repeats
+Walrus Audio,D1,Mix,Mix,Controls the dry/wet mix of the effect,20,,0,127,,,,,0-based,,0-127: Mix amount
+Walrus Audio,D1,Modulation,Mod,Controls the modulation depth,21,,0,127,,,,,0-based,,0-127: Modulation amount
+Walrus Audio,D1,Tone,Tone,Controls the tone/EQ of the delay repeats,22,,0,127,,,,,0-based,,0-127: Tone amount
+Walrus Audio,D1,Character,Age,Controls the age/degradation of the delay repeats,23,,0,127,,,,,0-based,,0-127: Age amount
+Walrus Audio,D1,Programs,Prog,Controls the program selection,24,,0,127,,,,,0-based,,0-127: Program selection
+Walrus Audio,D1,Dynamics,Attack,Controls the attack characteristics,25,,0,127,,,,,0-based,,0-127: Attack amount
+Walrus Audio,D1,Tweak Switch,Tweak Switch: MOD,Sets the tweak control to affect modulation,26,,0,42,,,,,0-based,,0-42: MOD selected
+Walrus Audio,D1,Tweak Switch,Tweak Switch: TONE,Sets the tweak control to affect tone,26,,43,85,,,,,0-based,,43-85: TONE selected
+Walrus Audio,D1,Tweak Switch,Tweak Switch: AGE,Sets the tweak control to affect age,26,,86,127,,,,,0-based,,86-127: AGE selected
+Walrus Audio,D1,Program Bank,A|B|C Switch: A,Selects program bank A,27,,0,42,,,,,0-based,,0-42: Bank A selected
+Walrus Audio,D1,Program Bank,A|B|C Switch: B,Selects program bank B,27,,43,85,,,,,0-based,,43-85: Bank B selected
+Walrus Audio,D1,Program Bank,A|B|C Switch: C,Selects program bank C,27,,86,127,,,,,0-based,,86-127: Bank C selected
+Walrus Audio,D1,Tempo Division,Division Switch: QUARTER,Sets delay time to quarter note division,28,,0,42,,,,,0-based,,0-42: Quarter note division
+Walrus Audio,D1,Tempo Division,Division Switch: EIGHTH,Sets delay time to eighth note division,28,,43,85,,,,,0-based,,43-85: Eighth note division
+Walrus Audio,D1,Tempo Division,Division Switch: DOTTED EIGHTH,Sets delay time to dotted eighth note division,28,,86,127,,,,,0-based,,86-127: Dotted eighth note division
+Walrus Audio,D1,Bypass,Bypass Switch: BYPASS,Bypasses the effect,29,,0,0,,,,,0-based,,0: Effect bypassed
+Walrus Audio,D1,Bypass,Bypass Switch: ENGAGED,Engages the effect,29,,127,127,,,,,0-based,,127: Effect engaged
+Walrus Audio,D1,Tap Tempo,Tap Tempo: BYPASS,Disables tap tempo functionality,30,,0,0,,,,,0-based,,0: Tap tempo disabled
+Walrus Audio,D1,Tap Tempo,Tap Tempo: ENGAGED,Enables tap tempo functionality,30,,127,127,,,,,0-based,,127: Tap tempo enabled

@@ -1,0 +1,17 @@
+Oscillator Devices,Minerva,Playback Control,Stop/Resume,Controls playback state,102,,0,1,,,,,0-based,,"0: Stop playback; 1: Resume playback"
+Oscillator Devices,Minerva,Play Mode,Play Mode,Sets the playback mode,102,,2,8,,,,,0-based,,"2: Single (Default); 3: Repeat; 4: All; 5: Repeat All; 6: Forward direction; 7: Reverse; 8: Temporary reverse"
+Oscillator Devices,Minerva,MIDI Clock Modes,MIDI Clock Sync,Sets playback sync to MIDI clock,102,,10,17,,,,,0-based,,"10: 1/4 notes; 11: 1/8 notes; 12: Triplet notes; 13: Dotted 1/8 notes; 14: Half notes; 15: Whole notes; 16: 2 whole notes; 17: 4 whole notes"
+Oscillator Devices,Minerva,Volume,Master Volume,Controls volume of both channels,103,,0,127,,,,,0-based,,0: Mute; 127: Full volume
+Oscillator Devices,Minerva,Volume,Left Volume,Controls volume of left channel,104,,0,127,,,,,0-based,,0: Mute; 127: Full volume
+Oscillator Devices,Minerva,Volume,Right Volume,Controls volume of right channel,105,,0,127,,,,,0-based,,0: Mute; 127: Full volume
+Oscillator Devices,Minerva,Fade,Master Fade Out,Fades out both channels,106,,0,127,,,,,0-based,In steps of 100ms,"1: 100ms; 2: 200ms; 127: 12.7s"
+Oscillator Devices,Minerva,Fade,Left Fade Out,Fades out left channel,107,,0,127,,,,,0-based,In steps of 100ms,"1: 100ms; 2: 200ms; 127: 12.7s"
+Oscillator Devices,Minerva,Fade,Right Fade Out,Fades out right channel,108,,0,127,,,,,0-based,In steps of 100ms,"1: 100ms; 2: 200ms; 127: 12.7s"
+Oscillator Devices,Minerva,Counter,Counter Control,Controls the counter for file selection,109,,0,2,,,,,0-based,,"0: Reset counter; 1: Increment counter; 2: Decrement counter"
+Oscillator Devices,Minerva,Pitch,Interval Sampling Rate,Controls playback pitch by semitones,110,,49,71,,,,,Centered,Semitone pitch adjustment,"49: -15 semitones; 64: 0 semitones (original); 71: +7 semitones"
+Oscillator Devices,Minerva,Pitch,Sampling Rate,Controls playback sampling rate,111,,0,127,,,,,0-based,In steps of 409Hz,"0: 20kHz; 127: 72kHz"
+Oscillator Devices,Minerva,Pitch,Master Interval Rate,Sets master interval sampling rate,112,,49,71,,,,,Centered,Overrides per-file pitch settings,"49: -15 semitones; 64: 0 semitones (original); 71: +7 semitones"
+Oscillator Devices,Minerva,Pitch,Master Sampling Rate,Sets master sampling rate,113,,0,127,,,,,0-based,Overrides per-file sample rate settings,"0: 20kHz; 127: 72kHz"
+Oscillator Devices,Minerva,Sample Selection,Custom CC 1,Plays samples from CC1 folder,1,,0,127,,,,,0-based,If CC1 folder exists on SD card,0-127: Selects file by index
+Oscillator Devices,Minerva,Sample Selection,Custom CC 2,Plays samples from CC2 folder,2,,0,127,,,,,0-based,If CC2 folder exists on SD card,0-127: Selects file by index
+Oscillator Devices,Minerva,Sample Selection,Custom CC 31,Plays samples from CC31 folder,31,,0,127,,,,,0-based,If CC31 folder exists on SD card,0-127: Selects file by index
