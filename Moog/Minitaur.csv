@@ -12,7 +12,7 @@ Moog,Minitaur,Oscillators,VCO 2 beat,Adjusts the beat frequency of VCO 2,18,50,0
 Moog,Minitaur,Oscillators,Note sync,Enables and disables Note Sync,81,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Moog,Minitaur,Oscillators,Glide rate,Adjusts the glide (portmanteau) time,5,,0,127,,,,,0-based,,
 Moog,Minitaur,Oscillators,Glide switch,Sets the state of the glide switch,65,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Minitaur,Oscillators,Glide type,Sets the type of glide,92,,0,127,,,,,0-based,,0-42: Linear constant rate; 43-84: Linear constant time; 85-127: Exponential
+Moog,Minitaur,Oscillators,Glide type,Sets the type of glide,92,,0,127,,,,,0-based,,0-42: Linear constant rate; 43-85: Linear constant time; 86-127: Exponential
 Moog,Minitaur,Oscillators,Legato glide,Sets the state of the legato lide parameter when glide is enabled,83,,0,127,,,,,0-based,,0-63: Always glide; 64-127: Glide on legato notes only
 Moog,Minitaur,Mixer,VCO 1 level,Adjusts the level of VCO 1,15,47,0,16383,,,,,0-based,,
 Moog,Minitaur,Mixer,VCO 2 level,Adjusts the level of VCO 2,16,48,0,16383,,,,,0-based,,
@@ -29,10 +29,10 @@ Moog,Minitaur,Envelopes,VCA attack,Adjusts the volume envelope attack time,28,60
 Moog,Minitaur,Envelopes,VCA decay / release,Adjusts the volume envelope decay and release time,29,61,0,16383,,,,,0-based,,
 Moog,Minitaur,Envelopes,VCA sustain,Adjusts the volume envelope sustain level,30,62,0,16383,,,,,0-based,,
 Moog,Minitaur,Envelopes,Release switch,Sets the state of the release parameter,72,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Minitaur,Envelopes,Trigger mode,Sets the state of the envelope trigger,73,,0,127,,,,,0-based,,0-42: Legato on; 43-84: Legato off; 85-127: Envelope generator reset
+Moog,Minitaur,Envelopes,Trigger mode,Sets the state of the envelope trigger,73,,0,127,,,,,0-based,,0-42: Legato on; 43-85: Legato off; 86-127: Envelope generator reset
 Moog,Minitaur,Volume,VCA (output) level,Adjusts the audio output and headphone level,7,39,0,16383,,,,,0-based,,
 Moog,Minitaur,Volume,Volume velocity sensitivity,Sets the amount of volume velocity sensitivity,90,,0,127,,,,,0-based,Default is 64 for 50% level,
-Moog,Minitaur,Keyboard response,Key priority,Sets the note priority,91,,0,127,,,,,0-based,Default is Last,0-42: Low; 43-84: High; 87-127: Last
+Moog,Minitaur,Keyboard response,Key priority,Sets the note priority,91,,0,127,,,,,0-based,Default is Last,0-42: Low; 43-85: High; 86-127: Last
 Moog,Minitaur,Modulation wheel response,Mod wheel,Modulation performance control,1,33,0,127,,,,,0-based,,
 Moog,Minitaur,Pitch wheel response,Bend up amount,Pitch wheel up performance control,107,,0,127,,,,,0-based,,0-15: Off; 16-31: 2 semitones; 32-47: 3 semitones; 48-63: 4 semitones; 64-79: 5 semitones; 80-95: 7 semitones; 96-111: 12 semitones; 112-127: 24 semitones
 Moog,Minitaur,Pitch wheel response,Bend down amount,Pitch wheel down performance control,108,,0,127,,,,,0-based,,0-15: Off; 16-31: 2 semitones; 32-47: 3 semitones; 48-63: 4 semitones; 64-79: 5 semitones; 80-95: 7 semitones; 96-111: 12 semitones; 112-127: 24 semitones
