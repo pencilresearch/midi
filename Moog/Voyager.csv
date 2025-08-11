@@ -1,47 +1,47 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Moog,Voyager,Volume,Master volume,Adjusts the master volume level,7,39,0,127,,,,,0-based,,
-Moog,Voyager,Performance Controls,Mod Wheel,Modulation Wheel,1,33,0,127,,,,,0-based,,
-Moog,Voyager,Performance Controls,Glide Rate,Adjusts the glide (portmanteau) time,5,37,0,127,,,,,0-based,Default is zero.,
+Moog,Voyager,Volume,Master volume,Adjusts the master volume level,7,39,0,255,,,,,0-based,,
+Moog,Voyager,Performance Controls,Mod Wheel,Modulation Wheel,1,33,0,255,,,,,0-based,,
+Moog,Voyager,Performance Controls,Glide Rate,Adjusts the glide (portmanteau) time,5,37,0,255,,,,,0-based,Default is zero.,
 Moog,Voyager,Performance Controls,Glide Switch,Turns Glide On/Off,65,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Moog,Voyager,Performance Controls,Release Switch,,88,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Voyager,Performance Controls,Mod 1,Mod 1 Input,2,34,0,127,,,,,0-based,,
-Moog,Voyager,Performance Controls,Mod 2,Mod 2 Input,4,36,0,127,,,,,0-based,,
+Moog,Voyager,Performance Controls,Mod 1,Mod 1 Input,2,34,0,255,,,,,0-based,,
+Moog,Voyager,Performance Controls,Mod 2,Mod 2 Input,4,36,0,255,,,,,0-based,,
 Moog,Voyager,LFO,LFO Rate,Rate of oscillation,3,35,0,127,,,,,0-based,,0-31: Off; 32-63: MIDI; 64-95: KB; 96-127: Env Gate
 Moog,Voyager,LFO,LFO Sync,Source of LFO syncing,67,,0,127,,,,,0-based,,
 Moog,Voyager,Oscillators,Osc 1 Octave,Sets the octave of oscillator 1,74,,0,127,,,,,0-based,,0-15: 32'; 16-31: 16'; 32-47: 8'; 48-63: 4'; 64-79: 2'; 80-127: 1'
-Moog,Voyager,Oscillators,Osc 1 Wave,Sets the waveform of oscillator 1,9,41,0,127,,,,,0-based,,
-Moog,Voyager,Oscillators,Osc 2 Freq,Adjusts the frequency of oscillator 2,10,42,0,127,,,,,0-based,,
+Moog,Voyager,Oscillators,Osc 1 Wave,Sets the waveform of oscillator 1,9,41,0,255,,,,,0-based,,
+Moog,Voyager,Oscillators,Osc 2 Freq,Adjusts the frequency of oscillator 2,10,42,0,255,,,,,0-based,,
 Moog,Voyager,Oscillators,Osc 2 Octave,Sets the octave of oscillator 2,75,,0,127,,,,,0-based,,0-15: 32'; 16-31: 16'; 32-47: 8'; 48-63: 4'; 64-79: 2'; 80-127: 1'
-Moog,Voyager,Oscillators,Osc 2 Wave,Sets the waveform of oscillator 2,11,43,0,127,,,,,0-based,,
-Moog,Voyager,Oscillators,Osc 3 Freq,Adjusts the frequency of oscillator 3,12,45,0,127,,,,,0-based,,
+Moog,Voyager,Oscillators,Osc 2 Wave,Sets the waveform of oscillator 2,11,43,0,255,,,,,0-based,,
+Moog,Voyager,Oscillators,Osc 3 Freq,Adjusts the frequency of oscillator 3,12,45,0,255,,,,,0-based,,
 Moog,Voyager,Oscillators,Osc 3 Octave,Sets the octave of oscillator 3,76,,0,127,,,,,0-based,,0-15: 32'; 16-31: 16'; 32-47: 8'; 48-63: 4'; 64-79: 2'; 80-127: 1'
-Moog,Voyager,Oscillators,Osc 3 Wave,Sets the waveform of oscillator 3,13,45,0,127,,,,,0-based,,
+Moog,Voyager,Oscillators,Osc 3 Wave,Sets the waveform of oscillator 3,13,45,0,255,,,,,0-based,,
 Moog,Voyager,Oscillators,1-2 Sync,Turns oscillator sync On/Off,77,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Moog,Voyager,Oscillators,3-1 FM,Turns oscillator frequency modulation On/Off,78,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Moog,Voyager,Oscillators,3 KB Cont,Turns keyboard control of oscillator 3 On/Off,79,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Moog,Voyager,Oscillators,3 Freq,Sets the HI/LO frequency range of oscillator 3,80,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Voyager,Mixer,External Level,Adjusts the level of the external audio signal,14,46,0,127,,,,,0-based,,
+Moog,Voyager,Mixer,External Level,Adjusts the level of the external audio signal,14,46,0,255,,,,,0-based,,
 Moog,Voyager,Mixer,External Switch,Toggles the external audio On/Off,81,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Voyager,Mixer,Oscillator 1,Adjusts the level of oscillator 1,15,47,0,127,,,,,0-based,,
+Moog,Voyager,Mixer,Oscillator 1,Adjusts the level of oscillator 1,15,47,0,255,,,,,0-based,,
 Moog,Voyager,Mixer,Oscillator 1 Switch,Toggles Oscillator 1 On/Off,82,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Voyager,Mixer,Oscillator 2,Adjusts the level of oscillator 2,16,48,0,127,,,,,0-based,,
+Moog,Voyager,Mixer,Oscillator 2,Adjusts the level of oscillator 2,16,48,0,255,,,,,0-based,,
 Moog,Voyager,Mixer,Oscillator 3 Switch,Toggles Oscillator 2 On/Off,83,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Voyager,Mixer,Oscillator 3,Adjusts the level of oscillator 3,17,49,0,127,,,,,0-based,,
+Moog,Voyager,Mixer,Oscillator 3,Adjusts the level of oscillator 3,17,49,0,255,,,,,0-based,,
 Moog,Voyager,Mixer,Oscillator 3 Switch,Toggles Oscillator 3 On/Off,84,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Voyager,Mixer,Noise,Adjusts the level of noise,18,50,0,127,,,,,0-based,,
+Moog,Voyager,Mixer,Noise,Adjusts the level of noise,18,50,0,255,,,,,0-based,,
 Moog,Voyager,Mixer,Noise Switch,Toggles noise On/Off,85,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Voyager,Filter,Cutoff,Adjusts the filter cutoff frequency,19,51,0,127,,,,,0-based,,
-Moog,Voyager,Filter,Spacing,Adjusts the filter spacing parameter,20,52,0,127,,,,,0-based,,
-Moog,Voyager,Filter,Resonance,Adjusts the filter resonance parameter,21,53,0,127,,,,,0-based,,
-Moog,Voyager,Filter,KB Amount,Adjusts the amount of pitch CV affecting the cutoff,22,54,0,127,,,,,0-based,,
+Moog,Voyager,Filter,Cutoff,Adjusts the filter cutoff frequency,19,51,0,255,,,,,0-based,,
+Moog,Voyager,Filter,Spacing,Adjusts the filter spacing parameter,20,52,0,255,,,,,0-based,,
+Moog,Voyager,Filter,Resonance,Adjusts the filter resonance parameter,21,53,0,255,,,,,0-based,,
+Moog,Voyager,Filter,KB Amount,Adjusts the amount of pitch CV affecting the cutoff,22,54,0,255,,,,,0-based,,
 Moog,Voyager,Filter,Mode,Toggles the filter mode between LP/LP and HP/LP,86,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Voyager,Envelope Generator,Filter Env Attack,Adjusts the filter envelope attack time,23,55,0,127,,,,,0-based,,
-Moog,Voyager,Envelope Generator,Filter Env Decay,Adjusts the filter envelope decay time,24,56,0,127,,,,,0-based,,
-Moog,Voyager,Envelope Generator,Filter Env Sustain,Sets the filter envelope sustain level,25,57,0,127,,,,,0-based,,
-Moog,Voyager,Envelope Generator,Filter Env Release,Adjusts the filter envelope release time,26,58,0,127,,,,,0-based,,
+Moog,Voyager,Envelope Generator,Filter Env Attack,Adjusts the filter envelope attack time,23,55,0,255,,,,,0-based,,
+Moog,Voyager,Envelope Generator,Filter Env Decay,Adjusts the filter envelope decay time,24,56,0,255,,,,,0-based,,
+Moog,Voyager,Envelope Generator,Filter Env Sustain,Sets the filter envelope sustain level,25,57,0,255,,,,,0-based,,
+Moog,Voyager,Envelope Generator,Filter Env Release,Adjusts the filter envelope release time,26,58,0,255,,,,,0-based,,
 Moog,Voyager,Envelope Generator,Amount to Filter,Adjusts the amount of filter envelope affecting the cutoff,27,59,0,127,,,,,0-based,,
-Moog,Voyager,Envelope Generator,Volume Env Attack,Adjusts the volume envelope attack time,28,60,0,127,,,,,0-based,,
-Moog,Voyager,Envelope Generator,Volume Env Decay,Adjusts the volume envelope decay time,29,61,0,127,,,,,0-based,,
-Moog,Voyager,Envelope Generator,Volume Env Sustain,Sets the volume envelope sustain level,30,62,0,127,,,,,0-based,,
-Moog,Voyager,Envelope Generator,Volume Env Release,Adjusts the volume envelope release time,31,63,0,127,,,,,0-based,,
+Moog,Voyager,Envelope Generator,Volume Env Attack,Adjusts the volume envelope attack time,28,60,0,255,,,,,0-based,,
+Moog,Voyager,Envelope Generator,Volume Env Decay,Adjusts the volume envelope decay time,29,61,0,255,,,,,0-based,,
+Moog,Voyager,Envelope Generator,Volume Env Sustain,Sets the volume envelope sustain level,30,62,0,255,,,,,0-based,,
+Moog,Voyager,Envelope Generator,Volume Env Release,Adjusts the volume envelope release time,31,63,0,255,,,,,0-based,,
 Moog,Voyager,Envelope Generator,Env Gate Switch,Toggles the envelope gate between Keyboard and On/Ext,87,,0,127,,,,,0-based,,0-63: Off; 64-127: On
