@@ -43,7 +43,7 @@ Elektron,Tonverk,Audio Track: Amp,Amp: Reset,,,,,,0,49,0,1,0-based,,0: Off; 1: O
 Elektron,Tonverk,Audio Track: FX,FX: Send Amount 1,,44,,0,127,,,,,0-based,,
 Elektron,Tonverk,Audio Track: FX,FX: Send Amount 2,,45,,0,127,,,,,0-based,,
 Elektron,Tonverk,Audio Track: FX,FX: Send Amount 3,,46,,0,127,,,,,0-based,,
-Elektron,Tonverk,Audio Track: FX,FX: Routing Destination,,47,,0,6,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 3: Bus 1; 4: Bus 2; 5: Bus 3; 6: Bus 4;
+Elektron,Tonverk,Audio Track: FX,FX: Routing Destination,,47,,0,6,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 3: Bus 1; 4: Bus 2; 5: Bus 3; 6: Bus 4
 Elektron,Tonverk,Audio Track: FX,FX 1: Parameter A,,48,,0,127,,,,,0-based,,
 Elektron,Tonverk,Audio Track: FX,FX 1: Parameter B,,49,,0,127,,,,,0-based,,
 Elektron,Tonverk,Audio Track: FX,FX 1: Parameter C,,50,,0,127,,,,,0-based,,
