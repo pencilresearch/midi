@@ -63,14 +63,14 @@ Elektron,Tonverk,Audio Track: FX,FX 2: Parameter H,,63,,0,127,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Speed,,102,,0,127,0,1,0,16383,Centered,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Multiplier,,23,,0,127,0,2,0,23,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Fade,,,,,,0,3,0,128,Centered,,
-Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Waveform,,,,,,0,5,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Waveform,,,,,,0,5,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Start Phase/Smoothing,,,,,,0,6,0,127,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Mode,,,,,,0,7,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Depth,,104,,0,127,0,8,0,16383,Centered,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Speed,,105,,0,127,0,9,0,16383,Centered,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Multiplier,,106,,0,23,0,10,0,23,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Fade,,,,,,0,11,0,128,Centered,,
-Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Waveform,,,,,,0,13,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Waveform,,,,,,0,13,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Start Phase/Smoothing,,,,,,0,14,0,127,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Mode,,,,,,0,15,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Depth,,107,,0,127,0,16,0,16383,Centered,,
@@ -84,14 +84,14 @@ Elektron,Tonverk,Audio Track: Mod,Mod Env: Depth,,110,,0,127,0,24,0,16383,Center
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Speed,,111,,0,127,0,26,0,16383,Centered,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Multiplier,,112,,0,23,0,27,0,23,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Fade,,,,,,0,28,0,128,Centered,,
-Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Waveform,,,,,,0,30,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Waveform,,,,,,0,30,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Start Phase/Smoothing,,,,,,0,31,0,127,0-based,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Mode,,,,,,0,32,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Depth,,113,,0,127,0,33,0,16383,Centered,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Speed,,114,,0,127,0,34,0,16383,Centered,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Multiplier,,115,,0,23,0,35,0,23,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Fade,,,,,,0,36,0,128,Centered,,
-Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Waveform,,,,,,0,38,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Waveform,,,,,,0,38,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Start Phase/Smoothing,,,,,,0,39,0,127,0-based,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Mode,,,,,,0,40,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Depth,,116,,0,127,0,41,0,16383,Centered,,
