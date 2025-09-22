@@ -40,9 +40,9 @@ Elektron,Tonverk,Audio Track: Amp,Amp: Pan,,10,,0,127,,,,,Centered,,
 Elektron,Tonverk,Audio Track: Amp,Amp: Volume,,89,,0,127,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Amp,Amp: Mode,,,,,,0,48,0,1,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Amp,Amp: Reset,,,,,,0,49,0,1,0-based,,0: Off; 1: On
-Elektron,Tonverk,Audio Track: FX,FX: Send Amount 1,,44,,0,127,,,,,0-based,,
-Elektron,Tonverk,Audio Track: FX,FX: Send Amount 2,,45,,0,127,,,,,0-based,,
-Elektron,Tonverk,Audio Track: FX,FX: Send Amount 3,,46,,0,127,,,,,0-based,,
+Elektron,Tonverk,Audio Track: FX,FX: Send 1 Amount,,44,,0,127,,,,,0-based,,
+Elektron,Tonverk,Audio Track: FX,FX: Send 2 Amount,,45,,0,127,,,,,0-based,,
+Elektron,Tonverk,Audio Track: FX,FX: Send 3 Amount,,46,,0,127,,,,,0-based,,
 Elektron,Tonverk,Audio Track: FX,FX: Routing Destination,,47,,0,6,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 3: Bus 1; 4: Bus 2; 5: Bus 3; 6: Bus 4
 Elektron,Tonverk,Audio Track: FX,FX 1: Parameter A,,48,,0,127,,,,,0-based,,
 Elektron,Tonverk,Audio Track: FX,FX 1: Parameter B,,49,,0,127,,,,,0-based,,
@@ -489,9 +489,9 @@ Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Delay,,,,,,8,123,0,127,0-based
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Depth,,,,,,8,125,0,16383,Centered,,
 Elektron,Tonverk,Bus Track: Trig,Trig: Velocity,,4,,0,127,,,,,0-based,,
 Elektron,Tonverk,Bus Track: Trig,Trig: Note Length,,5,,0,127,,,,,0-based,,
-Elektron,Tonverk,Bus Track: FX,FX: Send Amount 1,,44,,0,127,,,,,0-based,,
-Elektron,Tonverk,Bus Track: FX,FX: Send Amount 2,,45,,0,127,,,,,0-based,,
-Elektron,Tonverk,Bus Track: FX,FX: Send Amount 3,,46,,0,127,,,,,0-based,,
+Elektron,Tonverk,Bus Track: FX,FX: Send 1 Amount,,44,,0,127,,,,,0-based,,
+Elektron,Tonverk,Bus Track: FX,FX: Send 2 Amount,,45,,0,127,,,,,0-based,,
+Elektron,Tonverk,Bus Track: FX,FX: Send 3 Amount,,46,,0,127,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX: Routing Destination,,47,,0,2,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 
 Elektron,Tonverk,Bus Track: FX,FX 1: Parameter A,,48,,0,127,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX 1: Parameter B,,49,,0,127,,,,,0-based,,
