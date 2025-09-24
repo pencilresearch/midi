@@ -1,0 +1,44 @@
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Chase Bliss,Clean,Knobs,Dynamics,Set the amount of compression.,14,,0,127,,,,,0-based,,0~127: Compression amount
+Chase Bliss,Clean,Knobs,Sensitivity,"Sets the dynamic threshold. The higher the knob is turned up, the more sensitive Clean becomes.",15,,0,127,,,,,0-based,,0~127: Dynamic threshold
+Chase Bliss,Clean,Knobs,Wet,Controls the loudness of the processed signal.,16,,0,127,,,,,0-based,,0~127: Loudness
+Chase Bliss,Clean,Knobs,Attack,Controls how quickly the compression will set in.,17,,0,127,,,,,0-based,,0~127: Attack
+Chase Bliss,Clean,Knobs,EQ,"The counter-clockwise side removes highs while the clockwise side removes lows. At noon, the EQ will have no effect.",18,,0,127,,,,,Centered,,0~127: EQ
+Chase Bliss,Clean,Knobs,Dry,Controls the loudness of the unprocessed signal.,19,,0,127,,,,,0-based,,0~127: Dry
+Chase Bliss,Clean,Knobs,Ramp Speed,"If ramping is enabled, this controls the ramping speed.",20,,0,127,,,,,0-based,,0~127: Ramp speed
+Chase Bliss,Clean,Toggles,Release,Controls how quickly the compression (and left EQ mode) will fade out.,21,,0,127,,,,,0-based,,0-1: Fast; 2: User; 3-127: Slow
+Chase Bliss,Clean,Toggles,Mode,Selects the EQ mode.,22,,0,127,,,,,0-based,,0-1: Shifty; 2: Manual; 3-127: Modulated
+Chase Bliss,Clean,Toggles,Physics,Manipulates the physical behaviour of Clean's dynamic response.,23,,0,127,,,,,0-based,,0-1: Wobbly; 2: Off; 3-127: Twitchy
+Chase Bliss,Clean,Foot Switches,Bypass,Turns off/on Clean.,102,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Foot Switches,Swell,Engages a swell effect.,103,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Foot Switches,Alt Menu,Enters/exits the Hidden Menu.,104,,0,127,,,,,0-based,,0: Exit ALT Menu; 1-127: Enter ALT Menu
+Chase Bliss,Clean,Foot Switches,Dynamics Max,Maxes out Clean's (dynamic) sag effect.,106,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,General,Expression over MIDI,Sets the expression value over MIDI.,100,,0,127,,,,,0-based,,0~127: Expression Value
+Chase Bliss,Clean,General,Preset Save,Save preset to specified slot.,111,,0,122,,,,,0-based,,0~122: Slot to save in
+Chase Bliss,Clean,General,Ramp/Bounce,,52,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,General,Factory Reset,,56,,0,127,,,,,0-based,,0-127: Perform Factory Reset
+Chase Bliss,Clean,Hidden Options,Noise Gate Release,Sets how quickly the noise gate will re-engage.,24,,0,127,,,,,0-based,,0~127: Noise gate release
+Chase Bliss,Clean,Hidden Options,Noise Gate Threshold,Sets the threshold for Clean's noise gate.,25,,0,127,,,,,0-based,,0~127: Noise gate threshold
+Chase Bliss,Clean,Hidden Options,Swell In,Sets how long it takes to reach full volume when Swell is engaged.,26,,0,127,,,,,0-based,,0~127: Swell in
+Chase Bliss,Clean,Hidden Options,User Release,Allows you to set a custom value for the middle RELEASE position.,27,,0,127,,,,,0-based,,0~127: Custom release
+Chase Bliss,Clean,Hidden Options,Balance Filter,Lets you filter out low frequencies from the audio being used to control Clean's dynamic response.,28,,0,127,,,,,0-based,,0~127: Balance filter
+Chase Bliss,Clean,Hidden Options,Swell Out,Sets how long it takes to return to silence when Swell is engaged.,29,,0,127,,,,,0-based,,0~127: Swell out
+Chase Bliss,Clean,Hidden Options,Envelope Mode,Selects which type of envelope follower Clean uses.,31,,0,127,,,,,0-based,,0-1: Analog; 2: Hybrid; 3-127: Adaptive
+Chase Bliss,Clean,Hidden Options,Shifty Mode,Selects the EQ's Shifty mode.,32,,0,3,,,,,0-based,,0-1: ASR Shifty; 3: ENV Shifty
+Chase Bliss,Clean,Hidden Options,Spread Routing,Lets you independently assign SPREAD to the EQ or volume-based effects (Compressor & Swell).,33,,0,127,,,,,0-based,,0-1: EQ; 2: Both; 3-127: Vol/Comp
+Chase Bliss,Clean,Ramping,Dynamics,Toggles ramping of the Dynamics knob.,61,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Ramping,Attack,Toggles ramping of the Attack knob.,62,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Ramping,EQ,Toggles ramping of the EQ knob.,63,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Ramping,Dry,Toggles ramping of the Dry knob.,64,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Ramping,Wet,Toggles ramping of the Wet knob.,65,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Ramping,Bounce,Toggles ramping of the Bounce knob.,66,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Ramping,Sweep,Selects the direction of the Sweep.,67,,0,127,,,,,0-based,,0: Bottom; 1-127: Top
+Chase Bliss,Clean,Ramping,Polarity,Selects the polarity of the Sweep.,68,,0,127,,,,,0-based,,0: Forward; 1-127: Reverse
+Chase Bliss,Clean,Customize,MISO,Splits a mono input signal into a stereo output signal.,71,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Customize,Spread,Engages stereo processing.,72,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Customize,Latch,Change the hold function for each footswitch from momentary to latching.,73,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Customize,Sidechain,Allows you to use an external signal to trigger the compression.,74,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Customize,Noise Gate,Activates a noise gate that will mute the input when you're not playing.,75,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Customize,Motion,"Engages a special ""motion mode"" that modulates the amount of compression being applied.",76,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Customize,Swell Aux,Changes the function of the AUX footswitch to allow for manual swells.,77,,0,127,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Clean,Customize,Dusty,Transforms the limiter inside of Clean to a distinct form of crumbly overdrive.,78,,0,127,,,,,0-based,,0: Off; 1-127: On
