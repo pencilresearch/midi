@@ -1,5 +1,5 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Elektron,Digitone II,Track,Mute,,94,,0,1,1,108,0,1,,,0: Off; 1: On
+Elektron,Digitone II,Track,Mute,,94,,0,1,1,108,0,1,0-based,,0: Off; 1: On
 Elektron,Digitone II,Track,Track level,,95,,0,127,1,110,0,127,0-based,,
 Elektron,Digitone II,Trig,Note,,3,,0,127,3,0,0,127,0-based,,
 Elektron,Digitone II,Trig,Velocity,,4,,0,127,3,1,0,127,0-based,,
@@ -132,8 +132,8 @@ Elektron,Digitone II,Synth: Swarmer,Swarmer: Main Waveform,,45,,0,120,1,78,0,120
 Elektron,Digitone II,Synth: Swarmer,Swarmer: Swarm Animation,,46,,0,127,1,79,0,127,0-based,,
 Elektron,Digitone II,Synth: Swarmer,Swarmer: Noise Modulation,,47,,0,127,1,80,0,127,0-based,,
 Elektron,Digitone II,Filter,Frequency,,16,,0,127,1,20,0,16256,0-based,,
-Elektron,Digitone II,Filter,Parameter F,,17,,0,127,1,21,0,127,,,
-Elektron,Digitone II,Filter,Parameter G,,18,,0,127,1,22,0,127,,,
+Elektron,Digitone II,Filter,Parameter F,,17,,0,127,1,21,0,127,0-based,,
+Elektron,Digitone II,Filter,Parameter G,,18,,0,127,1,22,0,127,0-based,,
 Elektron,Digitone II,Filter,Env. Depth,,24,,0,127,1,26,0,127,centered,,
 Elektron,Digitone II,Filter,Attack Time,,20,,0,127,1,16,0,127,0-based,,
 Elektron,Digitone II,Filter,Decay Time,,21,,0,127,1,17,0,127,0-based,,
