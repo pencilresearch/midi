@@ -773,7 +773,7 @@ Elektron,Tonverk,FX: Rumsklang Reverb,FX 2: Lowcut,,60,,0,127,,,,,0-based,,
 Elektron,Tonverk,FX: Rumsklang Reverb,FX 2: Highcut,,61,,0,127,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Delay Time,,48,,0,127,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Ping Pong,,49,,0,1,,,,,0-based,,0: Off; 1: On
-Elektron,Tonverk,FX: Saturator Delay,FX 1: Stereo Width,,50,,0,127,,,,Centered,,
+Elektron,Tonverk,FX: Saturator Delay,FX 1: Stereo Width,,50,,0,127,,,,,Centered,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback Gain,,51,,0,127,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback HPF,,52,,0,127,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback LPF,,53,,0,127,,,,,0-based,,
