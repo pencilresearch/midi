@@ -1,0 +1,63 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Strymon,TimeLine,Knobs,Time,Delay time (fine adjust via VALUE encoder).,3,,0,127,,,,,0-based,,0~127: Delay time
+Strymon,TimeLine,Knobs,Repeats,Feedback level (number of repeats).,9,,0,127,,,,,0-based,,0~127: Feedback amount
+Strymon,TimeLine,Knobs,Mix,Analog wet/dry mix.,14,,0,127,,,,,0-based,,0~127: Wet level
+Strymon,TimeLine,Knobs,Filter,Tone/EQ for repeats (mode-dependent).,15,,0,127,,,,,0-based,,0~127: Filter amount / voicing
+Strymon,TimeLine,Knobs,Grit,Adds distortion/artifacts (mode-dependent).,16,,0,127,,,,,0-based,,0~127: Grit / coloration
+Strymon,TimeLine,Knobs,Speed,Modulation rate (mode-dependent).,17,,0,127,,,,,0-based,,0~127: Mod speed
+Strymon,TimeLine,Knobs,Depth,Modulation intensity (mode-dependent).,18,,0,127,,,,,0-based,,0~127: Mod depth
+Strymon,TimeLine,Knobs,Type (algorithm select),Selects delay machine (12 types).,19,,0,11,,,,,0-based,Exact value→type order is not specified in the manual; typically follows the front‑panel order.,0-11: Select delay machine
+Strymon,TimeLine,Common Parameters,Tap Division,Subdivision for tap tempo.,21,,0,4,,,,,0-based,,0: Quarter; 1: Dotted Eighth; 2: Eighth; 3: Triplets; 4: Sixteenth
+Strymon,TimeLine,Common Parameters,Persist (Trails),Delay trails spillover when bypassed.,22,,0,1,,,,,0-based,,0: Off; 1: On
+Strymon,TimeLine,Common Parameters,Boost,±3 dB output level trim per preset.,23,,0,60,,,,,centered,Midpoint ≈ unity (0 dB).,0~60: -3 dB → +3 dB
+Strymon,TimeLine,Common Parameters,Smear,Softens attack of repeats.,38,,0,18,,,,,0-based,,0~18: Smear amount
+Strymon,TimeLine,Common Parameters,High Pass,Post‑delay high‑pass filter.,47,,0,20,,,,,0-based,,0~20: HPF amount
+Strymon,TimeLine,Common Parameters,Expression Enable,Enable/disable EXP per preset.,60,,0,1,,,,,0-based,,0: Off; 1: On
+Strymon,TimeLine,Common Parameters,MIDI Clock,Per‑preset external MIDI clock follow.,63,,0,1,,,,,0-based,,0: Off; 1: On
+Strymon,TimeLine,dTape,Tape Speed,Normal or Fast tape speed.,58,,0,1,,,,,0-based,,0: Normal; 1: Fast
+Strymon,TimeLine,dTape,Low End Contour,Low‑end contour / progressive HP.,59,,0,20,,,,,0-based,,0~20: Low-end contour amount
+Strymon,TimeLine,dBucket,Range,Single or Double BBD range.,45,,0,1,,,,,0-based,,0: Single; 1: Double
+Strymon,TimeLine,Digital,Repeat Dynamics,Nonlinear decay of repeats.,56,,0,1,,,,,0-based,,0: Off; 1: On
+Strymon,TimeLine,Dual,Time 2 Ratio,Delay 2 time ratio vs Delay 1.,32,,0,26,,,,,0-based,Ratios span 1/8 → 7/1 in ordered steps.,0-26: Select ratio
+Strymon,TimeLine,Dual,Repeats 2,Delay 2 repeats (or Track).,34,,0,18,,,,,0-based,When set to TRACK it follows Repeats knob; discrete “Track” value not specified.,0~18: Repeats 2 amount
+Strymon,TimeLine,Dual,Mix 2,Delay 2 mix (or Track).,33,,0,18,,,,,0-based,When set to TRACK it follows Mix knob; discrete “Track” value not specified.,0~18: Mix 2 level
+Strymon,TimeLine,Dual,Configuration,Series or Parallel routing.,36,,0,1,,,,,0-based,,0: Series; 1: Parallel
+Strymon,TimeLine,Pattern,Pattern,Selects delay tap pattern (1–16).,39,,0,15,,,,,0-based,,0-15: Pattern 1–16
+Strymon,TimeLine,Swell,Rise Time,Swell attack time (seconds).,44,,0,27,,,,,0-based,,0~27: Rise time
+Strymon,TimeLine,Trem,Speed Ratio,Trem LFO speed vs delay time.,61,,0,34,,,,,0-based,,0-34: Speed ratio (1/32 → 32/1)
+Strymon,TimeLine,Trem,Depth,Trem LFO depth.,57,,0,18,,,,,0-based,,0~18: Depth amount
+Strymon,TimeLine,Trem,LFO Shape,Waveform for tremolo.,29,,0,4,,,,,0-based,,0: Triangle; 1: Square; 2: Sine; 3: Ramp; 4: Saw
+Strymon,TimeLine,Filter,Q (Resonance),Filter resonance.,40,,0,11,,,,,0-based,,0~11: Q amount
+Strymon,TimeLine,Filter,LFO Shape,Waveform / polarity for filter sweep.,28,,0,10,,,,,0-based,,0-10: Select LFO (+Triangle; -Triangle; -Square; +Square; -Sine; +Sine; Ramp; Down; Up; Saw; Random)
+Strymon,TimeLine,Filter,Depth,Filter sweep depth.,41,,0,18,,,,,0-based,,0~18: Depth amount
+Strymon,TimeLine,Filter,Speed Ratio,Filter LFO speed vs delay time.,42,,0,34,,,,,0-based,,0-34: Speed ratio (1/32 → 32/1)
+Strymon,TimeLine,Filter,Location,Filter pre/post delay.,43,,0,1,,,,,0-based,,0: Pre; 1: Post
+Strymon,TimeLine,Lo-Fi,Mix,Mix of lo-fi processed vs full-res signal.,51,,0,20,,,,,0-based,,0~20: Lo-Fi mix
+Strymon,TimeLine,Lo-Fi,Vinyl,dVinyl dust/scratch amount.,52,,0,18,,,,,0-based,,0~18: Vinyl amount
+Strymon,TimeLine,Lo-Fi,Sample Rate,Delay line sample rate.,49,,0,20,,,,,0-based,,0~20: 96 kHz → 750 Hz
+Strymon,TimeLine,Lo-Fi,Bit Depth,Quantization bits.,50,,0,20,,,,,0-based,,0~20: 32-bit → 4-bit
+Strymon,TimeLine,Lo-Fi,Filter Shape,Phone/amp filter models.,53,,0,8,,,,,0-based,,0: Off; 1: Portable Vintage Amp; 2: Victrola Phonograph; 3: 70s Clock Radio; 4: Bullhorn Megaphone; 5: Cheerleader’s Plastic Megaphone; 6: Antique Telephone Earpiece; 7: Cell Phone; 8: Apartment Intercom
+Strymon,TimeLine,Ice,Interval,Pitch interval (−1 to +2 oct).,30,,0,29,,,,,0-based,,0-29: Select interval (−Oct; −Maj7; −min7; −Maj6; −min6; −P5; −min3; −Maj2; +Maj2; +min3; +Maj3; +P4; +Tritone; +min7; +Maj7; +Oct; +Oct+5th; +2 Oct; −Tritone; −P4; −Maj3; −min2; −50c; −25c; +25c; +50c; +min2; +P5; +min6; +Maj6)
+Strymon,TimeLine,Ice,Slice,Slice size (scales with delay time).,46,,0,2,,,,,0-based,,0: Short; 1: Medium; 2: Long
+Strymon,TimeLine,Ice,Blend,Blend between Dry/Ice on delay line.,25,,0,20,,,,,0-based,,0~20: Blend amount
+Strymon,TimeLine,Duck,Sensitivity,Ducking sensitivity.,37,,0,17,,,,,0-based,,0~17: Sensitivity
+Strymon,TimeLine,Duck,Release,Release time for ducking.,55,,0,20,,,,,0-based,,0~20: Release time
+Strymon,TimeLine,Duck,Feedback ducking,Ducks feedback while playing.,54,,0,1,,,,,0-based,,0: Normal; 1: Gate
+Strymon,TimeLine,Looper,Record,Start/Overdub record.,87,,0,127,,,,,0-based,,0-127: Trigger
+Strymon,TimeLine,Looper,Play,Start/Restart playback.,86,,0,127,,,,,0-based,,0-127: Trigger
+Strymon,TimeLine,Looper,Stop,Stop playback.,85,,0,127,,,,,0-based,,0-127: Trigger
+Strymon,TimeLine,Looper,Reverse (toggle),Reverse on/off.,94,,0,127,,,,,0-based,,0-127: Toggle
+Strymon,TimeLine,Looper,Half Speed (toggle),Half/Full speed.,95,,0,127,,,,,0-based,,0-127: Toggle
+Strymon,TimeLine,Looper,Pre/Post (toggle),Looper pre/post delay.,96,,0,127,,,,,0-based,,0-127: Toggle
+Strymon,TimeLine,Looper,Undo (to initial),Undo to initial loop.,89,,0,127,,,,,0-based,,0-127: Trigger
+Strymon,TimeLine,Looper,Redo,Redo last undo.,90,,0,127,,,,,0-based,,0-127: Trigger
+Strymon,TimeLine,Looper,Looper Level,Looper output level.,98,,0,127,,,,,0-based,,0~127: Level
+Strymon,TimeLine,Global / Control,Footswitch A,Front-panel A footswitch (down/up).,80,,0,127,,,,,0-based,,0: Down; 127: Up
+Strymon,TimeLine,Global / Control,Footswitch B,Front-panel B footswitch (down/up).,82,,0,127,,,,,0-based,,0: Down; 127: Up
+Strymon,TimeLine,Global / Control,Tap Footswitch,Front-panel TAP (off/on).,81,,0,127,,,,,0-based,,0: Off; 127: On
+Strymon,TimeLine,Global / Control,Remote Tap,Remote tap tempo.,93,,0,127,,,,,0-based,,0-127: Tap
+Strymon,TimeLine,Global / Control,Expression Pedal,Expression value (heel→toe).,100,,0,127,,,,,0-based,,0~127: Expression position
+Strymon,TimeLine,Global / Control,Bypass,Effect bypass/engage.,102,,0,127,,,,,0-based,,0: Bypass; 127: Engage
+Strymon,TimeLine,Global / Control,Phase Reset,Reset modulation phase.,125,,0,127,,,,,0-based,,0-127: Reset
+Strymon,TimeLine,Global / Control,MIDI Bank Select (MSB),Select preset bank group.,0,,0,1,,,,,0-based,,0: Bank 0 (00A–63B); 1: Bank 1 (64A–99B)
+Strymon,TimeLine,Program / Presets,Program Change,Preset recall via PC messages.,,,,,,,,,0-based,PC numbers map within current MIDI Bank (selected via CC#0). TimeLine powers up in Bank 0.,PC 0: 00A; PC 1: 00B; PC 2: 01A; PC 3: 01B; ... up to PC 127
