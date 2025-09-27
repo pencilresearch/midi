@@ -1,0 +1,59 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Korg,Prologue,System,Bank Select MSB,MIDI bank select (MSB).,0,,0,127,,,,,0-based,,0~127: Bank MSB
+Korg,Prologue,System,Bank Select LSB,MIDI bank select (LSB).,32,,0,127,,,,,0-based,,0~127: Bank LSB
+Korg,Prologue,System,Program Change,Recall program via MIDI PC.,,,,,,,,,0-based,,PC 0-127: Recall programs
+Korg,Prologue,System,Pitch Bend,Channel pitch bend (range set in Global).,,,,,,,,,0-based,Enable Rx/Tx in Global MIDI settings.,Pitch Bend
+Korg,Prologue,Timbre,Edit Timbre,"Edit target (Main, Main+Sub, Sub).",85,,0,127,,,,,0-based,,0-42: Main; 43-85: Main+Sub; 86-127: Sub
+Korg,Prologue,Timbre,Timbre Type,Layering mode (Layer/Xfade/Split).,86,,0,127,,,,,0-based,,0-42: Layer; 43-85: Xfade; 86-127: Split
+Korg,Prologue,Timbre,Main/Sub Balance,Balance between Main and Sub timbre.,8,,0,127,,,,,centered,64 ≈ equal volumes.,0: Main; 64: Center; 127: Sub
+Korg,Prologue,Master,Portamento Time,Portamento duration.,5,,0,127,,,,,0-based,,0~127: Time
+Korg,Prologue,Master,Voice Spread,Stereo voice spread amount.,14,,0,127,,,,,0-based,,0~127: Amount
+Korg,Prologue,Master,Voice Mode Depth,Depth function depends on Voice Mode.,27,,0,127,,,,,0-based,,0~127: Depth
+Korg,Prologue,VCO 1,Wave,Waveform select.,50,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
+Korg,Prologue,VCO 1,Octave,Foot setting.,48,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+Korg,Prologue,VCO 1,Pitch,Fine tune (cents).,34,,0,127,,,,,0-based,,0~127: Pitch
+Korg,Prologue,VCO 1,Shape,Waveshape amount.,36,,0,127,,,,,0-based,,0~127: Shape
+Korg,Prologue,VCO 2,Wave,Waveform select.,51,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
+Korg,Prologue,VCO 2,Octave,Foot setting.,49,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+Korg,Prologue,VCO 2,Pitch,Fine tune (cents).,35,,0,127,,,,,0-based,,0~127: Pitch
+Korg,Prologue,VCO 2,Shape,Waveshape amount.,37,,0,127,,,,,0-based,,0~127: Shape
+Korg,Prologue,Multi Engine,Type,Engine/type select (Noise/VPM/User & subtype).,53,,0,127,,,,,0-based,Selection depends on engine.,0~127: Type select
+Korg,Prologue,Multi Engine,Octave,Octave for Multi engine.,52,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+Korg,Prologue,Multi Engine,Shape,Shape / engine parameter.,54,,0,127,,,,,0-based,,0~127: Shape
+Korg,Prologue,Mixer,VCO 1 Level,Oscillator 1 level.,39,,0,127,,,,,0-based,,0~127: Level
+Korg,Prologue,Mixer,VCO 2 Level,Oscillator 2 level.,40,,0,127,,,,,0-based,,0~127: Level
+Korg,Prologue,Mixer,Multi Engine Level,Multi engine level.,33,,0,127,,,,,0-based,,0~127: Level
+Korg,Prologue,Filter,Cutoff,VCF cutoff frequency.,43,,0,127,,,,,0-based,,0~127: Cutoff
+Korg,Prologue,Filter,Resonance,VCF resonance (Q).,44,,0,127,,,,,0-based,,0~127: Resonance
+Korg,Prologue,Filter,EG Int,Filter EG intensity.,45,,0,127,,,,,centered,Maps to -100%..+100%.,0: -100%; 64: 0%; 127: +100%
+Korg,Prologue,Filter,Drive,Drive amount (3-position).,84,,0,127,,,,,0-based,,0-42: 0%; 43-85: 50%; 86-127: 100%
+Korg,Prologue,Filter,Low Cut,High-pass (low-cut) on/off.,82,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Korg,Prologue,Filter,Keytrack,Cutoff key tracking.,83,,0,127,,,,,0-based,,0-42: 0%; 43-85: 50%; 86-127: 100%
+Korg,Prologue,Amp EG,Attack,Amp envelope attack.,16,,0,127,,,,,0-based,,0~127: Attack
+Korg,Prologue,Amp EG,Decay,Amp envelope decay.,17,,0,127,,,,,0-based,,0~127: Decay
+Korg,Prologue,Amp EG,Sustain,Amp envelope sustain.,18,,0,127,,,,,0-based,,0~127: Sustain
+Korg,Prologue,Amp EG,Release,Amp envelope release.,19,,0,127,,,,,0-based,,0~127: Release
+Korg,Prologue,EG,Attack,EG attack.,20,,0,127,,,,,0-based,,0~127: Attack
+Korg,Prologue,EG,Decay,EG decay.,21,,0,127,,,,,0-based,,0~127: Decay
+Korg,Prologue,EG,Sustain,EG sustain.,22,,0,127,,,,,0-based,,0~127: Sustain
+Korg,Prologue,EG,Release,EG release.,23,,0,127,,,,,0-based,,0~127: Release
+Korg,Prologue,LFO,Wave,LFO waveform.,57,,0,127,,,,,0-based,,0-42: Triangle; 43-85: Saw; 86-127: Square
+Korg,Prologue,LFO,Mode,LFO range/mode.,58,,0,127,,,,,0-based,,0-42: BPM; 43-85: SLOW; 86-127: FAST
+Korg,Prologue,LFO,Rate,LFO speed.,24,,0,127,,,,,0-based,,0~127: Rate
+Korg,Prologue,LFO,Intensity,LFO modulation depth.,26,,0,127,,,,,0-based,,0~127: Depth
+Korg,Prologue,LFO,Target,LFO destination.,56,,0,127,,,,,0-based,,0-42: Cutoff; 43-85: Shape; 86-127: Pitch
+Korg,Prologue,Modulation,Pitch EG Target,Applies EG to pitch (VCO2 / VCO1+2 / ALL).,81,,0,127,,,,,0-based,,0-42: VCO2; 43-85: VCO1+2; 86-127: ALL
+Korg,Prologue,Modulation,Pitch EG Int,Pitch EG intensity.,42,,0,127,,,,,centered,Maps to negative/positive range.,0: -100%; 64: 0%; 127: +100%
+Korg,Prologue,Modulation,Ring/Sync,Oscillator Ring Mod / Off / Sync.,80,,0,127,,,,,0-based,,0-42: Ring; 43-85: Off; 86-127: Sync
+Korg,Prologue,Modulation,Cross Mod Depth,Cross modulation depth.,41,,0,127,,,,,0-based,,0~127: Depth
+Korg,Prologue,Effects - Mod,Type,Mod FX type/subtype select.,88,,0,127,,,,,0-based,Chorus/Ensemble/Phaser/Flanger/User.,0-25: Chorus; 26-51: Ensemble; 52-77: Phaser; 78-102: Flanger; 103-127: User
+Korg,Prologue,Effects - Mod,Speed,Mod FX speed.,28,,0,127,,,,,0-based,,0~127: Speed
+Korg,Prologue,Effects - Mod,Depth,Mod FX depth.,29,,0,127,,,,,0-based,,0~127: Depth
+Korg,Prologue,Effects - Mod,On/Off,Enable/disable Mod FX.,92,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Korg,Prologue,Effects - Delay/Reverb,Type,Delay/Reverb type/subtype select.,89,,0,127,,,,,0-based,Type depends on Delay/Rev select.,0~127: Type select
+Korg,Prologue,Effects - Delay/Reverb,Time,Delay time / Reverb time.,30,,0,127,,,,,0-based,,0~127: Time
+Korg,Prologue,Effects - Delay/Reverb,Depth,Delay/Reverb depth (mix).,31,,0,127,,,,,0-based,,0~127: Depth
+Korg,Prologue,Effects - Delay/Reverb,On/Off,Enable/disable Delay/Reverb.,94,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Korg,Prologue,Pedal,Damper,Sustain pedal.,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Korg,Prologue,Utilities,All Sound Off,All Sound Off.,120,,0,127,,,,,0-based,,0-127: Trigger
+Korg,Prologue,Utilities,Reset All Controllers,Reset all controllers.,121,,0,127,,,,,0-based,,0-127: Reset
