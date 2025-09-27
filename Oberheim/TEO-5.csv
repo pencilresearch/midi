@@ -1,0 +1,131 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Oberheim,TEO-5,System,Bank Select MSB,Bank select MSB.,0,,0,127,,,,,0-based,"User 1–4, Factory 1–4, Add-on 1–4 per doc.",0~127: Bank MSB
+Oberheim,TEO-5,System,Bank Select LSB,Bank select LSB.,32,,0,127,,,,,0-based,,0~127: Bank LSB
+Oberheim,TEO-5,System,Data Entry MSB,Data Entry MSB for RPN/NRPN.,6,,0,127,,,,,0-based,,0~127: Data value (MSB)
+Oberheim,TEO-5,System,Data Entry LSB,Data Entry LSB for RPN/NRPN.,38,,0,127,,,,,0-based,,0~127: Data value (LSB)
+Oberheim,TEO-5,System,NRPN Parameter LSB,NRPN parameter number LSB.,98,,0,127,,,,,0-based,,0~127: NRPN LSB
+Oberheim,TEO-5,System,NRPN Parameter MSB,NRPN parameter number MSB.,99,,0,127,,,,,0-based,,0~127: NRPN MSB
+Oberheim,TEO-5,System,RPN Parameter LSB,RPN parameter number LSB.,100,,0,127,,,,,0-based,,0~127: RPN LSB
+Oberheim,TEO-5,System,RPN Parameter MSB,RPN parameter number MSB.,101,,0,127,,,,,0-based,,0~127: RPN MSB
+Oberheim,TEO-5,System,Data Increment,NRPN/RPN data increment.,96,,0,127,,,,,0-based,,0-127: Increment
+Oberheim,TEO-5,System,Data Decrement,NRPN/RPN data decrement.,97,,0,127,,,,,0-based,,0-127: Decrement
+Oberheim,TEO-5,System,Local Control,Local control on/off.,122,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,System,All Sound Off,All Sound Off.,120,,0,127,,,,,0-based,,0-127: Trigger
+Oberheim,TEO-5,System,Reset All Controllers,Reset all controllers.,121,,0,127,,,,,0-based,,0-127: Reset
+Oberheim,TEO-5,System,All Notes Off,All Notes Off.,123,,0,127,,,,,0-based,,0-127: All Notes Off
+Oberheim,TEO-5,System,Omni Mode Off,Omni Mode Off.,124,,0,127,,,,,0-based,,0-127: Omni Off
+Oberheim,TEO-5,System,Omni Mode On,Omni Mode On.,125,,0,127,,,,,0-based,,0-127: Omni On
+Oberheim,TEO-5,System,Mono Mode On,Mono Mode On.,126,,0,127,,,,,0-based,,0-127: Mono On
+Oberheim,TEO-5,System,Poly Mode On,Poly Mode On.,127,,0,127,,,,,0-based,,0-127: Poly On
+Oberheim,TEO-5,Performance,Mod Wheel,Modulation wheel (assignable).,1,,0,127,,,,,0-based,,0~127: Mod amount
+Oberheim,TEO-5,Performance,Breath Controller,Breath controller (assignable).,2,,0,127,,,,,0-based,,0~127: Breath amount
+Oberheim,TEO-5,Performance,Foot Controller,Foot controller (assignable).,4,,0,127,,,,,0-based,,0~127: Foot amount
+Oberheim,TEO-5,Performance,Channel Volume,MIDI volume (combines with Master/Program Volume).,7,,0,127,,,,,0-based,,0~127: Volume
+Oberheim,TEO-5,Performance,Expression,Expression pedal.,11,,0,127,,,,,0-based,,0~127: Expression
+Oberheim,TEO-5,Performance,Brightness,Brightness → offset to filter cutoff.,74,,0,127,,,,,0-based,,0~127: Brightness
+Oberheim,TEO-5,Performance,Pan,Pan position.,113,,0,127,,,,,centered,,0: Left; 64: Center; 127: Right
+Oberheim,TEO-5,Performance,Damper Pedal,Sustain pedal (hold envelopes in Sustain).,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Clock/Tempo,BPM,Tempo when clock is internal.,3,,15,127,,,,,0-based,Values <15 unused.,15~127: BPM value
+Oberheim,TEO-5,Clock/Tempo,Clock Divide,Clock divide for arp/seq/LFO sync.,63,,0,7,,,,,0-based,,0-7: Division index
+Oberheim,TEO-5,Clock/Tempo,LFO 1 Freq Sync,LFO1 sync rate index (when Sync On).,111,,0,15,,,,,0-based,,0-15: Sync rate index
+Oberheim,TEO-5,Clock/Tempo,LFO 2 Freq Sync,LFO2 sync rate index (when Sync On).,112,,0,15,,,,,0-based,,0-15: Sync rate index
+Oberheim,TEO-5,Oscillators,Osc 1 Freq,Oscillator 1 frequency (coarse).,8,,0,63,,,,,0-based,,0~63: Frequency
+Oberheim,TEO-5,Oscillators,Osc 1 On,Enable Oscillator 1.,9,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 2 On,Enable Oscillator 2.,10,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 2 Freq,Oscillator 2 frequency (coarse).,13,,0,63,,,,,0-based,,0~63: Frequency
+Oberheim,TEO-5,Oscillators,Sub On,Enable Sub oscillator.,14,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Noise On,Enable Noise generator.,15,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 1 Sync,Oscillator 1 hard-sync.,39,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 1 Level,Oscillator 1 level.,40,,0,127,,,,,0-based,,0~127: Level
+Oberheim,TEO-5,Oscillators,Osc 2 Level,Oscillator 2 level.,41,,0,127,,,,,0-based,,0~127: Level
+Oberheim,TEO-5,Oscillators,Sub Level,Sub oscillator level.,42,,0,127,,,,,0-based,,0~127: Level
+Oberheim,TEO-5,Oscillators,Noise Level,Noise generator level.,43,,0,127,,,,,0-based,,0~127: Level
+Oberheim,TEO-5,Oscillators,X-Mod Amount,Cross modulation amount.,44,,0,127,,,,,0-based,,0~127: Amount
+Oberheim,TEO-5,Oscillators,Osc 1 PW,Oscillator 1 pulse width.,94,,0,127,,,,,0-based,,0~127: PW
+Oberheim,TEO-5,Oscillators,Osc 2 PW,Oscillator 2 pulse width.,95,,0,127,,,,,0-based,,0~127: PW
+Oberheim,TEO-5,Oscillators,Osc 1 Tri,Oscillator 1 triangle on/off.,102,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 2 Tri,Oscillator 2 triangle on/off.,103,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 1 Saw,Oscillator 1 saw on/off.,104,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 2 Saw,Oscillator 2 saw on/off.,105,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 1 Pulse,Oscillator 1 pulse on/off.,106,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 2 Pulse,Oscillator 2 pulse on/off.,107,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Noise Type,Noise type select.,108,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 2 Detune,Oscillator 2 detune.,109,,0,63,,,,,0-based,,0~63: Detune amount
+Oberheim,TEO-5,Oscillators,Osc 2 Filter Bypass,Bypass filter for Oscillator 2.,117,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 1 Key On,Oscillator 1 key tracking on/off.,87,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Oscillators,Osc 2 Key On,Oscillator 2 key tracking on/off.,88,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Filter,Filter Cutoff,Filter cutoff frequency.,33,,0,127,,,,,0-based,,0~127: Cutoff
+Oberheim,TEO-5,Filter,Filter Resonance,Filter resonance (Q).,34,,0,127,,,,,0-based,,0~127: Resonance
+Oberheim,TEO-5,Filter,Filter State,Filter topology / state.,35,,0,127,,,,,0-based,,0~127: State select
+Oberheim,TEO-5,Filter,Filter Key Amount,Key tracking amount.,36,,0,127,,,,,0-based,,0~127: Keytrack
+Oberheim,TEO-5,Filter,Vintage Amount,Vintage behavior amount.,37,,0,127,,,,,0-based,,0~127: Vintage amount
+Oberheim,TEO-5,Filter,Filter Bandpass,Enable bandpass mode.,110,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Envelopes,Env 1 Delay,Envelope 1 delay.,45,,0,127,,,,,0-based,,0~127: Delay
+Oberheim,TEO-5,Envelopes,Env 1 Attack,Envelope 1 attack.,46,,0,127,,,,,0-based,,0~127: Attack
+Oberheim,TEO-5,Envelopes,Env 1 Decay,Envelope 1 decay.,47,,0,127,,,,,0-based,,0~127: Decay
+Oberheim,TEO-5,Envelopes,Env 1 Sustain,Envelope 1 sustain.,48,,0,127,,,,,0-based,,0~127: Sustain
+Oberheim,TEO-5,Envelopes,Env 1 Release,Envelope 1 release.,49,,0,127,,,,,0-based,,0~127: Release
+Oberheim,TEO-5,Envelopes,Env 1 Amount,Envelope 1 amount.,50,,0,127,,,,,0-based,,0~127: Amount
+Oberheim,TEO-5,Envelopes,Env 1 Velocity On,Envelope 1 velocity sensitivity.,51,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Envelopes,Env 2 Delay,Envelope 2 delay.,52,,0,127,,,,,0-based,,0~127: Delay
+Oberheim,TEO-5,Envelopes,Env 2 Attack,Envelope 2 attack.,53,,0,127,,,,,0-based,,0~127: Attack
+Oberheim,TEO-5,Envelopes,Env 2 Decay,Envelope 2 decay.,54,,0,127,,,,,0-based,,0~127: Decay
+Oberheim,TEO-5,Envelopes,Env 2 Sustain,Envelope 2 sustain.,55,,0,127,,,,,0-based,,0~127: Sustain
+Oberheim,TEO-5,Envelopes,Env 2 Release,Envelope 2 release.,56,,0,127,,,,,0-based,,0~127: Release
+Oberheim,TEO-5,Envelopes,Env 2 Amount,Envelope 2 amount.,57,,0,127,,,,,0-based,,0~127: Amount
+Oberheim,TEO-5,Envelopes,Env 2 Velocity On,Envelope 2 velocity sensitivity.,58,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Envelopes,Env Routing,Envelope routing mode.,69,,0,2,,,,,0-based,,0-2: Routing mode
+Oberheim,TEO-5,Envelopes,Env Repeat,Envelope repeat mode.,116,,0,3,,,,,0-based,,0-3: Repeat mode
+Oberheim,TEO-5,Envelopes,Env Retrig,Envelope retrigger.,73,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,LFO 1,LFO 1 Freq,LFO 1 frequency.,75,,0,127,,,,,0-based,,0~127: Frequency
+Oberheim,TEO-5,LFO 1,LFO 1 Amount,LFO 1 modulation amount.,76,,0,127,,,,,0-based,,0~127: Amount
+Oberheim,TEO-5,LFO 1,LFO 1 Shape,LFO 1 waveform shape.,77,,0,4,,,,,0-based,,0-4: Shape select
+Oberheim,TEO-5,LFO 1,LFO 1 Sync,LFO 1 tempo sync.,78,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,LFO 1,LFO 1 Note Reset,LFO 1 resets on note-on.,79,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,LFO 1,LFO 1 Slew,LFO 1 slew.,92,,0,127,,,,,0-based,,0~127: Slew
+Oberheim,TEO-5,LFO 2,LFO 2 Freq,LFO 2 frequency.,80,,0,127,,,,,0-based,,0~127: Frequency
+Oberheim,TEO-5,LFO 2,LFO 2 Amount,LFO 2 modulation amount.,81,,0,127,,,,,0-based,,0~127: Amount
+Oberheim,TEO-5,LFO 2,LFO 2 Shape,LFO 2 waveform shape.,82,,0,4,,,,,0-based,,0-4: Shape select
+Oberheim,TEO-5,LFO 2,LFO 2 Sync,LFO 2 tempo sync.,83,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,LFO 2,LFO 2 Note Reset,LFO 2 resets on note-on.,84,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,LFO 2,LFO 2 Slew,LFO 2 slew.,93,,0,127,,,,,0-based,,0~127: Slew
+Oberheim,TEO-5,Glide / Portamento,Glide Mode,Glide/portamento mode.,5,,0,3,,,,,0-based,,0-3: Glide mode
+Oberheim,TEO-5,Glide / Portamento,Glide On,Glide enable.,68,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Glide / Portamento,Osc 1 Glide,Glide time for Osc 1.,65,,0,127,,,,,0-based,,0~127: Time
+Oberheim,TEO-5,Glide / Portamento,Osc 2 Glide,Glide time for Osc 2.,66,,0,127,,,,,0-based,,0~127: Time
+Oberheim,TEO-5,Unison / Key,Unison On,Unison enable.,31,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Unison / Key,Unison Voices,Number of unison voices.,70,,0,5,,,,,0-based,,0-5: Voices
+Oberheim,TEO-5,Unison / Key,Unison Detune,Unison detune amount.,71,,0,7,,,,,0-based,,0-7: Detune
+Oberheim,TEO-5,Unison / Key,Key Mode,Key mode.,72,,0,2,,,,,0-based,,0-2: Mode
+Oberheim,TEO-5,Unison / Key,Key Split,Key split on/off.,29,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Unison / Key,Key Split 2,Second key split on/off.,30,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Unison / Key,KeySplit Note,Key split note index.,89,,0,43,,,,,0-based,,0-43: Note index
+Oberheim,TEO-5,Arp / Seq,Arp On,Arpeggiator on/off.,59,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Arp / Seq,Arp Mode,Arpeggiator mode.,60,,0,4,,,,,0-based,,0-4: Mode
+Oberheim,TEO-5,Arp / Seq,Arp Range,Arpeggiator octave range.,61,,0,2,,,,,0-based,,0-2: Range
+Oberheim,TEO-5,Arp / Seq,Arp Repeat,Repeats per step.,62,,0,3,,,,,0-based,,0-3: Repeat
+Oberheim,TEO-5,Arp / Seq,Seq On/Off,Sequencer on/off.,90,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,Arp / Seq,Seq Record Arm,Sequencer record arm.,91,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,FX,FX On/Off,FX block on/off.,16,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,FX,FX Select,FX type select.,17,,0,12,,,,,0-based,,0-12: FX type
+Oberheim,TEO-5,FX,FX Time,FX time parameter.,18,,0,127,,,,,0-based,,0~127: Time
+Oberheim,TEO-5,FX,FX Mix,FX wet/dry mix.,19,,0,127,,,,,0-based,,0~127: Mix
+Oberheim,TEO-5,FX,FX Misc,FX miscellaneous parameter.,20,,0,127,,,,,0-based,,0~127: Misc
+Oberheim,TEO-5,FX,FX Sync On/Off,FX sync on/off.,21,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,FX,FX Sync Rate,FX sync division index.,22,,0,10,,,,,0-based,,0-10: Division index
+Oberheim,TEO-5,FX,Reverb On,Reverb on/off.,23,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+Oberheim,TEO-5,FX,Reverb Mix,Reverb mix.,24,,0,127,,,,,0-based,,0~127: Mix
+Oberheim,TEO-5,FX,Reverb Size,Reverb size.,25,,0,127,,,,,0-based,,0~127: Size
+Oberheim,TEO-5,FX,Reverb PreDelay,Reverb pre-delay.,26,,0,127,,,,,0-based,,0~127: PreDelay
+Oberheim,TEO-5,FX,Reverb Decay,Reverb decay.,27,,0,127,,,,,0-based,,0~127: Decay
+Oberheim,TEO-5,FX,Reverb Tone,Reverb tone.,28,,0,127,,,,,0-based,,0~127: Tone
+Oberheim,TEO-5,FX,Voice Volume,Voice (program) output level.,12,,0,127,,,,,0-based,,0~127: Level
+Oberheim,TEO-5,FX,Distortion,Distortion amount.,67,,0,127,,,,,0-based,,0~127: Amount
+Oberheim,TEO-5,FX,Vintage Amount,Vintage behavior amount.,37,,0,127,,,,,0-based,Duplicate listed under Filter; kept here for convenience.,0~127: Vintage amount
+Oberheim,TEO-5,Pitch / Scale,PBend Range Up,Pitch bend upward range (semitones).,85,,0,12,,,,,0-based,,0-12: Semitones
+Oberheim,TEO-5,Pitch / Scale,PBend Range Down,Pitch bend downward range (semitones).,86,,0,24,,,,,0-based,,0-24: Semitones
+Oberheim,TEO-5,Pitch / Scale,Scale Select,Microtuning scale select.,114,,0,65,,,,,0-based,,0-65: Scale index
+Oberheim,TEO-5,Pitch / Scale,Transpose,Global/program transpose.,115,,0,4,,,,,0-based,,0-4: Transpose
+Oberheim,TEO-5,Reserved / Utility,Unassigned,Reserved.,118,,0,127,,,,,0-based,,
+Oberheim,TEO-5,Reserved / Utility,Unassigned,Reserved.,119,,0,127,,,,,0-based,,
+Oberheim,TEO-5,Program / Presets,Program Change,Recall programs within current bank.,,,,,,,,,0-based,Uses current bank per Bank Select; PC 0 maps to Program 1 (received).,PC 0–127: Programs 1–128 (within current bank)
