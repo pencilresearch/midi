@@ -1,0 +1,75 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,Harmony On/Off,Harmony On/Off,110,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,Double On/Off,Double On/Off,111,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,Reverb On/Off,Reverb On/Off,112,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,MicroMod On/Off,MicroMod On/Off,116,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,Delay On/Off,Delay On/Off,117,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,Rhythm On/Off,Rhythm On/Off,102,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,Transducer On/Off,Transducer On/Off,103,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,Choir On/Off,Choir On/Off,113,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Effect Block On/Off,Hardtune On/Off,Hardtune On/Off,108,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+TC Helicon,VoiceLive Touch 2,Block Edits,Mod Style,Mod style index,50,,0,23,,,,,0-based,,0~23: Mod style
+TC Helicon,VoiceLive Touch 2,Block Edits,Mod Level,Mod block level,90,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Mod Speed,Mod speed,18,,0,127,,,,,0-based,,0~127: Speed
+TC Helicon,VoiceLive Touch 2,Block Edits,Mod Depth,Mod depth,93,,0,127,,,,,0-based,,0~127: Depth
+TC Helicon,VoiceLive Touch 2,Block Edits,Delay Style,Delay style index,51,,0,18,,,,,0-based,,0~18: Delay style
+TC Helicon,VoiceLive Touch 2,Block Edits,Delay Level,Delay block level,62,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Delay Feedback,Delay feedback amount,20,,0,127,,,,,0-based,Manual lists 0–128; MIDI CC max is 127.,0~127: Feedback
+TC Helicon,VoiceLive Touch 2,Block Edits,Delay Filter,Delay filter style/index,28,,0,12,,,,,0-based,,0~12: Filter
+TC Helicon,VoiceLive Touch 2,Block Edits,Reverb Style,Reverb style index,52,,0,27,,,,,0-based,,0~27: Reverb style
+TC Helicon,VoiceLive Touch 2,Block Edits,Reverb Level,Reverb level,91,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Reverb Decay,Reverb decay,63,,0,127,,,,,0-based,,0~127: Decay
+TC Helicon,VoiceLive Touch 2,Block Edits,Doubling Style,Doubling style index,53,,0,11,,,,,0-based,,0~11: Doubling style
+TC Helicon,VoiceLive Touch 2,Block Edits,Doubling Level,Doubling level,15,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Transducer Style,Transducer style index,55,,0,8,,,,,0-based,,0~8: Transducer style
+TC Helicon,VoiceLive Touch 2,Block Edits,Transducer Gain,Transducer gain,105,,0,127,,,,,0-based,,0~127: Gain
+TC Helicon,VoiceLive Touch 2,Block Edits,Transducer Low Cut,Transducer low cut,41,,0,127,,,,,0-based,,0~127: Low cut
+TC Helicon,VoiceLive Touch 2,Block Edits,Transducer High Cut,Transducer high cut,57,,0,127,,,,,0-based,,0~127: High cut
+TC Helicon,VoiceLive Touch 2,Block Edits,Choir Style,Choir style index,118,,0,14,,,,,0-based,,0~14: Choir style
+TC Helicon,VoiceLive Touch 2,Block Edits,Choir Level,Choir level,22,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Hardtune Style,Hardtune style index,24,,0,6,,,,,0-based,,0~6: Style
+TC Helicon,VoiceLive Touch 2,Block Edits,Hardtune Shift,Hardtune shift,60,,0,127,,,,,0-based,,0~127: Shift
+TC Helicon,VoiceLive Touch 2,Block Edits,Rhythm Style,Rhythm style index,115,,0,14,,,,,0-based,,0~14: Rhythm style
+TC Helicon,VoiceLive Touch 2,Block Edits,Rhythm Division,Rhythm division,83,,0,19,,,,,0-based,Only when style is not Stutter/Sample.,0~19: Division
+TC Helicon,VoiceLive Touch 2,Block Edits,Rhythm Depth,Rhythm depth,80,,0,127,,,,,0-based,,0~127: Depth
+TC Helicon,VoiceLive Touch 2,Block Edits,Rhythm Type,Rhythm type,104,,0,22,,,,,0-based,Only when style is not Stutter/Sample.,0~22: Type
+TC Helicon,VoiceLive Touch 2,Block Edits,Rhythm Stutter Division,Rhythm stutter/sample division,26,,0,19,,,,,0-based,Only for Stutter/Sample styles.,0~19: Division
+TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Style,Harmony style index,56,,0,19,,,,,0-based,,0~19: Harmony style
+TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Level,Harmony block level,12,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Key,Harmony musical key,30,,0,11,,,,,0-based,,0: C; 1: C#; 2: D; 3: Eb; 4: E; 5: F; 6: F#; 7: G; 8: G#; 9: A; 10: Bb; 11: B
+TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Scale,Harmony scale,31,,0,5,,,,,0-based,,0: Maj1; 1: Maj2; 2: Maj3; 3: Min1; 4: Min2; 5: Min3
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 1 Level,Harmony voice 1 level,46,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 2 Level,Harmony voice 2 level,17,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 3 Level,Harmony voice 3 level,21,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 4 Level,Harmony voice 4 level,25,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Master Level,Harmony master level,59,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 1 Gender,Harmony voice 1 gender,29,,0,127,,,,,0-based,,0~127: Gender
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 2 Gender,Harmony voice 2 gender,19,,0,127,,,,,0-based,,0~127: Gender
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 3 Gender,Harmony voice 3 gender,23,,0,127,,,,,0-based,,0~127: Gender
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 4 Gender,Harmony voice 4 gender,27,,0,127,,,,,0-based,,0~127: Gender
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 1 Voicing,Harmony voice 1 voicing,89,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 2 Voicing,Harmony voice 2 voicing,61,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 3 Voicing,Harmony voice 3 voicing,88,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 4 Voicing,Harmony voice 4 voicing,3,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
+TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Hold,Hold harmony voices,119,,0,127,,,,,0-based,,0-64: Off; 65-127: On
+TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Master Pan,Pan for all active harmony voices,10,,0,127,,,,,centered,"0=Left, ~64=Center, 127=Right.",0: Left; 64: Center; 127: Right
+TC Helicon,VoiceLive Touch 2,Looping,Master Loop Control,Multi-function loop control,44,,0,127,,,,,0-based,,0: Play; 1: Record; 2: Stop; 3: Undo; 6: 2X; 10: Clear; 26: Erase; 27: Reverse
+TC Helicon,VoiceLive Touch 2,Looping,Loop Play,Toggle loop play/stop (2-value toggle),47,,0,127,,,,,0-based,,0-63: Stop; 64-127: Play (toggles state)
+TC Helicon,VoiceLive Touch 2,Looping,Loop Stop,Stop loop,48,,0,127,,,,,0-based,,0-127: Stop
+TC Helicon,VoiceLive Touch 2,Looping,Loop Record,Toggle loop record (2-value toggle),49,,0,127,,,,,0-based,,0-63: Off; 64-127: On (toggles state)
+TC Helicon,VoiceLive Touch 2,Looping,Loop Play Retrigger,Retrigger loop playback,54,,0,127,,,,,0-based,,0-127: Retrigger
+TC Helicon,VoiceLive Touch 2,Looping,Overdub,Overdub on/off,57,,0,127,,,,,0-based,,0-64: Off; 65-127: On
+TC Helicon,VoiceLive Touch 2,Setup,Tone Style,Tone style index,106,,0,8,,,,,0-based,,0~8: Tone style
+TC Helicon,VoiceLive Touch 2,Setup,Guitar Gain,Guitar input gain,109,,0,127,,,,,0-based,,0~127: Gain
+TC Helicon,VoiceLive Touch 2,Setup,Pitch Correct On/Off,Pitch correction on/off,107,,0,127,,,,,0-based,,0-64: Off; 65-127: On
+TC Helicon,VoiceLive Touch 2,Setup,Lead Mute,Mute the lead vocal,13,,0,127,,,,,0-based,,0-64: Off; 65-127: On
+TC Helicon,VoiceLive Touch 2,Setup,Talk Mode,Talk mode on/off,114,,0,127,,,,,0-based,,0-64: Off; 65-127: On
+TC Helicon,VoiceLive Touch 2,Setup,Analog Out Level,Analog (main) output level,7,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Setup,Aux Level,Aux input level,58,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Setup,Harmony Level (Global),Global harmony level,85,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Setup,Delay/Reverb Level (Global),Global delay/reverb level,86,,0,127,,,,,0-based,,0~127: Level
+TC Helicon,VoiceLive Touch 2,Setup,Talk Mode + Tuner,Enable Talk mode + Tuner,14,,0,127,,,,,0-based,,0-64: Off; 65-127: On
+TC Helicon,VoiceLive Touch 2,Setup,Hit On/Off,Hit button on/off,87,,0,127,,,,,0-based,,0-64: Off; 65-127: On
+TC Helicon,VoiceLive Touch 2,Non-CC,Pitch Bend,Applied to harmony voices only,,,,,,,,,,,Pitch Bend: Harmony voices only
+TC Helicon,VoiceLive Touch 2,Non-CC,Bank Select,Select preset bank,,,,,,,,,,,Bank 0: Presets 1-127; Bank 1: Presets 128-256; Bank 2: Presets 257-300
+TC Helicon,VoiceLive Touch 2,Non-CC,Program Change,Select preset,,,,,,,,,,,Program Change 0-127: 0 loads preset 1; 1 loads preset 2; etc.
