@@ -1,57 +1,57 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Korg,prologue,System,Bank Select MSB,MIDI bank select (MSB),0,,0,127,,,,,0-based,,0~127: Bank MSB
-Korg,prologue,System,Bank Select LSB,MIDI bank select (LSB),32,,0,127,,,,,0-based,,0~127: Bank LSB
-Korg,prologue,Timbre,Edit Timbre,"Edit target (Main, Main+Sub, Sub)",85,,0,127,,,,,0-based,,0-42: Main; 43-85: Main+Sub; 86-127: Sub
-Korg,prologue,Timbre,Timbre Type,Layering mode (Layer/Xfade/Split),86,,0,127,,,,,0-based,,0-42: Layer; 43-85: Xfade; 86-127: Split
-Korg,prologue,Timbre,Main/Sub Balance,Balance between Main and Sub timbre,8,,0,127,,,,,Centered,64 ≈ equal volumes,0: Main; 64: Center; 127: Sub
-Korg,prologue,Master,Portamento Time,Portamento duration,5,,0,127,,,,,0-based,,0~127: Time
-Korg,prologue,Master,Voice Spread,Stereo voice spread amount,14,,0,127,,,,,0-based,,0~127: Amount
-Korg,prologue,Master,Voice Mode Depth,Depth function depends on Voice Mode,27,,0,127,,,,,0-based,,0~127: Depth
-Korg,prologue,VCO 1,Wave,Waveform select,50,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
-Korg,prologue,VCO 1,Octave,Foot setting,48,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
-Korg,prologue,VCO 1,Pitch,Fine tune (cents),34,,0,127,,,,,0-based,,0~127: Pitch
-Korg,prologue,VCO 1,Shape,Waveshape amount,36,,0,127,,,,,0-based,,0~127: Shape
-Korg,prologue,VCO 2,Wave,Waveform select,51,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
-Korg,prologue,VCO 2,Octave,Foot setting,49,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
-Korg,prologue,VCO 2,Pitch,Fine tune (cents),35,,0,127,,,,,0-based,,0~127: Pitch
-Korg,prologue,VCO 2,Shape,Waveshape amount,37,,0,127,,,,,0-based,,0~127: Shape
-Korg,prologue,Multi Engine,Type,Engine/type select (Noise/VPM/User & subtype),53,,0,127,,,,,0-based,Selection depends on engine,0~127: Type select
-Korg,prologue,Multi Engine,Octave,Octave for Multi engine,52,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
-Korg,prologue,Multi Engine,Shape,Shape / engine parameter,54,,0,127,,,,,0-based,,0~127: Shape
-Korg,prologue,Mixer,VCO 1 Level,Oscillator 1 level,39,,0,127,,,,,0-based,,0~127: Level
-Korg,prologue,Mixer,VCO 2 Level,Oscillator 2 level,40,,0,127,,,,,0-based,,0~127: Level
-Korg,prologue,Mixer,Multi Engine Level,Multi engine level,33,,0,127,,,,,0-based,,0~127: Level
-Korg,prologue,Filter,Cutoff,VCF cutoff frequency,43,,0,127,,,,,0-based,,0~127: Cutoff
-Korg,prologue,Filter,Resonance,VCF resonance (Q),44,,0,127,,,,,0-based,,0~127: Resonance
-Korg,prologue,Filter,EG Int,Filter EG intensity,45,,0,127,,,,,Centered,Maps to -100%..+100%,0: -100%; 64: 0%; 127: +100%
-Korg,prologue,Filter,Drive,Drive amount (3-position),84,,0,127,,,,,0-based,,0-42: 0%; 43-85: 50%; 86-127: 100%
-Korg,prologue,Filter,Low Cut,High-pass (low-cut) on/off,82,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Korg,prologue,Filter,Keytrack,Cutoff key tracking,83,,0,127,,,,,0-based,,0-42: 0%; 43-85: 50%; 86-127: 100%
-Korg,prologue,Amp EG,Attack,Amp envelope attack,16,,0,127,,,,,0-based,,0~127: Attack
-Korg,prologue,Amp EG,Decay,Amp envelope decay,17,,0,127,,,,,0-based,,0~127: Decay
-Korg,prologue,Amp EG,Sustain,Amp envelope sustain,18,,0,127,,,,,0-based,,0~127: Sustain
-Korg,prologue,Amp EG,Release,Amp envelope release,19,,0,127,,,,,0-based,,0~127: Release
-Korg,prologue,EG,Attack,EG attack,20,,0,127,,,,,0-based,,0~127: Attack
-Korg,prologue,EG,Decay,EG decay,21,,0,127,,,,,0-based,,0~127: Decay
-Korg,prologue,EG,Sustain,EG sustain,22,,0,127,,,,,0-based,,0~127: Sustain
-Korg,prologue,EG,Release,EG release,23,,0,127,,,,,0-based,,0~127: Release
-Korg,prologue,LFO,Wave,LFO waveform,57,,0,127,,,,,0-based,,0-42: Triangle; 43-85: Saw; 86-127: Square
-Korg,prologue,LFO,Mode,LFO range/mode,58,,0,127,,,,,0-based,,0-42: BPM; 43-85: SLOW; 86-127: FAST
-Korg,prologue,LFO,Rate,LFO speed,24,,0,127,,,,,0-based,,0~127: Rate
-Korg,prologue,LFO,Intensity,LFO modulation depth,26,,0,127,,,,,0-based,,0~127: Depth
-Korg,prologue,LFO,Target,LFO destination,56,,0,127,,,,,0-based,,0-42: Cutoff; 43-85: Shape; 86-127: Pitch
-Korg,prologue,Modulation,Pitch EG Target,Applies EG to pitch (VCO2 / VCO1+2 / ALL),81,,0,127,,,,,0-based,,0-42: VCO2; 43-85: VCO1+2; 86-127: ALL
-Korg,prologue,Modulation,Pitch EG Int,Pitch EG intensity,42,,0,127,,,,,Centered,Maps to negative/positive range,0: -100%; 64: 0%; 127: +100%
-Korg,prologue,Modulation,Ring/Sync,Oscillator Ring Mod / Off / Sync,80,,0,127,,,,,0-based,,0-42: Ring; 43-85: Off; 86-127: Sync
-Korg,prologue,Modulation,Cross Mod Depth,Cross modulation depth,41,,0,127,,,,,0-based,,0~127: Depth
-Korg,prologue,Effects - Mod,Type,Mod FX type/subtype select,88,,0,127,,,,,0-based,Chorus/Ensemble/Phaser/Flanger/User,0-25: Chorus; 26-51: Ensemble; 52-77: Phaser; 78-102: Flanger; 103-127: User
-Korg,prologue,Effects - Mod,Speed,Mod FX speed,28,,0,127,,,,,0-based,,0~127: Speed
-Korg,prologue,Effects - Mod,Depth,Mod FX depth,29,,0,127,,,,,0-based,,0~127: Depth
-Korg,prologue,Effects - Mod,On/Off,Enable/disable Mod FX,92,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Korg,prologue,Effects - Delay/Reverb,Type,Delay/Reverb type/subtype select,89,,0,127,,,,,0-based,Type depends on Delay/Rev select,0~127: Type select
-Korg,prologue,Effects - Delay/Reverb,Time,Delay time / Reverb time,30,,0,127,,,,,0-based,,0~127: Time
-Korg,prologue,Effects - Delay/Reverb,Depth,Delay/Reverb depth (mix),31,,0,127,,,,,0-based,,0~127: Depth
-Korg,prologue,Effects - Delay/Reverb,On/Off,Enable/disable Delay/Reverb,94,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Korg,prologue,Pedal,Damper,Sustain pedal,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Korg,prologue,Utilities,All Sound Off,All Sound Off,120,,0,127,,,,,0-based,,0-127: Trigger
-Korg,prologue,Utilities,Reset All Controllers,Reset all controllers.,121,,0,127,,,,,0-based,,0-127: Reset
+KORG,prologue,System,Bank Select MSB,MIDI bank select (MSB),0,,0,127,,,,,0-based,,0~127: Bank MSB
+KORG,prologue,System,Bank Select LSB,MIDI bank select (LSB),32,,0,127,,,,,0-based,,0~127: Bank LSB
+KORG,prologue,Timbre,Edit Timbre,"Edit target (Main, Main+Sub, Sub)",85,,0,127,,,,,0-based,,0-42: Main; 43-85: Main+Sub; 86-127: Sub
+KORG,prologue,Timbre,Timbre Type,Layering mode (Layer/Xfade/Split),86,,0,127,,,,,0-based,,0-42: Layer; 43-85: Xfade; 86-127: Split
+KORG,prologue,Timbre,Main/Sub Balance,Balance between Main and Sub timbre,8,,0,127,,,,,Centered,64 ≈ equal volumes,0: Main; 64: Center; 127: Sub
+KORG,prologue,Master,Portamento Time,Portamento duration,5,,0,127,,,,,0-based,,0~127: Time
+KORG,prologue,Master,Voice Spread,Stereo voice spread amount,14,,0,127,,,,,0-based,,0~127: Amount
+KORG,prologue,Master,Voice Mode Depth,Depth function depends on Voice Mode,27,,0,127,,,,,0-based,,0~127: Depth
+KORG,prologue,VCO 1,Wave,Waveform select,50,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
+KORG,prologue,VCO 1,Octave,Foot setting,48,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+KORG,prologue,VCO 1,Pitch,Fine tune (cents),34,,0,127,,,,,0-based,,0~127: Pitch
+KORG,prologue,VCO 1,Shape,Waveshape amount,36,,0,127,,,,,0-based,,0~127: Shape
+KORG,prologue,VCO 2,Wave,Waveform select,51,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
+KORG,prologue,VCO 2,Octave,Foot setting,49,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+KORG,prologue,VCO 2,Pitch,Fine tune (cents),35,,0,127,,,,,0-based,,0~127: Pitch
+KORG,prologue,VCO 2,Shape,Waveshape amount,37,,0,127,,,,,0-based,,0~127: Shape
+KORG,prologue,Multi Engine,Type,Engine/type select (Noise/VPM/User & subtype),53,,0,127,,,,,0-based,Selection depends on engine,0~127: Type select
+KORG,prologue,Multi Engine,Octave,Octave for Multi engine,52,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+KORG,prologue,Multi Engine,Shape,Shape / engine parameter,54,,0,127,,,,,0-based,,0~127: Shape
+KORG,prologue,Mixer,VCO 1 Level,Oscillator 1 level,39,,0,127,,,,,0-based,,0~127: Level
+KORG,prologue,Mixer,VCO 2 Level,Oscillator 2 level,40,,0,127,,,,,0-based,,0~127: Level
+KORG,prologue,Mixer,Multi Engine Level,Multi engine level,33,,0,127,,,,,0-based,,0~127: Level
+KORG,prologue,Filter,Cutoff,VCF cutoff frequency,43,,0,127,,,,,0-based,,0~127: Cutoff
+KORG,prologue,Filter,Resonance,VCF resonance (Q),44,,0,127,,,,,0-based,,0~127: Resonance
+KORG,prologue,Filter,EG Int,Filter EG intensity,45,,0,127,,,,,Centered,Maps to -100%..+100%,0: -100%; 64: 0%; 127: +100%
+KORG,prologue,Filter,Drive,Drive amount (3-position),84,,0,127,,,,,0-based,,0-42: 0%; 43-85: 50%; 86-127: 100%
+KORG,prologue,Filter,Low Cut,High-pass (low-cut) on/off,82,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+KORG,prologue,Filter,Keytrack,Cutoff key tracking,83,,0,127,,,,,0-based,,0-42: 0%; 43-85: 50%; 86-127: 100%
+KORG,prologue,Amp EG,Attack,Amp envelope attack,16,,0,127,,,,,0-based,,0~127: Attack
+KORG,prologue,Amp EG,Decay,Amp envelope decay,17,,0,127,,,,,0-based,,0~127: Decay
+KORG,prologue,Amp EG,Sustain,Amp envelope sustain,18,,0,127,,,,,0-based,,0~127: Sustain
+KORG,prologue,Amp EG,Release,Amp envelope release,19,,0,127,,,,,0-based,,0~127: Release
+KORG,prologue,EG,Attack,EG attack,20,,0,127,,,,,0-based,,0~127: Attack
+KORG,prologue,EG,Decay,EG decay,21,,0,127,,,,,0-based,,0~127: Decay
+KORG,prologue,EG,Sustain,EG sustain,22,,0,127,,,,,0-based,,0~127: Sustain
+KORG,prologue,EG,Release,EG release,23,,0,127,,,,,0-based,,0~127: Release
+KORG,prologue,LFO,Wave,LFO waveform,57,,0,127,,,,,0-based,,0-42: Triangle; 43-85: Saw; 86-127: Square
+KORG,prologue,LFO,Mode,LFO range/mode,58,,0,127,,,,,0-based,,0-42: BPM; 43-85: SLOW; 86-127: FAST
+KORG,prologue,LFO,Rate,LFO speed,24,,0,127,,,,,0-based,,0~127: Rate
+KORG,prologue,LFO,Intensity,LFO modulation depth,26,,0,127,,,,,0-based,,0~127: Depth
+KORG,prologue,LFO,Target,LFO destination,56,,0,127,,,,,0-based,,0-42: Cutoff; 43-85: Shape; 86-127: Pitch
+KORG,prologue,Modulation,Pitch EG Target,Applies EG to pitch (VCO2 / VCO1+2 / ALL),81,,0,127,,,,,0-based,,0-42: VCO2; 43-85: VCO1+2; 86-127: ALL
+KORG,prologue,Modulation,Pitch EG Int,Pitch EG intensity,42,,0,127,,,,,Centered,Maps to negative/positive range,0: -100%; 64: 0%; 127: +100%
+KORG,prologue,Modulation,Ring/Sync,Oscillator Ring Mod / Off / Sync,80,,0,127,,,,,0-based,,0-42: Ring; 43-85: Off; 86-127: Sync
+KORG,prologue,Modulation,Cross Mod Depth,Cross modulation depth,41,,0,127,,,,,0-based,,0~127: Depth
+KORG,prologue,Effects - Mod,Type,Mod FX type/subtype select,88,,0,127,,,,,0-based,Chorus/Ensemble/Phaser/Flanger/User,0-25: Chorus; 26-51: Ensemble; 52-77: Phaser; 78-102: Flanger; 103-127: User
+KORG,prologue,Effects - Mod,Speed,Mod FX speed,28,,0,127,,,,,0-based,,0~127: Speed
+KORG,prologue,Effects - Mod,Depth,Mod FX depth,29,,0,127,,,,,0-based,,0~127: Depth
+KORG,prologue,Effects - Mod,On/Off,Enable/disable Mod FX,92,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+KORG,prologue,Effects - Delay/Reverb,Type,Delay/Reverb type/subtype select,89,,0,127,,,,,0-based,Type depends on Delay/Rev select,0~127: Type select
+KORG,prologue,Effects - Delay/Reverb,Time,Delay time / Reverb time,30,,0,127,,,,,0-based,,0~127: Time
+KORG,prologue,Effects - Delay/Reverb,Depth,Delay/Reverb depth (mix),31,,0,127,,,,,0-based,,0~127: Depth
+KORG,prologue,Effects - Delay/Reverb,On/Off,Enable/disable Delay/Reverb,94,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+KORG,prologue,Pedal,Damper,Sustain pedal,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+KORG,prologue,Utilities,All Sound Off,All Sound Off,120,,0,127,,,,,0-based,,0-127: Trigger
+KORG,prologue,Utilities,Reset All Controllers,Reset all controllers.,121,,0,127,,,,,0-based,,0-127: Reset
