@@ -52,7 +52,7 @@ TC Helicon,VoiceLive Touch 2,Block Edits,Voice 2 Voicing,Harmony voice 2 voicing
 TC Helicon,VoiceLive Touch 2,Block Edits,Voice 3 Voicing,Harmony voice 3 voicing,88,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
 TC Helicon,VoiceLive Touch 2,Block Edits,Voice 4 Voicing,Harmony voice 4 voicing,3,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
 TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Hold,Hold harmony voices,119,,0,127,,,,,0-based,,0-64: Off; 65-127: On
-TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Master Pan,Pan for all active harmony voices,10,,0,127,,,,,centered,"0=Left, ~64=Center, 127=Right.",0: Left; 64: Center; 127: Right
+TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Master Pan,Pan for all active harmony voices,10,,0,127,,,,,Centered,"0=Left, ~64=Center, 127=Right.",0~127: Pan
 TC Helicon,VoiceLive Touch 2,Looping,Master Loop Control,Multi-function loop control,44,,0,127,,,,,0-based,,0: Play; 1: Record; 2: Stop; 3: Undo; 6: 2X; 10: Clear; 26: Erase; 27: Reverse
 TC Helicon,VoiceLive Touch 2,Looping,Loop Play,Toggle loop play/stop (2-value toggle),47,,0,127,,,,,0-based,,0-63: Stop; 64-127: Play (toggles state)
 TC Helicon,VoiceLive Touch 2,Looping,Loop Stop,Stop loop,48,,0,127,,,,,0-based,,0-127: Stop
@@ -70,6 +70,3 @@ TC Helicon,VoiceLive Touch 2,Setup,Harmony Level (Global),Global harmony level,8
 TC Helicon,VoiceLive Touch 2,Setup,Delay/Reverb Level (Global),Global delay/reverb level,86,,0,127,,,,,0-based,,0~127: Level
 TC Helicon,VoiceLive Touch 2,Setup,Talk Mode + Tuner,Enable Talk mode + Tuner,14,,0,127,,,,,0-based,,0-64: Off; 65-127: On
 TC Helicon,VoiceLive Touch 2,Setup,Hit On/Off,Hit button on/off,87,,0,127,,,,,0-based,,0-64: Off; 65-127: On
-TC Helicon,VoiceLive Touch 2,Non-CC,Pitch Bend,Applied to harmony voices only,,,,,,,,,,,Pitch Bend: Harmony voices only
-TC Helicon,VoiceLive Touch 2,Non-CC,Bank Select,Select preset bank,,,,,,,,,,,Bank 0: Presets 1-127; Bank 1: Presets 128-256; Bank 2: Presets 257-300
-TC Helicon,VoiceLive Touch 2,Non-CC,Program Change,Select preset,,,,,,,,,,,Program Change 0-127: 0 loads preset 1; 1 loads preset 2; etc.
