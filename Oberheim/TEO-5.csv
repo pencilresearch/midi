@@ -1,5 +1,5 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Oberheim,TEO-5,System,Bank Select MSB,Bank select MSB,0,,0,127,,,,,0-based,"User 1–4, Factory 1–4, Add-on 1–4 per doc.",0~127: Bank MSB
+Oberheim,TEO-5,System,Bank Select MSB,Bank select MSB,0,,0,127,,,,,0-based,"User 1-4, Factory 1-4, Add-on 1-4 per doc.",0~127: Bank MSB
 Oberheim,TEO-5,System,Bank Select LSB,Bank select LSB,32,,0,127,,,,,0-based,,0~127: Bank LSB
 Oberheim,TEO-5,System,Data Entry MSB,Data Entry MSB for RPN/NRPN,6,,0,127,,,,,0-based,,0~127: Data value (MSB)
 Oberheim,TEO-5,System,Data Entry LSB,Data Entry LSB for RPN/NRPN,38,,0,127,,,,,0-based,,0~127: Data value (LSB)
@@ -22,7 +22,7 @@ Oberheim,TEO-5,Performance,Breath Controller,Breath controller (assignable),2,,0
 Oberheim,TEO-5,Performance,Foot Controller,Foot controller (assignable),4,,0,127,,,,,0-based,,0~127: Foot amount
 Oberheim,TEO-5,Performance,Channel Volume,MIDI volume (combines with Master/Program Volume),7,,0,127,,,,,0-based,,0~127: Volume
 Oberheim,TEO-5,Performance,Expression,Expression pedal,11,,0,127,,,,,0-based,,0~127: Expression
-Oberheim,TEO-5,Performance,Brightness,Brightness → offset to filter cutoff,74,,0,127,,,,,0-based,,0~127: Brightness
+Oberheim,TEO-5,Performance,Brightness,Brightness - offset to filter cutoff,74,,0,127,,,,,0-based,,0~127: Brightness
 Oberheim,TEO-5,Performance,Pan,Pan position,113,,0,127,,,,,centered,,0~127: Pan position
 Oberheim,TEO-5,Performance,Damper Pedal,Sustain pedal (hold envelopes in Sustain),64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
 Oberheim,TEO-5,Clock/Tempo,BPM,Tempo when clock is internal,3,,15,127,,,,,0-based,Values <15 unused.,15~127: BPM value

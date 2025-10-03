@@ -14,7 +14,7 @@ TC Helicon,VoiceLive Touch 2,Block Edits,Mod Speed,Mod speed,18,,0,127,,,,,0-bas
 TC Helicon,VoiceLive Touch 2,Block Edits,Mod Depth,Mod depth,93,,0,127,,,,,0-based,,0~127: Depth
 TC Helicon,VoiceLive Touch 2,Block Edits,Delay Style,Delay style index,51,,0,18,,,,,0-based,,0~18: Delay style
 TC Helicon,VoiceLive Touch 2,Block Edits,Delay Level,Delay block level,62,,0,127,,,,,0-based,,0~127: Level
-TC Helicon,VoiceLive Touch 2,Block Edits,Delay Feedback,Delay feedback amount,20,,0,127,,,,,0-based,Manual lists 0–128; MIDI CC max is 127.,0~127: Feedback
+TC Helicon,VoiceLive Touch 2,Block Edits,Delay Feedback,Delay feedback amount,20,,0,127,,,,,0-based,Manual lists 0-128; MIDI CC max is 127.,0~127: Feedback
 TC Helicon,VoiceLive Touch 2,Block Edits,Delay Filter,Delay filter style/index,28,,0,12,,,,,0-based,,0~12: Filter
 TC Helicon,VoiceLive Touch 2,Block Edits,Reverb Style,Reverb style index,52,,0,27,,,,,0-based,,0~27: Reverb style
 TC Helicon,VoiceLive Touch 2,Block Edits,Reverb Level,Reverb level,91,,0,127,,,,,0-based,,0~127: Level
@@ -47,10 +47,10 @@ TC Helicon,VoiceLive Touch 2,Block Edits,Voice 1 Gender,Harmony voice 1 gender,2
 TC Helicon,VoiceLive Touch 2,Block Edits,Voice 2 Gender,Harmony voice 2 gender,19,,0,127,,,,,0-based,,0~127: Gender
 TC Helicon,VoiceLive Touch 2,Block Edits,Voice 3 Gender,Harmony voice 3 gender,23,,0,127,,,,,0-based,,0~127: Gender
 TC Helicon,VoiceLive Touch 2,Block Edits,Voice 4 Gender,Harmony voice 4 gender,27,,0,127,,,,,0-based,,0~127: Gender
-TC Helicon,VoiceLive Touch 2,Block Edits,Voice 1 Voicing,Harmony voice 1 voicing,89,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
-TC Helicon,VoiceLive Touch 2,Block Edits,Voice 2 Voicing,Harmony voice 2 voicing,61,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
-TC Helicon,VoiceLive Touch 2,Block Edits,Voice 3 Voicing,Harmony voice 3 voicing,88,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
-TC Helicon,VoiceLive Touch 2,Block Edits,Voice 4 Voicing,Harmony voice 4 voicing,3,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0–28. Shift styles: 0–48.,0~48: Voicing
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 1 Voicing,Harmony voice 1 voicing,89,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0-28. Shift styles: 0-48.,0~48: Voicing
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 2 Voicing,Harmony voice 2 voicing,61,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0-28. Shift styles: 0-48.,0~48: Voicing
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 3 Voicing,Harmony voice 3 voicing,88,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0-28. Shift styles: 0-48.,0~48: Voicing
+TC Helicon,VoiceLive Touch 2,Block Edits,Voice 4 Voicing,Harmony voice 4 voicing,3,,0,48,,,,,0-based,NP styles: N/A for Notes (Key=Auto). NP (Key C..B): 0-28. Shift styles: 0-48.,0~48: Voicing
 TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Hold,Hold harmony voices,119,,0,127,,,,,0-based,,0-64: Off; 65-127: On
 TC Helicon,VoiceLive Touch 2,Block Edits,Harmony Master Pan,Pan for all active harmony voices,10,,0,127,,,,,Centered,"0=Left, ~64=Center, 127=Right.",0~127: Pan
 TC Helicon,VoiceLive Touch 2,Looping,Master Loop Control,Multi-function loop control,44,,0,127,,,,,0-based,,0: Play; 1: Record; 2: Stop; 3: Undo; 6: 2X; 10: Clear; 26: Erase; 27: Reverse

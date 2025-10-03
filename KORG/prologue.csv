@@ -3,7 +3,7 @@ KORG,prologue,System,Bank Select MSB,MIDI bank select (MSB),0,,0,127,,,,,0-based
 KORG,prologue,System,Bank Select LSB,MIDI bank select (LSB),32,,0,127,,,,,0-based,,0~127: Bank LSB
 KORG,prologue,Timbre,Edit Timbre,"Edit target (Main, Main+Sub, Sub)",85,,0,127,,,,,0-based,,0-42: Main; 43-85: Main+Sub; 86-127: Sub
 KORG,prologue,Timbre,Timbre Type,Layering mode (Layer/Xfade/Split),86,,0,127,,,,,0-based,,0-42: Layer; 43-85: Xfade; 86-127: Split
-KORG,prologue,Timbre,Main/Sub Balance,Balance between Main and Sub timbre,8,,0,127,,,,,Centered,64 ≈ equal volumes,0: Main; 64: Center; 127: Sub
+KORG,prologue,Timbre,Main/Sub Balance,Balance between Main and Sub timbre,8,,0,127,,,,,Centered,64 approximately equal volumes,0: Main; 64: Center; 127: Sub
 KORG,prologue,Master,Portamento Time,Portamento duration,5,,0,127,,,,,0-based,,0~127: Time
 KORG,prologue,Master,Voice Spread,Stereo voice spread amount,14,,0,127,,,,,0-based,,0~127: Amount
 KORG,prologue,Master,Voice Mode Depth,Depth function depends on Voice Mode,27,,0,127,,,,,0-based,,0~127: Depth
