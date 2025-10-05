@@ -1,5 +1,5 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Elektron,Digitone II,Track,Mute,,94,,0,1,1,108,0,1,0-based,,0: Off; 1: On
+Elektron,Digitone II,Track,Mute,,94,,0,1,1,108,0,1,0-based,,0: Unmuted; 1: Muted
 Elektron,Digitone II,Track,Track level,,95,,0,127,1,110,0,127,0-based,,
 Elektron,Digitone II,Trig,Note,,3,,0,127,3,0,0,127,0-based,,
 Elektron,Digitone II,Trig,Velocity,,4,,0,127,3,1,0,127,0-based,,
@@ -230,21 +230,36 @@ Elektron,Digitone II,Amp,Env. Reset,,92,,0,1,1,41,0,1,0-based,,0: Off; 1: On
 Elektron,Digitone II,Amp,Mode,,91,,0,1,1,40,0,1,0-based,,0: AHD; 1: ADSR
 Elektron,Digitone II,Amp,Pan,,89,,0,127,1,38,0,127,centered,,
 Elektron,Digitone II,Amp,Volume,,90,,0,127,1,39,0,127,0-based,,
-Elektron,Digitone II,Euclidean,Pulse Gen 1,,,,,,3,8,0,16,0-based,,
-Elektron,Digitone II,Euclidean,Pulse Gen 2,,,,,,3,9,0,16,0-based,,
-Elektron,Digitone II,Euclidean,Euclidean Mode,,,,,,3,14,0,1,0-based,,0: Off; 1: On
-Elektron,Digitone II,Euclidean,Rotation Gen 1,,,,,,3,11,0,127,centered,range: 112 - 127 - 14 (weird),
-Elektron,Digitone II,Euclidean,Rotation Gen 2,,,,,,3,12,0,127,centered,range: 112 - 127 - 14 (weird),
-Elektron,Digitone II,Euclidean,Track Rotation,,,,,,3,13,0,127,centered,range: 112 - 127 - 14 (weird),
-Elektron,Digitone II,Euclidean,Boolean Operator,,,,,,3,10,0,3,0-based,,0: OR; 1: XOR; 2: AND; 3: SUB
-Elektron,Digitone II,FX,Bit Reduction,,78,,0,127,1,5,0,127,0-based,,
-Elektron,Digitone II,FX,Overdrive,,81,,0,127,1,8,0,127,0-based,,
-Elektron,Digitone II,FX,Sample-Rate Redux,,79,,0,127,1,6,0,127,0-based,,
-Elektron,Digitone II,FX,SRR Routing,,80,,0,1,1,7,0,1,0-based,,0: PRE Filter; 1: POST Filter
-Elektron,Digitone II,FX,Delay Send,,30,,0,127,1,36,0,127,0-based,,
-Elektron,Digitone II,FX,Reverb Send,,31,,0,127,1,37,0,127,0-based,,
-Elektron,Digitone II,FX,Chorus Send,,29,,0,127,1,35,0,127,0-based,,
-Elektron,Digitone II,FX,Overdrive Routing,,82,,0,1,1,9,0,1,0-based,,0: PRE Filter; 1: POST Filter
+Elektron,Digitone II,FX,Track: Bit Reduction,,78,,0,127,1,5,0,127,0-based,,
+Elektron,Digitone II,FX,Track: Overdrive,,81,,0,127,1,8,0,127,0-based,,
+Elektron,Digitone II,FX,Track: Sample-Rate Redux,,79,,0,127,1,6,0,127,0-based,,
+Elektron,Digitone II,FX,Track: SRR Routing,,80,,0,1,1,7,0,1,0-based,,0: PRE Filter; 1: POST Filter
+Elektron,Digitone II,FX,Track: Delay Send,,30,,0,127,1,36,0,127,0-based,,
+Elektron,Digitone II,FX,Track: Reverb Send,,31,,0,127,1,37,0,127,0-based,,
+Elektron,Digitone II,FX,Track: Chorus Send,,29,,0,127,1,35,0,127,0-based,,
+Elektron,Digitone II,FX,Track: Overdrive Routing,,82,,0,1,1,9,0,1,0-based,,0: PRE Filter; 1: POST Filter
+Elektron,Digitone II,FX,Delay: Delay Time,,21,,0,127,2,0,0,16256,0-based,,
+Elektron,Digitone II,FX,Delay: Pingpong,,22,,0,1,2,1,0,1,0-based,,0: Off; 1: On
+Elektron,Digitone II,FX,Delay: Stereo Width,,23,,0,127,2,2,0,127,centered,,
+Elektron,Digitone II,FX,Delay: Feedback,,24,,0,127,2,3,0,16256,0-based,,
+Elektron,Digitone II,FX,Delay: Highpass Filter,,25,,0,127,2,4,0,127,0-based,,
+Elektron,Digitone II,FX,Delay: Lowpass Filter,,26,,0,127,2,5,0,127,0-based,,
+Elektron,Digitone II,FX,Delay: Reverb Send,,27,,0,127,2,6,0,127,0-based,,
+Elektron,Digitone II,FX,Delay: Mix Volume,,28,,0,127,2,7,0,127,0-based,,
+Elektron,Digitone II,FX,Reverb: Predelay,,29,,0,127,2,8,0,127,0-based,,
+Elektron,Digitone II,FX,Reverb: Decay Time,,30,,0,127,2,9,0,127,0-based,,
+Elektron,Digitone II,FX,Reverb: Shelving Freq,,31,,0,127,2,10,0,127,0-based,,
+Elektron,Digitone II,FX,Reverb: Shelving Gain,,89,,0,127,2,11,0,127,0-based,,
+Elektron,Digitone II,FX,Reverb: Highpass Filter,,90,,0,127,2,12,0,127,0-based,,
+Elektron,Digitone II,FX,Reverb: Lowpass Filter,,91,,0,127,2,13,0,127,0-based,,
+Elektron,Digitone II,FX,Reverb: Mix Volume,,92,,0,127,2,15,0,127,0-based,,
+Elektron,Digitone II,FX,Chorus: Depth,,16,,0,127,2,41,0,127,0-based,,
+Elektron,Digitone II,FX,Chorus: Speed,,9,,0,127,2,42,0,127,0-based,,
+Elektron,Digitone II,FX,Chorus: High Pass Filter,,70,,0,127,2,43,0,127,0-based,,
+Elektron,Digitone II,FX,Chorus: Width,,71,,0,127,2,44,0,127,0-based,,
+Elektron,Digitone II,FX,Chorus: Delay Send,,12,,0,127,2,45,0,127,0-based,,
+Elektron,Digitone II,FX,Chorus: Reverb Send,,13,,0,127,2,46,0,127,0-based,,
+Elektron,Digitone II,FX,Chorus: Mix Volume,,14,,0,127,2,47,0,127,0-based,,
 Elektron,Digitone II,Mod,LFO 1: Speed,,102,,0,127,1,42,0,16383,centered,,
 Elektron,Digitone II,Mod,LFO 1: Multiplier,,103,,0,23,1,43,0,23,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Digitone II,Mod,LFO 1: Fade In/Out,,104,,0,127,1,44,0,127,0-based,,
@@ -269,28 +284,6 @@ Elektron,Digitone II,Mod,LFO 3: Waveform,,,,,,1,62,0,6,0-based,,0: Triangle; 1: 
 Elektron,Digitone II,Mod,LFO 3: Start Phase/Slew,,,,,,1,70,0,127,0-based,,
 Elektron,Digitone II,Mod,LFO 3: Trig Mode,,,,,,1,71,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Digitone II,Mod,LFO 3: Depth,,,,,,1,72,0,16383,centered,,
-Elektron,Digitone II,FX,Delay: Delay Time,,21,,0,127,2,0,0,16256,0-based,,
-Elektron,Digitone II,FX,Delay: Pingpong,,22,,0,1,2,1,0,1,0-based,,0: Off; 1: On
-Elektron,Digitone II,FX,Delay: Stereo Width,,23,,0,127,2,2,0,127,centered,,
-Elektron,Digitone II,FX,Delay: Feedback,,24,,0,127,2,3,0,16256,0-based,,
-Elektron,Digitone II,FX,Delay: Highpass Filter,,25,,0,127,2,4,0,127,0-based,,
-Elektron,Digitone II,FX,Delay: Lowpass Filter,,26,,0,127,2,5,0,127,0-based,,
-Elektron,Digitone II,FX,Delay: Reverb Send,,27,,0,127,2,6,0,127,0-based,,
-Elektron,Digitone II,FX,Delay: Mix Volume,,28,,0,127,2,7,0,127,0-based,,
-Elektron,Digitone II,FX,Reverb: Predelay,,29,,0,127,2,8,0,127,0-based,,
-Elektron,Digitone II,FX,Reverb: Decay Time,,30,,0,127,2,9,0,127,0-based,,
-Elektron,Digitone II,FX,Reverb: Shelving Freq,,31,,0,127,2,10,0,127,0-based,,
-Elektron,Digitone II,FX,Reverb: Shelving Gain,,89,,0,127,2,11,0,127,0-based,,
-Elektron,Digitone II,FX,Reverb: Highpass Filter,,90,,0,127,2,12,0,127,0-based,,
-Elektron,Digitone II,FX,Reverb: Lowpass Filter,,91,,0,127,2,13,0,127,0-based,,
-Elektron,Digitone II,FX,Reverb: Mix Volume,,92,,0,127,2,15,0,127,0-based,,
-Elektron,Digitone II,FX,Chorus: Depth,,16,,0,127,2,41,0,127,0-based,,
-Elektron,Digitone II,FX,Chorus: Speed,,9,,0,127,2,42,0,127,0-based,,
-Elektron,Digitone II,FX,Chorus: High Pass Filter,,70,,0,127,2,43,0,127,0-based,,
-Elektron,Digitone II,FX,Chorus: Width,,71,,0,127,2,44,0,127,0-based,,
-Elektron,Digitone II,FX,Chorus: Delay Send,,12,,0,127,2,45,0,127,0-based,,
-Elektron,Digitone II,FX,Chorus: Reverb Send,,13,,0,127,2,46,0,127,0-based,,
-Elektron,Digitone II,FX,Chorus: Mix Volume,,14,,0,127,2,47,0,127,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Threshold,,111,,0,127,2,16,0,127,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Attack Time,,112,,0,127,2,17,0,127,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Release Time,,113,,0,127,2,18,0,127,0-based,,
@@ -332,5 +325,12 @@ Elektron,Digitone II,MIDI,CC Value 13,,82,,0,127,1,64,0,127,0-based,,
 Elektron,Digitone II,MIDI,CC Value 14,,83,,0,127,1,65,0,127,0-based,,
 Elektron,Digitone II,MIDI,CC Value 15,,84,,0,127,1,66,0,127,0-based,,
 Elektron,Digitone II,MIDI,CC Value 16,,85,,0,127,1,67,0,127,0-based,,
-Elektron,Digitone II,Misc,Pattern Mute,,110,,0,1,1,109,0,1,0-based,,0: Off; 1: On
+Elektron,Digitone II,Euclidean,Pulse Gen 1,,,,,,3,8,0,16,0-based,,
+Elektron,Digitone II,Euclidean,Pulse Gen 2,,,,,,3,9,0,16,0-based,,
+Elektron,Digitone II,Euclidean,Euclidean Mode,,,,,,3,14,0,1,0-based,,0: Off; 1: On
+Elektron,Digitone II,Euclidean,Rotation Gen 1,,,,,,3,11,0,127,centered,range: 112 - 127 - 14 (weird),
+Elektron,Digitone II,Euclidean,Rotation Gen 2,,,,,,3,12,0,127,centered,range: 112 - 127 - 14 (weird),
+Elektron,Digitone II,Euclidean,Track Rotation,,,,,,3,13,0,127,centered,range: 112 - 127 - 14 (weird),
+Elektron,Digitone II,Euclidean,Boolean Operator,,,,,,3,10,0,3,0-based,,0: OR; 1: XOR; 2: AND; 3: SUB
+Elektron,Digitone II,Misc,Pattern Mute,,110,,0,1,1,109,0,1,0-based,,0: Unmuted; 1: Muted
 Elektron,Digitone II,Misc,Master Overdrive,,17,,0,127,2,50,0,127,0-based,,
