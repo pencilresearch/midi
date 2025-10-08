@@ -113,7 +113,7 @@ Elektron,Digitone II,Synth: Wavetone,Wavetone 2: Osc1 Wave Table,,49,,0,1,1,82,0
 Elektron,Digitone II,Synth: Wavetone,Wavetone 2: Osc Mod,,50,,0,3,1,83,0,3,0-based,,0: Off; 1: Ring Mod; 2: Ring Mod Fixed; 3: Hard Sync
 Elektron,Digitone II,Synth: Wavetone,Wavetone 2: Osc Phase Reset,,51,,0,2,1,84,0,2,0-based,,0: Off; 1: On; 2: Random
 Elektron,Digitone II,Synth: Wavetone,Wavetone 2: Osc2 Lin Offset,,52,,0,127,1,85,0,12800,centered,,
-Elektron,Digitone II,Synth: Wavetone,Wavetone 2: Osc1 Wave Table,,53,,0,1,1,86,0,1,0-based,,0: Prim.; 1: Harm.
+Elektron,Digitone II,Synth: Wavetone,Wavetone 2: Osc2 Wave Table,,53,,0,1,1,86,0,1,0-based,,0: Prim.; 1: Harm.
 Elektron,Digitone II,Synth: Wavetone,Wavetone 2: Osc Drift,,55,,0,127,1,88,0,127,0-based,,
 Elektron,Digitone II,Synth: Wavetone,Wavetone 3: Noise Attack,,56,,0,127,1,89,0,127,0-based,,
 Elektron,Digitone II,Synth: Wavetone,Wavetone 3: Noise Hold Time,,57,,0,127,1,90,0,127,0-based,,
