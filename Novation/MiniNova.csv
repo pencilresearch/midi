@@ -1,0 +1,426 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Novation,MiniNova,Patch,Category,,,,,,2,64,0,14,0-based,Used in save menu,0: None; 1: Arp; 2: Bass; 3: Bell; 4: Classic; 5: Drum; 6: Keyboard; 7: Lead; 8: Movement; 9: Pad; 10: Poly; 11: SFX; 12: String; 13: ExtInput; 14: Voc/Tune
+Novation,MiniNova,Patch,Genre,,,,,,2,65,0,9,0-based,Used in save menu,0: None; 1: Classic; 2: D&B-Brks; 3: House; 4: Industrl; 5: Jazz; 6: R&B-HHop; 7: Rock-Pop; 8: Techno; 9: Dubstep
+Novation,MiniNova,MIDI,Modulation,,1,,0,127,,,,,,,
+Novation,MiniNova,MIDI,Breath controller,,2,,0,127,,,,,,,
+Novation,MiniNova,Voice,Polyphony mode,,3,,0,4,,,,,0-based,,0: Mono; 1: Mono AG; 2: Poly 1; 3: Poly 2; 4: Mono 2
+Novation,MiniNova,Voice,Portamento rate,,5,,0,127,,,,,0-based,,
+Novation,MiniNova,MIDI,Data entry MSB,,6,,0,127,,,,,0-based,,
+Novation,MiniNova,Mixer,Wet level,,8,,0,127,,,,,0-based,,
+Novation,MiniNova,Voice,Pre glide,,9,,52,76,,,,,Centered,,
+Novation,MiniNova,FX (all),Pan position,,10,,0,127,,,,,Centered,,
+Novation,MiniNova,MIDI,Expression controller,,11,,0,127,,,,,0-based,,
+Novation,MiniNova,Voice,Portamento mode,,12,,0,1,,,,,0-based,,0: Expo; 1: Linear
+Novation,MiniNova,Voice,Keyboard octave,,13,,0,127,,,,,Centered,"Uses a discontinuous (wrapped) range of 124~4, centered on 0.",124: -4 octaves; 125: -3 octaves; 126: -2 octaves; 127: -1 octaves; 0: 0 octave; 1: +1 octave; 2: +2 octaves; 3: +3 octaves; 4: +4 octaves
+Novation,MiniNova,Voice,Unison,,14,,0,4,,,,,0-based,,0: Off; 1: 1 voice; 2: 2 voices; 3: 3 voices; 4: 4 voices
+Novation,MiniNova,Voice,Unison detune,,15,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillators (all),Drift,,16,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillators (all),Phase,,17,,0,120,,,,,0-based,,0~119: 0 degrees to 357 degrees; 120: Free
+Novation,MiniNova,Oscillators (all),Fixed transpose,,18,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 1,Wave,,19,,0,71,,,,,0-based,,0: Sine; 1: Triangle; 2: Sawtooth; 3: Saw9 1PW; 4: Saw8 2PW; 5: Saw7 3PW; 6: Saw6 4PW; 7: Saw5 5PW; 8: SaW4 6PW; 9: Saw3 7PW; 10: Saw2 8PW; 11: Saw1 9PW; 12: PW; 13: Square 14: BassCamp; 15: Bass_FM; 16: EP_Dull; 17: EP_ Bell; 18: Clav 19: DoubReed; 20: Retro 21: StrnMch1; 22: StrnMch2; 23: Organ_1; 24: Organ 2; 25: Evilorg; 26: HiStuff; 27: Bell _FM1; 28: Bell_FM2; 29: DigBell1; 30: DigBell2; 31: DigBell3; 32: DigBell4; 33: DigiPad; 34: Wtable 1; 35: Wtable 2; 36: Wtable 3; 37: Wtable 4; 38: Wtable 5; 39: Wtable 6; 40: Wtable 7; 41: Wtable 8; 42: Wtable 9; 43: Wtable10; 44: Wtable11; 45: Wtable12; 46: Wtable13; 47: Wtable14; 48: Wtable15; 49: Wtable16; 50: Wtable17; 51: Wtable18; 52: Wtable19; 53: Wtable20; 54: Wtable21; 55: Wtable22; 56: Wtable23; 57: Wtable24; 58: Wtable25; 59: Wtable26; 60: Wtable27; 61: Wtable28; 62: Wtable29; 63: Wtable30; 64: Wtable31; 65: Wtable32; 66: Wtable33; 67: Wtable34; 68: Wtable35; 69: Wtable36; 70: AudInL/M; 71: AudioInR
+Novation,MiniNova,Oscillator 1,Wave interpolate,,20,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 1,Pulse width index,,21,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 1,Virtual sync depth,,22,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 1,Hardness,,23,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 1,Density,,24,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 1,Density detune,,25,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 1,Semitones,,26,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 1,Cents,,27,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 1,Pitch bend,,28,,52,76,,,,,Centered,,
+Novation,MiniNova,Oscillator 2,Wave,,29,,0,71,,,,,0-based,,0: Sine; 1: Triangle; 2: Sawtooth; 3: Saw9 1PW; 4: Saw8 2PW; 5: Saw7 3PW; 6: Saw6 4PW; 7: Saw5 5PW; 8: SaW4 6PW; 9: Saw3 7PW; 10: Saw2 8PW; 11: Saw1 9PW; 12: PW; 13: Square 14: BassCamp; 15: Bass_FM; 16: EP_Dull; 17: EP_ Bell; 18: Clav 19: DoubReed; 20: Retro 21: StrnMch1; 22: StrnMch2; 23: Organ_1; 24: Organ 2; 25: Evilorg; 26: HiStuff; 27: Bell _FM1; 28: Bell_FM2; 29: DigBell1; 30: DigBell2; 31: DigBell3; 32: DigBell4; 33: DigiPad; 34: Wtable 1; 35: Wtable 2; 36: Wtable 3; 37: Wtable 4; 38: Wtable 5; 39: Wtable 6; 40: Wtable 7; 41: Wtable 8; 42: Wtable 9; 43: Wtable10; 44: Wtable11; 45: Wtable12; 46: Wtable13; 47: Wtable14; 48: Wtable15; 49: Wtable16; 50: Wtable17; 51: Wtable18; 52: Wtable19; 53: Wtable20; 54: Wtable21; 55: Wtable22; 56: Wtable23; 57: Wtable24; 58: Wtable25; 59: Wtable26; 60: Wtable27; 61: Wtable28; 62: Wtable29; 63: Wtable30; 64: Wtable31; 65: Wtable32; 66: Wtable33; 67: Wtable34; 68: Wtable35; 69: Wtable36; 70: AudInL/M; 71: AudioInR
+Novation,MiniNova,Oscillator 2,Wave interpolate,,30,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 2,Pulse width index,,31,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 2,Virtual sync depth,,33,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 2,Hardness,,34,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 2,Density,,35,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 2,Density detune,,36,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 2,Semitones,,37,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 2,Cents,,39,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 2,Pitch bend,,40,,52,76,,,,,Centered,,
+Novation,MiniNova,Oscillator 3,Wave,,41,,0,71,,,,,0-based,,0: Sine; 1: Triangle; 2: Sawtooth; 3: Saw9 1PW; 4: Saw8 2PW; 5: Saw7 3PW; 6: Saw6 4PW; 7: Saw5 5PW; 8: SaW4 6PW; 9: Saw3 7PW; 10: Saw2 8PW; 11: Saw1 9PW; 12: PW; 13: Square 14: BassCamp; 15: Bass_FM; 16: EP_Dull; 17: EP_ Bell; 18: Clav 19: DoubReed; 20: Retro 21: StrnMch1; 22: StrnMch2; 23: Organ_1; 24: Organ 2; 25: Evilorg; 26: HiStuff; 27: Bell _FM1; 28: Bell_FM2; 29: DigBell1; 30: DigBell2; 31: DigBell3; 32: DigBell4; 33: DigiPad; 34: Wtable 1; 35: Wtable 2; 36: Wtable 3; 37: Wtable 4; 38: Wtable 5; 39: Wtable 6; 40: Wtable 7; 41: Wtable 8; 42: Wtable 9; 43: Wtable10; 44: Wtable11; 45: Wtable12; 46: Wtable13; 47: Wtable14; 48: Wtable15; 49: Wtable16; 50: Wtable17; 51: Wtable18; 52: Wtable19; 53: Wtable20; 54: Wtable21; 55: Wtable22; 56: Wtable23; 57: Wtable24; 58: Wtable25; 59: Wtable26; 60: Wtable27; 61: Wtable28; 62: Wtable29; 63: Wtable30; 64: Wtable31; 65: Wtable32; 66: Wtable33; 67: Wtable34; 68: Wtable35; 69: Wtable36; 70: AudInL/M; 71: AudioInR
+Novation,MiniNova,Oscillator 3,Wave interpolate,,42,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 3,Pulse width index,,43,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 3,Virtual sync depth,,44,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 3,Hardness,,45,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 3,Density,,46,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 3,Density detune,,47,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillator 3,Semitones,,47,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 3,Cents,,49,,0,127,,,,,Centered,,
+Novation,MiniNova,Oscillator 3,Pitch bend,,50,,52,76,,,,,Centered,,
+Novation,MiniNova,MIDI,Bank LSB,,32,,1,3,,,,,0-based,,1: Bank A; 2: Bank B; 3: Bank C
+Novation,MiniNova,MIDI,Data entry LSB,,38,,0,127,,,,,0-based,,
+Novation,MiniNova,Mixer,Oscillator 1 level,,51,,0,127,,,,,0-based,,
+Novation,MiniNova,Mixer,Oscillator 2 level,,52,,0,127,,,,,0-based,,
+Novation,MiniNova,Mixer,Oscillator 3 level,,53,,0,127,,,,,0-based,,
+Novation,MiniNova,Mixer,Ring mod level 1x3,,54,,0,127,,,,,0-based,,
+Novation,MiniNova,Mixer,Ring mod level 2x3,,55,,0,127,,,,,0-based,,
+Novation,MiniNova,Mixer,Noise level,,56,,0,127,,,,,0-based,,
+Novation,MiniNova,Mixer,Noise colour,,57,,0,3,,,,,0-based,,0: White; 1: High; 2: Band; 3: Hi-band
+Novation,MiniNova,Mixer,Pre-FX level,,58,,52,82,,,,,Centered,,52~82: -12dB to +18dB
+Novation,MiniNova,Mixer,Post-FX level,,59,,52,82,,,,,Centered,,52~82: -12dB to +18dB
+Novation,MiniNova,Filter,Routing,,60,,0,5,,,,,0-based,,0: Bypass; 1: Single; 2: Series; 3: Parallel; 4: Parallel 2; 5: Drum
+Novation,MiniNova,Filter,Balance,,61,,0,127,,,,,Centered,,
+Novation,MiniNova,MIDI,Sustain pedal,,64,,0,127,,,,,0-based,,0-64: Off; 64-127: On
+Novation,MiniNova,Filters (all),Frequency link,,,,,,0,122,42,43,0-based,NRPN MSB/LSB shared with multiple parameters.,42: Frequency link off; 43: Frequency link on
+Novation,MiniNova,Filters (all),Resonance link,,,,,,0,122,44,45,0-based,NRPN MSB/LSB shared with multiple parameters.,44: Off; 45: On
+Novation,MiniNova,Filter 1,Drive type,,65,,0,6,,,,,0-based,,0: Diode; 1: Valve; 2: Clippers; 3: XOver; 4: Rectify; 5: BitsDown; 6: RateDown
+Novation,MiniNova,Filter 1,Type,,68,,0,13,,,,,0-based,,0: LP6NoRes; 1: LP12; 2: LP18; 3: LP24; 4: BP6-6; 5: BP12-12; 6: BP6-12; 7: BP12-6; 8: BP6-18; 9: BP18-6; 10: HP6NoRes; 11: HP12; 12: HP18; 13: HP24
+Novation,MiniNova,Filter 1,Track,,69,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,Sustain,,70,,0,127,,,,,0-based,,
+Novation,MiniNova,Filter 1,Resonance,,71,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,Release,,72,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,Attack,,73,,0,127,,,,,0-based,,
+Novation,MiniNova,Filter 1,Frequency,,74,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,Decay,,75,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillators (all),Vibrato speed,,76,,0,127,,,,,0-based,,
+Novation,MiniNova,Oscillators (all),Vibrato depth,,77,,0,127,,,,,0-based,,
+Novation,MiniNova,Filter 1,Q normalize,,78,,0,127,,,,,0-based,,
+Novation,MiniNova,Filter 1,Envelope to frequency,,78,,0,127,,,,,Centered,,
+Novation,MiniNova,Filter 2,Drive,,80,,0,127,,,,,0-based,,
+Novation,MiniNova,Filter 2,Drive type,,81,,0,6,,,,,0-based,,0: Diode; 1: Valve; 2: Clippers; 3: XOver; 4: Rectify; 5: BitsDown; 6: RateDown
+Novation,MiniNova,Filter 2,Type,,82,,0,13,,,,,0-based,,0: LP6NoRes; 1: LP12; 2: LP18; 3: LP24; 4: BP6-6; 5: BP12-12; 6: BP6-12; 7: BP12-6; 8: BP6-18; 9: BP18-6; 10: HP6NoRes; 11: HP12; 12: HP18; 13: HP24
+Novation,MiniNova,Filter 2,Frequency,,83,,0,13,,,,,0-based,,
+Novation,MiniNova,Filter 2,Track,,84,,0,13,,,,,0-based,,
+Novation,MiniNova,Filter 2,Resonance,,85,,0,13,,,,,0-based,,
+Novation,MiniNova,Filter 2,Q normalize,,86,,0,13,,,,,0-based,,
+Novation,MiniNova,Animate,Animate 1 hold,,,,,,60,0,0,127,0-based,,
+Novation,MiniNova,Animate,Animate 2 hold,,,,,,60,1,0,127,0-based,,
+Novation,MiniNova,Animate,Animate 3 hold,,,,,,60,2,0,127,0-based,,
+Novation,MiniNova,Animate,Animate 4 hold,,,,,,60,3,0,127,0-based,,
+Novation,MiniNova,Animate,Animate 5 hold,,,,,,60,4,0,127,0-based,,
+Novation,MiniNova,Animate,Animate 6 hold,,,,,,60,5,0,127,0-based,,
+Novation,MiniNova,Animate,Animate 7 hold,,,,,,60,6,0,127,0-based,,
+Novation,MiniNova,Animate,Animate 8 hold,,,,,,60,7,0,127,0-based,,
+Novation,MiniNova,Animate,Hold button on,,,,,,60,16,0,1,0-based,,0: Animate hold off; 1: Animate hold on
+Novation,MiniNova,Envelope 1,Trigger,,,,,,0,122,0,1,,NRPN MSB/LSB shared with multiple parameters.,0: Single; 1: Multi
+Novation,MiniNova,Envelope 2,Trigger,,,,,,0,122,2,3,,NRPN MSB/LSB shared with multiple parameters.,2: Single; 3: Multi
+Novation,MiniNova,Envelope 3,Trigger,,,,,,0,122,4,5,,NRPN MSB/LSB shared with multiple parameters.,4: Single; 5: Multi
+Novation,MiniNova,Envelope 4,Trigger,,,,,,0,122,6,7,,NRPN MSB/LSB shared with multiple parameters.,6: Single; 7: Multi
+Novation,MiniNova,Envelope 5,Trigger,,,,,,0,122,8,9,,NRPN MSB/LSB shared with multiple parameters.,8: Single; 9: Multi
+Novation,MiniNova,Envelope 6,Trigger,,,,,,0,122,10,11,,NRPN MSB/LSB shared with multiple parameters.,10: Single; 11: Multi
+Novation,MiniNova,Filter 2,Envelope to frequency,,87,,0,127,,,,,Centered,,
+Novation,MiniNova,FX (all),Pan rate,,88,,0,127,,,,,0-based,,
+Novation,MiniNova,FX (all),Pan sync,,89,,0,35,,,,,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,FX (all),Pan mod depth,,90,,0,127,,,,,0-based,,
+Novation,MiniNova,FX 1,Level,,91,,0,127,,,,,0-based,,
+Novation,MiniNova,FX 2,Level,,92,,0,127,,,,,0-based,,
+Novation,MiniNova,FX 3,Level,,93,,0,127,,,,,0-based,,
+Novation,MiniNova,FX 4,Level,,94,,0,127,,,,,0-based,,
+Novation,MiniNova,FX 5,Level,,95,,0,127,,,,,0-based,,
+Novation,MiniNova,MIDI,Data increment,,96,,0,127,,,,,0-based,,
+Novation,MiniNova,MIDI,Data decrement,,97,,0,127,,,,,0-based,,
+Novation,MiniNova,MIDI,NRPN LSB,,98,,0,127,,,,,0-based,,
+Novation,MiniNova,MIDI,NRPN MSB,,99,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope,Track centre,,106,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,Velocity,,108,,0,127,,,,,Centered,,
+Novation,MiniNova,Envelope 1,Sustain rate,,109,,0,127,,,,,Centered,,
+Novation,MiniNova,Envelope 1,Sustain time,,110,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,AD repeats,,111,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,Attack track,,112,,0,127,,,,,Centered,,
+Novation,MiniNova,Envelope 2,Velocity,,,,,,0,0,0,127,Centered,,
+Novation,MiniNova,Envelope 2,Attack,,,,,,0,1,0,127,0-based,,
+Novation,MiniNova,Envelope 2,Decay,,,,,,0,2,0,127,0-based,,
+Novation,MiniNova,Envelope 2,Sustain,,,,,,0,3,0,127,0-based,,
+Novation,MiniNova,Envelope 2,Release,,,,,,0,4,0,127,0-based,,
+Novation,MiniNova,Envelope 2,Sustain rate,,,,,,0,5,0,127,Centered,,
+Novation,MiniNova,Envelope 2,Sustain time,,,,,,0,6,0,127,0-based,,
+Novation,MiniNova,Envelope 2,AD repeats,,,,,,0,7,0,127,0-based,,
+Novation,MiniNova,Envelope 2,Attack track,,,,,,0,8,0,127,Centered,,
+Novation,MiniNova,Envelope 2,Decay track,,,,,,0,9,0,127,Centered,,
+Novation,MiniNova,Envelope 2,Level track,,,,,,0,10,0,127,Centered,,
+Novation,MiniNova,Envelope 2,Attack slope,,,,,,0,11,0,127,0-based,,
+Novation,MiniNova,Envelope 2,Decay slope,,,,,,0,12,0,127,0-based,,
+Novation,MiniNova,Envelope 2,Animation trigger,,,,,,0,13,0,24,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
+Novation,MiniNova,Envelope 3,Delay,,,,,,0,14,0,127,0-based,,
+Novation,MiniNova,Envelope 3,Attack,,,,,,0,15,0,127,0-based,,
+Novation,MiniNova,Envelope 3,Decay,,,,,,0,16,0,127,0-based,,
+Novation,MiniNova,Envelope 3,Sustain,,,,,,0,17,0,127,0-based,,
+Novation,MiniNova,Envelope 3,Release,,,,,,0,18,0,127,0-based,,
+Novation,MiniNova,Envelope 3,Sustain rate,,,,,,0,19,0,127,Centered,,
+Novation,MiniNova,Envelope 3,Sustain time,,,,,,0,20,0,127,0-based,,
+Novation,MiniNova,Envelope 3,AD repeats,,,,,,0,21,0,127,0-based,,
+Novation,MiniNova,Envelope 3,Attack track,,,,,,0,22,0,127,Centered,,
+Novation,MiniNova,Envelope 3,Decay track,,,,,,0,23,0,127,Centered,,
+Novation,MiniNova,Envelope 3,Level track,,,,,,0,24,0,127,Centered,,
+Novation,MiniNova,Envelope 3,Attack slope,,,,,,0,25,0,127,0-based,,
+Novation,MiniNova,Envelope 3,Decay slope,,,,,,0,26,0,127,0-based,,
+Novation,MiniNova,Envelope 3,Animation trigger,,,,,,0,27,0,24,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
+Novation,MiniNova,Envelope 4,Delay,,,,,,0,28,0,127,0-based,,
+Novation,MiniNova,Envelope 4,Attack,,,,,,0,29,0,127,0-based,,
+Novation,MiniNova,Envelope 4,Decay,,,,,,0,30,0,127,0-based,,
+Novation,MiniNova,Envelope 4,Sustain,,,,,,0,31,0,127,0-based,,
+Novation,MiniNova,Envelope 4,Release,,,,,,0,32,0,127,0-based,,
+Novation,MiniNova,Envelope 4,Sustain rate,,,,,,0,33,0,127,Centered,,
+Novation,MiniNova,Envelope 4,Sustain time,,,,,,0,34,0,127,0-based,,
+Novation,MiniNova,Envelope 4,AD repeats,,,,,,0,35,0,127,0-based,,
+Novation,MiniNova,Envelope 4,Attack track,,,,,,0,36,0,127,Centered,,
+Novation,MiniNova,Envelope 4,Decay track,,,,,,0,37,0,127,Centered,,
+Novation,MiniNova,Envelope 4,Level track,,,,,,0,38,0,127,Centered,,
+Novation,MiniNova,Envelope 4,Attack slope,,,,,,0,39,0,127,0-based,,
+Novation,MiniNova,Envelope 4,Decay slope,,,,,,0,40,0,127,0-based,,
+Novation,MiniNova,Envelope 4,Animation trigger,,,,,,0,41,0,24,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
+Novation,MiniNova,Envelope 5,Delay,,,,,,0,42,0,127,0-based,,
+Novation,MiniNova,Envelope 5,Attack,,,,,,0,43,0,127,0-based,,
+Novation,MiniNova,Envelope 5,Decay,,,,,,0,44,0,127,0-based,,
+Novation,MiniNova,Envelope 5,Sustain,,,,,,0,45,0,127,0-based,,
+Novation,MiniNova,Envelope 5,Release,,,,,,0,46,0,127,0-based,,
+Novation,MiniNova,Envelope 5,Sustain rate,,,,,,0,47,0,127,Centered,,
+Novation,MiniNova,Envelope 5,Sustain time,,,,,,0,48,0,127,0-based,,
+Novation,MiniNova,Envelope 5,AD repeats,,,,,,0,49,0,127,0-based,,
+Novation,MiniNova,Envelope 5,Attack track,,,,,,0,50,0,127,Centered,,
+Novation,MiniNova,Envelope 5,Decay track,,,,,,0,51,0,127,Centered,,
+Novation,MiniNova,Envelope 5,Level track,,,,,,0,52,0,127,Centered,,
+Novation,MiniNova,Envelope 5,Attack slope,,,,,,0,53,0,127,0-based,,
+Novation,MiniNova,Envelope 5,Decay slope,,,,,,0,54,0,127,0-based,,
+Novation,MiniNova,Envelope 5,Animation trigger,,,,,,0,55,0,24,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
+Novation,MiniNova,Envelope 6,Delay,,,,,,0,56,0,127,0-based,,
+Novation,MiniNova,Envelope 6,Attack,,,,,,0,57,0,127,0-based,,
+Novation,MiniNova,Envelope 6,Decay,,,,,,0,58,0,127,0-based,,
+Novation,MiniNova,Envelope 6,Sustain,,,,,,0,59,0,127,0-based,,
+Novation,MiniNova,Envelope 6,Release,,,,,,0,60,0,127,0-based,,
+Novation,MiniNova,Envelope 6,Sustain rate,,,,,,0,61,0,127,Centered,,
+Novation,MiniNova,Envelope 6,Sustain time,,,,,,0,62,0,127,0-based,,
+Novation,MiniNova,Envelope 6,AD repeats,,,,,,0,63,0,127,0-based,,
+Novation,MiniNova,Envelope 6,Attack track,,,,,,0,64,0,127,Centered,,
+Novation,MiniNova,Envelope 6,Decay track,,,,,,0,65,0,127,Centered,,
+Novation,MiniNova,Envelope 6,Level track,,,,,,0,66,0,127,Centered,,
+Novation,MiniNova,Envelope 6,Attack slope,,,,,,0,67,0,127,0-based,,
+Novation,MiniNova,Envelope 6,Decay slope,,,,,,0,68,0,127,0-based,,
+Novation,MiniNova,Envelope 6,Animation trigger,,,,,,0,69,0,24,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
+Novation,MiniNova,LFO 1,Waveform,,,,,,0,70,0,37,0-based,,0: Sine; 1: Triangle; 2: Sawtooth; 3: Square; 4: Rand S/H; 5: Time S/H; 6: PianoEnv; 7: Seq 1; 8: Seq 2; 9: Seq 3; 10: Seq 4; 11: Seq 5; 12: Seq 6; 13: Seq7; 14: Altern 1; 15: Altern 2; 16: Altern 3; 17: Altern 4; 18: Altern 5; 19: Altern6; 20: Altern 7; 21: Altern 8; 22: Chromat; 23: Chrom 16; 24: Major; 25: Major7; 26: Minor7; 27: MinArp1; 28: MinArp2; 29: Diminish; 30: DecMinor; 31: Minor3rd; 32: Pedal; 33: 4ths; 34: 4ths x12; 35: 1625 Maj; 36: 1625 Min; 37: 2511
+Novation,MiniNova,LFO 1,Phase offset,,,,,,0,71,0,119,0-based,,0~119: 0 degrees to 357 degrees
+Novation,MiniNova,LFO 1,Slew rate,,,,,,0,72,0,127,0-based,,
+Novation,MiniNova,LFO 1,Delay,,,,,,0,74,0,127,0-based,,
+Novation,MiniNova,LFO 1,Delay sync,,,,,,0,75,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,LFO 1,Rate,,,,,,0,76,0,127,0-based,,
+Novation,MiniNova,LFO 1,Rate sync,,,,,,0,77,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,LFO 1,One shot,,,,,,0,122,12,13,0-based,NRPN MSB/LSB shared with multiple parameters.,12: Normal; 13: One shot
+Novation,MiniNova,LFO 1,Key sync,,,,,,0,122,14,15,0-based,NRPN MSB/LSB shared with multiple parameters.,14: Free run; 15: Key sync
+Novation,MiniNova,LFO 1,Common sync,,,,,,0,122,16,17,0-based,NRPN MSB/LSB shared with multiple parameters.,16: Normal; 17: Common
+Novation,MiniNova,LFO 1,Delay trigger,,,,,,0,122,18,19,0-based,NRPN MSB/LSB shared with multiple parameters.,18: Single; 19: Multi
+Novation,MiniNova,LFO 1,Fade mode,,,,,,1,123,0,3,0-based,NRPN MSB/LSB shared with multiple parameters.,0: Fade in; 1: Fade out; 2: Gate in; 3: Gate out
+Novation,MiniNova,LFO 2,Waveform,,,,,,0,79,0,37,0-based,,0: Sine; 1: Triangle; 2: Sawtooth; 3: Square; 4: Rand S/H; 5: Time S/H; 6: PianoEnv; 7: Seq 1; 8: Seq 2; 9: Seq 3; 10: Seq 4; 11: Seq 5; 12: Seq 6; 13: Seq7; 14: Altern 1; 15: Altern 2; 16: Altern 3; 17: Altern 4; 18: Altern 5; 19: Altern6; 20: Altern 7; 21: Altern 8; 22: Chromat; 23: Chrom 16; 24: Major; 25: Major7; 26: Minor7; 27: MinArp1; 28: MinArp2; 29: Diminish; 30: DecMinor; 31: Minor3rd; 32: Pedal; 33: 4ths; 34: 4ths x12; 35: 1625 Maj; 36: 1625 Min; 37: 2511
+Novation,MiniNova,LFO 2,Phase offset,,,,,,0,80,0,119,0-based,,0~119: 0 degrees to 357 degrees
+Novation,MiniNova,LFO 2,Slew rate,,,,,,0,81,0,127,0-based,,
+Novation,MiniNova,LFO 2,Delay,,,,,,0,83,0,127,0-based,,
+Novation,MiniNova,LFO 2,Delay sync,,,,,,0,84,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,LFO 2,Rate,,,,,,0,85,0,127,0-based,,
+Novation,MiniNova,LFO 2,Rate sync,,,,,,0,86,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,LFO 2,One shot,,,,,,0,122,22,23,0-based,NRPN MSB/LSB shared with multiple parameters.,22: Normal; 23: One shot
+Novation,MiniNova,LFO 2,Key sync,,,,,,0,122,24,25,0-based,NRPN MSB/LSB shared with multiple parameters.,24: Free run; 25: Key sync
+Novation,MiniNova,LFO 2,Common sync,,,,,,0,122,26,27,0-based,NRPN MSB/LSB shared with multiple parameters.,26: Normal; 27: Common
+Novation,MiniNova,LFO 2,Delay trigger,,,,,,0,122,28,29,0-based,NRPN MSB/LSB shared with multiple parameters.,28: Single; 29: Multi
+Novation,MiniNova,LFO 2,Fade mode,,,,,,1,123,4,7,0-based,NRPN MSB/LSB shared with multiple parameters.,4: Fade in; 5: Fade out; 6: Gate in; 7: Gate out
+Novation,MiniNova,LFO 3,Waveform,,,,,,0,88,0,37,0-based,,0: Sine; 1: Triangle; 2: Sawtooth; 3: Square; 4: Rand S/H; 5: Time S/H; 6: PianoEnv; 7: Seq 1; 8: Seq 2; 9: Seq 3; 10: Seq 4; 11: Seq 5; 12: Seq 6; 13: Seq7; 14: Altern 1; 15: Altern 2; 16: Altern 3; 17: Altern 4; 18: Altern 5; 19: Altern6; 20: Altern 7; 21: Altern 8; 22: Chromat; 23: Chrom 16; 24: Major; 25: Major7; 26: Minor7; 27: MinArp1; 28: MinArp2; 29: Diminish; 30: DecMinor; 31: Minor3rd; 32: Pedal; 33: 4ths; 34: 4ths x12; 35: 1625 Maj; 36: 1625 Min; 37: 2511
+Novation,MiniNova,LFO 3,Phase offset,,,,,,0,89,0,119,0-based,,0~119: 0 degrees to 357 degrees
+Novation,MiniNova,LFO 3,Slew rate,,,,,,0,89,0,127,0-based,,
+Novation,MiniNova,LFO 3,Delay,,,,,,0,92,0,127,0-based,,
+Novation,MiniNova,LFO 3,Delay sync,,,,,,0,93,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,LFO 3,Rate,,,,,,0,94,0,127,0-based,,
+Novation,MiniNova,LFO 3,Rate sync,,,,,,0,95,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,LFO 3,One shot,,,,,,0,122,32,33,0-based,NRPN MSB/LSB shared with multiple parameters.,32: Normal; 33: One shot
+Novation,MiniNova,LFO 3,Key sync,,,,,,0,122,34,35,0-based,NRPN MSB/LSB shared with multiple parameters.,34: Free run; 35: Key sync
+Novation,MiniNova,LFO 3,Common sync,,,,,,0,122,36,37,0-based,NRPN MSB/LSB shared with multiple parameters.,36: Normal; 37: Common
+Novation,MiniNova,LFO 3,Delay trigger,,,,,,0,122,38,39,0-based,NRPN MSB/LSB shared with multiple parameters.,38: Single; 39: Multi
+Novation,MiniNova,LFO 3,Fade mode,,,,,,1,123,8,11,0-based,NRPN MSB/LSB shared with multiple parameters. Manual lists range of 4-7 - probably a typo.,8: Fade in; 9: Fade out; 10: Gate in; 11: Gate out
+Novation,MiniNova,FX (all),Routing,,,,,,0,97,0,7,0-based,FX routing usage available in user manual,
+Novation,MiniNova,FX (all),Feedback,,,,,,9,98,0,127,0-based,,
+Novation,MiniNova,FX 1,Select,,,,,,0,99,0,14,0-based,,0: Bypass; 1: EQ; 2: Compres1; 3: Compres2; 4: Distort1; 5: Distort2; 6: Delay1; 7: Delay2; 8: Reverb1; 9: Reverb2; 10: Chorus1; 11: Chorus2; 12: Chorus3; 13: Chorus4; 14: Gator
+Novation,MiniNova,FX 2,Select,,,,,,0,100,0,14,0-based,,0: Bypass; 1: EQ; 2: Compres1; 3: Compres2; 4: Distort1; 5: Distort2; 6: Delay1; 7: Delay2; 8: Reverb1; 9: Reverb2; 10: Chorus1; 11: Chorus2; 12: Chorus3; 13: Chorus4; 14: Gator
+Novation,MiniNova,FX 3,Select,,,,,,0,101,0,14,0-based,,0: Bypass; 1: EQ; 2: Compres1; 3: Compres2; 4: Distort1; 5: Distort2; 6: Delay1; 7: Delay2; 8: Reverb1; 9: Reverb2; 10: Chorus1; 11: Chorus2; 12: Chorus3; 13: Chorus4; 14: Gator
+Novation,MiniNova,FX 4,Select,,,,,,0,102,0,14,0-based,,0: Bypass; 1: EQ; 2: Compres1; 3: Compres2; 4: Distort1; 5: Distort2; 6: Delay1; 7: Delay2; 8: Reverb1; 9: Reverb2; 10: Chorus1; 11: Chorus2; 12: Chorus3; 13: Chorus4; 14: Gator
+Novation,MiniNova,FX 5,Select,,,,,,0,103,0,14,0-based,,0: Bypass; 1: EQ; 2: Compres1; 3: Compres2; 4: Distort1; 5: Distort2; 6: Delay1; 7: Delay2; 8: Reverb1; 9: Reverb2; 10: Chorus1; 11: Chorus2; 12: Chorus3; 13: Chorus4; 14: Gator
+Novation,MiniNova,Envelope 1,Decay track,,113,,0,127,,,,,Centered,,
+Novation,MiniNova,Envelope 1,Level track,,114,,0,127,,,,,Centered,,
+Novation,MiniNova,Envelope 1,Attack slope,,115,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,Decay slope,,116,,0,127,,,,,0-based,,
+Novation,MiniNova,Envelope 1,Animation trigger,,117,,0,8,,,,,0-based,,0: Off; 1: A1 retrig; 2: A2 retrig; 3: A3 retrig; 4: A4 retrig; 5: A5 retrig; 6: A6 retrig; 7: A7 retrig; 8: A8 retrig; 9: A1 trigger; 10: A2 trigger; 11: A3 trigger; 12: A4 trigger; 13: A5 trigger; 14: A6 trigger; 17: A1 enable; 18: A2 enable; 19: A3 enable; 20: A4 enable; 21: A5 enable; 22: A6 enable; 23: A7 enable; 24: A8 enable
+Novation,MiniNova,Equalizer,Bass frequncy,,,,,,0,104,0,127,0-based,,
+Novation,MiniNova,Equalizer,Bass level,,,,,,0,105,0,127,Centered,,
+Novation,MiniNova,Equalizer,Mid frequency,,,,,,0,106,0,127,0-based,,
+Novation,MiniNova,Equalizer,Mid level,,,,,,0,107,0,127,Centered,,
+Novation,MiniNova,Equalizer,Treble frequency,,,,,,0,108,0,127,0-based,,
+Novation,MiniNova,Equalizer,Treble level,,,,,,0,109,0,127,Centered,,
+Novation,MiniNova,Compressor 1,Ratio,,,,,,0,110,0,127,0-based,,
+Novation,MiniNova,Compressor 1,Threshold,,,,,,0,111,0,60,0-based,,
+Novation,MiniNova,Compressor 1,Attack,,,,,,0,112,0,127,0-based,,
+Novation,MiniNova,Compressor 1,Release,,,,,,0,113,0,127,0-based,,
+Novation,MiniNova,Compressor 1,Hold,,,,,,0,114,0,127,0-based,,
+Novation,MiniNova,Compressor 1,Gain,,,,,,0,115,0,127,0-based,,
+Novation,MiniNova,Compressor 2,Ratio,,,,,,0,116,0,127,0-based,,
+Novation,MiniNova,Compressor 2,Threshold,,,,,,0,117,0,60,0-based,,
+Novation,MiniNova,Compressor 2,Attack,,,,,,0,118,0,127,0-based,,
+Novation,MiniNova,Compressor 2,Release,,,,,,0,119,0,127,0-based,,
+Novation,MiniNova,Compressor 2,Hold,,,,,,0,120,0,127,0-based,,
+Novation,MiniNova,Compressor 2,Gain,,,,,,0,121,0,127,0-based,,
+Novation,MiniNova,Distortion 1,Type,,,,,,1,0,0,6,0-based,,0: Diode; 1: Valve; 2: Clipper; 3: XOver; 4: Rectify; 5: BitsDown; 6: RateDown
+Novation,MiniNova,Distortion 1,Compensation,,,,,,1,1,0,127,0-based,,
+Novation,MiniNova,Distortion 1,Level,,,,,,1,2,52,82,Centered,,52~82: -12dB to +18dB
+Novation,MiniNova,Distortion 2,Type,,,,,,1,3,0,6,0-based,,0: Diode; 1: Valve; 2: Clipper; 3: XOver; 4: Rectify; 5: BitsDown; 6: RateDown
+Novation,MiniNova,Distortion 2,Compensation,,,,,,1,4,0,127,0-based,,
+Novation,MiniNova,Distortion 2,Level,,,,,,1,5,52,82,Centered,,52~82: -12dB to +18dB
+Novation,MiniNova,Delay 1,Time,,,,,,1,6,0,127,0-based,,
+Novation,MiniNova,Delay 1,Time sync,,,,,,1,7,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,Delay 1,Feedback,,,,,,1,8,0,127,0-based,,
+Novation,MiniNova,Delay 1,Width,,,,,,1,19,0,127,0-based,,
+Novation,MiniNova,Delay 1,L/R ratio,,,,,,1,10,0,127,0-based,,"0: L 1-1 R; 1: L 4-3 R; 2: L 3-4 R; 3: L 3-2 R; 4: L 2-3 R; 5: L 2-1 R; 6: L 1-2 R; 7: L 3-1
+R; 8: L 1-3 R; 9: L 4-1 R; 10: L 1-4 R; 11: L 1-Off; 12: Off-1 R"
+Novation,MiniNova,Delay 1,Slew rate,,,,,,1,11,0,127,0-based,,
+Novation,MiniNova,Delay 2,Time,,,,,,1,12,0,127,0-based,,
+Novation,MiniNova,Delay 2,Time sync,,,,,,1,13,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,Delay 2,Feeedback,,,,,,1,14,0,127,0-based,,
+Novation,MiniNova,Delay 2,Width,,,,,,1,15,0,127,0-based,,
+Novation,MiniNova,Delay 2,L/R ratio,,,,,,1,16,0,127,0-based,,"0: L 1-1 R; 1: L 4-3 R; 2: L 3-4 R; 3: L 3-2 R; 4: L 2-3 R; 5: L 2-1 R; 6: L 1-2 R; 7: L 3-1
+R; 8: L 1-3 R; 9: L 4-1 R; 10: L 1-4 R; 11: L 1-Off; 12: Off-1 R"
+Novation,MiniNova,Delay 2,Slew rate,,,,,,1,17,0,127,0-based,,
+Novation,MiniNova,Reverb 1,Type,,,,,,1,18,0,5,0-based,,0: Chamber; 1: Small room; 2: Large room; 3: Small hall; 4: Large hall; 5: Great hall
+Novation,MiniNova,Reverb 1,Decay,,,,,,1,19,0,127,0-based,,
+Novation,MiniNova,Reverb 1,Damping,,,,,,1,20,0,127,0-based,,
+Novation,MiniNova,Reverb 2,Type,,,,,,1,21,0,5,0-based,,0: Chamber; 1: Small room; 2: Large room; 3: Small hall; 4: Large hall; 5: Great hall
+Novation,MiniNova,Reverb 2,Decay,,,,,,1,22,0,127,0-based,,
+Novation,MiniNova,Reverb 2,Damping,,,,,,1,23,0,127,0-based,,
+Novation,MiniNova,Chorus 1,Type,,,,,,1,24,0,1,0-based,,0: Phaser; 1: Chorus
+Novation,MiniNova,Chorus 1,Rate,,,,,,1,25,0,127,0-based,,
+Novation,MiniNova,Chorus 1,Rate sync,,,,,,1,26,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,Chorus 1,Feedback,,,,,,1,27,0,127,Centered,,
+Novation,MiniNova,Chorus 1,Mod depth,,,,,,1,28,0,127,0-based,,
+Novation,MiniNova,Chorus 1,Delay,,,,,,1,29,0,127,0-based,,
+Novation,MiniNova,Chorus 2,Type,,,,,,1,30,0,1,0-based,,0: Phaser; 1: Chorus
+Novation,MiniNova,Chorus 2,Rate,,,,,,1,31,0,127,0-based,,
+Novation,MiniNova,Chorus 2,Rate sync,,,,,,1,32,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,Chorus 2,Feedback,,,,,,1,33,0,127,Centered,,
+Novation,MiniNova,Chorus 2,Mod depth,,,,,,1,34,0,127,0-based,,
+Novation,MiniNova,Chorus 2,Delay,,,,,,1,35,0,127,0-based,,
+Novation,MiniNova,Chorus 3,Type,,,,,,1,36,0,1,0-based,,0: Phaser; 1: Chorus
+Novation,MiniNova,Chorus 3,Rate,,,,,,1,37,0,127,0-based,,
+Novation,MiniNova,Chorus 3,Rate sync,,,,,,1,38,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,Chorus 3,Feedback,,,,,,1,39,0,127,Centered,,
+Novation,MiniNova,Chorus 3,Mod depth,,,,,,1,40,0,127,0-based,,
+Novation,MiniNova,Chorus 3,Delay,,,,,,1,41,0,127,0-based,,
+Novation,MiniNova,Chorus 4,Type,,,,,,1,42,0,1,0-based,,0: Phaser; 1: Chorus
+Novation,MiniNova,Chorus 4,Rate,,,,,,1,43,0,127,0-based,,
+Novation,MiniNova,Chorus 4,Rate sync,,,,,,1,44,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,Chorus 4,Feedback,,,,,,1,45,0,127,Centered,,
+Novation,MiniNova,Chorus 4,Mod depth,,,,,,1,46,0,127,0-based,,
+Novation,MiniNova,Chorus 4,Delay,,,,,,1,47,0,127,0-based,,
+Novation,MiniNova,Gator,On,,,,,,0,122,52,53,0-based,NRPN MSB/LSB shared with multiple parameters.,52: Off; 53: On
+Novation,MiniNova,Gator,Key sync,,,,,,0,122,54,55,0-based,NRPN MSB/LSB shared with multiple parameters.,54: Free run; 55: Key sync
+Novation,MiniNova,Gator,Key latch,,,,,,0,122,56,57,0-based,NRPN MSB/LSB shared with multiple parameters.,56: Latch off; 57: Latch on
+Novation,MiniNova,Gator,Rate sync,,,,,,1,49,0,35,0-based,,0: Off; 1: 32nd T; 2: 32nd; 3: 16th T; 4: 16th; 5: 8th T; 6: 16th D; 7: 8th 8: 4th T; 9: 8th D; 10: 4th; 11: 1 + 1/3; 12: 4th D; 13: 2nd; 14:2 + 2/3; 15: 3 beats; 16: 4 beats; 17:5 + 1/3; 18: 6 beats; 19: 8 beats; 20: 10 + 2/3; 21: 12 beats; 22: 13 + 1/3; 23: 16 beats; 24: 18 beats; 25: 18 + 2/3; 26: 20 beats; 27: 21 + 1/3; 28: 24 beats; 29: 28 beats; 30: 30 beats; 31: 32 beats; 32: 36 beats; 33: 42 beats; 34: 48 beats; 35: 64 beats;
+Novation,MiniNova,Gator,Mode,,,,,,1,50,0,5,0-based,,0: Mono16; 1: MonoAlt1; 2: MonoAlt2; 3: Stereo16; 4: SterAlt1; 5: SterAlt2
+Novation,MiniNova,Gator,Edge slew,,,,,,1,52,0,127,0-based,,
+Novation,MiniNova,Gator,Hold,,,,,,1,53,0,127,0-based,,
+Novation,MiniNova,Gator,L/R delay,,,,,,1,54,0,127,Centered,,
+Novation,MiniNova,Gator,Gator step 1 level,,,,,,5,0,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 2 level,,,,,,5,1,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 3 level,,,,,,5,2,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 4 level,,,,,,5,3,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 5 level,,,,,,5,4,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 6 level,,,,,,5,5,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 7 level,,,,,,5,6,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 8 level,,,,,,5,7,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 9 level,,,,,,5,8,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 10 level,,,,,,5,9,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 11 level,,,,,,5,10,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 12 level,,,,,,5,11,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 13 level,,,,,,5,12,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 14 level,,,,,,5,13,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 15 level,,,,,,5,14,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 16 level,,,,,,5,15,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 17 level,,,,,,5,16,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 18 level,,,,,,5,17,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 19 level,,,,,,5,18,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 20 level,,,,,,5,19,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 21 level,,,,,,5,20,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 22 level,,,,,,5,21,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 23 level,,,,,,5,22,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 24 level,,,,,,5,23,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 25 level,,,,,,5,24,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 26 level,,,,,,5,25,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 27 level,,,,,,5,26,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 28 level,,,,,,5,27,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 29 level,,,,,,5,28,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 30 level,,,,,,5,29,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 31 level,,,,,,5,30,0,7,0-based,,
+Novation,MiniNova,Gator,Gator step 32 level,,,,,,5,31,0,7,0-based,,
+Novation,MiniNova,Vocoder,On,,,,,,0,122,58,59,0-based,NRPN MSB/LSB shared with multiple parameters.,58: Off; 59: On
+Novation,MiniNova,Vocoder,Sibilance type,,,,,,0,122,60,61,0-based,NRPN MSB/LSB shared with multiple parameters.,60: HiPass; 61: Noise
+Novation,MiniNova,Vocoder,Freeze,,,,,,0,122,62,63,0-based,NRPN MSB/LSB shared with multiple parameters.,62: Unfreeze; 63: Freeze
+Novation,MiniNova,Vocoder,All max,,,,,,0,122,64,65,0-based,NRPN MSB/LSB shared with multiple parameters.,64: AllMax off; 65: AllMax on
+Novation,MiniNova,Vocoder,Vocoder input,,,,,,0,122,66,67,0-based,NRPN MSB/LSB shared with multiple parameters.,66: Audio in; 67: VTOutput
+Novation,MiniNova,Vocoder,Width,,,,,,1,57,0,127,0-based,,
+Novation,MiniNova,Vocoder,Sibilance,,,,,,1,58,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spec shift,,,,,,1,59,0,127,Centered,,
+Novation,MiniNova,Vocoder,Spec spread,,,,,,1,60,0,127,Centered,,
+Novation,MiniNova,Arp,On,,,,,,0,122,46,47,0-based,NRPN MSB/LSB shared with multiple parameters.,46: Off; 47: On
+Novation,MiniNova,Arp,Key latch,,,,,,0,122,50,51,0-based,NRPN MSB/LSB shared with multiple parameters.,50: Latch off; 51: Latch on
+Novation,MiniNova,Arp,Octaves,,,,,,1,62,0,3,0-based,,
+Novation,MiniNova,Arp,Rate sync,,,,,,1,63,0,18,0-based,,
+Novation,MiniNova,Arp,Gate,,,,,,1,64,1,127,0-based,,
+Novation,MiniNova,Arp,Mode,,,,,,1,65,0,6,0-based,,0: Up; 1: Down; 2: UpDown; 3: UpDown2; 4: Played; 5: Random; 6: Chord
+Novation,MiniNova,Arp,Pattern,,,,,,1,66,0,32,0-based,,0: 32ndT; 1: 32nd; 2: 16thT; 3: 16th; 4: 8thT; 5: 16thD; 6: 8th; 7: 4thT; 8: 8thD; 9: 4th; 10: 1+1/3; 11: 4thD; 12: 2nd; 13: 2+2/3; 14: 3beats; 15: 4beats; 16: 5+1/3; 17: 6beats; 18: 8beats; 19-32: Undefined
+Novation,MiniNova,Arp,Swing,,,,,,1,68,1,99,0-based,,
+Novation,MiniNova,Arp,Mininova,,,,,,127,127,0,1,0-based,Managed parameter for UltraNova compatibility.,
+Novation,MiniNova,Arp,Length,,,,,,60,40,2,8,0-based,,
+Novation,MiniNova,Arp,Step 1,,,,,,60,32,0,1,0-based,,0: Arp step off; 1: Arp step on
+Novation,MiniNova,Arp,Step 2,,,,,,60,33,0,1,0-based,,0: Arp step off; 1: Arp step on
+Novation,MiniNova,Arp,Step 3,,,,,,60,34,0,1,0-based,,0: Arp step off; 1: Arp step on
+Novation,MiniNova,Arp,Step 4,,,,,,60,35,0,1,0-based,,0: Arp step off; 1: Arp step on
+Novation,MiniNova,Arp,Step 5,,,,,,60,36,0,1,0-based,,0: Arp step off; 1: Arp step on
+Novation,MiniNova,Arp,Step 6,,,,,,60,37,0,1,0-based,,0: Arp step off; 1: Arp step on
+Novation,MiniNova,Arp,Step 7,,,,,,60,38,0,1,0-based,,0: Arp step off; 1: Arp step on
+Novation,MiniNova,Arp,Step 8,,,,,,60,39,0,1,0-based,,0: Arp step off; 1: Arp step on
+Novation,MiniNova,Vocoder,Level,,,,,,1,71,0,127,0-based,,
+Novation,MiniNova,Vocoder,Carrier level,,,,,,1,72,0,127,0-based,,
+Novation,MiniNova,Vocoder,Modulator level,,,,,,1,73,0,127,0-based,,
+Novation,MiniNova,Vocoder,Resonance,,,,,,1,74,0,127,0-based,,
+Novation,MiniNova,Vocoder,Decay,,,,,,1,75,0,127,0-based,,
+Novation,MiniNova,Vocoder,Gate threshold,,,,,,1,76,0,96,0-based,,
+Novation,MiniNova,Vocoder,Gate release,,,,,,1,77,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 0 level,,,,,,6,0,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 1 level,,,,,,6,1,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 2 level,,,,,,6,2,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 3 level,,,,,,6,3,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 4 level,,,,,,6,4,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 5 level,,,,,,6,5,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 6 level,,,,,,6,6,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 7 level,,,,,,6,7,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 8 level,,,,,,6,8,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 9 level,,,,,,6,9,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 10 level,,,,,,6,10,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 11 level,,,,,,6,11,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 12 level,,,,,,6,12,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 13 level,,,,,,6,13,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 14 level,,,,,,6,14,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 15 level,,,,,,6,15,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 16 level,,,,,,6,16,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 17 level,,,,,,6,17,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 18 level,,,,,,6,18,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 19 level,,,,,,6,19,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 20 level,,,,,,6,20,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 21 level,,,,,,6,21,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 22 level,,,,,,6,22,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 23 level,,,,,,6,23,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 24 level,,,,,,6,24,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 25 level,,,,,,6,25,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 26 level,,,,,,6,26,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 27 level,,,,,,6,27,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 28 level,,,,,,6,28,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 29 level,,,,,,6,29,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 30 level,,,,,,6,30,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum 31 level,,,,,,6,31,0,127,0-based,,
+Novation,MiniNova,Vocoder,Spectrum resample,,,,,,6,32,1,1,0-based,,1: Resample spectrum from mic input
+Novation,MiniNova,Chorder,Transpose,,,,,,1,78,53,75,Centered,,
+Novation,MiniNova,Chorder,On,,,,,,1,79,0,1,0-based,,0: Off; 1: On
+Novation,MiniNova,Chorder,Chorder count,,,,,,7,16,0,10,0-based,,0~10: Number of keys used in the Chorder
+Novation,MiniNova,Chorder,Chorder key 2,,,,,,7,17,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Chorder,Chorder key 3,,,,,,7,18,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Chorder,Chorder key 4,,,,,,7,19,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Chorder,Chorder key 5,,,,,,7,20,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Chorder,Chorder key 6,,,,,,7,21,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Chorder,Chorder key 7,,,,,,7,22,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Chorder,Chorder key 8,,,,,,7,23,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Chorder,Chorder key 9,,,,,,7,24,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Chorder,Chorder key 10,,,,,,7,25,0,127,0-based,,0~127: Number of semitones from root
+Novation,MiniNova,Vocal tune,Shift,,,,,,1,80,40,88,Centered,,
+Novation,MiniNova,Vocal tune,Bend,,,,,,1,81,40,88,Centered,,
