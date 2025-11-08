@@ -1,0 +1,13 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+Teenage Engineering,OP-XY,Track,track volume,,7,,0,127,,,,,,"channel 1–16, range 0–127",
+Teenage Engineering,OP-XY,Track,track mute,,9,,0,127,,,,,,"channel 1–16, range 0–127",
+Teenage Engineering,OP-XY,Track,track pan,,10,,0,127,,,,,,"channel 1–16, range 0–127",
+Teenage Engineering,OP-XY,Track,track parameters,,46,,0,127,,,,,,"channel 1–16, range 0–127",
+Teenage Engineering,OP-XY,Global,tempo,,80,,0,127,,,,,,"any channel, range 0–127",
+Teenage Engineering,OP-XY,Global,groove,,81,,0,127,,,,,,"any channel, range 0–127",
+Teenage Engineering,OP-XY,Global,scene (delayed switch),,82,,0,127,,,,,,"any channel, range 0–127",
+Teenage Engineering,OP-XY,Global,previous scene,,83,,0,127,,,,,,"any channel, range 0–127",
+Teenage Engineering,OP-XY,Global,next scene,,84,,0,127,,,,,,"any channel, range 0–127",
+Teenage Engineering,OP-XY,Global,scene,,85,,0,127,,,,,,"any channel, range 0–127",
+Teenage Engineering,OP-XY,Global,project,,86,,0,127,,,,,,"any channel, range 0–127",
+Teenage Engineering,OP-XY,Global,eq,,90,,0,127,,,,,,"channels 1–4, range 0–127",
