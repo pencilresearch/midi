@@ -1,7 +1,7 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Knobula,Pianophonic,System,All sounds off,Forces all voices off ignoring release time,120,,0,127,,,,,0-based,Trigger function via hardware: Press Shift button fast 4 times,0-127: All sounds off
+Knobula,Pianophonic,System,All sounds off,Forces all voices off ignoring release time,120,,0,0,,,,,0-based,Trigger function via hardware: Press Shift button fast 4 times,0: All sounds off
 Knobula,Pianophonic,System,Main volume,Additional scaling of output signal,7,,0,127,,,,,0-based,Default is 100. 100 is unity gain.,0~127: Mute to +9dB
-Knobula,Pianophonic,Voice,Chord select,Select chord slot,1,,0,127,,,,,0-based,CC via Mod wheel input. Not stored.,0~127: Select chord slot 0-8
+Knobula,Pianophonic,Voice,Chord select,Select chord slot,1,,0,127,,,,,0-based,Not stored.,0~127: Select chord slot 0-8
 Knobula,Pianophonic,Envelope,Attack offset,Bipolar offset to Attack knob value,73,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
 Knobula,Pianophonic,Envelope,Decay offset,Bipolar offset to Decay knob value,75,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
 Knobula,Pianophonic,Envelope,Release offset,Bipolar offset to Release knob value,72,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
