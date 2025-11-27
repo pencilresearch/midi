@@ -1,48 +1,33 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Abildgard,Droid-3,General,Value Interpreter Mode,Changes the interpretation of values,16,,0,3,,,,,0-based,"Most parameters on DROID-3 require 8 bit values, so this CC is used as a metaparameter to set how CC values are interpreted","0: CC values are doubled, 1: CC values are unchanged, 2: CC values have 128 added, 3: Interpreted as a matrix controller (0-15) if possible"
-Abildgard,Droid-3,General,Mixing Structure,Changes filter type and routing. ,20,,0,127,,,,,,"Set in combination with CC16 as an 8-bit bitfield
-Bit 1: Pre mix DCO1 (1: through filter)
-Bit 2: Pre mix DCO2 (1: through filter)
-Bit 3: Post mix DCO1 (1: pass filter)
-Bit 4: Post mix DCO2 (1: pass filter)
-Bit 5: Filter mode (0: one filter, 1: two in parallel)
-Bits 6, 7: Filter types (Bit 5 is 0: 00=LP, 01=BP, 10=HP, 11=BJ, Bit5 is 1: 00=LP/LP, 01=LP/HP, 10=HP/LP, 11=HP/HP)
-Bit 8: Boost mix",
-Abildgard,Droid-3,Filters,Filter cutoff 1,Changes the cutoff of filter 1,21,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Filters,Filter cutoff 2/Filter width,"Changes the cutoff of filter 2 or filter band width, depending on mixing structure",22,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Arpeggiator,Arpeggio speed,Changes the speed of the arpeggio,23,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,General,DCO2 and Env2 step amount,Changes the stepping of DCO2 and Env2,24,,0,7,,,,,0-based,,
-Abildgard,Droid-3,General,Various modes,Changes various modes,25,,0,127,,,,,,"Set in combination with CC16 as an 8-bit bitfield.
-Bit 1: Sync DCO1 mode
-Bit 2: Legato env mode
-Bit 3: Retrig DCO1
-Bit 4: Retrig DCO2
-Bit 5: Key Follow DCO1
-Bit 6: Key Follow DCO2
-Bit 7: Env 1 loop
-Bit8 = Env 2 loop",
-Abildgard,Droid-3,Oscillators,DCO1 Waveform,Changes the waveform of DCO1,26,,0,31,,,,,,"8 waveforms, 4 overload modes",0-7: clip overload; 8-15: mirror overload; 16-23: zero snap overload; 24-31: wrap overload
-Abildgard,Droid-3,Oscillators,DCO1 PW,Changes the pulse width of DCO1,27,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Oscillators,DCO1 offset,Changes the offset of DCO1,28,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Oscillators,DCO1 amplitude,Changes the amplitude of DCO1,29,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Oscillators,DCO1 octave,Changes the octave of DCO1,30,,0,63,,,,,,"16 octaves, 4 frequency tuning modes",0-15: fine tuning; 16-31: linear tuning; 32-47: standard tuning; 48-63: wide tuning
-Abildgard,Droid-3,Oscillators,DCO1 frequency,Changes the frequency of DCO1,31,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Oscillators,DCO2 Waveform,Changes the waveform of DCO2,102,,0,31,,,,,,"8 waveforms, 4 overload modes",0-7: clip overload; 8-15: mirror overload; 16-23: zero snap overload; 24-31: wrap overload
-Abildgard,Droid-3,Oscillators,DCO2 PW,Changes the pulse width of DCO2,103,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Oscillators,DCO2 offset,Changes the offset of DCO2,104,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Oscillators,DCO2 amplitude,Changes the amplitude of DCO2,105,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Oscillators,DCO2 octave,Changes the octave of DCO2,106,,0,63,,,,,,"16 octaves, 4 frequency tuning modes",0-15: fine tuning; 16-31: linear tuning; 32-47: standard tuning; 48-63: wide tuning
-Abildgard,Droid-3,Oscillators,DCO2 frequency,Changes the frequency of DCO2,107,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env1 Attack,Changes the attack of Env1,108,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env1 Attack Level,Changes the attack level of Env1,109,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env1 Decay,Changes the decay of Env1,110,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env1 Sustain Level,Changes the sustain level of Env1,111,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env1 Release,Changes the release of Env1,112,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env1 Offset,Changes the offset of Env1,113,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env2 Attack,Changes the attack of Env2,114,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env2 Attack Level,Changes the attack level of Env2,115,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env2 Decay,Changes the decay of Env2,116,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env2 Sustain Level,Changes the sustain level of Env2,117,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env2 Release,Changes the release of Env2,118,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,Envelopes,Env2 Offset,Changes the offset of Env2,119,,0,127,,,,,0-based,"Requires 8-bit value, use with CC16",
-Abildgard,Droid-3,General,MIDI Channel,Changes the global MIDI channel,120,,0,15,,,,,0-based,,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Abildgard,Droid-3,General,Value Interpreter Mode,Changes the interpretation of values,16,,0,3,,,,,,,0-based,"Most parameters on DROID-3 require 8 bit values, so this CC is used as a metaparameter to set how CC values are interpreted","0: CC values are doubled, 1: CC values are unchanged, 2: CC values have 128 added, 3: Interpreted as a matrix controller (0-15) if possible"
+Abildgard,Droid-3,General,Mixing Structure,Changes filter type and routing. ,20,,0,127,,,,,,,,"Set in combination with CC16 as an 8-bit bitfieldBit 1: Pre mix DCO1 (1: through filter)Bit 2: Pre mix DCO2 (1: through filter)Bit 3: Post mix DCO1 (1: pass filter)Bit 4: Post mix DCO2 (1: pass filter)Bit 5: Filter mode (0: one filter, 1: two in parallel)Bits 6, 7: Filter types (Bit 5 is 0: 00=LP, 01=BP, 10=HP, 11=BJ, Bit5 is 1: 00=LP/LP, 01=LP/HP, 10=HP/LP, 11=HP/HP)Bit 8: Boost mix",
+Abildgard,Droid-3,Filters,Filter cutoff 1,Changes the cutoff of filter 1,21,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Filters,Filter cutoff 2/Filter width,"Changes the cutoff of filter 2 or filter band width, depending on mixing structure",22,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Arpeggiator,Arpeggio speed,Changes the speed of the arpeggio,23,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,General,DCO2 and Env2 step amount,Changes the stepping of DCO2 and Env2,24,,0,7,,,,,,,0-based,,
+Abildgard,Droid-3,General,Various modes,Changes various modes,25,,0,127,,,,,,,,Set in combination with CC16 as an 8-bit bitfield.Bit 1: Sync DCO1 modeBit 2: Legato env modeBit 3: Retrig DCO1Bit 4: Retrig DCO2Bit 5: Key Follow DCO1Bit 6: Key Follow DCO2Bit 7: Env 1 loopBit8 = Env 2 loop,
+Abildgard,Droid-3,Oscillators,DCO1 Waveform,Changes the waveform of DCO1,26,,0,31,,,,,,,,"8 waveforms, 4 overload modes",0-7: clip overload; 8-15: mirror overload; 16-23: zero snap overload; 24-31: wrap overload
+Abildgard,Droid-3,Oscillators,DCO1 PW,Changes the pulse width of DCO1,27,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Oscillators,DCO1 offset,Changes the offset of DCO1,28,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Oscillators,DCO1 amplitude,Changes the amplitude of DCO1,29,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Oscillators,DCO1 octave,Changes the octave of DCO1,30,,0,63,,,,,,,,"16 octaves, 4 frequency tuning modes",0-15: fine tuning; 16-31: linear tuning; 32-47: standard tuning; 48-63: wide tuning
+Abildgard,Droid-3,Oscillators,DCO1 frequency,Changes the frequency of DCO1,31,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Oscillators,DCO2 Waveform,Changes the waveform of DCO2,102,,0,31,,,,,,,,"8 waveforms, 4 overload modes",0-7: clip overload; 8-15: mirror overload; 16-23: zero snap overload; 24-31: wrap overload
+Abildgard,Droid-3,Oscillators,DCO2 PW,Changes the pulse width of DCO2,103,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Oscillators,DCO2 offset,Changes the offset of DCO2,104,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Oscillators,DCO2 amplitude,Changes the amplitude of DCO2,105,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Oscillators,DCO2 octave,Changes the octave of DCO2,106,,0,63,,,,,,,,"16 octaves, 4 frequency tuning modes",0-15: fine tuning; 16-31: linear tuning; 32-47: standard tuning; 48-63: wide tuning
+Abildgard,Droid-3,Oscillators,DCO2 frequency,Changes the frequency of DCO2,107,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env1 Attack,Changes the attack of Env1,108,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env1 Attack Level,Changes the attack level of Env1,109,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env1 Decay,Changes the decay of Env1,110,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env1 Sustain Level,Changes the sustain level of Env1,111,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env1 Release,Changes the release of Env1,112,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env1 Offset,Changes the offset of Env1,113,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env2 Attack,Changes the attack of Env2,114,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env2 Attack Level,Changes the attack level of Env2,115,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env2 Decay,Changes the decay of Env2,116,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env2 Sustain Level,Changes the sustain level of Env2,117,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env2 Release,Changes the release of Env2,118,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,Envelopes,Env2 Offset,Changes the offset of Env2,119,,0,127,,,,,,,0-based,"Requires 8-bit value, use with CC16",
+Abildgard,Droid-3,General,MIDI Channel,Changes the global MIDI channel,120,,0,15,,,,,,,0-based,,

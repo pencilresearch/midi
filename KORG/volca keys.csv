@@ -1,17 +1,17 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-KORG,volca keys,VCO,Portamento,,5,,0,127,,,,,0-based,,
-KORG,volca keys,General,Expression,,11,,0,127,,,,,0-based,,
-KORG,volca keys,General,Voice,,40,,0,127,,,,,0-based,,0-12: Poly; 13-37: Unison; 38-62: Octave; 63-87: Fifth; 88-112: Unison ring; 113-127: Poly ring
-KORG,volca keys,General,Octave,,41,,0,127,,,,,0-based,,0-21: 32'; 22-43: 16'; 44-65: 8'; 66-87: 4'; 88-109: 2'; 110-127: 1'
-KORG,volca keys,VCO,Detune,,42,,0,127,,,,,0-based,,
-KORG,volca keys,VCO,VCO EG depth,,43,,0,127,,,,,0-based,,
-KORG,volca keys,EG,Attack,,49,,0,127,,,,,0-based,,
-KORG,volca keys,EG,Decay/release,,50,,0,127,,,,,0-based,,
-KORG,volca keys,EG,Sustain,,51,,0,127,,,,,0-based,,
-KORG,volca keys,VCF,Cutoff,,44,,0,127,,,,,0-based,,
-KORG,volca keys,VCF,VCF EG intensity,,45,,0,127,,,,,0-based,,
-KORG,volca keys,LFO,Rate,,46,,0,127,,,,,0-based,,
-KORG,volca keys,LFO,Pitch intensity,,47,,0,127,,,,,0-based,,
-KORG,volca keys,LFO,Cutoff intensity,,48,,0,127,,,,,0-based,,
-KORG,volca keys,Delay,Delay time,,52,,0,127,,,,,0-based,,
-KORG,volca keys,Delay,Delay feedback,,53,,0,127,,,,,0-based,,
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,volca keys,VCO,Portamento,,5,,0,127,,,,,,,0-based,,
+KORG,volca keys,General,Expression,,11,,0,127,,,,,,,0-based,,
+KORG,volca keys,General,Voice,,40,,0,127,,,,,,,0-based,,0-12: Poly; 13-37: Unison; 38-62: Octave; 63-87: Fifth; 88-112: Unison ring; 113-127: Poly ring
+KORG,volca keys,General,Octave,,41,,0,127,,,,,,,0-based,,0-21: 32'; 22-43: 16'; 44-65: 8'; 66-87: 4'; 88-109: 2'; 110-127: 1'
+KORG,volca keys,VCO,Detune,,42,,0,127,,,,,,,0-based,,
+KORG,volca keys,VCO,VCO EG depth,,43,,0,127,,,,,,,0-based,,
+KORG,volca keys,EG,Attack,,49,,0,127,,,,,,,0-based,,
+KORG,volca keys,EG,Decay/release,,50,,0,127,,,,,,,0-based,,
+KORG,volca keys,EG,Sustain,,51,,0,127,,,,,,,0-based,,
+KORG,volca keys,VCF,Cutoff,,44,,0,127,,,,,,,0-based,,
+KORG,volca keys,VCF,VCF EG intensity,,45,,0,127,,,,,,,0-based,,
+KORG,volca keys,LFO,Rate,,46,,0,127,,,,,,,0-based,,
+KORG,volca keys,LFO,Pitch intensity,,47,,0,127,,,,,,,0-based,,
+KORG,volca keys,LFO,Cutoff intensity,,48,,0,127,,,,,,,0-based,,
+KORG,volca keys,Delay,Delay time,,52,,0,127,,,,,,,0-based,,
+KORG,volca keys,Delay,Delay feedback,,53,,0,127,,,,,,,0-based,,

@@ -1,277 +1,277 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Elektron,Digitakt II,Track,Track: Mute,,94,,0,1,1,101,0,1,0-based,,0: Unmuted; 1: Muted
-Elektron,Digitakt II,Track,Track: Level,,95,,0,127,1,100,0,127,0-based,,
-Elektron,Digitakt II,Trig,Trig: Note,,3,,0,127,3,0,0,127,0-based,,
-Elektron,Digitakt II,Trig,Trig: Velocity,,4,,1,127,3,1,1,127,0-based,,
-Elektron,Digitakt II,Trig,Trig: Length,,5,,0,127,3,2,0,127,0-based,,6: 1/32; 14: 1/16; 30: 1/8; 38: 3.00; 46: 1/4; 62: 1/2; 78: 16.0; 94: 32.0; 110: 64.0; 127: Infinite; 0-127: Length
-Elektron,Digitakt II,Trig,Trig: Filter Trig,,13,,0,1,,,,,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Trig,Trig: LFO Trig,,14,,0,127,,,,,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Trig,Trig: Portamento Time,,9,,0,127,3,7,0,127,0-based,,
-Elektron,Digitakt II,Trig,Trig: Portamento On/Off,,65,,0,1,3,8,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Source: Generic,Source: Tune,,16,,0,127,1,0,512,15872,0-based,,
-Elektron,Digitakt II,Source: Generic,Source: Play Mode,,17,,0,3,1,1,0,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Generic,Source: Sample Bank Select,,24,,0,127,1,9,0,16383,0-based,,
-Elektron,Digitakt II,Source: Generic,Source: Sample Slot Select,,19,,0,127,1,8,0,16383,0-based,,
-Elektron,Digitakt II,Source: Generic,Source: Parameter E,,20,,0,127,1,4,0,15360,0-based,,
-Elektron,Digitakt II,Source: Generic,Source: Parameter F,,21,,0,127,1,5,0,15360,0-based,,
-Elektron,Digitakt II,Source: Generic,Source: Parameter G,,22,,0,127,1,6,0,15360,0-based,,
-Elektron,Digitakt II,Source: Generic,Source: Sample Level,,23,,0,127,1,7,0,127,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Tune,,16,,0,127,1,0,512,15872,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Play Mode,,17,,0,3,1,1,0,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Bank Select,,24,,0,127,1,9,0,16383,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Slot Select,,19,,0,127,1,8,0,16383,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Start,,20,,0,127,1,4,0,15360,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Length,,21,,0,127,1,5,0,15360,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Loop Pos,,22,,0,127,1,6,0,15361,0-based,, 0: Off
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Level,,23,,0,127,1,7,0,127,0-based,,
-Elektron,Digitakt II,Source: Werp,Werp: Tune,,16,,0,127,1,0,512,15872,0-based,,
-Elektron,Digitakt II,Source: Werp,Werp: Play Mode,,17,,0,3,1,1,0,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Werp,Werp: Sample Bank Select,,24,,0,127,1,9,0,16383,0-based,,
-Elektron,Digitakt II,Source: Werp,Werp: Sample Slot Select,,19,,0,127,1,8,0,16383,0-based,,
-Elektron,Digitakt II,Source: Werp,Werp: Segment Size,,20,,0,2,1,4,0,2,0-based,,0: 1/32; 1: 1/16; 2: 1/8
-Elektron,Digitakt II,Source: Werp,Werp: Segment Mode,,21,,0,3,1,5,0,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Werp,Werp: Bars,,22,,0,3,1,6,0,3,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
-Elektron,Digitakt II,Source: Werp,Werp: Sample Level,,23,,0,127,1,7,0,127,0-based,,
-Elektron,Digitakt II,Source: Stretch,Stretch: Tune,,16,,0,127,1,0,512,15872,0-based,,
-Elektron,Digitakt II,Source: Stretch,Stretch: Play Mode,,17,,0,3,1,1,0,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Stretch,Stretch: Sample Bank Select,,24,,0,127,1,9,0,16383,0-based,,
-Elektron,Digitakt II,Source: Stretch,Stretch: Sample Slot Select,,19,,0,127,1,8,0,16383,0-based,,
-Elektron,Digitakt II,Source: Stretch,Stretch: Start,,20,,0,127,1,4,0,15360,0-based,,
-Elektron,Digitakt II,Source: Stretch,Stretch: Length,,21,,0,127,1,5,0,15360,0-based,,
-Elektron,Digitakt II,Source: Stretch,Stretch: Bars,,22,,0,3,1,6,0,3,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
-Elektron,Digitakt II,Source: Stretch,Stretch: Sample Level,,23,,0,127,1,7,0,127,0-based,,
-Elektron,Digitakt II,Source: Repitch,Repitch: Tune,,16,,0,127,1,0,512,15872,0-based,,
-Elektron,Digitakt II,Source: Repitch,Repitch: Play Mode,,17,,0,3,1,1,0,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Repitch,Repitch: Sample Bank Select,,24,,0,127,1,9,0,16383,0-based,,
-Elektron,Digitakt II,Source: Repitch,Repitch: Sample Slot Select,,19,,0,127,1,8,0,16383,0-based,,
-Elektron,Digitakt II,Source: Repitch,Repitch: Start,,20,,0,127,1,4,0,15360,0-based,,
-Elektron,Digitakt II,Source: Repitch,Repitch: Length,,21,,0,127,1,5,0,15360,0-based,,
-Elektron,Digitakt II,Source: Repitch,Repitch: Bars,,22,,0,3,1,6,0,3,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
-Elektron,Digitakt II,Source: Repitch,Repitch: Sample Level,,23,,0,127,1,7,0,127,0-based,,
-Elektron,Digitakt II,Source: Slice,Slice: Tune,,16,,0,127,1,0,512,15872,0-based,,
-Elektron,Digitakt II,Source: Slice,Slice: Play Mode,,17,,0,3,1,1,0,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Slice,Slice: Sample Bank Select,,24,,0,127,1,9,0,16383,0-based,,
-Elektron,Digitakt II,Source: Slice,Slice: Sample Slot Select,,19,,0,127,1,8,0,16383,0-based,,
-Elektron,Digitakt II,Source: Slice,Slice: Slice Select,,20,,0,64,1,4,0,64,0-based,,0: Note
-Elektron,Digitakt II,Source: Slice,Slice: Slice Length,,21,,0,63,1,5,0,63,0-based,,
-Elektron,Digitakt II,Source: Slice,Slice: Sample Level,,23,,0,127,1,7,0,127,0-based,,
-Elektron,Digitakt II,Source: Grid,Grid: Tune,,16,,0,127,1,0,512,15872,0-based,,
-Elektron,Digitakt II,Source: Grid,Grid: Play Mode,,17,,0,3,1,1,0,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Grid,Grid: Sample Bank Select,,24,,0,127,1,9,0,16383,0-based,,
-Elektron,Digitakt II,Source: Grid,Grid: Sample Slot Select,,19,,0,127,1,8,0,16383,0-based,,
-Elektron,Digitakt II,Source: Grid,Grid: Slice Select,,20,,0,64,1,4,0,64,0-based,,0: Note
-Elektron,Digitakt II,Source: Grid,Grid: Slice Length,,21,,0,63,1,5,0,63,0-based,,
-Elektron,Digitakt II,Source: Grid,Grid: Slice Grid,,22,,0,4,1,6,0,4,0-based,, 0: 4; 1: 8; 2: 16; 3: 32; 4: 64
-Elektron,Digitakt II,Source: Grid,Grid: Sample Level,,23,,0,127,1,7,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Attack Time,,70,,0,127,1,16,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Decay Time,,71,,0,127,1,17,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Sustain Level,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Release Time,,73,,0,127,1,19,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Frequency,,74,,0,127,1,20,0,16383,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Parameter F,,75,,0,127,1,21,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Parameter G,,76,,0,127,1,22,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Env.Depth,,77,,0,127,1,26,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Env.Delay,,91,,0,127,1,23,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Key Tracking,,92,,0,100,1,69,0,100,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Base,,26,,0,127,1,51,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: Width,,27,,0,127,1,52,0,127,0-based,,
-Elektron,Digitakt II,Filter: Generic,Filter: BW Routing,,27,,0,1,1,15,0,1,0-based,,0: Pre Filter; 1: Post Filter
-Elektron,Digitakt II,Filter: Generic,Filter: Env.Reset,,111,,0,1,1,68,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Attack Time,,70,,0,127,1,16,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Decay Time,,71,,0,127,1,17,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Sustain Level,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Release Time,,73,,0,127,1,19,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Frequency,,74,,0,127,1,20,0,16256,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Resonance,,75,,0,127,1,21,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Filter Type,,76,,0,127,1,22,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Env.Depth,,77,,0,127,1,26,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Env.Delay,,91,,0,127,1,23,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Key Tracking,,92,,0,100,1,69,0,100,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Base,,26,,0,127,1,51,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Width,,27,,0,127,1,52,0,127,0-based,,
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: BW Routing,,27,,0,1,1,15,0,1,0-based,,0: Pre Filter; 1: Post Filter
-Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Env.Reset,,111,,0,1,1,68,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Attack Time,,70,,0,127,1,16,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Decay Time,,71,,0,127,1,17,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Sustain Level,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Release Time,,73,,0,127,1,19,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Frequency,,74,,0,127,1,20,0,16256,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Resonance,,75,,0,127,1,21,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Env.Depth,,77,,0,127,1,26,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Env.Delay,,91,,0,127,1,23,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Key Tracking,,92,,0,100,1,69,0,100,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Base,,26,,0,127,1,51,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Width,,27,,0,127,1,52,0,127,0-based,,
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: BW Routing,,27,,0,1,1,15,0,1,0-based,,0: Pre Filter; 1: Post Filter
-Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Env.Reset,,111,,0,1,1,68,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Attack Time,,70,,0,127,1,16,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Decay Time,,71,,0,127,1,17,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Sustain Level,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Release Time,,73,,0,127,1,19,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Frequency,,74,,0,127,1,20,0,16256,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Resonance,,75,,0,127,1,21,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Filter Type,,76,,0,2,1,22,0,2,0-based,,0: LP; 1: HP; 2: Off
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Env.Depth,,77,,0,127,1,26,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Env.Delay,,91,,0,127,1,23,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Key Tracking,,92,,0,100,1,69,0,100,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Base,,26,,0,127,1,51,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Width,,27,,0,127,1,52,0,127,0-based,,
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: BW Routing,,27,,0,1,1,15,0,1,0-based,,0: Pre Filter; 1: Post Filter
-Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Env.Reset,,111,,0,1,1,68,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Filter: Comb-,Comb-: Attack Time,,70,,0,127,1,16,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Decay Time,,71,,0,127,1,17,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Sustain Level,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Release Time,,73,,0,127,1,19,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Frequency,,74,,0,127,1,20,0,16256,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Feedback,,75,,0,127,1,21,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Lowpass Filter,,76,,0,2,1,22,0,2,0-based,,0: LP; 1: HP; 2: Off
-Elektron,Digitakt II,Filter: Comb-,Comb-: Env.Depth,,77,,0,127,1,26,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Env.Delay,,91,,0,127,1,23,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Key Tracking,,92,,0,100,1,69,0,100,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Base,,26,,0,127,1,51,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: Width,,27,,0,127,1,52,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb-,Comb-: BW Routing,,27,,0,1,1,15,0,1,0-based,,0: Pre Filter; 1: Post Filter
-Elektron,Digitakt II,Filter: Comb-,Comb-: Env.Reset,,111,,0,1,1,68,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Filter: Comb+,Comb+: Attack Time,,70,,0,127,1,16,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Decay Time,,71,,0,127,1,17,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Sustain Level,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Release Time,,73,,0,127,1,19,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Frequency,,74,,0,127,1,20,0,16256,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Feedback,,75,,0,127,1,21,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Lowpass Filter,,76,,0,2,1,22,0,2,0-based,,0: LP; 1: HP; 2: Off
-Elektron,Digitakt II,Filter: Comb+,Comb+: Env.Depth,,77,,0,127,1,26,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Env.Delay,,91,,0,127,1,23,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Key Tracking,,92,,0,100,1,69,0,100,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Base,,26,,0,127,1,51,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: Width,,27,,0,127,1,52,0,127,0-based,,
-Elektron,Digitakt II,Filter: Comb+,Comb+: BW Routing,,27,,0,1,1,15,0,1,0-based,,0: Pre Filter; 1: Post Filter
-Elektron,Digitakt II,Filter: Comb+,Comb+: Env.Reset,,111,,0,1,1,68,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Attack Time,,70,,0,127,1,16,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Decay Time,,71,,0,127,1,17,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Sustain Level,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Release Time,,73,,0,127,1,19,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Frequency,,74,,0,127,1,20,0,16256,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Gain,,75,,0,127,1,21,0,127,centered,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Q,,76,,0,127,1,22,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Env.Depth,,77,,0,127,1,26,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Env.Delay,,91,,0,127,1,23,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Key Tracking,,92,,0,100,1,69,0,100,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Base,,26,,0,127,1,51,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Width,,27,,0,127,1,52,0,127,0-based,,
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: BW Routing,,27,,0,1,1,15,0,1,0-based,,0: Pre Filter; 1: Post Filter
-Elektron,Digitakt II,Filter: Equalizer,Equalizer: Env.Reset,,111,,0,1,1,68,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Amp,Amp: Attack Time,,79,,0,127,1,30,0,127,0-based,,
-Elektron,Digitakt II,Amp,Amp: Hold Time,,80,,0,127,1,31,0,127,0-based,,127: Note
-Elektron,Digitakt II,Amp,Amp: Decay Time,,81,,0,127,1,32,0,127,0-based,,127: Infinite
-Elektron,Digitakt II,Amp,Amp: Sustain Level,,82,,0,127,1,33,0,127,0-based,,
-Elektron,Digitakt II,Amp,Amp: Release Time,,83,,0,127,1,34,0,127,0-based,,127: Infinite
-Elektron,Digitakt II,Amp,Amp: Env.Reset,,88,,0,1,1,41,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Amp,Amp: Mode,,87,,0,1,1,40,0,1,0-based,,0: AHD; 1: ADSR
-Elektron,Digitakt II,Amp,Amp: Pan,,90,,0,127,1,38,0,127,centered,,
-Elektron,Digitakt II,Amp,Amp: Volume,,89,,0,127,1,39,0,127,0-based,,
-Elektron,Digitakt II,FX,Track: Bit Reduction,,54,,0,127,1,11,0,127,0-based,,
-Elektron,Digitakt II,FX,Track: Overdrive,,57,,0,127,1,14,0,127,0-based,,
-Elektron,Digitakt II,FX,Track: Sample-Rate Redux,,55,,0,127,1,12,0,127,0-based,,
-Elektron,Digitakt II,FX,Track: SRR Routing,,56,,0,1,1,13,0,1,0-based,,0: PRE Filter; 1: POST Filter
-Elektron,Digitakt II,FX,Track: Delay Send,,84,,0,127,1,36,0,127,0-based,,0: Off
-Elektron,Digitakt II,FX,Track: Reverb Send,,85,,0,127,1,37,0,127,0-based,,0: Off
-Elektron,Digitakt II,FX,Track: Chorus Send,,12,,0,127,1,35,0,127,0-based,,0: Off
-Elektron,Digitakt II,FX,Track: Overdrive Routing,,25,,0,1,1,10,0,1,0-based,,0: PRE Filter; 1: POST Filter
-Elektron,Digitakt II,FX,Delay: Delay Time,,21,,0,127,2,0,0,16256,0-based,,
-Elektron,Digitakt II,FX,Delay: Pingpong,,22,,0,1,2,1,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,FX,Delay: Stereo Width,,23,,0,127,2,2,0,127,centered,,
-Elektron,Digitakt II,FX,Delay: Feedback,,24,,0,127,2,3,0,16256,0-based,,
-Elektron,Digitakt II,FX,Delay: Highpass Filter,,25,,0,127,2,4,0,127,0-based,,
-Elektron,Digitakt II,FX,Delay: Lowpass Filter,,26,,0,127,2,5,0,127,0-based,,
-Elektron,Digitakt II,FX,Delay: Reverb Send,,27,,0,127,2,6,0,127,0-based,,
-Elektron,Digitakt II,FX,Delay: Mix Volume,,28,,0,127,2,7,0,127,0-based,,
-Elektron,Digitakt II,FX,Reverb: Predelay,,29,,0,127,2,8,0,127,0-based,,
-Elektron,Digitakt II,FX,Reverb: Decay Time,,30,,0,127,2,9,0,127,0-based,,
-Elektron,Digitakt II,FX,Reverb: Shelving Freq,,31,,0,127,2,10,0,127,0-based,,
-Elektron,Digitakt II,FX,Reverb: Shelving Gain,,89,,0,127,2,11,0,127,0-based,,
-Elektron,Digitakt II,FX,Reverb: Highpass Filter,,90,,0,127,2,12,0,127,0-based,,
-Elektron,Digitakt II,FX,Reverb: Lowpass Filter,,91,,0,127,2,13,0,127,0-based,,
-Elektron,Digitakt II,FX,Reverb: Mix Volume,,92,,0,127,2,15,0,127,0-based,,
-Elektron,Digitakt II,FX,Chorus: Depth,,16,,0,127,2,41,0,127,0-based,,
-Elektron,Digitakt II,FX,Chorus: Speed,,9,,0,127,2,42,0,127,0-based,,
-Elektron,Digitakt II,FX,Chorus: High Pass Filter,,70,,0,127,2,43,0,127,0-based,,
-Elektron,Digitakt II,FX,Chorus: Width,,71,,0,127,2,44,0,127,0-based,,
-Elektron,Digitakt II,FX,Chorus: Delay Send,,12,,0,127,2,45,0,127,0-based,,
-Elektron,Digitakt II,FX,Chorus: Reverb Send,,13,,0,127,2,46,0,127,0-based,,
-Elektron,Digitakt II,FX,Chorus: Mix Volume,,14,,0,127,2,47,0,127,0-based,,
-Elektron,Digitakt II,Mod,LFO 1: Speed,,102,58,0,16383,1,45,0,16383,centered,,
-Elektron,Digitakt II,Mod,LFO 1: Multiplier,,103,,0,23,1,43,0,23,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Digitakt II,Mod,LFO 1: Fade In/Out,,104,,0,127,1,44,0,127,centered,,
-Elektron,Digitakt II,Mod,LFO 1: Destination,,105,,0,127,1,45,0,127,0-based,,
-Elektron,Digitakt II,Mod,LFO 1: Waveform,,106,,0,6,1,46,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
-Elektron,Digitakt II,Mod,LFO 1: Start Phase,,107,,0,127,1,47,0,127,0-based,,
-Elektron,Digitakt II,Mod,LFO 1: Trig Mode,,108,,0,4,1,48,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Digitakt II,Mod,LFO 1: Depth,,109,59,0,16383,1,49,0,16383,centered,,
-Elektron,Digitakt II,Mod,LFO 2: Speed,,112,60,0,16383,1,50,0,16383,centered,,
-Elektron,Digitakt II,Mod,LFO 2: Multiplier,,113,,0,23,1,51,0,23,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Digitakt II,Mod,LFO 2: Fade In/Out,,114,,0,127,1,52,0,127,centered,,
-Elektron,Digitakt II,Mod,LFO 2: Destination,,115,,0,127,1,53,0,127,0-based,,
-Elektron,Digitakt II,Mod,LFO 2: Waveform,,116,,0,6,1,54,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
-Elektron,Digitakt II,Mod,LFO 2: Start Phase,,117,,0,127,1,55,0,127,0-based,,
-Elektron,Digitakt II,Mod,LFO 2: Trig Mode,,118,,0,4,1,56,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Digitakt II,Mod,LFO 2: Depth,,119,61,0,16383,1,57,0,16383,centered,,
-Elektron,Digitakt II,Mod,LFO 3: Speed,,78,62,0,16383,1,58,0,16383,centered,,
-Elektron,Digitakt II,Mod,LFO 3: Multiplier,,52,,0,23,1,59,0,23,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Digitakt II,Mod,LFO 3: Fade In/Out,,53,,0,127,1,60,0,127,centered,,
-Elektron,Digitakt II,Mod,LFO 3: Destination,,28,,0,127,1,61,0,127,0-based,,
-Elektron,Digitakt II,Mod,LFO 3: Waveform,,29,,0,6,1,62,0,6,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
-Elektron,Digitakt II,Mod,LFO 3: Start Phase,,30,,0,127,1,70,0,127,0-based,,
-Elektron,Digitakt II,Mod,LFO 3: Trig Mode,,31,,0,4,1,71,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Digitakt II,Mod,LFO 3: Depth,,86,63,0,16383,1,72,0,16383,centered,,
-Elektron,Digitakt II,Mixer,Compressor: Threshold,,111,,0,127,2,16,0,127,0-based,,
-Elektron,Digitakt II,Mixer,Compressor: Attack Time,,112,,0,127,2,17,0,127,0-based,,
-Elektron,Digitakt II,Mixer,Compressor: Release Time,,113,,0,127,2,18,0,127,0-based,,
-Elektron,Digitakt II,Mixer,Compressor: Makeup Gain,,114,,0,127,2,19,0,127,0-based,,
-Elektron,Digitakt II,Mixer,Compressor: Pattern Volume,,119,,0,127,2,24,0,127,0-based,,
-Elektron,Digitakt II,Mixer,Compressor: Ratio,,115,,0,127,2,20,0,127,0-based,,
-Elektron,Digitakt II,Mixer,Compressor: Sidechain Source,,116,,0,127,2,21,0,127,0-based,list,
-Elektron,Digitakt II,Mixer,Compressor: Sidechain Filter,,117,,0,127,2,22,0,127,0-based,,
-Elektron,Digitakt II,Mixer,Compressor: Dry/Wet Mix,,118,,0,127,2,23,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Dual Mono,,82,,0,1,2,40,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Mixer,External Mixer: Input L Level,,72,,0,127,2,30,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L Pan,,74,,0,127,2,32,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input R Level,,73,,0,127,2,31,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input R Pan,,75,,0,127,2,33,0,127,centered,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L Delay Send,,78,,0,127,2,36,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input R Delay Send,,79,,0,127,2,37,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L Reverb Send,,80,,0,127,2,38,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input R Reverb Send,,81,,0,127,2,39,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L Chorus Send,,76,,0,127,2,34,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input R Chorus Send,,77,,0,127,2,35,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L R Level,,72,,0,127,2,30,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L R Balance,,74,,0,127,2,32,0,127,centered,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L R Delay Send,,78,,0,127,2,36,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L R Reverb Send,,80,,0,127,2,38,0,127,0-based,,
-Elektron,Digitakt II,Mixer,External Mixer: Input L R Chorus Send,,76,,0,127,2,34,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 1,,70,,0,127,1,16,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 2,,71,,0,127,1,17,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 3,,72,,0,127,1,18,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 4,,73,,0,127,1,19,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 5,,74,,0,127,1,20,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 6,,75,,0,127,1,21,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 7,,76,,0,127,1,22,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 8,,77,,0,127,1,23,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 9,,,,0,127,1,60,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 10,,,,0,127,1,61,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 11,,,,0,127,1,62,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 12,,,,0,127,1,63,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 13,,,,0,127,1,64,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 14,,,,0,127,1,65,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 15,,,,0,127,1,66,0,127,0-based,,
-Elektron,Digitakt II,MIDI,CC Value 16,,,,0,127,1,67,0,127,0-based,,
-Elektron,Digitakt II,Euclidean,Pulse Gen 1,,,,,,3,8,0,16,0-based,,
-Elektron,Digitakt II,Euclidean,Pulse Gen 2,,,,,,3,9,0,16,0-based,,
-Elektron,Digitakt II,Euclidean,Euclidean Mode,,,,,,3,14,0,1,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Euclidean,Rotation Gen 1,,,,,,3,11,0,127,centered,range: 112 - 127 - 14 (weird),
-Elektron,Digitakt II,Euclidean,Rotation Gen 2,,,,,,3,12,0,127,centered,range: 112 - 127 - 14 (weird),
-Elektron,Digitakt II,Euclidean,Track Rotation,,,,,,3,13,0,127,centered,range: 112 - 127 - 14 (weird),
-Elektron,Digitakt II,Euclidean,Boolean Operator,,,,,,3,10,0,3,0-based,,0: OR; 1: XOR; 2: AND; 3: SUB
-Elektron,Digitakt II,Misc,Pattern Mute,,110,,0,1,1,104,0,1,0-based,,0: Unmuted; 1: Muted
-Elektron,Digitakt II,Misc,Sample Slot,,19,,0,127,1,8,0,16383,0-based,,
-Elektron,Digitakt II,Misc,Sample Bank,,24,,0,127,1,9,0,16383,0-based,,
-Elektron,Digitakt II,Misc,Master Overdrive,,17,,0,127,2,37,0,127,0-based,,
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Elektron,Digitakt II,Track,Track: Mute,,94,,0,1,,1,101,0,1,,0-based,,0: Unmuted; 1: Muted
+Elektron,Digitakt II,Track,Track: Level,,95,,0,127,,1,100,0,127,,0-based,,
+Elektron,Digitakt II,Trig,Trig: Note,,3,,0,127,,3,0,0,127,,0-based,,
+Elektron,Digitakt II,Trig,Trig: Velocity,,4,,1,127,,3,1,1,127,,0-based,,
+Elektron,Digitakt II,Trig,Trig: Length,,5,,0,127,,3,2,0,127,,0-based,,6: 1/32; 14: 1/16; 30: 1/8; 38: 3.00; 46: 1/4; 62: 1/2; 78: 16.0; 94: 32.0; 110: 64.0; 127: Infinite; 0-127: Length
+Elektron,Digitakt II,Trig,Trig: Filter Trig,,13,,0,1,,,,,,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Trig,Trig: LFO Trig,,14,,0,127,,,,,,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Trig,Trig: Portamento Time,,9,,0,127,,3,7,0,127,,0-based,,
+Elektron,Digitakt II,Trig,Trig: Portamento On/Off,,65,,0,1,,3,8,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Source: Generic,Source: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
+Elektron,Digitakt II,Source: Generic,Source: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
+Elektron,Digitakt II,Source: Generic,Source: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Generic,Source: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Generic,Source: Parameter E,,20,,0,127,,1,4,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Generic,Source: Parameter F,,21,,0,127,,1,5,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Generic,Source: Parameter G,,22,,0,127,,1,6,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Generic,Source: Sample Level,,23,,0,127,,1,7,0,127,,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Start,,20,,0,127,,1,4,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Length,,21,,0,127,,1,5,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Loop Pos,,22,,0,127,,1,6,0,15361,,0-based,, 0: Off
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Level,,23,,0,127,,1,7,0,127,,0-based,,
+Elektron,Digitakt II,Source: Werp,Werp: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
+Elektron,Digitakt II,Source: Werp,Werp: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
+Elektron,Digitakt II,Source: Werp,Werp: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Werp,Werp: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Werp,Werp: Segment Size,,20,,0,2,,1,4,0,2,,0-based,,0: 1/32; 1: 1/16; 2: 1/8
+Elektron,Digitakt II,Source: Werp,Werp: Segment Mode,,21,,0,3,,1,5,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
+Elektron,Digitakt II,Source: Werp,Werp: Bars,,22,,0,3,,1,6,0,3,,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
+Elektron,Digitakt II,Source: Werp,Werp: Sample Level,,23,,0,127,,1,7,0,127,,0-based,,
+Elektron,Digitakt II,Source: Stretch,Stretch: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
+Elektron,Digitakt II,Source: Stretch,Stretch: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
+Elektron,Digitakt II,Source: Stretch,Stretch: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Stretch,Stretch: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Stretch,Stretch: Start,,20,,0,127,,1,4,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Stretch,Stretch: Length,,21,,0,127,,1,5,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Stretch,Stretch: Bars,,22,,0,3,,1,6,0,3,,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
+Elektron,Digitakt II,Source: Stretch,Stretch: Sample Level,,23,,0,127,,1,7,0,127,,0-based,,
+Elektron,Digitakt II,Source: Repitch,Repitch: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
+Elektron,Digitakt II,Source: Repitch,Repitch: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
+Elektron,Digitakt II,Source: Repitch,Repitch: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Repitch,Repitch: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Repitch,Repitch: Start,,20,,0,127,,1,4,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Repitch,Repitch: Length,,21,,0,127,,1,5,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Repitch,Repitch: Bars,,22,,0,3,,1,6,0,3,,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
+Elektron,Digitakt II,Source: Repitch,Repitch: Sample Level,,23,,0,127,,1,7,0,127,,0-based,,
+Elektron,Digitakt II,Source: Slice,Slice: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
+Elektron,Digitakt II,Source: Slice,Slice: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
+Elektron,Digitakt II,Source: Slice,Slice: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Slice,Slice: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Slice,Slice: Slice Select,,20,,0,64,,1,4,0,64,,0-based,,0: Note
+Elektron,Digitakt II,Source: Slice,Slice: Slice Length,,21,,0,63,,1,5,0,63,,0-based,,
+Elektron,Digitakt II,Source: Slice,Slice: Sample Level,,23,,0,127,,1,7,0,127,,0-based,,
+Elektron,Digitakt II,Source: Grid,Grid: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
+Elektron,Digitakt II,Source: Grid,Grid: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
+Elektron,Digitakt II,Source: Grid,Grid: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Grid,Grid: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
+Elektron,Digitakt II,Source: Grid,Grid: Slice Select,,20,,0,64,,1,4,0,64,,0-based,,0: Note
+Elektron,Digitakt II,Source: Grid,Grid: Slice Length,,21,,0,63,,1,5,0,63,,0-based,,
+Elektron,Digitakt II,Source: Grid,Grid: Slice Grid,,22,,0,4,,1,6,0,4,,0-based,, 0: 4; 1: 8; 2: 16; 3: 32; 4: 64
+Elektron,Digitakt II,Source: Grid,Grid: Sample Level,,23,,0,127,,1,7,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Attack Time,,70,,0,127,,1,16,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Decay Time,,71,,0,127,,1,17,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Sustain Level,,72,,0,127,,1,18,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Release Time,,73,,0,127,,1,19,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Frequency,,74,,0,127,,1,20,0,16383,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Parameter F,,75,,0,127,,1,21,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Parameter G,,76,,0,127,,1,22,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Env.Depth,,77,,0,127,,1,26,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Env.Delay,,91,,0,127,,1,23,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Key Tracking,,92,,0,100,,1,69,0,100,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Base,,26,,0,127,,1,51,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: Width,,27,,0,127,,1,52,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Generic,Filter: BW Routing,,27,,0,1,,1,15,0,1,,0-based,,0: Pre Filter; 1: Post Filter
+Elektron,Digitakt II,Filter: Generic,Filter: Env.Reset,,111,,0,1,,1,68,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Attack Time,,70,,0,127,,1,16,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Decay Time,,71,,0,127,,1,17,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Sustain Level,,72,,0,127,,1,18,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Release Time,,73,,0,127,,1,19,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Frequency,,74,,0,127,,1,20,0,16256,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Resonance,,75,,0,127,,1,21,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Filter Type,,76,,0,127,,1,22,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Env.Depth,,77,,0,127,,1,26,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Env.Delay,,91,,0,127,,1,23,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Key Tracking,,92,,0,100,,1,69,0,100,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Base,,26,,0,127,,1,51,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Width,,27,,0,127,,1,52,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: BW Routing,,27,,0,1,,1,15,0,1,,0-based,,0: Pre Filter; 1: Post Filter
+Elektron,Digitakt II,Filter: Multi-Mode,Multi-Mode: Env.Reset,,111,,0,1,,1,68,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Attack Time,,70,,0,127,,1,16,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Decay Time,,71,,0,127,,1,17,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Sustain Level,,72,,0,127,,1,18,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Release Time,,73,,0,127,,1,19,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Frequency,,74,,0,127,,1,20,0,16256,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Resonance,,75,,0,127,,1,21,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Env.Depth,,77,,0,127,,1,26,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Env.Delay,,91,,0,127,,1,23,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Key Tracking,,92,,0,100,,1,69,0,100,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Base,,26,,0,127,,1,51,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Width,,27,,0,127,,1,52,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: BW Routing,,27,,0,1,,1,15,0,1,,0-based,,0: Pre Filter; 1: Post Filter
+Elektron,Digitakt II,Filter: Lowpass 4,Lowpass 4: Env.Reset,,111,,0,1,,1,68,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Attack Time,,70,,0,127,,1,16,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Decay Time,,71,,0,127,,1,17,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Sustain Level,,72,,0,127,,1,18,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Release Time,,73,,0,127,,1,19,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Frequency,,74,,0,127,,1,20,0,16256,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Resonance,,75,,0,127,,1,21,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Filter Type,,76,,0,2,,1,22,0,2,,0-based,,0: LP; 1: HP; 2: Off
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Env.Depth,,77,,0,127,,1,26,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Env.Delay,,91,,0,127,,1,23,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Key Tracking,,92,,0,100,,1,69,0,100,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Base,,26,,0,127,,1,51,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Width,,27,,0,127,,1,52,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: BW Routing,,27,,0,1,,1,15,0,1,,0-based,,0: Pre Filter; 1: Post Filter
+Elektron,Digitakt II,Filter: Legacy LP/HP,Legacy LP/HP: Env.Reset,,111,,0,1,,1,68,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Filter: Comb-,Comb-: Attack Time,,70,,0,127,,1,16,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Decay Time,,71,,0,127,,1,17,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Sustain Level,,72,,0,127,,1,18,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Release Time,,73,,0,127,,1,19,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Frequency,,74,,0,127,,1,20,0,16256,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Feedback,,75,,0,127,,1,21,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Lowpass Filter,,76,,0,2,,1,22,0,2,,0-based,,0: LP; 1: HP; 2: Off
+Elektron,Digitakt II,Filter: Comb-,Comb-: Env.Depth,,77,,0,127,,1,26,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Env.Delay,,91,,0,127,,1,23,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Key Tracking,,92,,0,100,,1,69,0,100,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Base,,26,,0,127,,1,51,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: Width,,27,,0,127,,1,52,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb-,Comb-: BW Routing,,27,,0,1,,1,15,0,1,,0-based,,0: Pre Filter; 1: Post Filter
+Elektron,Digitakt II,Filter: Comb-,Comb-: Env.Reset,,111,,0,1,,1,68,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Filter: Comb+,Comb+: Attack Time,,70,,0,127,,1,16,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Decay Time,,71,,0,127,,1,17,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Sustain Level,,72,,0,127,,1,18,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Release Time,,73,,0,127,,1,19,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Frequency,,74,,0,127,,1,20,0,16256,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Feedback,,75,,0,127,,1,21,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Lowpass Filter,,76,,0,2,,1,22,0,2,,0-based,,0: LP; 1: HP; 2: Off
+Elektron,Digitakt II,Filter: Comb+,Comb+: Env.Depth,,77,,0,127,,1,26,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Env.Delay,,91,,0,127,,1,23,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Key Tracking,,92,,0,100,,1,69,0,100,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Base,,26,,0,127,,1,51,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: Width,,27,,0,127,,1,52,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Comb+,Comb+: BW Routing,,27,,0,1,,1,15,0,1,,0-based,,0: Pre Filter; 1: Post Filter
+Elektron,Digitakt II,Filter: Comb+,Comb+: Env.Reset,,111,,0,1,,1,68,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Attack Time,,70,,0,127,,1,16,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Decay Time,,71,,0,127,,1,17,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Sustain Level,,72,,0,127,,1,18,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Release Time,,73,,0,127,,1,19,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Frequency,,74,,0,127,,1,20,0,16256,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Gain,,75,,0,127,,1,21,0,127,,centered,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Q,,76,,0,127,,1,22,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Env.Depth,,77,,0,127,,1,26,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Env.Delay,,91,,0,127,,1,23,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Key Tracking,,92,,0,100,,1,69,0,100,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Base,,26,,0,127,,1,51,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Width,,27,,0,127,,1,52,0,127,,0-based,,
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: BW Routing,,27,,0,1,,1,15,0,1,,0-based,,0: Pre Filter; 1: Post Filter
+Elektron,Digitakt II,Filter: Equalizer,Equalizer: Env.Reset,,111,,0,1,,1,68,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Amp,Amp: Attack Time,,79,,0,127,,1,30,0,127,,0-based,,
+Elektron,Digitakt II,Amp,Amp: Hold Time,,80,,0,127,,1,31,0,127,,0-based,,127: Note
+Elektron,Digitakt II,Amp,Amp: Decay Time,,81,,0,127,,1,32,0,127,,0-based,,127: Infinite
+Elektron,Digitakt II,Amp,Amp: Sustain Level,,82,,0,127,,1,33,0,127,,0-based,,
+Elektron,Digitakt II,Amp,Amp: Release Time,,83,,0,127,,1,34,0,127,,0-based,,127: Infinite
+Elektron,Digitakt II,Amp,Amp: Env.Reset,,88,,0,1,,1,41,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Amp,Amp: Mode,,87,,0,1,,1,40,0,1,,0-based,,0: AHD; 1: ADSR
+Elektron,Digitakt II,Amp,Amp: Pan,,90,,0,127,,1,38,0,127,,centered,,
+Elektron,Digitakt II,Amp,Amp: Volume,,89,,0,127,,1,39,0,127,,0-based,,
+Elektron,Digitakt II,FX,Track: Bit Reduction,,54,,0,127,,1,11,0,127,,0-based,,
+Elektron,Digitakt II,FX,Track: Overdrive,,57,,0,127,,1,14,0,127,,0-based,,
+Elektron,Digitakt II,FX,Track: Sample-Rate Redux,,55,,0,127,,1,12,0,127,,0-based,,
+Elektron,Digitakt II,FX,Track: SRR Routing,,56,,0,1,,1,13,0,1,,0-based,,0: PRE Filter; 1: POST Filter
+Elektron,Digitakt II,FX,Track: Delay Send,,84,,0,127,,1,36,0,127,,0-based,,0: Off
+Elektron,Digitakt II,FX,Track: Reverb Send,,85,,0,127,,1,37,0,127,,0-based,,0: Off
+Elektron,Digitakt II,FX,Track: Chorus Send,,12,,0,127,,1,35,0,127,,0-based,,0: Off
+Elektron,Digitakt II,FX,Track: Overdrive Routing,,25,,0,1,,1,10,0,1,,0-based,,0: PRE Filter; 1: POST Filter
+Elektron,Digitakt II,FX,Delay: Delay Time,,21,,0,127,,2,0,0,16256,,0-based,,
+Elektron,Digitakt II,FX,Delay: Pingpong,,22,,0,1,,2,1,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,FX,Delay: Stereo Width,,23,,0,127,,2,2,0,127,,centered,,
+Elektron,Digitakt II,FX,Delay: Feedback,,24,,0,127,,2,3,0,16256,,0-based,,
+Elektron,Digitakt II,FX,Delay: Highpass Filter,,25,,0,127,,2,4,0,127,,0-based,,
+Elektron,Digitakt II,FX,Delay: Lowpass Filter,,26,,0,127,,2,5,0,127,,0-based,,
+Elektron,Digitakt II,FX,Delay: Reverb Send,,27,,0,127,,2,6,0,127,,0-based,,
+Elektron,Digitakt II,FX,Delay: Mix Volume,,28,,0,127,,2,7,0,127,,0-based,,
+Elektron,Digitakt II,FX,Reverb: Predelay,,29,,0,127,,2,8,0,127,,0-based,,
+Elektron,Digitakt II,FX,Reverb: Decay Time,,30,,0,127,,2,9,0,127,,0-based,,
+Elektron,Digitakt II,FX,Reverb: Shelving Freq,,31,,0,127,,2,10,0,127,,0-based,,
+Elektron,Digitakt II,FX,Reverb: Shelving Gain,,89,,0,127,,2,11,0,127,,0-based,,
+Elektron,Digitakt II,FX,Reverb: Highpass Filter,,90,,0,127,,2,12,0,127,,0-based,,
+Elektron,Digitakt II,FX,Reverb: Lowpass Filter,,91,,0,127,,2,13,0,127,,0-based,,
+Elektron,Digitakt II,FX,Reverb: Mix Volume,,92,,0,127,,2,15,0,127,,0-based,,
+Elektron,Digitakt II,FX,Chorus: Depth,,16,,0,127,,2,41,0,127,,0-based,,
+Elektron,Digitakt II,FX,Chorus: Speed,,9,,0,127,,2,42,0,127,,0-based,,
+Elektron,Digitakt II,FX,Chorus: High Pass Filter,,70,,0,127,,2,43,0,127,,0-based,,
+Elektron,Digitakt II,FX,Chorus: Width,,71,,0,127,,2,44,0,127,,0-based,,
+Elektron,Digitakt II,FX,Chorus: Delay Send,,12,,0,127,,2,45,0,127,,0-based,,
+Elektron,Digitakt II,FX,Chorus: Reverb Send,,13,,0,127,,2,46,0,127,,0-based,,
+Elektron,Digitakt II,FX,Chorus: Mix Volume,,14,,0,127,,2,47,0,127,,0-based,,
+Elektron,Digitakt II,Mod,LFO 1: Speed,,102,58,0,16383,,1,45,0,16383,,centered,,
+Elektron,Digitakt II,Mod,LFO 1: Multiplier,,103,,0,23,,1,43,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Digitakt II,Mod,LFO 1: Fade In/Out,,104,,0,127,,1,44,0,127,,centered,,
+Elektron,Digitakt II,Mod,LFO 1: Destination,,105,,0,127,,1,45,0,127,,0-based,,
+Elektron,Digitakt II,Mod,LFO 1: Waveform,,106,,0,6,,1,46,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Digitakt II,Mod,LFO 1: Start Phase,,107,,0,127,,1,47,0,127,,0-based,,
+Elektron,Digitakt II,Mod,LFO 1: Trig Mode,,108,,0,4,,1,48,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Digitakt II,Mod,LFO 1: Depth,,109,59,0,16383,,1,49,0,16383,,centered,,
+Elektron,Digitakt II,Mod,LFO 2: Speed,,112,60,0,16383,,1,50,0,16383,,centered,,
+Elektron,Digitakt II,Mod,LFO 2: Multiplier,,113,,0,23,,1,51,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Digitakt II,Mod,LFO 2: Fade In/Out,,114,,0,127,,1,52,0,127,,centered,,
+Elektron,Digitakt II,Mod,LFO 2: Destination,,115,,0,127,,1,53,0,127,,0-based,,
+Elektron,Digitakt II,Mod,LFO 2: Waveform,,116,,0,6,,1,54,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Digitakt II,Mod,LFO 2: Start Phase,,117,,0,127,,1,55,0,127,,0-based,,
+Elektron,Digitakt II,Mod,LFO 2: Trig Mode,,118,,0,4,,1,56,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Digitakt II,Mod,LFO 2: Depth,,119,61,0,16383,,1,57,0,16383,,centered,,
+Elektron,Digitakt II,Mod,LFO 3: Speed,,78,62,0,16383,,1,58,0,16383,,centered,,
+Elektron,Digitakt II,Mod,LFO 3: Multiplier,,52,,0,23,,1,59,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Digitakt II,Mod,LFO 3: Fade In/Out,,53,,0,127,,1,60,0,127,,centered,,
+Elektron,Digitakt II,Mod,LFO 3: Destination,,28,,0,127,,1,61,0,127,,0-based,,
+Elektron,Digitakt II,Mod,LFO 3: Waveform,,29,,0,6,,1,62,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Digitakt II,Mod,LFO 3: Start Phase,,30,,0,127,,1,70,0,127,,0-based,,
+Elektron,Digitakt II,Mod,LFO 3: Trig Mode,,31,,0,4,,1,71,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Digitakt II,Mod,LFO 3: Depth,,86,63,0,16383,,1,72,0,16383,,centered,,
+Elektron,Digitakt II,Mixer,Compressor: Threshold,,111,,0,127,,2,16,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,Compressor: Attack Time,,112,,0,127,,2,17,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,Compressor: Release Time,,113,,0,127,,2,18,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,Compressor: Makeup Gain,,114,,0,127,,2,19,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,Compressor: Pattern Volume,,119,,0,127,,2,24,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,Compressor: Ratio,,115,,0,127,,2,20,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,Compressor: Sidechain Source,,116,,0,127,,2,21,0,127,,0-based,list,
+Elektron,Digitakt II,Mixer,Compressor: Sidechain Filter,,117,,0,127,,2,22,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,Compressor: Dry/Wet Mix,,118,,0,127,,2,23,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Dual Mono,,82,,0,1,,2,40,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Mixer,External Mixer: Input L Level,,72,,0,127,,2,30,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L Pan,,74,,0,127,,2,32,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input R Level,,73,,0,127,,2,31,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input R Pan,,75,,0,127,,2,33,0,127,,centered,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L Delay Send,,78,,0,127,,2,36,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input R Delay Send,,79,,0,127,,2,37,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L Reverb Send,,80,,0,127,,2,38,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input R Reverb Send,,81,,0,127,,2,39,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L Chorus Send,,76,,0,127,,2,34,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input R Chorus Send,,77,,0,127,,2,35,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L R Level,,72,,0,127,,2,30,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L R Balance,,74,,0,127,,2,32,0,127,,centered,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L R Delay Send,,78,,0,127,,2,36,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L R Reverb Send,,80,,0,127,,2,38,0,127,,0-based,,
+Elektron,Digitakt II,Mixer,External Mixer: Input L R Chorus Send,,76,,0,127,,2,34,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 1,,70,,0,127,,1,16,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 2,,71,,0,127,,1,17,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 3,,72,,0,127,,1,18,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 4,,73,,0,127,,1,19,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 5,,74,,0,127,,1,20,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 6,,75,,0,127,,1,21,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 7,,76,,0,127,,1,22,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 8,,77,,0,127,,1,23,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 9,,,,0,127,,1,60,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 10,,,,0,127,,1,61,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 11,,,,0,127,,1,62,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 12,,,,0,127,,1,63,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 13,,,,0,127,,1,64,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 14,,,,0,127,,1,65,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 15,,,,0,127,,1,66,0,127,,0-based,,
+Elektron,Digitakt II,MIDI,CC Value 16,,,,0,127,,1,67,0,127,,0-based,,
+Elektron,Digitakt II,Euclidean,Pulse Gen 1,,,,,,,3,8,0,16,,0-based,,
+Elektron,Digitakt II,Euclidean,Pulse Gen 2,,,,,,,3,9,0,16,,0-based,,
+Elektron,Digitakt II,Euclidean,Euclidean Mode,,,,,,,3,14,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Euclidean,Rotation Gen 1,,,,,,,3,11,0,127,,centered,range: 112 - 127 - 14 (weird),
+Elektron,Digitakt II,Euclidean,Rotation Gen 2,,,,,,,3,12,0,127,,centered,range: 112 - 127 - 14 (weird),
+Elektron,Digitakt II,Euclidean,Track Rotation,,,,,,,3,13,0,127,,centered,range: 112 - 127 - 14 (weird),
+Elektron,Digitakt II,Euclidean,Boolean Operator,,,,,,,3,10,0,3,,0-based,,0: OR; 1: XOR; 2: AND; 3: SUB
+Elektron,Digitakt II,Misc,Pattern Mute,,110,,0,1,,1,104,0,1,,0-based,,0: Unmuted; 1: Muted
+Elektron,Digitakt II,Misc,Sample Slot,,19,,0,127,,1,8,0,16383,,0-based,,
+Elektron,Digitakt II,Misc,Sample Bank,,24,,0,127,,1,9,0,16383,,0-based,,
+Elektron,Digitakt II,Misc,Master Overdrive,,17,,0,127,,2,37,0,127,,0-based,,

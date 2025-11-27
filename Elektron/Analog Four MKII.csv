@@ -1,231 +1,231 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Elektron,Analog Four MKII,Performance,Performance: Parameter A,,3,,0,127,0,0,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter B,,4,,0,127,0,1,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter C,,8,,0,127,0,2,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter D,,9,,0,127,0,3,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter E,,11,,0,127,0,4,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter F,,64,,0,127,0,5,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter G,,65,,0,127,0,6,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter H,,66,,0,127,0,7,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter I,,67,,0,127,0,8,0,127,0-based,,
-Elektron,Analog Four MKII,Performance,Performance: Parameter J,,68,,0,127,0,9,0,127,0-based,,
-Elektron,Analog Four MKII,Modulation,Modulation: Modwheel,,1,,0,127,,,,,0-based,,
-Elektron,Analog Four MKII,Modulation,Modulation: Breath,,2,,0,127,,,,,0-based,,
-Elektron,Analog Four MKII,Track,Track: Mute,,94,,0,1,1,101,0,1,0-based,,0: Off; 1: On
-Elektron,Analog Four MKII,Track,Track: Level,,95,,0,127,1,100,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: Pitch,,16,48,0,16383,1,0,0,16383,Centered,,
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: Linear Detune,,,,,,1,2,0,127,Centered,,
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: Keytracking,,,,,,1,3,0,1,0-based,,0: Off; 1: On
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: Level,,69,,0,127,1,4,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: Waveform,,70,,0,7,1,5,0,7,0-based,,0: Sawtooth; 1: Transistor Pulse; 2: Pulse; 3: Triangle; 4: Input Left; 5: Input Right; 6: Filter Feedback; 7: Off
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: Sub Oscillator,,71,,0,4,1,6,0,4,0-based,,0: Off; 1: Square -1 Octave; 2: Square -2 Octave; 3: 25% Pulse -2; 4: 33% Pulse 5th
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: Pulsewidth,,72,,0,127,1,7,0,127,Centered,,
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: PWM Speed,,73,,0,127,1,,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: PWM Depth,,74,,0,127,1,9,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC1,OSC1: AM,,,,,,1,30,0,1,0-based,,0: Off; 1: On
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: Pitch,,17,49,0,16383,1,20,0,16383,Centered,,
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: Detune,,,,,,1,22,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: Keytracking,,,,,,1,23,0,1,0-based,,0: Off; 1: On
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: Level,,78,,0,127,1,2,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: Waveform,,79,,0,7,1,25,0,7,0-based,,0: Sawtooth; 1: Transistor Pulse; 2: Pulse; 3: Triangle; 4: In Left; 5: In Right; 6: Neighbor; 7: Off
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: Sub Oscillator,,80,,0,4,1,26,0,4,0-based,,0: Off; 1: 1 Octave; 2: 2 Octave; 3: 2 Pulse; 4: 5th
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: Pulsewidth,,81,,0,127,1,27,0,127,Centered,,
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: PWM Speed,,82,,0,127,1,,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: PWM Depth,,82,,0,127,1,29,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC2,OSC2: AM,,,,,,1,35,0,1,0-based,,0: Off; 1: On
-Elektron,Analog Four MKII,Synth: OSC,OSC: Sync Mode,,,,,,1,31,0,3,0-based,,0: Off; 1: Osc1->Osc2; 2: Osc2->Osc1; 3: Metal Sync
-Elektron,Analog Four MKII,Synth: OSC,OSC: Sync Amount,,84,,0,127,1,32,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC,OSC: Bend Amount,,85,,0,127,1,33,0,127,Centered,,
-Elektron,Analog Four MKII,Synth: OSC,OSC: Slide Time,,5,,0,127,1,34,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC,OSC: Oscilator Retrig,,,,,,1,36,0,1,0-based,,0: Off; 1: On
-Elektron,Analog Four MKII,Synth: OSC,OSC: Vibrato Fade,,,,,,1,37,0,127,Centered,,
-Elektron,Analog Four MKII,Synth: OSC,OSC: Vibrato Speed,,87,,0,127,1,38,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: OSC,OSC: Vibrato Depth,,88,,0,127,1,39,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: Noise,Noise: S&H,,75,,0,127,1,10,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: Noise,Noise: Color,,,,,,1,11,0,127,Centered,,
-Elektron,Analog Four MKII,Synth: Noise,Noise: Fade,,76,,0,127,1,12,0,127,0-based,,
-Elektron,Analog Four MKII,Synth: Noise,Noise: Level,,77,,0,127,1,14,0,127,0-based,,
-Elektron,Analog Four MKII,Filters,Filter 1: Frequency,,18,50,0,127,1,40,0,127,0-based,,
-Elektron,Analog Four MKII,Filters,Filter 1: Resonance,,89,,0,127,1,41,0,127,0-based,,
-Elektron,Analog Four MKII,Filters,Filter 1: Overdrive,,,,0,127,1,42,0,127,0-based,,
-Elektron,Analog Four MKII,Filters,Filter 1: Keytracking,,,,0,127,1,43,0,127,Centered,,
-Elektron,Analog Four MKII,Filters,Filter 1: Envelope Depth,,102,,0,127,1,44,0,127,Centered,,
-Elektron,Analog Four MKII,Filters,Filter 2: Frequency,,19,51,0,127,1,45,0,127,0-based,,
-Elektron,Analog Four MKII,Filters,Filter 2: Resonance,,90,,0,127,1,46,0,127,0-based,,
-Elektron,Analog Four MKII,Filters,Filter 2: Type,,,,,,1,47,0,6,0-based,,0: 2-pole Lowpass; 1: 1-pole Lowpass; 2: Bandpass; 3: 1-pole Highpass; 4: 2-pole Highpass; 5: Bandstop; 6: Peak
-Elektron,Analog Four MKII,Filters,Filter 2: Keytracking,,,,0,127,1,48,0,127,Centered,,
-Elektron,Analog Four MKII,Filters,Filter 2: Envelope Depth,,103,,0,127,1,49,0,127,Centered,,
-Elektron,Analog Four MKII,Amp,Amp: Chorus Send,,91,,0,127,1,55,0,127,0-based,,
-Elektron,Analog Four MKII,Amp,Amp: Delay Send,,92,,0,127,1,56,0,127,0-based,,
-Elektron,Analog Four MKII,Amp,Amp: Reverb Send,,93,,0,127,1,57,0,127,0-based,,
-Elektron,Analog Four MKII,Amp,Amp: Pan,,10,,0,127,1,58,0,127,Centered,,
-Elektron,Analog Four MKII,Amp,Amp: Volume,,7,,0,127,1,59,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Amp Env: Attack,,104,,0,127,1,50,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Amp Env: Decay,,105,,0,127,1,51,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Amp Env: Sustain,,106,,0,127,1,52,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Amp Env: Release,,107,,0,127,1,53,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Amp Env: Shape,,,,,,1,54,0,11,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
-Elektron,Analog Four MKII,Envelopes,Filter Env: Attack,,108,,0,127,1,60,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Filter Env: Decay,,109,,0,127,1,61,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Filter Env: Sustain,,110,,0,127,1,62,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Filter Env: Release,,111,,0,127,1,63,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Filter Env: Shape,,,,,,1,64,0,11,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
-Elektron,Analog Four MKII,Envelopes,Filter Env: Gate Length,,,,,,1,65,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,Filter Env: Destination A,,,,,,1,66,0,127,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
-Elektron,Analog Four MKII,Envelopes,Filter Env: Depth A,,20,52,0,127,1,67,0,127,Centered,,
-Elektron,Analog Four MKII,Envelopes,Filter Env: Destination B,,,,,,1,68,0,127,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
-Elektron,Analog Four MKII,Envelopes,Filter Env: Depth B,,21,53,0,127,1,69,0,127,Centered,,
-Elektron,Analog Four MKII,Envelopes,AUX Env: Attack,,112,,0,127,1,70,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,AUX Env: Decay,,113,,0,127,1,71,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,AUX Env: Sustain,,114,,0,127,1,72,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,AUX Env: Release,,115,,0,127,1,7,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,AUX Env: Shape,,,,,,1,74,0,11,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
-Elektron,Analog Four MKII,Envelopes,AUX Env: Gate Length,,,,,,1,75,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,AUX Env: Destination A,,,,,,1,76,0,127,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
-Elektron,Analog Four MKII,Envelopes,AUX Env: Depth A,,22,54,0,127,1,77,0,127,Centered,,
-Elektron,Analog Four MKII,Envelopes,AUX Env: Destination B,,,,,,1,78,0,127,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
-Elektron,Analog Four MKII,Envelopes,AUX Env: Depth B,,2,55,0,127,1,79,0,127,Centered,,
-Elektron,Analog Four MKII,Envelopes,CV Env1: Attack,,,,,,3,60,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env1: Decay,,,,,,3,61,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env1: Sustain,,,,,,3,62,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env1: Release,,,,,,3,63,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env1: Shape,,,,,,3,64,0,11,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
-Elektron,Analog Four MKII,Envelopes,CV Env1: Gate Length,,,,,,3,65,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env1: Destination A,,,,,,3,66,0,68,0-based,,68: META:None; 0: CVA:Course Tune; 4: CVA:Fine Tune; 8: CVA:Value; 16: CVA:Source Track; 60: CVA:Bend Depth; 64: CVA:Note Slide Time; 1: CVB:Course Tune; 5: CVB:Fine Tune; 9: CVB:Value; 17: CVB:Source Track; 61: CVB:Bend Depth; 65: CVB:Note Slide Time; 2: CVC:Course Tune; 6: CVC:Fine Tune; 10: CVC:Value; 18: CVC:Source Track; 62: CVC:Bend Depth; 66: CVC:Note Slide Time; 3: CVD:Course Tune; 7: CVD:Fine Tune; 11: CVD:Value; 19: CVD:Source Track; 63: CVD:Bend Depth; 67: CVD:Note Slide Time; 12-16: META:None; 20-59: META:None
-Elektron,Analog Four MKII,Envelopes,CV Env1: Depth A,,,,,,3,67,0,127,Centered,,
-Elektron,Analog Four MKII,Envelopes,CV Env1: Destination B,,,,,,3,68,0,68,0-based,,68: META:None; 0: CVA:Course Tune; 4: CVA:Fine Tune; 8: CVA:Value; 16: CVA:Source Track; 60: CVA:Bend Depth; 64: CVA:Note Slide Time; 1: CVB:Course Tune; 5: CVB:Fine Tune; 9: CVB:Value; 17: CVB:Source Track; 61: CVB:Bend Depth; 65: CVB:Note Slide Time; 2: CVC:Course Tune; 6: CVC:Fine Tune; 10: CVC:Value; 18: CVC:Source Track; 62: CVC:Bend Depth; 66: CVC:Note Slide Time; 3: CVD:Course Tune; 7: CVD:Fine Tune; 11: CVD:Value; 19: CVD:Source Track; 63: CVD:Bend Depth; 67: CVD:Note Slide Time; 12-16: META:None; 20-59: META:None
-Elektron,Analog Four MKII,Envelopes,CV Env1: Depth B,,,,,,3,69,0,127,Centered,,
-Elektron,Analog Four MKII,Envelopes,CV Env2: Attack,,,,,,3,70,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env2: Decay,,,,,,3,71,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env2: Sustain,,,,,,3,72,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env2: Release,,,,,,3,73,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env2: Shape,,,,,,3,74,0,11,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
-Elektron,Analog Four MKII,Envelopes,CV Env2: Gate Length,,,,,,3,75,0,127,0-based,,
-Elektron,Analog Four MKII,Envelopes,CV Env2: Destination A,,,,,,3,76,0,68,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 12-16: META-None; 20-59: META-None
-Elektron,Analog Four MKII,Envelopes,CV Env2: Depth A,,,,,,3,77,0,127,Centered,,
-Elektron,Analog Four MKII,Envelopes,CV Env2: Destination B,,,,,,3,78,0,68,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 12-16: META-None; 20-59: META-None
-Elektron,Analog Four MKII,Envelopes,CV Env2: Depth B,,,,,,3,79,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,LFO1: Speed,,116,,0,127,1,80,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,LFO1: Multiplier,,117,,0,35,1,81,0,35,0-based,,0: x1; 1: x2; 2: x4; 3: x8; 4: x16; 5: x32; 6: x64; 7: x128; 8: x256; 9: x512; 10: x1024; 11: x2048; 12: .1; 13: .2; 14: .4; 15: .8; 16: .16; 17: .32; 18: .64; 19: .128; 20: .256; 21: .512; 22: .1024; 23: .2048; 24: f1; 25: f2; 26: f4; 27: f8; 28: f16; 29: f32; 30: f64; 31: f128; 32: f256; 33: f512; 34: f1024; 35: f2048
-Elektron,Analog Four MKII,LFOs,LFO1: Fade In/Out,,,,,,1,82,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,LFO1: Start Phase,,,,,,1,83,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,LFO1: Mode,,,,,,1,84,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Analog Four MKII,LFOs,LFO1: Waveform,,,,,,1,85,0,6,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
-Elektron,Analog Four MKII,LFOs,LFO1: Destination A,,,,,,1,86,0,127,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
-Elektron,Analog Four MKII,LFOs,LFO1: Depth A,,24,56,0,127,1,87,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,LFO1: Destination B,,,,,,1,88,0,127,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
-Elektron,Analog Four MKII,LFOs,LFO1: Depth B,,25,57,0,127,1,89,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,LFO2: Speed,,118,,0,127,1,90,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,LFO2: Multiplier,,119,,0,35,1,91,0,35,0-based,,0: x1; 1: x2; 2: x4; 3: x8; 4: x16; 5: x32; 6: x64; 7: x128; 8: x256; 9: x512; 10: x1024; 11: x2048; 12: .1; 13: .2; 14: .4; 15: .8; 16: .16; 17: .32; 18: .64; 19: .128; 20: .256; 21: .512; 22: .1024; 23: .2048; 24: f1; 25: f2; 26: f4; 27: f8; 28: f16; 29: f32; 30: f64; 31: f128; 32: f256; 33: f512; 34: f1024; 35: f2048
-Elektron,Analog Four MKII,LFOs,LFO2: Fade In/Out,,,,,,1,92,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,LFO2: Start Phase,,,,,,1,93,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,LFO2: Mode,,,,,,1,94,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Analog Four MKII,LFOs,LFO2: Waveform,,,,,,1,95,0,6,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
-Elektron,Analog Four MKII,LFOs,LFO2: Destination A,,,,0,127,1,96,0,127,0-based,,96: META-None; 18: OSC1-Pitch Mod; 97: OSC1-Freq Mod; 2: OSC1-Linear Detune; 4: OSC1-Keytrack; 6: OSC1-Level; 8: OSC1-Waveform; 10: OSC1-Sub Oscilator; 12: OSC1-Pulsewidth; 14: OSC1-PWM Speed; 16: OSC1-PWM Depth; 24: OSC1-Osc1 AM; 19: OSC2-Pitch Mod; 98: OSC2-Freq Mod; 3: OSC2-Linear Detune; 5: OSC2-Keytrack; 7: OSC2-Level; 9: OSC2-Waveform; 11: OSC2-Sub Oscilator; 13: OSC2-Pulsewidth; 15: OSC2-PWM Speed; 17: OSC2-PWM Depth; 25: OSC2-Osc2 AM; 20: OSCX-Pitch Mod; 99: OSCX-Freq Mod; 26: OSCX-Sync Mode; 27: OSCX-Sync Amount; 28: OSCX-Bend Depth; 29: OSCX-Note Slide Time; 31: OSCX-Vibrato Fade; 32: OSCX-Vibrato Speed; 33: OSCX-Vibrato Depth; 21: NOISE-Noise S&H; 100: NOISE-Noise Color; 22: NOISE-Noise Fade; 23: NOISE-Noise Level; 34: FILT-F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP-EnvA Attack; 56: AMP-EnvA Decay; 59: AMP-EnvA Sustain; 62: AMP-EnvA Release; 65: AMP-EnvA Shape; 45: AMP-Chorus Send; 46: AMP-Delay Send; 47: AMP-Reverb Send; 48: AMP-Pan; 49: AMP-Volume; 50: AMP-Accent Level; 51: ENVF-Attack; 54: ENVF-Decay; 57: ENVF-Sustain; 60: ENVF-Release; 63: ENVF-Shape; 72: ENVF-Depth A; 73: ENVF-Depth B; 76: LFO1-Speed; 78: LFO1-Multiplier; 80: LFO1-Fade In/Out; 82: LFO1-Start Phase; 92: LFO1-Depth A; 93: LFO1-Depth B; 0-127: META-None
-Elektron,Analog Four MKII,LFOs,LFO2: Depth A,,26,58,0,127,1,97,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,LFO2: Destination B,,,,0,127,1,98,0,127,0-based,,96: META-None; 18: OSC1-Pitch Mod; 97: OSC1-Freq Mod; 2: OSC1-Linear Detune; 4: OSC1-Keytrack; 6: OSC1-Level; 8: OSC1-Waveform; 10: OSC1-Sub Oscilator; 12: OSC1-Pulsewidth; 14: OSC1-PWM Speed; 16: OSC1-PWM Depth; 24: OSC1-Osc1 AM; 19: OSC2-Pitch Mod; 98: OSC2-Freq Mod; 3: OSC2-Linear Detune; 5: OSC2-Keytrack; 7: OSC2-Level; 9: OSC2-Waveform; 11: OSC2-Sub Oscilator; 13: OSC2-Pulsewidth; 15: OSC2-PWM Speed; 17: OSC2-PWM Depth; 25: OSC2-Osc2 AM; 20: OSCX-Pitch Mod; 99: OSCX-Freq Mod; 26: OSCX-Sync Mode; 27: OSCX-Sync Amount; 28: OSCX-Bend Depth; 29: OSCX-Note Slide Time; 31: OSCX-Vibrato Fade; 32: OSCX-Vibrato Speed; 33: OSCX-Vibrato Depth; 21: NOISE-Noise S&H; 100: NOISE-Noise Color; 22: NOISE-Noise Fade; 23: NOISE-Noise Level; 34: FILT-F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP-EnvA Attack; 56: AMP-EnvA Decay; 59: AMP-EnvA Sustain; 62: AMP-EnvA Release; 65: AMP-EnvA Shape; 45: AMP-Chorus Send; 46: AMP-Delay Send; 47: AMP-Reverb Send; 48: AMP-Pan; 49: AMP-Volume; 50: AMP-Accent Level; 51: ENVF-Attack; 54: ENVF-Decay; 57: ENVF-Sustain; 60: ENVF-Release; 63: ENVF-Shape; 72: ENVF-Depth A; 73: ENVF-Depth B; 76: LFO1-Speed; 78: LFO1-Multiplier; 80: LFO1-Fade In/Out; 82: LFO1-Start Phase; 92: LFO1-Depth A; 93: LFO1-Depth B; 0-127: META-None
-Elektron,Analog Four MKII,LFOs,LFO2: Depth B,,27,59,0,127,1,99,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,CV LFO1: Speed,,,,,,3,80,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,CV LFO1: Multiplier,,,,,,3,81,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,CV LFO1: Fade In/Out,,,,,,3,82,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,CV LFO1: Start Phase,,,,,,3,83,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,CV LFO1: Mode,,,,,,3,84,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Analog Four MKII,LFOs,CV LFO1: Waveform,,,,,,3,85,0,6,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
-Elektron,Analog Four MKII,LFOs,CV LFO1: Destination A,,,,,,3,86,0,68,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 20: ENV1-Attack; 22: ENV1-Decay; 24: ENV1-Sustain; 26: ENV1-Release; 30: ENV1-Gate Length; 36: ENV1-Depth A; 37: ENV1-Depth B; 0-68: META-None
-Elektron,Analog Four MKII,LFOs,CV LFO1: Depth A,,,,,,3,87,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,CV LFO1: Destination B,,,,,,3,88,0,68,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 20: ENV1-Attack; 22: ENV1-Decay; 24: ENV1-Sustain; 26: ENV1-Release; 30: ENV1-Gate Length; 36: ENV1-Depth A; 37: ENV1-Depth B; 0-68: META-None
-Elektron,Analog Four MKII,LFOs,CV LFO1: Depth B,,,,,,3,89,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,CV LFO2: Speed,,,,,,3,90,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,CV LFO2: Multiplier,,,,,,3,91,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,CV LFO2: Fade In/Out,,,,,,3,92,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,CV LFO2: Start Phase,,,,,,3,93,0,127,0-based,,
-Elektron,Analog Four MKII,LFOs,CV LFO2: Mode,,,,,,3,94,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Analog Four MKII,LFOs,CV LFO2: Waveform,,,,,,3,95,0,6,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
-Elektron,Analog Four MKII,LFOs,CV LFO2: Destination A,,,,,,3,96,0,68,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 20: ENV1-Attack; 22: ENV1-Decay; 24: ENV1-Sustain; 26: ENV1-Release; 30: ENV1-Gate Length; 36: ENV1-Depth A; 37: ENV1-Depth B; 0-68: META-None
-Elektron,Analog Four MKII,LFOs,CV LFO2: Depth A,,,,,,3,97,0,127,Centered,,
-Elektron,Analog Four MKII,LFOs,CV LFO2: Destination B,,,,,,3,98,0,68,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 20: ENV1-Attack; 22: ENV1-Decay; 24: ENV1-Sustain; 26: ENV1-Release; 30: ENV1-Gate Length; 36: ENV1-Depth A; 37: ENV1-Depth B; 0-68: META-None
-Elektron,Analog Four MKII,LFOs,CV LFO2: Depth B,,,,,,3,99,0,127,Centered,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Chorus,,,,,,2,0,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Delay,,,,,,2,1,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Reverb,,,,,,2,2,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Pan,,,,,,2,3,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Level,,,,,,2,4,0,127,Centered,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Chorus,,,,,,2,5,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Delay,,,,,,2,6,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Reverb,,,,,,2,7,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Pan,,,,,,2,8,0,127,Centered,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Level,,,,,,2,9,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: Pre-Delay,,,,,,2,40,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: Speed,,,,,,2,41,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: Depth,,,,,,2,42,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: Width,,,,,,2,43,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: Feedback,,,,,,2,44,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: HP Filter,,,,,,2,45,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: LP Filter,,,,,,2,46,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: Delay Send,,,,,,2,47,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: Reverb Send,,,,,,2,48,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Chorus,Chorus: Mix Volume,,,,,,2,49,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: Time,,,,,,2,50,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: PingPong,,,,,,2,51,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: Stereo Width,,,,,,2,53,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: Feedback,,,,,,2,54,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: HP Filter,,,,,,2,55,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: LP Filter,,,,,,2,56,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: Overdrive,,,,,,2,57,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: Reverb Send,,,,,,2,58,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Delay,Delay: Mix Volume,,,,,,2,59,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Reverb,Reverb: Pre-Delay,,,,,,2,60,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Reverb,Reverb: Decay Time,,,,,,2,61,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Reverb,Reverb: Shelving Freq,,,,,,2,62,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Reverb,Reverb: Shelving Gain,,,,,,2,63,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Reverb,Reverb: HP Filter,,,,,,2,65,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Reverb,Reverb: LP Filter,,,,,,2,66,0,127,0-based,,
-Elektron,Analog Four MKII,FX: Reverb,Reverb: Mix Volume,,,,,,2,69,0,127,0-based,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Speed,,,,,,2,80,0,127,Centered,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Multiplier,,,,,,2,81,0,23,0-based,,0: x1; 1: x2; 2: x4; 3: x8; 4: x16; 5: x32; 6: x64; 7: x128; 8: x256; 9: x512; 10: x1024; 11: x2048; 12: .1; 13: .2; 14: .4; 15: .8; 16: .16; 17: .32; 18: .64; 19: .128; 20: .256; 21: .512; 22: .1024; 23: .2048
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Fade In/Out,,,,,,2,82,0,127,Centered,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Start Phase,,,,,,2,83,0,127,0-based,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Mode,,,,,,2,84,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Waveform,,,,,,2,85,0,6,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Destination A,,,,,,2,86,0,73,0-based,,73: META-None; 4: EXT-Ext.L Chorus; 5: EXT-Ext.L Delay; 6: EXT-Ext.L Reverb; 2: EXT-Ext.L Pan; 0: EXT-Ext.L Volume; 7: EXT-Ext.R Chorus; 8: EXT-Ext.R Delay; 9: EXT-Ext.R Reverb; 3: EXT-Ext.R Pan; 1: EXT-Ext.R Volume; 26: CHOR-Predelay; 27: CHOR-Speed; 28: CHOR-Depth; 29: CHOR-Width; 30: CHOR-Feedback; 31: CHOR-HP Filter; 32: CHOR-LP Filter; 33: CHOR-Delay Send; 34: CHOR-Reverb Send; 35: CHOR-Mix Volume; 36: DEL-Delay Time; 37: DEL-Pingpong; 39: DEL-Stereo Width; 40: DEL-Feedback; 41: DEL-HP Filter; 42: DEL-LP Filter; 43: DEL-Overdrive; 44: DEL-Reverb Send; 45: DEL-Mix Volume; 46: REV-Pre-Delay; 47: REV-Decay Time; 48: REV-Shelving Freq; 49: REV-Shelving Gain; 50: REV-HP Filter; 51: REV-LP Filter; 52: REV-Mix Volume; 10-25: META-None; 38: META-None; 53-72: META-None; 0-73: META-None
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Depth A,,,,,,2,87,0,127,Centered,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Destination B,,,,,,2,88,0,73,0-based,,73: META-None; 4: EXT-Ext.L Chorus; 5: EXT-Ext.L Delay; 6: EXT-Ext.L Reverb; 2: EXT-Ext.L Pan; 0: EXT-Ext.L Volume; 7: EXT-Ext.R Chorus; 8: EXT-Ext.R Delay; 9: EXT-Ext.R Reverb; 3: EXT-Ext.R Pan; 1: EXT-Ext.R Volume; 26: CHOR-Predelay; 27: CHOR-Speed; 28: CHOR-Depth; 29: CHOR-Width; 30: CHOR-Feedback; 31: CHOR-HP Filter; 32: CHOR-LP Filter; 33: CHOR-Delay Send; 34: CHOR-Reverb Send; 35: CHOR-Mix Volume; 36: DEL-Delay Time; 37: DEL-Pingpong; 39: DEL-Stereo Width; 40: DEL-Feedback; 41: DEL-HP Filter; 42: DEL-LP Filter; 43: DEL-Overdrive; 44: DEL-Reverb Send; 45: DEL-Mix Volume; 46: REV-Pre-Delay; 47: REV-Decay Time; 48: REV-Shelving Freq; 49: REV-Shelving Gain; 50: REV-HP Filter; 51: REV-LP Filter; 52: REV-Mix Volume; 10-25: META-None; 38: META-None; 53-72: META-None; 0-73: META-None
-Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Depth B,,,,,,2,89,0,127,Centered,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Speed,,,,,,2,90,0,127,Centered,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Multiplier,,,,,,2,91,0,23,0-based,,0: x1; 1: x2; 2: x4; 3: x8; 4: x16; 5: x32; 6: x64; 7: x128; 8: x256; 9: x512; 10: x1024; 11: x2048; 12: .1; 13: .2; 14: .4; 15: .8; 16: .16; 17: .32; 18: .64; 19: .128; 20: .256; 21: .512; 22: .1024; 23: .2048
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Fade In/Out,,,,,,2,92,0,127,Centered,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Start Phase,,,,,,2,93,0,127,0-based,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Mode,,,,,,2,94,0,4,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Waveform,,,,,,2,95,0,6,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Destination A,,,,,,2,96,0,73,0-based,,73: META-None; 4: EXT-Ext.L Chorus; 5: EXT-Ext.L Delay; 6: EXT-Ext.L Reverb; 2: EXT-Ext.L Pan; 0: EXT-Ext.L Volume; 7: EXT-Ext.R Chorus; 8: EXT-Ext.R Delay; 9: EXT-Ext.R Reverb; 3: EXT-Ext.R Pan; 1: EXT-Ext.R Volume; 26: CHOR-Predelay; 27: CHOR-Speed; 28: CHOR-Depth; 29: CHOR-Width; 30: CHOR-Feedback; 31: CHOR-HP Filter; 32: CHOR-LP Filter; 33: CHOR-Delay Send; 34: CHOR-Reverb Send; 35: CHOR-Mix Volume; 36: DEL-Delay Time; 37: DEL-Pingpong; 39: DEL-Stereo Width; 40: DEL-Feedback; 41: DEL-HP Filter; 42: DEL-LP Filter; 43: DEL-Overdrive; 44: DEL-Reverb Send; 45: DEL-Mix Volume; 46: REV-Pre-Delay; 47: REV-Decay Time; 48: REV-Shelving Freq; 49: REV-Shelving Gain; 50: REV-HP Filter; 51: REV-LP Filter; 52: REV-Mix Volume; 10-25: META-None; 38: META-None; 53-72: META-None; 0-73: META-None
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Depth A,,,,,,2,97,0,127,Centered,,
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Destination B,,,,,,2,98,0,73,0-based,,73: META-None; 4: EXT-Ext.L Chorus; 5: EXT-Ext.L Delay; 6: EXT-Ext.L Reverb; 2: EXT-Ext.L Pan; 0: EXT-Ext.L Volume; 7: EXT-Ext.R Chorus; 8: EXT-Ext.R Delay; 9: EXT-Ext.R Reverb; 3: EXT-Ext.R Pan; 1: EXT-Ext.R Volume; 26: CHOR-Predelay; 27: CHOR-Speed; 28: CHOR-Depth; 29: CHOR-Width; 30: CHOR-Feedback; 31: CHOR-HP Filter; 32: CHOR-LP Filter; 33: CHOR-Delay Send; 34: CHOR-Reverb Send; 35: CHOR-Mix Volume; 36: DEL-Delay Time; 37: DEL-Pingpong; 39: DEL-Stereo Width; 40: DEL-Feedback; 41: DEL-HP Filter; 42: DEL-LP Filter; 43: DEL-Overdrive; 44: DEL-Reverb Send; 45: DEL-Mix Volume; 46: REV-Pre-Delay; 47: REV-Decay Time; 48: REV-Shelving Freq; 49: REV-Shelving Gain; 50: REV-HP Filter; 51: REV-LP Filter; 52: REV-Mix Volume; 10-25: META-None; 38: META-None; 53-72: META-None; 0-73: META-None
-Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Depth B,,,,,,2,99,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV A: Coarse Tune,,,,,,3,0,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV A: Fine Tune,,,,,,3,1,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV A: Value,,,,,,3,2,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV A: Clock,,,,,,3,3,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV A: Source,,,,,,3,4,0,5,0-based,,0: Track 1; 1: Track 2; 2: Track 3; 3: Track 4; 4: FX; 5: CV
-Elektron,Analog Four MKII,CVs,CV A: Bend Depth,,,,,,3,5,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV A: Note Slide Time,,,,,,3,6,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV B: Coarse Tune,,,,,,3,20,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV B: Fine Tune,,,,,,3,21,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV B: Value,,,,,,3,22,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV B: Clock,,,,,,3,23,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV B: Source,,,,,,3,24,0,5,0-based,,0: Track 1; 1: Track 2; 2: Track 3; 3: Track 4; 4: FX; 5: CV
-Elektron,Analog Four MKII,CVs,CV B: Bend Depth,,,,,,3,25,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV B: Note Slide Time,,,,,,3,26,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV C: Coarse Tune,,,,,,3,40,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV C: Fine Tune,,,,,,3,41,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV C: Value,,,,,,3,42,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV C: Clock,,,,,,3,43,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV C: Source,,,,,,3,44,0,5,0-based,,0: Track 1; 1: Track 2; 2: Track 3; 3: Track 4; 4: FX; 5: CV
-Elektron,Analog Four MKII,CVs,CV C: Bend Depth,,,,,,3,45,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV C: Note Slide Time,,,,,,3,46,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV D: Coarse Tune,,,,,,3,50,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV D: Fine Tune,,,,,,3,51,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV D: Value,,,,,,3,52,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV D: Clock,,,,,,3,53,0,127,0-based,,
-Elektron,Analog Four MKII,CVs,CV D: Source,,,,,,3,54,0,5,0-based,,0: Track 1; 1: Track 2; 2: Track 3; 3: Track 4; 4: FX; 5: CV
-Elektron,Analog Four MKII,CVs,CV D: Bend Depth,,,,,,3,55,0,127,Centered,,
-Elektron,Analog Four MKII,CVs,CV D: Note Slide Time,,,,,,3,56,0,127,0-based,,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Elektron,Analog Four MKII,Performance,Performance: Parameter A,,3,,0,127,,0,0,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter B,,4,,0,127,,0,1,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter C,,8,,0,127,,0,2,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter D,,9,,0,127,,0,3,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter E,,11,,0,127,,0,4,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter F,,64,,0,127,,0,5,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter G,,65,,0,127,,0,6,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter H,,66,,0,127,,0,7,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter I,,67,,0,127,,0,8,0,127,,0-based,,
+Elektron,Analog Four MKII,Performance,Performance: Parameter J,,68,,0,127,,0,9,0,127,,0-based,,
+Elektron,Analog Four MKII,Modulation,Modulation: Modwheel,,1,,0,127,,,,,,,0-based,,
+Elektron,Analog Four MKII,Modulation,Modulation: Breath,,2,,0,127,,,,,,,0-based,,
+Elektron,Analog Four MKII,Track,Track: Mute,,94,,0,1,,1,101,0,1,,0-based,,0: Off; 1: On
+Elektron,Analog Four MKII,Track,Track: Level,,95,,0,127,,1,100,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: Pitch,,16,48,0,16383,,1,0,0,16383,,Centered,,
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: Linear Detune,,,,,,,1,2,0,127,,Centered,,
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: Keytracking,,,,,,,1,3,0,1,,0-based,,0: Off; 1: On
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: Level,,69,,0,127,,1,4,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: Waveform,,70,,0,7,,1,5,0,7,,0-based,,0: Sawtooth; 1: Transistor Pulse; 2: Pulse; 3: Triangle; 4: Input Left; 5: Input Right; 6: Filter Feedback; 7: Off
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: Sub Oscillator,,71,,0,4,,1,6,0,4,,0-based,,0: Off; 1: Square -1 Octave; 2: Square -2 Octave; 3: 25% Pulse -2; 4: 33% Pulse 5th
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: Pulsewidth,,72,,0,127,,1,7,0,127,,Centered,,
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: PWM Speed,,73,,0,127,,1,,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: PWM Depth,,74,,0,127,,1,9,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC1,OSC1: AM,,,,,,,1,30,0,1,,0-based,,0: Off; 1: On
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: Pitch,,17,49,0,16383,,1,20,0,16383,,Centered,,
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: Detune,,,,,,,1,22,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: Keytracking,,,,,,,1,23,0,1,,0-based,,0: Off; 1: On
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: Level,,78,,0,127,,1,2,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: Waveform,,79,,0,7,,1,25,0,7,,0-based,,0: Sawtooth; 1: Transistor Pulse; 2: Pulse; 3: Triangle; 4: In Left; 5: In Right; 6: Neighbor; 7: Off
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: Sub Oscillator,,80,,0,4,,1,26,0,4,,0-based,,0: Off; 1: 1 Octave; 2: 2 Octave; 3: 2 Pulse; 4: 5th
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: Pulsewidth,,81,,0,127,,1,27,0,127,,Centered,,
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: PWM Speed,,82,,0,127,,1,,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: PWM Depth,,82,,0,127,,1,29,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC2,OSC2: AM,,,,,,,1,35,0,1,,0-based,,0: Off; 1: On
+Elektron,Analog Four MKII,Synth: OSC,OSC: Sync Mode,,,,,,,1,31,0,3,,0-based,,0: Off; 1: Osc1->Osc2; 2: Osc2->Osc1; 3: Metal Sync
+Elektron,Analog Four MKII,Synth: OSC,OSC: Sync Amount,,84,,0,127,,1,32,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC,OSC: Bend Amount,,85,,0,127,,1,33,0,127,,Centered,,
+Elektron,Analog Four MKII,Synth: OSC,OSC: Slide Time,,5,,0,127,,1,34,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC,OSC: Oscilator Retrig,,,,,,,1,36,0,1,,0-based,,0: Off; 1: On
+Elektron,Analog Four MKII,Synth: OSC,OSC: Vibrato Fade,,,,,,,1,37,0,127,,Centered,,
+Elektron,Analog Four MKII,Synth: OSC,OSC: Vibrato Speed,,87,,0,127,,1,38,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: OSC,OSC: Vibrato Depth,,88,,0,127,,1,39,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: Noise,Noise: S&H,,75,,0,127,,1,10,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: Noise,Noise: Color,,,,,,,1,11,0,127,,Centered,,
+Elektron,Analog Four MKII,Synth: Noise,Noise: Fade,,76,,0,127,,1,12,0,127,,0-based,,
+Elektron,Analog Four MKII,Synth: Noise,Noise: Level,,77,,0,127,,1,14,0,127,,0-based,,
+Elektron,Analog Four MKII,Filters,Filter 1: Frequency,,18,50,0,127,,1,40,0,127,,0-based,,
+Elektron,Analog Four MKII,Filters,Filter 1: Resonance,,89,,0,127,,1,41,0,127,,0-based,,
+Elektron,Analog Four MKII,Filters,Filter 1: Overdrive,,,,0,127,,1,42,0,127,,0-based,,
+Elektron,Analog Four MKII,Filters,Filter 1: Keytracking,,,,0,127,,1,43,0,127,,Centered,,
+Elektron,Analog Four MKII,Filters,Filter 1: Envelope Depth,,102,,0,127,,1,44,0,127,,Centered,,
+Elektron,Analog Four MKII,Filters,Filter 2: Frequency,,19,51,0,127,,1,45,0,127,,0-based,,
+Elektron,Analog Four MKII,Filters,Filter 2: Resonance,,90,,0,127,,1,46,0,127,,0-based,,
+Elektron,Analog Four MKII,Filters,Filter 2: Type,,,,,,,1,47,0,6,,0-based,,0: 2-pole Lowpass; 1: 1-pole Lowpass; 2: Bandpass; 3: 1-pole Highpass; 4: 2-pole Highpass; 5: Bandstop; 6: Peak
+Elektron,Analog Four MKII,Filters,Filter 2: Keytracking,,,,0,127,,1,48,0,127,,Centered,,
+Elektron,Analog Four MKII,Filters,Filter 2: Envelope Depth,,103,,0,127,,1,49,0,127,,Centered,,
+Elektron,Analog Four MKII,Amp,Amp: Chorus Send,,91,,0,127,,1,55,0,127,,0-based,,
+Elektron,Analog Four MKII,Amp,Amp: Delay Send,,92,,0,127,,1,56,0,127,,0-based,,
+Elektron,Analog Four MKII,Amp,Amp: Reverb Send,,93,,0,127,,1,57,0,127,,0-based,,
+Elektron,Analog Four MKII,Amp,Amp: Pan,,10,,0,127,,1,58,0,127,,Centered,,
+Elektron,Analog Four MKII,Amp,Amp: Volume,,7,,0,127,,1,59,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Amp Env: Attack,,104,,0,127,,1,50,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Amp Env: Decay,,105,,0,127,,1,51,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Amp Env: Sustain,,106,,0,127,,1,52,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Amp Env: Release,,107,,0,127,,1,53,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Amp Env: Shape,,,,,,,1,54,0,11,,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
+Elektron,Analog Four MKII,Envelopes,Filter Env: Attack,,108,,0,127,,1,60,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Filter Env: Decay,,109,,0,127,,1,61,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Filter Env: Sustain,,110,,0,127,,1,62,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Filter Env: Release,,111,,0,127,,1,63,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Filter Env: Shape,,,,,,,1,64,0,11,,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
+Elektron,Analog Four MKII,Envelopes,Filter Env: Gate Length,,,,,,,1,65,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,Filter Env: Destination A,,,,,,,1,66,0,127,,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
+Elektron,Analog Four MKII,Envelopes,Filter Env: Depth A,,20,52,0,127,,1,67,0,127,,Centered,,
+Elektron,Analog Four MKII,Envelopes,Filter Env: Destination B,,,,,,,1,68,0,127,,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
+Elektron,Analog Four MKII,Envelopes,Filter Env: Depth B,,21,53,0,127,,1,69,0,127,,Centered,,
+Elektron,Analog Four MKII,Envelopes,AUX Env: Attack,,112,,0,127,,1,70,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,AUX Env: Decay,,113,,0,127,,1,71,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,AUX Env: Sustain,,114,,0,127,,1,72,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,AUX Env: Release,,115,,0,127,,1,7,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,AUX Env: Shape,,,,,,,1,74,0,11,,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
+Elektron,Analog Four MKII,Envelopes,AUX Env: Gate Length,,,,,,,1,75,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,AUX Env: Destination A,,,,,,,1,76,0,127,,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
+Elektron,Analog Four MKII,Envelopes,AUX Env: Depth A,,22,54,0,127,,1,77,0,127,,Centered,,
+Elektron,Analog Four MKII,Envelopes,AUX Env: Destination B,,,,,,,1,78,0,127,,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
+Elektron,Analog Four MKII,Envelopes,AUX Env: Depth B,,2,55,0,127,,1,79,0,127,,Centered,,
+Elektron,Analog Four MKII,Envelopes,CV Env1: Attack,,,,,,,3,60,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env1: Decay,,,,,,,3,61,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env1: Sustain,,,,,,,3,62,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env1: Release,,,,,,,3,63,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env1: Shape,,,,,,,3,64,0,11,,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
+Elektron,Analog Four MKII,Envelopes,CV Env1: Gate Length,,,,,,,3,65,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env1: Destination A,,,,,,,3,66,0,68,,0-based,,68: META:None; 0: CVA:Course Tune; 4: CVA:Fine Tune; 8: CVA:Value; 16: CVA:Source Track; 60: CVA:Bend Depth; 64: CVA:Note Slide Time; 1: CVB:Course Tune; 5: CVB:Fine Tune; 9: CVB:Value; 17: CVB:Source Track; 61: CVB:Bend Depth; 65: CVB:Note Slide Time; 2: CVC:Course Tune; 6: CVC:Fine Tune; 10: CVC:Value; 18: CVC:Source Track; 62: CVC:Bend Depth; 66: CVC:Note Slide Time; 3: CVD:Course Tune; 7: CVD:Fine Tune; 11: CVD:Value; 19: CVD:Source Track; 63: CVD:Bend Depth; 67: CVD:Note Slide Time; 12-16: META:None; 20-59: META:None
+Elektron,Analog Four MKII,Envelopes,CV Env1: Depth A,,,,,,,3,67,0,127,,Centered,,
+Elektron,Analog Four MKII,Envelopes,CV Env1: Destination B,,,,,,,3,68,0,68,,0-based,,68: META:None; 0: CVA:Course Tune; 4: CVA:Fine Tune; 8: CVA:Value; 16: CVA:Source Track; 60: CVA:Bend Depth; 64: CVA:Note Slide Time; 1: CVB:Course Tune; 5: CVB:Fine Tune; 9: CVB:Value; 17: CVB:Source Track; 61: CVB:Bend Depth; 65: CVB:Note Slide Time; 2: CVC:Course Tune; 6: CVC:Fine Tune; 10: CVC:Value; 18: CVC:Source Track; 62: CVC:Bend Depth; 66: CVC:Note Slide Time; 3: CVD:Course Tune; 7: CVD:Fine Tune; 11: CVD:Value; 19: CVD:Source Track; 63: CVD:Bend Depth; 67: CVD:Note Slide Time; 12-16: META:None; 20-59: META:None
+Elektron,Analog Four MKII,Envelopes,CV Env1: Depth B,,,,,,,3,69,0,127,,Centered,,
+Elektron,Analog Four MKII,Envelopes,CV Env2: Attack,,,,,,,3,70,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env2: Decay,,,,,,,3,71,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env2: Sustain,,,,,,,3,72,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env2: Release,,,,,,,3,73,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env2: Shape,,,,,,,3,74,0,11,,0-based,,0: Linear ADR; 1: Linear ADR (R); 2: Standard; 3: Standard (R); 4: E.A / L.DR; 5: E.A / L.DR (R); 6: Exp. ADR; 7: Exp. ADR (R); 8: Full ADR; 9: Full ADR (R); 10: F.A / E.DR; 11: F.A / E.DR (R)
+Elektron,Analog Four MKII,Envelopes,CV Env2: Gate Length,,,,,,,3,75,0,127,,0-based,,
+Elektron,Analog Four MKII,Envelopes,CV Env2: Destination A,,,,,,,3,76,0,68,,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 12-16: META-None; 20-59: META-None
+Elektron,Analog Four MKII,Envelopes,CV Env2: Depth A,,,,,,,3,77,0,127,,Centered,,
+Elektron,Analog Four MKII,Envelopes,CV Env2: Destination B,,,,,,,3,78,0,68,,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 12-16: META-None; 20-59: META-None
+Elektron,Analog Four MKII,Envelopes,CV Env2: Depth B,,,,,,,3,79,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,LFO1: Speed,,116,,0,127,,1,80,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,LFO1: Multiplier,,117,,0,35,,1,81,0,35,,0-based,,0: x1; 1: x2; 2: x4; 3: x8; 4: x16; 5: x32; 6: x64; 7: x128; 8: x256; 9: x512; 10: x1024; 11: x2048; 12: .1; 13: .2; 14: .4; 15: .8; 16: .16; 17: .32; 18: .64; 19: .128; 20: .256; 21: .512; 22: .1024; 23: .2048; 24: f1; 25: f2; 26: f4; 27: f8; 28: f16; 29: f32; 30: f64; 31: f128; 32: f256; 33: f512; 34: f1024; 35: f2048
+Elektron,Analog Four MKII,LFOs,LFO1: Fade In/Out,,,,,,,1,82,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,LFO1: Start Phase,,,,,,,1,83,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,LFO1: Mode,,,,,,,1,84,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Analog Four MKII,LFOs,LFO1: Waveform,,,,,,,1,85,0,6,,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
+Elektron,Analog Four MKII,LFOs,LFO1: Destination A,,,,,,,1,86,0,127,,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
+Elektron,Analog Four MKII,LFOs,LFO1: Depth A,,24,56,0,127,,1,87,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,LFO1: Destination B,,,,,,,1,88,0,127,,0-based,,96: META:None; 18: OSC1:Pitch Mod; 97: OSC1:Freq Mod; 2: OSC1:Linear Detune; 4: OSC1:Keytrack; 6: OSC1:Level; 8: OSC1:Waveform; 10: OSC1:Sub Oscilator; 12: OSC1:Pulsewidth; 14: OSC1:PWM Speed; 16: OSC1:PWM Depth; 24: OSC1:Osc1 AM; 19: OSC2:Pitch Mod; 98: OSC2:Freq Mod; 3: OSC2:Linear Detune; 5: OSC2:Keytrack; 7: OSC2:Level; 9: OSC2:Waveform; 11: OSC2:Sub Oscilator; 13: OSC2:Pulsewidth; 15: OSC2:PWM Speed; 17: OSC2:PWM Depth; 25: OSC2:Osc2 AM; 20: OSCX:Pitch Mod; 99: OSCX:Freq Mod; 26: OSCX:Sync Mode; 27: OSCX:Sync Amount; 28: OSCX:Bend Depth; 29: OSCX:Note Slide Time; 31: OSCX:Vibrato Fade; 32: OSCX:Vibrato Speed; 33: OSCX:Vibrato Depth; 21: NOISE:Noise S&H; 100: NOISE:Noise Color; 22: NOISE:Noise Fade; 23: NOISE:Noise Level; 34: FILT:F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP:EnvA Attack; 56: AMP:EnvA Decay; 59: AMP:EnvA Sustain; 62: AMP:EnvA Release; 65: AMP:EnvA Shape; 45: AMP:Chorus Send; 46: AMP:Delay Send; 47: AMP:Reverb Send; 48: AMP:Pan; 49: AMP:Volume; 50: AMP:Accent Level; 51: ENVF:Attack; 54: ENVF:Decay; 57: ENVF:Sustain; 60: ENVF:Release; 63: ENVF:Shape; 72: ENVF:Depth A; 73: ENVF:Depth B; 76: LFO1:Speed; 78: LFO1:Multiplier; 80: LFO1:Fade In/Out; 82: LFO1:Start Phase; 92: LFO1:Depth A; 93: LFO1:Depth B; 0-127: META:None
+Elektron,Analog Four MKII,LFOs,LFO1: Depth B,,25,57,0,127,,1,89,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,LFO2: Speed,,118,,0,127,,1,90,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,LFO2: Multiplier,,119,,0,35,,1,91,0,35,,0-based,,0: x1; 1: x2; 2: x4; 3: x8; 4: x16; 5: x32; 6: x64; 7: x128; 8: x256; 9: x512; 10: x1024; 11: x2048; 12: .1; 13: .2; 14: .4; 15: .8; 16: .16; 17: .32; 18: .64; 19: .128; 20: .256; 21: .512; 22: .1024; 23: .2048; 24: f1; 25: f2; 26: f4; 27: f8; 28: f16; 29: f32; 30: f64; 31: f128; 32: f256; 33: f512; 34: f1024; 35: f2048
+Elektron,Analog Four MKII,LFOs,LFO2: Fade In/Out,,,,,,,1,92,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,LFO2: Start Phase,,,,,,,1,93,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,LFO2: Mode,,,,,,,1,94,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Analog Four MKII,LFOs,LFO2: Waveform,,,,,,,1,95,0,6,,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
+Elektron,Analog Four MKII,LFOs,LFO2: Destination A,,,,0,127,,1,96,0,127,,0-based,,96: META-None; 18: OSC1-Pitch Mod; 97: OSC1-Freq Mod; 2: OSC1-Linear Detune; 4: OSC1-Keytrack; 6: OSC1-Level; 8: OSC1-Waveform; 10: OSC1-Sub Oscilator; 12: OSC1-Pulsewidth; 14: OSC1-PWM Speed; 16: OSC1-PWM Depth; 24: OSC1-Osc1 AM; 19: OSC2-Pitch Mod; 98: OSC2-Freq Mod; 3: OSC2-Linear Detune; 5: OSC2-Keytrack; 7: OSC2-Level; 9: OSC2-Waveform; 11: OSC2-Sub Oscilator; 13: OSC2-Pulsewidth; 15: OSC2-PWM Speed; 17: OSC2-PWM Depth; 25: OSC2-Osc2 AM; 20: OSCX-Pitch Mod; 99: OSCX-Freq Mod; 26: OSCX-Sync Mode; 27: OSCX-Sync Amount; 28: OSCX-Bend Depth; 29: OSCX-Note Slide Time; 31: OSCX-Vibrato Fade; 32: OSCX-Vibrato Speed; 33: OSCX-Vibrato Depth; 21: NOISE-Noise S&H; 100: NOISE-Noise Color; 22: NOISE-Noise Fade; 23: NOISE-Noise Level; 34: FILT-F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP-EnvA Attack; 56: AMP-EnvA Decay; 59: AMP-EnvA Sustain; 62: AMP-EnvA Release; 65: AMP-EnvA Shape; 45: AMP-Chorus Send; 46: AMP-Delay Send; 47: AMP-Reverb Send; 48: AMP-Pan; 49: AMP-Volume; 50: AMP-Accent Level; 51: ENVF-Attack; 54: ENVF-Decay; 57: ENVF-Sustain; 60: ENVF-Release; 63: ENVF-Shape; 72: ENVF-Depth A; 73: ENVF-Depth B; 76: LFO1-Speed; 78: LFO1-Multiplier; 80: LFO1-Fade In/Out; 82: LFO1-Start Phase; 92: LFO1-Depth A; 93: LFO1-Depth B; 0-127: META-None
+Elektron,Analog Four MKII,LFOs,LFO2: Depth A,,26,58,0,127,,1,97,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,LFO2: Destination B,,,,0,127,,1,98,0,127,,0-based,,96: META-None; 18: OSC1-Pitch Mod; 97: OSC1-Freq Mod; 2: OSC1-Linear Detune; 4: OSC1-Keytrack; 6: OSC1-Level; 8: OSC1-Waveform; 10: OSC1-Sub Oscilator; 12: OSC1-Pulsewidth; 14: OSC1-PWM Speed; 16: OSC1-PWM Depth; 24: OSC1-Osc1 AM; 19: OSC2-Pitch Mod; 98: OSC2-Freq Mod; 3: OSC2-Linear Detune; 5: OSC2-Keytrack; 7: OSC2-Level; 9: OSC2-Waveform; 11: OSC2-Sub Oscilator; 13: OSC2-Pulsewidth; 15: OSC2-PWM Speed; 17: OSC2-PWM Depth; 25: OSC2-Osc2 AM; 20: OSCX-Pitch Mod; 99: OSCX-Freq Mod; 26: OSCX-Sync Mode; 27: OSCX-Sync Amount; 28: OSCX-Bend Depth; 29: OSCX-Note Slide Time; 31: OSCX-Vibrato Fade; 32: OSCX-Vibrato Speed; 33: OSCX-Vibrato Depth; 21: NOISE-Noise S&H; 100: NOISE-Noise Color; 22: NOISE-Noise Fade; 23: NOISE-Noise Level; 34: FILT-F1 Frequency; 35: FILT:F1 Resonance; 38: FILT:F1 EnfF Depth; 36: FILT:F1 Overdrive; 39: FILT:F2 Frequency; 40: FILT:F2 Resonance; 43: FILT:F2 EnvF Depth; 44: FILT:F1+F2 Freq.; 53: AMP-EnvA Attack; 56: AMP-EnvA Decay; 59: AMP-EnvA Sustain; 62: AMP-EnvA Release; 65: AMP-EnvA Shape; 45: AMP-Chorus Send; 46: AMP-Delay Send; 47: AMP-Reverb Send; 48: AMP-Pan; 49: AMP-Volume; 50: AMP-Accent Level; 51: ENVF-Attack; 54: ENVF-Decay; 57: ENVF-Sustain; 60: ENVF-Release; 63: ENVF-Shape; 72: ENVF-Depth A; 73: ENVF-Depth B; 76: LFO1-Speed; 78: LFO1-Multiplier; 80: LFO1-Fade In/Out; 82: LFO1-Start Phase; 92: LFO1-Depth A; 93: LFO1-Depth B; 0-127: META-None
+Elektron,Analog Four MKII,LFOs,LFO2: Depth B,,27,59,0,127,,1,99,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,CV LFO1: Speed,,,,,,,3,80,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,CV LFO1: Multiplier,,,,,,,3,81,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,CV LFO1: Fade In/Out,,,,,,,3,82,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,CV LFO1: Start Phase,,,,,,,3,83,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,CV LFO1: Mode,,,,,,,3,84,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Analog Four MKII,LFOs,CV LFO1: Waveform,,,,,,,3,85,0,6,,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
+Elektron,Analog Four MKII,LFOs,CV LFO1: Destination A,,,,,,,3,86,0,68,,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 20: ENV1-Attack; 22: ENV1-Decay; 24: ENV1-Sustain; 26: ENV1-Release; 30: ENV1-Gate Length; 36: ENV1-Depth A; 37: ENV1-Depth B; 0-68: META-None
+Elektron,Analog Four MKII,LFOs,CV LFO1: Depth A,,,,,,,3,87,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,CV LFO1: Destination B,,,,,,,3,88,0,68,,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 20: ENV1-Attack; 22: ENV1-Decay; 24: ENV1-Sustain; 26: ENV1-Release; 30: ENV1-Gate Length; 36: ENV1-Depth A; 37: ENV1-Depth B; 0-68: META-None
+Elektron,Analog Four MKII,LFOs,CV LFO1: Depth B,,,,,,,3,89,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,CV LFO2: Speed,,,,,,,3,90,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,CV LFO2: Multiplier,,,,,,,3,91,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,CV LFO2: Fade In/Out,,,,,,,3,92,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,CV LFO2: Start Phase,,,,,,,3,93,0,127,,0-based,,
+Elektron,Analog Four MKII,LFOs,CV LFO2: Mode,,,,,,,3,94,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Analog Four MKII,LFOs,CV LFO2: Waveform,,,,,,,3,95,0,6,,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
+Elektron,Analog Four MKII,LFOs,CV LFO2: Destination A,,,,,,,3,96,0,68,,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 20: ENV1-Attack; 22: ENV1-Decay; 24: ENV1-Sustain; 26: ENV1-Release; 30: ENV1-Gate Length; 36: ENV1-Depth A; 37: ENV1-Depth B; 0-68: META-None
+Elektron,Analog Four MKII,LFOs,CV LFO2: Depth A,,,,,,,3,97,0,127,,Centered,,
+Elektron,Analog Four MKII,LFOs,CV LFO2: Destination B,,,,,,,3,98,0,68,,0-based,,68: META-None; 0: CVA-Course Tune; 4: CVA-Fine Tune; 8: CVA-Value; 16: CVA-Source Track; 60: CVA-Bend Depth; 64: CVA-Note Slide Time; 1: CVB-Course Tune; 5: CVB-Fine Tune; 9: CVB-Value; 17: CVB-Source Track; 61: CVB-Bend Depth; 65: CVB-Note Slide Time; 2: CVC-Course Tune; 6: CVC-Fine Tune; 10: CVC-Value; 18: CVC-Source Track; 62: CVC-Bend Depth; 66: CVC-Note Slide Time; 3: CVD-Course Tune; 7: CVD-Fine Tune; 11: CVD-Value; 19: CVD-Source Track; 63: CVD-Bend Depth; 67: CVD-Note Slide Time; 20: ENV1-Attack; 22: ENV1-Decay; 24: ENV1-Sustain; 26: ENV1-Release; 30: ENV1-Gate Length; 36: ENV1-Depth A; 37: ENV1-Depth B; 0-68: META-None
+Elektron,Analog Four MKII,LFOs,CV LFO2: Depth B,,,,,,,3,99,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Chorus,,,,,,,2,0,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Delay,,,,,,,2,1,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Reverb,,,,,,,2,2,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Pan,,,,,,,2,3,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Level,,,,,,,2,4,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Chorus,,,,,,,2,5,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Delay,,,,,,,2,6,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Reverb,,,,,,,2,7,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Pan,,,,,,,2,8,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Level,,,,,,,2,9,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: Pre-Delay,,,,,,,2,40,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: Speed,,,,,,,2,41,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: Depth,,,,,,,2,42,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: Width,,,,,,,2,43,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: Feedback,,,,,,,2,44,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: HP Filter,,,,,,,2,45,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: LP Filter,,,,,,,2,46,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: Delay Send,,,,,,,2,47,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: Reverb Send,,,,,,,2,48,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Chorus,Chorus: Mix Volume,,,,,,,2,49,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: Time,,,,,,,2,50,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: PingPong,,,,,,,2,51,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: Stereo Width,,,,,,,2,53,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: Feedback,,,,,,,2,54,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: HP Filter,,,,,,,2,55,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: LP Filter,,,,,,,2,56,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: Overdrive,,,,,,,2,57,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: Reverb Send,,,,,,,2,58,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Delay,Delay: Mix Volume,,,,,,,2,59,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Reverb,Reverb: Pre-Delay,,,,,,,2,60,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Reverb,Reverb: Decay Time,,,,,,,2,61,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Reverb,Reverb: Shelving Freq,,,,,,,2,62,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Reverb,Reverb: Shelving Gain,,,,,,,2,63,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Reverb,Reverb: HP Filter,,,,,,,2,65,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Reverb,Reverb: LP Filter,,,,,,,2,66,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: Reverb,Reverb: Mix Volume,,,,,,,2,69,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Speed,,,,,,,2,80,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Multiplier,,,,,,,2,81,0,23,,0-based,,0: x1; 1: x2; 2: x4; 3: x8; 4: x16; 5: x32; 6: x64; 7: x128; 8: x256; 9: x512; 10: x1024; 11: x2048; 12: .1; 13: .2; 14: .4; 15: .8; 16: .16; 17: .32; 18: .64; 19: .128; 20: .256; 21: .512; 22: .1024; 23: .2048
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Fade In/Out,,,,,,,2,82,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Start Phase,,,,,,,2,83,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Mode,,,,,,,2,84,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Waveform,,,,,,,2,85,0,6,,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Destination A,,,,,,,2,86,0,73,,0-based,,73: META-None; 4: EXT-Ext.L Chorus; 5: EXT-Ext.L Delay; 6: EXT-Ext.L Reverb; 2: EXT-Ext.L Pan; 0: EXT-Ext.L Volume; 7: EXT-Ext.R Chorus; 8: EXT-Ext.R Delay; 9: EXT-Ext.R Reverb; 3: EXT-Ext.R Pan; 1: EXT-Ext.R Volume; 26: CHOR-Predelay; 27: CHOR-Speed; 28: CHOR-Depth; 29: CHOR-Width; 30: CHOR-Feedback; 31: CHOR-HP Filter; 32: CHOR-LP Filter; 33: CHOR-Delay Send; 34: CHOR-Reverb Send; 35: CHOR-Mix Volume; 36: DEL-Delay Time; 37: DEL-Pingpong; 39: DEL-Stereo Width; 40: DEL-Feedback; 41: DEL-HP Filter; 42: DEL-LP Filter; 43: DEL-Overdrive; 44: DEL-Reverb Send; 45: DEL-Mix Volume; 46: REV-Pre-Delay; 47: REV-Decay Time; 48: REV-Shelving Freq; 49: REV-Shelving Gain; 50: REV-HP Filter; 51: REV-LP Filter; 52: REV-Mix Volume; 10-25: META-None; 38: META-None; 53-72: META-None; 0-73: META-None
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Depth A,,,,,,,2,87,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Destination B,,,,,,,2,88,0,73,,0-based,,73: META-None; 4: EXT-Ext.L Chorus; 5: EXT-Ext.L Delay; 6: EXT-Ext.L Reverb; 2: EXT-Ext.L Pan; 0: EXT-Ext.L Volume; 7: EXT-Ext.R Chorus; 8: EXT-Ext.R Delay; 9: EXT-Ext.R Reverb; 3: EXT-Ext.R Pan; 1: EXT-Ext.R Volume; 26: CHOR-Predelay; 27: CHOR-Speed; 28: CHOR-Depth; 29: CHOR-Width; 30: CHOR-Feedback; 31: CHOR-HP Filter; 32: CHOR-LP Filter; 33: CHOR-Delay Send; 34: CHOR-Reverb Send; 35: CHOR-Mix Volume; 36: DEL-Delay Time; 37: DEL-Pingpong; 39: DEL-Stereo Width; 40: DEL-Feedback; 41: DEL-HP Filter; 42: DEL-LP Filter; 43: DEL-Overdrive; 44: DEL-Reverb Send; 45: DEL-Mix Volume; 46: REV-Pre-Delay; 47: REV-Decay Time; 48: REV-Shelving Freq; 49: REV-Shelving Gain; 50: REV-HP Filter; 51: REV-LP Filter; 52: REV-Mix Volume; 10-25: META-None; 38: META-None; 53-72: META-None; 0-73: META-None
+Elektron,Analog Four MKII,FX: LFOs,FX LFO1: Depth B,,,,,,,2,89,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Speed,,,,,,,2,90,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Multiplier,,,,,,,2,91,0,23,,0-based,,0: x1; 1: x2; 2: x4; 3: x8; 4: x16; 5: x32; 6: x64; 7: x128; 8: x256; 9: x512; 10: x1024; 11: x2048; 12: .1; 13: .2; 14: .4; 15: .8; 16: .16; 17: .32; 18: .64; 19: .128; 20: .256; 21: .512; 22: .1024; 23: .2048
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Fade In/Out,,,,,,,2,92,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Start Phase,,,,,,,2,93,0,127,,0-based,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Mode,,,,,,,2,94,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Waveform,,,,,,,2,95,0,6,,0-based,,0: Triangle; 1: Sinus; 2: Square; 3: Sawtooth; 4: Exponential; 5: Linear Ramp; 6: Random Levels
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Destination A,,,,,,,2,96,0,73,,0-based,,73: META-None; 4: EXT-Ext.L Chorus; 5: EXT-Ext.L Delay; 6: EXT-Ext.L Reverb; 2: EXT-Ext.L Pan; 0: EXT-Ext.L Volume; 7: EXT-Ext.R Chorus; 8: EXT-Ext.R Delay; 9: EXT-Ext.R Reverb; 3: EXT-Ext.R Pan; 1: EXT-Ext.R Volume; 26: CHOR-Predelay; 27: CHOR-Speed; 28: CHOR-Depth; 29: CHOR-Width; 30: CHOR-Feedback; 31: CHOR-HP Filter; 32: CHOR-LP Filter; 33: CHOR-Delay Send; 34: CHOR-Reverb Send; 35: CHOR-Mix Volume; 36: DEL-Delay Time; 37: DEL-Pingpong; 39: DEL-Stereo Width; 40: DEL-Feedback; 41: DEL-HP Filter; 42: DEL-LP Filter; 43: DEL-Overdrive; 44: DEL-Reverb Send; 45: DEL-Mix Volume; 46: REV-Pre-Delay; 47: REV-Decay Time; 48: REV-Shelving Freq; 49: REV-Shelving Gain; 50: REV-HP Filter; 51: REV-LP Filter; 52: REV-Mix Volume; 10-25: META-None; 38: META-None; 53-72: META-None; 0-73: META-None
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Depth A,,,,,,,2,97,0,127,,Centered,,
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Destination B,,,,,,,2,98,0,73,,0-based,,73: META-None; 4: EXT-Ext.L Chorus; 5: EXT-Ext.L Delay; 6: EXT-Ext.L Reverb; 2: EXT-Ext.L Pan; 0: EXT-Ext.L Volume; 7: EXT-Ext.R Chorus; 8: EXT-Ext.R Delay; 9: EXT-Ext.R Reverb; 3: EXT-Ext.R Pan; 1: EXT-Ext.R Volume; 26: CHOR-Predelay; 27: CHOR-Speed; 28: CHOR-Depth; 29: CHOR-Width; 30: CHOR-Feedback; 31: CHOR-HP Filter; 32: CHOR-LP Filter; 33: CHOR-Delay Send; 34: CHOR-Reverb Send; 35: CHOR-Mix Volume; 36: DEL-Delay Time; 37: DEL-Pingpong; 39: DEL-Stereo Width; 40: DEL-Feedback; 41: DEL-HP Filter; 42: DEL-LP Filter; 43: DEL-Overdrive; 44: DEL-Reverb Send; 45: DEL-Mix Volume; 46: REV-Pre-Delay; 47: REV-Decay Time; 48: REV-Shelving Freq; 49: REV-Shelving Gain; 50: REV-HP Filter; 51: REV-LP Filter; 52: REV-Mix Volume; 10-25: META-None; 38: META-None; 53-72: META-None; 0-73: META-None
+Elektron,Analog Four MKII,FX: LFOs,FX LFO2: Depth B,,,,,,,2,99,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV A: Coarse Tune,,,,,,,3,0,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV A: Fine Tune,,,,,,,3,1,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV A: Value,,,,,,,3,2,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV A: Clock,,,,,,,3,3,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV A: Source,,,,,,,3,4,0,5,,0-based,,0: Track 1; 1: Track 2; 2: Track 3; 3: Track 4; 4: FX; 5: CV
+Elektron,Analog Four MKII,CVs,CV A: Bend Depth,,,,,,,3,5,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV A: Note Slide Time,,,,,,,3,6,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV B: Coarse Tune,,,,,,,3,20,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV B: Fine Tune,,,,,,,3,21,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV B: Value,,,,,,,3,22,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV B: Clock,,,,,,,3,23,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV B: Source,,,,,,,3,24,0,5,,0-based,,0: Track 1; 1: Track 2; 2: Track 3; 3: Track 4; 4: FX; 5: CV
+Elektron,Analog Four MKII,CVs,CV B: Bend Depth,,,,,,,3,25,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV B: Note Slide Time,,,,,,,3,26,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV C: Coarse Tune,,,,,,,3,40,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV C: Fine Tune,,,,,,,3,41,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV C: Value,,,,,,,3,42,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV C: Clock,,,,,,,3,43,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV C: Source,,,,,,,3,44,0,5,,0-based,,0: Track 1; 1: Track 2; 2: Track 3; 3: Track 4; 4: FX; 5: CV
+Elektron,Analog Four MKII,CVs,CV C: Bend Depth,,,,,,,3,45,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV C: Note Slide Time,,,,,,,3,46,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV D: Coarse Tune,,,,,,,3,50,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV D: Fine Tune,,,,,,,3,51,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV D: Value,,,,,,,3,52,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV D: Clock,,,,,,,3,53,0,127,,0-based,,
+Elektron,Analog Four MKII,CVs,CV D: Source,,,,,,,3,54,0,5,,0-based,,0: Track 1; 1: Track 2; 2: Track 3; 3: Track 4; 4: FX; 5: CV
+Elektron,Analog Four MKII,CVs,CV D: Bend Depth,,,,,,,3,55,0,127,,Centered,,
+Elektron,Analog Four MKII,CVs,CV D: Note Slide Time,,,,,,,3,56,0,127,,0-based,,

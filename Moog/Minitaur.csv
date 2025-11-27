@@ -1,44 +1,44 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Moog,Minitaur,Oscillators,VCO 1: Wave,Selects the waveform of VCO 1,70,,0,127,,,,,0-based,,0-63: Saw; 64-127: Square
-Moog,Minitaur,Oscillators,VCO 2: Wave,Selects the waveform of VCO 2,71,,0,127,,,,,0-based,,0-63: Saw; 64-127: Square
-Moog,Minitaur,Oscillators,VCO 2: Frequency,Adjusts the frequency of VCO 2,17,49,0,16383,,,,,centered,64 is center,
-Moog,Minitaur,Oscillators,VCO 2: Beat,Adjusts the beat frequency of VCO 2,18,50,0,16383,,,,,0-based,defaults to 64,
-Moog,Minitaur,Oscillators,Hard Sync,Enables and disables Hard Sync,80,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Minitaur,Oscillators,Note Sync,Enables and disables Note Sync,81,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Minitaur,Modulation,LFO: Rate,Adjusts the LFO frequency,3,35,0,16383,,,,,0-based,,
-Moog,Minitaur,Modulation,LFO: Shape,Selects the waveform for the LFO,85,,0,127,,,,,0-based,,0-21:Triangle; 22-43: Square; 44-65: Saw Down; 66-87: Saw Up; 88-109: S&H; 110-127: Filter EG
-Moog,Minitaur,Modulation,LFO: VCO Amount,Adjusts the modulation amount to the VCOs,13,45,0,16383,,,,,0-based,,
-Moog,Minitaur,Modulation,LFO: VCF Amount,Adjusts the modulation amount to the VCF,12,44,0,16383,,,,,0-based,,
-Moog,Minitaur,Modulation,LFO: VCO 2 Only,Sends LFO to VCO2 Only,112,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Minitaur,Modulation,LFO: Key Trigger,Re-triggers the LFO to the start of the cycle,82,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Minitaur,Modulation,LFO: MIDI Sync,Enables or disables the ability of the LFO to sync with MIDI CLOCK messages,87,,0,127,,,,,0-based,,0-63: Internal; 64-127: MIDI clock
-Moog,Minitaur,Modulation,LFO: Clock Divide,Sets the LFO sync clock divider,86,,0,127,,,,,0-based,,0-6: 4 Whole Notes; 7-12: 3 Whole Notes; 13-18: 2 Whole Notes; 19-24: Whole Note + Half; 25-30: Whole Note; 31-36: Dotted 1/2 Note; 37-42: Whole Note Triplet; 43-48: 1/2 Note; 49-54: Dotted 1/4 Note Triplet; 55-60: 1/2 Note Triplet; 61-67: 1/4 Note; 68-73: Dotted 1/8 Note; 74-79: 1/4 Note Triplet; 80-85: 1/8 Note; 86-91: Dotted 1/16 Note; 92-97: 1/8 Note Triplet; 98-103: 1/16 Note; 104-109: 1/16 Note Triplet; 110-115: 1/32 Note; 116-121: 1/32 Note Triplet; 122-127: 1/64 Note Triplet
-Moog,Minitaur,Modulation,Mod wheel,Modulation performance control,1,33,0,16383,,,,,0-based,,
-Moog,Minitaur,Mixer,VCO 1: Level,Adjusts the level of VCO 1,15,47,0,16383,,,,,0-based,,
-Moog,Minitaur,Mixer,VCO 2: Level,Adjusts the level of VCO 2,16,48,0,16383,,,,,0-based,,
-Moog,Minitaur,Mixer,Ext Input: Level,Adjusts the level of the external audio input,27,59,0,16383,,,,,0-based,Default is 64 for 50% level,
-Moog,Minitaur,Filter,Filter: Cutoff,Adjusts the filter cutoff frequency,19,51,0,16383,,,,,0-based,,
-Moog,Minitaur,Filter,Filter: Resonance,Adjusts the filter resonance parameter,21,53,0,16383,,,,,0-based,,
-Moog,Minitaur,Filter,Filter: EG Amount,Adjusts the envelope generator amount affecting the cutoff,22,50,0,16383,,,,,0-based,,
-Moog,Minitaur,Filter,Filter: KB Tracking,Sets the amount of keyboard tracking for the filter,20,54,0,127,,,,,0-based,Default is 32 for about 50%,
-Moog,Minitaur,Filter,Filter: Vel Sens,Sets the amount of filter velocity sensitivity,89,,0,127,,,,,0-based,Default is 64 for about 50%,
-Moog,Minitaur,Envelopes,VCF: Attack,Adjusts the filter envelope attack time,23,55,0,16383,,,,,0-based,,
-Moog,Minitaur,Envelopes,VCF: Decay / Release,Adjusts the filter envelope decay and release time,24,56,0,16383,,,,,0-based,,
-Moog,Minitaur,Envelopes,VCF: Sustain,Adjusts the filter envelope sustain level,25,57,0,16383,,,,,0-based,,
-Moog,Minitaur,Envelopes,VCA: Attack,Adjusts the volume envelope attack time,28,60,0,16383,,,,,0-based,,
-Moog,Minitaur,Envelopes,VCA: Decay / Release,Adjusts the volume envelope decay and release time,29,61,0,16383,,,,,0-based,,
-Moog,Minitaur,Envelopes,VCA: Sustain,Adjusts the volume envelope sustain level,30,62,0,16383,,,,,0-based,,
-Moog,Minitaur,Envelopes,Release Switch,Sets the state of the release parameter,72,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Minitaur,Envelopes,EG Trigger Mode,Sets the state of the envelope trigger,73,,0,127,,,,,0-based,,0-42: Legato On; 43-85: Legato Off; 86-127: EG Reset
-Moog,Minitaur,Glide,Glide: Switch,Sets the state of the glide switch,65,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Minitaur,Glide,Glide: Rate,Adjusts the glide (portmanteau) time,5,,0,127,,,,,0-based,,
-Moog,Minitaur,Glide,Glide: Type,Sets the type of glide,92,,0,127,,,,,0-based,,0-42: Linear Constant Rate; 43-85: Linear Constant Time; 86-127: Exponential
-Moog,Minitaur,Glide,Glide: Legato,Sets the state of the legato lide parameter when glide is enabled,83,,0,127,,,,,0-based,,0-63: Always Glide; 64-127: Glide on Legato Notes Only
-Moog,Minitaur,Pitch Bend,PB: Down Range,Pitch wheel down performance control,108,,0,127,,,,,0-based,,0-15: Off; 16-31: 2 Semitones; 32-47: 3 Semitones; 48-63: 4 Semitones; 64-79: 5 Semitones; 80-95: 7 Semitones; 96-111: 12 Semitones; 112-127: 24 Semitones
-Moog,Minitaur,Pitch Bend,PB: Up Range,Pitch wheel up performance control,107,,0,127,,,,,0-based,,0-15: Off; 16-31: 2 Semitones; 32-47: 3 Semitones; 48-63: 4 Semitones; 64-79: 5 Semitones; 80-95: 7 Semitones; 96-111: 12 Semitones; 112-127: 24 Semitones
-Moog,Minitaur,KB Response,Key Priority,Sets the note priority,91,,0,127,,,,,0-based,Default is Last,0-42: Low Note; 43-85: High Note; 86-127: Last Note
-Moog,Minitaur,VCA,VCA: Volume,Adjusts the audio output and headphone level,7,39,0,16383,,,,,0-based,,
-Moog,Minitaur,VCA,VCA: Vel Sens,Sets the amount of volume velocity sensitivity,90,,0,127,,,,,0-based,Default is 64 for 50% level,
-Moog,Minitaur,Control,Local Control,Sets the state of the local control off parameter,122,,0,127,,,,,0-based,,0: Off; 127: On
-Moog,Minitaur,Control,All sounds off,MIDI panic message,120,,0,127,,,,,0-based,Any value,
-Moog,Minitaur,Control,All notes off,MIDI panic message,123,,0,127,,,,,0-based,Any value,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Moog,Minitaur,Oscillators,VCO 1: Wave,Selects the waveform of VCO 1,70,,0,127,,,,,,,0-based,,0-63: Saw; 64-127: Square
+Moog,Minitaur,Oscillators,VCO 2: Wave,Selects the waveform of VCO 2,71,,0,127,,,,,,,0-based,,0-63: Saw; 64-127: Square
+Moog,Minitaur,Oscillators,VCO 2: Frequency,Adjusts the frequency of VCO 2,17,49,0,16383,,,,,,,centered,64 is center,
+Moog,Minitaur,Oscillators,VCO 2: Beat,Adjusts the beat frequency of VCO 2,18,50,0,16383,,,,,,,0-based,defaults to 64,
+Moog,Minitaur,Oscillators,Hard Sync,Enables and disables Hard Sync,80,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Minitaur,Oscillators,Note Sync,Enables and disables Note Sync,81,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Minitaur,Modulation,LFO: Rate,Adjusts the LFO frequency,3,35,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Modulation,LFO: Shape,Selects the waveform for the LFO,85,,0,127,,,,,,,0-based,,0-21:Triangle; 22-43: Square; 44-65: Saw Down; 66-87: Saw Up; 88-109: S&H; 110-127: Filter EG
+Moog,Minitaur,Modulation,LFO: VCO Amount,Adjusts the modulation amount to the VCOs,13,45,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Modulation,LFO: VCF Amount,Adjusts the modulation amount to the VCF,12,44,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Modulation,LFO: VCO 2 Only,Sends LFO to VCO2 Only,112,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Minitaur,Modulation,LFO: Key Trigger,Re-triggers the LFO to the start of the cycle,82,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Minitaur,Modulation,LFO: MIDI Sync,Enables or disables the ability of the LFO to sync with MIDI CLOCK messages,87,,0,127,,,,,,,0-based,,0-63: Internal; 64-127: MIDI clock
+Moog,Minitaur,Modulation,LFO: Clock Divide,Sets the LFO sync clock divider,86,,0,127,,,,,,,0-based,,0-6: 4 Whole Notes; 7-12: 3 Whole Notes; 13-18: 2 Whole Notes; 19-24: Whole Note + Half; 25-30: Whole Note; 31-36: Dotted 1/2 Note; 37-42: Whole Note Triplet; 43-48: 1/2 Note; 49-54: Dotted 1/4 Note Triplet; 55-60: 1/2 Note Triplet; 61-67: 1/4 Note; 68-73: Dotted 1/8 Note; 74-79: 1/4 Note Triplet; 80-85: 1/8 Note; 86-91: Dotted 1/16 Note; 92-97: 1/8 Note Triplet; 98-103: 1/16 Note; 104-109: 1/16 Note Triplet; 110-115: 1/32 Note; 116-121: 1/32 Note Triplet; 122-127: 1/64 Note Triplet
+Moog,Minitaur,Modulation,Mod wheel,Modulation performance control,1,33,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Mixer,VCO 1: Level,Adjusts the level of VCO 1,15,47,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Mixer,VCO 2: Level,Adjusts the level of VCO 2,16,48,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Mixer,Ext Input: Level,Adjusts the level of the external audio input,27,59,0,16383,,,,,,,0-based,Default is 64 for 50% level,
+Moog,Minitaur,Filter,Filter: Cutoff,Adjusts the filter cutoff frequency,19,51,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Filter,Filter: Resonance,Adjusts the filter resonance parameter,21,53,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Filter,Filter: EG Amount,Adjusts the envelope generator amount affecting the cutoff,22,50,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Filter,Filter: KB Tracking,Sets the amount of keyboard tracking for the filter,20,54,0,127,,,,,,,0-based,Default is 32 for about 50%,
+Moog,Minitaur,Filter,Filter: Vel Sens,Sets the amount of filter velocity sensitivity,89,,0,127,,,,,,,0-based,Default is 64 for about 50%,
+Moog,Minitaur,Envelopes,VCF: Attack,Adjusts the filter envelope attack time,23,55,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Envelopes,VCF: Decay / Release,Adjusts the filter envelope decay and release time,24,56,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Envelopes,VCF: Sustain,Adjusts the filter envelope sustain level,25,57,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Envelopes,VCA: Attack,Adjusts the volume envelope attack time,28,60,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Envelopes,VCA: Decay / Release,Adjusts the volume envelope decay and release time,29,61,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Envelopes,VCA: Sustain,Adjusts the volume envelope sustain level,30,62,0,16383,,,,,,,0-based,,
+Moog,Minitaur,Envelopes,Release Switch,Sets the state of the release parameter,72,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Minitaur,Envelopes,EG Trigger Mode,Sets the state of the envelope trigger,73,,0,127,,,,,,,0-based,,0-42: Legato On; 43-85: Legato Off; 86-127: EG Reset
+Moog,Minitaur,Glide,Glide: Switch,Sets the state of the glide switch,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Minitaur,Glide,Glide: Rate,Adjusts the glide (portmanteau) time,5,,0,127,,,,,,,0-based,,
+Moog,Minitaur,Glide,Glide: Type,Sets the type of glide,92,,0,127,,,,,,,0-based,,0-42: Linear Constant Rate; 43-85: Linear Constant Time; 86-127: Exponential
+Moog,Minitaur,Glide,Glide: Legato,Sets the state of the legato lide parameter when glide is enabled,83,,0,127,,,,,,,0-based,,0-63: Always Glide; 64-127: Glide on Legato Notes Only
+Moog,Minitaur,Pitch Bend,PB: Down Range,Pitch wheel down performance control,108,,0,127,,,,,,,0-based,,0-15: Off; 16-31: 2 Semitones; 32-47: 3 Semitones; 48-63: 4 Semitones; 64-79: 5 Semitones; 80-95: 7 Semitones; 96-111: 12 Semitones; 112-127: 24 Semitones
+Moog,Minitaur,Pitch Bend,PB: Up Range,Pitch wheel up performance control,107,,0,127,,,,,,,0-based,,0-15: Off; 16-31: 2 Semitones; 32-47: 3 Semitones; 48-63: 4 Semitones; 64-79: 5 Semitones; 80-95: 7 Semitones; 96-111: 12 Semitones; 112-127: 24 Semitones
+Moog,Minitaur,KB Response,Key Priority,Sets the note priority,91,,0,127,,,,,,,0-based,Default is Last,0-42: Low Note; 43-85: High Note; 86-127: Last Note
+Moog,Minitaur,VCA,VCA: Volume,Adjusts the audio output and headphone level,7,39,0,16383,,,,,,,0-based,,
+Moog,Minitaur,VCA,VCA: Vel Sens,Sets the amount of volume velocity sensitivity,90,,0,127,,,,,,,0-based,Default is 64 for 50% level,
+Moog,Minitaur,Control,Local Control,Sets the state of the local control off parameter,122,,0,127,,,,,,,0-based,,0: Off; 127: On
+Moog,Minitaur,Control,All sounds off,MIDI panic message,120,,0,127,,,,,,,0-based,Any value,
+Moog,Minitaur,Control,All notes off,MIDI panic message,123,,0,127,,,,,,,0-based,Any value,

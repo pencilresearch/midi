@@ -1,68 +1,67 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-KORG,minilogue xd,General,Bank Select MSB,,0,32,0,4,,,,,0-based,,
-KORG,minilogue xd,General,Modulation1 (Joystick +Y),,1,,0,127,,,,,0-based,,
-KORG,minilogue xd,General,Modulation2 (Joystick -Y),,2,,0,127,,,,,0-based,,
-KORG,minilogue xd,General,Portamento,,5,,0,127,,,,,0-based,,
-KORG,minilogue xd,General,Data entry,,6,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCA,Amp EG attack,,16,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCA,Amp EG decay,,17,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCA,Amp EG sustain,,18,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCA,Amp EG release,,19,,0,127,,,,,0-based,,
-KORG,minilogue xd,EG,EG attack,,20,,0,127,,,,,0-based,,
-KORG,minilogue xd,EG,EG decay,,21,,0,127,,,,,0-based,,
-KORG,minilogue xd,EG,EG int,,22,,0,127,,,,,0-based,,
-KORG,minilogue xd,EG,EG target,,23,,0,127,,,,,0-based,,0-42: Cutoff; 43-85: Pitch2; 86-127: Pitch
-KORG,minilogue xd,LFO,LFO rate,,24,,0,127,,,,,0-based,,
-KORG,minilogue xd,LFO,LFO int,,26,,0,127,,,,,0-based,,
-KORG,minilogue xd,FX,Voice mode depth,,27,,0,127,,,,,0-based,,
-KORG,minilogue xd,FX,Mod FX time,,28,,0,127,,,,,0-based,,
-KORG,minilogue xd,FX,Mod FX depth,,29,,0,127,,,,,0-based,,
-KORG,minilogue xd,Multi,Multi level,,33,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCO 1,VCO 1 pitch,,34,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCO 2,VCO 2 pitch,,35,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCO 1,VCO 1 shape,,36,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCO 2,VCO 2 shape,,37,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCO 1,VCO 1 level,,39,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCO 2,VCO 2 level,,40,,0,127,,,,,0-based,,
-KORG,minilogue xd,General,Cross mod depth,,41,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCF,Cutoff,,43,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCF,Resonance,,44,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCO 1,VCO 1 octave,,48,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
-KORG,minilogue xd,VCO 2,VCO 2 octave,,49,,0,127,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
-KORG,minilogue xd,VCO 1,VCO 1 wave,,50,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
-KORG,minilogue xd,VCO 2,VCO 2 wave,,51,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
-KORG,minilogue xd,Multi,Multi type,,53,,0,127,,,,,0-based,,0-42: Noise; 43-85: VPM; 86-127: USR
-KORG,minilogue xd,Multi,Multi shape,,54,,0,127,,,,,0-based,,
-KORG,minilogue xd,LFO,LFO target,,56,,0,127,,,,,0-based,,0-42: Cutoff; 43-85: Shape; 86-127: Pitch
-KORG,minilogue xd,LFO,LFO wave,,57,,0,127,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
-KORG,minilogue xd,LFO,LFO mode,,58,,0,127,,,,,0-based,,0-42: 1-shot; 43-85: Normal; 86-127: BPM
-KORG,minilogue xd,FX,Voice mode depth,,59,,0,127,,,,,0-based,,
-KORG,minilogue xd,FX,Damper,,64,,0,127,,,,,0-based,,
-KORG,minilogue xd,VCF,Sync,,80,,0,127,,,,,0-based,,0-63: On; 64-127: Off
-KORG,minilogue xd,VCF,Ring,,81,,0,127,,,,,0-based,,0-63: On; 64-127: Off
-KORG,minilogue xd,VCF,Cutoff keytrack,,83,,0,127,,,,,0-based,,0-42: Cutoff keytrack 0%; 43-85: Cutoff keytrack 50%; 86-127: Cutoff keytrack 100%
-KORG,minilogue xd,VCF,Cutoff drive,,84,,0,127,,,,,0-based,,0-42: Cutoff drive 0%; 43-85: Cutoff drive 50%; 86-127: Cutoff drive 100%
-KORG,minilogue xd,FX,Mod FX type,,88,,0,127,,,,,0-based,,0-25: Chorus; 26-51: Ensemble; 52-76: Phaser; 77-101: Flanger; 102-127: User
-KORG,minilogue xd,FX,Delay subtype,,89,,0,127,,,,,0-based,,0-6: Stereo; 7-12: Mono; 13-19: Ping pong; 20-25: Hipass; 26-31: Tape; 32-38: One tap; 39-44: Stereo BPM; 45-51: Mono BPM; 52-57: Ping BPM; 58-63: Hipass BPM; 64-70: Tape BPM; 71-76: Doubling; 77-83: User 1; 84-89: User 2; 90-95: User 3; 96-102: User 4; 103-108: User 5; 109-115: User 6; 116-121: User 7; 122-127: User 8
-KORG,minilogue xd,FX,Reverb subtype,,90,,0,127,,,,,0-based,,0-7: Hall; 8-14: Smooth; 15-21: Arena; 22-28: Plate; 29-35: Room; 36-42: Early ref; 43-49: Space; 50-56: Riser; 57-63: Submarine; 64-71: Horror; 72-78: User 1; 79-85: User 2; 86-92: User 3; 93-99: User 4; 100-106: User 5; 107-113: User 6; 114-120: User 7; 121-127: User 8
-KORG,minilogue xd,FX,Mod FX on/off,,92,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-KORG,minilogue xd,FX,Delay on/off,,93,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-KORG,minilogue xd,FX,Reverb on/off,,94,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-KORG,minilogue xd,FX,Mod FX subtype for chorus,,96,,0,127,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-15: Stereo; 16-31: Light; 32-47: Deep; 48-63: Triphase; 64-79: Harmonic; 80-95: Mono; 96-111: Feedback; 112-127: Vibrato
-KORG,minilogue xd,FX,Mod FX subtype for ensemble,,96,,0,127,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-42: Stero; 43-85: Light; 86-127: Mono
-KORG,minilogue xd,FX,Mod FX subtype for phaser,,96,,0,127,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-15: Stereo; 16-31: Fast; 32-47: Orange; 48-63: Small; 64-79: Small reso; 80-95: Black; 96-111: Formant; 112-127: Twinkle
-KORG,minilogue xd,FX,Mod FX subtype for flanger,,96,,0,127,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-15: Stereo; 16-31: Light; 32-47: Mono; 48-63: High sweep; 64-79: Mid sweep; 80-95: Pan sweep; 96-111: Mono sweep; 112-127: Triphase
-KORG,minilogue xd,FX,Mod FX subtype for user,,96,,0,127,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-7: User 1; 8-15: User 2; 16-23: User 3; 24-31: User 4; 32-39: User 5; 40-47: User 6; 48-55: User 7; 56-63: User 8; 64-71: User 9; 72-79: User 10; 80-87: User 11; 88-95: User 12; 96-103: User 13; 104-111: User 14; 112-119: User 15; 120-127: User 16 
-KORG,minilogue xd,Multi,Multi subtype select for noise,,103,,0,127,,,,,0-based,"Functionality of this parameter depends on Multi type, CC 53",0-15: High; 16-31: Low; 32-47: Peak; 48-127: Decim
-KORG,minilogue xd,Multi,Multi subtype select for VPM,,103,,0,127,,,,,0-based,"Functionality of this parameter depends on Multi type, CC 53",0-7: SIN1; 8-15: SIN2; 16-23: SIN3; 24-31: SIN4; 32-39: SAW1; 40-47: SAW2; 48-55: SQU1; 56-63: SQU2; 64-71: FAT1; 72-79: FAT2; 80-87: AIR1; 88-95: AIR2; 96-103: DECAY1; 104-111: DECAY2; 112-119: CREEP; 120-127: THROAT
-KORG,minilogue xd,Multi,Multi subtype select for user,,103,,0,127,,,,,0-based,"Functionality of this parameter depends on Multi type, CC 53","0-7: User 1; 8-15: User 2; 16-23: User 3; 24-31: User 4; 32-39: User 5; 40-47: User 6; 48-55: User 7; 56-63: User 8; 64-71: User 9; 72-79: User 10; 80-87: User 11; 88-95: User 12; 96-103: User 13; 104-111: User 14; 112-119: User 15; 120-127: User 16
-"
-KORG,minilogue xd,Delay,Delay time,,105,,0,127,,,,,0-based,,
-KORG,minilogue xd,Delay,Delay depth,,106,,0,127,,,,,0-based,,
-KORG,minilogue xd,Delay,Delay dry/wet,,107,,0,127,,,,,0-based,,
-KORG,minilogue xd,Reverb,Reverb time,,108,,0,127,,,,,0-based,,
-KORG,minilogue xd,Reverb,Reverb depth,,109,,0,127,,,,,0-based,,
-KORG,minilogue xd,Reverb,Reverb dry/wet,,110,,0,127,,,,,0-based,,
-KORG,minilogue xd,CV,CV in 1,,118,,0,127,,,,,0-based,CV In Mode must be set to 'modulation',
-KORG,minilogue xd,CV,CV in 2,,119,,0,127,,,,,0-based,CV In Mode must be set to 'modulation',
-KORG,minilogue xd,General,All notes off,,123,,0,127,,,,,0-based,,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,minilogue xd,General,Bank Select MSB,,0,32,0,4,,,,,,,0-based,,
+KORG,minilogue xd,General,Modulation1 (Joystick +Y),,1,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,General,Modulation2 (Joystick -Y),,2,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,General,Portamento,,5,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,General,Data entry,,6,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCA,Amp EG attack,,16,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCA,Amp EG decay,,17,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCA,Amp EG sustain,,18,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCA,Amp EG release,,19,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,EG,EG attack,,20,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,EG,EG decay,,21,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,EG,EG int,,22,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,EG,EG target,,23,,0,127,,,,,,,0-based,,0-42: Cutoff; 43-85: Pitch2; 86-127: Pitch
+KORG,minilogue xd,LFO,LFO rate,,24,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,LFO,LFO int,,26,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,FX,Voice mode depth,,27,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,FX,Mod FX time,,28,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,FX,Mod FX depth,,29,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,Multi,Multi level,,33,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCO 1,VCO 1 pitch,,34,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCO 2,VCO 2 pitch,,35,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCO 1,VCO 1 shape,,36,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCO 2,VCO 2 shape,,37,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCO 1,VCO 1 level,,39,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCO 2,VCO 2 level,,40,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,General,Cross mod depth,,41,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCF,Cutoff,,43,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCF,Resonance,,44,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCO 1,VCO 1 octave,,48,,0,127,,,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+KORG,minilogue xd,VCO 2,VCO 2 octave,,49,,0,127,,,,,,,0-based,,0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+KORG,minilogue xd,VCO 1,VCO 1 wave,,50,,0,127,,,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
+KORG,minilogue xd,VCO 2,VCO 2 wave,,51,,0,127,,,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
+KORG,minilogue xd,Multi,Multi type,,53,,0,127,,,,,,,0-based,,0-42: Noise; 43-85: VPM; 86-127: USR
+KORG,minilogue xd,Multi,Multi shape,,54,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,LFO,LFO target,,56,,0,127,,,,,,,0-based,,0-42: Cutoff; 43-85: Shape; 86-127: Pitch
+KORG,minilogue xd,LFO,LFO wave,,57,,0,127,,,,,,,0-based,,0-42: Square; 43-85: Triangle; 86-127: Saw
+KORG,minilogue xd,LFO,LFO mode,,58,,0,127,,,,,,,0-based,,0-42: 1-shot; 43-85: Normal; 86-127: BPM
+KORG,minilogue xd,FX,Voice mode depth,,59,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,FX,Damper,,64,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,VCF,Sync,,80,,0,127,,,,,,,0-based,,0-63: On; 64-127: Off
+KORG,minilogue xd,VCF,Ring,,81,,0,127,,,,,,,0-based,,0-63: On; 64-127: Off
+KORG,minilogue xd,VCF,Cutoff keytrack,,83,,0,127,,,,,,,0-based,,0-42: Cutoff keytrack 0%; 43-85: Cutoff keytrack 50%; 86-127: Cutoff keytrack 100%
+KORG,minilogue xd,VCF,Cutoff drive,,84,,0,127,,,,,,,0-based,,0-42: Cutoff drive 0%; 43-85: Cutoff drive 50%; 86-127: Cutoff drive 100%
+KORG,minilogue xd,FX,Mod FX type,,88,,0,127,,,,,,,0-based,,0-25: Chorus; 26-51: Ensemble; 52-76: Phaser; 77-101: Flanger; 102-127: User
+KORG,minilogue xd,FX,Delay subtype,,89,,0,127,,,,,,,0-based,,0-6: Stereo; 7-12: Mono; 13-19: Ping pong; 20-25: Hipass; 26-31: Tape; 32-38: One tap; 39-44: Stereo BPM; 45-51: Mono BPM; 52-57: Ping BPM; 58-63: Hipass BPM; 64-70: Tape BPM; 71-76: Doubling; 77-83: User 1; 84-89: User 2; 90-95: User 3; 96-102: User 4; 103-108: User 5; 109-115: User 6; 116-121: User 7; 122-127: User 8
+KORG,minilogue xd,FX,Reverb subtype,,90,,0,127,,,,,,,0-based,,0-7: Hall; 8-14: Smooth; 15-21: Arena; 22-28: Plate; 29-35: Room; 36-42: Early ref; 43-49: Space; 50-56: Riser; 57-63: Submarine; 64-71: Horror; 72-78: User 1; 79-85: User 2; 86-92: User 3; 93-99: User 4; 100-106: User 5; 107-113: User 6; 114-120: User 7; 121-127: User 8
+KORG,minilogue xd,FX,Mod FX on/off,,92,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,minilogue xd,FX,Delay on/off,,93,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,minilogue xd,FX,Reverb on/off,,94,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,minilogue xd,FX,Mod FX subtype for chorus,,96,,0,127,,,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-15: Stereo; 16-31: Light; 32-47: Deep; 48-63: Triphase; 64-79: Harmonic; 80-95: Mono; 96-111: Feedback; 112-127: Vibrato
+KORG,minilogue xd,FX,Mod FX subtype for ensemble,,96,,0,127,,,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-42: Stero; 43-85: Light; 86-127: Mono
+KORG,minilogue xd,FX,Mod FX subtype for phaser,,96,,0,127,,,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-15: Stereo; 16-31: Fast; 32-47: Orange; 48-63: Small; 64-79: Small reso; 80-95: Black; 96-111: Formant; 112-127: Twinkle
+KORG,minilogue xd,FX,Mod FX subtype for flanger,,96,,0,127,,,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-15: Stereo; 16-31: Light; 32-47: Mono; 48-63: High sweep; 64-79: Mid sweep; 80-95: Pan sweep; 96-111: Mono sweep; 112-127: Triphase
+KORG,minilogue xd,FX,Mod FX subtype for user,,96,,0,127,,,,,,,0-based,"Functionality of this parameter depends on Mod FX Type, CC 88",0-7: User 1; 8-15: User 2; 16-23: User 3; 24-31: User 4; 32-39: User 5; 40-47: User 6; 48-55: User 7; 56-63: User 8; 64-71: User 9; 72-79: User 10; 80-87: User 11; 88-95: User 12; 96-103: User 13; 104-111: User 14; 112-119: User 15; 120-127: User 16 
+KORG,minilogue xd,Multi,Multi subtype select for noise,,103,,0,127,,,,,,,0-based,"Functionality of this parameter depends on Multi type, CC 53",0-15: High; 16-31: Low; 32-47: Peak; 48-127: Decim
+KORG,minilogue xd,Multi,Multi subtype select for VPM,,103,,0,127,,,,,,,0-based,"Functionality of this parameter depends on Multi type, CC 53",0-7: SIN1; 8-15: SIN2; 16-23: SIN3; 24-31: SIN4; 32-39: SAW1; 40-47: SAW2; 48-55: SQU1; 56-63: SQU2; 64-71: FAT1; 72-79: FAT2; 80-87: AIR1; 88-95: AIR2; 96-103: DECAY1; 104-111: DECAY2; 112-119: CREEP; 120-127: THROAT
+KORG,minilogue xd,Multi,Multi subtype select for user,,103,,0,127,,,,,,,0-based,"Functionality of this parameter depends on Multi type, CC 53",0-7: User 1; 8-15: User 2; 16-23: User 3; 24-31: User 4; 32-39: User 5; 40-47: User 6; 48-55: User 7; 56-63: User 8; 64-71: User 9; 72-79: User 10; 80-87: User 11; 88-95: User 12; 96-103: User 13; 104-111: User 14; 112-119: User 15; 120-127: User 16
+KORG,minilogue xd,Delay,Delay time,,105,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,Delay,Delay depth,,106,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,Delay,Delay dry/wet,,107,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,Reverb,Reverb time,,108,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,Reverb,Reverb depth,,109,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,Reverb,Reverb dry/wet,,110,,0,127,,,,,,,0-based,,
+KORG,minilogue xd,CV,CV in 1,,118,,0,127,,,,,,,0-based,CV In Mode must be set to 'modulation',
+KORG,minilogue xd,CV,CV in 2,,119,,0,127,,,,,,,0-based,CV In Mode must be set to 'modulation',
+KORG,minilogue xd,General,All notes off,,123,,0,127,,,,,,,0-based,,

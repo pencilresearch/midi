@@ -1,17 +1,17 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Jomox,MBase 11,Sound,Tune,Intensity of initial pitch sweep envelope,100,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Pitch sweep amount
-Jomox,MBase 11,Sound,Pitch,Base oscillator frequency for the kick,101,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Base pitch
-Jomox,MBase 11,Sound,Decay,Length of the kick tail,102,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Decay time
-Jomox,MBase 11,Sound,Harmonics,Shapes sine toward more harmonic content,103,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Harmonic shaping
-Jomox,MBase 11,Sound,Pulse,Level of the click pulse in the attack,104,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Pulse attack level
-Jomox,MBase 11,Sound,Noise,Level of noise in the attack,105,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Noise attack level
-Jomox,MBase 11,Sound,Attack,Scales the mixed pulse and noise attack,106,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Attack mix depth
-Jomox,MBase 11,Sound,EQ,Gentle output EQ filter intensity,107,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Output lowpass amount
-Jomox,MBase 11,Sound,Compression,Compression shaping of decay loudness,113,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Decay envelope compression
-Jomox,MBase 11,Sound,Gate Time,Gate length for analog trigger circuit,114,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Trigger gate length
-Jomox,MBase 11,Sound,Metal Noise,Selects metallic noise patterns,115,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Metallic noise mode
-Jomox,MBase 11,Sound,Volume,Main output level; velocity scales up to this level,117,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Output level
-Jomox,MBase 11,LFO,LFO Sync,LFO free run or retrigger on note,120,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Jomox,MBase 11,LFO,LFO Intensity,Amount of LFO modulation applied to pitch,121,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: LFO depth
-Jomox,MBase 11,LFO,LFO Rate,LFO speed in BPM or MIDI clock synced at lowest value,122,,0,127,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: LFO speed
-Jomox,MBase 11,LFO,LFO One Shot,Run one cycle as extra envelope,123,,0,127,,,,,0-based,,0-63: Off; 64-127: On
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Jomox,MBase 11,Sound,Tune,Intensity of initial pitch sweep envelope,100,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Pitch sweep amount
+Jomox,MBase 11,Sound,Pitch,Base oscillator frequency for the kick,101,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Base pitch
+Jomox,MBase 11,Sound,Decay,Length of the kick tail,102,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Decay time
+Jomox,MBase 11,Sound,Harmonics,Shapes sine toward more harmonic content,103,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Harmonic shaping
+Jomox,MBase 11,Sound,Pulse,Level of the click pulse in the attack,104,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Pulse attack level
+Jomox,MBase 11,Sound,Noise,Level of noise in the attack,105,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Noise attack level
+Jomox,MBase 11,Sound,Attack,Scales the mixed pulse and noise attack,106,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Attack mix depth
+Jomox,MBase 11,Sound,EQ,Gentle output EQ filter intensity,107,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Output lowpass amount
+Jomox,MBase 11,Sound,Compression,Compression shaping of decay loudness,113,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Decay envelope compression
+Jomox,MBase 11,Sound,Gate Time,Gate length for analog trigger circuit,114,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Trigger gate length
+Jomox,MBase 11,Sound,Metal Noise,Selects metallic noise patterns,115,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Metallic noise mode
+Jomox,MBase 11,Sound,Volume,Main output level; velocity scales up to this level,117,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: Output level
+Jomox,MBase 11,LFO,LFO Sync,LFO free run or retrigger on note,120,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Jomox,MBase 11,LFO,LFO Intensity,Amount of LFO modulation applied to pitch,121,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: LFO depth
+Jomox,MBase 11,LFO,LFO Rate,LFO speed in BPM or MIDI clock synced at lowest value,122,,0,127,,,,,,,0-based,Internal range 0-255 mapped from 0-127 CC,0~127: LFO speed
+Jomox,MBase 11,LFO,LFO One Shot,Run one cycle as extra envelope,123,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On

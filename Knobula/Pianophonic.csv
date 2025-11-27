@@ -1,14 +1,14 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Knobula,Pianophonic,System,All sounds off,Forces all voices off ignoring release time,120,,0,0,,,,,0-based,Trigger function via hardware: Press Shift button fast 4 times,0: All sounds off
-Knobula,Pianophonic,System,Main volume,Additional scaling of output signal,7,,0,127,,,,,0-based,Default is 100. 100 is unity gain.,0~127: Mute to +9dB
-Knobula,Pianophonic,Voice,Chord select,Select chord slot,1,,0,127,,,,,0-based,Not stored.,0~127: Select chord slot 0-8
-Knobula,Pianophonic,Envelope,Attack offset,Bipolar offset to Attack knob value,73,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
-Knobula,Pianophonic,Envelope,Decay offset,Bipolar offset to Decay knob value,75,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
-Knobula,Pianophonic,Envelope,Release offset,Bipolar offset to Release knob value,72,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
-Knobula,Pianophonic,Filter,Filter offset,Bipolar offset to Filter knob value,74,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
-Knobula,Pianophonic,Oscillator,Detune offset,Bipolar offset to Detune knob value,94,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
-Knobula,Pianophonic,Oscillator,Start position offset,Bipolar offset to Start Position knob value,78,,0,127,,,,,Centered,Dedicated pot + CV. Not stored.,0~127: Bipolar offset
-Knobula,Pianophonic,Oscillator,Morph speed offset,Bipolar offset to Morph Speed knob value,77,,0,127,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
-Knobula,Pianophonic,Effects,Reverb send scaling,Additional scaling factor on reverb send path,92,,0,127,,,,,0-based,Dedicated pot. Not stored. 64 is unity gain.,0~127: Mute to +9dB
-Knobula,Pianophonic,Calibration,V/Oct slope,Adjust the sensitivity of the V/Oct input,23,,0,127,,,,,Centered,Default is 64. 64 is exactly 1V/Oct.,0~127: 1.10V/Oct to 0.91V/Oct
-Knobula,Pianophonic,Calibration,V/Oct offset,Adjust the static offset to be applied to the V/Oct input,24,,0,127,,,,,Centered,Default is 64. 64 is no offset.,0~127: -100 cents to : +100 cents
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Knobula,Pianophonic,System,All sounds off,Forces all voices off ignoring release time,120,,0,0,,,,,,,0-based,Trigger function via hardware: Press Shift button fast 4 times,0: All sounds off
+Knobula,Pianophonic,System,Main volume,Additional scaling of output signal,7,,0,127,,,,,,,0-based,Default is 100. 100 is unity gain.,0~127: Mute to +9dB
+Knobula,Pianophonic,Voice,Chord select,Select chord slot,1,,0,127,,,,,,,0-based,Not stored.,0~127: Select chord slot 0-8
+Knobula,Pianophonic,Envelope,Attack offset,Bipolar offset to Attack knob value,73,,0,127,,,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
+Knobula,Pianophonic,Envelope,Decay offset,Bipolar offset to Decay knob value,75,,0,127,,,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
+Knobula,Pianophonic,Envelope,Release offset,Bipolar offset to Release knob value,72,,0,127,,,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
+Knobula,Pianophonic,Filter,Filter offset,Bipolar offset to Filter knob value,74,,0,127,,,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
+Knobula,Pianophonic,Oscillator,Detune offset,Bipolar offset to Detune knob value,94,,0,127,,,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
+Knobula,Pianophonic,Oscillator,Start position offset,Bipolar offset to Start Position knob value,78,,0,127,,,,,,,Centered,Dedicated pot + CV. Not stored.,0~127: Bipolar offset
+Knobula,Pianophonic,Oscillator,Morph speed offset,Bipolar offset to Morph Speed knob value,77,,0,127,,,,,,,Centered,Dedicated pot. Not stored.,0~127: Bipolar offset
+Knobula,Pianophonic,Effects,Reverb send scaling,Additional scaling factor on reverb send path,92,,0,127,,,,,,,0-based,Dedicated pot. Not stored. 64 is unity gain.,0~127: Mute to +9dB
+Knobula,Pianophonic,Calibration,V/Oct slope,Adjust the sensitivity of the V/Oct input,23,,0,127,,,,,,,Centered,Default is 64. 64 is exactly 1V/Oct.,0~127: 1.10V/Oct to 0.91V/Oct
+Knobula,Pianophonic,Calibration,V/Oct offset,Adjust the static offset to be applied to the V/Oct input,24,,0,127,,,,,,,Centered,Default is 64. 64 is no offset.,0~127: -100 cents to : +100 cents

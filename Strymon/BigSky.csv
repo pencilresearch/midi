@@ -1,62 +1,62 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Strymon,BigSky,Knobs,Type (reverb machine),Selects reverb machine (12 types),19,,0,11,,,,,0-based,,0-11: Select machine
-Strymon,BigSky,Knobs,Decay,Reverb decay / RT60,17,,0,127,,,,,0-based,,0~127: Decay time
-Strymon,BigSky,Knobs,Pre-Delay,Time before reverb onset,18,,0,127,,,,,0-based,,0~127: Pre-delay
-Strymon,BigSky,Knobs,Mix,Analog dry/wet balance,15,,0,127,,,,,0-based,,0~127: Wet level
-Strymon,BigSky,Knobs,Tone,Global high-end content,3,,0,127,,,,,0-based,,0~127: Tone
-Strymon,BigSky,Knobs,Mod,Reverb modulation amount,14,,0,127,,,,,0-based,,0~127: Mod amount
-Strymon,BigSky,Knobs,Param 1,Assignable per machine,9,,0,127,,,,,0-based,,0~127: Param 1
-Strymon,BigSky,Knobs,Param 2,Assignable per machine,16,,0,127,,,,,0-based,,0~127: Param 2
-Strymon,BigSky,Common Parameters,Boost,+/-3 dB output trim per preset,23,,0,60,,,,,Centered,"Midpoint, approx. unity (0 dB).",0~60: -3 dB to +3 dB
-Strymon,BigSky,Common Parameters,Persist (Trails),Reverb trails spillover when bypassed,22,,0,1,,,,,0-based,,0: Off; 1: On
-Strymon,BigSky,Common Parameters,Hold Mode,Selects Freeze or Infinite for press-and-hold,70,,0,1,,,,,0-based,,0: Freeze; 1: Infinite
-Strymon,BigSky,Common Parameters,Expression Enable,Enable/disable expression per preset,60,,0,1,,,,,0-based,,0: Off; 1: On
-Strymon,BigSky,Common Parameters,MIDI Clock,Follow external MIDI clock,71,,0,1,,,,,0-based,Controls Pre-Delay on most machines; Decay on Magneto/Nonlinear.,0: Off; 1: On
-Strymon,BigSky,Room,Low End,Low-frequency content / decay profile,61,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Room,Size,Studio vs Club room size,59,,0,1,,,,,0-based,,0: Studio; 1: Club
-Strymon,BigSky,Room,Diffusion,Early/overall diffusion amount,58,,0,20,,,,,0-based,,0~20: Diffusion
-Strymon,BigSky,Hall,Low End,Low-frequency content / decay profile,39,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Hall,Size,Concert vs Arena,40,,0,1,,,,,0-based,,0: Concert; 1: Arena
-Strymon,BigSky,Hall,Mid,Midrange emphasis/attenuation,42,,0,20,,,,,0-based,,0~20: Mid
-Strymon,BigSky,Plate,Low End,Low-frequency content,69,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Plate,Size,Small vs Large plate,68,,0,1,,,,,0-based,,0: Small; 1: Large
-Strymon,BigSky,Spring,Low End,Low-frequency content,64,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Spring,Dwell,Preamp drive style,63,,0,3,,,,,0-based,,0: Clean; 1: Combo; 2: Tube; 3: Overdrive
-Strymon,BigSky,Spring,# of Springs,"Select 1, 2, or 3 springs",62,,0,2,,,,,0-based,,0: 1; 1: 2; 2: 3
-Strymon,BigSky,Swell,Low End,Low-frequency content,65,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Swell,Rise Time,Rise time of swelled signal,66,,0,22,,,,,0-based,,0~22: Rise time
-Strymon,BigSky,Swell,Mode,Wet-in or Dry-in swell,67,,0,1,,,,,0-based,,0: Swell Wet; 1: Swell Dry
-Strymon,BigSky,Bloom,Low End,Low-frequency content,31,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Bloom,Length,Length of bloom portion,32,,0,17,,,,,0-based,,0~17: Length
-Strymon,BigSky,Bloom,Feedback,Feedback around bloom generator,30,,0,17,,,,,0-based,,0~17: Feedback
-Strymon,BigSky,Cloud,Low End,Low-frequency content,38,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Cloud,Diffusion,Input and tank diffusion,37,,0,20,,,,,0-based,,0~20: Diffusion
-Strymon,BigSky,Chorale,Vowel,Choir vowel selection,33,,0,6,,,,,0-based,,0: AAHHOO; 1: AAHH; 2: AAHHOH; 3: OH; 4: OOOHOH; 5: OOOO; 6: Random
-Strymon,BigSky,Chorale,Resonance,Vowel resonance intensity,34,,0,2,,,,,0-based,,0: Mild; 1: Medium; 2: High
-Strymon,BigSky,Shimmer,Shift 1,Voice 1 interval (-Oct to +2 Oct),25,,0,27,,,,,0-based,,0-27: Select interval
-Strymon,BigSky,Shimmer,Shift 2,Voice 2 interval (-Oct to +2 Oct),26,,0,28,,,,,0-based,,0-28: Select interval
-Strymon,BigSky,Shimmer,Amount,Level of shifted voices,27,,0,18,,,,,0-based,,0~18: Amount
-Strymon,BigSky,Shimmer,Mode,Input/tank shimmer routing,28,,0,2,,,,,0-based,,0: Input; 1: Regen; 2: In+Reg
-Strymon,BigSky,Shimmer,Low End,Low-frequency content,24,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Magneto,Low End,Low-frequency response,55,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Magneto,Diffusion,Head diffusor smear,56,,0,20,,,,,0-based,,0~20: Diffusion
-Strymon,BigSky,Magneto,Number of Heads,Select 3/4/6 heads,57,,0,2,,,,,0-based,,0: 3; 1: 4; 2: 6
-Strymon,BigSky,Magneto,Spacing,Even or Uneven head spacing,54,,0,1,,,,,0-based,,0: Even; 1: Uneven
-Strymon,BigSky,Nonlinear,Low End,Low-frequency content,44,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Nonlinear,Shape,Nonlinear shape,46,,0,5,,,,,0-based,,0: Swoosh; 1: Reverse; 2: Ramp; 3: Gate; 4: Gauss; 5: Bounce
-Strymon,BigSky,Nonlinear,Diffusion,Nonlinear generator diffusion,45,,0,20,,,,,0-based,,0~20: Diffusion
-Strymon,BigSky,Nonlinear,Late Decay,Late reverb decay time,47,,0,17,,,,,0-based,,0~17: Late Decay
-Strymon,BigSky,Nonlinear,Late Level,Late reverb level,48,,0,18,,,,,0-based,,0~18: Late Level
-Strymon,BigSky,Nonlinear,Mod Speed,LFO speed for NL and late reverb,43,,0,17,,,,,0-based,,0~17: Mod speed
-Strymon,BigSky,Reflections,Low End,Low-frequency decay profile,52,,0,20,,,,,0-based,,0~20: Low End
-Strymon,BigSky,Reflections,Location Y,Front...Back source position,50,,0,6,,,,,0-based,,0~6: Front to Back
-Strymon,BigSky,Reflections,Location X,Left...Right source position,49,,0,6,,,,,0-based,,0~6: Left to Right
-Strymon,BigSky,Reflections,Shape,Room shape,51,,0,2,,,,,0-based,,0: Square; 1: Rect; 2: Oblong
-Strymon,BigSky,Global / Control,Footswitch A,Front-panel A footswitch (down/up),80,,0,127,,,,,0-based,,0: Down; 127: Up
-Strymon,BigSky,Global / Control,Footswitch B,Front-panel B footswitch (down/up),82,,0,127,,,,,0-based,,0: Down; 127: Up
-Strymon,BigSky,Global / Control,Footswitch C,Front-panel C footswitch (down/up),81,,0,127,,,,,0-based,,0: Down; 127: Up
-Strymon,BigSky,Global / Control,Press/Hold Switch,Footswitch press-and-hold,97,,0,127,,,,,0-based,,0: Off; 127: On
-Strymon,BigSky,Global / Control,Remote Tap,Tap tempo via MIDI,93,,0,127,,,,,0-based,,0-127: Tap
-Strymon,BigSky,Global / Control,Expression Pedal,Expression value (heel to toe),100,,0,127,,,,,0-based,,0~127: Expression position
-Strymon,BigSky,Global / Control,Bypass,Effect bypass/engage,102,,0,127,,,,,0-based,,0: Bypass; 127: Engage
-Strymon,BigSky,Global / Control,MIDI Patch Bank Select (MSB),Select MIDI patch bank group.,0,,0,2,,,,,0-based,,0: 00A-42B; 1: 42C-85A; 2: 85B-99C
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Strymon,BigSky,Knobs,Type (reverb machine),Selects reverb machine (12 types),19,,0,11,,,,,,,0-based,,0-11: Select machine
+Strymon,BigSky,Knobs,Decay,Reverb decay / RT60,17,,0,127,,,,,,,0-based,,0~127: Decay time
+Strymon,BigSky,Knobs,Pre-Delay,Time before reverb onset,18,,0,127,,,,,,,0-based,,0~127: Pre-delay
+Strymon,BigSky,Knobs,Mix,Analog dry/wet balance,15,,0,127,,,,,,,0-based,,0~127: Wet level
+Strymon,BigSky,Knobs,Tone,Global high-end content,3,,0,127,,,,,,,0-based,,0~127: Tone
+Strymon,BigSky,Knobs,Mod,Reverb modulation amount,14,,0,127,,,,,,,0-based,,0~127: Mod amount
+Strymon,BigSky,Knobs,Param 1,Assignable per machine,9,,0,127,,,,,,,0-based,,0~127: Param 1
+Strymon,BigSky,Knobs,Param 2,Assignable per machine,16,,0,127,,,,,,,0-based,,0~127: Param 2
+Strymon,BigSky,Common Parameters,Boost,+/-3 dB output trim per preset,23,,0,60,,,,,,,Centered,"Midpoint, approx. unity (0 dB).",0~60: -3 dB to +3 dB
+Strymon,BigSky,Common Parameters,Persist (Trails),Reverb trails spillover when bypassed,22,,0,1,,,,,,,0-based,,0: Off; 1: On
+Strymon,BigSky,Common Parameters,Hold Mode,Selects Freeze or Infinite for press-and-hold,70,,0,1,,,,,,,0-based,,0: Freeze; 1: Infinite
+Strymon,BigSky,Common Parameters,Expression Enable,Enable/disable expression per preset,60,,0,1,,,,,,,0-based,,0: Off; 1: On
+Strymon,BigSky,Common Parameters,MIDI Clock,Follow external MIDI clock,71,,0,1,,,,,,,0-based,Controls Pre-Delay on most machines; Decay on Magneto/Nonlinear.,0: Off; 1: On
+Strymon,BigSky,Room,Low End,Low-frequency content / decay profile,61,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Room,Size,Studio vs Club room size,59,,0,1,,,,,,,0-based,,0: Studio; 1: Club
+Strymon,BigSky,Room,Diffusion,Early/overall diffusion amount,58,,0,20,,,,,,,0-based,,0~20: Diffusion
+Strymon,BigSky,Hall,Low End,Low-frequency content / decay profile,39,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Hall,Size,Concert vs Arena,40,,0,1,,,,,,,0-based,,0: Concert; 1: Arena
+Strymon,BigSky,Hall,Mid,Midrange emphasis/attenuation,42,,0,20,,,,,,,0-based,,0~20: Mid
+Strymon,BigSky,Plate,Low End,Low-frequency content,69,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Plate,Size,Small vs Large plate,68,,0,1,,,,,,,0-based,,0: Small; 1: Large
+Strymon,BigSky,Spring,Low End,Low-frequency content,64,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Spring,Dwell,Preamp drive style,63,,0,3,,,,,,,0-based,,0: Clean; 1: Combo; 2: Tube; 3: Overdrive
+Strymon,BigSky,Spring,# of Springs,"Select 1, 2, or 3 springs",62,,0,2,,,,,,,0-based,,0: 1; 1: 2; 2: 3
+Strymon,BigSky,Swell,Low End,Low-frequency content,65,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Swell,Rise Time,Rise time of swelled signal,66,,0,22,,,,,,,0-based,,0~22: Rise time
+Strymon,BigSky,Swell,Mode,Wet-in or Dry-in swell,67,,0,1,,,,,,,0-based,,0: Swell Wet; 1: Swell Dry
+Strymon,BigSky,Bloom,Low End,Low-frequency content,31,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Bloom,Length,Length of bloom portion,32,,0,17,,,,,,,0-based,,0~17: Length
+Strymon,BigSky,Bloom,Feedback,Feedback around bloom generator,30,,0,17,,,,,,,0-based,,0~17: Feedback
+Strymon,BigSky,Cloud,Low End,Low-frequency content,38,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Cloud,Diffusion,Input and tank diffusion,37,,0,20,,,,,,,0-based,,0~20: Diffusion
+Strymon,BigSky,Chorale,Vowel,Choir vowel selection,33,,0,6,,,,,,,0-based,,0: AAHHOO; 1: AAHH; 2: AAHHOH; 3: OH; 4: OOOHOH; 5: OOOO; 6: Random
+Strymon,BigSky,Chorale,Resonance,Vowel resonance intensity,34,,0,2,,,,,,,0-based,,0: Mild; 1: Medium; 2: High
+Strymon,BigSky,Shimmer,Shift 1,Voice 1 interval (-Oct to +2 Oct),25,,0,27,,,,,,,0-based,,0-27: Select interval
+Strymon,BigSky,Shimmer,Shift 2,Voice 2 interval (-Oct to +2 Oct),26,,0,28,,,,,,,0-based,,0-28: Select interval
+Strymon,BigSky,Shimmer,Amount,Level of shifted voices,27,,0,18,,,,,,,0-based,,0~18: Amount
+Strymon,BigSky,Shimmer,Mode,Input/tank shimmer routing,28,,0,2,,,,,,,0-based,,0: Input; 1: Regen; 2: In+Reg
+Strymon,BigSky,Shimmer,Low End,Low-frequency content,24,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Magneto,Low End,Low-frequency response,55,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Magneto,Diffusion,Head diffusor smear,56,,0,20,,,,,,,0-based,,0~20: Diffusion
+Strymon,BigSky,Magneto,Number of Heads,Select 3/4/6 heads,57,,0,2,,,,,,,0-based,,0: 3; 1: 4; 2: 6
+Strymon,BigSky,Magneto,Spacing,Even or Uneven head spacing,54,,0,1,,,,,,,0-based,,0: Even; 1: Uneven
+Strymon,BigSky,Nonlinear,Low End,Low-frequency content,44,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Nonlinear,Shape,Nonlinear shape,46,,0,5,,,,,,,0-based,,0: Swoosh; 1: Reverse; 2: Ramp; 3: Gate; 4: Gauss; 5: Bounce
+Strymon,BigSky,Nonlinear,Diffusion,Nonlinear generator diffusion,45,,0,20,,,,,,,0-based,,0~20: Diffusion
+Strymon,BigSky,Nonlinear,Late Decay,Late reverb decay time,47,,0,17,,,,,,,0-based,,0~17: Late Decay
+Strymon,BigSky,Nonlinear,Late Level,Late reverb level,48,,0,18,,,,,,,0-based,,0~18: Late Level
+Strymon,BigSky,Nonlinear,Mod Speed,LFO speed for NL and late reverb,43,,0,17,,,,,,,0-based,,0~17: Mod speed
+Strymon,BigSky,Reflections,Low End,Low-frequency decay profile,52,,0,20,,,,,,,0-based,,0~20: Low End
+Strymon,BigSky,Reflections,Location Y,Front...Back source position,50,,0,6,,,,,,,0-based,,0~6: Front to Back
+Strymon,BigSky,Reflections,Location X,Left...Right source position,49,,0,6,,,,,,,0-based,,0~6: Left to Right
+Strymon,BigSky,Reflections,Shape,Room shape,51,,0,2,,,,,,,0-based,,0: Square; 1: Rect; 2: Oblong
+Strymon,BigSky,Global / Control,Footswitch A,Front-panel A footswitch (down/up),80,,0,127,,,,,,,0-based,,0: Down; 127: Up
+Strymon,BigSky,Global / Control,Footswitch B,Front-panel B footswitch (down/up),82,,0,127,,,,,,,0-based,,0: Down; 127: Up
+Strymon,BigSky,Global / Control,Footswitch C,Front-panel C footswitch (down/up),81,,0,127,,,,,,,0-based,,0: Down; 127: Up
+Strymon,BigSky,Global / Control,Press/Hold Switch,Footswitch press-and-hold,97,,0,127,,,,,,,0-based,,0: Off; 127: On
+Strymon,BigSky,Global / Control,Remote Tap,Tap tempo via MIDI,93,,0,127,,,,,,,0-based,,0-127: Tap
+Strymon,BigSky,Global / Control,Expression Pedal,Expression value (heel to toe),100,,0,127,,,,,,,0-based,,0~127: Expression position
+Strymon,BigSky,Global / Control,Bypass,Effect bypass/engage,102,,0,127,,,,,,,0-based,,0: Bypass; 127: Engage
+Strymon,BigSky,Global / Control,MIDI Patch Bank Select (MSB),Select MIDI patch bank group.,0,,0,2,,,,,,,0-based,,0: 00A-42B; 1: 42C-85A; 2: 85B-99C

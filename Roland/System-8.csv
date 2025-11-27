@@ -1,79 +1,79 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Roland,System-8,General,Mod,,1,,0,127,,,,,0-based,,
-Roland,System-8,General,Portamento,,5,,0,127,,,,,0-based,,
-Roland,System-8,General,Legato,,116,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
-Roland,System-8,General,Tempo Sync,,118,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
-Roland,System-8,General,Mono,,119,,0,127,,,,,0-based,,0-31: POLY; 32-95: MONO; 96-127: UNISON
-Roland,System-8,General,Pedal: Control,,11,,0,127,,,,,0-based,,
-Roland,System-8,General,Pedal: Hold,,64,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
-Roland,System-8,General,Patch Bend: Range,,41,,0,127,,,,,0-based,,
-Roland,System-8,General,Patch Bend: Gain,,49,,0,127,,,,,0-based,,0-21: x1; 22-63: x2; 64-105: x3; 106-127: x4
-Roland,System-8,LFO,LFO: Variation,,14,,0,127,,,,,0-based,,
-Roland,System-8,LFO,LFO: Wave,,35,,0,127,,,,,0-based,,0-12: SIN; 13-38: TRI; 39-63: SAW; 64-88: SQR; 89-114: S&H; 115-127: RND
-Roland,System-8,LFO,LFO: Pitch,,26,,0,127,,,,,Centered,,
-Roland,System-8,LFO,LFO: Fade Time,,27,,0,127,,,,,0-based,,
-Roland,System-8,LFO,LFO: Filter,,28,,0,127,,,,,Centered,,
-Roland,System-8,LFO,LFO: Key Trig,,117,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
-Roland,System-8,LFO,LFO: Trig Env,,15,,0,127,,,,,0-based,,
-Roland,System-8,LFO,LFO: Rate,,29,,0,127,,,,,0-based,,
-Roland,System-8,LFO,LFO: Amp,,30,,0,127,,,,,Centered,,
-Roland,System-8,Oscillators,OSC1: Variation,,103,,0,127,,,,,0-based,,0-7: VAR 1; 8-23: VAR 2; 24-39: VAR 3; 40-127: VAR 4
-Roland,System-8,Oscillators,OSC1: Wave,,46,,0,127,,,,,0-based,,0-12: SAW; 13-38: SQR; 39-63: TRI; 64-88: SAW2; 89-114: SQR2; 115-127: TRI2
-Roland,System-8,Oscillators,OSC1: Octave,,47,,0,127,,,,,0-based,,0: 64 FEET; 25: 32 FEET; 51: 16 FEET; 76: 8 FEET; 102: 4 FEET; 127: 2 FEET
-Roland,System-8,Oscillators,OSC1: Color,,50,,0,127,,,,,0-based,,
-Roland,System-8,Oscillators,OSC1: Coarse Tune,,20,,0,127,,,,,Centered,,
-Roland,System-8,Oscillators,OSC1: Cross Mod,,52,,0,127,,,,,0-based,,
-Roland,System-8,Oscillators,OSC1: Mod,,60,,0,127,,,,,0-based,,0: MAN; 25: LFO; 51: P.ENV; 76: F.ENV; 102: A.ENV; 127: OSC3
-Roland,System-8,Oscillators,OSC1: Fine Tune,,21,,0,127,,,,,Centered,,
-Roland,System-8,Oscillators,OSC2: Variation,,104,,0,127,,,,,0-based,,0-7: VAR 1; 8-23: VAR 2; 24-39: VAR 3; 40-127: VAR 4
-Roland,System-8,Oscillators,OSC2: Wave,,61,,0,127,,,,,0-based,,0-12: SAW; 13-38: SQR; 39-63: TRI; 64-88: SAW2; 89-114: SQR2; 115-127: TRI2
-Roland,System-8,Oscillators,OSC2: Octave,,62,,0,127,,,,,0-based,,0-12: 64 FEET; 13-38: 32 FEET; 39-63: 16 FEET; 64-88: 8 FEET; 89-114: 4 FEET; 115-127: 2 FEET
-Roland,System-8,Oscillators,OSC2: Color,,55,,0,127,,,,,0-based,,
-Roland,System-8,Oscillators,OSC2: Coarse Tune,,87,,0,127,,,,,Centered,,
-Roland,System-8,Oscillators,OSC2: Ring,,111,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
-Roland,System-8,Oscillators,OSC2: Sync,,112,,0,127,,,,,0-based,,0-63: OFF; 64-127: ON
-Roland,System-8,Oscillators,OSC2: Mod,,63,,0,127,,,,,0-based,,0-12: MAN; 13-38: LFO; 39-63: P.ENV; 64-88: F.ENV; 89-114: A.ENV; 115-127: OSC3
-Roland,System-8,Oscillators,OSC2: Fine Tune,,56,,0,127,,,,,Centered,,
-Roland,System-8,Oscillators,OSC3/Sub OSC: Wave,,107,,0,127,,,,,0-based,,0-12: SIN -2 OCT; 13-38: SIN -1 OCT; 39-63: SIN; 64-88: TRI; 89-114: TRI -1 OCT; 115-127: TRI -2 OCT
-Roland,System-8,Oscillators,OSC3/Sub OSC: Color,,25,,0,127,,,,,0-based,,
-Roland,System-8,Oscillators,OSC3/Sub OSC: Tune,,48,,0,127,,,,,Centered,,
-Roland,System-8,Mixer,OSC1: Level,,16,,0,127,,,,,0-based,,
-Roland,System-8,Mixer,OSC2: Level,,17,,0,127,,,,,0-based,,
-Roland,System-8,Mixer,OSC3/Sub OSC: Level,,18,,0,127,,,,,0-based,,
-Roland,System-8,Mixer,Noise: Level,,19,,0,127,,,,,0-based,,
-Roland,System-8,Mixer,Noise: Type,,114,,0,127,,,,,0-based,,0-63: PINK; 64-127: WHITE
-Roland,System-8,Envelopes,Pitch: Env,,22,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Pitch: Attack,,23,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Pitch: Decay,,24,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Filter: Attack,,83,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Filter: Decay,,84,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Filter: Sustain,,85,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Filter: Release,,86,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Amp: Attack,,89,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Amp: Decay,,90,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Amp: Sustain,,96,,0,127,,,,,0-based,,
-Roland,System-8,Envelopes,Amp: Release,,97,,0,127,,,,,0-based,,
-Roland,System-8,Filter,Filter: Variation,,51,,0,127,,,,,0-based,,0-7: LPF/HPF; 8-23: SBF; 24-39: SYS-1; 40-55: JP-8; 56-71: JU-106; 72-87: FMT 2; 88-103: FMT 3; 104-127: HARM
-Roland,System-8,Filter,Filter: Cutoff,,3,,0,127,,,,,0-based,,
-Roland,System-8,Filter,Filter: Reso,,9,,0,127,,,,,0-based,,
-Roland,System-8,Filter,Filter: Env,,81,,0,127,,,,,Centered,,
-Roland,System-8,Filter,Filter: Key,,82,,0,127,,,,,Centered,,
-Roland,System-8,Filter,Filter: Type,,108,,0,127,,,,,0-based,,0-12: LPF -24dB; 13-38: LPF -18dB; 39-63: LPF -12dB; 64-88: HPF -12dB; 89-114: HPF -18dB; 115-127: HPF -24dB
-Roland,System-8,Filter,Filter: Velocity Sens,,53,,0,127,,,,,0-based,,
-Roland,System-8,Filter,Filter: HPF Cutoff,,79,,0,127,,,,,0-based,,
-Roland,System-8,Amp,Amp: Velocity Sens,,54,,0,127,,,,,0-based,,
-Roland,System-8,Amp,Amp: Tone,,69,,0,127,,,,,Centered,,
-Roland,System-8,Amp,Amp: Level,,110,,0,127,,,,,0-based,,
-Roland,System-8,FX,Effects: Type,,70,,0,127,,,,,0-based,,0-12: OVERDRIVE; 13-38: DISTORTION; 39-63: METAL; 64-88: FUZZ; 89-114: CRUSHER; 115-127: PHASER
-Roland,System-8,FX,Effects: Tone,,71,,0,127,,,,,0-based,,
-Roland,System-8,FX,Effects: Depth,,12,,0,127,,,,,0-based,,
-Roland,System-8,FX,Delay/Chorus: Type,,72,,0,127,,,,,0-based,,0-12: DLY; 13-38: PAN; 39-63: CH1; 64-88: CH2; 89-114: FL; 115-127: DLY+CH
-Roland,System-8,FX,Delay/Chorus: Time,,13,,0,127,,,,,0-based,,
-Roland,System-8,FX,Delay/Chorus: Level,,94,,0,127,,,,,0-based,,
-Roland,System-8,FX,Reverb: Type,,73,,0,127,,,,,0-based,,0-12: AMBIENCE; 13-38: ROOM; 39-63: HALL 1; 64-88: HALL 2; 89-114: PLATE; 115-127: MODULATION
-Roland,System-8,FX,Reverb: Time,,74,,0,127,,,,,0-based,,
-Roland,System-8,FX,Reverb: Level,,91,,0,127,,,,,0-based,,
-Roland,System-8,Modulation,Bend Sens: Pitch,,68,,0,127,,,,,0-based,,
-Roland,System-8,Modulation,Bend Sens: Filter,,75,,0,127,,,,,0-based,,
-Roland,System-8,Modulation,Mod Sens: Pitch,,80,,0,127,,,,,0-based,,
-Roland,System-8,Modulation,Mod Sens: Filter,,109,,0,127,,,,,0-based,,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Roland,System-8,General,Mod,,1,,0,127,,,,,,,0-based,,
+Roland,System-8,General,Portamento,,5,,0,127,,,,,,,0-based,,
+Roland,System-8,General,Legato,,116,,0,127,,,,,,,0-based,,0-63: OFF; 64-127: ON
+Roland,System-8,General,Tempo Sync,,118,,0,127,,,,,,,0-based,,0-63: OFF; 64-127: ON
+Roland,System-8,General,Mono,,119,,0,127,,,,,,,0-based,,0-31: POLY; 32-95: MONO; 96-127: UNISON
+Roland,System-8,General,Pedal: Control,,11,,0,127,,,,,,,0-based,,
+Roland,System-8,General,Pedal: Hold,,64,,0,127,,,,,,,0-based,,0-63: OFF; 64-127: ON
+Roland,System-8,General,Patch Bend: Range,,41,,0,127,,,,,,,0-based,,
+Roland,System-8,General,Patch Bend: Gain,,49,,0,127,,,,,,,0-based,,0-21: x1; 22-63: x2; 64-105: x3; 106-127: x4
+Roland,System-8,LFO,LFO: Variation,,14,,0,127,,,,,,,0-based,,
+Roland,System-8,LFO,LFO: Wave,,35,,0,127,,,,,,,0-based,,0-12: SIN; 13-38: TRI; 39-63: SAW; 64-88: SQR; 89-114: S&H; 115-127: RND
+Roland,System-8,LFO,LFO: Pitch,,26,,0,127,,,,,,,Centered,,
+Roland,System-8,LFO,LFO: Fade Time,,27,,0,127,,,,,,,0-based,,
+Roland,System-8,LFO,LFO: Filter,,28,,0,127,,,,,,,Centered,,
+Roland,System-8,LFO,LFO: Key Trig,,117,,0,127,,,,,,,0-based,,0-63: OFF; 64-127: ON
+Roland,System-8,LFO,LFO: Trig Env,,15,,0,127,,,,,,,0-based,,
+Roland,System-8,LFO,LFO: Rate,,29,,0,127,,,,,,,0-based,,
+Roland,System-8,LFO,LFO: Amp,,30,,0,127,,,,,,,Centered,,
+Roland,System-8,Oscillators,OSC1: Variation,,103,,0,127,,,,,,,0-based,,0-7: VAR 1; 8-23: VAR 2; 24-39: VAR 3; 40-127: VAR 4
+Roland,System-8,Oscillators,OSC1: Wave,,46,,0,127,,,,,,,0-based,,0-12: SAW; 13-38: SQR; 39-63: TRI; 64-88: SAW2; 89-114: SQR2; 115-127: TRI2
+Roland,System-8,Oscillators,OSC1: Octave,,47,,0,127,,,,,,,0-based,,0: 64 FEET; 25: 32 FEET; 51: 16 FEET; 76: 8 FEET; 102: 4 FEET; 127: 2 FEET
+Roland,System-8,Oscillators,OSC1: Color,,50,,0,127,,,,,,,0-based,,
+Roland,System-8,Oscillators,OSC1: Coarse Tune,,20,,0,127,,,,,,,Centered,,
+Roland,System-8,Oscillators,OSC1: Cross Mod,,52,,0,127,,,,,,,0-based,,
+Roland,System-8,Oscillators,OSC1: Mod,,60,,0,127,,,,,,,0-based,,0: MAN; 25: LFO; 51: P.ENV; 76: F.ENV; 102: A.ENV; 127: OSC3
+Roland,System-8,Oscillators,OSC1: Fine Tune,,21,,0,127,,,,,,,Centered,,
+Roland,System-8,Oscillators,OSC2: Variation,,104,,0,127,,,,,,,0-based,,0-7: VAR 1; 8-23: VAR 2; 24-39: VAR 3; 40-127: VAR 4
+Roland,System-8,Oscillators,OSC2: Wave,,61,,0,127,,,,,,,0-based,,0-12: SAW; 13-38: SQR; 39-63: TRI; 64-88: SAW2; 89-114: SQR2; 115-127: TRI2
+Roland,System-8,Oscillators,OSC2: Octave,,62,,0,127,,,,,,,0-based,,0-12: 64 FEET; 13-38: 32 FEET; 39-63: 16 FEET; 64-88: 8 FEET; 89-114: 4 FEET; 115-127: 2 FEET
+Roland,System-8,Oscillators,OSC2: Color,,55,,0,127,,,,,,,0-based,,
+Roland,System-8,Oscillators,OSC2: Coarse Tune,,87,,0,127,,,,,,,Centered,,
+Roland,System-8,Oscillators,OSC2: Ring,,111,,0,127,,,,,,,0-based,,0-63: OFF; 64-127: ON
+Roland,System-8,Oscillators,OSC2: Sync,,112,,0,127,,,,,,,0-based,,0-63: OFF; 64-127: ON
+Roland,System-8,Oscillators,OSC2: Mod,,63,,0,127,,,,,,,0-based,,0-12: MAN; 13-38: LFO; 39-63: P.ENV; 64-88: F.ENV; 89-114: A.ENV; 115-127: OSC3
+Roland,System-8,Oscillators,OSC2: Fine Tune,,56,,0,127,,,,,,,Centered,,
+Roland,System-8,Oscillators,OSC3/Sub OSC: Wave,,107,,0,127,,,,,,,0-based,,0-12: SIN -2 OCT; 13-38: SIN -1 OCT; 39-63: SIN; 64-88: TRI; 89-114: TRI -1 OCT; 115-127: TRI -2 OCT
+Roland,System-8,Oscillators,OSC3/Sub OSC: Color,,25,,0,127,,,,,,,0-based,,
+Roland,System-8,Oscillators,OSC3/Sub OSC: Tune,,48,,0,127,,,,,,,Centered,,
+Roland,System-8,Mixer,OSC1: Level,,16,,0,127,,,,,,,0-based,,
+Roland,System-8,Mixer,OSC2: Level,,17,,0,127,,,,,,,0-based,,
+Roland,System-8,Mixer,OSC3/Sub OSC: Level,,18,,0,127,,,,,,,0-based,,
+Roland,System-8,Mixer,Noise: Level,,19,,0,127,,,,,,,0-based,,
+Roland,System-8,Mixer,Noise: Type,,114,,0,127,,,,,,,0-based,,0-63: PINK; 64-127: WHITE
+Roland,System-8,Envelopes,Pitch: Env,,22,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Pitch: Attack,,23,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Pitch: Decay,,24,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Filter: Attack,,83,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Filter: Decay,,84,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Filter: Sustain,,85,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Filter: Release,,86,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Amp: Attack,,89,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Amp: Decay,,90,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Amp: Sustain,,96,,0,127,,,,,,,0-based,,
+Roland,System-8,Envelopes,Amp: Release,,97,,0,127,,,,,,,0-based,,
+Roland,System-8,Filter,Filter: Variation,,51,,0,127,,,,,,,0-based,,0-7: LPF/HPF; 8-23: SBF; 24-39: SYS-1; 40-55: JP-8; 56-71: JU-106; 72-87: FMT 2; 88-103: FMT 3; 104-127: HARM
+Roland,System-8,Filter,Filter: Cutoff,,3,,0,127,,,,,,,0-based,,
+Roland,System-8,Filter,Filter: Reso,,9,,0,127,,,,,,,0-based,,
+Roland,System-8,Filter,Filter: Env,,81,,0,127,,,,,,,Centered,,
+Roland,System-8,Filter,Filter: Key,,82,,0,127,,,,,,,Centered,,
+Roland,System-8,Filter,Filter: Type,,108,,0,127,,,,,,,0-based,,0-12: LPF -24dB; 13-38: LPF -18dB; 39-63: LPF -12dB; 64-88: HPF -12dB; 89-114: HPF -18dB; 115-127: HPF -24dB
+Roland,System-8,Filter,Filter: Velocity Sens,,53,,0,127,,,,,,,0-based,,
+Roland,System-8,Filter,Filter: HPF Cutoff,,79,,0,127,,,,,,,0-based,,
+Roland,System-8,Amp,Amp: Velocity Sens,,54,,0,127,,,,,,,0-based,,
+Roland,System-8,Amp,Amp: Tone,,69,,0,127,,,,,,,Centered,,
+Roland,System-8,Amp,Amp: Level,,110,,0,127,,,,,,,0-based,,
+Roland,System-8,FX,Effects: Type,,70,,0,127,,,,,,,0-based,,0-12: OVERDRIVE; 13-38: DISTORTION; 39-63: METAL; 64-88: FUZZ; 89-114: CRUSHER; 115-127: PHASER
+Roland,System-8,FX,Effects: Tone,,71,,0,127,,,,,,,0-based,,
+Roland,System-8,FX,Effects: Depth,,12,,0,127,,,,,,,0-based,,
+Roland,System-8,FX,Delay/Chorus: Type,,72,,0,127,,,,,,,0-based,,0-12: DLY; 13-38: PAN; 39-63: CH1; 64-88: CH2; 89-114: FL; 115-127: DLY+CH
+Roland,System-8,FX,Delay/Chorus: Time,,13,,0,127,,,,,,,0-based,,
+Roland,System-8,FX,Delay/Chorus: Level,,94,,0,127,,,,,,,0-based,,
+Roland,System-8,FX,Reverb: Type,,73,,0,127,,,,,,,0-based,,0-12: AMBIENCE; 13-38: ROOM; 39-63: HALL 1; 64-88: HALL 2; 89-114: PLATE; 115-127: MODULATION
+Roland,System-8,FX,Reverb: Time,,74,,0,127,,,,,,,0-based,,
+Roland,System-8,FX,Reverb: Level,,91,,0,127,,,,,,,0-based,,
+Roland,System-8,Modulation,Bend Sens: Pitch,,68,,0,127,,,,,,,0-based,,
+Roland,System-8,Modulation,Bend Sens: Filter,,75,,0,127,,,,,,,0-based,,
+Roland,System-8,Modulation,Mod Sens: Pitch,,80,,0,127,,,,,,,0-based,,
+Roland,System-8,Modulation,Mod Sens: Filter,,109,,0,127,,,,,,,0-based,,

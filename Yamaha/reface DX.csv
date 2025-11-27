@@ -1,26 +1,26 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Yamaha,reface DX,General,Algorithm,,80,,0,127,,,,,0-based,,0-11: Algo 1; 12-21: Algo 2; 22-32: Algo 3; 33-42: Algo 4; 43-53: Algo 5; 54-64: Algo 6; 65-74: Algo 7; 75-85: Algo 8; 86-95: Algo 9; 96-106: Algo 10; 107-116: Algo 11; 117-127: Algo 12
-Yamaha,reface DX,Operator 1,Op 1 output level,,85,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 1,Op 1 feedback level,,86,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 1,Op 1 feedback type,,87,,0,127,,,,,0-based,,0-63: Sawtooth; 64-127: Square
-Yamaha,reface DX,Operator 1,Op 1 frequency mode,,88,,0,127,,,,,0-based,,0-63: Frequency/ratio; 64-127: Fixed frequency/Hz
-Yamaha,reface DX,Operator 1,Op 1 frequency ratio/freq (coarse),,89,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 1,Op 1 frequency ratio/freq (fine),,90,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 2,Op 2 output level,,102,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 2,Op 2 feedback level,,103,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 2,Op 2 feedback type,,104,,0,127,,,,,0-based,,0-63: Sawtooth; 64-127: Square
-Yamaha,reface DX,Operator 2,Op 2 frequency mode,,105,,0,127,,,,,0-based,,0-63: Frequency/ratio; 64-127: Fixed frequency/Hz
-Yamaha,reface DX,Operator 2,Op 2 frequency ratio/freq (coarse),,106,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 2,Op 2 frequency ratio/freq (fine),,107,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 3,Op 3 output level,,108,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 3,Op 3 feedback level,,109,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 3,Op 3 feedback type,,110,,0,127,,,,,0-based,,0-63: Sawtooth; 64-127: Square
-Yamaha,reface DX,Operator 3,Op 3 frequency mode,,111,,0,127,,,,,0-based,,0-63: Frequency/ratio; 64-127: Fixed frequency/Hz
-Yamaha,reface DX,Operator 3,Op 3 frequency ratio/freq (coarse),,112,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 3,Op 3 frequency ratio/freq (fine),,113,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 4,Op 4 output level,,114,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 4,Op 4 feedback level,,115,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 4,Op 4 feedback type,,116,,0,127,,,,,0-based,,0-63: Sawtooth; 64-127: Square
-Yamaha,reface DX,Operator 4,Op 4 frequency mode,,117,,0,127,,,,,0-based,,0-63: Frequency/ratio; 64-127: Fixed frequency/Hz
-Yamaha,reface DX,Operator 4,Op 4 frequency ratio/freq (coarse),,118,,0,127,,,,,0-based,
-Yamaha,reface DX,Operator 4,Op 4 frequency ratio/freq (fine),,119,,0,127,,,,,0-based,,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Yamaha,reface DX,General,Algorithm,,80,,0,127,,,,,,,0-based,,0-11: Algo 1; 12-21: Algo 2; 22-32: Algo 3; 33-42: Algo 4; 43-53: Algo 5; 54-64: Algo 6; 65-74: Algo 7; 75-85: Algo 8; 86-95: Algo 9; 96-106: Algo 10; 107-116: Algo 11; 117-127: Algo 12
+Yamaha,reface DX,Operator 1,Op 1 output level,,85,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 1,Op 1 feedback level,,86,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 1,Op 1 feedback type,,87,,0,127,,,,,,,0-based,,0-63: Sawtooth; 64-127: Square
+Yamaha,reface DX,Operator 1,Op 1 frequency mode,,88,,0,127,,,,,,,0-based,,0-63: Frequency/ratio; 64-127: Fixed frequency/Hz
+Yamaha,reface DX,Operator 1,Op 1 frequency ratio/freq (coarse),,89,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 1,Op 1 frequency ratio/freq (fine),,90,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 2,Op 2 output level,,102,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 2,Op 2 feedback level,,103,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 2,Op 2 feedback type,,104,,0,127,,,,,,,0-based,,0-63: Sawtooth; 64-127: Square
+Yamaha,reface DX,Operator 2,Op 2 frequency mode,,105,,0,127,,,,,,,0-based,,0-63: Frequency/ratio; 64-127: Fixed frequency/Hz
+Yamaha,reface DX,Operator 2,Op 2 frequency ratio/freq (coarse),,106,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 2,Op 2 frequency ratio/freq (fine),,107,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 3,Op 3 output level,,108,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 3,Op 3 feedback level,,109,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 3,Op 3 feedback type,,110,,0,127,,,,,,,0-based,,0-63: Sawtooth; 64-127: Square
+Yamaha,reface DX,Operator 3,Op 3 frequency mode,,111,,0,127,,,,,,,0-based,,0-63: Frequency/ratio; 64-127: Fixed frequency/Hz
+Yamaha,reface DX,Operator 3,Op 3 frequency ratio/freq (coarse),,112,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 3,Op 3 frequency ratio/freq (fine),,113,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 4,Op 4 output level,,114,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 4,Op 4 feedback level,,115,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 4,Op 4 feedback type,,116,,0,127,,,,,,,0-based,,0-63: Sawtooth; 64-127: Square
+Yamaha,reface DX,Operator 4,Op 4 frequency mode,,117,,0,127,,,,,,,0-based,,0-63: Frequency/ratio; 64-127: Fixed frequency/Hz
+Yamaha,reface DX,Operator 4,Op 4 frequency ratio/freq (coarse),,118,,0,127,,,,,,,0-based,
+Yamaha,reface DX,Operator 4,Op 4 frequency ratio/freq (fine),,119,,0,127,,,,,,,0-based,,

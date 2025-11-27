@@ -1,103 +1,103 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Moog,Muse,,Mod Wheel,The modulation wheel is typically used to control the amount of modulation in a patch,1,,0,127,,,,,0-based,The mod wheel can be freely assigned as both modulation source and modulation controller via the assignable controllers section and the mod map,
-Moog,Muse,,Mute,Clickless muting of Muse's MAIN OUT signal,3,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Glide Time,"Increasing the glide control will increase the amount of time it takes to move from one note to the next, creating a portamento effect",5,,0,127,,,,,0-based,,
-Moog,Muse,,Timbre Volume,Volume control for the currently active timbre (A/B) before it reaches the voice summing busses,7,,0,127,,,,,0-based,,
-Moog,Muse,,Low Cut,,8,,0,127,,,,,0-based,,
-Moog,Muse,,Pan Spread,Spreads allocated voices apart giving a wider feel to the stereo image,9,,0,127,,,,,0-based,,
-Moog,Muse,,Pan,Bipolar control for manual adjustment of the pan-position of the currently active timbre (A/B) in the stereo field,10,,0,127,,,,,0-based,,
-Moog,Muse,,Expression,,11,,0,127,,,,,0-based,,
-Moog,Muse,,LFO 1 Rate,Controls the frequency of LFO 1,12,,0,127,,,,,0-based,The range of this knob defaults to 0.01 Hz–40.00 Hz but has a maximum range of 0.00 Hz – 1.00 kHz (configurable in MORE menu),
-Moog,Muse,,LFO 1 Amount,,13,,0,127,,,,,0-based,,
-Moog,Muse,,LFO 1 Waveform,Selects the wave shape of LFO 1,14,,0,127,,,,,0-based,,0-24: Triangle; 25-49: Saw; 50-74: Square; 75-99: Random; 100-127: User Wave
-Moog,Muse,,LFO 2 Rate,Controls the frequency of LFO 2,15,,0,127,,,,,0-based,The range of this knob defaults to 0.01 Hz–40.00 Hz but has a maximum range of 0.00 Hz – 1.00 kHz (configurable in MORE menu),
-Moog,Muse,,LFO 2 Amount,,16,,0,127,,,,,0-based,,
-Moog,Muse,,LFO 2 Waveform,Selects the wave shape of LFO 2,17,,0,127,,,,,0-based,,0-24: Triangle; 25-49: Saw; 50-74: Square; 75-99: Random; 100-127: User Wave
-Moog,Muse,,Pitch LFO Rate,Control the frequency of the PITCH LFO,18,,0,127,,,,,0-based,The range of this knob defaults to 0.01 Hz–40.00 Hz but has a maximum range of 0.00 Hz – 1.00 kHz (configurable in MORE menu),
-Moog,Muse,,Pitch LFO Shape,Bipolar control adjusting the angle of the PITCH LFO's waveform,19,,0,127,,,,,0-based," At noon the waveform is a symmetrical triangle wave. Adjusting shape shifts the triangle's rise and fall times, becoming a sawtooth wave when fully counterclockwise and a ramp wave when fully clockwise",
-Moog,Muse,,Pitch LFO Amount,Bipolar control over the depth of the PITCH LFO's modulation of its hardwired destinations,20,,0,127,,,,,0-based, When set to noon the amount knob will yield no modulation. Adjusting the knob clockwise from noon will result in positive modulation of the destination while adjusting the knob counterclockwise from noon will result in inverted modulation of the destination,
-Moog,Muse,,Pitch LFO OSC 1,Routes the PITCH LFO to modulate OSCILLATOR 1 when engaged,21,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Pitch LFO OSC 2,Routes the PITCH LFO to modulate OSCILLATOR 2 when engaged,22,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Pitch LFO Mod OSC,Routes the PITCH LFO to modulate the MODULATION OSCILLATOR when engaged,23,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Pitch LFO Detune,Routes the PITCH LFO to modulate the DETUNE knob in the VOICE CONTROL section when engaged,24,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Modulation Oscillator Frequency,Controls the frequency of the modulation oscillator,25,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator Audio,Sets the modulation oscillator to operate at audio-rate frequencies,26,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Modulation Oscillator KB Track,Enables keyboard control of the frequency of the modulation oscillator,27,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Modulation Oscillator Waveform,Selects the waveform of the modulation oscillator,28,,0,127,,,,,0-based,,0-24: Sine; 25-49: Sawtooth; 50-74: Ramp; 75-99: Square; 100-127: Noise
-Moog,Muse,,Modulation Oscillator KB Reset,Resets the LFO to its starting point in its wave cycle every time a key is pressed,29,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Modulation Oscillator Unipolar,Enabled unipolar mode for the modulation oscillator,30,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Modulation Oscillator Pitch Amount,Determines the depth at which frequency modulation of the oscillator section occurs based on the OSC 1 and OSC 2 routing buttons,31,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator Pitch OSC 1,Enables frequency modulation of OSC 1 via the modulation oscillator,33,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator Pitch OSC 2,Enables frequency modulation of OSC 2 via the modulation oscillator,34,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator PWM Amount,Determines the depth at which pulse width modulation of the oscillator section occurs based on the OSC 1 and OSC 2 routing buttons,35,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator PWM OSC 1,Enables modulation of the duty cycle of the OSC 1 pulse/square waveshape via the modulation oscillator,36,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator PWM OSC 2,Enables modulation of the duty cycle of the OSC 2 pulse/square waveshape via the modulation oscillator,37,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator Filter Amount,Determines the depth at which cutoff frequency modulation of the filter section occurs based on the FILTER 1 and FILTER 2 routing buttons,39,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator Filter 1,Enables cutoff frequency modulation of FILTER 1 via the modulation oscillator,40,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator Filter 2,Enables cutoff frequency modulation of FILTER 2 via the modulation oscillator,41,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator VCA Amount,"Determines the depth at which the MODULATION OSCILLATOR will modulate the amplitude of the VCA, providing a tremolo effect",42,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator VCA PAN,Enables pan-position modulation of a voice in the stereo field by inverting the phase of the modulation oscillator sent to the right VCA,43,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 1 Octave,Selects the octave for OSC 1,44,,0,127,,,,,0-based,"The OCTAVE options are 16', 8', 4' and 2' - a standard based around classic pipe organ stop footage settings.",0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
-Moog,Muse,,Oscillator 1 Frequency,Detunes OSC 1 from the pitch associated with a keyboard note,45,,0,127,,,,,0-based," The FREQUENCY knob is a bipolar control, and when set to noon will be in tune with the keyboard note (if a C is pressed, a C will sound based on the OCTAVE setting). Turning the knob clockwise will increase the pitch of the oscillator up to a perfect fifth (+7 semitones) and turning the knob counter-clockwise will decrease the pitch of the oscillator down to a perfect fifth below the note (-7 semitones)",
-Moog,Muse,,Oscillator 1 Tri/Saw Mix,,46,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 1 PW,,47,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 1 Wave Mix,,48,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 2 Octave,Selects the octave for OSC 2,49,,0,127,,,,,0-based,"The OCTAVE options are 16', 8', 4' and 2' - a standard based around classic pipe organ stop footage settings.",0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
-Moog,Muse,,Oscillator 2 Frequency,Detunes OSC 2 from the pitch associated with a keyboard note,50,,0,127,,,,,0-based," The FREQUENCY knob is a bipolar control, and when set to noon will be in tune with the keyboard note (if a C is pressed, a C will sound based on the OCTAVE setting). Turning the knob clockwise will increase the pitch of the oscillator up to a perfect fifth (+7 semitones) and turning the knob counter-clockwise will decrease the pitch of the oscillator down to a perfect fifth below the note (-7 semitones)",
-Moog,Muse,,Oscillator 2 Tri/Saw Mix,,51,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 2 PW,,52,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 2 Wave Mix,,53,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 2>1 SYNC,,54,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Oscillator 2>1 FM,,55,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Oscillator 1>2 FM,,56,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,FM Amount,,57,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 1 Level,,58,,0,127,,,,,0-based,,
-Moog,Muse,,Oscillator 2 Level,,59,,0,127,,,,,0-based,,
-Moog,Muse,,Ring Mod Level,,60,,0,127,,,,,0-based,,
-Moog,Muse,,Modulation Oscillator Level,,61,,0,127,,,,,0-based,,
-Moog,Muse,,Noise Level,,62,,0,127,,,,,0-based,,
-Moog,Muse,,Sustain Pedal,,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Clipping Level,,65,,0,127,,,,,0-based,,
-Moog,Muse,,Filter 1 High Pass,,66,,0,127,,,,,0-based,,
-Moog,Muse,,Filter 1 Cutoff,,67,,0,127,,,,,0-based,,
-Moog,Muse,,Filter 1 Resonance,,68,,0,127,,,,,0-based,,
-Moog,Muse,,Filter 1 Envelope Amount,,69,,0,127,,,,,0-based,,
-Moog,Muse,,Filter 1 KB Tracking,,70,,0,127,,,,,0-based,,0-42: Off; 43-84: Half; 85-127: Full
-Moog,Muse,,Hold,,71,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Filter 2 Frequency,,72,,0,127,,,,,0-based,,
-Moog,Muse,,Filter 2 Resonance,,73,,0,127,,,,,0-based,,
-Moog,Muse,,Filter 2 Envelope Amount,,75,,0,127,,,,,0-based,,
-Moog,Muse,,Filter 2 KB Tracking,,76,,0,127,,,,,0-based,,0-42: Off; 43-84: Half; 85-127: Full
-Moog,Muse,,Link Filters,,77,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Filters Order,,78,,0,127,,,,,0-based,,0-42: Serial; 43-84: Stereo; 85-127: Parallel
-Moog,Muse,,Filter Env Attack,,79,,0,127,,,,,0-based,,
-Moog,Muse,,Filter Env Sustain,,80,,0,127,,,,,0-based,,
-Moog,Muse,,Filter Env Delay,,81,,0,127,,,,,0-based,,
-Moog,Muse,,Filter Env Release,,82,,0,127,,,,,0-based,,
-Moog,Muse,,Filter Env Loop,,83,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Filter Env Velocity,,85,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,VCA Env Attack,,86,,0,127,,,,,0-based,,
-Moog,Muse,,VCA Env Sustain,,87,,0,127,,,,,0-based,,
-Moog,Muse,,VCA Env Delay,,88,,0,127,,,,,0-based,,
-Moog,Muse,,VCA Env Release,,89,,0,127,,,,,0-based,,
-Moog,Muse,,VCA Env Loop,,90,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,VCA Env Velocity,,91,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Voice Detune,,92,,0,127,,,,,0-based,,
-Moog,Muse,,Delay Time Left,,93,,0,127,,,,,0-based,,
-Moog,Muse,,Delay Time Right,,94,,0,127,,,,,0-based,,
-Moog,Muse,,Link Delays,,95,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Delay Clock Sync,,102,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Delay Feedback,,103,,0,127,,,,,0-based,,
-Moog,Muse,,Delay Character,,104,,0,127,,,,,0-based,,
-Moog,Muse,,Delay Mix,,105,,0,127,,,,,0-based,,
-Moog,Muse,,Delay Timbre A,,106,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Delay Timbre B,,107,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Voice Unison,,108,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Voice Mono,,109,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Sequencer Clock Div,,110,,0,127,,,,,0-based,,
-Moog,Muse,,Arpeggiator Clock Div,,111,,0,127,,,,,0-based,,
-Moog,Muse,,Arpeggiator On/Off,,112,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Arpeggiator FW/BK,,113,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-Moog,Muse,,Arpeggiator Direction,,114,,0,127,,,,,0-based,,0-42: Order; 43-84: Pattern; 85-127: Random
-Moog,Muse,,Arpeggiator Octave Range,,115,,0,127,,,,,0-based,,0-31: 1; 32-63: 2; 64-95: 3; 96-127: 4
-Moog,Muse,,Clock Tempo,,116,,0,127,,,,,0-based,,
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Moog,Muse,,Mod Wheel,The modulation wheel is typically used to control the amount of modulation in a patch,1,,0,127,,,,,,,0-based,The mod wheel can be freely assigned as both modulation source and modulation controller via the assignable controllers section and the mod map,
+Moog,Muse,,Mute,Clickless muting of Muse's MAIN OUT signal,3,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Glide Time,"Increasing the glide control will increase the amount of time it takes to move from one note to the next, creating a portamento effect",5,,0,127,,,,,,,0-based,,
+Moog,Muse,,Timbre Volume,Volume control for the currently active timbre (A/B) before it reaches the voice summing busses,7,,0,127,,,,,,,0-based,,
+Moog,Muse,,Low Cut,,8,,0,127,,,,,,,0-based,,
+Moog,Muse,,Pan Spread,Spreads allocated voices apart giving a wider feel to the stereo image,9,,0,127,,,,,,,0-based,,
+Moog,Muse,,Pan,Bipolar control for manual adjustment of the pan-position of the currently active timbre (A/B) in the stereo field,10,,0,127,,,,,,,0-based,,
+Moog,Muse,,Expression,,11,,0,127,,,,,,,0-based,,
+Moog,Muse,,LFO 1 Rate,Controls the frequency of LFO 1,12,,0,127,,,,,,,0-based,The range of this knob defaults to 0.01 Hz–40.00 Hz but has a maximum range of 0.00 Hz – 1.00 kHz (configurable in MORE menu),
+Moog,Muse,,LFO 1 Amount,,13,,0,127,,,,,,,0-based,,
+Moog,Muse,,LFO 1 Waveform,Selects the wave shape of LFO 1,14,,0,127,,,,,,,0-based,,0-24: Triangle; 25-49: Saw; 50-74: Square; 75-99: Random; 100-127: User Wave
+Moog,Muse,,LFO 2 Rate,Controls the frequency of LFO 2,15,,0,127,,,,,,,0-based,The range of this knob defaults to 0.01 Hz–40.00 Hz but has a maximum range of 0.00 Hz – 1.00 kHz (configurable in MORE menu),
+Moog,Muse,,LFO 2 Amount,,16,,0,127,,,,,,,0-based,,
+Moog,Muse,,LFO 2 Waveform,Selects the wave shape of LFO 2,17,,0,127,,,,,,,0-based,,0-24: Triangle; 25-49: Saw; 50-74: Square; 75-99: Random; 100-127: User Wave
+Moog,Muse,,Pitch LFO Rate,Control the frequency of the PITCH LFO,18,,0,127,,,,,,,0-based,The range of this knob defaults to 0.01 Hz–40.00 Hz but has a maximum range of 0.00 Hz – 1.00 kHz (configurable in MORE menu),
+Moog,Muse,,Pitch LFO Shape,Bipolar control adjusting the angle of the PITCH LFO's waveform,19,,0,127,,,,,,,0-based," At noon the waveform is a symmetrical triangle wave. Adjusting shape shifts the triangle's rise and fall times, becoming a sawtooth wave when fully counterclockwise and a ramp wave when fully clockwise",
+Moog,Muse,,Pitch LFO Amount,Bipolar control over the depth of the PITCH LFO's modulation of its hardwired destinations,20,,0,127,,,,,,,0-based, When set to noon the amount knob will yield no modulation. Adjusting the knob clockwise from noon will result in positive modulation of the destination while adjusting the knob counterclockwise from noon will result in inverted modulation of the destination,
+Moog,Muse,,Pitch LFO OSC 1,Routes the PITCH LFO to modulate OSCILLATOR 1 when engaged,21,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Pitch LFO OSC 2,Routes the PITCH LFO to modulate OSCILLATOR 2 when engaged,22,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Pitch LFO Mod OSC,Routes the PITCH LFO to modulate the MODULATION OSCILLATOR when engaged,23,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Pitch LFO Detune,Routes the PITCH LFO to modulate the DETUNE knob in the VOICE CONTROL section when engaged,24,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Modulation Oscillator Frequency,Controls the frequency of the modulation oscillator,25,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator Audio,Sets the modulation oscillator to operate at audio-rate frequencies,26,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Modulation Oscillator KB Track,Enables keyboard control of the frequency of the modulation oscillator,27,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Modulation Oscillator Waveform,Selects the waveform of the modulation oscillator,28,,0,127,,,,,,,0-based,,0-24: Sine; 25-49: Sawtooth; 50-74: Ramp; 75-99: Square; 100-127: Noise
+Moog,Muse,,Modulation Oscillator KB Reset,Resets the LFO to its starting point in its wave cycle every time a key is pressed,29,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Modulation Oscillator Unipolar,Enabled unipolar mode for the modulation oscillator,30,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Modulation Oscillator Pitch Amount,Determines the depth at which frequency modulation of the oscillator section occurs based on the OSC 1 and OSC 2 routing buttons,31,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator Pitch OSC 1,Enables frequency modulation of OSC 1 via the modulation oscillator,33,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator Pitch OSC 2,Enables frequency modulation of OSC 2 via the modulation oscillator,34,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator PWM Amount,Determines the depth at which pulse width modulation of the oscillator section occurs based on the OSC 1 and OSC 2 routing buttons,35,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator PWM OSC 1,Enables modulation of the duty cycle of the OSC 1 pulse/square waveshape via the modulation oscillator,36,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator PWM OSC 2,Enables modulation of the duty cycle of the OSC 2 pulse/square waveshape via the modulation oscillator,37,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator Filter Amount,Determines the depth at which cutoff frequency modulation of the filter section occurs based on the FILTER 1 and FILTER 2 routing buttons,39,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator Filter 1,Enables cutoff frequency modulation of FILTER 1 via the modulation oscillator,40,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator Filter 2,Enables cutoff frequency modulation of FILTER 2 via the modulation oscillator,41,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator VCA Amount,"Determines the depth at which the MODULATION OSCILLATOR will modulate the amplitude of the VCA, providing a tremolo effect",42,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator VCA PAN,Enables pan-position modulation of a voice in the stereo field by inverting the phase of the modulation oscillator sent to the right VCA,43,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 1 Octave,Selects the octave for OSC 1,44,,0,127,,,,,,,0-based,"The OCTAVE options are 16', 8', 4' and 2' - a standard based around classic pipe organ stop footage settings.",0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+Moog,Muse,,Oscillator 1 Frequency,Detunes OSC 1 from the pitch associated with a keyboard note,45,,0,127,,,,,,,0-based," The FREQUENCY knob is a bipolar control, and when set to noon will be in tune with the keyboard note (if a C is pressed, a C will sound based on the OCTAVE setting). Turning the knob clockwise will increase the pitch of the oscillator up to a perfect fifth (+7 semitones) and turning the knob counter-clockwise will decrease the pitch of the oscillator down to a perfect fifth below the note (-7 semitones)",
+Moog,Muse,,Oscillator 1 Tri/Saw Mix,,46,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 1 PW,,47,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 1 Wave Mix,,48,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 2 Octave,Selects the octave for OSC 2,49,,0,127,,,,,,,0-based,"The OCTAVE options are 16', 8', 4' and 2' - a standard based around classic pipe organ stop footage settings.",0-31: 16'; 32-63: 8'; 64-95: 4'; 96-127: 2'
+Moog,Muse,,Oscillator 2 Frequency,Detunes OSC 2 from the pitch associated with a keyboard note,50,,0,127,,,,,,,0-based," The FREQUENCY knob is a bipolar control, and when set to noon will be in tune with the keyboard note (if a C is pressed, a C will sound based on the OCTAVE setting). Turning the knob clockwise will increase the pitch of the oscillator up to a perfect fifth (+7 semitones) and turning the knob counter-clockwise will decrease the pitch of the oscillator down to a perfect fifth below the note (-7 semitones)",
+Moog,Muse,,Oscillator 2 Tri/Saw Mix,,51,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 2 PW,,52,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 2 Wave Mix,,53,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 2>1 SYNC,,54,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Oscillator 2>1 FM,,55,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Oscillator 1>2 FM,,56,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,FM Amount,,57,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 1 Level,,58,,0,127,,,,,,,0-based,,
+Moog,Muse,,Oscillator 2 Level,,59,,0,127,,,,,,,0-based,,
+Moog,Muse,,Ring Mod Level,,60,,0,127,,,,,,,0-based,,
+Moog,Muse,,Modulation Oscillator Level,,61,,0,127,,,,,,,0-based,,
+Moog,Muse,,Noise Level,,62,,0,127,,,,,,,0-based,,
+Moog,Muse,,Sustain Pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Clipping Level,,65,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter 1 High Pass,,66,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter 1 Cutoff,,67,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter 1 Resonance,,68,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter 1 Envelope Amount,,69,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter 1 KB Tracking,,70,,0,127,,,,,,,0-based,,0-42: Off; 43-84: Half; 85-127: Full
+Moog,Muse,,Hold,,71,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Filter 2 Frequency,,72,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter 2 Resonance,,73,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter 2 Envelope Amount,,75,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter 2 KB Tracking,,76,,0,127,,,,,,,0-based,,0-42: Off; 43-84: Half; 85-127: Full
+Moog,Muse,,Link Filters,,77,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Filters Order,,78,,0,127,,,,,,,0-based,,0-42: Serial; 43-84: Stereo; 85-127: Parallel
+Moog,Muse,,Filter Env Attack,,79,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter Env Sustain,,80,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter Env Delay,,81,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter Env Release,,82,,0,127,,,,,,,0-based,,
+Moog,Muse,,Filter Env Loop,,83,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Filter Env Velocity,,85,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,VCA Env Attack,,86,,0,127,,,,,,,0-based,,
+Moog,Muse,,VCA Env Sustain,,87,,0,127,,,,,,,0-based,,
+Moog,Muse,,VCA Env Delay,,88,,0,127,,,,,,,0-based,,
+Moog,Muse,,VCA Env Release,,89,,0,127,,,,,,,0-based,,
+Moog,Muse,,VCA Env Loop,,90,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,VCA Env Velocity,,91,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Voice Detune,,92,,0,127,,,,,,,0-based,,
+Moog,Muse,,Delay Time Left,,93,,0,127,,,,,,,0-based,,
+Moog,Muse,,Delay Time Right,,94,,0,127,,,,,,,0-based,,
+Moog,Muse,,Link Delays,,95,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Delay Clock Sync,,102,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Delay Feedback,,103,,0,127,,,,,,,0-based,,
+Moog,Muse,,Delay Character,,104,,0,127,,,,,,,0-based,,
+Moog,Muse,,Delay Mix,,105,,0,127,,,,,,,0-based,,
+Moog,Muse,,Delay Timbre A,,106,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Delay Timbre B,,107,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Voice Unison,,108,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Voice Mono,,109,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Sequencer Clock Div,,110,,0,127,,,,,,,0-based,,
+Moog,Muse,,Arpeggiator Clock Div,,111,,0,127,,,,,,,0-based,,
+Moog,Muse,,Arpeggiator On/Off,,112,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Arpeggiator FW/BK,,113,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Muse,,Arpeggiator Direction,,114,,0,127,,,,,,,0-based,,0-42: Order; 43-84: Pattern; 85-127: Random
+Moog,Muse,,Arpeggiator Octave Range,,115,,0,127,,,,,,,0-based,,0-31: 1; 32-63: 2; 64-95: 3; 96-127: 4
+Moog,Muse,,Clock Tempo,,116,,0,127,,,,,,,0-based,,

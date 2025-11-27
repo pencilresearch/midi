@@ -1,36 +1,36 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-VONGON,replay,Amp,Amp mode,,80,,0,127,,,,,0-based,,0~127: Amp mode
-VONGON,replay,Amp,Amp level,,91,,0,127,,,,,0-based,,0~127: Amp level
-VONGON,replay,Arp,Arp range,,100,,0,2,,,,,0-based,,0: 1 octave; 1: 2 octaves; 2: 3 octaves
-VONGON,replay,Arp,Arp mode,,101,,0,2,,,,,0-based,,0: Off; 1: Keyed; 2: latch
-VONGON,replay,Arp,Arp rate,,102,,0,127,,,,,0-based,,0~127: Arp rate
-VONGON,replay,Arp,Arp order,,103,,0,2,,,,,0-based,,0: Up/down; 1: Order; 2: Random
-VONGON,replay,Controls,Octave up key,,10,,0,127,,,,,0-based,,0-127: Octave up
-VONGON,replay,Controls,Octave down key,,11,,0,127,,,,,0-based,,0-127: Octave down
-VONGON,replay,Controls,Save button,,12,,0,127,,,,,0-based,,0-127: Save
-VONGON,replay,Controls,Load button,,13,,0,127,,,,,0-based,,0-127: Load
-VONGON,replay,Controls,Alt button,,14,,0,127,,,,,0-based,,0-127: Alt
-VONGON,replay,Envelope,Attack,,76,,0,127,,,,,0-based,,0~127: Attack
-VONGON,replay,Envelope,Decay,,77,,0,127,,,,,0-based,,0~127: Decay
-VONGON,replay,Envelope,Sustain,,78,,0,127,,,,,0-based,,0~127: Sustain
-VONGON,replay,Envelope,Release,,79,,0,127,,,,,0-based,,0~127: Release
-VONGON,replay,Filter,Filter frequency,,74,,0,127,,,,,0-based,,0~127: Filter frequency
-VONGON,replay,Filter,Filter resonance,,71,,0,127,,,,,0-based,,0~127: Filter resonance
-VONGON,replay,Filter,Filter envelope,,75,,0,127,,,,,0-based,,0~127: Filter envelope
-VONGON,replay,Filter,Filter LFO,,86,,0,127,,,,,0-based,,0~127: Filter LFO
-VONGON,replay,Filter,Filter keyboard tracking,,81,,0,127,,,,,0-based,,0~127: Filter keyboard tracking
-VONGON,replay,Filter,Filter envelope polarity,,44,,0,1,,,,,0-based,,0: Normal; 1: Inverted
-VONGON,replay,General,Main volume,,104,,0,127,,,,,0-based,,0~127: Main volume
-VONGON,replay,General,Poly mode,,40,,0,2,,,,,0-based,,0: Poly 1; 1: Poly 2; 2: Mono
-VONGON,replay,General,MIDI clock mode,,56,,0,1,,,,,0-based,,0: Enabled (MIDI clock affects arp rate); 2: Disabled (arp rate is normal)
-VONGON,replay,General,Sustain pedal,,64,,0,127,,,,,0-based,,0-63: Off; 64-127: On
-VONGON,replay,LFO,LFO rate,,85,,0,127,,,,,0-based,,0~127: LFO rate
-VONGON,replay,LFO,LFO delay,,88,,0,127,,,,,0-based,,0~127: LFO delay
-VONGON,replay,LFO,LFO waveform,,41,,0,6,,,,,0-based,,0: Sine; 1: Tri; 2: Saw; 3: Ramp; 4: Square; 5: S&H; 6: Smooth S&H
-VONGON,replay,LFO,LFO clock mode,,42,,0,1,,,,,0-based,,0: Free running; 1: Sync to arp
-VONGON,replay,Oscillator,Oscillator waveform,,83,,0,4,,,,,0-based,,0: Saw; 1: Off; 2: Square; 3: Tri; 4: Sine
-VONGON,replay,Oscillator,Oscillator noise,,84,,0,127,,,,,0-based,,0~127: Oscillator noise
-VONGON,replay,Oscillator,Oscillator LFO,,87,,0,127,,,,,0-based,,0~127: Oscillator LFO
-VONGON,replay,Oscillator,Oscillator PWM,,92,,0,127,,,,,0-based,,0~127: Oscillator PWM
-VONGON,replay,Oscillator,Oscillator PWM mode,,43,,0,1,,,,,0-based,,0: Manual; 1: LFO
-VONGON,replay,Oscillator,Oscillator noise mode,,45,,0,1,,,,,0-based,,0: Noise knob controls white noise level; 1: Noise knob controls ext in level
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+VONGON,replay,Amp,Amp mode,,80,,0,127,,,,,,,0-based,,0~127: Amp mode
+VONGON,replay,Amp,Amp level,,91,,0,127,,,,,,,0-based,,0~127: Amp level
+VONGON,replay,Arp,Arp range,,100,,0,2,,,,,,,0-based,,0: 1 octave; 1: 2 octaves; 2: 3 octaves
+VONGON,replay,Arp,Arp mode,,101,,0,2,,,,,,,0-based,,0: Off; 1: Keyed; 2: latch
+VONGON,replay,Arp,Arp rate,,102,,0,127,,,,,,,0-based,,0~127: Arp rate
+VONGON,replay,Arp,Arp order,,103,,0,2,,,,,,,0-based,,0: Up/down; 1: Order; 2: Random
+VONGON,replay,Controls,Octave up key,,10,,0,127,,,,,,,0-based,,0-127: Octave up
+VONGON,replay,Controls,Octave down key,,11,,0,127,,,,,,,0-based,,0-127: Octave down
+VONGON,replay,Controls,Save button,,12,,0,127,,,,,,,0-based,,0-127: Save
+VONGON,replay,Controls,Load button,,13,,0,127,,,,,,,0-based,,0-127: Load
+VONGON,replay,Controls,Alt button,,14,,0,127,,,,,,,0-based,,0-127: Alt
+VONGON,replay,Envelope,Attack,,76,,0,127,,,,,,,0-based,,0~127: Attack
+VONGON,replay,Envelope,Decay,,77,,0,127,,,,,,,0-based,,0~127: Decay
+VONGON,replay,Envelope,Sustain,,78,,0,127,,,,,,,0-based,,0~127: Sustain
+VONGON,replay,Envelope,Release,,79,,0,127,,,,,,,0-based,,0~127: Release
+VONGON,replay,Filter,Filter frequency,,74,,0,127,,,,,,,0-based,,0~127: Filter frequency
+VONGON,replay,Filter,Filter resonance,,71,,0,127,,,,,,,0-based,,0~127: Filter resonance
+VONGON,replay,Filter,Filter envelope,,75,,0,127,,,,,,,0-based,,0~127: Filter envelope
+VONGON,replay,Filter,Filter LFO,,86,,0,127,,,,,,,0-based,,0~127: Filter LFO
+VONGON,replay,Filter,Filter keyboard tracking,,81,,0,127,,,,,,,0-based,,0~127: Filter keyboard tracking
+VONGON,replay,Filter,Filter envelope polarity,,44,,0,1,,,,,,,0-based,,0: Normal; 1: Inverted
+VONGON,replay,General,Main volume,,104,,0,127,,,,,,,0-based,,0~127: Main volume
+VONGON,replay,General,Poly mode,,40,,0,2,,,,,,,0-based,,0: Poly 1; 1: Poly 2; 2: Mono
+VONGON,replay,General,MIDI clock mode,,56,,0,1,,,,,,,0-based,,0: Enabled (MIDI clock affects arp rate); 2: Disabled (arp rate is normal)
+VONGON,replay,General,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+VONGON,replay,LFO,LFO rate,,85,,0,127,,,,,,,0-based,,0~127: LFO rate
+VONGON,replay,LFO,LFO delay,,88,,0,127,,,,,,,0-based,,0~127: LFO delay
+VONGON,replay,LFO,LFO waveform,,41,,0,6,,,,,,,0-based,,0: Sine; 1: Tri; 2: Saw; 3: Ramp; 4: Square; 5: S&H; 6: Smooth S&H
+VONGON,replay,LFO,LFO clock mode,,42,,0,1,,,,,,,0-based,,0: Free running; 1: Sync to arp
+VONGON,replay,Oscillator,Oscillator waveform,,83,,0,4,,,,,,,0-based,,0: Saw; 1: Off; 2: Square; 3: Tri; 4: Sine
+VONGON,replay,Oscillator,Oscillator noise,,84,,0,127,,,,,,,0-based,,0~127: Oscillator noise
+VONGON,replay,Oscillator,Oscillator LFO,,87,,0,127,,,,,,,0-based,,0~127: Oscillator LFO
+VONGON,replay,Oscillator,Oscillator PWM,,92,,0,127,,,,,,,0-based,,0~127: Oscillator PWM
+VONGON,replay,Oscillator,Oscillator PWM mode,,43,,0,1,,,,,,,0-based,,0: Manual; 1: LFO
+VONGON,replay,Oscillator,Oscillator noise mode,,45,,0,1,,,,,,,0-based,,0: Noise knob controls white noise level; 1: Noise knob controls ext in level

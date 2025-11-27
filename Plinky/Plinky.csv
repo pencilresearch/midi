@@ -1,66 +1,66 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Plinky,Plinky,Arpeggiator,Latch,Set the oscillator to latch mode (always on),101,,0,127,,,,,0-based,Switch Latch on and send in V/oct pitch CV and Gate signals if you want to use it like an oscillator,0-8: Latch off; 9-127: Latch on
-Plinky,Plinky,Arpeggiator,On/off,Enables the arpeggiator,102,,0,127,,,,,0-based,,0-8: Arp off; 9-127: Arp on
-Plinky,Plinky,Arpeggiator,Order,Selects the arpeggiator pattern,103,,0,127,,,,,0-based,,0~127: Change arp play order
-Plinky,Plinky,Arpeggiator,Clock division,Sets the speed of the arpeggiator,104,,0,127,,,,,Centered,"Negative numbers are unquantized, positive numbers divide a 32nd note clock",0~63: unquantized; 64~127: syched in 32 divisions
-Plinky,Plinky,Arpeggiator,Chance,Sets the probability of the arpeggiator progressing on each tick of its clock,105,,0,127,,,,,0-based,"If the euclidean length parameter is 0 this is a true random probability, otherwise it's the density of a euclidean rhythm.",0~127: Arp probability or euclidian length
-Plinky,Plinky,Arpeggiator,Euclid length,Sets the length of the euclidean pattern,106,,0,127,,,,,Centered,Negative values treat rests differently,0~63: steps negative values; 64: true random; 65~127: positive values
-Plinky,Plinky,Arpeggiator,Octaves,Sets the octave range of the arpeggiator,107,,0,127,,,,,0-based,1 to 5,0~127: Arp octaves
-Plinky,Plinky,Delay,Delay time,Time between each echo,12,,0,127,,,,,Centered,"Positive values are unquantized, negative values are multiples of the current tempo",0~63: synched; 64~127: free running
-Plinky,Plinky,Delay,Delay send amt,Amount of dry sound sent to delay FX,94,,0,127,,,,,0-based,,0~127: Delay send
-Plinky,Plinky,Delay,Delay feedback amt,Amount of feedback in the delay,95,,0,127,,,,,0-based,,0~127: Delay feedback amount
-Plinky,Plinky,Delay,Delay pingpong,Offsets the interval between left and right echo,112,,0,127,,,,,0-based,Moves the right tap to early time,0~127: Delay ping pong
-Plinky,Plinky,Delay,Delay wobble,Amount of simulated tape speed wobble,113,,0,127,,,,,0-based,,0~127: Delay wobble
-Plinky,Plinky,Envelope 1,Sensitivity (LPF amount),Max amount of pressure and env 1 to LPG frequency,3,,0,127,,,,,0-based,,0~127: Filter max frequency
-Plinky,Plinky,Envelope 1,Release,Sets the release of envelope 1,72,,0,127,,,,,0-based,,0~127: Env1 release
-Plinky,Plinky,Envelope 1,Attack,Sets the attack of envelope 1,73,,0,127,,,,,0-based,,0~127: Env1 attack
-Plinky,Plinky,Envelope 1,Sustain,Sets the sustain of envelope 1,74,,0,127,,,,,0-based,,0~127: Env1 sustain
-Plinky,Plinky,Envelope 1,Decay,Sets the decay of envelope 1,75,,0,127,,,,,0-based,,0~127: Env1 decay
-Plinky,Plinky,Envelope 2,Level,Sets the peak level of envelope 2,19,,0,127,,,,,0-based,,0~127: Env2 level
-Plinky,Plinky,Envelope 2,Attack,Sets the attack of envelope 2,20,,0,127,,,,,0-based,,0~127: Env2 release
-Plinky,Plinky,Envelope 2,Decay,Sets the decay of envelope 2,21,,0,127,,,,,0-based,,0~127: Env2 decay
-Plinky,Plinky,Envelope 2,Sustain,Sets the sustain of envelope 2,22,,0,127,,,,,0-based,,0~127: Env2 sustain
-Plinky,Plinky,Envelope 2,Release,Sets the release of envelope 2,23,,0,127,,,,,0-based,,0~127: Env2 release
-Plinky,Plinky,Mixer,Synth Level,Set the level of synth/sampler,7,,0,127,,,,,0-based,"After 50%, limiter is engaged",0~127: Synth level
-Plinky,Plinky,Mixer,Wet / Dry,Sets the balance between the dry signal and internal fx,8,,0,127,,,,,Centered,100 is completely wet and -100 is completely dry,0~127: Wet/dry mix
-Plinky,Plinky,Mixer,HPF amount,Amount of high pass filtering on output,31,,0,127,,,,,0-based,,0~127: HiPass amount
-Plinky,Plinky,Mixer,External in volume,Sets the gain level of the external audio inputs,89,,0,127,,,,,0-based,,0~127: External in level
-Plinky,Plinky,Mixer,External in wet/dry,Sets the balance between the external in dry signal and internal fx processing external signal,90,,0,127,,,,,Centered,,0~127: External Wet/dry mix
-Plinky,Plinky,Modulation A,Offset,Offsets the base value of the modulator,26,,0,127,,,,,Centered,Negative values apply negative offset,0~127: Modulator A offset
-Plinky,Plinky,Modulation A,Depth,Sets the amount of LFO in the modulator,25,,0,127,,,,,Centered,Negative values invert the LFO,0~127: LFO A depth
-Plinky,Plinky,Modulation A,Rate,Controls the rate of the internal LFO,24,,0,127,,,,,Centered,,0~127: LFO A rate
-Plinky,Plinky,Modulation B,Offset,Offsets the base value of the modulator,29,,0,127,,,,,Centered,Negative values apply negative offset,0~127: Modulator B offset
-Plinky,Plinky,Modulation B,Depth,Sets the amount of LFO in the modulator,28,,0,127,,,,,Centered,negative values invert the LFO,0~127: LFO B depth
-Plinky,Plinky,Modulation B,Rate,Controls the rate of the internal LFO,27,,0,127,,,,,Centered,,0~127: LFO B rate
-Plinky,Plinky,Modulation X,Rate,Controls the rate of the internal LFO,76,,0,127,,,,,Centered,,0~127: LFO X rate
-Plinky,Plinky,Modulation X,Depth,Sets the amount of LFO in the modulator,77,,0,127,,,,,Centered,Negative values invert the LFO,0~127: LFO X depth
-Plinky,Plinky,Modulation X,Offset,Offsets the base value of the modulator,78,,0,127,,,,,Centered,Negative values apply negative offset,0~127: Modulator X offset
-Plinky,Plinky,Modulation Y,Rate,Controls the rate of the internal LFO,79,,0,127,,,,,Centered,,0~127: LFO Y rate
-Plinky,Plinky,Modulation Y,Depth,Sets the amount of LFO in the modulator,80,,0,127,,,,,Centered,Negative values invert the LFO,0~127: LFO Y depth
-Plinky,Plinky,Modulation Y,Offset,Offsets the base value of the modulator,81,,0,127,,,,,Centered,,0~127: Modulator Y offset
-Plinky,Plinky,Oscillator,Noise level,Adds noise to the oscillators,2,,0,127,,,,,0-based,,0~127: Noise amount
-Plinky,Plinky,Oscillator,Distortion,Distortion amount to the oscillators,4,,0,127,,,,,Centered,-100 to 100. Negative values are attenuation,0~64: attenuation; 65~127: distortion
-Plinky,Plinky,Oscillator,Glide,Controls the speed of the portamento,5,,0,127,,,,,0-based,,0~127: Glide amount
-Plinky,Plinky,Oscillator,Pitch,Fine tune of the pitch,9,,0,127,,,,,Centered,0 is set to C,0~127: Oscillators pitch
-Plinky,Plinky,Oscillator,Shape,Sets the shape of the oscillators,13,,0,127,,,,,Centered,,0~63: Square with PWM; 64: Saw; 65~127: Wavetable
-Plinky,Plinky,Oscillator,Interval,Sets the tuning interval between oscillators,14,,0,127,,,,,Centered,-1 to +1 octaves,0~127: Osc intervals
-Plinky,Plinky,Oscillator,Resonance,Adds resonance to the LPG filter,71,,0,127,,,,,0-based,,0~127: Resonance amount
-Plinky,Plinky,Reverb,Reverb send amt,Amount of the dry sound sent to the Reverb unit,91,,0,127,,,,,0-based,,0~127: Reverb send
-Plinky,Plinky,Reverb,Reverb time,Controls the length of the decay of the Reverb,92,,0,127,,,,,0-based,,0~127: Reverb time
-Plinky,Plinky,Reverb,Reverb shimmer,Amount of octave-up signal that is fed into the reverb,93,,0,127,,,,,0-based,,0~127: Reverb shimmer
-Plinky,Plinky,Reverb,Reverb wobble,Amount of simulated tape speed wobble,114,,0,127,,,,,0-based,,0~127: Reverb wobble
-Plinky,Plinky,Sampler,Scrub,Controls the starting point of the sample playback,15,,0,127,,,,,0-based,Start is relative to the slice point,0~127: Sample start
-Plinky,Plinky,Sampler,Grain size,Sets the size of the grains,16,,0,127,,,,,0-based,,0~127: Grain size
-Plinky,Plinky,Sampler,Play speed,Determines at what relative speed the sample is played back,17,,0,127,,,,,Centered,Pitch is affected. Value is percentage of default speed,0~127: -200% to 200% speed
-Plinky,Plinky,Sampler,Timestretch,Determines at what relative speed the sample is played back,18,,0,127,,,,,Centered,Pitch is not affected,0~127: -200% to 200% speed
-Plinky,Plinky,Sampler,Sample,Controls which sample is being played,82,,0,127,,,,,0-based,,0-14: Sampler off; 14~127: Sample select
-Plinky,Plinky,Sampler Jitter,Jitter position,Adds an amount of randomness to the sample playback position,116,,0,127,,,,,0-based,,0~127: Scrub jitter
-Plinky,Plinky,Sampler Jitter,Jitter grain size,Adds an amount of randomness to the sample grain size,117,,0,127,,,,,0-based,,0~127: Grain size jitter
-Plinky,Plinky,Sampler Jitter,Jitter play speed,Adds an amount of randomness to the sample playback speed,118,,0,127,,,,,0-based,,0~127: play speed jitter
-Plinky,Plinky,Sequencer,Gate length,Sets the length of the gate of each step,11,,0,127,,,,,0-based,,0~127: Gate length
-Plinky,Plinky,Sequencer,Pattern,Selects the sequencer pattern,83,,0,127,,,,,0-based,,0~127: Select from pattern 1 to 24
-Plinky,Plinky,Sequencer,Steps,Offsets the starting point of the sequencer,85,,0,127,,,,,Centered,Negative values select from previous steps,0~127: Sequencer start offset
-Plinky,Plinky,Sequencer,Mode,Sets the order of the steps played by the sequencer,108,,0,127,,,,,0-based,,0~127: Sequencer play mode
-Plinky,Plinky,Sequencer,Clock division,Sets the clock division of the sequencer,109,,0,127,,,,,0-based,Last one is advance by gate CV,0~127: Sequencer clock division
-Plinky,Plinky,Sequencer,Chance,Sets the probability of the sequencer progressing on each tick of its clock,110,,0,127,,,,,0-based,"If the euclidean length parameter is 0 this is a true random probability, otherwise it's the density of a euclidean rhythm.",0~127: Sequencer probability
-Plinky,Plinky,Sequencer,Euclid length,Sets the length of the euclidean pattern,111,,0,127,,,,,Centered,Negative values treat rests differently,0~63: steps negative values; 64: true random; 65~127: positive values
+﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Plinky,Plinky,Arpeggiator,Latch,Set the oscillator to latch mode (always on),101,,0,127,,,,,,,0-based,Switch Latch on and send in V/oct pitch CV and Gate signals if you want to use it like an oscillator,0-8: Latch off; 9-127: Latch on
+Plinky,Plinky,Arpeggiator,On/off,Enables the arpeggiator,102,,0,127,,,,,,,0-based,,0-8: Arp off; 9-127: Arp on
+Plinky,Plinky,Arpeggiator,Order,Selects the arpeggiator pattern,103,,0,127,,,,,,,0-based,,0~127: Change arp play order
+Plinky,Plinky,Arpeggiator,Clock division,Sets the speed of the arpeggiator,104,,0,127,,,,,,,Centered,"Negative numbers are unquantized, positive numbers divide a 32nd note clock",0~63: unquantized; 64~127: syched in 32 divisions
+Plinky,Plinky,Arpeggiator,Chance,Sets the probability of the arpeggiator progressing on each tick of its clock,105,,0,127,,,,,,,0-based,"If the euclidean length parameter is 0 this is a true random probability, otherwise it's the density of a euclidean rhythm.",0~127: Arp probability or euclidian length
+Plinky,Plinky,Arpeggiator,Euclid length,Sets the length of the euclidean pattern,106,,0,127,,,,,,,Centered,Negative values treat rests differently,0~63: steps negative values; 64: true random; 65~127: positive values
+Plinky,Plinky,Arpeggiator,Octaves,Sets the octave range of the arpeggiator,107,,0,127,,,,,,,0-based,1 to 5,0~127: Arp octaves
+Plinky,Plinky,Delay,Delay time,Time between each echo,12,,0,127,,,,,,,Centered,"Positive values are unquantized, negative values are multiples of the current tempo",0~63: synched; 64~127: free running
+Plinky,Plinky,Delay,Delay send amt,Amount of dry sound sent to delay FX,94,,0,127,,,,,,,0-based,,0~127: Delay send
+Plinky,Plinky,Delay,Delay feedback amt,Amount of feedback in the delay,95,,0,127,,,,,,,0-based,,0~127: Delay feedback amount
+Plinky,Plinky,Delay,Delay pingpong,Offsets the interval between left and right echo,112,,0,127,,,,,,,0-based,Moves the right tap to early time,0~127: Delay ping pong
+Plinky,Plinky,Delay,Delay wobble,Amount of simulated tape speed wobble,113,,0,127,,,,,,,0-based,,0~127: Delay wobble
+Plinky,Plinky,Envelope 1,Sensitivity (LPF amount),Max amount of pressure and env 1 to LPG frequency,3,,0,127,,,,,,,0-based,,0~127: Filter max frequency
+Plinky,Plinky,Envelope 1,Release,Sets the release of envelope 1,72,,0,127,,,,,,,0-based,,0~127: Env1 release
+Plinky,Plinky,Envelope 1,Attack,Sets the attack of envelope 1,73,,0,127,,,,,,,0-based,,0~127: Env1 attack
+Plinky,Plinky,Envelope 1,Sustain,Sets the sustain of envelope 1,74,,0,127,,,,,,,0-based,,0~127: Env1 sustain
+Plinky,Plinky,Envelope 1,Decay,Sets the decay of envelope 1,75,,0,127,,,,,,,0-based,,0~127: Env1 decay
+Plinky,Plinky,Envelope 2,Level,Sets the peak level of envelope 2,19,,0,127,,,,,,,0-based,,0~127: Env2 level
+Plinky,Plinky,Envelope 2,Attack,Sets the attack of envelope 2,20,,0,127,,,,,,,0-based,,0~127: Env2 release
+Plinky,Plinky,Envelope 2,Decay,Sets the decay of envelope 2,21,,0,127,,,,,,,0-based,,0~127: Env2 decay
+Plinky,Plinky,Envelope 2,Sustain,Sets the sustain of envelope 2,22,,0,127,,,,,,,0-based,,0~127: Env2 sustain
+Plinky,Plinky,Envelope 2,Release,Sets the release of envelope 2,23,,0,127,,,,,,,0-based,,0~127: Env2 release
+Plinky,Plinky,Mixer,Synth Level,Set the level of synth/sampler,7,,0,127,,,,,,,0-based,"After 50%, limiter is engaged",0~127: Synth level
+Plinky,Plinky,Mixer,Wet / Dry,Sets the balance between the dry signal and internal fx,8,,0,127,,,,,,,Centered,100 is completely wet and -100 is completely dry,0~127: Wet/dry mix
+Plinky,Plinky,Mixer,HPF amount,Amount of high pass filtering on output,31,,0,127,,,,,,,0-based,,0~127: HiPass amount
+Plinky,Plinky,Mixer,External in volume,Sets the gain level of the external audio inputs,89,,0,127,,,,,,,0-based,,0~127: External in level
+Plinky,Plinky,Mixer,External in wet/dry,Sets the balance between the external in dry signal and internal fx processing external signal,90,,0,127,,,,,,,Centered,,0~127: External Wet/dry mix
+Plinky,Plinky,Modulation A,Offset,Offsets the base value of the modulator,26,,0,127,,,,,,,Centered,Negative values apply negative offset,0~127: Modulator A offset
+Plinky,Plinky,Modulation A,Depth,Sets the amount of LFO in the modulator,25,,0,127,,,,,,,Centered,Negative values invert the LFO,0~127: LFO A depth
+Plinky,Plinky,Modulation A,Rate,Controls the rate of the internal LFO,24,,0,127,,,,,,,Centered,,0~127: LFO A rate
+Plinky,Plinky,Modulation B,Offset,Offsets the base value of the modulator,29,,0,127,,,,,,,Centered,Negative values apply negative offset,0~127: Modulator B offset
+Plinky,Plinky,Modulation B,Depth,Sets the amount of LFO in the modulator,28,,0,127,,,,,,,Centered,negative values invert the LFO,0~127: LFO B depth
+Plinky,Plinky,Modulation B,Rate,Controls the rate of the internal LFO,27,,0,127,,,,,,,Centered,,0~127: LFO B rate
+Plinky,Plinky,Modulation X,Rate,Controls the rate of the internal LFO,76,,0,127,,,,,,,Centered,,0~127: LFO X rate
+Plinky,Plinky,Modulation X,Depth,Sets the amount of LFO in the modulator,77,,0,127,,,,,,,Centered,Negative values invert the LFO,0~127: LFO X depth
+Plinky,Plinky,Modulation X,Offset,Offsets the base value of the modulator,78,,0,127,,,,,,,Centered,Negative values apply negative offset,0~127: Modulator X offset
+Plinky,Plinky,Modulation Y,Rate,Controls the rate of the internal LFO,79,,0,127,,,,,,,Centered,,0~127: LFO Y rate
+Plinky,Plinky,Modulation Y,Depth,Sets the amount of LFO in the modulator,80,,0,127,,,,,,,Centered,Negative values invert the LFO,0~127: LFO Y depth
+Plinky,Plinky,Modulation Y,Offset,Offsets the base value of the modulator,81,,0,127,,,,,,,Centered,,0~127: Modulator Y offset
+Plinky,Plinky,Oscillator,Noise level,Adds noise to the oscillators,2,,0,127,,,,,,,0-based,,0~127: Noise amount
+Plinky,Plinky,Oscillator,Distortion,Distortion amount to the oscillators,4,,0,127,,,,,,,Centered,-100 to 100. Negative values are attenuation,0~64: attenuation; 65~127: distortion
+Plinky,Plinky,Oscillator,Glide,Controls the speed of the portamento,5,,0,127,,,,,,,0-based,,0~127: Glide amount
+Plinky,Plinky,Oscillator,Pitch,Fine tune of the pitch,9,,0,127,,,,,,,Centered,0 is set to C,0~127: Oscillators pitch
+Plinky,Plinky,Oscillator,Shape,Sets the shape of the oscillators,13,,0,127,,,,,,,Centered,,0~63: Square with PWM; 64: Saw; 65~127: Wavetable
+Plinky,Plinky,Oscillator,Interval,Sets the tuning interval between oscillators,14,,0,127,,,,,,,Centered,-1 to +1 octaves,0~127: Osc intervals
+Plinky,Plinky,Oscillator,Resonance,Adds resonance to the LPG filter,71,,0,127,,,,,,,0-based,,0~127: Resonance amount
+Plinky,Plinky,Reverb,Reverb send amt,Amount of the dry sound sent to the Reverb unit,91,,0,127,,,,,,,0-based,,0~127: Reverb send
+Plinky,Plinky,Reverb,Reverb time,Controls the length of the decay of the Reverb,92,,0,127,,,,,,,0-based,,0~127: Reverb time
+Plinky,Plinky,Reverb,Reverb shimmer,Amount of octave-up signal that is fed into the reverb,93,,0,127,,,,,,,0-based,,0~127: Reverb shimmer
+Plinky,Plinky,Reverb,Reverb wobble,Amount of simulated tape speed wobble,114,,0,127,,,,,,,0-based,,0~127: Reverb wobble
+Plinky,Plinky,Sampler,Scrub,Controls the starting point of the sample playback,15,,0,127,,,,,,,0-based,Start is relative to the slice point,0~127: Sample start
+Plinky,Plinky,Sampler,Grain size,Sets the size of the grains,16,,0,127,,,,,,,0-based,,0~127: Grain size
+Plinky,Plinky,Sampler,Play speed,Determines at what relative speed the sample is played back,17,,0,127,,,,,,,Centered,Pitch is affected. Value is percentage of default speed,0~127: -200% to 200% speed
+Plinky,Plinky,Sampler,Timestretch,Determines at what relative speed the sample is played back,18,,0,127,,,,,,,Centered,Pitch is not affected,0~127: -200% to 200% speed
+Plinky,Plinky,Sampler,Sample,Controls which sample is being played,82,,0,127,,,,,,,0-based,,0-14: Sampler off; 14~127: Sample select
+Plinky,Plinky,Sampler Jitter,Jitter position,Adds an amount of randomness to the sample playback position,116,,0,127,,,,,,,0-based,,0~127: Scrub jitter
+Plinky,Plinky,Sampler Jitter,Jitter grain size,Adds an amount of randomness to the sample grain size,117,,0,127,,,,,,,0-based,,0~127: Grain size jitter
+Plinky,Plinky,Sampler Jitter,Jitter play speed,Adds an amount of randomness to the sample playback speed,118,,0,127,,,,,,,0-based,,0~127: play speed jitter
+Plinky,Plinky,Sequencer,Gate length,Sets the length of the gate of each step,11,,0,127,,,,,,,0-based,,0~127: Gate length
+Plinky,Plinky,Sequencer,Pattern,Selects the sequencer pattern,83,,0,127,,,,,,,0-based,,0~127: Select from pattern 1 to 24
+Plinky,Plinky,Sequencer,Steps,Offsets the starting point of the sequencer,85,,0,127,,,,,,,Centered,Negative values select from previous steps,0~127: Sequencer start offset
+Plinky,Plinky,Sequencer,Mode,Sets the order of the steps played by the sequencer,108,,0,127,,,,,,,0-based,,0~127: Sequencer play mode
+Plinky,Plinky,Sequencer,Clock division,Sets the clock division of the sequencer,109,,0,127,,,,,,,0-based,Last one is advance by gate CV,0~127: Sequencer clock division
+Plinky,Plinky,Sequencer,Chance,Sets the probability of the sequencer progressing on each tick of its clock,110,,0,127,,,,,,,0-based,"If the euclidean length parameter is 0 this is a true random probability, otherwise it's the density of a euclidean rhythm.",0~127: Sequencer probability
+Plinky,Plinky,Sequencer,Euclid length,Sets the length of the euclidean pattern,111,,0,127,,,,,,,Centered,Negative values treat rests differently,0~63: steps negative values; 64: true random; 65~127: positive values

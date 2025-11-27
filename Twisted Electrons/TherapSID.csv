@@ -1,59 +1,59 @@
-manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Pulse Width,,2,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Tune,,3,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Fine,,4,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Glide,,5,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Attack,,6,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Decay,,7,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Sustain,,8,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Release,,9,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Pulse Width,,10,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Tune,,11,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Fine,,12,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Glide,,13,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Attack,,14,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Decay,,15,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Sustain,,16,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Release,,17,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Pulse Width,,18,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Tune,,19,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Fine,,20,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Glide,,21,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Attack,,22,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Decay,,23,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Sustain,,24,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Release,,25,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,LFO 1,LFO 1 Rate,,26,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,LFO 1,LFO 1 Depth,,27,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,LFO 2,LFO 2 Rate,,28,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,LFO 2,LFO 2 Depth,,29,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,LFO 3,LFO 3 Rate,,30,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,LFO 3,LFO 3 Depth,,31,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Filter,Filter Cutoff,,32,,0,127,,,,,0-based,Must also be sent to CC59,
-Twisted Electrons,TherapSID,Filter,Filter Resonance,,33,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Arpeggiator,Arp Scrub,,34,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Arpeggiator,Arp Rate,,35,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Arpeggiator,Arp Range,,36,,1,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Rect,,37,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Triangle,,38,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Saw,,39,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Noise,,40,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Rect,,41,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Triangle,,42,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Saw,,43,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Noise,,44,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Rect,,45,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Triangle,,46,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Saw,,47,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Noise,,48,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Sync,,49,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 1,Voice 1 Ring,,50,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Sync,,51,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 2,Voice 2 Ring,,52,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Sync,,53,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Voice 3,Voice 3 Ring,,54,,0,1,,,,,0-based,,0: Off; 1: On
-Twisted Electrons,TherapSID,Filter,Filter Mode,,55,,0,127,,,,,0-based,,0-25: Low Pass; 26-50: Band Pass; 51-75: High Pass; 76-100: Notch; 101-127: Off
-Twisted Electrons,TherapSID,LFO 1,LFO 1 Value,,56,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,LFO 2,LFO 2 Value,,57,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,LFO 3,LFO 3 Value,,58,,0,127,,,,,0-based,,
-Twisted Electrons,TherapSID,Filter,Filter Cutoff,,59,,0,127,,,,,0-based,Must also be sent to CC32,
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Pulse Width,,2,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Tune,,3,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Fine,,4,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Glide,,5,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Attack,,6,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Decay,,7,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Sustain,,8,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Release,,9,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Pulse Width,,10,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Tune,,11,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Fine,,12,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Glide,,13,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Attack,,14,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Decay,,15,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Sustain,,16,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Release,,17,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Pulse Width,,18,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Tune,,19,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Fine,,20,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Glide,,21,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Attack,,22,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Decay,,23,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Sustain,,24,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Release,,25,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,LFO 1,LFO 1 Rate,,26,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,LFO 1,LFO 1 Depth,,27,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,LFO 2,LFO 2 Rate,,28,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,LFO 2,LFO 2 Depth,,29,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,LFO 3,LFO 3 Rate,,30,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,LFO 3,LFO 3 Depth,,31,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Filter,Filter Cutoff,,32,,0,127,,,,,,,0-based,Must also be sent to CC59,
+Twisted Electrons,TherapSID,Filter,Filter Resonance,,33,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Arpeggiator,Arp Scrub,,34,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Arpeggiator,Arp Rate,,35,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Arpeggiator,Arp Range,,36,,1,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Rect,,37,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Triangle,,38,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Saw,,39,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Noise,,40,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Rect,,41,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Triangle,,42,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Saw,,43,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Noise,,44,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Rect,,45,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Triangle,,46,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Saw,,47,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Noise,,48,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Sync,,49,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 1,Voice 1 Ring,,50,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Sync,,51,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 2,Voice 2 Ring,,52,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Sync,,53,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Voice 3,Voice 3 Ring,,54,,0,1,,,,,,,0-based,,0: Off; 1: On
+Twisted Electrons,TherapSID,Filter,Filter Mode,,55,,0,127,,,,,,,0-based,,0-25: Low Pass; 26-50: Band Pass; 51-75: High Pass; 76-100: Notch; 101-127: Off
+Twisted Electrons,TherapSID,LFO 1,LFO 1 Value,,56,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,LFO 2,LFO 2 Value,,57,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,LFO 3,LFO 3 Value,,58,,0,127,,,,,,,0-based,,
+Twisted Electrons,TherapSID,Filter,Filter Cutoff,,59,,0,127,,,,,,,0-based,Must also be sent to CC32,
