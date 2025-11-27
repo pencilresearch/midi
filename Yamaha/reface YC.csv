@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Yamaha,reface YC,Sound,Rotary speed,,19,,0,127,,,,,,,0-based,,0-32: Off; 33-64: Stop; 65-95: Slow; 96-127: Fast
 Yamaha,reface YC,Sound,Wave,,80,,0,127,,,,,,,0-based,,0-25: H; 26-51: V; 52-76: F; 77-102: A; 103-127: Y
 Yamaha,reface YC,Sound,Footage 16',,102,,0,127,,,,,,,0-based,,0-18: Footage slider 0; 19-36: Footage slider 1; 37-54: Footage slider 2; 55-73: Footage slider 3; 74-91: Footage slider 4; 92-109: Footage slider 5; 110-127: Footage slider 6

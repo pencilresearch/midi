@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 KORG,micro KORG,Pitch,Portamento,,5,,0,127,,,,,,,0-based,,
 KORG,micro KORG,OSC 1,Wave,,77,,0,127,,,,,,,0-based,,0-15: Saw; 16-31: Square; 32-47: Tri; 48-63: Sin; 64-79: Vox wave; 80-95: DWGS; 96-111: Noise; 112-127: Audio in
 KORG,micro KORG,OSC 1,Control 1,,14,,0,127,,,,,,,0-based,,

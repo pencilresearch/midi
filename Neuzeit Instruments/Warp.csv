@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Neuzeit Instruments,Warp,Pot Mod,SPEC Pot Virtual CV,Midi treated as CV to modulate the pot,90,,0,127,,,,,,,0-based,Modifies the physical pot position to the right,
 Neuzeit Instruments,Warp,Pot Mod,WARP Pot Virtual CV,Midi treated as CV to modulate the pot,91,,0,127,,,,,,,0-based,Modifies the physical pot position to the right,
 Neuzeit Instruments,Warp,Pot Mod,DETN Pot Virtual CV,Midi treated as CV to modulate the pot,92,,0,127,,,,,,,0-based,Modifies the physical pot position to the right,

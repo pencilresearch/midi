@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Elektron,Syntakt,Track,Track: Mute,,94,,0,1,,1,101,0,1,,0-based,,0: Unmuted; 1: Muted
 Elektron,Syntakt,Track,Track: Level,,95,,0,127,,1,100,0,127,,0-based,,
 Elektron,Syntakt,Trig,Trig: Note,,3,,0,127,,3,0,0,127,,0-based,,

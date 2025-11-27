@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Chase Bliss,Clean,Knobs,Dynamics,Set the amount of compression.,14,,0,127,,,,,,,0-based,,0~127: Compression amount
 Chase Bliss,Clean,Knobs,Sensitivity,"Sets the dynamic threshold. The higher the knob is turned up, the more sensitive Clean becomes.",15,,0,127,,,,,,,0-based,,0~127: Dynamic threshold
 Chase Bliss,Clean,Knobs,Wet,Controls the loudness of the processed signal.,16,,0,127,,,,,,,0-based,,0~127: Loudness

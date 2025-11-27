@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Moog,Minitaur,Oscillators,VCO 1: Wave,Selects the waveform of VCO 1,70,,0,127,,,,,,,0-based,,0-63: Saw; 64-127: Square
 Moog,Minitaur,Oscillators,VCO 2: Wave,Selects the waveform of VCO 2,71,,0,127,,,,,,,0-based,,0-63: Saw; 64-127: Square
 Moog,Minitaur,Oscillators,VCO 2: Frequency,Adjusts the frequency of VCO 2,17,49,0,16383,,,,,,,centered,64 is center,

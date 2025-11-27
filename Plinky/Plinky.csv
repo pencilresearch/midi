@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Plinky,Plinky,Arpeggiator,Latch,Set the oscillator to latch mode (always on),101,,0,127,,,,,,,0-based,Switch Latch on and send in V/oct pitch CV and Gate signals if you want to use it like an oscillator,0-8: Latch off; 9-127: Latch on
 Plinky,Plinky,Arpeggiator,On/off,Enables the arpeggiator,102,,0,127,,,,,,,0-based,,0-8: Arp off; 9-127: Arp on
 Plinky,Plinky,Arpeggiator,Order,Selects the arpeggiator pattern,103,,0,127,,,,,,,0-based,,0~127: Change arp play order

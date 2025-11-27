@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 MFB,Synth II,General,Glide,,5,,0,127,,,,,,,0-based,,
 MFB,Synth II,General,Mod.Vco,,6,,0,127,,,,,,,0-based,,
 MFB,Synth II,Oscillators,Pulse,,8,,0,127,,,,,,,0-based,,

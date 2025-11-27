@@ -1,4 +1,4 @@
-﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 VONGON,replay,Amp,Amp mode,,80,,0,127,,,,,,,0-based,,0~127: Amp mode
 VONGON,replay,Amp,Amp level,,91,,0,127,,,,,,,0-based,,0~127: Amp level
 VONGON,replay,Arp,Arp range,,100,,0,2,,,,,,,0-based,,0: 1 octave; 1: 2 octaves; 2: 3 octaves
