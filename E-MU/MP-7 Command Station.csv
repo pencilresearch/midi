@@ -2,7 +2,7 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 E-MU,MP-7 Command Station,General,Bank select,,0,32,,,,,,,,,0-based,,
 E-MU,MP-7 Command Station,General,Mod wheel,,1,33,,,,,,,,,0-based,,
 E-MU,MP-7 Command Station,General,Channel volume,,7,39,,,,,,,,,0-based,,
-E-MU,MP-7 Command Station,General,Pan,,10,42,,,,,,,,,Centered,,
+E-MU,MP-7 Command Station,General,Pan,,10,42,,,,,,,,,centered,,
 E-MU,MP-7 Command Station,General,Expression,,11,43,,,,,,,,,0-based,,
 E-MU,MP-7 Command Station,General,GenPur Ctrl 1,,16,48,,,,,,,,,0-based,,
 E-MU,MP-7 Command Station,General,GenPur Ctrl 2,,17,49,,,,,,,,,0-based,,

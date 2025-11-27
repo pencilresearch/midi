@@ -2,7 +2,7 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 Roland,S-1,Controls,Mod Wheel,,1,,0,127,,,,,,,0-based,,
 Roland,S-1,LFO,LFO Rate,,3,,0,127,,,,,,,0-based,,
 Roland,S-1,Voice,Portamento Time,,5,,0,127,,,,,,,0-based,,
-Roland,S-1,Voice,Pan,,10,,0,127,,,,,,,Centered,,
+Roland,S-1,Voice,Pan,,10,,0,127,,,,,,,centered,,
 Roland,S-1,Controls,Expression Pedal,,11,,0,127,,,,,,,0-based,,
 Roland,S-1,LFO,LFO Waveform,,12,,0,127,,,,,,,0-based,,
 Roland,S-1,Oscillators,Oscillator LFO Pitch,,13,,0,127,,,,,,,0-based,,

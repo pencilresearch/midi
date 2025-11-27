@@ -43,7 +43,7 @@ Moog,Sub Phatty,LFO,LFO KB tracking amount,,78,,0,127,,,,,,,0-based,,
 Moog,Sub Phatty,Amplifier EG,Amplifier EG reset,,83,,0,127,,,,,,,0-based,,0: Off; 64: On
 Moog,Sub Phatty,Filter EG,Filter EG reset,,82,,0,127,,,,,,,0-based,,0: Off; 64: On
 Moog,Sub Phatty,General,Output level,,7,39,0,127,,,,,,,0-based,,
-Moog,Sub Phatty,General,Keyboard octave,,89,,0,127,,,,,,,Centered,,0: -2 oct; 16: -1 oct; 32: +0 oct; 48: +1 oct; 64: +2 oct
+Moog,Sub Phatty,General,Keyboard octave,,89,,0,127,,,,,,,centered,,0: -2 oct; 16: -1 oct; 32: +0 oct; 48: +1 oct; 64: +2 oct
 Moog,Sub Phatty,General,External input level,,116,,0,127,,,,,,,0-based,,
 Moog,Sub Phatty,Amplifier EG,Amplifier EG delay,,104,,0,127,,,,,,,0-based,,
 Moog,Sub Phatty,Amplifier EG,Amplifier EG hold,,106,,0,127,,,,,,,0-based,,
@@ -57,7 +57,7 @@ Moog,Sub Phatty,VCOs,VCO 2 octave,,75,,0,127,,,,,,,0-based,,"16: 1', 32: 8', 48:
 Moog,Sub Phatty,Filter,Filter poles,,109,,0,127,,,,,,,0-based,,0: 1 pole; 32: 2 poles; 64: 3 poles; 94: 4 poles
 Moog,Sub Phatty,LFO,LFO range,,76,,0,127,,,,,,,0-based,,0: Low (0.01Hz - 10Hz); 43: Mid (0.1Hz - 100Hz); 85: High (1Hz - 1kHz)
 Moog,Sub Phatty,General,Legato,,68,,0,127,,,,,,,0-based,,0: Off; 64: On
-Moog,Sub Phatty,General,Keyboard transpose,,119,,0,127,,,,,,,Centered,,0~24: Transpose from -12 to +12 semitones
+Moog,Sub Phatty,General,Keyboard transpose,,119,,0,127,,,,,,,centered,,0~24: Transpose from -12 to +12 semitones
 Moog,Sub Phatty,Glide,Gated glide,,73,,0,127,,,,,,,0-based,,0: Off; 64: On
 Moog,Sub Phatty,Filter EG,Filter EG repeat,,112,,0,127,,,,,,,0-based,,0: Off; 64: On
 Moog,Sub Phatty,Filter EG,Filter EG velocity to time,,86,,0,127,,,,,,,0-based,,

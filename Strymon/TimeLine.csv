@@ -9,7 +9,7 @@ Strymon,TimeLine,Knobs,Depth,Modulation intensity (mode-dependent),18,,0,127,,,,
 Strymon,TimeLine,Knobs,Type (algorithm select),Selects delay machine (12 types),19,,0,11,,,,,,,0-based,Exact value:type order is not specified in the manual; typically follows the front-panel order.,0-11: Select delay machine
 Strymon,TimeLine,Common Parameters,Tap Division,Subdivision for tap tempo,21,,0,4,,,,,,,0-based,,0: Quarter; 1: Dotted Eighth; 2: Eighth; 3: Triplets; 4: Sixteenth
 Strymon,TimeLine,Common Parameters,Persist (Trails),Delay trails spillover when bypassed,22,,0,1,,,,,,,0-based,,0: Off; 1: On
-Strymon,TimeLine,Common Parameters,Boost,+/-3 dB output level trim per preset,23,,0,60,,,,,,,Centered,"Midpoint, approx. unity (0 dB).",0~60: -3 dB to +3 dB
+Strymon,TimeLine,Common Parameters,Boost,+/-3 dB output level trim per preset,23,,0,60,,,,,,,centered,"Midpoint, approx. unity (0 dB).",0~60: -3 dB to +3 dB
 Strymon,TimeLine,Common Parameters,Smear,Softens attack of repeats,38,,0,18,,,,,,,0-based,,0~18: Smear amount
 Strymon,TimeLine,Common Parameters,High Pass,Post-delay high-pass filter,47,,0,20,,,,,,,0-based,,0~20: HPF amount
 Strymon,TimeLine,Common Parameters,Expression Enable,Enable/disable EXP per preset,60,,0,1,,,,,,,0-based,,0: Off; 1: On

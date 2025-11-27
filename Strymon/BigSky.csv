@@ -7,7 +7,7 @@ Strymon,BigSky,Knobs,Tone,Global high-end content,3,,0,127,,,,,,,0-based,,0~127:
 Strymon,BigSky,Knobs,Mod,Reverb modulation amount,14,,0,127,,,,,,,0-based,,0~127: Mod amount
 Strymon,BigSky,Knobs,Param 1,Assignable per machine,9,,0,127,,,,,,,0-based,,0~127: Param 1
 Strymon,BigSky,Knobs,Param 2,Assignable per machine,16,,0,127,,,,,,,0-based,,0~127: Param 2
-Strymon,BigSky,Common Parameters,Boost,+/-3 dB output trim per preset,23,,0,60,,,,,,,Centered,"Midpoint, approx. unity (0 dB).",0~60: -3 dB to +3 dB
+Strymon,BigSky,Common Parameters,Boost,+/-3 dB output trim per preset,23,,0,60,,,,,,,centered,"Midpoint, approx. unity (0 dB).",0~60: -3 dB to +3 dB
 Strymon,BigSky,Common Parameters,Persist (Trails),Reverb trails spillover when bypassed,22,,0,1,,,,,,,0-based,,0: Off; 1: On
 Strymon,BigSky,Common Parameters,Hold Mode,Selects Freeze or Infinite for press-and-hold,70,,0,1,,,,,,,0-based,,0: Freeze; 1: Infinite
 Strymon,BigSky,Common Parameters,Expression Enable,Enable/disable expression per preset,60,,0,1,,,,,,,0-based,,0: Off; 1: On

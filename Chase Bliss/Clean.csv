@@ -3,7 +3,7 @@ Chase Bliss,Clean,Knobs,Dynamics,Set the amount of compression.,14,,0,127,,,,,,,
 Chase Bliss,Clean,Knobs,Sensitivity,"Sets the dynamic threshold. The higher the knob is turned up, the more sensitive Clean becomes.",15,,0,127,,,,,,,0-based,,0~127: Dynamic threshold
 Chase Bliss,Clean,Knobs,Wet,Controls the loudness of the processed signal.,16,,0,127,,,,,,,0-based,,0~127: Loudness
 Chase Bliss,Clean,Knobs,Attack,Controls how quickly the compression will set in.,17,,0,127,,,,,,,0-based,,0~127: Attack
-Chase Bliss,Clean,Knobs,EQ,"The counter-clockwise side removes highs while the clockwise side removes lows. At noon, the EQ will have no effect.",18,,0,127,,,,,,,Centered,,0~127: EQ
+Chase Bliss,Clean,Knobs,EQ,"The counter-clockwise side removes highs while the clockwise side removes lows. At noon, the EQ will have no effect.",18,,0,127,,,,,,,centered,,0~127: EQ
 Chase Bliss,Clean,Knobs,Dry,Controls the loudness of the unprocessed signal.,19,,0,127,,,,,,,0-based,,0~127: Dry
 Chase Bliss,Clean,Knobs,Ramp Speed,"If ramping is enabled, this controls the ramping speed.",20,,0,127,,,,,,,0-based,,0~127: Ramp speed
 Chase Bliss,Clean,Toggles,Release,Controls how quickly the compression (and left EQ mode) will fade out.,21,,0,127,,,,,,,0-based,,0-1: Fast; 2: User; 3-127: Slow

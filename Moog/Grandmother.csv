@@ -11,7 +11,7 @@ Moog,Grandmother,Oscillators,Oscillator 1 octave,,74,,0,127,,,,,,,0-based,,0: 32
 Moog,Grandmother,Oscillators,Oscillator 2 octave,,75,,0,127,,,,,,,0-based,,0: 32'; 32: 16'; 64: 8'; 96: 4'
 Moog,Grandmother,Oscillators,Oscillator 2 sync,,77,,0,127,,,,,,,0-based,,0: Off; 64: On
 Moog,Grandmother,Glide,Glide type,,85,,0,127,,,,,,,0-based,,0: LCR; 43: LCT; 85: exponential
-Moog,Grandmother,General,Keyboard octave,,89,,0,127,,,,,,,Centered,,0: -2; 26: -1; 51: 0; 77: +1; 102: +2
+Moog,Grandmother,General,Keyboard octave,,89,,0,127,,,,,,,centered,,0: -2; 26: -1; 51: 0; 77: +1; 102: +2
 Moog,Grandmother,Arp/seq,Arpeggiator/sequencer clock division,,90,,0,127,,,,,,,0-based,,0: 4 whole; 5: 3 whole; 11: 2 whole; 16: dotted whole; 21: whole; 27: dotted half; 32: whole triplet; 37: half; 43: dotted quarter; 48: half triplet; 53: quarter; 59: dotted eighth; 64: quarter triplet; 69: eighth; 75: dotted sixteenth; 80: eighth triplet; 85: sixteenth; 91: dotted 32nd; 96: sixteenth tripet; 101: 32nd; 107: dotted 64th; 112: 32nd triplet; 117: 64th; 123: 64th triplet
 Moog,Grandmother,Arp/seq,Arpeggiator/sequencer mode,,91,,0,127,,,,,,,0-based,,0: Arp; 43: Seq; 85: Rec
 Moog,Grandmother,Arp/seq,Arpeggiator/sequencer pattern,,92,,0,127,,,,,,,0-based,,0: ORDR; 43: FWD/BKWD; 85: RNDM
@@ -20,4 +20,4 @@ Moog,Grandmother,Glide,Legato glide,,94,,0,127,,,,,,,0-based,,0: Off; 64: On
 Moog,Grandmother,Glide,Gated glide,,103,,0,127,,,,,,,0-based,,0: Off; 64: On
 Moog,Grandmother,General,Pitch bend up amount,,107,,0,127,,,,,,,0-based,,0~123: 0 to 24 semitones
 Moog,Grandmother,General,Pitch bend down amount,,108,,0,127,,,,,,,0-based,,0~123: 0 to 24 semitones
-Moog,Grandmother,General,Keyboard transpose (semitones),,119,,0,127,,,,,,,Centered,,0~123: -12 to +12 semitones
+Moog,Grandmother,General,Keyboard transpose (semitones),,119,,0,127,,,,,,,centered,,0~123: -12 to +12 semitones

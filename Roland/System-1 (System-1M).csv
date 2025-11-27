@@ -13,27 +13,27 @@ Roland,System-1 (System-1M),Mix,Mixer noise,,19,,0,127,,,,,,,0-based,
 Roland,System-1 (System-1M),General,Pitch env,,22,,0,127,,,,,,,0-based,
 Roland,System-1 (System-1M),Envelopes,Pitch attack,,23,,0,127,,,,,,,0-based,
 Roland,System-1 (System-1M),Envelopes,Pitch decay,,24,,0,127,,,,,,,0-based,
-Roland,System-1 (System-1M),LFO,Lfo pitch,,26,,0,127,,,,,,,Centered,
+Roland,System-1 (System-1M),LFO,Lfo pitch,,26,,0,127,,,,,,,centered,
 Roland,System-1 (System-1M),LFO,Lfo fade time,,27,,0,127,,,,,,,0-based,
-Roland,System-1 (System-1M),LFO,Lfo filter,,28,,0,127,,,,,,,Centered,
+Roland,System-1 (System-1M),LFO,Lfo filter,,28,,0,127,,,,,,,centered,
 Roland,System-1 (System-1M),LFO,Lfo rate,,29,,0,127,,,,,,,0-based,
-Roland,System-1 (System-1M),LFO,Lfo amp,,30,,0,127,,,,,,,Centered,
+Roland,System-1 (System-1M),LFO,Lfo amp,,30,,0,127,,,,,,,centered,
 Roland,System-1 (System-1M),LFO,Lfo type,,35,,0,127,,,,,,,0-based,,0: Sin; 25: Tri; 51: Saw; 76: Squ; 102: S&H; 127: Digi
 Roland,System-1 (System-1M),Oscillators,Osc1 type,,46,,0,127,,,,,,,0-based,,0: Saw; 25: Squ; 51: Tri; 76: Saw2; 102: Squ2; 127: Tri2
 Roland,System-1 (System-1M),Oscillators,Osc1 range,,47,,0,127,,,,,,,0-based,,0: 64'; 25: 32'; 51: 16'; 76: 8'; 102: 4'; 127: 2'
 Roland,System-1 (System-1M),Oscillators,Osc1 color,,50,,0,127,,,,,,,0-based,
 Roland,System-1 (System-1M),Oscillators,Osc1 cross mod,,52,,0,127,,,,,,,0-based,
 Roland,System-1 (System-1M),Oscillators,Osc2 color,,55,,0,127,,,,,,,0-based,
-Roland,System-1 (System-1M),Oscillators,Osc2 tune,,56,,0,127,,,,,,,Centered,
+Roland,System-1 (System-1M),Oscillators,Osc2 tune,,56,,0,127,,,,,,,centered,
 Roland,System-1 (System-1M),Oscillators,Osc1 mod,,60,,0,127,,,,,,,0-based,,0: Man; 25: LFO; 51: P. Env; 76: F. Env; 102: A. Env; 127: S. Osc
 Roland,System-1 (System-1M),Oscillators,Osc2 type,,61,,0,127,,,,,,,0-based,,0: Saw; 25: Squ; 51: Tri; 76: Saw2; 102: Squ2; 127: Tri2
 Roland,System-1 (System-1M),Oscillators,Osc2 range,,62,,0,127,,,,,,,0-based,,0: 64'; 25: 32'; 51: 16'; 76: 8'; 102: 4'; 127: 2'
 Roland,System-1 (System-1M),Oscillators,Osc2 mod,,63,,0,127,,,,,,,0-based,,0: Man; 25: LFO; 51: P. Env; 76: F. Env; 102: A. Env; 127: S. Osc
 Roland,System-1 (System-1M),General,Pedal hold,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
-Roland,System-1 (System-1M),General,Amp tone,,69,,0,127,,,,,,,Centered,
+Roland,System-1 (System-1M),General,Amp tone,,69,,0,127,,,,,,,centered,
 Roland,System-1 (System-1M),Filter,Hpf cutoff,,79,,0,127,,,,,,,0-based,
-Roland,System-1 (System-1M),Filter,Filter env,,81,,0,127,,,,,,,Centered,
-Roland,System-1 (System-1M),Filter,Filter key,,82,,0,127,,,,,,,Centered,
+Roland,System-1 (System-1M),Filter,Filter env,,81,,0,127,,,,,,,centered,
+Roland,System-1 (System-1M),Filter,Filter key,,82,,0,127,,,,,,,centered,
 Roland,System-1 (System-1M),Envelopes,Filter attack,,83,,0,127,,,,,,,0-based,
 Roland,System-1 (System-1M),Envelopes,Filter decay,,84,,0,127,,,,,,,0-based,
 Roland,System-1 (System-1M),Envelopes,Filter sustain,,85,,0,127,,,,,,,0-based,
