@@ -119,7 +119,7 @@ Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Decay,,,,,,,1,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Sustain,,,,,,,1,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Release,,,,,,,1,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Overdrive,,,,,,,1,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Pan,,,,,,,1,10,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Pan,,,,,,,1,10,0,127,,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Volume,,,,,,,1,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Mode,,,,,,,1,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Env Reset,,,,,,,1,49,0,1,,0-based,,0: Off; 1: On
@@ -487,6 +487,7 @@ Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Release,,,,,,,8,121,0,127,,0-b
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Reset,,,,,,,8,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Delay,,,,,,,8,123,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Depth,,,,,,,8,125,0,16383,,centered,,
+Elektron,Tonverk,Bus Track: Trig,Trig: Note,,3,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: Trig,Trig: Velocity,,4,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX: Send 1 Amount,,44,,0,127,,,,,,,0-based,,
@@ -515,6 +516,7 @@ Elektron,Tonverk,Bus Track: Mod,FX LFO 1: Depth,,113,,0,127,,,,,,,centered,,
 Elektron,Tonverk,Bus Track: Mod,FX LFO 2: Speed,,114,,0,127,,,,,,,centered,,
 Elektron,Tonverk,Bus Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,,,,,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Tonverk,Bus Track: Mod,FX LFO 2: Depth,,116,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Send Track: Trig,Trig: Note,,3,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: Trig,Trig: Velocity,,4,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: FX,FX: Routing Destination,,47,,0,2,,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 
@@ -532,6 +534,7 @@ Elektron,Tonverk,Send Track: Mod,FX LFO 1: Depth,,113,,0,127,,,,,,,centered,,
 Elektron,Tonverk,Send Track: Mod,FX LFO 2: Speed,,114,,0,127,,,,,,,centered,,
 Elektron,Tonverk,Send Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,,,,,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Tonverk,Send Track: Mod,FX LFO 2: Depth,,116,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Mix Track: Trig,Trig: Note,,3,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Trig,Trig: Velocity,,4,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Source,In A: Level,,16,,0,127,,,,,,,0-based,,
