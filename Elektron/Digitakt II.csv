@@ -5,7 +5,7 @@ Elektron,Digitakt II,Trig,Trig: Note,,3,,0,127,,3,0,0,127,,0-based,,
 Elektron,Digitakt II,Trig,Trig: Velocity,,4,,1,127,,3,1,1,127,,0-based,,
 Elektron,Digitakt II,Trig,Trig: Length,,5,,0,127,,3,2,0,127,,0-based,,6: 1/32; 14: 1/16; 30: 1/8; 38: 3.00; 46: 1/4; 62: 1/2; 78: 16.0; 94: 32.0; 110: 64.0; 127: Infinite; 0-127: Length
 Elektron,Digitakt II,Trig,Trig: Filter Trig,,13,,0,1,,,,,,,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Trig,Trig: LFO Trig,,14,,0,127,,,,,,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Trig,Trig: LFO Trig,,14,,0,1,,,,,,,0-based,,0: Off; 1: On
 Elektron,Digitakt II,Trig,Trig: Portamento Time,,9,,0,127,,3,7,0,127,,0-based,,
 Elektron,Digitakt II,Trig,Trig: Portamento On/Off,,65,,0,1,,3,8,0,1,,0-based,,0: Off; 1: On
 Elektron,Digitakt II,Source: Generic,Source: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
