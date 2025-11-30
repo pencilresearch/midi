@@ -1,13 +1,13 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Elektron,Tonverk,Track,Track: Level,,95,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Audio Track: Trig,Trig: Note,,3,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Audio Track: Trig,Trig: Velocity,,4,,0,127,,,,,,,0-based,,
+Elektron,Tonverk,Audio Track: Trig,Trig: Note,,3,,0,127,60,,,,,,0-based,,
+Elektron,Tonverk,Audio Track: Trig,Trig: Velocity,,4,,0,127,100,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Enabled,,,,,,,0,42,0,1,,0-based,,0: Off; 1: On
-Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Time,,,,,,,0,43,0,16383,,0-based,,
-Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Velocity,,,,,,,0,44,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Trig,Trig: Portamento Time,,9,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Audio Track: Trig,Trig: Portamento Enabled,,65,,0,1,,,,,,,0-based,,0: Off; 1: On
+Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Enabled,,,,,,,0,42,0,1,0,0-based,0,0: Off; 1: On
+Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Time,,,,,,,0,43,0,16383,0,0-based,,
+Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Velocity,,,,,,,0,44,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Trig,Trig: Portamento Time,,9,,0,127,63,,,,,,centered,,
+Elektron,Tonverk,Audio Track: Trig,Trig: Portamento Enabled,,65,,0,1,0,,,,,,0-based,0,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Source,Source: Parameter A,,16,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Source,Source: Parameter B,,17,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Source,Source: Parameter C,,18,,0,127,,,,,,,0-based,,
@@ -23,10 +23,10 @@ Elektron,Tonverk,Audio Track: Filter,Filter: Release,,73,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Filter,Filter: Frequency,,74,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Filter,Filter: Resonance,,75,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Filter,Filter: Type,,76,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Audio Track: Filter,Filter: Env Depth,,77,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Audio Track: Filter,Filter: Env Depth,,77,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,Audio Track: Filter,Filter: Base,,78,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Filter,Filter: Width,,79,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Audio Track: Filter,Filter: Freq Spread,,80,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Audio Track: Filter,Filter: Freq Spread,,80,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,Audio Track: Filter,Filter: Env Reset,,,,,,,0,45,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Filter,Filter: Env Delay,,,,,,,0,46,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Filter,Filter: Key Tracking,,,,,,,0,47,0,127,,0-based,,
@@ -36,7 +36,7 @@ Elektron,Tonverk,Audio Track: Amp,Amp: Decay,,85,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Amp,Amp: Sustain,,86,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Amp,Amp: Release,,87,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Amp,Amp: Overdrive,,88,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Audio Track: Amp,Amp: Pan,,10,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Audio Track: Amp,Amp: Pan,,10,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,Audio Track: Amp,Amp: Volume,,89,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Amp,Amp: Mode,,,,,,,0,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Amp,Amp: Reset,,,,,,,0,49,0,1,,0-based,,0: Off; 1: On
@@ -61,41 +61,41 @@ Elektron,Tonverk,Audio Track: FX,FX 2: Parameter F,,61,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: FX,FX 2: Parameter G,,62,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: FX,FX 2: Parameter H,,63,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Speed,,102,,0,127,,0,1,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Multiplier,,23,,0,23,,0,2,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Fade,,,,,,,0,3,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Multiplier,,23,,0,127,3,0,2,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Fade,,,,,,,0,3,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Waveform,,,,,,,0,5,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Start Phase/Smoothing,,,,,,,0,6,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Mode,,,,,,,0,7,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Depth,,104,,0,127,,0,8,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Mod,Voice LFO 1: Depth,,104,,0,127,63,0,8,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Speed,,105,,0,127,,0,9,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Multiplier,,106,,0,23,,0,10,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Fade,,,,,,,0,11,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Multiplier,,106,,0,23,3,0,10,0,23,3,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Fade,,,,,,,0,11,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Waveform,,,,,,,0,13,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Start Phase/Smoothing,,,,,,,0,14,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Mode,,,,,,,0,15,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Depth,,107,,0,127,,0,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Mod,Voice LFO 2: Depth,,107,,0,127,63,0,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Mod,Mod Env: Attack,,,,,,,0,17,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Mod Env: Decay,,,,,,,0,18,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Mod Env: Sustain,,,,,,,0,19,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,Mod Env: Release,,,,,,,0,20,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Mod,Mod Env: Reset,,,,,,,0,21,0,1,,0-based,,0: Off; 1: On
+Elektron,Tonverk,Audio Track: Mod,Mod Env: Reset,,,,,,,0,21,0,2,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Mod,Mod Env: Delay,,,,,,,0,22,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Mod,Mod Env: Depth,,110,,0,127,,0,24,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Mod,Mod Env: Depth,,110,,0,127,63,0,24,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Speed,,111,,0,127,,0,26,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Multiplier,,112,,0,23,,0,27,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Fade,,,,,,,0,28,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Multiplier,,112,,0,23,3,0,27,0,23,3,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Fade,,,,,,,0,28,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Waveform,,,,,,,0,30,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Start Phase/Smoothing,,,,,,,0,31,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Mode,,,,,,,0,32,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Depth,,113,,0,127,,0,33,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Mod,FX LFO 1: Depth,,113,,0,127,63,0,33,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Speed,,114,,0,127,,0,34,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,0,35,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Fade,,,,,,,0,36,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,0,35,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Fade,,,,,,,0,36,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Waveform,,,,,,,0,38,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Start Phase/Smoothing,,,,,,,0,39,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Mode,,,,,,,0,40,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Depth,,116,,0,127,,0,41,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 1,Source: Tune,,,,,,,1,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Mod,FX LFO 2: Depth,,116,,0,127,63,0,41,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Source: Tune,,,,,,,1,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Source: Play Mode,,,,,,,1,17,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Tonverk,Audio Track: Subtrack 1,Source: Start,,,,,,,1,20,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Source: Length,,,,,,,1,21,0,16383,,0-based,,
@@ -107,9 +107,9 @@ Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Release,,,,,,,1,73,0,127,,0-bas
 Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Frequecy,,,,,,,1,74,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Resonance,,,,,,,1,75,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Type,,,,,,,1,76,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Env Depth,,,,,,,1,77,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Env Depth,,,,,,,1,77,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Env Delay,,,,,,,1,46,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Freq Spread,,,,,,,1,80,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Freq Spread,,,,,,,1,80,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Base,,,,,,,1,78,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Width,,,,,,,1,79,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Filter: Env Reset,,,,,,,1,45,0,1,,0-based,,0: Off; 1: On
@@ -119,32 +119,32 @@ Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Decay,,,,,,,1,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Sustain,,,,,,,1,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Release,,,,,,,1,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Overdrive,,,,,,,1,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Pan,,,,,,,1,10,0,127,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Pan,,,,,,,1,10,0,127,63,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Volume,,,,,,,1,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Mode,,,,,,,1,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 1,Amp: Env Reset,,,,,,,1,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Speed,,,,,,,1,102,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Multiplier,,,,,,,1,103,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Fade,,,,,,,1,104,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Multiplier,,,,,,,1,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Fade,,,,,,,1,104,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Waveform,,,,,,,1,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Start Phase/Smoothing,,,,,,,1,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Mode,,,,,,,1,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Depth,,,,,,,1,109,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 1: Depth,,,,,,,1,109,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Speed,,,,,,,1,110,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Multiplier,,,,,,,1,111,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Fade,,,,,,,1,112,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Multiplier,,,,,,,1,111,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Fade,,,,,,,1,112,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Waveform,,,,,,,1,114,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Start Phase/Smoothing,,,,,,,1,115,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Mode,,,,,,,1,116,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Depth,,,,,,,1,117,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Voice LFO 2: Depth,,,,,,,1,117,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Mod Env: Attack,,,,,,,1,118,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Mod Env: Decay,,,,,,,1,119,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Mod Env: Sustain,,,,,,,1,120,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Mod Env: Release,,,,,,,1,121,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 1,Mod Env: Reset,,,,,,,1,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 1,Mod Env: Delay,,,,,,,1,123,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 1,Mod Env: Depth,,,,,,,1,125,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 2,Source: Tune,,,,,,,2,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 1,Mod Env: Depth,,,,,,,1,125,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Source: Tune,,,,,,,2,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Source: Play Mode,,,,,,,2,17,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Tonverk,Audio Track: Subtrack 2,Source: Start,,,,,,,2,20,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Source: Length,,,,,,,2,21,0,16383,,0-based,,
@@ -156,9 +156,9 @@ Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Release,,,,,,,2,73,0,127,,0-bas
 Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Frequecy,,,,,,,2,74,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Resonance,,,,,,,2,75,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Type,,,,,,,2,76,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Env Depth,,,,,,,2,77,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Env Depth,,,,,,,2,77,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Env Delay,,,,,,,2,46,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Freq Spread,,,,,,,2,80,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Freq Spread,,,,,,,2,80,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Base,,,,,,,2,78,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Width,,,,,,,2,79,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Filter: Env Reset,,,,,,,2,45,0,1,,0-based,,0: Off; 1: On
@@ -168,32 +168,32 @@ Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Decay,,,,,,,2,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Sustain,,,,,,,2,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Release,,,,,,,2,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Overdrive,,,,,,,2,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Pan,,,,,,,2,10,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Pan,,,,,,,2,10,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Volume,,,,,,,2,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Mode,,,,,,,2,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 2,Amp: Env Reset,,,,,,,2,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Speed,,,,,,,2,102,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Multiplier,,,,,,,2,103,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Fade,,,,,,,2,104,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Multiplier,,,,,,,2,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Fade,,,,,,,2,104,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Waveform,,,,,,,2,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Start Phase/Smoothing,,,,,,,2,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Mode,,,,,,,2,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Depth,,,,,,,2,109,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 1: Depth,,,,,,,2,109,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Speed,,,,,,,2,110,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Multiplier,,,,,,,2,111,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Fade,,,,,,,2,112,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Multiplier,,,,,,,2,111,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Fade,,,,,,,2,112,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Waveform,,,,,,,2,114,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Start Phase/Smoothing,,,,,,,2,115,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Mode,,,,,,,2,116,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Depth,,,,,,,2,117,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Voice LFO 2: Depth,,,,,,,2,117,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Mod Env: Attack,,,,,,,2,118,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Mod Env: Decay,,,,,,,2,119,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Mod Env: Sustain,,,,,,,2,120,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Mod Env: Release,,,,,,,2,121,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 2,Mod Env: Reset,,,,,,,2,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 2,Mod Env: Delay,,,,,,,2,123,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 2,Mod Env: Depth,,,,,,,2,125,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 3,Source: Tune,,,,,,,3,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 2,Mod Env: Depth,,,,,,,2,125,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Source: Tune,,,,,,,3,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Source: Play Mode,,,,,,,3,17,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Tonverk,Audio Track: Subtrack 3,Source: Start,,,,,,,3,20,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Source: Length,,,,,,,3,21,0,16383,,0-based,,
@@ -205,9 +205,9 @@ Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Release,,,,,,,3,73,0,127,,0-bas
 Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Frequecy,,,,,,,3,74,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Resonance,,,,,,,3,75,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Type,,,,,,,3,76,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Env Depth,,,,,,,3,77,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Env Depth,,,,,,,3,77,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Env Delay,,,,,,,3,46,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Freq Spread,,,,,,,3,80,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Freq Spread,,,,,,,3,80,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Base,,,,,,,3,78,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Width,,,,,,,3,79,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Filter: Env Reset,,,,,,,3,45,0,1,,0-based,,0: Off; 1: On
@@ -217,32 +217,32 @@ Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Decay,,,,,,,3,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Sustain,,,,,,,3,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Release,,,,,,,3,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Overdrive,,,,,,,3,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Pan,,,,,,,3,10,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Pan,,,,,,,3,10,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Volume,,,,,,,3,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Mode,,,,,,,3,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 3,Amp: Env Reset,,,,,,,3,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Speed,,,,,,,3,102,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Multiplier,,,,,,,3,103,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Fade,,,,,,,3,104,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Multiplier,,,,,,,3,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Fade,,,,,,,3,104,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Waveform,,,,,,,3,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Start Phase/Smoothing,,,,,,,3,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Mode,,,,,,,3,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Depth,,,,,,,3,109,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 1: Depth,,,,,,,3,109,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Speed,,,,,,,3,110,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Multiplier,,,,,,,3,111,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Fade,,,,,,,3,112,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Multiplier,,,,,,,3,111,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Fade,,,,,,,3,112,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Waveform,,,,,,,3,114,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Start Phase/Smoothing,,,,,,,3,115,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Mode,,,,,,,3,116,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Depth,,,,,,,3,117,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Voice LFO 2: Depth,,,,,,,3,117,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Mod Env: Attack,,,,,,,3,118,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Mod Env: Decay,,,,,,,3,119,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Mod Env: Sustain,,,,,,,3,120,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Mod Env: Release,,,,,,,3,121,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 3,Mod Env: Reset,,,,,,,3,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 3,Mod Env: Delay,,,,,,,3,123,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 3,Mod Env: Depth,,,,,,,3,125,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 4,Source: Tune,,,,,,,4,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 3,Mod Env: Depth,,,,,,,3,125,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Source: Tune,,,,,,,4,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Source: Play Mode,,,,,,,4,17,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Tonverk,Audio Track: Subtrack 4,Source: Start,,,,,,,4,20,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Source: Length,,,,,,,4,21,0,16383,,0-based,,
@@ -254,9 +254,9 @@ Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Release,,,,,,,4,73,0,127,,0-bas
 Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Frequecy,,,,,,,4,74,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Resonance,,,,,,,4,75,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Type,,,,,,,4,76,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Env Depth,,,,,,,4,77,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Env Depth,,,,,,,4,77,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Env Delay,,,,,,,4,46,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Freq Spread,,,,,,,4,80,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Freq Spread,,,,,,,4,80,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Base,,,,,,,4,78,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Width,,,,,,,4,79,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Filter: Env Reset,,,,,,,4,45,0,1,,0-based,,0: Off; 1: On
@@ -266,32 +266,32 @@ Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Decay,,,,,,,4,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Sustain,,,,,,,4,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Release,,,,,,,4,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Overdrive,,,,,,,4,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Pan,,,,,,,4,10,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Pan,,,,,,,4,10,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Volume,,,,,,,4,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Mode,,,,,,,4,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Env Reset,,,,,,,4,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Speed,,,,,,,4,102,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Multiplier,,,,,,,4,103,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Fade,,,,,,,4,104,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Multiplier,,,,,,,4,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Fade,,,,,,,4,104,0,128,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Waveform,,,,,,,4,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Start Phase/Smoothing,,,,,,,4,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Mode,,,,,,,4,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Depth,,,,,,,4,109,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Depth,,,,,,,4,109,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Speed,,,,,,,4,110,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Multiplier,,,,,,,4,111,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Fade,,,,,,,4,112,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Multiplier,,,,,,,4,111,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Fade,,,,,,,4,112,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Waveform,,,,,,,4,114,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Start Phase/Smoothing,,,,,,,4,115,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Mode,,,,,,,4,116,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Depth,,,,,,,4,117,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 2: Depth,,,,,,,4,117,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Mod Env: Attack,,,,,,,4,118,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Mod Env: Decay,,,,,,,4,119,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Mod Env: Sustain,,,,,,,4,120,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Mod Env: Release,,,,,,,4,121,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Mod Env: Reset,,,,,,,4,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 4,Mod Env: Delay,,,,,,,4,123,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 4,Mod Env: Depth,,,,,,,4,125,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 5,Source: Tune,,,,,,,5,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Mod Env: Depth,,,,,,,4,125,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Source: Tune,,,,,,,5,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Source: Play Mode,,,,,,,5,17,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Tonverk,Audio Track: Subtrack 5,Source: Start,,,,,,,5,20,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Source: Length,,,,,,,5,21,0,16383,,0-based,,
@@ -303,9 +303,9 @@ Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Release,,,,,,,5,73,0,127,,0-bas
 Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Frequecy,,,,,,,5,74,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Resonance,,,,,,,5,75,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Type,,,,,,,5,76,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Env Depth,,,,,,,5,77,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Env Depth,,,,,,,5,77,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Env Delay,,,,,,,5,46,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Freq Spread,,,,,,,5,80,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Freq Spread,,,,,,,5,80,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Base,,,,,,,5,78,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Width,,,,,,,5,79,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Filter: Env Reset,,,,,,,5,45,0,1,,0-based,,0: Off; 1: On
@@ -315,32 +315,32 @@ Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Decay,,,,,,,5,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Sustain,,,,,,,5,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Release,,,,,,,5,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Overdrive,,,,,,,5,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Pan,,,,,,,5,10,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Pan,,,,,,,5,10,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Volume,,,,,,,5,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Mode,,,,,,,5,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 5,Amp: Env Reset,,,,,,,5,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Speed,,,,,,,5,102,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Multiplier,,,,,,,5,103,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Fade,,,,,,,5,104,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Multiplier,,,,,,,5,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Fade,,,,,,,5,104,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Waveform,,,,,,,5,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Start Phase/Smoothing,,,,,,,5,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Mode,,,,,,,5,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Depth,,,,,,,5,109,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 1: Depth,,,,,,,5,109,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Speed,,,,,,,5,110,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Multiplier,,,,,,,5,111,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Fade,,,,,,,5,112,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Multiplier,,,,,,,5,111,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Fade,,,,,,,5,112,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Waveform,,,,,,,5,114,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Start Phase/Smoothing,,,,,,,5,115,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Mode,,,,,,,5,116,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Depth,,,,,,,5,117,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Voice LFO 2: Depth,,,,,,,5,117,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Mod Env: Attack,,,,,,,5,118,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Mod Env: Decay,,,,,,,5,119,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Mod Env: Sustain,,,,,,,5,120,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Mod Env: Release,,,,,,,5,121,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 5,Mod Env: Reset,,,,,,,5,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 5,Mod Env: Delay,,,,,,,5,123,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 5,Mod Env: Depth,,,,,,,5,125,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 6,Source: Tune,,,,,,,6,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 5,Mod Env: Depth,,,,,,,5,125,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Source: Tune,,,,,,,6,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Source: Play Mode,,,,,,,6,17,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Tonverk,Audio Track: Subtrack 6,Source: Start,,,,,,,6,20,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Source: Length,,,,,,,6,21,0,16383,,0-based,,
@@ -352,9 +352,9 @@ Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Release,,,,,,,6,73,0,127,,0-bas
 Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Frequecy,,,,,,,6,74,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Resonance,,,,,,,6,75,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Type,,,,,,,6,76,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Env Depth,,,,,,,6,77,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Env Depth,,,,,,,6,77,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Env Delay,,,,,,,6,46,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Freq Spread,,,,,,,6,80,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Freq Spread,,,,,,,6,80,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Base,,,,,,,6,78,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Width,,,,,,,6,79,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Filter: Env Reset,,,,,,,6,45,0,1,,0-based,,0: Off; 1: On
@@ -364,32 +364,32 @@ Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Decay,,,,,,,6,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Sustain,,,,,,,6,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Release,,,,,,,6,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Overdrive,,,,,,,6,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Pan,,,,,,,6,10,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Pan,,,,,,,6,10,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Volume,,,,,,,6,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Mode,,,,,,,6,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 6,Amp: Env Reset,,,,,,,6,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Speed,,,,,,,6,102,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Multiplier,,,,,,,6,103,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Fade,,,,,,,6,104,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Multiplier,,,,,,,6,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Fade,,,,,,,6,104,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Waveform,,,,,,,6,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Start Phase/Smoothing,,,,,,,6,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Mode,,,,,,,6,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Depth,,,,,,,6,109,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 1: Depth,,,,,,,6,109,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Speed,,,,,,,6,110,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Multiplier,,,,,,,6,111,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Fade,,,,,,,6,112,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Multiplier,,,,,,,6,111,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Fade,,,,,,,6,112,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Waveform,,,,,,,6,114,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Start Phase/Smoothing,,,,,,,6,115,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Mode,,,,,,,6,116,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Depth,,,,,,,6,117,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Voice LFO 2: Depth,,,,,,,6,117,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Mod Env: Attack,,,,,,,6,118,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Mod Env: Decay,,,,,,,6,119,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Mod Env: Sustain,,,,,,,6,120,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Mod Env: Release,,,,,,,6,121,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 6,Mod Env: Reset,,,,,,,6,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 6,Mod Env: Delay,,,,,,,6,123,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 6,Mod Env: Depth,,,,,,,6,125,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 7,Source: Tune,,,,,,,7,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 6,Mod Env: Depth,,,,,,,6,125,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Source: Tune,,,,,,,7,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Source: Play Mode,,,,,,,7,17,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Tonverk,Audio Track: Subtrack 7,Source: Start,,,,,,,7,20,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Source: Length,,,,,,,7,21,0,16383,,0-based,,
@@ -401,9 +401,9 @@ Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Release,,,,,,,7,73,0,127,,0-bas
 Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Frequecy,,,,,,,7,74,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Resonance,,,,,,,7,75,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Type,,,,,,,7,76,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Env Depth,,,,,,,7,77,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Env Depth,,,,,,,7,77,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Env Delay,,,,,,,7,46,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Freq Spread,,,,,,,7,80,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Freq Spread,,,,,,,7,80,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Base,,,,,,,7,78,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Width,,,,,,,7,79,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Filter: Env Reset,,,,,,,7,45,0,1,,0-based,,0: Off; 1: On
@@ -413,32 +413,32 @@ Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Decay,,,,,,,7,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Sustain,,,,,,,7,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Release,,,,,,,7,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Overdrive,,,,,,,7,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Pan,,,,,,,7,10,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Pan,,,,,,,7,10,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Volume,,,,,,,7,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Mode,,,,,,,7,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 7,Amp: Env Reset,,,,,,,7,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Speed,,,,,,,7,102,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Multiplier,,,,,,,7,103,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Fade,,,,,,,7,104,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Multiplier,,,,,,,7,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Fade,,,,,,,7,104,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Waveform,,,,,,,7,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Start Phase/Smoothing,,,,,,,7,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Mode,,,,,,,7,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Depth,,,,,,,7,109,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 1: Depth,,,,,,,7,109,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Speed,,,,,,,7,110,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Multiplier,,,,,,,7,111,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Fade,,,,,,,7,112,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Multiplier,,,,,,,7,111,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Fade,,,,,,,7,112,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Waveform,,,,,,,7,114,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Start Phase/Smoothing,,,,,,,7,115,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Mode,,,,,,,7,116,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Depth,,,,,,,7,117,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Voice LFO 2: Depth,,,,,,,7,117,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Mod Env: Attack,,,,,,,7,118,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Mod Env: Decay,,,,,,,7,119,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Mod Env: Sustain,,,,,,,7,120,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Mod Env: Release,,,,,,,7,121,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 7,Mod Env: Reset,,,,,,,7,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 7,Mod Env: Delay,,,,,,,7,123,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 7,Mod Env: Depth,,,,,,,7,125,0,16383,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 8,Source: Tune,,,,,,,8,16,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 7,Mod Env: Depth,,,,,,,7,125,0,16383,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Source: Tune,,,,,,,8,16,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Source: Play Mode,,,,,,,8,17,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Tonverk,Audio Track: Subtrack 8,Source: Start,,,,,,,8,20,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Source: Length,,,,,,,8,21,0,16383,,0-based,,
@@ -450,9 +450,9 @@ Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Release,,,,,,,8,73,0,127,,0-bas
 Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Frequecy,,,,,,,8,74,0,16383,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Resonance,,,,,,,8,75,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Type,,,,,,,8,76,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Env Depth,,,,,,,8,77,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Env Depth,,,,,,,8,77,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Env Delay,,,,,,,8,46,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Freq Spread,,,,,,,8,80,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Freq Spread,,,,,,,8,80,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Base,,,,,,,8,78,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Width,,,,,,,8,79,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Filter: Env Reset,,,,,,,8,45,0,1,,0-based,,0: Off; 1: On
@@ -462,38 +462,38 @@ Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Decay,,,,,,,8,85,0,127,,0-based,,1
 Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Sustain,,,,,,,8,86,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Release,,,,,,,8,87,0,127,,0-based,,127: Infinite
 Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Overdrive,,,,,,,8,88,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Pan,,,,,,,8,10,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Pan,,,,,,,8,10,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Volume,,,,,,,8,89,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Mode,,,,,,,8,48,0,1,,0-based,,0: AHD; 1: ADSR
 Elektron,Tonverk,Audio Track: Subtrack 8,Amp: Env Reset,,,,,,,8,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Speed,,,,,,,8,102,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Multiplier,,,,,,,8,103,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Fade,,,,,,,8,104,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Multiplier,,,,,,,8,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Fade,,,,,,,8,104,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Waveform,,,,,,,8,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Start Phase/Smoothing,,,,,,,8,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Mode,,,,,,,8,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Depth,,,,,,,8,109,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 1: Depth,,,,,,,8,109,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Speed,,,,,,,8,110,0,128,,centered,,
-Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Multiplier,,,,,,,8,111,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Fade,,,,,,,8,112,0,128,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Multiplier,,,,,,,8,111,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Fade,,,,,,,8,112,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Waveform,,,,,,,8,114,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Start Phase/Smoothing,,,,,,,8,115,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Mode,,,,,,,8,116,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
-Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Depth,,,,,,,8,117,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Voice LFO 2: Depth,,,,,,,8,117,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Attack,,,,,,,8,118,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Decay,,,,,,,8,119,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Sustain,,,,,,,8,120,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Release,,,,,,,8,121,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Reset,,,,,,,8,122,0,1,,0-based,,0: On; 1: Off
 Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Delay,,,,,,,8,123,0,127,,0-based,,
-Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Depth,,,,,,,8,125,0,16383,,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 8,Mod Env: Depth,,,,,,,8,125,0,16383,8191,centered,,
 Elektron,Tonverk,Bus Track: Trig,Trig: Note,,3,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: Trig,Trig: Velocity,,4,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX: Send 1 Amount,,44,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX: Send 2 Amount,,45,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX: Send 3 Amount,,46,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Bus Track: FX,FX: Routing Destination,,47,,0,2,,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF
+Elektron,Tonverk,Bus Track: FX,FX: Routing Destination,,47,,0,2,,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 
 Elektron,Tonverk,Bus Track: FX,FX 1: Parameter A,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX 1: Parameter B,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX 1: Parameter C,,50,,0,127,,,,,,,0-based,,
@@ -511,15 +511,15 @@ Elektron,Tonverk,Bus Track: FX,FX 2: Parameter F,,61,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX 2: Parameter G,,62,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX 2: Parameter H,,63,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: Mod,FX LFO 1: Speed,,111,,0,127,,,,,,,centered,,
-Elektron,Tonverk,Bus Track: Mod,FX LFO 1: Multiplier,,112,,0,23,,,,,,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Bus Track: Mod,FX LFO 1: Depth,,113,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Bus Track: Mod,FX LFO 1: Multiplier,,112,,0,23,,,,,,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Bus Track: Mod,FX LFO 1: Depth,,113,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,Bus Track: Mod,FX LFO 2: Speed,,114,,0,127,,,,,,,centered,,
-Elektron,Tonverk,Bus Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,,,,,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Bus Track: Mod,FX LFO 2: Depth,,116,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Bus Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,,,,,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Bus Track: Mod,FX LFO 2: Depth,,116,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,Send Track: Trig,Trig: Note,,3,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: Trig,Trig: Velocity,,4,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Send Track: FX,FX: Routing Destination,,47,,0,2,,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF
+Elektron,Tonverk,Send Track: FX,FX: Routing Destination,,47,,0,2,,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 
 Elektron,Tonverk,Send Track: FX,FX 1: Parameter A,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: FX,FX 1: Parameter B,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: FX,FX 1: Parameter C,,50,,0,127,,,,,,,0-based,,
@@ -529,20 +529,20 @@ Elektron,Tonverk,Send Track: FX,FX 1: Parameter F,,53,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: FX,FX 1: Parameter G,,54,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: FX,FX 1: Parameter H,,55,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: Mod,FX LFO 1: Speed,,111,,0,127,,,,,,,centered,,
-Elektron,Tonverk,Send Track: Mod,FX LFO 1: Multiplier,,112,,0,23,,,,,,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Send Track: Mod,FX LFO 1: Depth,,113,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Send Track: Mod,FX LFO 1: Multiplier,,112,,0,23,,,,,,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Send Track: Mod,FX LFO 1: Depth,,113,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,Send Track: Mod,FX LFO 2: Speed,,114,,0,127,,,,,,,centered,,
-Elektron,Tonverk,Send Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,,,,,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Send Track: Mod,FX LFO 2: Depth,,116,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Send Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,,,,,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Send Track: Mod,FX LFO 2: Depth,,116,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,Mix Track: Trig,Trig: Note,,3,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Trig,Trig: Velocity,,4,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Source,In A: Level,,16,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Mix Track: Source,In A: Pan,,17,,0,127,,,,,,,centered,,
-Elektron,Tonverk,Mix Track: Source,In A: Routing Destination,,18,,0,15,,,,,,,0-based,,0: Mix AB; 1: Out AB; 2: Out CD; 3: Out EF; 4: Bus 1; 5: Bus 2; 6: Bus 3; 7: Bus 4; 8: Track 1; 9: Track 2; 10: Track 3; 11: Track 4; 12: Track 5; 13: Track 6; 14: Track 7; 15: Track 8
+Elektron,Tonverk,Mix Track: Source,In A: Pan,,17,,0,127,0,,,,,,centered,,
+Elektron,Tonverk,Mix Track: Source,In A: Routing Destination,,18,,0,15,0,,,,,,0-based,,0: Mix AB; 1: Out AB; 2: Out CD; 3: Out EF; 4: Bus 1; 5: Bus 2; 6: Bus 3; 7: Bus 4; 8: Track 1; 9: Track 2; 10: Track 3; 11: Track 4; 12: Track 5; 13: Track 6; 14: Track 7; 15: Track 8
 Elektron,Tonverk,Mix Track: Source,In B: Level,,20,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Mix Track: Source,In B: Pan,,21,,0,127,,,,,,,centered,,
-Elektron,Tonverk,Mix Track: Source,In B: Routing Destination,,22,,0,15,,,,,,,0-based,,0: Mix AB; 1: Out AB; 2: Out CD; 3: Out EF; 4: Bus 1; 5: Bus 2; 6: Bus 3; 7: Bus 4; 8: Track 1; 9: Track 2; 10: Track 3; 11: Track 4; 12: Track 5; 13: Track 6; 14: Track 7; 15: Track 8
+Elektron,Tonverk,Mix Track: Source,In B: Pan,,21,,0,127,127,,,,,,centered,,
+Elektron,Tonverk,Mix Track: Source,In B: Routing Destination,,22,,0,15,0,,,,,,0-based,,0: Mix AB; 1: Out AB; 2: Out CD; 3: Out EF; 4: Bus 1; 5: Bus 2; 6: Bus 3; 7: Bus 4; 8: Track 1; 9: Track 2; 10: Track 3; 11: Track 4; 12: Track 5; 13: Track 6; 14: Track 7; 15: Track 8
 Elektron,Tonverk,Mix Track: Levels,Track: 1 Level,,70,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Levels,Track: 2 Level,,71,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Levels,Track: 3 Level,,72,,0,127,,,,,,,0-based,,
@@ -567,11 +567,11 @@ Elektron,Tonverk,Mix Track: FX,FX 1: Parameter F,,53,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: FX,FX 1: Parameter G,,54,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: FX,FX 1: Parameter H,,55,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Mix Track: Mod,FX LFO 1: Speed,,111,,0,127,,,,,,,centered,,
-Elektron,Tonverk,Mix Track: Mod,FX LFO 1: Multiplier,,112,,0,23,,,,,,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Mix Track: Mod,FX LFO 1: Depth,,113,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Mix Track: Mod,FX LFO 1: Multiplier,,112,,0,23,,,,,,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Mix Track: Mod,FX LFO 1: Depth,,113,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,Mix Track: Mod,FX LFO 2: Speed,,114,,0,127,,,,,,,centered,,
-Elektron,Tonverk,Mix Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,,,,,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Mix Track: Mod,FX LFO 2: Depth,,116,,0,127,,,,,,,centered,,
+Elektron,Tonverk,Mix Track: Mod,FX LFO 2: Multiplier,,115,,0,23,,,,,,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Tonverk,Mix Track: Mod,FX LFO 2: Depth,,116,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Chrono Pitch,FX 1: Tune,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Chrono Pitch,FX 1: Window,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Chrono Pitch,FX 1: Feedback,,50,,0,127,,,,,,,0-based,,
@@ -609,29 +609,29 @@ Elektron,Tonverk,FX: Compressor,FX 1: Attack Time,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Compressor,FX 1: Release Time,,50,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Compressor,FX 1: Makeup Gain,,51,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Compressor,FX 1: Ratio,,52,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Compressor,FX 1: Sidechain Filter,,54,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Compressor,FX 1: Sidechain Filter,,54,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Compressor,FX 1: Mix,,55,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Compressor,FX 2: Threshold,,56,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Compressor,FX 2: Attack Time,,57,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Compressor,FX 2: Release Time,,58,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Compressor,FX 2: Makeup Gain,,59,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Compressor,FX 2: Ratio,,60,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Compressor,FX 2: Sidechain Filter,,62,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Compressor,FX 2: Sidechain Filter,,62,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Compressor,FX 2: Mix,,63,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Daisy Delay,FX 1: Drive,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Daisy Delay,FX 1: Delay Time Division,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Daisy Delay,FX 1: Feedback,,50,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Daisy Delay,FX 1: Width,,51,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Daisy Delay,FX 1: Width,,51,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Daisy Delay,FX 1: Modulation,,52,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Daisy Delay,FX 1: Skew,,53,,0,127,,,,,,,centered,,
-Elektron,Tonverk,FX: Daisy Delay,FX 1: Filter,,54,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Daisy Delay,FX 1: Skew,,53,,0,127,63,,,,,,centered,,
+Elektron,Tonverk,FX: Daisy Delay,FX 1: Filter,,54,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Daisy Delay,FX 2: Drive,,56,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Daisy Delay,FX 2: Delay Time Division,,57,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Daisy Delay,FX 2: Feedback,,58,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Daisy Delay,FX 2: Width,,59,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Daisy Delay,FX 2: Width,,59,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Daisy Delay,FX 2: Modulation,,60,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Daisy Delay,FX 2: Skew,,61,,0,127,,,,,,,centered,,
-Elektron,Tonverk,FX: Daisy Delay,FX 2: Filter,,62,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Daisy Delay,FX 2: Skew,,61,,0,127,63,,,,,,centered,,
+Elektron,Tonverk,FX: Daisy Delay,FX 2: Filter,,62,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Degrader,FX 1: Bit Reduction,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Degrader,FX 1: Overdrive,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Degrader,FX 1: Sample Rate Redux,,50,,0,127,,,,,,,0-based,,
@@ -727,7 +727,7 @@ Elektron,Tonverk,FX: Multimode Filter,FX 1: Envelope Release Time,,51,,0,127,,,,
 Elektron,Tonverk,FX: Multimode Filter,FX 1: Cutoff Frequency,,52,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Multimode Filter,FX 1: Resonance,,53,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Multimode Filter,FX 1: Type,,54,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Multimode Filter,FX 1: Envelope Depth,,55,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Multimode Filter,FX 1: Envelope Depth,,55,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Multimode Filter,FX 2: Envelope Attack Time,,56,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Multimode Filter,FX 2: Envelope Decay Time,,57,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Multimode Filter,FX 2: Envelope Sustain Level,,58,,0,127,,,,,,,0-based,,
@@ -735,7 +735,7 @@ Elektron,Tonverk,FX: Multimode Filter,FX 2: Envelope Release Time,,59,,0,127,,,,
 Elektron,Tonverk,FX: Multimode Filter,FX 2: Cutoff Frequency,,60,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Multimode Filter,FX 2: Resonance,,61,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Multimode Filter,FX 2: Type,,62,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Multimode Filter,FX 2: Envelope Depth,,63,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Multimode Filter,FX 2: Envelope Depth,,63,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Panoramic Chorus,FX 1: Depth,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Panoramic Chorus,FX 1: Speed,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Panoramic Chorus,FX 1: High-pass,,50,,0,127,,,,,,,0-based,,
@@ -776,13 +776,13 @@ Elektron,Tonverk,FX: Rumsklang Reverb,FX 2: Lowcut,,60,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Rumsklang Reverb,FX 2: Highcut,,61,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Delay Time,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Ping Pong,,49,,0,1,,,,,,,0-based,,0: Off; 1: On
-Elektron,Tonverk,FX: Saturator Delay,FX 1: Stereo Width,,50,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Saturator Delay,FX 1: Stereo Width,,50,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback Gain,,51,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback HPF,,52,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback LPF,,53,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 2: Delay Time,,56,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Saturator Delay,FX 2: Ping Pong,,57,,0,1,,,,,,,0-based,,0: Off; 1: On
-Elektron,Tonverk,FX: Saturator Delay,FX 2: Stereo Width,,58,,0,127,,,,,,,centered,,
+Elektron,Tonverk,FX: Saturator Delay,FX 2: Ping Pong,,57,,0,127,,,,,,,0-based,,0: Off; 1: On
+Elektron,Tonverk,FX: Saturator Delay,FX 2: Stereo Width,,58,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Saturator Delay,FX 2: Feedback Gain,,59,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 2: Feedback HPF,,60,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 2: Feedback LPF,,61,,0,127,,,,,,,0-based,,
