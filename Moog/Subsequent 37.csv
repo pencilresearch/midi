@@ -63,8 +63,7 @@ Moog,Subsequent 37,Levels,Noise level,,117,,0,127,,,,,,,0-based,,
 Moog,Subsequent 37,Levels,Feedback ext/level,,118,,0,127,,,,,,,0-based,,
 Moog,Subsequent 37,Other,KB transpose,,119,,0,127,,,,,,,centered,-12 to +13 semitones,
 Moog,Subsequent 37,Other,Local control on/off,,122,,0,127,,,,,,,0-based,,0: Off; 127: On
-Moog,Subsequent 37,Other,Bank select (MSB),,0,,0,0,,,,,,,0-based,0 is the only valid value,
-Moog,Subsequent 37,Other,Bank select (LSB),,,32,0,2,,,,,,,0-based,,0: Preset banks 1-8; 2: preset banks 9-16
+Moog,Subsequent 37,Other,Bank select,,0,32,0,2,,,,,,,0-based,,0: Preset banks 1-8; 2: preset banks 9-16
 Moog,Subsequent 37,Other,Mod wheel,,1,33,0,127,,,,,,,0-based,,
 Moog,Subsequent 37,Other,MIDI breath control (reserved),,2,34,0,127,,,,,,,0-based,,
 Moog,Subsequent 37,Other,Mod 1 pitch amount,,4,36,0,127,,,,,,,0-based,,
