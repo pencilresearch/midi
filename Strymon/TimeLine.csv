@@ -28,7 +28,8 @@ Strymon,TimeLine,Trem,Speed Ratio,Trem LFO speed vs delay time,61,,0,34,,,,,,,0-
 Strymon,TimeLine,Trem,Depth,Trem LFO depth,57,,0,18,,,,,,,0-based,,0~18: Depth amount
 Strymon,TimeLine,Trem,LFO Shape,Waveform for tremolo,29,,0,4,,,,,,,0-based,,0: Triangle; 1: Square; 2: Sine; 3: Ramp; 4: Saw
 Strymon,TimeLine,Filter,Q (Resonance),Filter resonance,40,,0,11,,,,,,,0-based,,0~11: Q amount
-Strymon,TimeLine,Filter,LFO Shape,Waveform / polarity for filter sweep,28,,0,10,,,,,,,0-based,,0-10: Select LFO (+Triangle; -Triangle; -Square; +Square; -Sine; +Sine; Ramp; Down; Up; Saw; Random)
+Strymon,TimeLine,Filter,LFO Shape,Waveform / polarity for filter sweep,28,,0,10,,,,,,,0-based,,"0: +Triangle; 1: -Triangle; 2: -Square; 3: +Square; 4: -Sine, 5: +Sine; 6: Ramp; 7: Down; 8: Up; 9: Saw; 10: Random
+"
 Strymon,TimeLine,Filter,Depth,Filter sweep depth,41,,0,18,,,,,,,0-based,,0~18: Depth amount
 Strymon,TimeLine,Filter,Speed Ratio,Filter LFO speed vs delay time,42,,0,34,,,,,,,0-based,,0-34: Speed ratio (1/32 to 32/1)
 Strymon,TimeLine,Filter,Location,Filter pre/post delay,43,,0,1,,,,,,,0-based,,0: Pre; 1: Post
@@ -37,7 +38,7 @@ Strymon,TimeLine,Lo-Fi,Vinyl,dVinyl dust/scratch amount,52,,0,18,,,,,,,0-based,,
 Strymon,TimeLine,Lo-Fi,Sample Rate,Delay line sample rate,49,,0,20,,,,,,,0-based,,0~20: 96 kHz to 750 Hz
 Strymon,TimeLine,Lo-Fi,Bit Depth,Quantization bits,50,,0,20,,,,,,,0-based,,0~20: 32-bit to 4-bit
 Strymon,TimeLine,Lo-Fi,Filter Shape,Phone/amp filter models,53,,0,8,,,,,,,0-based,,0: Off; 1: Portable Vintage Amp; 2: Victrola Phonograph; 3: 70s Clock Radio; 4: Bullhorn Megaphone; 5: Cheerleader's Plastic Megaphone; 6: Antique Telephone Earpiece; 7: Cell Phone; 8: Apartment Intercom
-Strymon,TimeLine,Ice,Interval,Pitch interval (-1 to +2 oct),30,,0,29,,,,,,,0-based,,0-29: Select interval (-Oct; -Maj7; -min7; -Maj6; -min6; -P5; -min3; -Maj2; +Maj2; +min3; +Maj3; +P4; +Tritone; +min7; +Maj7; +Oct; +Oct+5th; +2 Oct; -Tritone; -P4; -Maj3; -min2; -50c; -25c; +25c; +50c; +min2; +P5; +min6; +Maj6)
+Strymon,TimeLine,Ice,Interval,Pitch interval (-1 to +2 oct),30,,0,29,,,,,,,0-based,,0: -Oct; 1: -Maj7; 2: -min7; 3: -Maj6; 4: -min6; 5: -P5; 6: -min3; 7: -Maj2; 8: +Maj2; 9: +min3; 10: +Maj3; 11: +P4; 12: +Tritone; 13: +min7; 14: +Maj7; 15: +Oct; 16: +Oct+5th; 17: +2 Oct; 18: -Tritone; 19: -P4; 20: -Maj3; 21: -min2; 22: -50c; 23: -25c; 24: +25c; 25: +50c; 26: +min2; 27: +P5; 28: +min6; 29: +Maj6
 Strymon,TimeLine,Ice,Slice,Slice size (scales with delay time),46,,0,2,,,,,,,0-based,,0: Short; 1: Medium; 2: Long
 Strymon,TimeLine,Ice,Blend,Blend between Dry/Ice on delay line,25,,0,20,,,,,,,0-based,,0~20: Blend amount
 Strymon,TimeLine,Duck,Sensitivity,Ducking sensitivity,37,,0,17,,,,,,,0-based,,0~17: Sensitivity

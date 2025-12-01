@@ -74,7 +74,7 @@ Novation,Circuit,LFO,lfo 2 one shot,sysex patch address: 99,,,,,,0,122,22,23,,0-
 Novation,Circuit,LFO,lfo 2 key sync,sysex patch address: 99,,,,,,0,122,24,25,,0-based,,24: Off; 25: On
 Novation,Circuit,LFO,lfo 2 common sync,sysex patch address: 99,,,,,,0,122,26,27,,0-based,,26: Off; 27: On
 Novation,Circuit,LFO,lfo 2 delay trigger,sysex patch address: 99,,,,,,0,122,28,29,,0-based,,28: Off; 29: On
-Novation,Circuit,LFO,lfo 2 fade mode,sysex patch address: 99,,,,,,0,123,4,7,,0-based,,0: Fade in; 1: Fade out; 2: Gate in; 3: Gate out
+Novation,Circuit,LFO,lfo 2 fade mode,sysex patch address: 99,,,,,,0,123,4,7,,0-based,,4: Fade in; 5: Fade out; 6: Gate in; 7: Gate out
 Novation,Circuit,Effects and EQ,distortion level,sysex patch address: 100,91,,0,127,,,,,,,0-based,,
 Novation,Circuit,Effects and EQ,chorus level,sysex patch address: 102,93,,0,127,,,,,,,0-based,,
 Novation,Circuit,Effects and EQ,EQ bass frequency,sysex patch address: 105,,,,,,0,104,0,127,,0-based,,

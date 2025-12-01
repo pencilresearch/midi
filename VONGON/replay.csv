@@ -22,7 +22,7 @@ VONGON,replay,Filter,Filter keyboard tracking,,81,,0,127,,,,,,,0-based,,0~127: F
 VONGON,replay,Filter,Filter envelope polarity,,44,,0,1,,,,,,,0-based,,0: Normal; 1: Inverted
 VONGON,replay,General,Main volume,,104,,0,127,,,,,,,0-based,,0~127: Main volume
 VONGON,replay,General,Poly mode,,40,,0,2,,,,,,,0-based,,0: Poly 1; 1: Poly 2; 2: Mono
-VONGON,replay,General,MIDI clock mode,,56,,0,1,,,,,,,0-based,,0: Enabled (MIDI clock affects arp rate); 2: Disabled (arp rate is normal)
+VONGON,replay,General,MIDI clock mode,,56,,0,1,,,,,,,0-based,,0: Enabled (MIDI clock affects arp rate); 1: Disabled (arp rate is normal)
 VONGON,replay,General,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 VONGON,replay,LFO,LFO rate,,85,,0,127,,,,,,,0-based,,0~127: LFO rate
 VONGON,replay,LFO,LFO delay,,88,,0,127,,,,,,,0-based,,0~127: LFO delay
