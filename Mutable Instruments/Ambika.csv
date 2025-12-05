@@ -1,0 +1,62 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Mutable Instruments,Ambika,Performance,Mod wheel,Modulation wheel for real-time control,1,,0,127,,,,,,,0-based,,0~127: Modulation amount
+Mutable Instruments,Ambika,Performance,Breath,Breath controller input,2,,0,127,,,,,,,0-based,,0~127: Breath amount
+Mutable Instruments,Ambika,Performance,Foot controller,Foot controller input,4,,0,127,,,,,,,0-based,,0-127: Foot controller amount
+Mutable Instruments,Ambika,Performance,Portamento,Portamento/glide time,5,,0,127,,,,,,,0-based,,0~127: Off to slowest glide
+Mutable Instruments,Ambika,Performance,Volume,Main output volume,7,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Performance,Hold,Sustain pedal / hold notes,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Mutable Instruments,Ambika,Performance,Legato,Legato mode on/off,68,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Mutable Instruments,Ambika,Oscillator 1,Osc 1 range,Oscillator 1 octave range,14,,0,127,,,,,,,0-based,,0~127: -24 to +24 semitones
+Mutable Instruments,Ambika,Oscillator 1,Osc 1 tune,Oscillator 1 fine tuning,15,,0,127,,,,,,,centered,,0~127: -1 to +1 semitone
+Mutable Instruments,Ambika,Oscillator 1,Osc 1 waveform,Oscillator 1 waveform select,16,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Oscillator 1,Osc 1 parameter,Oscillator 1 waveform parameter,17,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Oscillator 2,Osc 2 waveform,Oscillator 2 waveform select,18,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Oscillator 2,Osc 2 parameter,Oscillator 2 waveform parameter,19,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Oscillator 2,Osc 2 range,Oscillator 2 octave range,20,,0,127,,,,,,,0-based,,0~127: -24 to +24 semitones
+Mutable Instruments,Ambika,Oscillator 2,Osc 2 tune,Oscillator 2 fine tuning,21,,0,127,,,,,,,centered,,0~127: -1 to +1 semitone
+Mutable Instruments,Ambika,Mixer,Oscillator mix,Balance between Osc 1 and Osc 2,22,,0,127,,,,,,,centered,,0~127: Osc1...equal...osc2
+Mutable Instruments,Ambika,Mixer,Sub osc waveform,Sub oscillator waveform,25,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Mixer,Sub osc level,Sub oscillator volume,26,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Mixer,Noise level,Noise generator volume,27,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Mixer,Spread,Voice stereo spread,95,,0,127,,,,,,,0-based,,0~127: Mono to wide stereo
+Mutable Instruments,Ambika,Modulation,Cross mod type,Cross modulation type,23,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Modulation,Cross mod amount,Cross modulation depth,24,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Filter,Filter mode,VCF filter mode,28,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Filter,Filter frequency,VCF cutoff frequency,74,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Filter,Filter resonance,VCF resonance amount,71,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Filter,Velocity to VCF,Velocity modulation to filter,108,,0,127,,,,,,,centered,,0~127: Negative...none...positive
+Mutable Instruments,Ambika,Filter,Keyboard to VCF,Keyboard tracking to filter,109,,0,127,,,,,,,centered,,0~127: Negative...none...positive
+Mutable Instruments,Ambika,Filter,Env 2 to VCF,Envelope 2 modulation to filter,3,,0,127,,,,,,,centered,,0~127: Negative...none...positive
+Mutable Instruments,Ambika,Filter,LFO to VCF,LFO modulation to filter cutoff,9,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,LFO 1,LFO 1 sync,LFO 1 tempo sync on/off,44,,0,127,,,,,,,0-based,,0-63: Free; 64-127: Synced
+Mutable Instruments,Ambika,LFO 1,LFO 1 rate,LFO 1 speed,45,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,LFO 1,LFO 1 shape,LFO 1 waveform,46,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,LFO 2,LFO 2 sync,LFO 2 tempo sync on/off,52,,0,127,,,,,,,0-based,,0-63: Free; 64-127: Synced
+Mutable Instruments,Ambika,LFO 2,LFO 2 rate,LFO 2 speed,53,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,LFO 2,LFO 2 shape,LFO 2 waveform,54,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,LFO 3,LFO 3 sync,LFO 3 tempo sync on/off,60,,0,127,,,,,,,0-based,,0-63: Free; 64-127: Synced
+Mutable Instruments,Ambika,LFO 3,LFO 3 rate,LFO 3 speed,61,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,LFO 3,LFO 3 shape,LFO 3 waveform,62,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,LFO 4,LFO 4 rate,LFO 4 speed,47,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,LFO 4,LFO 4 shape,LFO 4 waveform,48,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 1,Env 1 attack,Envelope 1 attack time,73,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 1,Env 1 decay,Envelope 1 decay time,75,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 1,Env 1 sustain,Envelope 1 sustain level,70,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 1,Env 1 release,Envelope 1 release time,72,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 2,Env 2 attack,Envelope 2 attack time,81,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 2,Env 2 decay,Envelope 2 decay time,83,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 2,Env 2 sustain,Envelope 2 sustain level,78,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 2,Env 2 release,Envelope 2 release time,80,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 3,Env 3 attack,Envelope 3 attack time,89,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 3,Env 3 decay,Envelope 3 decay time,91,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 3,Env 3 sustain,Envelope 3 sustain level,86,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Envelope 3,Env 3 release,Envelope 3 release time,88,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Effects,Fuzz,Fuzz/distortion amount,12,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Effects,Crush,Bitcrusher amount,13,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Arpeggiator,Arp mode,Arpeggiator on/off and mode,102,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Arpeggiator,Arp direction,Arpeggiator direction,103,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Arpeggiator,Arp range,Arpeggiator octave range,104,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Arpeggiator,Arp pattern,Arpeggiator rhythmic pattern,105,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Arpeggiator,Arp grid,Arpeggiator clock division,106,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Voice,Poly mode,Polyphony mode,107,,0,127,,,,,,,0-based,,
+Mutable Instruments,Ambika,Voice,Master tune,Global tuning offset,94,,0,127,,,,,,,centered,,64: A=440Hz
