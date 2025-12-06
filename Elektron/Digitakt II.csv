@@ -20,9 +20,9 @@ Elektron,Digitakt II,Source: Oneshot,Oneshot: Tune,,16,,0,127,,1,0,512,15872,,0-
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Start,,20,,0,127,,1,4,0,15360,,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Length,,21,,0,127,,1,5,0,15360,,0-based,,
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Loop Pos,,22,,0,127,,1,6,0,15361,,0-based,, 0: Off
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Start,,20,,0,120,,1,4,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Length,,21,,0,120,,1,5,0,15360,,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Loop Pos,,22,,0,120,,1,6,0,15361,,0-based,, 0: Off
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Level,,23,,0,127,,1,7,0,127,,0-based,,
 Elektron,Digitakt II,Source: Werp,Werp: Tune,,16,,0,127,,1,0,512,15872,,0-based,,
 Elektron,Digitakt II,Source: Werp,Werp: Play Mode,,17,,0,3,,1,1,0,3,,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
