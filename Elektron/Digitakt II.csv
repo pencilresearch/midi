@@ -1,13 +1,13 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Elektron,Digitakt II,Track,Track: Mute,,94,,0,1,0,1,101,0,1,,0-based,,0: Unmuted; 1: Muted
-Elektron,Digitakt II,Track,Track: Level,,95,,0,127,100,1,100,0,127,,0-based,,
-Elektron,Digitakt II,Trig,Trig: Note,,3,,0,127,60,3,0,0,127,,0-based,,
-Elektron,Digitakt II,Trig,Trig: Velocity,,4,,1,127,100,3,1,1,127,,0-based,,
-Elektron,Digitakt II,Trig,Trig: Length,,5,,0,127,14,3,2,0,127,,0-based,,6: 1/32; 14: 1/16; 30: 1/8; 38: 3.00; 46: 1/4; 62: 1/2; 78: 16.0; 94: 32.0; 110: 64.0; 127: Infinite; 0-127: Length
+Elektron,Digitakt II,Track,Track: Mute,,94,,0,1,0,1,101,0,1,0,0-based,,0: Unmuted; 1: Muted
+Elektron,Digitakt II,Track,Track: Level,,95,,0,127,100,1,100,0,127,100,0-based,,
+Elektron,Digitakt II,Trig,Trig: Note,,3,,0,127,60,3,0,0,127,60,0-based,,
+Elektron,Digitakt II,Trig,Trig: Velocity,,4,,1,127,100,3,1,1,127,100,0-based,,
+Elektron,Digitakt II,Trig,Trig: Length,,5,,0,127,14,3,2,0,127,14,0-based,,6: 1/32; 14: 1/16; 30: 1/8; 38: 3.00; 46: 1/4; 62: 1/2; 78: 16.0; 94: 32.0; 110: 64.0; 127: Infinite; 0-127: Length
 Elektron,Digitakt II,Trig,Trig: Filter Trig,,13,,0,1,1,,,,,,0-based,,0: Off; 1: On
 Elektron,Digitakt II,Trig,Trig: LFO Trig,,14,,0,1,1,,,,,,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Trig,Trig: Portamento Time,,9,,0,127,40,3,7,0,127,,0-based,,
-Elektron,Digitakt II,Trig,Trig: Portamento On/Off,,65,,0,1,0,3,8,0,1,,0-based,,0: Off; 1: On
+Elektron,Digitakt II,Trig,Trig: Portamento Time,,9,,0,127,40,3,7,0,127,40,0-based,,
+Elektron,Digitakt II,Trig,Trig: Portamento On/Off,,65,,0,1,0,3,8,0,1,0,0-based,,0: Off; 1: On
 Elektron,Digitakt II,Source: Generic,Source: Tune,,16,,0,127,63,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Generic,Source: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Digitakt II,Source: Generic,Source: Sample Bank Select,,24,,0,127,,1,9,0,16383,,0-based,,
@@ -160,7 +160,7 @@ Elektron,Digitakt II,Filter: Equalizer,Equalizer: Base,,26,,0,127,0,1,51,0,127,0
 Elektron,Digitakt II,Filter: Equalizer,Equalizer: Width,,27,,0,127,127,1,52,0,127,127,0-based,,
 Elektron,Digitakt II,Filter: Equalizer,Equalizer: BW Routing,,27,,0,1,0,1,15,0,1,0,0-based,,0: Pre Filter; 1: Post Filter
 Elektron,Digitakt II,Filter: Equalizer,Equalizer: Env.Reset,,111,,0,1,0,1,68,0,1,0,0-based,,0: Off; 1: On
-Elektron,Digitakt II,Amp,Amp: Attack Time,0,79,,0,127,,1,30,0,127,0,0-based,,
+Elektron,Digitakt II,Amp,Amp: Attack Time,0,79,,0,127,0,1,30,0,127,0,0-based,,
 Elektron,Digitakt II,Amp,Amp: Hold Time,,80,,0,127,127,1,31,0,127,127,0-based,,127: Note
 Elektron,Digitakt II,Amp,Amp: Decay Time,,81,,0,127,64,1,32,0,127,64,0-based,,127: Infinite
 Elektron,Digitakt II,Amp,Amp: Sustain Level,,82,,0,127,127,1,33,0,127,127,0-based,,
@@ -208,7 +208,7 @@ Elektron,Digitakt II,Mod,LFO 1: Start Phase,,107,,0,127,0,1,47,0,127,0,0-based,,
 Elektron,Digitakt II,Mod,LFO 1: Trig Mode,,108,,0,4,0,1,48,0,4,0,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Digitakt II,Mod,LFO 1: Depth,,109,59,0,16383,8191,1,49,0,16383,8191,centered,,
 Elektron,Digitakt II,Mod,LFO 2: Speed,,112,60,0,16383,6144,1,50,0,16383,6144,centered,,
-Elektron,Digitakt II,Mod,LFO 2: Multiplier,,113,,0,23,1,1,51,0,23,,0-based,1,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Digitakt II,Mod,LFO 2: Multiplier,,113,,0,23,1,1,51,0,23,1,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Digitakt II,Mod,LFO 2: Fade In/Out,,114,,0,127,63,1,52,0,127,63,centered,,
 Elektron,Digitakt II,Mod,LFO 2: Destination,,115,,0,127,0,1,53,0,127,0,0-based,,
 Elektron,Digitakt II,Mod,LFO 2: Waveform,,116,,0,6,1,1,54,0,6,1,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
@@ -216,7 +216,7 @@ Elektron,Digitakt II,Mod,LFO 2: Start Phase,,117,,0,127,0,1,55,0,127,0,0-based,,
 Elektron,Digitakt II,Mod,LFO 2: Trig Mode,,118,,0,4,0,1,56,0,4,0,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Digitakt II,Mod,LFO 2: Depth,,119,61,0,16383,8191,1,57,0,16383,8191,centered,,
 Elektron,Digitakt II,Mod,LFO 3: Speed,,78,62,0,16383,6144,1,58,0,16383,6144,centered,,
-Elektron,Digitakt II,Mod,LFO 3: Multiplier,,52,,0,23,1,1,59,0,23,,0-based,1,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
+Elektron,Digitakt II,Mod,LFO 3: Multiplier,,52,,0,23,1,1,59,0,23,1,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Digitakt II,Mod,LFO 3: Fade In/Out,,53,,0,127,63,1,60,0,127,63,centered,,
 Elektron,Digitakt II,Mod,LFO 3: Destination,,28,,0,127,0,1,61,0,127,0,0-based,,
 Elektron,Digitakt II,Mod,LFO 3: Waveform,,29,,0,6,1,1,62,0,6,1,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
