@@ -263,7 +263,7 @@ Elektron,Digitone II,FX,Chorus: Mix Volume,,14,,0,127,100,2,47,0,127,100,0-based
 Elektron,Digitone II,Mod,LFO 1: Speed,,102,,0,127,112,1,42,0,16383,14336,centered,,
 Elektron,Digitone II,Mod,LFO 1: Multiplier,,103,,0,23,1,1,43,0,23,1,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Digitone II,Mod,LFO 1: Fade In/Out,,104,,0,127,63,1,44,0,127,63,centered,,
-Elektron,Digitone II,Mod,LFO 1: Destination,,105,,0,127,0,1,45,0,127,0,0-based,,
+Elektron,Digitone II,Mod,LFO 1: Destination,,105,,0,127,0,1,45,0,127,0,0-based,list,
 Elektron,Digitone II,Mod,LFO 1: Waveform,,106,,0,6,1,1,46,0,6,1,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Digitone II,Mod,LFO 1: Start Phase/Slew,,107,,0,127,0,1,47,0,127,0,0-based,,
 Elektron,Digitone II,Mod,LFO 1: Trig Mode,,108,,0,4,0,1,48,0,4,0,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
@@ -271,7 +271,7 @@ Elektron,Digitone II,Mod,LFO 1: Depth,,109,,0,127,63,1,49,0,16383,8191,centered,
 Elektron,Digitone II,Mod,LFO 2: Speed,,111,,0,127,112,1,50,0,16383,14336,centered,,
 Elektron,Digitone II,Mod,LFO 2: Multiplier,,112,,0,23,1,1,51,0,23,1,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Digitone II,Mod,LFO 2: Fade In/Out,,113,,0,127,63,1,52,0,127,63,centered,,
-Elektron,Digitone II,Mod,LFO 2: Destination,,114,,0,127,0,1,53,0,127,0,0-based,,
+Elektron,Digitone II,Mod,LFO 2: Destination,,114,,0,127,0,1,53,0,127,0,0-based,list,
 Elektron,Digitone II,Mod,LFO 2: Waveform,,115,,0,6,1,1,54,0,6,1,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Digitone II,Mod,LFO 2: Start Phase/Slew,,116,,0,127,0,1,55,0,127,0,0-based,,
 Elektron,Digitone II,Mod,LFO 2: Trig Mode,,117,,0,4,0,1,56,0,4,0,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
