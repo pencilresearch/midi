@@ -3,11 +3,11 @@ Elektron,Tonverk,Track,Track: Level,,95,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Trig,Trig: Note,,3,,0,127,60,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Trig,Trig: Velocity,,4,,0,127,100,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Enabled,,,,,,,0,42,0,1,0,0-based,0,0: Off; 1: On
+Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Enabled,,,,,,,0,42,0,1,0,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Time,,,,,,,0,43,0,16383,0,0-based,,
 Elektron,Tonverk,Audio Track: Trig,Trig: Retrig Velocity,,,,,,,0,44,0,16383,8191,centered,,
 Elektron,Tonverk,Audio Track: Trig,Trig: Portamento Time,,9,,0,127,63,,,,,,centered,,
-Elektron,Tonverk,Audio Track: Trig,Trig: Portamento Enabled,,65,,0,1,0,,,,,,0-based,0,0: Off; 1: On
+Elektron,Tonverk,Audio Track: Trig,Trig: Portamento Enabled,,65,,0,1,0,,,,,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Source,Source: Parameter A,,16,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Source,Source: Parameter B,,17,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Audio Track: Source,Source: Parameter C,,18,,0,127,,,,,,,0-based,,
