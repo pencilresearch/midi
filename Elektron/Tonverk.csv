@@ -272,7 +272,7 @@ Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Mode,,,,,,,4,48,0,1,,0-based,,0: A
 Elektron,Tonverk,Audio Track: Subtrack 4,Amp: Env Reset,,,,,,,4,49,0,1,,0-based,,0: Off; 1: On
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Speed,,,,,,,4,102,0,128,,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Multiplier,,,,,,,4,103,0,23,,0-based,3,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
-Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Fade,,,,,,,4,104,0,128,8191,centered,,
+Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Fade,,,,,,,4,104,0,128,64,centered,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Waveform,,,,,,,4,106,0,6,,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Start Phase/Smoothing,,,,,,,4,107,0,127,,0-based,,
 Elektron,Tonverk,Audio Track: Subtrack 4,Voice LFO 1: Mode,,,,,,,4,108,0,4,,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
