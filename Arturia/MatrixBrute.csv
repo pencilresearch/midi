@@ -1,34 +1,34 @@
 ﻿manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Arturia,MatrixBrute,Wheel,Modulation Wheel,,1,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Macro,Macro Knob 2 (M2),,2,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Macro,Macro Knob 4 (M4) / Expression Pedal 2,,3,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Macro,Macro Knob 3 (M3) / Expression Pedal 1,,4,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Global,Glide (Portamento Time),,5,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,Steiner Filter Out Level,,7,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,Ladder Filter Out Level,,8,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,VCO 1 Sub Osc Level,,9,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,VCO 1 Saw Level,,10,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Macro,Macro Knob 1 (M1),,11,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,VCO 1 Square Level,,12,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,VCO 1 Triangle Level,,13,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,VCO 2 Sub Osc Level,,14,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,VCO 2 Saw Level,,15,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,VCO 2 Square Level,,16,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,VCO 2 Triangle Level,,17,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,Mixer VCO 1 Level,,18,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,Mixer VCO 2 Level,,19,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,Mixer VCO 3 Level,,20,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Mixer,Mixer Noise Level,,21,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,VCO,VCO 3 / LFO 3 Coarse,,22,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Filter,Steiner Filter Cutoff,,23,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Filter,Steiner Filter Env 1 Amount,,24,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Filter,Ladder Filter Cutoff,,25,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Filter,Ladder Filter Env Amount,,26,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Filter,Master Cutoff,,27,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Envelope,Env 1 (VCF) Sustain,,28,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Envelope,Env 2 (VCA) Sustain,,29,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Envelope,Env 3 Sustain,,30,,0,127,,,,,,,0-based,,14-bit support
-Arturia,MatrixBrute,Effects,Analog Effects Dry/Wet,,31,,0,127,,,,,,,0-based,,14-bit support
+Arturia,MatrixBrute,Wheel,Modulation Wheel,,1,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Macro,Macro Knob 2 (M2),,2,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Macro,Macro Knob 4 (M4) / Expression Pedal 2,,3,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Macro,Macro Knob 3 (M3) / Expression Pedal 1,,4,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Global,Glide (Portamento Time),,5,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,Steiner Filter Out Level,,7,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,Ladder Filter Out Level,,8,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,VCO 1 Sub Osc Level,,9,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,VCO 1 Saw Level,,10,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Macro,Macro Knob 1 (M1),,11,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,VCO 1 Square Level,,12,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,VCO 1 Triangle Level,,13,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,VCO 2 Sub Osc Level,,14,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,VCO 2 Saw Level,,15,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,VCO 2 Square Level,,16,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,VCO 2 Triangle Level,,17,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,Mixer VCO 1 Level,,18,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,Mixer VCO 2 Level,,19,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,Mixer VCO 3 Level,,20,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Mixer,Mixer Noise Level,,21,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,VCO,VCO 3 / LFO 3 Coarse,,22,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Filter,Steiner Filter Cutoff,,23,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Filter,Steiner Filter Env 1 Amount,,24,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Filter,Ladder Filter Cutoff,,25,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Filter,Ladder Filter Env Amount,,26,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Filter,Master Cutoff,,27,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Envelope,Env 1 (VCF) Sustain,,28,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Envelope,Env 2 (VCA) Sustain,,29,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Envelope,Env 3 Sustain,,30,,0,127,,,,,,,0-based,14-bit support,
+Arturia,MatrixBrute,Effects,Analog Effects Dry/Wet,,31,,0,127,,,,,,,0-based,14-bit support,
 Arturia,MatrixBrute,Pedal,Sustain Pedal,,64,,0,127,,,,,,,0-based,,
 Arturia,MatrixBrute,VCO,VCO 1 Fine,,65,,0,127,,,,,,,0-based,,
 Arturia,MatrixBrute,VCO,VCO 1 Coarse,,66,,0,127,,,,,,,0-based,,
