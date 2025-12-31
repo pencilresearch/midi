@@ -1,0 +1,64 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Mod Wheel,Modulation wheel value. Destination is user-assignable via Tauntek settings.,1,,0,127,,,,,,,0-based,Destination set by Tauntek 'Mod CC Assign' bits (panel setting). Destinations listed on cheat sheet include VCO Mod - LFO1 Amt; VCF Cut - LFO1 Amt; VCA Mod - LFO1 Amt; LFO1 Rate; XMOD Amt; Pulse Width; VCF Cutoff; VCF Resonance.,0~127: Mod wheel value
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Hold,Holds notes (panel HOLD).,30,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Glissando,Enables glissando.,29,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Bender,Enables bender.,28,,0,127,,,,,,,0-based,Cheat sheet lists as on/off; exact behaviour (range/source) not specified.,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Portamento Switch,Enables portamento.,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Sustain Pedal,Sustain pedal (damper) on/off.,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Volume,Main output level.,7,,0,127,,,,,,,0-based,,0~127: Volume amount
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Split Balance (CC08),Upper/lower split balance (alternate CC mapping).,8,,0,127,,,,,,,0-based,Cheat sheet also lists Split Balance on CC80 with explicit 0/64/127 meaning; CC08 entry in cheat sheet does not specify mapping.,0~127: Split balance amount
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Split Balance (CC80),Upper/lower split balance.,80,,0,127,,,,,,,centered,"Cheat sheet: 0=Lower, 64=Equal, 127=Upper.",0~127: Split balance amount
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Master Tune,Master tuning (global).,79,,0,127,,,,,,,0-based,"Cheat sheet does not describe the value mapping (e.g., centre/offset).",0~127: Master tune amount
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Key Assign Mode,Key assign mode selection.,77,,0,127,,,,,,,0-based,,0-15: Poly 1; 16-31: Poly 2; 32-47: Unison; 48-63: Solo; 64-127: Solo Unison
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Unison Detune,Detune amount for unison.,63,,0,127,,,,,,,0-based,,0~127: Detune amount
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Glide Time (CC05),Portamento/glide time.,5,,0,127,,,,,,,0-based,Cheat sheet lists CC05 as Glide Time but provides no value mapping details.,0~127: Glide time amount
+Roland,Jupiter-6 Tauntek Upgrade,Performance,Glide Time (CC62),Portamento/glide time (alternate mapping).,62,,0,127,,,,,,,0-based,Cheat sheet notes: 0 = fast. Remaining mapping not described.,0~127: Glide time amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO1 Triangle,Enables/disables Triangle waveform.,20,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO1 Saw,Enables/disables Saw waveform.,21,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO1 Pulse,Enables/disables Pulse waveform.,22,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO1 Square,Enables/disables Square waveform.,23,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO2 Triangle,Enables/disables Triangle waveform.,24,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO2 Saw,Enables/disables Saw waveform.,25,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO2 Pulse,Enables/disables Pulse waveform.,26,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO2 Noise,Enables/disables Noise waveform.,27,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO 1 Range,VCO1 octave range selector.,40,,0,127,,,,,,,0-based,Cheat sheet lists parameter but does not provide discrete value map.,0~127: Range value
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO 2 Range,VCO2 octave range selector.,41,,0,127,,,,,,,0-based,Cheat sheet lists parameter but does not provide discrete value map.,0~127: Range value
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO 2 Fine,VCO2 fine tuning.,42,,0,127,,,,,,,0-based,,0~127: Fine tune amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO Mixer,Mix between VCO1 and VCO2.,43,,0,127,,,,,,,0-based,Cheat sheet specifies: 0 = full VCO1. Remaining mapping not described.,0~127: VCO mix amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,Pulse Width,Pulse width (PW).,36,,0,127,,,,,,,0-based,,0~127: Pulse width amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,PWM Amount,PWM modulation amount.,37,,0,127,,,,,,,0-based,,0~127: PWM amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,PWM Mod Source,PWM modulation source select.,67,,0,127,,,,,,,0-based,,0-63: ENV1; 64-127: LFO1
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO Mod Amount,VCO modulation amount (mod wheel destination option).,34,,0,127,,,,,,,0-based,,0~127: VCO mod amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO Mod Source,VCO modulation source selection.,68,,0,127,,,,,,,0-based,,0-31: None; 32-63: VCO1; 64-95: VCO2; 96-127: VCO1+2
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO Mod By ENV1,VCO modulation by ENV1 amount.,35,,0,127,,,,,,,0-based,,0~127: Amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,XMOD Manual,Cross-mod manual amount.,38,,0,127,,,,,,,0-based,,0~127: XMOD amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,XMOD By ENV1,Cross-mod by ENV1 amount.,39,,0,127,,,,,,,0-based,,0~127: Amount
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,Osc Sync Mode,Oscillator sync mode.,72,,0,127,,,,,,,0-based,Cheat sheet formatting is slightly unclear; this is the most consistent interpretation of the listed ranges.,0-31: None; 32-63: VCO2 syncs to VCO1; 64-95: VCO1 syncs to VCO2; 96-127: Both sync
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO 1 Wave Bitmask,Waveform enable bitmask for VCO1.,69,,0,127,,,,,,,0-based,Cheat sheet: Bit 3=Triangle; Bit 4=Saw; Bit 5=Pulse; Bit 6=Square. Value is a bitfield (multiple waves can be enabled).,0~127: Wave enable bitmask
+Roland,Jupiter-6 Tauntek Upgrade,Oscillators,VCO 2 Wave Bitmask,Waveform enable bitmask for VCO2.,70,,0,127,,,,,,,0-based,Cheat sheet: Bit 3=Triangle; Bit 4=Saw; Bit 5=Pulse; Bit 6=Noise. Value is a bitfield (multiple waves can be enabled).,0~127: Wave enable bitmask
+Roland,Jupiter-6 Tauntek Upgrade,LFO,LFO1 Rate,LFO1 rate.,32,,0,127,,,,,,,0-based,,0~127: Rate amount
+Roland,Jupiter-6 Tauntek Upgrade,LFO,LFO1 Delay,LFO1 delay.,33,,0,127,,,,,,,0-based,,0~127: Delay amount
+Roland,Jupiter-6 Tauntek Upgrade,LFO,LFO1 Shape,LFO1 waveform shape selection.,66,,0,127,,,,,,,0-based,,0-31: Triangle; 32-63: Saw; 64-95: Square; 96-127: Random
+Roland,Jupiter-6 Tauntek Upgrade,Filter,VCF Frequency,Filter cutoff frequency.,44,,0,127,,,,,,,0-based,,0~127: Cutoff amount
+Roland,Jupiter-6 Tauntek Upgrade,Filter,VCF Resonance,Filter resonance.,45,,0,127,,,,,,,0-based,,0~127: Resonance amount
+Roland,Jupiter-6 Tauntek Upgrade,Filter,VCF Mod By ENV,Filter envelope modulation amount.,46,,0,127,,,,,,,0-based,,0~127: Amount
+Roland,Jupiter-6 Tauntek Upgrade,Filter,VCF Mod By LFO1,Filter LFO1 modulation amount.,47,,0,127,,,,,,,0-based,,0~127: Amount
+Roland,Jupiter-6 Tauntek Upgrade,Filter,VCF Keyboard Tracking,Filter keyboard tracking amount.,48,,0,127,,,,,,,0-based,,0~127: Tracking amount
+Roland,Jupiter-6 Tauntek Upgrade,Filter,Filter Mode,Filter mode selection (LP/HP/BP).,71,,0,127,,,,,,,0-based,,0-31: LPF; 32-63: HPF; 64-127: BPF
+Roland,Jupiter-6 Tauntek Upgrade,Filter,VCF Envelope Select,Select which envelope modulates VCF.,73,,0,127,,,,,,,0-based,,0-63: ENV1; 64-127: ENV2
+Roland,Jupiter-6 Tauntek Upgrade,Filter,VCF ENV1 Polarity,ENV1 polarity for VCF modulation.,74,,0,127,,,,,,,0-based,,0-63: Positive; 64-127: Negative
+Roland,Jupiter-6 Tauntek Upgrade,Amplifier,VCA By ENV2 Amount,VCA envelope 2 amount.,49,,0,127,,,,,,,0-based,,0~127: Amount
+Roland,Jupiter-6 Tauntek Upgrade,Amplifier,VCA Mod By LFO1,VCA LFO1 modulation amount.,50,,0,127,,,,,,,0-based,,0~127: Amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 1,Attack,Envelope 1 attack time.,51,,0,127,,,,,,,0-based,,0~127: Attack amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 1,Decay,Envelope 1 decay time.,52,,0,127,,,,,,,0-based,,0~127: Decay amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 1,Sustain,Envelope 1 sustain level.,53,,0,127,,,,,,,0-based,,0~127: Sustain amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 1,Release,Envelope 1 release time.,54,,0,127,,,,,,,0-based,,0~127: Release amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 1,Key Follow,Envelope 1 key follow amount.,55,,0,127,,,,,,,0-based,Cheat sheet label appears as 'KFOLLOW'.,0~127: Key follow amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 2,Attack,Envelope 2 attack time.,56,,0,127,,,,,,,0-based,,0~127: Attack amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 2,Decay,Envelope 2 decay time.,57,,0,127,,,,,,,0-based,,0~127: Decay amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 2,Sustain,Envelope 2 sustain level.,58,,0,127,,,,,,,0-based,,0~127: Sustain amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 2,Release,Envelope 2 release time.,59,,0,127,,,,,,,0-based,,0~127: Release amount
+Roland,Jupiter-6 Tauntek Upgrade,Envelope 2,Key Follow,Envelope 2 key follow amount.,60,,0,127,,,,,,,0-based,Cheat sheet label appears as 'FOLLOW'.,0~127: Key follow amount
+Roland,Jupiter-6 Tauntek Upgrade,Arpeggiator,Arp Rate,Arpeggiator rate (when MIDI clock selected).,61,,0,127,,,,,,,0-based,Cheat sheet: 'WHEN MIDI CLK SELECTED'.,0~127: Arp rate amount
+Roland,Jupiter-6 Tauntek Upgrade,Arpeggiator,Arp Mode,Arpeggiator mode.,84,,0,127,,,,,,,0-based,,0-63: Off; 64-79: Up; 80-95: Down; 96-111: Up/Down; 112-127: Random
+Roland,Jupiter-6 Tauntek Upgrade,Arpeggiator,Arp Range,Arpeggiator range (octaves).,85,,0,127,,,,,,,0-based,,0-31: 1 Oct; 32-63: 2 Oct; 64-95: 3 Oct; 96-127: 4 Oct
