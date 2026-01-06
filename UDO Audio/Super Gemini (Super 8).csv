@@ -1,0 +1,107 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+UDO Audio,Super Gemini (Super 8),DDS 1,Waveform,,29,,0,107,,,,,,,0-based,,0: Sine; 21: Sawtooth; 43: Square; 64: Triangle; 85: White noise; 107: Alternative waveform
+UDO Audio,Super Gemini (Super 8),DDS 1,Range,,30,,0,107,,,,,,,0-based,,0: 64'; 21: 32'; 43: 16'; 64: 8'; 85: 4'; 107: 2'
+UDO Audio,Super Gemini (Super 8),DDS 2,Waveform,,31,,0,107,,,,,,,0-based,,0: Sine; 21: Sawtooth; 43: Square; 64: Triangle; 85: White noise; 107: Alternative waveform
+UDO Audio,Super Gemini (Super 8),DDS 2,Range,,106,,0,107,,,,,,,0-based,,0: LFO; 21: 32'; 43: 16'; 64: 8'; 85: 4'; 107: 2'
+UDO Audio,Super Gemini (Super 8),DDS 2,Tune,,35,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),DDS 2,Mode,,36,,0,85,,,,,,,0-based,,0: Norm / Sub osc off; 43: Ring / Sub osc square; 85: Sync / Sub osc sine
+UDO Audio,Super Gemini (Super 8),DDS modulator,Modulator destination,,23,,0,85,,,,,,,0-based,,0: DDS 1; 43: Both; 85: DDS 2
+UDO Audio,Super Gemini (Super 8),DDS modulator,LFO 1 amount,,21,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),DDS modulator,Envelope 1 amount,,22,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),DDS modulator,LFO 2 amount,,70,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),DDS modulator,Cross modulation,,28,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),DDS modulator,PW / Detune,,25,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),DDS modulator,PWM / Wave modulation,,26,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),DDS modulator,PWM / Wave modulation source,,27,,0,85,,,,,,,0-based,,0: Manual; 43: LFO 1; 85: Envelope 1
+UDO Audio,Super Gemini (Super 8),DDS modulator,Pitch bend amount,,76,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),DDS modulator,Drift,,94,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Effects,Delay time,,12,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Effects,Delay feedback,,13,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Effects,Delay freeze,,69,,0,64,,,,,,,0-based,,0: Off; 64: On
+UDO Audio,Super Gemini (Super 8),Effects,Delay send,,91,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Effects,Chorus,,93,,0,96,,,,,,,0-based,,0: Off; 32: Chorus 1; 64: Chorus 2; 96: Chorus 1 & 2
+UDO Audio,Super Gemini (Super 8),Enevelope 1,Mode,,50,,0,85,,,,,,,0-based,,0: Normal; 43: Inverted; 85: Loop
+UDO Audio,Super Gemini (Super 8),Enevelope 1,Keytrack,,51,,0,85,,,,,,,0-based,,0: Off; 43: 1/2; 85: On
+UDO Audio,Super Gemini (Super 8),Enevelope 1,Attack hold,,52,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Enevelope 1,Attack,,53,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Enevelope 1,Decay,,54,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Enevelope 1,Decay hold,,32,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Enevelope 1,Sustain,,55,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Enevelope 1,Release,,56,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Envelope 2,Attack,,73,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Envelope 2,Decay,,57,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Envelope 2,Decay hold,,33,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Envelope 2,Sustain,,58,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Envelope 2,Release,,72,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),LFO 1,Waveform / HF mode,,16,,0,107,,,,,,,0-based,,0: Triangle; 21: Rev sawtooth; 43: Random; 64: Square; 85: HF; 107: HF TRK
+UDO Audio,Super Gemini (Super 8),LFO 1,Rate,,17,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),LFO 1,Delay,,18,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),LFO 1,LR phase / pan spread,,19,,0,127,,,,,,,centered,,
+UDO Audio,Super Gemini (Super 8),LFO 1,Mode,,20,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),LFO 2,Trigger source,,60,,0,85,,,,,,,0-based,,0: Trig; 43: AT + Trig; 85: LFO 2 On / AT to bend
+UDO Audio,Super Gemini (Super 8),LFO 2,Rate,,62,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),LFO 2,Delay,,63,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),LFO 2,Waveform,,105,,0,107,,,,,,,0-based,,0: Sine; 21: Rev sawtooth; 43: Sample & hold; 64: Square; 85: Sawtooth; 107: Noise
+UDO Audio,Super Gemini (Super 8),LFO 2,Rate modulation,,110,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Arpeggiator / Sequencer,Sequence load,,14,,0,15,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Arpeggiator / Sequencer,Arpeggiator range,,82,,0,96,,,,,,,0-based,,0: 1 octave; 32: 2 octaves; 64: 3 octaves; 96: 4 octaves
+UDO Audio,Super Gemini (Super 8),Arpeggiator / Sequencer,Arpeggiator / Sequencer swing,,83,,0,102,,,,,,,0-based,,0: Swing 0; 26: Swing 1; 51: Swing 2; 77: Swing 3; 102: Swing 4
+UDO Audio,Super Gemini (Super 8),Arpeggiator / Sequencer,Arpeggiator / Sequencer external clock,,84,,0,64,,,,,,,0-based,,0: Off; 64: On
+UDO Audio,Super Gemini (Super 8),Arpeggiator / Sequencer,Arpeggiator / Sequencer mode,,85,,0,102,,,,,,,0-based,,0: Up; 26: Down; 51: Up & Down; 77: Random; 102: Sequencer
+UDO Audio,Super Gemini (Super 8),Arpeggiator / Sequencer,Arpeggiator / Sequencer on/off,,86,,0,64,,,,,,,0-based,,0: Off; 64: On
+UDO Audio,Super Gemini (Super 8),Arpeggiator / Sequencer,Arpeggiator / Sequencer hold,,87,,0,64,,,,,,,0-based,,0: Off; 64: On
+UDO Audio,Super Gemini (Super 8),VCA,VCA envelope level,,7,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCA,VCA LFO 2 amount,,42,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCA,VCA dynamics,,48,,0,85,,,,,,,0-based,,0: Off; 43: 1/2; 85: On
+UDO Audio,Super Gemini (Super 8),VCA,VCA envelope mode,,49,,0,85,,,,,,,0-based,,0: Env 2; 43: Fixed envelope 1; 85: Fixed envelope 2
+UDO Audio,Super Gemini (Super 8),VCA,VCA LFO 1 amount,,92,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCA,VCA DDS 2 amount,,109,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCF,Filter cutoff frequency,,74,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCF,Resonance,,71,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCF,Drive,,41,,0,85,,,,,,,0-based,,0: Off; 43: 1; 85: 2
+UDO Audio,Super Gemini (Super 8),VCF,Keytrack,,43,,0,85,,,,,,,0-based,,0: Off; 43: 1/2; 85: On
+UDO Audio,Super Gemini (Super 8),VCF,Envelope source,,44,,0,85,,,,,,,0-based,,0: Env 1; 43: 1 + 2; 85: Env 2
+UDO Audio,Super Gemini (Super 8),VCF,Envelope amount,,45,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCF,LFO 1 amount,,46,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCF,DDS 2 amount,,47,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCF,LFO 2 amount,,75,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCF,Pitch bend amount,,77,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),VCF,HPF cutoff frequency,,95,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Clock,Tempo,,3,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Clock,Clock sync,,81,,0,64,,,,,,,0-based,,0: Off; 64: On
+UDO Audio,Super Gemini (Super 8),Clock,Clock divider,,107,,0,102,,,,,,,0-based,,0: Whole notes; 16: Half notes; 32: Quarter notes; 48: Eighth notes; 64: Sixteenth noets; 70: Thirty-second notes; 96: Quarter notes triplets; 102: Eighth notes triplets
+UDO Audio,Super Gemini (Super 8),Controller,Modulation lever,,1,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Controller,Ribbon coarse,,2,,0,127,,,,,,,0-based,Super Gemini only.,
+UDO Audio,Super Gemini (Super 8),Controller,Ribbon fine,,34,,0,127,,,,,,,0-based,Super Gemini only.,
+UDO Audio,Super Gemini (Super 8),Controller,Foot controller,,4,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Controller,Mod amount / Fine adjust,,9,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Controller,Expression,,11,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Controller,Performance control destination,,61,,0,85,,,,,,,0-based,,0: DDS 1; 43: 1 + 2; 85: DDS 2
+UDO Audio,Super Gemini (Super 8),Controller,Sustain pedal,,64,,0,64,,,,,,,0-based,,0: Off; 64: On
+UDO Audio,Super Gemini (Super 8),Controller,Octave select,,67,,0,102,,,,,,,centered,,0: -2; 26: -1; 51: 0; 77: +1; 102: +2
+UDO Audio,Super Gemini (Super 8),Controller,Performance detune,,111,,0,127,,,,,,,0-based,"On Super 8, CC 111 is receive only.",
+UDO Audio,Super Gemini (Super 8),General,Bank select,,0,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Portamento time,,5,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Data entry,,6,38,0,16383,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Portamento layer select,,65,,0,85,,,,,,,0-based,,0: Both; 43: Lower; 85: Upper
+UDO Audio,Super Gemini (Super 8),General,Data increment,,96,,,,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Data decrement,,97,,,,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,NRPN,,99,98,0,16383,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,RPN,,101,100,0,16383,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Modulation layer,,104,,0,85,,,,,,,0-based,,0: Both; 43: Lower; 85: Upper
+UDO Audio,Super Gemini (Super 8),General,All sound off,,120,,0,0,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Reset all controllers,,121,,0,0,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Local control on/off,,122,,0,64,,,,,,,0-based,,0: Off; 64: On
+UDO Audio,Super Gemini (Super 8),General,All notes off,,123,,0,0,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Omni mode off,,124,,0,0,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Omni mode on,,125,,0,0,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),General,Mono mode on,,126,,0,0,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Mixer,Pan,,10,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Mixer,Oscillator mix,,37,,0,127,,,,,,,0-based,,
+UDO Audio,Super Gemini (Super 8),Special,Super mode,,24,,0,85,,,,,,,0-based,,0: Off; 43: 1/2; 85: On
+UDO Audio,Super Gemini (Super 8),Special,Manual mode,,59,,64,64,,,,,,,0-based,,64: On
+UDO Audio,Super Gemini (Super 8),Special,Binaural mode,,80,,0,64,,,,,,,0-based,,0: Off; 64: On
+UDO Audio,Super Gemini (Super 8),Special,Lower layer detune,,108,,0,127,,,,,,,0-based,"On Super 8, CC 108 sets layer detune. ",
+UDO Audio,Super Gemini (Super 8),Voicing,Voice assign mode,,78,,0,96,,,,,,,0-based,,0: Solo; 32: Legato; 64: Poly 1; 96: Poly 2
+UDO Audio,Super Gemini (Super 8),Voicing,Unison size,,79,,1,4,,,,,,,0-based,,1: Half of all available voices; 2: All available voices; 3: Octave; 4: Fifth + octave
+UDO Audio,Super Gemini (Super 8),Voicing,Poly mode on,,127,,0,0,,,,,,,0-based,,
