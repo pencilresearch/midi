@@ -1,0 +1,8 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Critter & Guitari,Organelle,General,Knob 1,,21,,0,127,,,,,,,0-based,,0~127: Knob position
+Critter & Guitari,Organelle,General,Knob 2,,22,,0,127,,,,,,,0-based,,0~127: Knob position
+Critter & Guitari,Organelle,General,Knob 3,,23,,0,127,,,,,,,0-based,,0~127: Knob position
+Critter & Guitari,Organelle,General,Knob 4,,24,,0,127,,,,,,,0-based,,0~127: Knob position
+Critter & Guitari,Organelle,General,Aux button,,25,,0,127,0,,,,,,0-based,,0-63: Aux button released; 64-127: Aux button pressed
+Critter & Guitari,Organelle,General,Expression pedal,,26,,0,127,0,,,,,,0-based,,0~127: Amount
+Critter & Guitari,Organelle,General,Sustain pedal,,64,,0,127,0,,,,,,0-based,,0~127: Amount
