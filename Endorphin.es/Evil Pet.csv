@@ -1,0 +1,40 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Endorphin.es,Evil Pet,Grains,Grains volume,Controls only the grains' volume. Not controllable with a physical knob.,11,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Saturator,,39,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Mix,,40,,0,127,,,,,,,0-based,,0~127: Source to grains
+Endorphin.es,Evil Pet,Grains,Diffuse,,41,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Spread,,42,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Cloud,,43,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Pitch,,44,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Detune,,45,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Grains,,46,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Shape,,47,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Position,,49,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Size,,50,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Grains,Record enable,,69,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Endorphin.es,Evil Pet,Grains,Saturator type,,84,,0,127,,,,,,,0-based,,0-21: Chorus; 22-43: Feedback; 44-64: Dist; 65-85: Sample rate reducer; 86-106: Bit crusher; 107-127: Flanger
+Endorphin.es,Evil Pet,Envelope,Attack,,73,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Envelope,Decay,,75,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Envelope,Sustain,,79,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Envelope,Release,,72,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Filter,Filter frequency,,70,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Filter,Filter resonance,,71,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Filter,Filter type,,80,,0,127,,,,,,,0-based,,0-25: Multimode; 26-51: LP; 52-77: HP; 78-102: BP; 103-127: Comb
+Endorphin.es,Evil Pet,Filter,Envelope filter modulation,,96,,0,127,,,,,,,0-based,,0~127: 0 to 100%
+Endorphin.es,Evil Pet,LFO,LFO 1 type,,81,,0,127,,,,,,,0-based,,0-8: Sin; 19-37: Tri; 38-55: Saw; 56-63: Square; 74-91: Step rand.; 92-109: Fluct. rand.; 110-127: Env. follower
+Endorphin.es,Evil Pet,LFO,LFO 1 speed,,76,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,LFO,LFO 2 type,,82,,0,127,,,,,,,0-based,,0-8: Sin; 19-37: Tri; 38-55: Saw; 56-63: Square; 74-91: Step rand.; 92-109: Fluct. rand.; 110-127: Env. follower
+Endorphin.es,Evil Pet,LFO,LFO 2 speed,,77,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,LFO,LFO 3 type,,83,,0,127,,,,,,,0-based,,0-8: Sin; 19-37: Tri; 38-55: Saw; 56-63: Square; 74-91: Step rand.; 92-109: Fluct. rand.; 110-127: Env. follower
+Endorphin.es,Evil Pet,LFO,LFO 3 speed,,78,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Overtone,Overtone volume,,85,,0,127,,,,,,,0-based,,0~127: 0% to 100%
+Endorphin.es,Evil Pet,Overtone,Overtone type,,86,,0,127,,,,,,,0-based,,0-25: None; 26-51: Sine; 52-77: Tri; 78-102: Saw; 103-127: Square
+Endorphin.es,Evil Pet,Reverb,Reverb type,,95,,0,127,,,,,,,0-based,,0-31: Plate L; 32-63: Reverse; 64-95: Room; 96-127: Plate S
+Endorphin.es,Evil Pet,Reverb,Reverb amount,,91,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Reverb,Reverb tone,,92,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Reverb,Reverb tail,,93,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,Reverb,Reverb shimmer,,94,,0,127,,,,,,,0-based,,
+Endorphin.es,Evil Pet,General,Expression,,1,,0,127,,,,,,,0-based,,0~127: Expression pedal amount
+Endorphin.es,Evil Pet,General,Volume,,7,,0,127,,,,,,,0-based,,0~127: Silence to 100%
+Endorphin.es,Evil Pet,General,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Endorphin.es,Evil Pet,General,MPE timbre,Vertical Y-axis per voice/channel,74,,0,127,,,,,,,0-based,,
