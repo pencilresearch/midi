@@ -1,0 +1,3 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Teenage Engineering,EP-133 K.O. II,General,Bank select,,0,32,0,16383,,,,,,,0-based,,
+Teenage Engineering,EP-133 K.O. II,General,Mod wheel,,1,,0,127,,,,,,,0-based,,
