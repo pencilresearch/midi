@@ -1,4 +1,6 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Moog,One,Output,Master volume,,,,,,,0,1,0,16383,,0-based,,
+Moog,One,Output,Headphones,,,,,,,0,2,0,16383,,0-based,,
 Moog,One,Synth 1: LFO 1,Waveform,,,,,,,3,67,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
 Moog,One,Synth 1: LFO 1,Rate free,,,,,,,3,79,0,16383,,0-based,,
 Moog,One,Synth 1: LFO 1,Rate synced,,,,,,,3,80,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
@@ -117,8 +119,6 @@ Moog,One,Synth 1: Modulation envelope,Loop,,,,,,,5,121,0,16383,,0-based,,0-8191:
 Moog,One,Synth 1: Modulation envelope,Latch,,,,,,,5,122,0,16383,,0-based,,0-8191: Off; 8192-16383: On
 Moog,One,Synth 1: VCA,Level,,,,,,,0,50,0,16383,,0-based,,
 Moog,One,Synth 1: VCA,Pan,,,,,,,0,51,0,16383,,centered,,
-Moog,One,Output,Master volume,,,,,,,0,1,0,16383,,0-based,,
-Moog,One,Output,Headphones,,,,,,,0,2,0,16383,,0-based,,
 Moog,One,Synth 2: LFO 1,Waveform,,,,,,,33,67,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
 Moog,One,Synth 2: LFO 1,Rate free,,,,,,,33,79,0,16383,,0-based,,
 Moog,One,Synth 2: LFO 1,Rate synced,,,,,,,33,80,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
