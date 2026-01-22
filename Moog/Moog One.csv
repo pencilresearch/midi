@@ -1,0 +1,357 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Moog,Moog One,Synth 1: LFO 1,Waveform,,,,,,,3,67,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 1: LFO 1,Rate free,,,,,,,3,79,0,16383,,0-based,,
+Moog,Moog One,Synth 1: LFO 1,Rate synced,,,,,,,3,80,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: LFO 2,Waveform,,,,,,,3,117,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 1: LFO 2,Rate free,,,,,,,4,1,0,16383,,0-based,,
+Moog,Moog One,Synth 1: LFO 2,Rate synced,,,,,,,4,2,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: LFO 3,Waveform,,,,,,,4,39,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 1: LFO 3,Rate free,,,,,,,4,51,0,16383,,0-based,,
+Moog,Moog One,Synth 1: LFO 3,Rate synced,,,,,,,4,52,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: LFO 4,Waveform,,,,,,,4,89,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 1: LFO 4,Rate free,,,,,,,4,101,0,16383,,0-based,,
+Moog,Moog One,Synth 1: LFO 4,Rate synced,,,,,,,4,102,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Oscillator 1,Octave,,,,,,,1,24,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 1: Oscillator 1,Frequency,,,,,,,1,23,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 1,Beat,,,,,,,1,28,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 1,Saw,,,,,,,1,30,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 1,Triangle,,,,,,,1,29,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 1,Pulse width,,,,,,,2,44,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 1,Mix,,,,,,,7,4,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 1,Wave,,,,,,,1,22,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 1: Oscillator 2,Octave,,,,,,,1,74,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 1: Oscillator 2,Frequency,,,,,,,1,73,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 2,Beat,,,,,,,1,78,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 2,Saw,,,,,,,1,80,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 2,Triangle,,,,,,,1,79,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 2,Pulse width,,,,,,,2,94,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 2,Mix,,,,,,,7,8,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 2,Wave,,,,,,,1,72,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 1: Oscillator 2,Hard sync,,,,,,,1,89,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Oscillator 3,Octave,,,,,,,1,124,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 1: Oscillator 3,Frequency,,,,,,,1,123,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 3,Beat,,,,,,,2,0,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 3,Saw,,,,,,,2,2,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 3,Triangle,,,,,,,2,1,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 3,Pulse width,,,,,,,3,16,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 3,Mix,,,,,,,7,12,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Oscillator 3,Wave,,,,,,,1,122,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 1: Oscillator 3,Hard sync,,,,,,,2,11,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Pitch modulation,LFO 1 amount,,,,,,,6,82,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Pitch modulation,Mod EG amount,,,,,,,6,83,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Ring mod,Sources,,,,,,,0,52,0,16383,,0-based,,0-8191: 1-2; 8192-16383: 2-3
+Moog,Moog One,Synth 1: Waveform modulation LFO 3,Wave angle,,,,,,,6,84,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Waveform modulation LFO 3,Pulse width,,,,,,,6,85,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Frequency modulation,FM amount,,,,,,,0,66,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Frequency modulation,Route,,,,,,,0,65,0,16383,,0-based,,0-5460: 1-2; 5461-10921: 1-3; 10922-16383: 3-1
+Moog,Moog One,Synth 1: Noise,Attack,,,,,,,6,34,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Noise,Release,,,,,,,6,37,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Noise,Sustain,,,,,,,6,36,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Noise,Color mix,,,,,,,6,33,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Noise,Color,,,,,,,6,32,0,16383,,0-based,,0-5460: Red-white; 5461-10921: Red-purple; 10922-16383: White-purple
+Moog,Moog One,Synth 1: Polyphony,Detune,,,,,,,9,59,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Polyphony,Mono,,,,,,,9,51,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: polyphony,Unison,,,,,,,9,57,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Osc 1 level,,,,,,,7,5,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Mixer,Osc 1 SVF,,,,,,,7,6,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Osc 1 ladder,,,,,,,7,7,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Osc 2 level,,,,,,,7,9,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Mixer,Osc 2 SVF,,,,,,,7,10,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Osc 2 ladder,,,,,,,7,11,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Osc 3 level,,,,,,,7,13,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Mixer,Osc 3 SVF,,,,,,,7,14,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Osc 3 ladder,,,,,,,7,15,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Ring mod level,,,,,,,7,16,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Mixer,Ring mod SVF,,,,,,,7,17,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Ring mod ladder,,,,,,,7,18,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Noise level,,,,,,,7,19,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Mixer,Noise SVF,,,,,,,7,20,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Mixer,Noise ladder,,,,,,,7,21,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Filters,SVF cutoff,,,,,,,7,54,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filters,SVF resonance,,,,,,,7,56,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filters,Ladder cutoff,,,,,,,8,126,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filters,Ladder resonance,,,,,,,9,0,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filters,Mix,,,,,,,8,79,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filters,SVF mode,,,,,,,7,62,0,16383,,0-based,,0-4095: LP; 4096-8191: HP; 8192-12287: BP; 12288-16383: Notch
+Moog,Moog One,Synth 1: Filters,Route,,,,,,,8,78,0,16383,,0-based,,0-8191: Serial; 8192-16383: Parallel
+Moog,Moog One,Synth 1: Filters,Ladder mode,,,,,,,9,6,0,16383,,0-based,,0-8191: LP; 8192-16383: HP
+Moog,Moog One,Synth 1: Filters,Ladder slope,,,,,,,9,7,0,16383,,0-based,,0-4095: 6dB; 4096-8191: 12dB; 8192-12287: 18dB; 12288-16383: 24dB
+Moog,Moog One,Synth 1: Cutoff modulation,SVF LFO 2 amount,,,,,,,7,59,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Cutoff modulation,SVF EG amount,,,,,,,7,58,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Cutoff modulation,SVF FM amount,,,,,,,7,60,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Cutoff modulation,Ladder LFO 2 amount,,,,,,,9,3,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Cutoff modulation,Ladder EG amount,,,,,,,9,2,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Cutoff modulation,Ladder FM amount,,,,,,,9,4,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filter envelope,Attack free,,,,,,,5,27,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filter envelope,Decay free,,,,,,,5,29,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filter envelope,Release free,,,,,,,5,30,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filter envelope,Attack synced,,,,,,,5,32,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Filter envelope,Decay synced,,,,,,,5,34,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Filter envelope,Release synced,,,,,,,5,35,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Filter envelope,Sustain,,,,,,,5,12,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Filter envelope,Multi trig,,,,,,,5,19,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Filter envelope,Sync,,,,,,,5,20,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Filter envelope,Loop,,,,,,,5,21,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Filter envelope,Latch,,,,,,,5,22,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Amplifier envelope,Attack free,,,,,,,5,77,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Amplifier envelope,Decay free,,,,,,,5,79,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Amplifier envelope,Release free,,,,,,,5,80,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Amplifier envelope,Attack synced,,,,,,,5,82,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Amplifier envelope,Decay synced,,,,,,,5,84,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Amplifier envelope,Release synced,,,,,,,5,85,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Amplifier envelope,Sustain,,,,,,,5,62,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Amplifier envelope,Multi trig,,,,,,,5,69,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Amplifier envelope,Sync,,,,,,,5,70,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Amplifier envelope,Loop,,,,,,,5,71,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Amplifier envelope,Latch,,,,,,,5,72,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Modulation envelope,Attack free,,,,,,,5,127,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Modulation envelope,Decay free,,,,,,,6,1,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Modulation envelope,Release free,,,,,,,6,2,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Modulation envelope,Attack synced,,,,,,,6,4,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Modulation envelope,Decay synced,,,,,,,6,6,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Modulation envelope,Release synced,,,,,,,6,7,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 1: Modulation envelope,Sustain,,,,,,,5,112,0,16383,,0-based,,
+Moog,Moog One,Synth 1: Modulation envelope,Multi trig,,,,,,,5,119,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Modulation envelope,Sync,,,,,,,5,120,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Modulation envelope,Loop,,,,,,,5,121,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: Modulation envelope,Latch,,,,,,,5,122,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 1: VCA,Level,,,,,,,0,50,0,16383,,0-based,,
+Moog,Moog One,Synth 1: VCA,Pan,,,,,,,0,51,0,16383,,centered,,
+Moog,Moog One,Output,Master volume,,,,,,,0,1,0,16383,,0-based,,
+Moog,Moog One,Output,Headphones,,,,,,,0,2,0,16383,,0-based,,
+Moog,Moog One,Synth 2: LFO 1,Waveform,,,,,,,33,67,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 2: LFO 1,Rate free,,,,,,,33,79,0,16383,,0-based,,
+Moog,Moog One,Synth 2: LFO 1,Rate synced,,,,,,,33,80,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: LFO 2,Waveform,,,,,,,33,117,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 2: LFO 2,Rate free,,,,,,,34,1,0,16383,,0-based,,
+Moog,Moog One,Synth 2: LFO 2,Rate synced,,,,,,,34,2,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: LFO 3,Waveform,,,,,,,34,39,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 2: LFO 3,Rate free,,,,,,,34,51,0,16383,,0-based,,
+Moog,Moog One,Synth 2: LFO 3,Rate synced,,,,,,,34,52,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: LFO 4,Waveform,,,,,,,34,89,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 2: LFO 4,Rate free,,,,,,,34,101,0,16383,,0-based,,
+Moog,Moog One,Synth 2: LFO 4,Rate synced,,,,,,,34,102,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Oscillator 1,Octave,,,,,,,31,24,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 2: Oscillator 1,Frequency,,,,,,,31,23,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 1,Beat,,,,,,,31,28,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 1,Saw,,,,,,,31,30,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 1,Triangle,,,,,,,31,29,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 1,Pulse width,,,,,,,32,44,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 1,Mix,,,,,,,37,4,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 1,Wave,,,,,,,31,22,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 2: Oscillator 2,Octave,,,,,,,31,74,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 2: Oscillator 2,Frequency,,,,,,,31,73,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 2,Beat,,,,,,,31,78,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 2,Saw,,,,,,,31,80,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 2,Triangle,,,,,,,31,79,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 2,Pulse width,,,,,,,32,94,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 2,Mix,,,,,,,37,8,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 2,Wave,,,,,,,31,72,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 2: Oscillator 2,Hard sync,,,,,,,31,89,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Oscillator 3,Octave,,,,,,,31,124,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 2: Oscillator 3,Frequency,,,,,,,31,123,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 3,Beat,,,,,,,32,0,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 3,Saw,,,,,,,32,2,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 3,Triangle,,,,,,,32,1,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 3,Pulse width,,,,,,,33,16,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 3,Mix,,,,,,,37,12,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Oscillator 3,Wave,,,,,,,31,122,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 2: Oscillator 3,Hard sync,,,,,,,32,11,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Pitch modulation,LFO 1 amount,,,,,,,36,82,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Pitch modulation,Mod EG amount,,,,,,,36,83,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Ring mod,Sources,,,,,,,30,52,0,16383,,0-based,,0-8191: 1-2; 8192-16383: 2-3
+Moog,Moog One,Synth 2: Waveform modulation LFO 3,Wave angle,,,,,,,36,84,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Waveform modulation LFO 3,Pulse width,,,,,,,36,85,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Frequency modulation,FM amount,,,,,,,30,66,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Frequency modulation,Route,,,,,,,30,65,0,16383,,0-based,,0-5460: 1-2; 5461-10921: 1-3; 10922-16383: 3-1
+Moog,Moog One,Synth 2: Noise,Attack,,,,,,,36,34,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Noise,Release,,,,,,,36,37,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Noise,Sustain,,,,,,,36,36,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Noise,Color mix,,,,,,,36,33,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Noise,Color,,,,,,,36,32,0,16383,,0-based,,0-5460: Red-white; 5461-10921: Red-purple; 10922-16383: White-purple
+Moog,Moog One,Synth 2: Polyphony,Detune,,,,,,,39,59,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Polyphony,Mono,,,,,,,39,51,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: polyphony,Unison,,,,,,,39,57,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Osc 1 level,,,,,,,37,5,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Mixer,Osc 1 SVF,,,,,,,37,6,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Osc 1 ladder,,,,,,,37,7,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Osc 2 level,,,,,,,37,9,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Mixer,Osc 2 SVF,,,,,,,37,10,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Osc 2 ladder,,,,,,,37,11,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Osc 3 level,,,,,,,37,13,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Mixer,Osc 3 SVF,,,,,,,37,14,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Osc 3 ladder,,,,,,,37,15,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Ring mod level,,,,,,,37,16,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Mixer,Ring mod SVF,,,,,,,37,17,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Ring mod ladder,,,,,,,37,18,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Noise level,,,,,,,37,19,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Mixer,Noise SVF,,,,,,,37,20,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Mixer,Noise ladder,,,,,,,37,21,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Filters,SVF cutoff,,,,,,,37,54,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filters,SVF resonance,,,,,,,37,56,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filters,Ladder cutoff,,,,,,,37,126,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filters,Ladder resonance,,,,,,,39,0,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filters,Mix,,,,,,,38,79,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filters,SVF mode,,,,,,,37,62,0,16383,,0-based,,0-4095: LP; 4096-8191: HP; 8192-12287: BP; 12288-16383: Notch
+Moog,Moog One,Synth 2: Filters,Route,,,,,,,38,78,0,16383,,0-based,,0-8191: Serial; 8192-16383: Parallel
+Moog,Moog One,Synth 2: Filters,Ladder mode,,,,,,,39,6,0,16383,,0-based,,0-8191: LP; 8192-16383: HP
+Moog,Moog One,Synth 2: Filters,Ladder slope,,,,,,,39,7,0,16383,,0-based,,0-4095: 6dB; 4096-8191: 12dB; 8192-12287: 18dB; 12288-16383: 24dB
+Moog,Moog One,Synth 2: Cutoff modulation,SVF LFO 2 amount,,,,,,,37,59,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Cutoff modulation,SVF EG amount,,,,,,,37,58,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Cutoff modulation,SVF FM amount,,,,,,,37,60,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Cutoff modulation,Ladder LFO 2 amount,,,,,,,39,3,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Cutoff modulation,Ladder EG amount,,,,,,,39,2,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Cutoff modulation,Ladder FM amount,,,,,,,39,4,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filter envelope,Attack free,,,,,,,35,27,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filter envelope,Decay free,,,,,,,35,29,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filter envelope,Release free,,,,,,,35,30,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filter envelope,Attack synced,,,,,,,35,32,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Filter envelope,Decay synced,,,,,,,35,34,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Filter envelope,Release synced,,,,,,,35,35,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Filter envelope,Sustain,,,,,,,35,12,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Filter envelope,Multi trig,,,,,,,35,19,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Filter envelope,Sync,,,,,,,35,20,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Filter envelope,Loop,,,,,,,35,21,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Filter envelope,Latch,,,,,,,35,22,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Amplifier envelope,Attack free,,,,,,,35,77,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Amplifier envelope,Decay free,,,,,,,35,79,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Amplifier envelope,Release free,,,,,,,35,80,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Amplifier envelope,Attack synced,,,,,,,35,82,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Amplifier envelope,Decay synced,,,,,,,35,84,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Amplifier envelope,Release synced,,,,,,,35,85,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Amplifier envelope,Sustain,,,,,,,35,62,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Amplifier envelope,Multi trig,,,,,,,35,69,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Amplifier envelope,Sync,,,,,,,35,70,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Amplifier envelope,Loop,,,,,,,35,71,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Amplifier envelope,Latch,,,,,,,35,72,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Modulation envelope,Attack free,,,,,,,35,127,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Modulation envelope,Decay free,,,,,,,36,1,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Modulation envelope,Release free,,,,,,,36,2,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Modulation envelope,Attack synced,,,,,,,36,4,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Modulation envelope,Decay synced,,,,,,,36,6,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Modulation envelope,Release synced,,,,,,,36,7,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 2: Modulation envelope,Sustain,,,,,,,35,112,0,16383,,0-based,,
+Moog,Moog One,Synth 2: Modulation envelope,Multi trig,,,,,,,35,119,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Modulation envelope,Sync,,,,,,,35,120,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Modulation envelope,Loop,,,,,,,35,121,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: Modulation envelope,Latch,,,,,,,35,122,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 2: VCA,Level,,,,,,,30,50,0,16383,,0-based,,
+Moog,Moog One,Synth 2: VCA,Pan,,,,,,,30,51,0,16383,,centered,,
+Moog,Moog One,Synth 3: LFO 1,Waveform,,,,,,,63,67,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 3: LFO 1,Rate free,,,,,,,63,79,0,16383,,0-based,,
+Moog,Moog One,Synth 3: LFO 1,Rate synced,,,,,,,63,80,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: LFO 2,Waveform,,,,,,,63,117,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 3: LFO 2,Rate free,,,,,,,64,1,0,16383,,0-based,,
+Moog,Moog One,Synth 3: LFO 2,Rate synced,,,,,,,64,2,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: LFO 3,Waveform,,,,,,,64,39,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 3: LFO 3,Rate free,,,,,,,64,51,0,16383,,0-based,,
+Moog,Moog One,Synth 3: LFO 3,Rate synced,,,,,,,64,52,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: LFO 4,Waveform,,,,,,,64,89,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
+Moog,Moog One,Synth 3: LFO 4,Rate free,,,,,,,64,101,0,16383,,0-based,,
+Moog,Moog One,Synth 3: LFO 4,Rate synced,,,,,,,64,102,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Oscillator 1,Octave,,,,,,,61,24,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 3: Oscillator 1,Frequency,,,,,,,61,23,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 1,Beat,,,,,,,61,28,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 1,Saw,,,,,,,61,30,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 1,Triangle,,,,,,,61,29,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 1,Pulse width,,,,,,,62,44,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 1,Mix,,,,,,,67,4,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 1,Wave,,,,,,,61,22,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 3: Oscillator 2,Octave,,,,,,,61,74,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 3: Oscillator 2,Frequency,,,,,,,61,73,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 2,Beat,,,,,,,61,78,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 2,Saw,,,,,,,61,80,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 2,Triangle,,,,,,,61,79,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 2,Pulse width,,,,,,,62,94,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 2,Mix,,,,,,,67,8,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 2,Wave,,,,,,,61,72,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 3: Oscillator 2,Hard sync,,,,,,,61,89,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Oscillator 3,Octave,,,,,,,61,124,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,Moog One,Synth 3: Oscillator 3,Frequency,,,,,,,61,123,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 3,Beat,,,,,,,62,0,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 3,Saw,,,,,,,62,2,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 3,Triangle,,,,,,,62,1,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 3,Pulse width,,,,,,,63,16,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 3,Mix,,,,,,,67,12,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Oscillator 3,Wave,,,,,,,61,122,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
+Moog,Moog One,Synth 3: Oscillator 3,Hard sync,,,,,,,62,11,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Pitch modulation,LFO 1 amount,,,,,,,66,82,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Pitch modulation,Mod EG amount,,,,,,,66,83,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Ring mod,Sources,,,,,,,60,52,0,16383,,0-based,,0-8191: 1-2; 8192-16383: 2-3
+Moog,Moog One,Synth 3: Waveform modulation LFO 3,Wave angle,,,,,,,66,84,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Waveform modulation LFO 3,Pulse width,,,,,,,66,85,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Frequency modulation,FM amount,,,,,,,60,66,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Frequency modulation,Route,,,,,,,60,65,0,16383,,0-based,,0-5460: 1-2; 5461-10921: 1-3; 10922-16383: 3-1
+Moog,Moog One,Synth 3: Noise,Attack,,,,,,,66,34,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Noise,Release,,,,,,,66,37,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Noise,Sustain,,,,,,,66,36,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Noise,Color mix,,,,,,,66,33,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Noise,Color,,,,,,,66,32,0,16383,,0-based,,0-5460: Red-white; 5461-10921: Red-purple; 10922-16383: White-purple
+Moog,Moog One,Synth 3: Polyphony,Detune,,,,,,,69,59,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Polyphony,Mono,,,,,,,69,51,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: polyphony,Unison,,,,,,,69,57,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Osc 1 level,,,,,,,67,5,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Mixer,Osc 1 SVF,,,,,,,67,6,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Osc 1 ladder,,,,,,,67,7,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Osc 2 level,,,,,,,67,9,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Mixer,Osc 2 SVF,,,,,,,67,10,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Osc 2 ladder,,,,,,,67,11,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Osc 3 level,,,,,,,67,13,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Mixer,Osc 3 SVF,,,,,,,67,14,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Osc 3 ladder,,,,,,,67,15,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Ring mod level,,,,,,,67,16,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Mixer,Ring mod SVF,,,,,,,67,17,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Ring mod ladder,,,,,,,67,18,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Noise level,,,,,,,67,19,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Mixer,Noise SVF,,,,,,,67,20,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Mixer,Noise ladder,,,,,,,67,21,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Filters,SVF cutoff,,,,,,,67,54,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filters,SVF resonance,,,,,,,67,56,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filters,Ladder cutoff,,,,,,,68,126,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filters,Ladder resonance,,,,,,,69,0,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filters,Mix,,,,,,,68,79,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filters,SVF mode,,,,,,,67,62,0,16383,,0-based,,0-4095: LP; 4096-8191: HP; 8192-12287: BP; 12288-16383: Notch
+Moog,Moog One,Synth 3: Filters,Route,,,,,,,68,78,0,16383,,0-based,,0-8191: Serial; 8192-16383: Parallel
+Moog,Moog One,Synth 3: Filters,Ladder mode,,,,,,,69,6,0,16383,,0-based,,0-8191: LP; 8192-16383: HP
+Moog,Moog One,Synth 3: Filters,Ladder slope,,,,,,,69,7,0,16383,,0-based,,0-4095: 6dB; 4096-8191: 12dB; 8192-12287: 18dB; 12288-16383: 24dB
+Moog,Moog One,Synth 3: Cutoff modulation,SVF LFO 2 amount,,,,,,,67,59,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Cutoff modulation,SVF EG amount,,,,,,,67,58,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Cutoff modulation,SVF FM amount,,,,,,,67,60,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Cutoff modulation,Ladder LFO 2 amount,,,,,,,69,3,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Cutoff modulation,Ladder EG amount,,,,,,,69,2,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Cutoff modulation,Ladder FM amount,,,,,,,69,4,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filter envelope,Attack free,,,,,,,65,27,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filter envelope,Decay free,,,,,,,65,29,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filter envelope,Release free,,,,,,,65,30,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filter envelope,Attack synced,,,,,,,65,32,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Filter envelope,Decay synced,,,,,,,65,34,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Filter envelope,Release synced,,,,,,,65,35,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Filter envelope,Sustain,,,,,,,65,12,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Filter envelope,Multi trig,,,,,,,65,19,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Filter envelope,Sync,,,,,,,35,20,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Filter envelope,Loop,,,,,,,65,21,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Filter envelope,Latch,,,,,,,65,22,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Amplifier envelope,Attack free,,,,,,,65,77,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Amplifier envelope,Decay free,,,,,,,65,79,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Amplifier envelope,Release free,,,,,,,65,80,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Amplifier envelope,Attack synced,,,,,,,65,82,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Amplifier envelope,Decay synced,,,,,,,65,84,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Amplifier envelope,Release synced,,,,,,,65,85,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Amplifier envelope,Sustain,,,,,,,65,62,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Amplifier envelope,Multi trig,,,,,,,65,69,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Amplifier envelope,Sync,,,,,,,65,70,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Amplifier envelope,Loop,,,,,,,65,71,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Amplifier envelope,Latch,,,,,,,65,72,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Modulation envelope,Attack free,,,,,,,65,127,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Modulation envelope,Decay free,,,,,,,66,1,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Modulation envelope,Release free,,,,,,,66,2,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Modulation envelope,Attack synced,,,,,,,66,4,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Modulation envelope,Decay synced,,,,,,,66,6,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Modulation envelope,Release synced,,,,,,,66,7,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
+Moog,Moog One,Synth 3: Modulation envelope,Sustain,,,,,,,65,112,0,16383,,0-based,,
+Moog,Moog One,Synth 3: Modulation envelope,Multi trig,,,,,,,65,119,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Modulation envelope,Sync,,,,,,,65,120,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Modulation envelope,Loop,,,,,,,65,121,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: Modulation envelope,Latch,,,,,,,65,122,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,Moog One,Synth 3: VCA,Level,,,,,,,60,50,0,16383,,0-based,,
+Moog,Moog One,Synth 3: VCA,Pan,,,,,,,60,51,0,16383,,centered,,
