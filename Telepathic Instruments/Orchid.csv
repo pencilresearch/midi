@@ -1,0 +1,4 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Telepathic Instruments,Orchid,General,Sustain pedal,,64,,,,,,,,,,0-based,,
+Telepathic Instruments,Orchid,General,All sounds off,,120,,,,,,,,,,0-based,,
+Telepathic Instruments,Orchid,General,All notes off,,123,,,,,,,,,,0-based,,
