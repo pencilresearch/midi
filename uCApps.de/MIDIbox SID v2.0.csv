@@ -1,0 +1,262 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+uCApps.de,MIDIbox SID v2.0,Lead engine: Arp,Voice 1/2/3 arp speed,,36,,0,63,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Arp,Voice 1/2/3 arp gate length,,37,,0,31,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 1 depth,,42,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 1 attack 1,,43,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 1 decay 2,,44,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 1 sustain,,45,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 1 release 1,,46,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 2 depth,,47,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 2 attack 1,,48,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 2 decay 2,,49,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 2 sustain,,50,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 2 release 1,,51,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter cutoff frequency,,4,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter resonance,,5,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter channels,Controlled by 4-bit bitmask.,8,,0,15,,,,,,,0-based,"Bit 0: Filter for Voice 1 on/off.
+Bit 1: Filter for Voice 2 on/off.
+Bit 2: Filter for Voice 3 on/off.
+Bit 3: Filter for Audio In on/off.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter mode,Controlled by 4-bit bitmask.,9,,0,15,,,,,,,0-based,"Bit 0: LowPass on/off.
+Bit 1: BandPass on/off.
+Bit 2: HighPass on/off.
+Bit 3: Voice 3 off.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 1 depth,,52,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 2 depth,,53,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 3 depth,,54,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 4 depth,,55,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 5 depth,,56,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 6 depth,,57,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 1 rate,,58,,0,127,,,,,,,0-based,,0: Off; 1~127: LFO rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 2 rate,,59,,0,127,,,,,,,0-based,,0: Off; 1~127: LFO rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 3 rate,,60,,0,127,,,,,,,0-based,,0: Off; 1~127: LFO rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 4 rate,,61,,0,127,,,,,,,0-based,,0: Off; 1~127: LFO rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 5 rate,,62,,0,127,,,,,,,0-based,,0: Off; 1~127: LFO rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 6 rate,,63,,0,127,,,,,,,0-based,,0: Off; 1~127: LFO rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: Modulation,Mod 1 depth,,90,,0,127,,,,,,,0-based,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Lead engine: Modulation,Mod 2 depth,,91,,0,127,,,,,,,0-based,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Lead engine: Modulation,Mod 3 depth,,92,,0,127,,,,,,,0-based,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Lead engine: Modulation,Mod 4 depth,,93,,0,127,,,,,,,0-based,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Lead engine: Modulation,Mod 5 depth,,94,,0,127,,,,,,,0-based,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Lead engine: Modulation,Mod 6 depth,,95,,0,127,,,,,,,0-based,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Lead engine: Modulation,Mod 7 depth,,96,,0,127,,,,,,,0-based,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Lead engine: Modulation,Mod 8 depth,,97,,0,127,,,,,,,0-based,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 1/2/3 VCA attack,,72,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 1 single VCA attack,,73,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 2 single VCA attack,,74,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 3 single VCA attack,,75,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 1/2/3 VCA decay,,76,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 1 single VCA decay,,77,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 2 single VCA decay,,78,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 3 single VCA decay,,79,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 1/2/3 VCA sustain,,80,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 1 VCA sustain,,81,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 2 VCA sustain,,82,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 3 VCA sustain,,83,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 1/2/3 VCA release,,84,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 1 single VCA release,,85,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 2 single VCA release,,86,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 3 single VCA release,,87,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Oscillator phase offset,,2,,0,127,,,,,,,centered,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Oscillator detune,,3,,0,127,,,,,,,centered,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1/2/3 waveform,Controlled by 7-bit bitmask.,20,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1 waveform,Controlled by 7-bit bitmask.,21,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 2 waveform,Controlled by 7-bit bitmask.,22,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 3 waveform,Controlled by 7-bit bitmask.,23,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1/2/3 transpose,,24,,0,127,,,,,,,0-based,,0~63: Negative transpose; 64: Off; 65~127: Positive transpose
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1 single transpose,,25,,0,127,,,,,,,centered,,0~63: Negative transpose; 64: Off; 65~127: Positive transpose
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 2 single transpose,,26,,0,127,,,,,,,centered,,0~63: Negative transpose; 64: Off; 65~127: Positive transpose
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 3 single transpose,,27,,0,127,,,,,,,centered,,0~63: Negative transpose; 64: Off; 65~127: Positive transpose
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1/2/3 finetune,,28,,0,127,,,,,,,centered,,0~63: Negative fine tune; 64: Off; 65~127: Positive fine tune
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1 single finetune,,29,,0,127,,,,,,,centered,,0~63: Negative fine tune; 64: Off; 65~127: Positive fine tune
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 2 single finetune,,30,,0,127,,,,,,,centered,,0~63: Negative fine tune; 64: Off; 65~127: Positive fine tune
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 3 single finetune,,31,,0,127,,,,,,,centered,,0~63: Negative fine tune; 64: Off; 65~127: Positive fine tune
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1/2/3 portamento rate,,32,,0,127,,,,,,,0-based,,0: Off; 1~127: Portamento rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1 portamento rate,,33,,0,127,,,,,,,0-based,,0: Off; 1~127: Portamento rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 2 portamento rate,,34,,0,127,,,,,,,0-based,,0: Off; 1~127: Portamento rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 3 portamento rate,,35,,0,127,,,,,,,0-based,,0: Off; 1~127: Portamento rate
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1/2/3 pulsewidth,,68,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65-127: Positive
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1 pulsewidth,,69,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65-127: Positive
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 2 pulsewidth,,70,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65-127: Positive
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 3 pulsewidth,,71,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65-127: Positive
+uCApps.de,MIDIbox SID v2.0,Lead engine: Knobs,Knob #1 (assignable parameters),,1,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Knobs,Knob #2 (assignable parameters),,16,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Knobs,Knob #3 (assignable parameters),,17,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Knobs,Knob #4 (assignable parameters),,18,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: Knobs,Knob #5 (assignable parameters),,19,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: General,Bank change,,0,,0,7,,,,,,,0-based,,0~7: Bank
+uCApps.de,MIDIbox SID v2.0,Lead engine: General,NRPN MSB value,,6,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: General,Volume,,7,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: General,NRPN LSB value,,38,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: General,Sustain on/off,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+uCApps.de,MIDIbox SID v2.0,Lead engine: General,NRPN LSB,,98,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: General,NRPN MSB,,99,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Lead engine: General,All notes off,,123,,0,127,,,,,,,0-based,,0: Off; 1-127: Ignore
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 1",,20,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 2",,21,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 3",,22,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 4",,23,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 5",,24,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 6",,25,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 7",,26,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 8",,27,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 9",,28,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 10",,29,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 11",,30,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 12",,31,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 13",,32,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 14",,33,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 15",,34,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Drum model,"Drum model, instrument 16",,35,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Filter,Filter cutoff frequency,,4,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Filter,Filter resonance,,5,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Filter,"Filter cutoff frequency, left channel SID",,8,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Filter,"Filter cutoff frequency, right channel SID",,9,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 1",,56,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 2",,57,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 3",,58,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 4",,59,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 5",,60,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 6",,61,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 7",,62,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 8",,63,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 9",,64,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 10",,65,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 11",,66,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 12",,67,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 13",,68,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 14",,69,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 15",,70,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 16 ",,71,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 1",,104,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 2",,105,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 3",,106,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 4",,107,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 5",,108,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 6",,109,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 7",,110,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 8",,111,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 9",,112,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 10",,113,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 11",,114,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 12",,115,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 13",,116,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 14",,117,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 15",,118,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 16",,119,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 1",,40,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 2",,41,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 3",,42,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 4",,43,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 5",,44,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 6",,45,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 7",,46,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 8",,47,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 9",,48,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 10",,49,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 11",,50,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 12",,51,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 13",,52,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 14",,53,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 15",,54,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 16",,55,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 1",,72,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 2",,73,,0,127,,,,,,,centered,Listed as CC 72 in the official documentation; likely an incrementing error,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 3",,74,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 4",,75,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 5",,76,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 6",,77,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 7",,78,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 8",,79,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 9",,80,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 10",,81,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 11",,82,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 12",,83,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 13",,84,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 14",,85,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 15",,86,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 16",,97,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Knobs,Knob #1 (assignable parameters),,1,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Knobs,Knob #2 (assignable parameters),,16,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Knobs,Knob #3 (assignable parameters),,17,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Knobs,Knob #4 (assignable parameters),,18,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Knobs,Knob #5 (assignable parameters),,19,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: General,Bank change,,0,,0,7,,,,,,,0-based,,0~7: Bank
+uCApps.de,MIDIbox SID v2.0,Bassline engine: General,NRPN MSB value,,6,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: General,Volume,,7,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: General,NRPN LSB value,,38,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: General,NRPN LSB,,98,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: General,NRPN MSB,,99,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Bassline engine: General,All notes off,,123,,0,127,,,,,,,0-based,,0: Off; 1-127: Ignore
+uCApps.de,MIDIbox SID v2.0,Multi engine: Envelopes,Envelope 1 pitch depth,,40,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: Envelopes,Envelope 1 pulsewidth depth,,41,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: Envelopes,Envelope 1 filter depth,,42,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: Envelopes,Envelope 1 attack 1,,43,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Envelopes,Envelope 1 decay 2,,44,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Envelopes,Envelope 1 sustain,,45,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Envelopes,Envelope 1 release 1,,46,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Filter,Filter cutoff frequency,,4,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Filter,Filter resonance,,5,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Filter,"Filter cutoff frequency, left channel SID",,8,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Filter,"Filter cutoff frequency, right channel SID",,9,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: LFOs,LFO 1 pitch depth,,50,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: LFOs,LFO 1 pulsewidth depth,,51,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: LFOs,LFO 1 filter depth,,52,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: LFOs,LFO 1 rate,,53,,0,127,,,,,,,0-based,,0: Off; 1~127: LFO rate
+uCApps.de,MIDIbox SID v2.0,Multi engine: LFOs,LFO 2 pitch depth,,54,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: LFOs,LFO 2 pulsewidth depth,,55,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: LFOs,LFO 2 filter depth,,56,,0,127,,,,,,,centered,,0~63: Inverted depth; 64: Off; 65-127: Depth
+uCApps.de,MIDIbox SID v2.0,Multi engine: LFOs,LFO 2 rate,,57,,0,127,,,,,,,0-based,,0: Off; 1~127: LFO rate
+uCApps.de,MIDIbox SID v2.0,Multi engine: VCA,VCA attack,,72,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: VCA,VCA decay,,76,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: VCA,VCA sustain,,80,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: VCA,VCA release,,84,,0,15,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice waveform,Controlled by 7-bit bitmask.,20,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
+uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice transpose,,24,,0,127,,,,,,,centered,,0~63: Negative; 64: Off; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice finetune,,28,,0,127,,,,,,,centered,,0~63: Negative; 64: Off; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice portamento rate,,32,,0,127,,,,,,,0-based,,0: Off; 1~127: Portamento amount
+uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice arp speed,,36,,0,63,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice arp gate length,,37,,0,31,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice pulsewidth,,68,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Multi engine: Knobs,Knob #1 (assignable parameters),,1,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Knobs,Knob #2 (assignable parameters),,16,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Knobs,Knob #3 (assignable parameters),,17,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Knobs,Knob #4 (assignable parameters),,18,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: Knobs,Knob #5 (assignable parameters),,19,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: General,Bank change,,0,,0,7,,,,,,,0-based,,0~7: Bank
+uCApps.de,MIDIbox SID v2.0,Multi engine: General,NRPN MSB value,,6,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: General,Volume,,7,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: General,NRPN LSB value,,38,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: General,NRPN LSB,,98,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: General,NRPN MSB,,99,,0,127,,,,,,,0-based,,
+uCApps.de,MIDIbox SID v2.0,Multi engine: General,All notes off,,123,,0,127,,,,,,,0-based,,0: Off; 1-127: Ignore
