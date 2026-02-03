@@ -13,14 +13,14 @@ uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 2 sustain,,50,,0,127,
 uCApps.de,MIDIbox SID v2.0,Lead engine: Envelopes,Envelope 2 release 1,,51,,0,127,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter cutoff frequency,,4,,0,127,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter resonance,,5,,0,127,,,,,,,0-based,,
-uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter channels,Controlled by 4-bit bitmask.,8,,0,15,,,,,,,0-based,"Bit 0: Filter for Voice 1 on/off
-Bit 1: Filter for Voice 2 on/off
-Bit 2: Filter for Voice 3 on/off
-Bit 3: Filter for Audio In on/off",
-uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter mode,Controlled by 4-bit bitmask.,9,,0,15,,,,,,,0-based,"Bit 0: LowPass on/off
-Bit 1: BandPass on/off
-Bit 2: HighPass on/off
-Bit 3: Voice 3 off",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter channels,Controlled by 4-bit bitmask.,8,,0,15,,,,,,,0-based,"Bit 0: Filter for Voice 1 on/off.
+Bit 1: Filter for Voice 2 on/off.
+Bit 2: Filter for Voice 3 on/off.
+Bit 3: Filter for Audio In on/off.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Filter,Filter mode,Controlled by 4-bit bitmask.,9,,0,15,,,,,,,0-based,"Bit 0: LowPass on/off.
+Bit 1: BandPass on/off.
+Bit 2: HighPass on/off.
+Bit 3: Voice 3 off.",
 uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 1 depth,,52,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
 uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 2 depth,,53,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
 uCApps.de,MIDIbox SID v2.0,Lead engine: LFOs,LFO 3 depth,,54,,0,127,,,,,,,centered,,0~63: Negative depth amount; 64: Off; 65~127: Positive depth amount
@@ -59,34 +59,34 @@ uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 2 single VCA release,,86,,0,1
 uCApps.de,MIDIbox SID v2.0,Lead engine: VCAs,Voice 3 single VCA release,,87,,0,15,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Oscillator phase offset,,2,,0,127,,,,,,,centered,,
 uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Oscillator detune,,3,,0,127,,,,,,,centered,,
-uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1/2/3 waveform,Controlled by 7-bit bitmask.,20,,0,127,,,,,,,0-based,"Bit 0: Triangle
-Bit 1: Saw
-Bit 2: Pulse
-Bit 3: Noise (disables all other waveforms)
-Bit 4: Disable voice
-Bit 5: Sync
-Bit 6: Ring modulator",
-uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1 waveform,Controlled by 7-bit bitmask.,21,,0,127,,,,,,,0-based,"Bit 0: Triangle
-Bit 1: Saw
-Bit 2: Pulse
-Bit 3: Noise (disables all other waveforms)
-Bit 4: Disable voice
-Bit 5: Sync
-Bit 6: Ring modulator",
-uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 2 waveform,Controlled by 7-bit bitmask.,22,,0,127,,,,,,,0-based,"Bit 0: Triangle
-Bit 1: Saw
-Bit 2: Pulse
-Bit 3: Noise (disables all other waveforms)
-Bit 4: Disable voice
-Bit 5: Sync
-Bit 6: Ring modulator",
-uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 3 waveform,Controlled by 7-bit bitmask.,23,,0,127,,,,,,,0-based,"Bit 0: Triangle
-Bit 1: Saw
-Bit 2: Pulse
-Bit 3: Noise (disables all other waveforms)
-Bit 4: Disable voice
-Bit 5: Sync
-Bit 6: Ring modulator",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1/2/3 waveform,Controlled by 7-bit bitmask.,20,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1 waveform,Controlled by 7-bit bitmask.,21,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 2 waveform,Controlled by 7-bit bitmask.,22,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
+uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 3 waveform,Controlled by 7-bit bitmask.,23,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
 uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1/2/3 transpose,,24,,0,127,,,,,,,0-based,,0~63: Negative transpose; 64: Off; 65~127: Positive transpose
 uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 1 single transpose,,25,,0,127,,,,,,,centered,,0~63: Negative transpose; 64: Off; 65~127: Positive transpose
 uCApps.de,MIDIbox SID v2.0,Lead engine: Voices,Voice 2 single transpose,,26,,0,127,,,,,,,centered,,0~63: Negative transpose; 64: Off; 65~127: Positive transpose
@@ -235,13 +235,13 @@ uCApps.de,MIDIbox SID v2.0,Multi engine: VCA,VCA attack,,72,,0,15,,,,,,,0-based,
 uCApps.de,MIDIbox SID v2.0,Multi engine: VCA,VCA decay,,76,,0,15,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Multi engine: VCA,VCA sustain,,80,,0,15,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Multi engine: VCA,VCA release,,84,,0,15,,,,,,,0-based,,
-uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice waveform,Controlled by 7-bit bitmask.,20,,0,127,,,,,,,0-based,"Bit 0: Triangle
-Bit 1: Saw
-Bit 2: Pulse
-Bit 3: Noise (disables all other waveforms)
-Bit 4: Disable voice
-Bit 5: Sync
-Bit 6: Ring modulator",
+uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice waveform,Controlled by 7-bit bitmask.,20,,0,127,,,,,,,0-based,"Bit 0: Triangle.
+Bit 1: Saw.
+Bit 2: Pulse.
+Bit 3: Noise (disables all other waveforms).
+Bit 4: Disable voice.
+Bit 5: Sync.
+Bit 6: Ring modulator.",
 uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice transpose,,24,,0,127,,,,,,,centered,,0~63: Negative; 64: Off; 65~127: Positive
 uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice finetune,,28,,0,127,,,,,,,centered,,0~63: Negative; 64: Off; 65~127: Positive
 uCApps.de,MIDIbox SID v2.0,Multi engine: Voice,Voice portamento rate,,32,,0,127,,,,,,,0-based,,0: Off; 1~127: Portamento amount
