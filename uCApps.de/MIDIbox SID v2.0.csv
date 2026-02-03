@@ -136,70 +136,70 @@ uCApps.de,MIDIbox SID v2.0,Bassline engine: Filter,Filter cutoff frequency,,4,,0
 uCApps.de,MIDIbox SID v2.0,Bassline engine: Filter,Filter resonance,,5,,0,127,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Bassline engine: Filter,"Filter cutoff frequency, left channel SID",,8,,0,127,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Bassline engine: Filter,"Filter cutoff frequency, right channel SID",,9,,0,127,,,,,,,0-based,,
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 1,,56,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 2,,57,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 3,,58,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 4,,59,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 5,,60,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 6,,61,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 7,,62,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 8,,63,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 9,,64,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 10,,65,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 11,,66,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 12,,67,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 13,,68,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 14,,69,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 15,,70,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,Gate length of instrument 16 ,,71,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 1,,104,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 2,,105,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 3,,106,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 4,,107,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 5,,108,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 6,,109,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 7,,110,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 8,,111,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 9,,112,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 10,,113,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 11,,114,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 12,,115,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 13,,116,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 14,,117,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 15,,118,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,Parameter 3 of instrument 16,,119,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 1,,40,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 2,,41,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 3,,42,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 4,,43,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 5,,44,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 6,,45,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 7,,46,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 8,,47,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 9,,48,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 10,,49,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 11,,50,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 12,,51,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 13,,52,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 14,,53,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 15,,54,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,Tuning of instrument 16,,55,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 1,,72,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 2,,73,,0,127,,,,,,,centered,Listed as CC 72 in the official documentation; likely an incrementing error,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 3,,74,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 4,,75,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 5,,76,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 6,,77,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 7,,78,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 8,,79,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 9,,80,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 10,,81,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 11,,82,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 12,,83,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 13,,84,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 14,,85,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 15,,86,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
-uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,WT speed of instrument 16,,97,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 1",,56,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 2",,57,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 3",,58,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 4",,59,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 5",,60,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 6",,61,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 7",,62,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 8",,63,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 9",,64,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 10",,65,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 11",,66,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 12",,67,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 13",,68,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 14",,69,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 15",,70,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Gate length,"Gate length, instrument 16 ",,71,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 1",,104,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 2",,105,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 3",,106,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 4",,107,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 5",,108,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 6",,109,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 7",,110,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 8",,111,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 9",,112,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 10",,113,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 11",,114,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 12",,115,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 13",,116,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 14",,117,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 15",,118,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Parameter 3,"Parameter 3, instrument 16",,119,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 1",,40,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 2",,41,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 3",,42,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 4",,43,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 5",,44,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 6",,45,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 7",,46,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 8",,47,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 9",,48,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 10",,49,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 11",,50,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 12",,51,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 13",,52,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 14",,53,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 15",,54,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Tuning,"Tuning, instrument 16",,55,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 1",,72,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 2",,73,,0,127,,,,,,,centered,Listed as CC 72 in the official documentation; likely an incrementing error,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 3",,74,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 4",,75,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 5",,76,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 6",,77,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 7",,78,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 8",,79,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 9",,80,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 10",,81,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 11",,82,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 12",,83,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 13",,84,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 14",,85,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 15",,86,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
+uCApps.de,MIDIbox SID v2.0,Bassline engine: Wavetable speed,"WT speed, instrument 16",,97,,0,127,,,,,,,centered,,0~63: Negative; 64: Mid; 65~127: Positive
 uCApps.de,MIDIbox SID v2.0,Bassline engine: Knobs,Knob #1 (assignable parameters),,1,,0,127,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Bassline engine: Knobs,Knob #2 (assignable parameters),,16,,0,127,,,,,,,0-based,,
 uCApps.de,MIDIbox SID v2.0,Bassline engine: Knobs,Knob #3 (assignable parameters),,17,,0,127,,,,,,,0-based,,
