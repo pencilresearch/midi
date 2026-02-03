@@ -1,0 +1,41 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Yamaha,SEQTRAK,Sound design,Track volume,,7,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,Track pan,,10,,1,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,Drum pitch,,25,,40,88,,,,,,,centered,Channels 1-7. Available on drum.,
+Yamaha,SEQTRAK,Sound design,Mono/poly/chord,,26,,0,2,,,,,,,0-based,"Channels 8-10. Available on synth, DX.",0: Mono; 1: Poly; 2: Chord
+Yamaha,SEQTRAK,Sound design,Attack time,,73,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,Decay/release time,,75,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,Filter cutoff,,74,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,Filter resonance,,71,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,Reverb send,,91,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,Delay send,,94,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,EQ - High gain,,20,,40,88,,,,,,,centered,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,EQ - Low gain,,21,,40,88,,,,,,,centered,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Sound design,Portamento time,,5,,0,127,,,,,,,0-based,"Channels 8-10. Available on synth, DX (must be mono).",0: Off; 1~127: Portamento time
+Yamaha,SEQTRAK,Sound design,Portamento switch,,65,,0,1,,,,,,,0-based,"Channels 8-10. Available on synth, DX.",0: Off; 1: On
+Yamaha,SEQTRAK,Sound design,Arp type,,27,,0,16,,,,,,,0-based,"Channels 8-10. Available on synth, DX.",0: Off; 1~16: Arp type
+Yamaha,SEQTRAK,Sound design,Arp gate,,28,,0,127,,,,,,,0-based,"Channels 8-10. Available on synth, DX.",
+Yamaha,SEQTRAK,Sound design,Arp speed,,29,,0,9,,,,,,,0-based,"Channels 8-10. Available on synth, DX.",
+Yamaha,SEQTRAK,Sound design,FM algorithm,,116,,0,127,,,,,,,0-based,Channel 10. Available on FX.,
+Yamaha,SEQTRAK,Sound design,FM modulation amount,,117,,0,127,,,,,,,0-based,Channel 10. Available on FX.,
+Yamaha,SEQTRAK,Sound design,FM modulator frequency,,118,,0,127,,,,,,,0-based,Channel 10. Available on FX.,
+Yamaha,SEQTRAK,Sound design,FM modulator feedback,,119,,0,127,,,,,,,0-based,Channel 10. Available on FX.,
+Yamaha,SEQTRAK,Effects,"Master effect 1, assigned parameter 1",,102,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Master effect 1, assigned parameter 2",,103,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Master effect 1, assigned parameter 3",,104,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Master effect 2, assigned parameter",,105,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Master effect 3, assigned parameter",,106,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Single effect, assigned parameter 1",,107,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Effects,"Single effect, assigned parameter 2",,108,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Effects,"Single effect, assigned parameter 3",,109,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",
+Yamaha,SEQTRAK,Effects,"Send reverb, assigned parameter 1",,110,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Send reverb, assigned parameter 2",,111,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Send reverb, assigned parameter 3",,112,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Send delay, assigned parameter 1",,113,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Send delay, assigned parameter 2",,114,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Effects,"Send delay, assigned parameter 3",,115,,0,127,,,,,,,0-based,Channel 1.,
+Yamaha,SEQTRAK,Mute / solo,Mute,,23,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",0-63: Off; 64-127: On
+Yamaha,SEQTRAK,Mute / solo,Solo,,24,,0,11,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",0: Off; 1~11: Track 1...Track 11
+Yamaha,SEQTRAK,Other,Damper pedal,,64,,0,127,,,,,,,0-based,"Channels 8-11. Available on synth, DX, sampler.",0
+Yamaha,SEQTRAK,Other,Sostenuto,,66,,0,127,,,,,,,0-based,"Channels 8, 9, 11. Available on synth, sampler.",0-63: Off; 64-127: On
+Yamaha,SEQTRAK,Other,Expression control,,11,,0,127,,,,,,,0-based,"Channels 1-11. Available on synth, DX, sampler.",
