@@ -19,7 +19,6 @@ Behringer,JT-4000M MICRO,Filter,VCF EG Att,VCF EG Attack,85,,0,127,,,,,,,0-based
 Behringer,JT-4000M MICRO,Filter,VCF EG Dec,VCF EG Decay,86,,0,127,,,,,,,0-based,,
 Behringer,JT-4000M MICRO,Filter,VCF EG Sus,VCF EG Sustain,87,,0,127,,,,,,,0-based,,
 Behringer,JT-4000M MICRO,Filter,VCF EG Rel,VCF EG Release,88,,0,127,,,,,,,0-based,,
-Behringer,JT-4000M MICRO,General,Porta Time,Portamento Time,5,,0,127,,,,,,,0-based,,
 Behringer,JT-4000M MICRO,LFOs,LFO1 Dest,LFO1 Destination,56,,0,127,,,,,,,0-based,,
 Behringer,JT-4000M MICRO,LFOs,LFO1 Wave,LFO1 Waveform,54,,0,127,,,,,,,0-based,,
 Behringer,JT-4000M MICRO,LFOs,LFO1 Amount,LFO1 Amount,70,,0,127,,,,,,,0-based,,
@@ -30,3 +29,4 @@ Behringer,JT-4000M MICRO,LFOs,LFO2 Amount,LFO2 Amount,28,,0,127,,,,,,,0-based,,
 Behringer,JT-4000M MICRO,Modulation,Mod,Modulation,1,,0,127,,,,,,,0-based,,
 Behringer,JT-4000M MICRO,Modulation,Ring Mod Amount,Ring Modulation Amount,95,,0,127,,,,,,,0-based,,
 Behringer,JT-4000M MICRO,Modulation,Ring Mod Toggle,Ring Modulation on/off,96,,0,127,,,,,,,0-based,,0-64: Off; 65-127: On
+Behringer,JT-4000M MICRO,General,Porta Time,Portamento Time,5,,0,127,,,,,,,0-based,,
