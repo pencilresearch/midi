@@ -26,10 +26,10 @@ Novation,Circuit Mono Station,Filter,Overdrive,,114,,0,127,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Filter,Resonance,,71,,0,127,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Filter,Frequency,,16,48,0,255,255,,,,,,0-based,,
 Novation,Circuit Mono Station,Filter,Shape,,84,,0,2,0,,,,,,0-based,,0: Low pass; 1: Band pass; 2: High pass
-Novation,Circuit Mono Station,Filter,Slope,,40,,0,1,1,,,,,,0-based,,0: Low pass; 1: Band pass; 2: High pass
+Novation,Circuit Mono Station,Filter,Slope,,40,,0,1,1,,,,,,0-based,,0: 12dB; 1: 24dB
 Novation,Circuit Mono Station,Filter,Bypass,,83,,0,3,0,,,,,,0-based,,0: Off; 1: Noise; 2: Oscillator 2; 3: Noise and oscillator 2
 Novation,Circuit Mono Station,Filter,Key tracking,,69,,0,7,7,,,,,,0-based,,0: 0%; 1: 15%; 2: 30%; 3: 45%; 4: 60%; 5: 75%; 6: 90%; 7: 100%
-Novation,Circuit Mono Station,Envelope,Trigger,,73,0,0,1,0,,,,,,0-based,,
+Novation,Circuit Mono Station,Envelope,Trigger,,73,,0,1,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Envelope,Attack,,90,,0,127,2,,,,,,0-based,,
 Novation,Circuit Mono Station,Envelope,Decay,,91,,0,127,90,,,,,,0-based,,
 Novation,Circuit Mono Station,Envelope,Sustain,,92,,0,127,127,,,,,,0-based,,
