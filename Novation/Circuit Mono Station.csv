@@ -1,5 +1,5 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Novation,Circuit Mono Station,Patch,Category,,64,2,0,14,0,,,,,,0-based,,
+Novation,Circuit Mono Station,Patch,Category,,64,,0,14,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Oscillator common,Oscillator sync,,110,,0,1,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Oscillator 1,Keyboard octave,,117,,58,69,64,,,,,,centered,,
 Novation,Circuit Mono Station,Oscillator 1,Waveform type,,80,,0,3,2,,,,,,centered,,0: Sine; 1: Triangle; 2: Saw; 3: Pulse
