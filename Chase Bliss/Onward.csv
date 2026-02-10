@@ -1,0 +1,53 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Onward,Knobs,Size,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Knob,Mix,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Knobs,Octave,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Knobs,Error,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Knobs,Sustain,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Knobs,Texture,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Knobs,Ramp speed,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Toggles,Error type,,21,,0,127,,,,,,,0-based,,0-1: Timing; 2: Condition; 3-127: Playback
+Chase Bliss,Onward,Toggles,Fade,,22,,0,127,,,,,,,0-based,,0-1: Long; 2: User; 3-127: Short
+Chase Bliss,Onward,Toggles,Animate,,23,,0,127,,,,,,,0-based,,0-1: Vibrato; 2: Off; 3-127: Chorus
+Chase Bliss,Onward,Foot switches,Freeze bypass,,102,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,Foot switches,Glitch bypass,,103,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,Foot switches,Alt menu,,104,,0,127,,,,,,,0-based,,0: Exit; 1-127: Enter
+Chase Bliss,Onward,Foot switches,Glitch hold,,105,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,Foot switches,Freeze hold,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,Foot switches,Retrigger glitch,,108,,0,127,,,,,,,0-based,,0-127: Trigger
+Chase Bliss,Onward,Foot switches,Retrigger freeze,,109,,0,127,,,,,,,0-based,,0-127: Trigger
+Chase Bliss,Onward,"Dip switches, left bank",Size,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, left bank",Error,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, left bank",Sustain,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, left bank",Texture,,64,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, left bank",Octave,,65,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, left bank",Bounce,,66,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, left bank",Sweep,,67,,0,127,,,,,,,0-based,,0: B; 1-127: T
+Chase Bliss,Onward,"Dip switches, left bank",Polarity,,68,,0,127,,,,,,,0-based,,0: F; 1-127: R
+Chase Bliss,Onward,"Dip switches, right bank",Miso,,71,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, right bank",Spread,,72,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, right bank",Latch,,73,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, right bank",Sidechain,,74,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, right bank",Duck,,75,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, right bank",Reverse,,76,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, right bank",1/2 speed,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,"Dip switches, right bank",Manual,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,Hidden options,Sensitivity,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Hidden options,Balance,,25,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Hidden options,Duck depth,,26,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Hidden options,Error blend,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Hidden options,User fade,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Hidden options,Filter,,29,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Hidden options,Error routing,,31,,0,127,,,,,,,0-based,,0-1: Glitch; 2: Both; 3-127: Freeze
+Chase Bliss,Onward,Hidden options,Sustain routing,,32,,0,127,,,,,,,0-based,,0-1: Glitch; 2: Both; 3-127: Freeze
+Chase Bliss,Onward,Hidden options,Effects routing,,33,,0,127,,,,,,,0-based,,0-1: Glitch; 2: Both; 3-127: Freeze
+Chase Bliss,Onward,Other,Tap tempo,,107,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Onward,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,,0: Ignore; 1-127: Follow
+Chase Bliss,Onward,Other,Ramping,,52,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,Other,Tap tempo (legacy),,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Onward,Other,Expression,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Onward,Other,Preset save,,111,,0,122,,,,,,,0-based,,0~122: Preset slot
+Chase Bliss,Onward,Other,MIDI sync subdivision,,53,,0,8,,,,,,,0-based,,0: Whole; 1: Dotted half; 2: Half; 3: Dotted quarter; 4: Quarter; 5: Dotted 8th; 6: 8th; 7: 8th note triplet; 8: Sixteenth
+Chase Bliss,Onward,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Factory reset
+Chase Bliss,Onward,Other,Dry kill,,57,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Onward,Other,Trails,,58,,0,127,,,,,,,0-based,,0: Off; 1-127: On

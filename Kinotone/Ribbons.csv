@@ -1,0 +1,49 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Kinotone,Ribbons,Mix and utility,High-pass filter,,14,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Mix and utility,Low-pass filter,,15,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Mix and utility,Mix,,16,,0,127,,,,,,,centered,,
+Kinotone,Ribbons,Mix and utility,Compression / saturation,,17,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Wow and flutter,Wow frequency,,18,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Wow and flutter,Wow depth,,19,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Wow and flutter,Flutter depth,,20,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Wow and flutter,Flutter frequency,,21,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Degradation,Dropouts frequency,,22,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Degradation,Dropouts depth,,23,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Degradation,Crinkle,,24,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Degradation,Noise,,25,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Reverb,Reverb decay,,26,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Reverb,Reverb mix and placement,,27,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Touch,Touch param 1,,28,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Touch,Touch param 2,,29,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Touch,Touch mode select,,30,,0,127,,,,,,,0-based,,0-18: Magnetic dance; 19-36: Tape stop; 37-54: Broken machine; 55-73: Repeater; 74-91: Crushed cassette; 92-109: Disintegration loop; 110-127 UnrealPlayer
+Kinotone,Ribbons,Touch,Clear touch mode loops,,60,,65,127,,,,,,,0-based,,65-127: Clear touch mode loops
+Kinotone,Ribbons,Looper control,Change looper track,,32,,0,127,,,,,,,0-based,,0-31: Track 1; 32-63: Track 2; 64-95: Track 3; 96-127: Track 4
+Kinotone,Ribbons,Looper control,Clear current looper track,,33,,65,127,,,,,,,0-based,,65-127: Clear current looper track
+Kinotone,Ribbons,Looper control,Clear all looper tracks,,34,,65,127,,,,,,,0-based,,65-127: Clear all looper tracks
+Kinotone,Ribbons,Track 1,Direction,,35,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 1,Speed,,36,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 1,Volume,,37,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 1,Scale,,38,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 2,Direction,,39,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 2,Speed,,40,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 2,Volume,,41,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 2,Scale,,42,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 3,Direction,,43,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 3,Speed,,44,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 3,Volume,,45,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 3,Scale,,46,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 4,Direction,,47,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 4,Speed,,48,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 4,Volume,,49,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Track 4,Scale,,50,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Other,Ignore MIDI clock,,51,,0,127,,,,,,,0-based,,0: Ignore MIDI clock; 1-127: Listen to MIDI clock
+Kinotone,Ribbons,Synth,Synth attack,,52,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Synth,Synth release,,53,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Synth,Synth volume,,54,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Degradation,UnrealPlayer fidelity,,55,,0,127,,,,,,,0-based,,0-64: Lo-fi; 65-127: Hi-fi
+Kinotone,Ribbons,Hidden options,Ribbons mode select,,31,,0,127,,,,,,,0-based,,0-64: Tape effects; 65-127: Looper
+Kinotone,Ribbons,Hidden options,Filter resonance,,57,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Hidden options,Makeup gain,,58,,0,127,,,,,,,0-based,,
+Kinotone,Ribbons,Hidden options,Compression/saturation,,59,,0,127,,,,,,,0-based,,0-64: Compression; 65-127: Saturation
+Kinotone,Ribbons,Footswitches,Touch footswitch,,80,,0,127,,,,,,,0-based,,0-64: Off; 65-127: On
+Kinotone,Ribbons,Footswitches,Bypass footswitch,,81,,0,127,,,,,,,0-based,,0-64: Off; 65-127: On

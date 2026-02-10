@@ -1,0 +1,45 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Reverse Mode C,Knobs,Time,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Knobs,Mix,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Knobs,Feedback,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Knobs,Offset,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Knobs,Balance,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Knobs,Filter,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Knobs,Ramp speed,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Toggles,Mod sync,,21,,0,127,,,,,,,0-based,,0-1: Sync; 2: Off; 3-127: Free
+Chase Bliss,Reverse Mode C,Toggles,Mod type,,22,,0,127,,,,,,,0-based,,0-1: Vibrato; 2: Tremolo; 3-127: Freq shift up
+Chase Bliss,Reverse Mode C,Toggles,Sequence mode,,23,,0,127,,,,,,,0-based,,0-1: Run; 2: Off; 3-127: Env
+Chase Bliss,Reverse Mode C,Hidden options,Sequencer subdivision,,24,,0,127,,,,,,,0-based,,0-15: x16; 16-31: x8; 32-47: x4; 48-63: x2; 64-79: x1; 80-95: x1/2; 96-111: x1/4; 112-127: x1/8
+Chase Bliss,Reverse Mode C,Hidden options,Ramping waveform,,25,,0,127,,,,,,,0-based,,0-14: Triangle; 15-54: Square; 55-80: Sine; 81-126: Random; 127: Smooth random
+Chase Bliss,Reverse Mode C,Hidden options,Modulation depth,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Hidden options,Modulation rate,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Hidden options,Octave type,,31,,0,127,,,,,,,0-based,,0-1: Oct down; 2: Both oct; 3-127: Oct up
+Chase Bliss,Reverse Mode C,Hidden options,Sequence spacing,,33,,0,127,,,,,,,0-based,,0-1: Rest; 2-127: Skip
+Chase Bliss,Reverse Mode C,"Dip switches, left bank",Time,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, left bank",Offset,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, left bank",Balance,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, left bank",Filter,,64,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, left bank",Feed,,65,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, left bank",Bounce,,66,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, left bank",Sweep,,67,,0,127,,,,,,,0-based,,0: B; 1-127: T
+Chase Bliss,Reverse Mode C,"Dip switches, left bank",Polarity,,68,,0,127,,,,,,,0-based,,0: F; 1-127: R
+Chase Bliss,Reverse Mode C,"Dip switches, right bank",Swap,,71,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, right bank",Miso,,72,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, right bank",Spread,,73,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, right bank",Trails,,74,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, right bank",Latch,,75,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, right bank",Feed type,,76,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, right bank",Fade type,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,"Dip switches, right bank",Mod type,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,Foot switches,"Tap tempo, legacy",,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Reverse Mode C,Foot switches,Bypass,,102,,0,127,,,,,,,0-based,,0: Pedal off; 1-127: Pedal on
+Chase Bliss,Reverse Mode C,Foot switches,Tap tempo,,103,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Reverse Mode C,Foot switches,Alt,,104,,0,127,,,,,,,0-based,,0: Alt exit; 1-127: Alt enter
+Chase Bliss,Reverse Mode C,Foot switches,Freeze,,105,,0,127,,,,,,,0-based,,0: Freeze off; 1-127: Freeze on
+Chase Bliss,Reverse Mode C,Foot switches,Half speed,,106,,0,127,,,,,,,0-based,,0: Normal; 1-127: Half speed
+Chase Bliss,Reverse Mode C,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,,0: Ignore; 1-127: Follow
+Chase Bliss,Reverse Mode C,Other,Ramping,,52,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,Other,Factory reset,,56,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Other,System,,57,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Reverse Mode C,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Reverse Mode C,Other,Preset save,,111,,0,122,,,,,,,0-based,,0~122: Preset slot
