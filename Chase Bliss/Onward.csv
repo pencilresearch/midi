@@ -14,8 +14,8 @@ Chase Bliss,Onward,Foot switches,Glitch bypass,,103,,0,127,,,,,,,0-based,,0: Off
 Chase Bliss,Onward,Foot switches,Alt menu,,104,,0,127,,,,,,,0-based,,0: Exit; 1-127: Enter
 Chase Bliss,Onward,Foot switches,Glitch hold,,105,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Onward,Foot switches,Freeze hold,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
-Chase Bliss,Onward,Foot switches,Retrigger glitch,,108,,0,127,,,,,,,0-based,,0~127: Trigger
-Chase Bliss,Onward,Foot switches,Retrigger freeze,,109,,0,127,,,,,,,0-based,,0~127: Trigger
+Chase Bliss,Onward,Foot switches,Retrigger glitch,,108,,0,127,,,,,,,0-based,,0-127: Trigger
+Chase Bliss,Onward,Foot switches,Retrigger freeze,,109,,0,127,,,,,,,0-based,,0-127: Trigger
 Chase Bliss,Onward,"Dip switches, left bank",Size,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Onward,"Dip switches, left bank",Error,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Onward,"Dip switches, left bank",Sustain,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On

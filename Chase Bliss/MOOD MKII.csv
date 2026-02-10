@@ -11,7 +11,7 @@ Chase Bliss,MOOD MKII,Toggles,Routing,,22,,0,127,,,,,,,0-based,,0-1: In; 2: Micr
 Chase Bliss,MOOD MKII,Toggles,Micro-looper mode,,23,,0,127,,,,,,,0-based,,0-1: Env; 2: Tape; 3-127: Stretch
 Chase Bliss,MOOD MKII,Knobs,Time,,14,,0,127,,,,,,,0-based,,0-12: Thirty secont note; 13-36: Sixteenth note; 37-61: Eighth note triplet; 62-84: Eighth note; 85-110: Dotted eighth note; 111-127: Quarter note
 Chase Bliss,MOOD MKII,Knobs,Mix,,15,,0,127,,,,,,,0-based,,
-Chase Bliss,MOOD MKII,Knobs,Length,,16,,0,127,,,,,,,0-based,Applies to tape mode only,0-12: x/32; 13-36: x/16; 37-61: x/8; 62-84: x/4; 85-110: x/2; 111-127: x
+Chase Bliss,MOOD MKII,Knobs,Length,,16,,0,127,,,,,,,0-based,Applies to tape mode only,0-12: x/32; 13-36: x/16; 37-61: x/8; 62-84: x/4; 85-110: x/2; 111-127: x/1
 Chase Bliss,MOOD MKII,Knobs,Wet channel modify,,17,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Knobs,Clock,,18,,0,127,,,,,,,0-based,,0-4: 2k; 5-16: 3k; 16-28: 4k; 29-40: 6k; 41-53: 8k; 54-69: 12k; 70-83: 16k; 84-95: 24k; 96-109: 32k; 110-121: 48k; 122-127: 64k
 Chase Bliss,MOOD MKII,Knobs,Micro-looper modify,,19,,0,127,,,,,,,0-based,,0-15: No stretch rev; 16-30: 1.5x reverse; 31-46: 2x reverse; 47-60: 4x reverse; 61-80: Stalled; 81-96: 4x forward; 97-111: 2x forward; 112-126: 1.5x forward; 127: No stretch forward
