@@ -1,0 +1,56 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+MIDI Association,Generic MIDI 1.0,Control Change messages,Bank select,,0,32,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Modulation wheel,,1,33,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Breath controller,,2,34,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Foot controller,,4,36,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Portamento time,,5,37,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Data entry,,6,38,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Channel volume,,7,39,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Balance,,8,40,0,16383,,,,,,,centered,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Pan,,10,42,0,16383,,,,,,,centered,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Expression controller,,11,43,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effect control 1,,12,44,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effect control 2,,13,45,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 1,,16,48,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 2,,17,49,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 3,,18,50,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 4,,19,51,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Damper pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+MIDI Association,Generic MIDI 1.0,Control Change messages,Portamento switch,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sostenuto switch,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+MIDI Association,Generic MIDI 1.0,Control Change messages,Soft pedal switch,,67,,0,127,,,,,,,0-based,,0-63: Normal; 64-127: Legato
+MIDI Association,Generic MIDI 1.0,Control Change messages,Legato switch,,68,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+MIDI Association,Generic MIDI 1.0,Control Change messages,Hold 2,,69,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 1,Sound variation,70,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 2,Timbre/harmonic intensity,71,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 3,Release time,72,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 4,Attack time,73,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 5,Brightness,74,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 6,Decay time,75,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 7,Vibrato rate,76,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 8,Vibrato depth,77,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 9,Vibrato delay,78,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Sound controller 10,,79,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 5,,80,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 6,,81,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 7,,82,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 8,,83,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Portamento control,,84,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,High resolution velocity prefix,,88,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 1 depth,Reverb send level,91,,0,127,,,,,,,0-based,Formerly external effects depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 2 depth,,92,,0,127,,,,,,,0-based,Formerly tremelo depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 3 depth,Chorus send level,93,,0,127,,,,,,,0-based,Formerly chorus depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 4 depth,,94,,0,127,,,,,,,0-based,Formerly celeste (detune) depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 5 depth,,95,,0,127,,,,,,,0-based,Formerly phaser depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Data increment,,96,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Data decrement,,97,,0,127,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Non-registered parameter number,,99,98,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Registered parameter number,,101,100,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Channel Mode messages,All sound off,,120,,0,0,,,,,,,0-based,,0: All sound off
+MIDI Association,Generic MIDI 1.0,Channel Mode messages,Reset all controllers,,121,,0,0,,,,,,,0-based,,0: Reset all controllers
+MIDI Association,Generic MIDI 1.0,Channel Mode messages,Local control,,122,,0,127,,,,,,,0-based,,0: Local control off; 127: Local control on
+MIDI Association,Generic MIDI 1.0,Channel Mode messages,All notes off,,123,,0,0,,,,,,,0-based,,0: All notes off
+MIDI Association,Generic MIDI 1.0,Channel Mode messages,Omni mode off,,124,,0,0,,,,,,,0-based,,0: Omni mode off
+MIDI Association,Generic MIDI 1.0,Channel Mode messages,Omni mode on,,125,,0,0,,,,,,,0-based,,0: Omni mode on
+MIDI Association,Generic MIDI 1.0,Channel Mode messages,Mono mode on,,126,,0,127,,,,,,,0-based,,0: Number of channels equal to the number of voices; 1~127: Number of voices
+MIDI Association,Generic MIDI 1.0,Channel Mode messages,Poly mode on,,127,,0,0,,,,,,,0-based,,0: Poly mode on
