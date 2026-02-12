@@ -1,0 +1,13 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Wombtone MKII,Knobs,Feed,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Wombtone MKII,Knobs,Volume,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Wombtone MKII,Knobs,Mix,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Wombtone MKII,Knobs,Rate,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Wombtone MKII,Knobs,Depth,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Wombtone MKII,Knobs,Form,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Wombtone MKII,Knobs,Ramp,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,Wombtone MKII,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2 Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
+Chase Bliss,Wombtone MKII,Other,MIDI clock ignore,,51,,0,127,127,,,,,,0-based,,0: Ignore; 127: Listen
+Chase Bliss,Wombtone MKII,Other,Tap switch,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Wombtone MKII,Other,Expression,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Wombtone MKII,Other,Bypass,,102,,0,127,,,,,,,0-based,,0: Bypass; 127: Engage and reset ramping

@@ -1,0 +1,13 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Tonal Recall,Knobs,Tone,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Tonal Recall,Knobs,Mix,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Tonal Recall,Knobs,Rate,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Tonal Recall,Knobs,Time,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Tonal Recall,Knobs,Regen,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Tonal Recall,Knobs,Depth,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Tonal Recall,Knobs,Ramp,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,Tonal Recall,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2 Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
+Chase Bliss,Tonal Recall,Other,MIDI clock ignore,,51,,0,127,127,,,,,,0-based,,0: Ignore; 127: Listen
+Chase Bliss,Tonal Recall,Other,Tap switch,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Tonal Recall,Other,Expression,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Tonal Recall,Other,Bypass,,102,,0,127,,,,,,,0-based,,0: Bypass; 127: Engage and reset ramping
