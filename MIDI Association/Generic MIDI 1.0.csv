@@ -37,15 +37,15 @@ MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose contro
 MIDI Association,Generic MIDI 1.0,Control Change messages,General purpose controller 8,,83,,0,127,,,,,,,0-based,,
 MIDI Association,Generic MIDI 1.0,Control Change messages,Portamento control,,84,,0,127,,,,,,,0-based,,
 MIDI Association,Generic MIDI 1.0,Control Change messages,High resolution velocity prefix,,88,,0,127,,,,,,,0-based,,
-MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 1 depth,Reverb send level,91,,0,127,,,,,,,0-based,Formerly: external effects depth,
-MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 2 depth,,92,,0,127,,,,,,,0-based,Formerly: tremelo depth,
-MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 3 depth,Chorus send level,93,,0,127,,,,,,,0-based,Formerly: chorus depth,
-MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 4 depth,,94,,0,127,,,,,,,0-based,Formerly: celeste (detune) depth,
-MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 5 depth,,95,,0,127,,,,,,,0-based,Formerly: phaser depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 1 depth,Reverb send level,91,,0,127,,,,,,,0-based,Formerly external effects depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 2 depth,,92,,0,127,,,,,,,0-based,Formerly tremelo depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 3 depth,Chorus send level,93,,0,127,,,,,,,0-based,Formerly chorus depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 4 depth,,94,,0,127,,,,,,,0-based,Formerly celeste (detune) depth,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Effects 5 depth,,95,,0,127,,,,,,,0-based,Formerly phaser depth,
 MIDI Association,Generic MIDI 1.0,Control Change messages,Data increment,,96,,0,127,,,,,,,0-based,,
 MIDI Association,Generic MIDI 1.0,Control Change messages,Data decrement,,97,,0,127,,,,,,,0-based,,
 MIDI Association,Generic MIDI 1.0,Control Change messages,Non-registered parameter number,,99,98,0,16383,,,,,,,0-based,,
-MIDI Association,Generic MIDI 1.0,Control Change messages,Registered parameter number MSB,,101,100,0,16383,,,,,,,0-based,,
+MIDI Association,Generic MIDI 1.0,Control Change messages,Registered parameter number,,101,100,0,16383,,,,,,,0-based,,
 MIDI Association,Generic MIDI 1.0,Channel Mode messages,All sound off,,120,,0,0,,,,,,,0-based,,0: All sound off
 MIDI Association,Generic MIDI 1.0,Channel Mode messages,Reset all controllers,,121,,0,0,,,,,,,0-based,,0: Reset all controllers
 MIDI Association,Generic MIDI 1.0,Channel Mode messages,Local control,,122,,0,127,,,,,,,0-based,,0: Local control off; 127: Local control on
