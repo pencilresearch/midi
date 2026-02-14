@@ -15,7 +15,7 @@ Kinotone,Ribbons,Reverb,Reverb decay,,26,,0,127,,,,,,,0-based,,
 Kinotone,Ribbons,Reverb,Reverb mix and placement,,27,,0,127,,,,,,,0-based,,
 Kinotone,Ribbons,Touch,Touch param 1,,28,,0,127,,,,,,,0-based,,
 Kinotone,Ribbons,Touch,Touch param 2,,29,,0,127,,,,,,,0-based,,
-Kinotone,Ribbons,Touch,Touch mode select,,30,,0,127,,,,,,,0-based,,0-18: Magnetic dance; 19-36: Tape stop; 37-54: Broken machine; 55-73: Repeater; 74-91: Crushed cassette; 92-109: Disintegration loop; 110-127 UnrealPlayer
+Kinotone,Ribbons,Touch,Touch mode select,,30,,0,127,,,,,,,0-based,,0-18: Magnetic dance; 19-36: Tape stop; 37-54: Broken machine; 55-73: Repeater; 74-91: Crushed cassette; 92-109: Disintegration loop; 110-127: UnrealPlayer
 Kinotone,Ribbons,Touch,Clear touch mode loops,,60,,65,127,,,,,,,0-based,,65-127: Clear touch mode loops
 Kinotone,Ribbons,Looper control,Change looper track,,32,,0,127,,,,,,,0-based,,0-31: Track 1; 32-63: Track 2; 64-95: Track 3; 96-127: Track 4
 Kinotone,Ribbons,Looper control,Clear current looper track,,33,,65,127,,,,,,,0-based,,65-127: Clear current looper track
