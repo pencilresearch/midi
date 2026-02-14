@@ -36,6 +36,6 @@ Yamaha,SEQTRAK,Effects,"Send delay, assigned parameter 2",,114,,0,127,,,,,,,0-ba
 Yamaha,SEQTRAK,Effects,"Send delay, assigned parameter 3",,115,,0,127,,,,,,,0-based,Channel 1.,
 Yamaha,SEQTRAK,Mute / solo,Mute,,23,,0,127,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",0-63: Off; 64-127: On
 Yamaha,SEQTRAK,Mute / solo,Solo,,24,,0,11,,,,,,,0-based,"Channels 1-11. Available on drum, synth, DX, sampler.",0: Off; 1~11: Track 1...Track 11
-Yamaha,SEQTRAK,Other,Damper pedal,,64,,0,127,,,,,,,0-based,"Channels 8-11. Available on synth, DX, sampler.",0
+Yamaha,SEQTRAK,Other,Damper pedal,,64,,0,127,,,,,,,0-based,"Channels 8-11. Available on synth, DX, sampler.",
 Yamaha,SEQTRAK,Other,Sostenuto,,66,,0,127,,,,,,,0-based,"Channels 8, 9, 11. Available on synth, sampler.",0-63: Off; 64-127: On
 Yamaha,SEQTRAK,Other,Expression control,,11,,0,127,,,,,,,0-based,"Channels 1-11. Available on synth, DX, sampler.",
