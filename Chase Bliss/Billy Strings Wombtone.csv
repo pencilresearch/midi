@@ -8,6 +8,6 @@ Chase Bliss,Billy Strings Wombtone,Knobs,Form,,19,,0,127,,,,,,,0-based,,
 Chase Bliss,Billy Strings Wombtone,Knobs,Ramp,,20,,0,127,,,,,,,0-based,,
 Chase Bliss,Billy Strings Wombtone,Foot switches,Tap switch,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
 Chase Bliss,Billy Strings Wombtone,Foot switches,Bypass,,102,,0,127,,,,,,,0-based,,0: Bypass; 127: Engage and reset ramping
-Chase Bliss,Billy Strings Wombtone,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2 Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
+Chase Bliss,Billy Strings Wombtone,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2: Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
 Chase Bliss,Billy Strings Wombtone,Other,MIDI clock ignore,,51,,0,127,127,,,,,,0-based,,0: Ignore; 127: Listen
 Chase Bliss,Billy Strings Wombtone,Other,Expression,,100,,0,127,,,,,,,0-based,,
