@@ -6,7 +6,7 @@ Chase Bliss,Tonal Recall,Knobs,Time,,17,,0,127,,,,,,,0-based,,
 Chase Bliss,Tonal Recall,Knobs,Regen,,18,,0,127,,,,,,,0-based,,
 Chase Bliss,Tonal Recall,Knobs,Depth,,19,,0,127,,,,,,,0-based,,
 Chase Bliss,Tonal Recall,Knobs,Ramp,,20,,0,127,,,,,,,0-based,,
-Chase Bliss,Tonal Recall,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2 Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
+Chase Bliss,Tonal Recall,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2: Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
 Chase Bliss,Tonal Recall,Other,MIDI clock ignore,,51,,0,127,127,,,,,,0-based,,0: Ignore; 127: Listen
 Chase Bliss,Tonal Recall,Other,Tap switch,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
 Chase Bliss,Tonal Recall,Other,Expression,,100,,0,127,,,,,,,0-based,,
