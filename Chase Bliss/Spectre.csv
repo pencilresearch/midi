@@ -1,0 +1,13 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Spectre,Knobs,Mix,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Spectre,Knobs,Zero,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Spectre,Knobs,Regen,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Spectre,Knobs,Rate,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Spectre,Knobs,Width,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Spectre,Knobs,Shift,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Spectre,Knobs,Ramp,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,Spectre,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2 Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
+Chase Bliss,Spectre,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,,0: Ignore MIDI clock; 1-127: Follow MIDI clock
+Chase Bliss,Spectre,Other,Tap tempo,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Spectre,Other,Expression,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Spectre,Other,Bypass,,102,,0,127,,,,,,,0-based,,0: Bypass; 127: Engage and reset ramping

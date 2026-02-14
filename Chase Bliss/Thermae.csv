@@ -1,0 +1,18 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Thermae,Knobs,Mix,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Thermae,Knobs,LPF,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Thermae,Knobs,Regen,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Thermae,Knobs,Glide,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Thermae,Knobs,Int 1 (speed),,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Thermae,Knobs,Int 2 (depth),,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Thermae,Knobs,Ramp,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,Thermae,Toggles,Toggle,,21,,1,3,,,,,,,0-based,,1: Left; 2: Center; 3: Right
+Chase Bliss,Thermae,Toggles,Toggle,,22,,1,3,,,,,,,0-based,,1: Left; 2: Center; 3: Right
+Chase Bliss,Thermae,Toggles,Toggle,,23,,1,3,,,,,,,0-based,,1: Left; 2: Center; 3: Right
+Chase Bliss,Thermae,Sequence,Hold,,24,,0,127,,,,,,,0-based,,0: Regen knob position; 127: Runaway oscillation
+Chase Bliss,Thermae,Sequence,Slowdown mode,,25,,0,127,,,,,,,0-based,Applicable to Sequence Mode only,0: Normal; 127: Slowdown
+Chase Bliss,Thermae,Sequence,Set tap tempo,,25,,0,127,,,,,,,0-based,Applicable to Step Mode only,0: Regular step mode; 127: Enter a new base tap tempo
+Chase Bliss,Thermae,Other,Midi clock,,51,,0,127,127,,,,,,0-based,,0: Ignore; 127: Listen
+Chase Bliss,Thermae,Other,Tap switch,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Thermae,Other,Expression,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Thermae,Other,Bypass,,102,,0,127,,,,,,,0-based,,0: Bypass; 127: Engage

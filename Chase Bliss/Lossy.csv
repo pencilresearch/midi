@@ -1,0 +1,43 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Lossy,Knobs,Filter,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Knobs,Global,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Knobs,Reverb,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Knobs,Freq,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Knobs,Speed,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Knobs,Loss,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Knobs,Ramp speed,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Footswitches,Bypass,,102,,0,127,,,,,,,0-based,,0: Pedal off; 1-127: Pedal on
+Chase Bliss,Lossy,Footswitches,Freeze slushie,,103,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,Footswitches,Alt menu,,104,,0,127,,,,,,,0-based,,0: Alt exit; 1-127: Alt enter
+Chase Bliss,Lossy,Footswitches,Freeze solid,,105,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,Footswitches,Gate,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,Toggles,Filter slope,,21,,0,127,,,,,,,0-based,,0-1: 6dB; 2: 24dB; 3-127: 96dB
+Chase Bliss,Lossy,Toggles,Packet mode,,22,,0,127,,,,,,,0-based,,0-1: Repeat; 2: Clean; 3-127: Loss
+Chase Bliss,Lossy,Toggles,Loss mode,,23,,0,127,,,,,,,0-based,,0-1: Inverse; 2: Standard; 3-127: Jitter
+Chase Bliss,Lossy,Hidden options,Gate,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Hidden options,Freezer,,25,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Hidden options,Verb decay,,26,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Hidden options,Limiter threshold,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Hidden options,Auto gain,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Hidden options,Loss gain,,29,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Hidden options,Weighting,,33,,0,127,,,,,,,0-based,,0-1: Dark; 2: Neutral; 3-127: Bright
+Chase Bliss,Lossy,"Dip switches, left bank",Filter,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, left bank",Frequency,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, left bank",Speed,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, left bank",Loss,,64,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, left bank",Verb,,65,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, left bank",Bounce,,66,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, left bank",Sweep,,67,,0,127,,,,,,,0-based,,0: B; 1-127: T
+Chase Bliss,Lossy,"Dip switches, left bank",Polarity,,68,,0,127,,,,,,,0-based,,0: F; 1-127: R
+Chase Bliss,Lossy,"Dip switches, right bank",Miso,,71,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, right bank",Spread,,72,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, right bank",Trails,,73,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, right bank",Latch,,74,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, right bank",Pre/post,,75,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, right bank",Slow,,76,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, right bank",Invert,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,"Dip switches, right bank",All wet,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,Other,Ramp / bounce,,52,,0,127,,,,,,,0-based,,0: Ramp/bounce off; 1-127: Ramp/bounce on
+Chase Bliss,Lossy,Other,Dry kill,,57,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lossy,Other,Expression,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Lossy,Other,Preset save,,111,,0,122,,,,,,,0-based,,0~122: Preset slot

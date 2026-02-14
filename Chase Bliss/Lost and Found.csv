@@ -1,0 +1,52 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Lost and Found,Knobs,Left time,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Knobs,Mix,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Knobs,Right time,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Knobs,Left modify,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Knobs,Blend,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Knobs,Right modify,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Footswitches,Right footswitch,,102,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Footswitches,Left footswitch,,103,,0,127,,,,,,,0-based,,0: Alt exit; 1-127: Alt enter
+Chase Bliss,Lost and Found,Footswitches,Alt menu,,104,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Footswitches,Left hold,,105,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Footswitches,Right hold,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Hidden options,Ramp speed,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Hidden options,Left alt,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Hidden options,Spill,,25,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Hidden options,Right alt,,26,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Hidden options,Left EQ,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Hidden options,Glue,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Hidden options,Right EQ,,29,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Hidden options,Master wet volume,,30,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Toggles,Left effects mode,,21,,0,127,,,,,,,0-based,,0-1: Mode 1; 2: Mode 2; 3-127: Mode 3
+Chase Bliss,Lost and Found,Toggles,Routing,,22,,0,127,,,,,,,0-based,,0-1: Left to right; 2: Left + right; 3-127: Right to left
+Chase Bliss,Lost and Found,Toggles,Right effects mode,,23,,0,127,,,,,,,0-based,,0-1: Mode 4; 2: Mode 5; 3-127: Mode 6
+Chase Bliss,Lost and Found,Toggles,Spread,,32,,0,127,,,,,,,0-based,,0-1: Left only; 2: Both; 3-127: Right only
+Chase Bliss,Lost and Found,"Dip switches, left bank",Left time,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, left bank",Left modify,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, left bank",Blend,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, left bank",Right modify,,64,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, left bank",Right time,,65,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, left bank",Bounce,,66,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, left bank",Sweep,,67,,0,127,,,,,,,0-based,,0: B; 1-127: T
+Chase Bliss,Lost and Found,"Dip switches, left bank",Polarity,,68,,0,127,,,,,,,0-based,,0: F; 1-127: R
+Chase Bliss,Lost and Found,"Dip switches, right bank",Miso,,71,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, right bank",Spread,,72,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, right bank",Latch,,73,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, right bank",Left swap,,74,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, right bank",Right swap,,75,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, right bank",Unsync,,76,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, right bank",Trails,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,"Dip switches, right bank",Bank,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,,0: Ignore MIDI clock; 1-127: Listen for MIDI clock
+Chase Bliss,Lost and Found,Other,Ramping,,52,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Other,Left tap subdivision,,53,,0,12,,,,,,,0-based,,0: Thirty-second; 1: Sixteenth; 2: Triplet sixteenth; 3: Eighth; 4: Triplet eighth; 5: Dotted eighth; 6: Quarter; 7: Triplet quarter; 8: Dotted quarter; 9: Half; 10: Dotted half; 11: Whole; 12-127: Double whole
+Chase Bliss,Lost and Found,Other,Right tap subdivision,,54,,0,12,,,,,,,0-based,,0: Thirty-second; 1: Sixteenth; 2: Triplet sixteenth; 3: Eighth; 4: Triplet eighth; 5: Dotted eighth; 6: Quarter; 7: Triplet quarter; 8: Dotted quarter; 9: Half; 10: Dotted half; 11: Whole; 12-127: Double whole
+Chase Bliss,Lost and Found,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Factory reset
+Chase Bliss,Lost and Found,Other,Dry kill,,57,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Other,Tap tempo,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,Lost and Found,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Lost and Found,Other,Save preset,,111,,0,122,,,,,,,0-based,,0~122: Preset slot
+Chase Bliss,Lost and Found,Other,Random left mode,,112,,0,127,,,,,,,0-based,,0-127: Trigger
+Chase Bliss,Lost and Found,Other,Random right mode,,113,,0,127,,,,,,,0-based,,0-127: Trigger
+Chase Bliss,Lost and Found,Other,Random both modes,,114,,0,127,,,,,,,0-based,,0-127: Trigger

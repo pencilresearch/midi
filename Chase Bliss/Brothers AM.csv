@@ -1,0 +1,31 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Brothers AM,Knobs,Gain 2,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Knobs,Volume 2,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Knobs,Gain 1,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Knobs,Tone 2,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Knobs,Volume 1,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Knobs,Tone 1,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Knobs,Presence 2,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Knobs,Presence 1,,29,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Toggles,Gain 2 type,,21,,0,127,,,,,,,0-based,,0-1: Boost; 2: OD; 3-127: Dist
+Chase Bliss,Brothers AM,Toggles,Treble boost,,22,,0,127,,,,,,,0-based,,0-1: Full sun; 2: Off; 3-127: Half sun
+Chase Bliss,Brothers AM,Toggles,Gain 1 type,,23,,0,127,,,,,,,0-based,,0-1: Boost; 2: OD; 3-127: Boost
+Chase Bliss,Brothers AM,Foot switches,Channel 1 bypass,,102,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,Foot switches,Channel 2 bypass,,103,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,Other,Expression,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Brothers AM,Other,Preset save,,111,,1,122,,,,,,,0-based,,1~122: Save to preset slot
+Chase Bliss,Brothers AM,"Dip switches, left bank",Volume 1,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, left bank",Volume 2,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, left bank",Gain 1,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, left bank",Gain 2,,64,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, left bank",Tone 1,,65,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, left bank",Tone 2,,66,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, left bank",Sweep,,67,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, left bank",Polarity,,68,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, right bank",Hi gain 1,,71,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, right bank",Hi gain 2,,72,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, right bank",Motobyp 1,,73,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, right bank",Motobyp 2,,74,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, right bank",Pres link 1,,75,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, right bank",Pres link 2,,76,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Brothers AM,"Dip switches, right bank",Master,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
