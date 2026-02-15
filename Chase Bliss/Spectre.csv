@@ -6,7 +6,7 @@ Chase Bliss,Spectre,Knobs,Rate,,17,,0,127,,,,,,,0-based,,
 Chase Bliss,Spectre,Knobs,Width,,18,,0,127,,,,,,,0-based,,
 Chase Bliss,Spectre,Knobs,Shift,,19,,0,127,,,,,,,0-based,,
 Chase Bliss,Spectre,Knobs,Ramp,,20,,0,127,,,,,,,0-based,,
-Chase Bliss,Spectre,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2 Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
+Chase Bliss,Spectre,Other,MIDI note divisions,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2: Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
 Chase Bliss,Spectre,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,,0: Ignore MIDI clock; 1-127: Follow MIDI clock
 Chase Bliss,Spectre,Other,Tap tempo,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
 Chase Bliss,Spectre,Other,Expression,,100,,0,127,,,,,,,0-based,,
