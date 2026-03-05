@@ -1,0 +1,87 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Dreadbox,Artemis,General,Bank select,,0,,0,127,,,,,,,0-based,,0~127: Banks A to H
+Dreadbox,Artemis,General,Modwheel mod source,,1,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,General,LPF FFM noise source,,3,,0,127,,,,,,,0-based,,0-63: VCO 2; 64-127: Noise
+Dreadbox,Artemis,General,Volume,,7,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,General,LFO 1 VCO target,,18,,0,127,,,,,,,0-based,,0-43: VCO 1 and 2; 44-86: VCO 1; 87-127: VCO 2
+Dreadbox,Artemis,General,LFO 1 wave,,24,,0,127,,,,,,,0-based,,0-15: Sine; 16-31: Tri; 32-47: Saw; 48-63: Ramp; 64-79: Square; 80-95: Random; 96-111: Env+; 112-127: Env-
+Dreadbox,Artemis,General,LFO 2 wave,,27,,0,127,,,,,,,0-based,,0-15: Sine; 16-31: Tri; 32-47: Saw; 48-63: Ramp; 64-79: Square; 80-95: Random; 96-111: Env+; 112-127: Env-
+Dreadbox,Artemis,General,LFO sync mode,,29,,0,127,,,,,,,0-based,,0-31: Free; 32-63: Key; 64-95: BPM: 96-127: BPM key
+Dreadbox,Artemis,General,Play mode,,30,,0,127,,,,,,,0-based,,0-25: Poly; 26-51: Tri; 52-77: Duo; 78-104: Unison; 105-127: Mono
+Dreadbox,Artemis,General,Distortions type,,38,,0,127,,,,,,,0-based,,0-7: Exp; 8-15: Parabolic; 16-23: Sine clip; 24-31: S-curve; 32-39: Soft-clip; 40-47: Hard-clip; 48-55: Tri-clip; 56-63: Tri-fold; 64-71: Single-fold; 72-79: Multi-fold; 80-87: Sine-bend; 88-95: Sine-fold; 96-103: Sine-shred; 104-111: Bin-shred; 112-127: Sym-wrap
+Dreadbox,Artemis,General,Modulations type,,44,,0,127,,,,,,,0-based,,0-11: Chorus; 12-23: Ensemble; 24-35: Tape chorus; 36-47: BBD chorus; 48-59: Flanger; 60-71: BBD flanger; 72-83: TZ flanger; 84-95: Phaser; 96-107: B-pole phaser; 108-119: Double notch; 120-127: Pitch shifter
+Dreadbox,Artemis,General,Delays type,,50,,0,127,,,,,,,0-based,,0-31: Stereo; 32-63: Ping-pong; 64-95: BBD; 96-127: Rnd repeater
+Dreadbox,Artemis,General,Reverbs type,,56,,0,127,,,,,,,0-based,,0-24: Small; 25-49: Large; 50-74: Huge; 75-99: Cloud; 100-127: Shimmer
+Dreadbox,Artemis,General,Sustain,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Artemis,General,Glide mode,,65,,0,127,,,,,,,0-based,,0-63: On; 64-127: Auto
+Dreadbox,Artemis,General,Legato,,68,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Artemis,General,Mod source,,74,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,General,VCO FM mode,,80,,0,127,,,,,,,0-based,,0-63: Manual; 64-127: EG
+Dreadbox,Artemis,General,VCO 2 sync,,81,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Artemis,General,LPF track,,82,,0,127,,,,,,,0-based,,0-42: Off; 43-84: Mid; 85-127: High
+Dreadbox,Artemis,General,LPF poles,,83,,0,127,,,,,,,0-based,,0-63: 24dB; 64-127: 12dB
+Dreadbox,Artemis,Sequencer,Sequencers parameter 1,,86,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Sequencer,Sequencers parameter 2,,87,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Sequencer,Sequencers parameter 3,,88,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Sequencer,Sequencers parameter 4,,89,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Sequencer,Sequencers parameter 5,,90,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Sequencer,Sequencers parameter type,,91,,0,127,,,,,,,0-based,,0-42: Off; 43-84: Seq; 85-127: Arp
+Dreadbox,Artemis,Sequencer,BPM,,92,,0,127,,,,,,,0-based,,0~127: 30-300
+Dreadbox,Artemis,General,Drive mode,,93,,0,127,,,,,,,0-based,,0-31: Off; 32-63: Low; 64-95: Mid; 96-127: High
+Dreadbox,Artemis,General,Preset level,,94,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,General,Amp velocity,,95,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,General,Instability depth,,96,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,General,All sounds off,,120,,0,127,,,,,,,0-based,,
+Dreadbox,Artemis,General,All notes off,,123,,0,127,,,,,,,0-based,,
+Dreadbox,Artemis,General,Selector,"After sending a Selector value, subsequent CC messages to a selectable parameter adjust that parameter's base amount or modulation amount, depending on the value.",31,,0,127,,,,,,,0-based,,0-21: Base; 22-43: Modwheel; 44-65: Velocity; 66-87: Aftertouch; 88-109: CC74; 109-127: Keytrack
+Dreadbox,Artemis,Selectable: VCA EG,VCA EG attack,,73,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCA EG,VCA EG decay,,9,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCA EG,VCA EG sustain,,11,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCA EG,VCA EG release,,72,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: EG,EG attack,,12,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: EG,EG decay,,13,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: EG,EG sustain,,14,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: EG,EG release,,15,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Filter,HPF cutoff,,16,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Filter,HPF resonance,,17,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Filter,LPF cutoff,,75,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Filter,LPF resonance,,71,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Filter,LPF cut EG amount,,6,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Filter,LPF FFM,,4,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: LFO,LFO 1 VCO amount,,19,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: LFO,LFO 1 VCF amount,,20,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: LFO,LFO 2 morph amount,,21,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: LFO,LFO 2 PW amount,,22,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: LFO,LFO 1 rate,,23,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: LFO,LFO 1 fade,,25,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: LFO,LFO 2 rate,,26,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: LFO,LFO XMOD,,28,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Distortion parameters,Distortions parameter 1,,33,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Distortion parameters,Distortions parameter 2,,34,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Distortion parameters,Distortions parameter 3,,35,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Distortion parameters,Distortions parameter 4,,36,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Distortion parameters,Distortions parameter 5,,37,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Modulation parameters,Modulations parameter 1,,39,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Modulation parameters,Modulations parameter 2,,40,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Modulation parameters,Modulations parameter 3,,41,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Modulation parameters,Modulations parameter 4,,42,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Modulation parameters,Modulations parameter 5,,43,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Delay parameters,Delays parameter 1,,45,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Delay parameters,Delays parameter 2,,46,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Delay parameters,Delays parameter 3,,47,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Delay parameters,Delays parameter 4,,48,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Delay parameters,Delays parameter 5,,49,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Reverb parameters,Reverbs parameter 1,,51,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Reverb parameters,Reverbs parameter 2,,52,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Reverb parameters,Reverbs parameter 3,,53,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Reverb parameters,Reverbs parameter 4,,54,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: Reverb parameters,Reverbs parameter 5,,55,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,VCO morph,,70,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,VCO sub / noise,,76,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,VCO 2 tune,,78,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,VCO detune,,79,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,VCO FM,,84,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,VCO pulse width,,85,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,VCO glide,,5,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,VCO mix,,8,,0,127,,,,,,,0-based,,0~127: 0-100
+Dreadbox,Artemis,Selectable: VCO,Spread,,10,,0,127,,,,,,,0-based,,0~127: 0-100
