@@ -1,0 +1,23 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Line 6,DL-4 Mk2,,Delay Model,,1,,0,127,,,,,,,0-based,Preset Mode,"0: Vintage Digital; 1: Crisscross; 2: Euclidean; 3: Dual Delay; 4: Pitch Echo; 5: ADT; 6: Ducked; 7: Harmony; 8: Heliosphere; 9: Transistor; 10: Cosmos; 11: Multi Pass; 12: Adriatic; 13: Elephant Man; 14: Glitch; 15: Digital; 16: Digital w/ Mod; 17: Echo Platter; 18: Stereo; 19: Ping Pong; 20: Reverse; 21: Dynamic; 22: Auto-Vol; 23: Tube Echo; 24: Tape Echo; 25: Multi-Head; 26: Sweep; 27: Analog; 28: Analog Mod; 29: Lo Res Delay"
+Line 6,DL-4 Mk2,,Reverb Model,,2,,0,127,,,,,,,0-based,Preset Mode,0~127: Reverb model
+Line 6,DL-4 Mk2,,Emulate Expression Pedal,Must be initially set via EXP input,3,,0,127,,,,,,,0-based,Preset and Classic Looper modes,0~127: Expression pedal
+Line 6,DL-4 Mk2,,Preset Bypass,,4,,0,127,,,,,,,0-based,Preset mode,0-63: Bypass On; 64-127: Bypass Off
+Line 6,DL-4 Mk2,,Delay Time,,11,,0,127,,,,,,,0-based,Preset and Classic Looper modes,0~127: Delay time
+Line 6,DL-4 Mk2,,Time Subdivisions,,12,,0,127,,,,,,,0-based,Preset mode,"0: 1/8 Triplet; 1: 1/8; 2: 1/8 Dotted; 3: 1/4 Triplet; 4: 1/4; 5: 1/4 Dotted; 6: 1/2 Triplet; 7: 1/2; 8: 1/2 Dotted"
+Line 6,DL-4 Mk2,,Delay Repeats,,13,,0,127,,,,,,,0-based,Preset and Classic Looper modes,0~127: Delay repeats
+Line 6,DL-4 Mk2,,Delay Tweak,,14,,0,127,,,,,,,0-based,Preset and Classic Looper modes,0~127: Delay tweak
+Line 6,DL-4 Mk2,,Delay Tweez,,15,,0,127,,,,,,,0-based,Preset and Classic Looper modes,0~127: Delay tweez
+Line 6,DL-4 Mk2,,Mix,,16,,0,127,,,,,,,centered,Preset and Classic Looper modes,0~127: Mix
+Line 6,DL-4 Mk2,,Reverb Decay,,17,,0,127,,,,,,,0-based,Preset mode,0~127: Reverb decay
+Line 6,DL-4 Mk2,,Reverb Predelay,,18,,0,127,,,,,,,0-based,Preset mode,0~127: Reverb predelay
+Line 6,DL-4 Mk2,,Reverb-Delay Routing,,19,,0,127,,,,,,,0-based,Preset mode,"0: Reverb before delay; 1: Reverb and delay in parallel; 2: Reverb after delay"
+Line 6,DL-4 Mk2,,Reverb Mix,,20,,0,127,,,,,,,centered,Preset mode,0~127: Reverb mix
+Line 6,DL-4 Mk2,Looper,Classic Mode Looper On/Off,,9,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,DL-4 Mk2,Looper,Record/Overdub,,60,,0,127,,,,,,,0-based,,0-63: Overdub; 64-127: Record
+Line 6,DL-4 Mk2,Looper,Play/Stop,,61,,0,127,,,,,,,0-based,,0-63: Stop; 64-127: Play
+Line 6,DL-4 Mk2,Looper,Play Once,,62,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Play Once
+Line 6,DL-4 Mk2,Looper,Undo/Redo,,63,,0,127,,,,,,,0-based,,0-63: Undo; 64-127: Redo
+Line 6,DL-4 Mk2,Looper,Tap Tempo,,64,,0,127,,,,,,,0-based,Preset and Classic Looper modes,0-63: Noop; 64-127: Tap Tempo
+Line 6,DL-4 Mk2,Looper,Forward/Reverse,,65,,0,127,,,,,,,0-based,,0-63: Forward; 64-127: Reverse
+Line 6,DL-4 Mk2,Looper,Half-Speed,,66,,0,127,,,,,,,0-based,,0-63: Full Speed; 64-127: Half-Speed
