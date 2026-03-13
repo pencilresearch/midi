@@ -189,7 +189,7 @@ Moog,One,Synth 2: Mixer,Noise SVF,,,,,,,37,20,0,16383,,0-based,,0-8191: Off; 819
 Moog,One,Synth 2: Mixer,Noise ladder,,,,,,,37,21,0,16383,,0-based,,0-8191: Off; 8192-16383: On
 Moog,One,Synth 2: Filters,SVF cutoff,,,,,,,37,54,0,16383,,0-based,,
 Moog,One,Synth 2: Filters,SVF resonance,,,,,,,37,56,0,16383,,0-based,,
-Moog,One,Synth 2: Filters,Ladder cutoff,,,,,,,37,126,0,16383,,0-based,,
+Moog,One,Synth 2: Filters,Ladder cutoff,,,,,,,38,126,0,16383,,0-based,,
 Moog,One,Synth 2: Filters,Ladder resonance,,,,,,,39,0,0,16383,,0-based,,
 Moog,One,Synth 2: Filters,Mix,,,,,,,38,79,0,16383,,0-based,,
 Moog,One,Synth 2: Filters,SVF mode,,,,,,,37,62,0,16383,,0-based,,0-4095: LP; 4096-8191: HP; 8192-12287: BP; 12288-16383: Notch
@@ -328,7 +328,7 @@ Moog,One,Synth 3: Filter envelope,Decay synced,,,,,,,65,34,0,16383,,0-based,,0-1
 Moog,One,Synth 3: Filter envelope,Release synced,,,,,,,65,35,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
 Moog,One,Synth 3: Filter envelope,Sustain,,,,,,,65,12,0,16383,,0-based,,
 Moog,One,Synth 3: Filter envelope,Multi trig,,,,,,,65,19,0,16383,,0-based,,0-8191: Off; 8192-16383: On
-Moog,One,Synth 3: Filter envelope,Sync,,,,,,,35,20,0,16383,,0-based,,0-8191: Off; 8192-16383: On
+Moog,One,Synth 3: Filter envelope,Sync,,,,,,,65,20,0,16383,,0-based,,0-8191: Off; 8192-16383: On
 Moog,One,Synth 3: Filter envelope,Loop,,,,,,,65,21,0,16383,,0-based,,0-8191: Off; 8192-16383: On
 Moog,One,Synth 3: Filter envelope,Latch,,,,,,,65,22,0,16383,,0-based,,0-8191: Off; 8192-16383: On
 Moog,One,Synth 3: Amplifier envelope,Attack free,,,,,,,65,77,0,16383,,0-based,,
