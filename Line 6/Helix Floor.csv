@@ -1,0 +1,36 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Line 6,Helix Floor,Banks and Presets,Bank MSB,,0,,0,7,,,,,,,0-based,,0-7: Bank MSB
+Line 6,Helix Floor,Banks and Presets,Bank LSB,,32,,0,7,,,,,,,0-based,Setlist select,0-7: Bank LSB
+Line 6,Helix Floor,Banks and Presets,Snapshot Select,,69,,0,127,,,,,,,0-based,Set Global Settings > MIDI/Tempo > Snapshot CC to On for auto-send to MIDI Out,"0: Snapshot 1; 1: Snapshot 2; 2: Snapshot 3; 3: Snapshot 4; 4: Snapshot 5; 5: Snapshot 6; 6: Snapshot 7; 7: Snapshot 8; 8: Next Snapshot; 9: Previous Snapshot"
+Line 6,Helix Floor,Banks and Presets,Mode Switch,Engages the MODE switch,71,,0,127,,,,,,,0-based,,0~127: Mode switch
+Line 6,Helix Floor,Banks and Presets,Preset Previous/Next,Loads previous or next preset,72,,0,127,,,,,,,0-based,,0-63: Previous; 64-127: Next
+Line 6,Helix Floor,Banks and Presets,Page Left/Right,Triggers Page Left and Page Right buttons,81,,0,127,,,,,,,0-based,,0-63: Page Left; 64-127: Page Right
+Line 6,Helix Floor,Expression Pedal,Expression Pedal 1,Emulates EXP 1,1,,0,127,,,,,,,0-based,,0~127: Expression pedal 1
+Line 6,Helix Floor,Expression Pedal,Expression Pedal 2,Emulates EXP 2,2,,0,127,,,,,,,0-based,,0~127: Expression pedal 2
+Line 6,Helix Floor,Expression Pedal,Expression Pedal 3,Emulates EXP 3,3,,0,127,,,,,,,0-based,,0~127: Expression pedal 3
+Line 6,Helix Floor,Expression Pedal,EXP Toe Switch,Emulates EXP toe switch,59,,0,127,,,,,,,0-based,,0~127: EXP toe switch
+Line 6,Helix Floor,Footswitch control,Footswitch 1,Emulates FS1 in Stomp/Preset/Snapshot mode,49,,0,127,,,,,,,0-based,CC49-59 control respective switch function in Stomp Preset or Snapshot mode,0~127: FS1
+Line 6,Helix Floor,Footswitches,Footswitch 2,Emulates FS2,50,,0,127,,,,,,,0-based,,0~127: FS2
+Line 6,Helix Floor,Footswitches,Footswitch 3,Emulates FS3,51,,0,127,,,,,,,0-based,,0~127: FS3
+Line 6,Helix Floor,Footswitches,Footswitch 4,Emulates FS4,52,,0,127,,,,,,,0-based,,0~127: FS4
+Line 6,Helix Floor,Footswitches,Footswitch 5,Emulates FS5,53,,0,127,,,,,,,0-based,,0~127: FS5
+Line 6,Helix Floor,Footswitches,Footswitch 7,Emulates FS7,54,,0,127,,,,,,,0-based,,0~127: FS7
+Line 6,Helix Floor,Footswitches,Footswitch 8,Emulates FS8,55,,0,127,,,,,,,0-based,,0~127: FS8
+Line 6,Helix Floor,Footswitches,Footswitch 9,Emulates FS9,56,,0,127,,,,,,,0-based,,0~127: FS9
+Line 6,Helix Floor,Footswitches,Footswitch 10,Emulates FS10,57,,0,127,,,,,,,0-based,,0~127: FS10
+Line 6,Helix Floor,Footswitches,Footswitch 11,Emulates FS11,58,,0,127,,,,,,,0-based,,0~127: FS11
+Line 6,Helix Floor,Looper,Record/Overdub,Looper Record/Overdub switch (FS8),60,,0,127,,,,,,,0-based,,0-63: Overdub; 64-127: Record
+Line 6,Helix Floor,Looper,Play/Stop,Looper Play/Stop switch (FS9),61,,0,127,,,,,,,0-based,,0-63: Stop; 64-127: Play
+Line 6,Helix Floor,Looper,Play Once,Looper Play Once switch (FS3),62,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Play Once
+Line 6,Helix Floor,Looper,Undo/Redo,Looper Undo/Redo switch (FS2),63,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Undo/Redo
+Line 6,Helix Floor,Looper,Forward/Reverse,Looper Forward/Reverse switch (FS11),65,,0,127,,,,,,,0-based,,0-63: Forward; 64-127: Reverse
+Line 6,Helix Floor,Looper,Full/Half Speed,Looper Full/Half Speed switch (FS10),66,,0,127,,,,,,,0-based,,0-63: Full Speed; 64-127: Half Speed
+Line 6,Helix Floor,Looper,Looper Block On/Off,Looper block on/off; enters/exits Looper footswitch mode,67,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,Helix Floor,Parameter control,Tap Tempo,Trigger a 'Tap' on Tap Tempo switch,64,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Tap Tempo
+Line 6,Helix Floor,Parameter control,Parameter Knob 1,Global control,75,,0,127,,,,,,,0-based,,0~127: Parameter knob 1
+Line 6,Helix Floor,Parameter control,Parameter Knob 2,Global control,76,,0,127,,,,,,,0-based,,0~127: Parameter knob 2
+Line 6,Helix Floor,Parameter control,Parameter Knob 3,Global control,77,,0,127,,,,,,,0-based,,0~127: Parameter knob 3
+Line 6,Helix Floor,Parameter control,Parameter Knob 4,Global control,78,,0,127,,,,,,,0-based,,0~127: Parameter knob 4
+Line 6,Helix Floor,Parameter control,Parameter Knob 5,Global control,79,,0,127,,,,,,,0-based,,0~127: Parameter knob 5
+Line 6,Helix Floor,Parameter control,Parameter Knob 6,Global control,80,,0,127,,,,,,,0-based,,0~127: Parameter knob 6
+Line 6,Helix Floor,Tuner,Tuner,Tuner screen on/off,68,,0,127,,,,,,,0-based,,0~127: Tuner
