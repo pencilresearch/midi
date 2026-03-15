@@ -1,0 +1,117 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Supercritical,Redshift 6 ,Part,Drive,,78,,0,127,,0,1,0,16383,,0-based,,
+Supercritical,Redshift 6 ,Part,Character,,70,,0,127,,0,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Osc 1 Wave,,,,,,,1,0,0,4,,0-based,,"0: Saw, 1: Pulse, 2: Saw R, 3: Pulse R, 4: None"
+Supercritical,Redshift 6,Part,DCO: Osc 2 Wave,,,,,,,1,1,0,4,,0-based,,"0: Saw, 1: Pulse, 2: Saw R, 3: Pulse R, 4: None"
+Supercritical,Redshift 6,Part,DCO: Osc 1 PW,,,,,,,1,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Osc 2 PW,,,,,,,1,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Osc 2 Tune,,,,,,,1,4,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Stack,,75,,1,8,,1,5,1,8,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Detune,,76,,0,127,,1,6,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Balance,,77,,0,127,,1,7,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Noise Level,,,,,,,1,8,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Cutoff,,79,,0,127,,2,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Resonance,,71,,0,127,,2,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Env Amount,,73,,0,127,,2,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Filter Mode,,72,,0,127,,2,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Key Follow,,,,,,,2,4,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Vel > VCF Env,,,,,,,2,5,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Filter Engine,,,,,,,2,6,0,1,,0-based,,"0: CLASSIC, 1: MIRROR TWINS"
+Supercritical,Redshift 6,Part,Amp: Gain,,,,,,,3,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Amp: Pan,,10,,0,127,,3,1,0,16383,,centered,,
+Supercritical,Redshift 6,Part,Amp: Vel > Amp,,,,,,,3,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Perform: Pitch,,,,,,,4,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Perform: Glide,,,,,,,4,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Perform: Glide Mode,,,,,,,4,2,0,1,,0-based,,"0: Normal, 1: Legato"
+Supercritical,Redshift 6,Part,Parts: Volume,,7,,0,127,,6,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Parts: Polyphony,,,,,,,6,1,1,6,,0-based,,
+Supercritical,Redshift 6,Part,Parts: Unison,,,,,,,6,2,1,6,,0-based,,
+Supercritical,Redshift 6,Part,Parts: Unison Pan Spread,,,,,,,6,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Parts: Paraphony,,,,,,,6,4,1,16,,0-based,,
+Supercritical,Redshift 6,Part,Parts: Trigger Mode,,,,,,,6,5,0,1,,0-based,,"0: Legato, 1: Retrig"
+Supercritical,Redshift 6,Part,Parts: Part Enabled,,,,,,,6,6,0,1,,0-based,,"0: False, 1: True"
+Supercritical,Redshift 6,Part,Parts: Output,,,,,,,6,7,0,2,,0-based,,"0: Main, 1: Aux1, 2: Aux2"
+Supercritical,Redshift 6,Part,Parts: Voices Mode,,,,,,,6,8,0,1,,0-based,,"0: Dynamic, 1: Reserve"
+Supercritical,Redshift 6,Global,Fx: Enabled,,,,,,,8,0,0,1,,0-based,,"0: False, 1: True"
+Supercritical,Redshift 6,Global,Fx: Engine,,,,,,,8,1,0,3,,0-based,,"0: STAGE REVERB, 1: X-DELAY, 2: VINTAGE CHORUS, 3: CHORUS+"
+Supercritical,Redshift 6,Global,Clock: BPM,,,,,,,10,0,100,2500,,0-based,,
+Supercritical,Redshift 6,Part,Key: DCO Key Follow,,,,,,,11,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Key: Lowest Key,,,,,,,11,1,0,127,,0-based,,
+Supercritical,Redshift 6,Part,Key: Highest Key,,,,,,,11,2,0,127,,0-based,,
+Supercritical,Redshift 6,Part,Wheel: Pitch Bend Up,,,,,,,14,0,0,24,,0-based,,
+Supercritical,Redshift 6,Part,Wheel: Pitch Bend Down,,,,,,,14,1,0,24,,0-based,,
+Supercritical,Redshift 6,Part,Amp: Attack,,14,,0,127,,19,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Amp: Decay,,15,,0,127,,19,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Amp: Sustain,,16,,0,127,,19,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Amp: Release,,17,,0,127,,19,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Amp: Reset,,,,,,,19,4,0,1,,0-based,,"0: Off, 1: On"
+Supercritical,Redshift 6,Part,VCF: Attack,,18,,0,127,,20,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Decay,,19,,0,127,,20,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Sustain,,20,,0,127,,20,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Release,,21,,0,127,,20,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Reset,,,,,,,20,4,0,1,,0-based,,"0: Off, 1: On"
+Supercritical,Redshift 6,Part,DCO: Attack,,,,,,,21,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Decay,,,,,,,21,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Sustain,,,,,,,21,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Release,,,,,,,21,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,DCO: Reset,,,,,,,21,4,0,1,,0-based,,"0: Off, 1: On"
+Supercritical,Redshift 6,Part,Aux: Attack,,,,,,,22,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Aux: Decay,,,,,,,22,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Aux: Sustain,,,,,,,22,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Aux: Release,,,,,,,22,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Aux: Reset,,,,,,,22,4,0,1,,0-based,,"0: Off, 1: On"
+Supercritical,Redshift 6,Part,LFO 1: Rate,,,,,,,23,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,LFO 1: Clock Multiplier,,,,,,,23,1,0,19,,0-based,,"0: 8/1, 1: 4/1, 2: 2/1, 3: 1/1, 4: 1/2, 5: 1/4., 6: 1/2t, 7: 1/4, 8: 1/8., 9: 1/4t, 10: 1/8, 11: 1/16., 12: 1/8t, 13: 1/16, 14: 1/32., 15: 1/16t, 16: 1/32, 17: 1/64., 18: 1/32t, 19: 1/64"
+Supercritical,Redshift 6,Part,LFO 1: Wave,,,,,,,23,2,0,9,,0-based,,"0: Tri, 1: Sqr, 2: Sin, 3: Saw, 4: RevSaw, 5: Exp, 6: RevExp, 7: Log, 8: RevLog, 9: S&H"
+Supercritical,Redshift 6,Part,LFO 1: Sync,,,,,,,23,3,0,7,,0-based,,"0: None, 1: NoteOn, 2: NoteOff, 3: Lfo1, 4: Lfo2, 5: Lfo3, 6: Lfo4, 7: Clock"
+Supercritical,Redshift 6,Part,LFO 1: Reset Phase,,,,,,,23,4,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,LFO 2: Rate,,,,,,,24,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,LFO 2: Clock Multiplier,,,,,,,24,1,0,19,,0-based,,"0: 8/1, 1: 4/1, 2: 2/1, 3: 1/1, 4: 1/2, 5: 1/4., 6: 1/2t, 7: 1/4, 8: 1/8., 9: 1/4t, 10: 1/8, 11: 1/16., 12: 1/8t, 13: 1/16, 14: 1/32., 15: 1/16t, 16: 1/32, 17: 1/64., 18: 1/32t, 19: 1/64"
+Supercritical,Redshift 6,Part,LFO 2: Wave,,,,,,,24,2,0,9,,0-based,,"0: Tri, 1: Sqr, 2: Sin, 3: Saw, 4: RevSaw, 5: Exp, 6: RevExp, 7: Log, 8: RevLog, 9: S&H"
+Supercritical,Redshift 6,Part,LFO 2: Sync,,,,,,,24,3,0,7,,0-based,,"0: None, 1: NoteOn, 2: NoteOff, 3: Lfo1, 4: Lfo2, 5: Lfo3, 6: Lfo4, 7: Clock"
+Supercritical,Redshift 6,Part,LFO 2: Reset Phase,,,,,,,24,4,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,LFO 3: Rate,,,,,,,25,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,LFO 3: Clock Multiplier,,,,,,,25,1,0,19,,0-based,,"0: 8/1, 1: 4/1, 2: 2/1, 3: 1/1, 4: 1/2, 5: 1/4., 6: 1/2t, 7: 1/4, 8: 1/8., 9: 1/4t, 10: 1/8, 11: 1/16., 12: 1/8t, 13: 1/16, 14: 1/32., 15: 1/16t, 16: 1/32, 17: 1/64., 18: 1/32t, 19: 1/64"
+Supercritical,Redshift 6,Part,LFO 3: Wave,,,,,,,25,2,0,9,,0-based,,"0: Tri, 1: Sqr, 2: Sin, 3: Saw, 4: RevSaw, 5: Exp, 6: RevExp, 7: Log, 8: RevLog, 9: S&H"
+Supercritical,Redshift 6,Part,LFO 3: Sync,,,,,,,25,3,0,7,,0-based,,"0: None, 1: NoteOn, 2: NoteOff, 3: Lfo1, 4: Lfo2, 5: Lfo3, 6: Lfo4, 7: Clock"
+Supercritical,Redshift 6,Part,LFO 3: Reset Phase,,,,,,,25,4,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,LFO 4: Rate,,,,,,,26,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,LFO 4: Clock Multiplier,,,,,,,26,1,0,19,,0-based,,"0: 8/1, 1: 4/1, 2: 2/1, 3: 1/1, 4: 1/2, 5: 1/4., 6: 1/2t, 7: 1/4, 8: 1/8., 9: 1/4t, 10: 1/8, 11: 1/16., 12: 1/8t, 13: 1/16, 14: 1/32., 15: 1/16t, 16: 1/32, 17: 1/64., 18: 1/32t, 19: 1/64"
+Supercritical,Redshift 6,Part,LFO 4: Wave,,,,,,,26,2,0,9,,0-based,,"0: Tri, 1: Sqr, 2: Sin, 3: Saw, 4: RevSaw, 5: Exp, 6: RevExp, 7: Log, 8: RevLog, 9: S&H"
+Supercritical,Redshift 6,Part,LFO 4: Sync,,,,,,,26,3,0,7,,0-based,,"0: None, 1: NoteOn, 2: NoteOff, 3: Lfo1, 4: Lfo2, 5: Lfo3, 6: Lfo4, 7: Clock"
+Supercritical,Redshift 6,Part,LFO 4: Reset Phase,,,,,,,26,4,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Seq: Enabled,,,,,,,27,0,0,1,,0-based,,"0: False, 1: True"
+Supercritical,Redshift 6,Part,Seq: Engine,,,,,,,27,1,0,0,,0-based,,0: ClassicArp
+Supercritical,Redshift 6,Part,Arp: Clock Multiplier,,,,,,,28,0,0,19,,0-based,,"0: 8/1, 1: 4/1, 2: 2/1, 3: 1/1, 4: 1/2, 5: 1/4., 6: 1/2t, 7: 1/4, 8: 1/8., 9: 1/4t, 10: 1/8, 11: 1/16., 12: 1/8t, 13: 1/16, 14: 1/32., 15: 1/16t, 16: 1/32, 17: 1/64., 18: 1/32t, 19: 1/64"
+Supercritical,Redshift 6,Part,Arp: Gate,,,,,,,28,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Arp: Mode,,,,,,,28,2,0,5,,0-based,,"0: Up, 1: Down, 2: UpDown, 3: UpDown2, 4: Played, 5: Random"
+Supercritical,Redshift 6,Part,Arp: Octaves,,,,,,,28,3,1,4,,0-based,,
+Supercritical,Redshift 6,Part,Arp: Sync,,,,,,,28,4,0,1,,0-based,,"0: False, 1: True"
+Supercritical,Redshift 6,Part,VCF: Mirror Twins: Separation,,,,,,,30,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Mirror Twins: Depth,,,,,,,30,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,VCF: Mirror Twins: Twin,,,,,,,30,2,0,1,,0-based,,"0: False, 1: True"
+Supercritical,Redshift 6,Global,FX: Stage Reverb: Decay,,,,,,,31,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Stage Reverb: Level,,,,,,,31,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Stage Reverb: Damping,,,,,,,31,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Stage Reverb: Hi Cut,,,,,,,31,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Stage Reverb: Lo Cut,,,,,,,31,4,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Stage Reverb: Predelay,,,,,,,31,5,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Stage Reverb: Stage,,,,,,,31,6,0,4,,0-based,,"0: Shower, 1: Club, 2: Arena, 3: Canyon, 4: Cosmos"
+Supercritical,Redshift 6,Global,FX: Stage Reverb: Chorus,,,,,,,31,7,0,3,,0-based,,"0: Off, 1: I, 2: II, 3: I + II"
+Supercritical,Redshift 6,Global,FX: Vintage Chorus: Mode,,,,,,,32,0,0,3,,0-based,,"0: Off, 1: I, 2: II, 3: I + II"
+Supercritical,Redshift 6,Global,FX: Chorus+: Mix,,,,,,,33,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Chorus+: Delay,,,,,,,33,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Chorus+: Depth,,,,,,,33,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Chorus+: Rate,,,,,,,33,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Chorus+: Feedback,,,,,,,33,4,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Chorus+: Tone,,,,,,,33,5,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: Chorus+: Mode,,,,,,,33,6,0,3,,0-based,,"0: SqrWide, 1: SinWide, 2: Sqr, 3: Sin"
+Supercritical,Redshift 6,Global,FX: X-Delay: Time,,,,,,,34,0,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: X-Delay: BPM Div,,,,,,,34,1,0,12,,0-based,,"0: 1/32, 1: 1/16t, 2: 1/32., 3: 1/16, 4: 1/8t, 5: 1/16., 6: 1/8, 7: 1/4t, 8: 1/8., 9: 1/4, 10: 1/2t, 11: 1/4., 12: 1/2"
+Supercritical,Redshift 6,Global,FX: X-Delay: Level,,,,,,,34,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: X-Delay: Feedback,,,,,,,34,3,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: X-Delay: Sync,,,,,,,34,4,0,1,,0-based,,"0: False, 1: True"
+Supercritical,Redshift 6,Global,FX: X-Delay: X-Pan,,,,,,,34,5,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: X-Delay: Time Offset,,,,,,,34,6,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: X-Delay: Damping,,,,,,,34,7,0,16383,,0-based,,
+Supercritical,Redshift 6,Global,FX: X-Delay: Chorus,,,,,,,34,8,0,3,,0-based,,"0: Off, 1: I, 2: II, 3: I + II"
