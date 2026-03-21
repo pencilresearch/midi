@@ -23,6 +23,6 @@ TC Helicon,VoiceLive 3,Vocal,HardTune,Toggle Vocal HardTune.,113,,1,127,,,,,0-ba
 TC Helicon,VoiceLive 3,Vocal,uMod,Toggle Vocal uMod.,116,,1,127,,,,,0-based,,1-63: Off; 64-127: On
 TC Helicon,VoiceLive 3,Vocal,Delay,Toggle Vocal Delay.,117,,1,127,,,,,0-based,,1-63: Off; 64-127: On
 TC Helicon,VoiceLive 3,Vocal,Transducer,Toggle Vocal Transducer.,118,,1,127,,,,,0-based,,1-63: Off; 64-127: On
-TC Helicon,VoiceLive 3,Performance,Step,Select step number.,115,,1,,,,,,0-based,Maximum step value is not stated in the manual.,1: Step 1; 2: Step 2; ...
+TC Helicon,VoiceLive 3,Performance,Step,Select step number.,115,,1,127,,,,,0-based,Maximum step value is not stated in the manual.,1~127: Step number
 TC Helicon,VoiceLive 3,Vocal Harmony,Harmony Hold,Toggle Harmony Hold.,119,,1,127,,,,,0-based,,1-63: Off; 64-127: On
-TC Helicon,VoiceLive 3,Global / Common,All Notes Off,All Notes Off command.,123,,,,,,,,0-based,Specific triggering value is not stated in the manual.,All Notes Off
+TC Helicon,VoiceLive 3,General,All Notes Off,All Notes Off command.,123,,1,127,,,,,0-based,Specific triggering value is not stated in the manual.,
