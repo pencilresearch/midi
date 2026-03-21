@@ -14,14 +14,14 @@ Groove Synthesis,3rd Wave 24K,Oscillator 3,Fine,,36,,0,127,,,,,,,0-based,,
 Groove Synthesis,3rd Wave 24K,Oscillator 3,Wavetable,,40,,0,127,,,,,,,0-based,,
 Groove Synthesis,3rd Wave 24K,Oscillator 3,Wave offset,,41,,0,63,,,,,,,0-based,,
 Groove Synthesis,3rd Wave 24K,Oscillator 3,Level,,42,,0,127,,,,,,,0-based,,
-Groove Synthesis,3rd Wave 24K,Effect 1,On/off,,95,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24K,Effect 1,Effect on/off,,95,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Groove Synthesis,3rd Wave 24K,Effect 1,Clock sync,,102,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Groove Synthesis,3rd Wave 24K,Effect 1,Type,,103,,0,8,,,,,,,0-based,,0: Bypass; 1: BBD delay; 2: Stereo delay; 3: Chorus 4: Phaser; 5: Flanger; 6: Distortion; 7: Leslie speaker; 8: Ring mod
 Groove Synthesis,3rd Wave 24K,Effect 1,Mix,,104,,0,127,,,,,,,0-based,,
 Groove Synthesis,3rd Wave 24K,Effect 1,Param 1,,105,,0,127,,,,,,,0-based,,
 Groove Synthesis,3rd Wave 24K,Effect 1,Param 2,,106,,0,127,,,,,,,0-based,,
 Groove Synthesis,3rd Wave 24K,Effect 1,Param 3,,107,,0,127,,,,,,,0-based,,
-Groove Synthesis,3rd Wave 24K,Effect 2,On/off,,108,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24K,Effect 2,Effect on/off,,108,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Groove Synthesis,3rd Wave 24K,Effect 2,Clock sync,,109,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Groove Synthesis,3rd Wave 24K,Effect 2,Type,,110,,0,12,,,,,,,0-based,,0: Bypass; 1: BBD delay; 2: Stereo delay; 3: Echoplex; 4: Chorus; 5: Phaser; 6: Flanger; 7: Distortion; 8: Leslie speaker; 9: Ring mod; 10: Room reverb; 11: Hall reverb; 12: Plate reverb
 Groove Synthesis,3rd Wave 24K,Effect 2,Mix,,111,,0,127,,,,,,,0-based,,
