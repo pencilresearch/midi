@@ -1,0 +1,96 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Groove Synthesis,3rd Wave 24M,Oscillator 1,Pitch,,29,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 1,Fine,,33,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 1,Wavetable,,36,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 1,Wave offset,,42,,0,63,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 1,Level,,49,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 2,Pitch,,30,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 2,Fine,,34,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 2,Wavetable,,40,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 2,Wave offset,,47,,0,63,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 2,Level,,50,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 3,Pitch,,31,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 3,Fine,,35,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 3,Wavetable,,41,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 3,Wave offset,,48,,0,63,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,Oscillator 3,Level,,51,,0,127,,,,,,,0-based,Direct per-oscillator control,
+Groove Synthesis,3rd Wave 24M,"Oscillator, selected",Pitch,,24,,0,127,,,,,,,0-based,Applies to the oscillator currently selected via Osc select buttons (CC 110-112),
+Groove Synthesis,3rd Wave 24M,"Oscillator, selected",Fine,,25,,0,127,,,,,,,0-based,Applies to the oscillator currently selected via Osc select buttons (CC 110-112),
+Groove Synthesis,3rd Wave 24M,"Oscillator, selected",Wavetable,,26,,0,127,,,,,,,0-based,Applies to the oscillator currently selected via Osc select buttons (CC 110-112),
+Groove Synthesis,3rd Wave 24M,"Oscillator, selected",Wave offset,,27,,0,63,,,,,,,0-based,Applies to the oscillator currently selected via Osc select buttons (CC 110-112),
+Groove Synthesis,3rd Wave 24M,"Oscillator, selected",Level,,28,,0,127,,,,,,,0-based,Applies to the oscillator currently selected via Osc select buttons (CC 110-112),
+Groove Synthesis,3rd Wave 24M,"Oscillator, selected",Select oscillator 1,,110,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,"Oscillator, selected",Select oscillator 2,,111,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,"Oscillator, selected",Select oscillator 3,,112,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Filter env,Attack,,70,,0,127,,,,,,,0-based,Shared control: edits filter envelope or Env 3 depending on selection (CC 81),
+Groove Synthesis,3rd Wave 24M,Filter env,Decay,,71,,0,127,,,,,,,0-based,Shared control: edits filter envelope or Env 3 depending on selection (CC 81),
+Groove Synthesis,3rd Wave 24M,Filter env,Sustain,,72,,0,127,,,,,,,0-based,Shared control: edits filter envelope or Env 3 depending on selection (CC 81),
+Groove Synthesis,3rd Wave 24M,Filter env,Release,,73,,0,127,,,,,,,0-based,Shared control: edits filter envelope or Env 3 depending on selection (CC 81),
+Groove Synthesis,3rd Wave 24M,LPF,Cutoff,,9,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,LPF,Resonance,,37,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,LPF,Env amount,,39,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,LPF,Saturation,,63,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,LPF,Velocity,,68,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,SVF,Bandpass on/off,,57,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,SVF,Mode,,58,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,SVF,Cutoff,,59,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,SVF,Resonance,,60,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,SVF,Env amount,,61,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,SVF,Velocity,,62,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Effects,Effect 1 type,,103,,0,8,,,,,,,0-based,Applies to the effect currently selected via edit buttons (CC 102/109),0: Bypass; 1: BBD delay; 2: Stereo delay; 3: Chorus; 4: Phaser; 5: Flanger; 6: Distortion; 7: Leslie speaker; 8: Ring mod
+Groove Synthesis,3rd Wave 24M,Effects,Effect 2 type,,103,,0,12,,,,,,,0-based,Applies to the effect currently selected via edit buttons (CC 102/109),0: Bypass; 1: BBD delay; 2: Stereo delay; 3: Echoplex; 4: Chorus; 5: Phaser; 6: Flanger; 7: Distortion; 8: Leslie speaker; 9: Ring mod; 10: Room reverb; 11: Hall reverb; 12: Plate reverb
+Groove Synthesis,3rd Wave 24M,Effects,Effects mix,,104,,0,127,,,,,,,0-based,Applies to the effect currently selected via edit buttons (CC 102/109),
+Groove Synthesis,3rd Wave 24M,Effects,Param 1,,105,,0,127,,,,,,,0-based,Applies to the effect currently selected via edit buttons (CC 102/109),
+Groove Synthesis,3rd Wave 24M,Effects,Param 2,,106,,0,127,,,,,,,0-based,Applies to the effect currently selected via edit buttons (CC 102/109),
+Groove Synthesis,3rd Wave 24M,Effects,Param 3,,107,,0,127,,,,,,,0-based,Applies to the effect currently selected via edit buttons (CC 102/109),
+Groove Synthesis,3rd Wave 24M,Effects,Effect 1 on/off,,95,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Effects,Select effect 1,,102,,0,127,,,,,,,0-based,Selects Effect 1 for editing via shared effect controls (CC 103-107),0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Effects,Select effect 2,,109,,0,127,,,,,,,0-based,Selects Effect 2 for editing via shared effect controls (CC 103-107),0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Amp env,Attack,,118,,0,127,,,,,,,0-based,Shared control: edits amp envelope or Env 4 depending on selection (CC 82),
+Groove Synthesis,3rd Wave 24M,Amp env,Decay,,75,,0,127,,,,,,,0-based,Shared control: edits amp envelope or Env 4 depending on selection (CC 82),
+Groove Synthesis,3rd Wave 24M,Amp env,Sustain,,76,,0,127,,,,,,,0-based,Shared control: edits amp envelope or Env 4 depending on selection (CC 82),
+Groove Synthesis,3rd Wave 24M,Amp env,Release,,77,,0,127,,,,,,,0-based,Shared control: edits amp envelope or Env 4 depending on selection (CC 82),
+Groove Synthesis,3rd Wave 24M,LFO,LFO 1 on/off,,43,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,LFO,LFO 2 on/off,,44,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,LFO,LFO 3 on/off,,45,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,LFO,LFO 4 on/off,,46,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Arpeggiator,Arp on/off,,78,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Arpeggiator,Arp mode,,79,,0,4,,,,,,,0-based,,0: Up; 1: Down; 2: Up down; 3: Assign; 4: Random
+Groove Synthesis,3rd Wave 24M,Env 3,Attack,,70,,0,127,,,,,,,0-based,Shared control: edits filter envelope or Env 3 depending on selection (CC 81),
+Groove Synthesis,3rd Wave 24M,Env 3,Decay,,71,,0,127,,,,,,,0-based,Shared control: edits filter envelope or Env 3 depending on selection (CC 81),
+Groove Synthesis,3rd Wave 24M,Env 3,Sustain,,72,,0,127,,,,,,,0-based,Shared control: edits filter envelope or Env 3 depending on selection (CC 81),
+Groove Synthesis,3rd Wave 24M,Env 3,Release,,73,,0,127,,,,,,,0-based,Shared control: edits filter envelope or Env 3 depending on selection (CC 81),
+Groove Synthesis,3rd Wave 24M,Env 3,Env 3 on/off,,81,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Env 4,Attack,,118,,0,127,,,,,,,0-based,Shared control: edits amp envelope or Env 4 depending on selection (CC 82),
+Groove Synthesis,3rd Wave 24M,Env 4,Decay,,75,,0,127,,,,,,,0-based,Shared control: edits amp envelope or Env 4 depending on selection (CC 82),
+Groove Synthesis,3rd Wave 24M,Env 4,Sustain,,76,,0,127,,,,,,,0-based,Shared control: edits amp envelope or Env 4 depending on selection (CC 82),
+Groove Synthesis,3rd Wave 24M,Env 4,Release,,77,,0,127,,,,,,,0-based,Shared control: edits amp envelope or Env 4 depending on selection (CC 82),
+Groove Synthesis,3rd Wave 24M,Env 4,Env 4 on/off,,82,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,General,Hold on/off,,69,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,General,Mod wheel,,1,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,General,Breath control,,2,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,General,Volume,,7,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,General,MIDI bank select,,32,,0,3,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,General,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Parts,Multi-part mode on/off,,90,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Parts,Part 1 on/off,,91,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Parts,Part 2 on/off,,92,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Parts,Part 3 on/off,,93,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Parts,Part 4 on/off,,94,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Sequencer,Sequencer record,,55,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Sequencer,Sequencer play,,56,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Voicing,Unison on/off,,115,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Voicing,Pan spread,,116,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Voicing,Unison Detune,,119,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave flow on/off,,3,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env time 1/4 pot,,117,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env time 2/5 pot,,12,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env time 3/6 pot,,13,,0,127,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env pos 1/4 enc,,14,,0,63,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env pos 2/5 enc,,15,,0,63,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env pos 3/6 enc,,16,,0,63,,,,,,,0-based,,
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env 4-6 trigger,,17,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env osc1 on/off,,18,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env osc2 on/off,,19,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env osc3 on/off,,20,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Groove Synthesis,3rd Wave 24M,Wave envelope,Wave env on/off,,21,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
