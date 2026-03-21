@@ -1,0 +1,28 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,orientation,notes,usage
+TC Helicon,VoiceLive 3,Vocal Harmony,Harmony Vibrato Boost,Toggle Harmony Vibrato Boost.,1,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,Rhythmic,Toggle Guitar Rhythmic.,16,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,Delay,Toggle Guitar Delay.,17,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,Compressor,Toggle Guitar Compressor.,19,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,uMod,Toggle Guitar uMod.,21,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,Octaver,Toggle Guitar Octaver.,23,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,Amp,Toggle Guitar Amp.,25,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,Wah,Toggle Guitar Wah.,27,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,Boost,Toggle Guitar Boost.,29,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,Reverb,Toggle Guitar Reverb.,46,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Guitar,HIT,Toggle Guitar HIT.,47,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal Harmony,Key,Select Vocal Harmony key.,30,,0,11,,,,,0-based,,0: C; 1: C#; 2: D; 3: D#; 4: E; 5: F; 6: F#; 7: G; 8: G#; 9: A; 10: A#; 11: B
+TC Helicon,VoiceLive 3,Vocal Harmony,Scale,Select Vocal Harmony scale.,31,,0,7,,,,,0-based,,0: MAJ1; 1: MAJ2; 2: MAJ3; 3: MIN1; 4: MIN2; 5: MIN3; 6: CUST
+TC Helicon,VoiceLive 3,Vocal,Vocoder/Synth,Toggle Vocal Vocoder/Synth.,50,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,Rhythmic,Toggle Vocal Rhythmic.,51,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,HIT,Toggle Vocal HIT.,56,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,Choir,Toggle Vocal Choir.,104,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,Harmony,Toggle Vocal Harmony.,110,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,Double,Toggle Vocal Double.,111,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,Reverb,Toggle Vocal Reverb.,112,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,HardTune,Toggle Vocal HardTune.,113,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,uMod,Toggle Vocal uMod.,116,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,Delay,Toggle Vocal Delay.,117,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Vocal,Transducer,Toggle Vocal Transducer.,118,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,Performance,Step,Select step number.,115,,1,127,,,,,0-based,Maximum step value is not stated in the manual.,1~127: Step number
+TC Helicon,VoiceLive 3,Vocal Harmony,Harmony Hold,Toggle Harmony Hold.,119,,1,127,,,,,0-based,,1-63: Off; 64-127: On
+TC Helicon,VoiceLive 3,General,All Notes Off,All Notes Off command.,123,,1,127,,,,,0-based,Specific triggering value is not stated in the manual.,
