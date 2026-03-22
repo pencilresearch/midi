@@ -1,0 +1,18 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Antonus,2600 Original Size,Auxiliary,Auxiliary 2,,74,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,Performance,Portamento on/off,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Antonus,2600 Original Size,Performance,Portamento time,,5,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,Performance,Note hold,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Antonus,2600 Original Size,Performance,Interval latch,,66,,0,127,,,,,,,0-based,Duophonic mode only,0-63: Off; 64-127: On
+Antonus,2600 Original Size,Performance,Pitch bend range,,33,,0,127,,,,,,,0-based,0 = disabled; 127 = ±1 octave,0~127: Pitch bend range
+Antonus,2600 Original Size,LFO,Waveform,,28,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Speed,,29,,0,127,,,,,,,0-based,0.1 Hz to 100 Hz,0~127: 0.1Hz to 100Hz
+Antonus,2600 Original Size,LFO,Pitch initial level,,19,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Pitch aftertouch level,,20,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Pitch modulation wheel level,,21,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Auxiliary 1 initial level,,22,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Auxiliary 1 aftertouch level,,23,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Auxiliary 1 modulation wheel level,,24,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Auxiliary 2 initial level,,25,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Auxiliary 2 aftertouch level,,26,,0,127,,,,,,,0-based,,
+Antonus,2600 Original Size,LFO,Auxiliary 2 modulation wheel level,,27,,0,127,,,,,,,0-based,,
