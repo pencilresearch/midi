@@ -1,0 +1,5 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Teenage Engineering,OP-1 field,MIDI LFO,Parameter 1,,1,,0,127,,,,,,,0-based,,
+Teenage Engineering,OP-1 field,MIDI LFO,Parameter 2,,2,,0,127,,,,,,,0-based,,
+Teenage Engineering,OP-1 field,MIDI LFO,Parameter 3,,3,,0,127,,,,,,,0-based,,
+Teenage Engineering,OP-1 field,MIDI LFO,Parameter 4,,4,,0,127,,,,,,,0-based,,
