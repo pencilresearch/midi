@@ -4,9 +4,9 @@ Antonus,2600 Original Size,Performance,Portamento on/off,,65,,0,127,,,,,,,0-base
 Antonus,2600 Original Size,Performance,Portamento time,,5,,0,127,,,,,,,0-based,,
 Antonus,2600 Original Size,Performance,Note hold,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Antonus,2600 Original Size,Performance,Interval latch,,66,,0,127,,,,,,,0-based,Duophonic mode only,0-63: Off; 64-127: On
-Antonus,2600 Original Size,Performance,Pitch bend range,,33,,0,127,,,,,,,0-based,0 = disabled; 127 = ±1 octave,0~127: Pitch bend range
+Antonus,2600 Original Size,Performance,Pitch bend range,,33,,0,127,,,,,,,0-based,,0~127: Disabled to ±1 octave
 Antonus,2600 Original Size,LFO,Waveform,,28,,0,127,,,,,,,0-based,,
-Antonus,2600 Original Size,LFO,Speed,,29,,0,127,,,,,,,0-based,0.1 Hz to 100 Hz,0~127: 0.1Hz to 100Hz
+Antonus,2600 Original Size,LFO,Speed,,29,,0,127,,,,,,,0-based,,0~127: 0.1Hz to 100Hz
 Antonus,2600 Original Size,LFO,Pitch initial level,,19,,0,127,,,,,,,0-based,,
 Antonus,2600 Original Size,LFO,Pitch aftertouch level,,20,,0,127,,,,,,,0-based,,
 Antonus,2600 Original Size,LFO,Pitch modulation wheel level,,21,,0,127,,,,,,,0-based,,
