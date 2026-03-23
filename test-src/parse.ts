@@ -53,6 +53,7 @@ export interface Row {
   orientation: string;
   notes: string;
   usage: string;
+  line: number;
 }
 
 export interface ParseResult {
@@ -123,6 +124,7 @@ export function parseCSV(content: string, filename: string): ParseResult {
         row[headers[c]] = val;
       }
     }
+    row.line = i + 2; // +2: 1-based + header row
     rows.push(row as unknown as Row);
   }
 
