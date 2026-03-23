@@ -5,6 +5,13 @@ import { validateFile, validateRow } from "./validate.ts";
 
 const ROOT = new URL("../", import.meta.url).pathname;
 
+class ValidationError extends Error {
+  constructor(message: string) {
+    super(message);
+    this.stack = "";
+  }
+}
+
 async function collectCSVFiles(): Promise<string[]> {
   // If CSV_FILES env var is set, use only those (relative paths from repo root)
   const csvFilesEnv = Deno.env.get("CSV_FILES");
@@ -30,7 +37,7 @@ Deno.test("CSV files are found", async (t) => {
 
   await t.step("at least one CSV file exists", () => {
     if (files.length === 0) {
-      throw new Error("No CSV files found to check");
+      throw new ValidationError("No CSV files found to check");
     }
   });
 });
@@ -51,7 +58,7 @@ Deno.test("CSV files pass validation", async (t) => {
       }
 
       if (allErrors.length > 0) {
-        throw new Error(
+        throw new ValidationError(
           allErrors.length + " error(s):\n" + allErrors.join("\n"),
         );
       }

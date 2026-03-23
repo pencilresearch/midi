@@ -1,8 +1,7 @@
 import type { Row } from "./parse.ts";
 
 function rowLabel(row: Row, filename: string): string {
-  return filename + ": " + row.manufacturer + " " + row.device + " > " +
-    row.section + " > " + row.parameter_name;
+  return filename + ":" + row.line + " " + row.parameter_name;
 }
 
 function midiRange(
@@ -211,14 +210,14 @@ export function validateFile(rows: Row[], filename: string): string[] {
   for (let i = 1; i < rows.length; i++) {
     if (rows[i].manufacturer !== firstManufacturer) {
       errors.push(
-        filename + ": row " + (i + 2) + ' has manufacturer "' +
+        filename + ":" + rows[i].line + ' has manufacturer "' +
           rows[i].manufacturer + '", expected "' + firstManufacturer + '"',
       );
       break;
     }
     if (rows[i].device !== firstDevice) {
       errors.push(
-        filename + ": row " + (i + 2) + ' has device "' +
+        filename + ":" + rows[i].line + ' has device "' +
           rows[i].device + '", expected "' + firstDevice + '"',
       );
       break;
@@ -243,8 +242,8 @@ export function validateFile(rows: Row[], filename: string): string[] {
       const prev = seenCC.get(key);
       if (prev !== undefined) {
         errors.push(
-          filename + ": duplicate CC " + key + ' used by "' +
-            prev + '" and "' + row.parameter_name + '"',
+          filename + ":" + row.line + " duplicate CC " + key +
+            ' (already used by "' + prev + '")',
         );
       } else {
         seenCC.set(key, row.parameter_name);
@@ -260,8 +259,8 @@ export function validateFile(rows: Row[], filename: string): string[] {
       const prev = seenNRPN.get(key);
       if (prev !== undefined) {
         errors.push(
-          filename + ": duplicate NRPN " + key + ' used by "' +
-            prev + '" and "' + row.parameter_name + '"',
+          filename + ":" + row.line + " duplicate NRPN " + key +
+            ' (already used by "' + prev + '")',
         );
       } else {
         seenNRPN.set(key, row.parameter_name);
