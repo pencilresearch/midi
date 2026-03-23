@@ -1,0 +1,36 @@
+name: Check CSV definitions
+
+on:
+  pull_request:
+    branches: [main]
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: denoland/setup-deno@v2
+        with:
+          deno-version: v2.x
+
+      - name: Find changed CSV files
+        if: github.event_name == 'pull_request'
+        run: |
+          CSV_FILES=$(git diff --name-only --diff-filter=ACM origin/${{ github.base_ref }}...HEAD -- '*.csv')
+          echo "CSV_FILES<<EOF" >> "$GITHUB_ENV"
+          echo "$CSV_FILES" >> "$GITHUB_ENV"
+          echo "EOF" >> "$GITHUB_ENV"
+          echo "Changed CSV files:"
+          echo "$CSV_FILES"
+
+      - name: Run validation
+        working-directory: test-src
+        run: deno test --allow-read --allow-env=CSV_FILES
