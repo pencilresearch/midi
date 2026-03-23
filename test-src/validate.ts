@@ -234,39 +234,5 @@ export function validateFile(rows: Row[], filename: string): string[] {
     errors.push(filename + ": device has leading/trailing whitespace");
   }
 
-  // Duplicate CC numbers (same cc_msb within one file)
-  const seenCC = new Map<string, string>();
-  for (const row of rows) {
-    if (row.cc_msb !== null) {
-      const key = row.cc_msb + ":" + (row.cc_lsb ?? "");
-      const prev = seenCC.get(key);
-      if (prev !== undefined) {
-        errors.push(
-          filename + ":" + row.line + " duplicate CC " + key +
-            ' (already used by "' + prev + '")',
-        );
-      } else {
-        seenCC.set(key, row.parameter_name);
-      }
-    }
-  }
-
-  // Duplicate NRPN numbers
-  const seenNRPN = new Map<string, string>();
-  for (const row of rows) {
-    if (row.nrpn_msb !== null && row.nrpn_lsb !== null) {
-      const key = row.nrpn_msb + ":" + row.nrpn_lsb;
-      const prev = seenNRPN.get(key);
-      if (prev !== undefined) {
-        errors.push(
-          filename + ":" + row.line + " duplicate NRPN " + key +
-            ' (already used by "' + prev + '")',
-        );
-      } else {
-        seenNRPN.set(key, row.parameter_name);
-      }
-    }
-  }
-
   return errors;
 }
