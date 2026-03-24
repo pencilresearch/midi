@@ -1,5 +1,5 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-L.L. Electronics,Rozzbox One V2,Global,Mod Wheel Input,,1,117,0,255,,,,,,,,,
+L.L. Electronics,RozzBox One V2,Global,Mod Wheel Input,,1,117,0,255,,,,,,,,,
 L.L. Electronics,RozzBox One V2,Global,Glide,,5,117,0,255,,,,,,,,,
 L.L. Electronics,RozzBox One V2,System,NRPN Input Coarse,,6,,0,127,,,,,,,,,
 L.L. Electronics,RozzBox One V2,OSC1,OSC1 Wave,,14,117,0,3,,,,,,,,,0: Wave; 1: Pulse; 2: Saw; 3: Triangle
