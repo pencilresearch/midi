@@ -1,8 +1,8 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 1010music,bento,,Mod Wheel,(Mod Wheel) only used as a modulation source,1,,0,127,0,,,,,,0-based,"Mute (0=unmute, 127=Mute)",
 1010music,bento,External Track,Delay Send,,92,,,,,,,,,,,,
-1010music,bento,External Track,Level,,7,,,,,,,,,,,,
-1010music,bento,External Track,Mute,,6,,,,,,,,,,,,
+1010music,bento,External Track,Level,,7,,,,,,,,,,,,0~63: -96dB to <0dB; 64: 0dB; 65~127: >0dB to +12dB
+1010music,bento,External Track,Mute,,6,,,,,,,,,,,,0: Unmute; 127: Mute
 1010music,bento,External Track,Pan,,10,,,,,,,,,,,,
 1010music,bento,External Track,Reverb Send,,91,,,,,,,,,,,,
 1010music,bento,External Track,Solo (Future),,38,,,,,,,,,,,,
@@ -36,12 +36,12 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 1010music,bento,Granular Track,GR2 Rate,,31,,,,,,,,,,,,
 1010music,bento,Granular Track,GR2 Speed,,48,,,,,,,,,,,,
 1010music,bento,Granular Track,GR2 Window,,41,,,,,,,,,,,,
-1010music,bento,Granular Track,Level,,7,,,,,,,,,,,,
+1010music,bento,Granular Track,Level,,7,,,,,,,,,,,,0~63: -96dB to <0dB; 64: 0dB; 65~127: >0dB to +12dB
 1010music,bento,Granular Track,LFO 1 Depth,,12,,,,,,,,,,,,
 1010music,bento,Granular Track,LFO 1 Rate,,13,,,,,,,,,,,,
 1010music,bento,Granular Track,LFO 2 Depth,,15,,,,,,,,,,,,
 1010music,bento,Granular Track,LFO 2 Rate,,16,,,,,,,,,,,,
-1010music,bento,Granular Track,Mute,,6,,,,,,,,,,,,
+1010music,bento,Granular Track,Mute,,6,,,,,,,,,,,,0: Unmute; 127: Mute
 1010music,bento,Granular Track,Osc Level,,49,,,,,,,,,,,,
 1010music,bento,Granular Track,Osc Pitch,,50,,,,,,,,,,,,
 1010music,bento,Granular Track,Osc Pulse Width,,51,,,,,,,,,,,,
@@ -49,8 +49,8 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 1010music,bento,Granular Track,Reverb Send,,91,,,,,,,,,,,,
 1010music,bento,Granular Track,Solo (Future),,38,,,,,,,,,,,,
 1010music,bento,Loop Track,Delay Send,,92,,,,,,,,,,,,
-1010music,bento,Loop Track,Level,,7,,,,,,,,,,,,
-1010music,bento,Loop Track,Mute,,6,,,,,,,,,,,,
+1010music,bento,Loop Track,Level,,7,,,,,,,,,,,,0~63: -96dB to <0dB; 64: 0dB; 65~127: >0dB to +12dB
+1010music,bento,Loop Track,Mute,,6,,,,,,,,,,,,0: Unmute; 127: Mute
 1010music,bento,Loop Track,Pan (entire track),,10,,,,,,,,,,,,
 1010music,bento,Loop Track,Reverb Send,,91,,,,,,,,,,,,
 1010music,bento,Loop Track,Slot 01 Delay Send,,56,,,,,,,,,,,,
@@ -155,20 +155,20 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 1010music,bento,Multisample Track,Delay Send,,92,,,,,,,,,,,,
 1010music,bento,Multisample Track,Filter Cutoff,,74,,,,,,,,,,,,
 1010music,bento,Multisample Track,Filter Resonance,,71,,,,,,,,,,,,
-1010music,bento,Multisample Track,Level,,7,,,,,,,,,,,,
+1010music,bento,Multisample Track,Level,,7,,,,,,,,,,,,0~63: -96dB to <0dB; 64: 0dB; 65~127: >0dB to +12dB
 1010music,bento,Multisample Track,LFO Depth,,12,,,,,,,,,,,,
 1010music,bento,Multisample Track,LFO Rate,,13,,,,,,,,,,,,
-1010music,bento,Multisample Track,Mute,,6,,,,,,,,,,,,
+1010music,bento,Multisample Track,Mute,,6,,,,,,,,,,,,0: Unmute; 127: Mute
 1010music,bento,Multisample Track,Overdrive,,3,,,,,,,,,,,,
 1010music,bento,Multisample Track,Pan,,10,,,,,,,,,,,,
-1010music,bento,Multisample Track,Pitch,,94,,,,,,,,,,,,
+1010music,bento,Multisample Track,Pitch,,94,,,,,,,,,,,,0~127: -24 semitones to +24 semitones
 1010music,bento,Multisample Track,Release,,72,,,,,,,,,,,,
 1010music,bento,Multisample Track,Reverb Send,,91,,,,,,,,,,,,
 1010music,bento,Multisample Track,Solo (Future),,38,,,,,,,,,,,,
 1010music,bento,One-shot Track,Damper Pedal,,74,,,,,,,,,,,,
 1010music,bento,One-shot Track,Delay Send,,92,,,,,,,,,,,,
-1010music,bento,One-shot Track,Level,,7,,,,,,,,,,,,
-1010music,bento,One-shot Track,Mute,,6,,,,,,,,,,,,
+1010music,bento,One-shot Track,Level,,7,,,,,,,,,,,,0~63: -96dB to <0dB; 64: 0dB; 65~127: >0dB to +12dB
+1010music,bento,One-shot Track,Mute,,6,,,,,,,,,,,,0: Unmute; 127: Mute
 1010music,bento,One-shot Track,Pan (entire track),,10,,,,,,,,,,,,
 1010music,bento,One-shot Track,Reverb Send,,91,,,,,,,,,,,,
 1010music,bento,One-shot Track,Slot 01 Delay Send,,56,,,,,,,,,,,,
@@ -272,13 +272,13 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 1010music,bento,Slicer Track,Delay Send,,92,,,,,,,,,,,,
 1010music,bento,Slicer Track,Filter Cutoff,,74,,,,,,,,,,,,
 1010music,bento,Slicer Track,Filter Resonance,,71,,,,,,,,,,,,
-1010music,bento,Slicer Track,Level,,7,,,,,,,,,,,,
+1010music,bento,Slicer Track,Level,,7,,,,,,,,,,,,0~63: -96dB to <0dB; 64: 0dB; 65~127: >0dB to +12dB
 1010music,bento,Slicer Track,LFO Depth,,12,,,,,,,,,,,,
 1010music,bento,Slicer Track,LFO Rate,,13,,,,,,,,,,,,
-1010music,bento,Slicer Track,Mute,,6,,,,,,,,,,,,
+1010music,bento,Slicer Track,Mute,,6,,,,,,,,,,,,0: Unmute; 127: Mute
 1010music,bento,Slicer Track,Overdrive,,3,,,,,,,,,,,,
 1010music,bento,Slicer Track,Pan,,10,,,,,,,,,,,,
-1010music,bento,Slicer Track,Pitch,,94,,,,,,,,,,,,
+1010music,bento,Slicer Track,Pitch,,94,,,,,,,,,,,,0~127: -24 semitones to +24 semitones
 1010music,bento,Slicer Track,Release,,72,,,,,,,,,,,,
 1010music,bento,Slicer Track,Reverb Send,,91,,,,,,,,,,,,
 1010music,bento,Slicer Track,Solo (Future),,38,,,,,,,,,,,,
@@ -293,12 +293,12 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 1010music,bento,Wavetable Track,Filter 1 Resonance/Width/Q,,71,,,,,,,,,,,,
 1010music,bento,Wavetable Track,Filter 2 Frequency/Cutoff,,17,,,,,,,,,,,,
 1010music,bento,Wavetable Track,Filter 2 Resonance/Width/Q,,18,,,,,,,,,,,,
-1010music,bento,Wavetable Track,Level,,7,,,,,,,,,,,,
+1010music,bento,Wavetable Track,Level,,7,,,,,,,,,,,,0~63: -96dB to <0dB; 64: 0dB; 65~127: >0dB to +12dB
 1010music,bento,Wavetable Track,LFO 1 Depth,,12,,,,,,,,,,,,
 1010music,bento,Wavetable Track,LFO 1 Rate,,13,,,,,,,,,,,,
 1010music,bento,Wavetable Track,LFO 2 Depth,,15,,,,,,,,,,,,
 1010music,bento,Wavetable Track,LFO 2 Rate,,16,,,,,,,,,,,,
-1010music,bento,Wavetable Track,Mute,,6,,,,,,,,,,,,
+1010music,bento,Wavetable Track,Mute,,6,,,,,,,,,,,,0: Unmute; 127: Mute
 1010music,bento,Wavetable Track,Osc Level,,49,,,,,,,,,,,,
 1010music,bento,Wavetable Track,Osc Pitch,,50,,,,,,,,,,,,
 1010music,bento,Wavetable Track,Osc Pulse Width,,51,,,,,,,,,,,,
