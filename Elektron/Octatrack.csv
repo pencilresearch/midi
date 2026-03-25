@@ -1,4 +1,6 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Elektron,Octatrack,Track,Track Level,,7,,0,127,,,,,,,0-based,receive only,
+Elektron,Octatrack,Track,Track Balance,,8,,0,127,,,,,,,centered,receive only,
 Elektron,Octatrack,Playback,Pitch,,16,,0,127,,,,,,,centered,,
 Elektron,Octatrack,Playback,Start,,17,,0,127,,,,,,,0-based,,
 Elektron,Octatrack,Playback,Length,,18,,0,127,,,,,,,0-based,,
@@ -208,6 +210,8 @@ Elektron,Octatrack,MIDI Arp,Arp Mode,,24,,0,6,,,,,,,0-based,receive only,0: Off;
 Elektron,Octatrack,MIDI Arp,Arp Speed,,25,,0,127,,,,,,,0-based,receive only,
 Elektron,Octatrack,MIDI Arp,Arp Octave Range,,26,,0,127,,,,,,,0-based,receive only,
 Elektron,Octatrack,MIDI Arp,Arp Note Length,,27,,0,127,,,,,,,0-based,receive only,
+Elektron,Octatrack,MIDI CC,Pitch Bend,,34,,0,127,,,,,,,centered,receive only,
+Elektron,Octatrack,MIDI CC,Aftertouch,,35,,0,127,,,,,,,0-based,receive only,
 Elektron,Octatrack,MIDI CC,CC #1,,36,,0,127,,,,,,,0-based,receive only,
 Elektron,Octatrack,MIDI CC,CC #2,,37,,0,127,,,,,,,0-based,receive only,
 Elektron,Octatrack,MIDI CC,CC #3,,38,,0,127,,,,,,,0-based,receive only,
