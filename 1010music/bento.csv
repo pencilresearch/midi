@@ -1,5 +1,5 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-1010music,bento,,Mod Wheel,(Mod Wheel) only used as a modulation source,1,,0,127,0,,,,,,0-based,"Mute (0=unmute, 127=Mute)",
+1010music,bento,,Mod Wheel,(Mod Wheel) only used as a modulation source,1,,0,127,0,,,,,,,,0: Unmute; 127: Mute
 1010music,bento,External Track,Delay Send,,92,,,,,,,,,,,,
 1010music,bento,External Track,Level,,7,,,,,,,,,,,,0~63: -96dB to <0dB; 64: 0dB; 65~127: >0dB to +12dB
 1010music,bento,External Track,Mute,,6,,,,,,,,,,,,0: Unmute; 127: Mute
