@@ -1,0 +1,26 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+OTO Machines,BISCUIT,Drive,Input gain,,14,,0,127,,,,,,,centered,,0~127: -Inf to +15dB
+OTO Machines,BISCUIT,Mixer,Dry level (naked),,15,,0,127,,,,,,,centered,,0~127: -Inf to +15dB
+OTO Machines,BISCUIT,Mixer,8bit level (dressed),,16,,0,127,,,,,,,centered,,0~127: -Inf to +15dB
+OTO Machines,BISCUIT,Filter,Resonance (Q),,17,,0,127,,,,,,,0-based,,0~127: Low to high resonance
+OTO Machines,BISCUIT,Filter,Cutoff frequency,,18,,0,127,,,,,,,0-based,,0~127: 20Hz to 15kHz
+OTO Machines,BISCUIT,Clock,Sample rate,,19,,0,127,,,,,,,0-based,,0~127: 250Hz to 30kHz
+OTO Machines,BISCUIT,Bits,Bit 1,,20,,0,127,,,,,,,0-based,,0-42: Off; 43-84: On; 85-127: Invert
+OTO Machines,BISCUIT,Bits,Bit 2,,21,,0,127,,,,,,,0-based,,0-42: Off; 43-84: On; 85-127: Invert
+OTO Machines,BISCUIT,Bits,Bit 3,,22,,0,127,,,,,,,0-based,,0-42: Off; 43-84: On; 85-127: Invert
+OTO Machines,BISCUIT,Bits,Bit 4,,23,,0,127,,,,,,,0-based,,0-42: Off; 43-84: On; 85-127: Invert
+OTO Machines,BISCUIT,Bits,Bit 5,,24,,0,127,,,,,,,0-based,,0-42: Off; 43-84: On; 85-127: Invert
+OTO Machines,BISCUIT,Bits,Bit 6,,25,,0,127,,,,,,,0-based,,0-42: Off; 43-84: On; 85-127: Invert
+OTO Machines,BISCUIT,Bits,Bit 7,,26,,0,127,,,,,,,0-based,,0-42: Off; 43-84: On; 85-127: Invert
+OTO Machines,BISCUIT,Bits,Bit 8,,27,,0,127,,,,,,,0-based,,0-42: Off; 43-84: On; 85-127: Invert
+OTO Machines,BISCUIT,System,Bypass,,28,,0,127,,,,,,,0-based,,0-63: Active; 64-127: Bypass
+OTO Machines,BISCUIT,Filter,Filter mode,,29,,0,127,,,,,,,0-based,,0-42: Lowpass; 43-84: Bandpass; 85-127: Highpass
+OTO Machines,BISCUIT,FX,FX type,,30,,0,127,,,,,,,0-based,,0-25: Off; 26-50: Waveshaper; 51-75: Delay; 76-100: Pitch; 101-127: Step filter
+OTO Machines,BISCUIT,FX,Waveshaper type,,31,,0,127,,,,,,,0-based,,0-15: Rect; 16-31: Alt rect; 32-47: Fuzz; 48-63: Biscuit; 64-79: Swap; 80-95: Saw; 96-111: Low saw; 112-127: Low square
+OTO Machines,BISCUIT,Delay,Division,,32,,0,127,,,,,,,0-based,,0-21: Quarter; 22-42: Dotted quarter; 43-63: Eighth; 64-84: Dotted eighth; 85-105: Sixteenth; 106-127: Dotted sixteenth
+OTO Machines,BISCUIT,Delay,Feedback,,33,,0,127,,,,,,,0-based,,0-15: 0%; 16-31: 10%; 32-47: 20%; 48-63: 30%; 64-79: 35%; 80-95: 45%; 96-111: 50%; 112-127: 100%
+OTO Machines,BISCUIT,Delay,Free clock enable,,34,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+OTO Machines,BISCUIT,Pitch,Pitch shift,,35,,0,127,,,,,,,0-based,,0-15: -2oct; 16-31: -1oct; 32-47: -5th; 48-63: Detune; 64-79: +m3; 80-95: +M3; 96-111: +5th; 112-127: +1oct
+OTO Machines,BISCUIT,StepFilter,Play mode,,36,,0,127,,,,,,,0-based,,0-42: Forward; 43-84: Alternate; 85-127: Random
+OTO Machines,BISCUIT,StepFilter,Speed,,37,,0,127,,,,,,,0-based,,0-25: x1; 26-50: x2; 51-75: x4; 76-100: x8; 101-127: x24
+OTO Machines,BISCUIT,StepFilter,Steps,,38,,0,127,,,,,,,0-based,,0-25: 2 steps; 26-50: 3 steps; 51-75: 4 steps; 76-100: 6 steps; 101-127: 8 steps
