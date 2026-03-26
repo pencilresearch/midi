@@ -537,7 +537,7 @@ Elektron,Tonverk,Bus Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX: Send 1 Amount,,44,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX: Send 2 Amount,,45,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX: Send 3 Amount,,46,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Bus Track: FX,FX: Routing Destination,,47,,0,2,0,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 
+Elektron,Tonverk,Bus Track: FX,FX: Routing Destination,,47,,0,2,0,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF
 Elektron,Tonverk,Bus Track: FX,FX 1: Parameter A,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX 1: Parameter B,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Bus Track: FX,FX 1: Parameter C,,50,,0,127,,,,,,,0-based,,
@@ -565,7 +565,7 @@ Elektron,Tonverk,Send Track,Track: Level,,95,,0,127,100,,,,,,0-based,,
 Elektron,Tonverk,Send Track: Trig,Trig: Note,,3,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: Trig,Trig: Velocity,,4,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: Trig,Trig: Note Length,,5,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,Send Track: FX,FX: Routing Destination,,47,,0,2,0,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF; 
+Elektron,Tonverk,Send Track: FX,FX: Routing Destination,,47,,0,2,0,,,,,,0-based,,0: Mix AB; 1: Out CD; 2: Out EF
 Elektron,Tonverk,Send Track: FX,FX 1: Parameter A,,48,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: FX,FX 1: Parameter B,,49,,0,127,,,,,,,0-based,,
 Elektron,Tonverk,Send Track: FX,FX 1: Parameter C,,50,,0,127,,,,,,,0-based,,
@@ -844,7 +844,7 @@ Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback Gain,,51,,0,127,78,,,,,,0-ba
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback HPF,,52,,0,127,0,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 1: Feedback LPF,,53,,0,127,127,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 2: Delay Time,,56,,0,127,,,,,,,0-based,,
-Elektron,Tonverk,FX: Saturator Delay,FX 2: Ping Pong,,57,,0,127,0,,,,,,0-based,,0: Off; 1: On
+Elektron,Tonverk,FX: Saturator Delay,FX 2: Ping Pong,,57,,0,1,0,,,,,,0-based,,0: Off; 1: On
 Elektron,Tonverk,FX: Saturator Delay,FX 2: Stereo Width,,58,,0,127,63,,,,,,centered,,
 Elektron,Tonverk,FX: Saturator Delay,FX 2: Feedback Gain,,59,,0,127,78,,,,,,0-based,,
 Elektron,Tonverk,FX: Saturator Delay,FX 2: Feedback HPF,,60,,0,127,0,,,,,,0-based,,
