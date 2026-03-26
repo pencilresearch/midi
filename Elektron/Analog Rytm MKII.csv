@@ -11,6 +11,13 @@ Elektron,Analog Rytm MKII,Kit,Kit: Track Mute (seq. mute),,94,,0,1,,1,101,0,1,,0
 Elektron,Analog Rytm MKII,Kit,Kit: Track Solo (seq. mute),,93,,0,1,,1,102,0,1,,0-based,,0: Unsolo; 1: Solo
 Elektron,Analog Rytm MKII,Kit,Kit: Track Machine Type,,15,,1,33,,1,103,1,33,,0-based,,1: BD Classic; 13: BD FM; 21: BD Plastic; 22: BD Silky; 26: BD Sharp; 30: BD Acoustic; 28: SY Dual VCO; 29: SY Chip; 32: SY Raw; 2: SD Hard; 3: SD Classic; 14: SD FM; 23: SD Natural; 31: SD Acoustic; 15: UT Noise; 16: UT Impulse; 27: Disable; 4: RS Hard; 5: RS Hard; 6: CP Classic; 7: BT Classic; 8: XT Classic; 9: CH Classic; 17: CH Metallic; 10: OH Classic; 18: OH Metallic; 24: HH Basic; 33: HH Lab; 11: CY Classic; 19: CY Metallic; 25: CY Ride; 12: CB Classic; 20: CB Metallic
 Elektron,Analog Rytm MKII,Kit,Kit: Active Scene,,92,,0,127,,1,104,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Euclidean,Euclidean: Pulse Generator 1,,86,,0,16,,3,8,0,16,,0-based,,
+Elektron,Analog Rytm MKII,Euclidean,Euclidean: Pulse Generator 2,,87,,0,16,,3,9,0,16,,0-based,,
+Elektron,Analog Rytm MKII,Euclidean,Euclidean: On/Off,,117,,0,1,,3,14,0,1,,0-based,,0: Off; 1: On
+Elektron,Analog Rytm MKII,Euclidean,Euclidean: Rotation Generator 1,,89,,0,127,,3,11,0,127,,centered,,
+Elektron,Analog Rytm MKII,Euclidean,Euclidean: Rotation Generator 2,,90,,0,127,,3,12,0,127,,centered,,
+Elektron,Analog Rytm MKII,Euclidean,Euclidean: Track Rotation,,91,,0,127,,3,13,0,127,,centered,,
+Elektron,Analog Rytm MKII,Euclidean,Euclidean: Boolean Operator,,88,,0,3,,3,10,0,3,,0-based,,0: OR; 1: XOR; 2: AND; 3: SUB
 Elektron,Analog Rytm MKII,Performance,Performance: Parameter 1,,35,,0,127,,0,0,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Performance,Performance: Parameter 2,,36,,0,127,,0,1,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Performance,Performance: Parameter 3,,37,,0,127,,0,2,0,127,,0-based,,
@@ -95,9 +102,9 @@ Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Tune,,17,,0,127,,1,1,0,1
 Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Sweep Time,,20,,0,127,,1,4,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Sweep Depth,,19,,0,127,,1,3,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Decay Time,,18,,0,127,,1,2,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Modulation Type,,21,,0,1,,1,5,0,1,,0-based,,0: A; 1: B
-Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Modulation Level,,23,,0,127,,1,7,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Tick Level,,22,,0,127,,1,6,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Hold Time,,21,,0,127,,1,5,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Dust Level,,23,,0,127,,1,7,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: VCO Click,,22,,0,127,,1,6,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Plastic,BD Plastic: Level,,16,,0,127,,1,0,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Synth: BD Sharp,BD Sharp: Tune,,17,,0,127,,1,1,0,127,,centered,,
 Elektron,Analog Rytm MKII,Synth: BD Sharp,BD Sharp: Sweep Time,,20,,0,127,,1,4,0,127,,0-based,,
@@ -227,27 +234,27 @@ Elektron,Analog Rytm MKII,Synth: SY Chip,SY Chip: Offset 2,,21,,40,88,,,,,,,cent
 Elektron,Analog Rytm MKII,Synth: SY Chip,SY Chip: Offset 3,,22,,40,88,,,,,,,centered,,
 Elektron,Analog Rytm MKII,Synth: SY Chip,SY Chip: Offset 4,,23,,40,88,,,,,,,centered,,
 Elektron,Analog Rytm MKII,Synth: SY Chip,SY Chip: Level,,16,,0,127,,,,,,,0-based,,
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Tune,,17,,0,127,,1,1,0,127,,centered,,
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Detune,,20,,40,88,,1,4,40,88,,centered,,
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Balance,,23,,0,127,,1,7,0,127,,centered,,
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 2 Decay,,18,,0,127,,1,2,0,127,,0-based,,0~126: Time; 127: Infinite
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 1 Wave,,21,,0,6,,1,5,0,6,,0-based,,0: Sine; 1: Asymetric Sine; 2: Triangle; 3: Sinesaw; 4: Assymetric Saw; 5: Saw; 6: Ring Modulator
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 2 Wave,,22,,0,1,,1,6,0,1,,0-based,,0: Sine; 1: Sinesaw
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Noise Level,,19,,0,127,,1,3,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Level,,16,,0,127,,1,0,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Tune,,17,,0,127,,,,,,,centered,,
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Detune,,20,,40,88,,,,,,,centered,,
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Balance,,23,,0,127,,,,,,,centered,,
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 2 Decay,,18,,0,127,,,,,,,0-based,,0~126: Time; 127: Infinite
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 1 Wave,,21,,0,6,,,,,,,0-based,,0: Sine; 1: Asymetric Sine; 2: Triangle; 3: Sinesaw; 4: Assymetric Saw; 5: Saw; 6: Ring Modulator
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Osc 2 Wave,,22,,0,1,,,,,,,0-based,,0: Sine; 1: Sinesaw
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Noise Level,,19,,0,127,,,,,,,0-based,,
+Elektron,Analog Rytm MKII,Synth: SY Raw,SY Raw: Level,,16,,0,127,,,,,,,0-based,,
 Elektron,Analog Rytm MKII,Synth: BT Classic,BT Classic: Tune,,17,,0,127,,1,1,0,127,,centered,,
 Elektron,Analog Rytm MKII,Synth: BT Classic,BT Classic: Decay,,18,,0,127,,1,2,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Synth: BT Classic,BT Classic: Snap,,21,,0,3,,1,5,0,3,,0-based,,
 Elektron,Analog Rytm MKII,Synth: BT Classic,BT Classic: Noise Level,,20,,0,127,,1,4,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Synth: BT Classic,BT Classic: Level,,16,,0,127,,1,0,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: XT classic,XT classic: Tune,,17,,0,127,,1,1,0,127,,centered,,
-Elektron,Analog Rytm MKII,Synth: XT Classic,XT classic: Sweep Time,,20,,0,127,,1,4,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: XT Classic,XT classic: Sweep Depth,,19,,0,127,,1,3,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: XT Classic,XT classic: Decay,,18,,0,127,,1,2,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: XT Classic,XT classic: Noise Tone,,23,,0,127,,1,7,0,127,,centered,,
-Elektron,Analog Rytm MKII,Synth: XT Classic,XT classic: Noise Decay,,21,,0,127,,1,5,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: XT Classic,XT classic: Noise Level,,22,,0,127,,1,6,0,127,,0-based,,
-Elektron,Analog Rytm MKII,Synth: XT Classic,XT classic: Level,,16,,0,127,,1,0,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: XT Classic,XT Classic: Tune,,17,,0,127,,1,1,0,127,,centered,,
+Elektron,Analog Rytm MKII,Synth: XT Classic,XT Classic: Sweep Time,,20,,0,127,,1,4,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: XT Classic,XT Classic: Sweep Depth,,19,,0,127,,1,3,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: XT Classic,XT Classic: Decay,,18,,0,127,,1,2,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: XT Classic,XT Classic: Noise Tone,,23,,0,127,,1,7,0,127,,centered,,
+Elektron,Analog Rytm MKII,Synth: XT Classic,XT Classic: Noise Decay,,21,,0,127,,1,5,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: XT Classic,XT Classic: Noise Level,,22,,0,127,,1,6,0,127,,0-based,,
+Elektron,Analog Rytm MKII,Synth: XT Classic,XT Classic: Level,,16,,0,127,,1,0,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Synth: CH Classic,CH Classic: Tune,,17,,0,127,,1,1,0,127,,centered,,
 Elektron,Analog Rytm MKII,Synth: CH Classic,CH Classic: Decay,,18,,0,127,,1,2,0,127,,0-based,,
 Elektron,Analog Rytm MKII,Synth: CH Classic,CH Classic: Color,,19,,0,127,,1,3,0,127,,0-based,,
