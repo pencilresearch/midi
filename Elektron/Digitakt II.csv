@@ -169,7 +169,7 @@ Elektron,Digitakt II,Amp,Amp: Env.Reset,,88,,0,1,1,1,41,0,1,1,0-based,,0: Off; 1
 Elektron,Digitakt II,Amp,Amp: Mode,,87,,0,1,0,1,40,0,1,0,0-based,,0: AHD; 1: ADSR
 Elektron,Digitakt II,Amp,Amp: Pan,,90,,0,127,63,1,38,0,127,63,centered,,
 Elektron,Digitakt II,Amp,Amp: Volume,,89,,0,127,110,1,39,0,127,110,0-based,,
-Elektron,Digitakt II,FX,Track: Bit Reduction,,54,,0,127,0,1,11,0,127,0,0-based,,0:Off
+Elektron,Digitakt II,FX,Track: Bit Reduction,,54,,0,127,0,1,11,0,127,0,0-based,,0: Off
 Elektron,Digitakt II,FX,Track: Overdrive,,57,,0,127,0,1,14,0,127,0,0-based,,
 Elektron,Digitakt II,FX,Track: Sample-Rate Redux,,55,,0,127,0,1,12,0,127,0,0-based,,
 Elektron,Digitakt II,FX,Track: SRR Routing,,56,,0,1,0,1,13,0,1,0,0-based,,0: PRE Filter; 1: POST Filter
