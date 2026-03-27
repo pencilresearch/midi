@@ -5,11 +5,8 @@ Yamaha,AN1x,General,Scene Select,,3,,0,127,,,,,,,0-based,,0-42: Scene 1; 43-85: 
 Yamaha,AN1x,General,Layer Mode,,8,,0,127,,,,,,,0-based,,0-21: Single; 22-42: Unison; 43-63: Dual; 64-85: Dual Unison; 86-106: Split; 107-127: Split Unison
 Yamaha,AN1x,General,Poly/Mono Mode,,9,,0,127,,,,,,,0-based,,0-42: Poly; 43-85: Mono; 86-127: Legato
 Yamaha,AN1x,General,Portamento Switch,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
-Yamaha,AN1x,General,Portamento Mode,,85,,0,127,,,,,,,0-based,"Sustain+Key: the Hold tone (by a sustain pedal)
-is specified as the starting pitch of the portamento; Fingered: Portamento is only enabled by legato
-Performance",0-63: Normal; 64-127: Sustain+Key
-Yamaha,AN1x,General,Portamento Time,"Sets the time it takes for the pitch to reach the next note played when Portamento Switch is set
-to on.",5,,0,127,,,,,,,0-based,,
+Yamaha,AN1x,General,Portamento Mode,,85,,0,127,,,,,,,0-based,Sustain+Key: the Hold tone (by a sustain pedal) is specified as the starting pitch of the portamento; Fingered: Portamento is only enabled by legato Performance,0-63: Normal; 64-127: Sustain+Key
+Yamaha,AN1x,General,Portamento Time,Sets the time it takes for the pitch to reach the next note played when Portamento Switch is set to on.,5,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,General,Sustain Switch,,64,,0,127,0,,,,,,0-based,,0-63: Off; 64-127: On
 Yamaha,AN1x,General,Mod Wheel,Controls vibrato depth according to the manual.,1,,0,127,0,,,,,,0-based,,
 Yamaha,AN1x,General,Expression,,11,,0,127,127,,,,,,0-based,,
@@ -23,8 +20,7 @@ Yamaha,AN1x,Oscillators,VCO 1 Pitch Fine Tune,,77,,0,127,,,,,,,centered,,
 Yamaha,AN1x,Oscillators,VCO 1 Pitch Mod Depth,,18,,0,127,,,,,,,centered,,
 Yamaha,AN1x,Oscillators,VCO 1 Edge,,76,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Oscillators,VCO 1 Pulse Width,,78,,0,127,,,,,,,0-based,,
-Yamaha,AN1x,Oscillators,VCO 1 PWM Source,,86,,0,127,,,,,,,0-based,"""Fixed"" = no modulation; ""LFO 2 Phase"" = the LFO2 wave shifted later by 60
-degrees; ""LFO 2 Fast"" = the LFO 2 wave with a slightly faster cycle",0-18: Fixed; 19-36: PEG; 37-54: FEG; 55-73: LFO 1; 74-91: LFO 2; 92-109: LFO 2 Phase; 110-127: LFO 2 Fast
+Yamaha,AN1x,Oscillators,VCO 1 PWM Source,,86,,0,127,,,,,,,0-based,"""Fixed"" = no modulation; ""LFO 2 Phase"" = the LFO2 wave shifted later by 60 degrees; ""LFO 2 Fast"" = the LFO 2 wave with a slightly faster cycle",0-18: Fixed; 19-36: PEG; 37-54: FEG; 55-73: LFO 1; 74-91: LFO 2; 92-109: LFO 2 Phase; 110-127: LFO 2 Fast
 Yamaha,AN1x,Oscillators,VCO 1 PWM Depth,,79,,0,127,,,,,,,centered,,
 Yamaha,AN1x,Oscillators,VCO Sync Algorithm,,33,,0,127,,,,,,,0-based,,0-31: FM; 32-63: Sync + FM Both; 64-95: Sync + FM Master; 96-127: Sync + FM Slave
 Yamaha,AN1x,Oscillators,VCO Sync Pitch,,22,,0,127,,,,,,,centered,,
@@ -40,8 +36,7 @@ Yamaha,AN1x,Oscillators,VCO 2 Pitch Fine Tune,,53,,0,127,,,,,,,centered,,
 Yamaha,AN1x,Oscillators,VCO 2 Pitch Mod Depth,,57,,0,127,,,,,,,centered,,
 Yamaha,AN1x,Oscillators,VCO 2 Edge,,54,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Oscillators,VCO 2 Pulse Width,,55,,0,127,,,,,,,0-based,,
-Yamaha,AN1x,Oscillators,VCO 2 PWM Source,,87,,0,127,,,,,,,0-based,"""Fixed"" = no modulation; ""LFO 2 Phase"" = the LFO2 wave shifted later by 60
-degrees; ""LFO 2 Fast"" = the LFO 2 wave with a slightly faster cycle",0-18: Fixed; 19-36: PEG; 37-54: FEG; 55-73: LFO 1; 74-91: LFO 2; 92-109: LFO 2 Phase; 110-127: LFO 2 Fast
+Yamaha,AN1x,Oscillators,VCO 2 PWM Source,,87,,0,127,,,,,,,0-based,"""Fixed"" = no modulation; ""LFO 2 Phase"" = the LFO2 wave shifted later by 60 degrees; ""LFO 2 Fast"" = the LFO 2 wave with a slightly faster cycle",0-18: Fixed; 19-36: PEG; 37-54: FEG; 55-73: LFO 1; 74-91: LFO 2; 92-109: LFO 2 Phase; 110-127: LFO 2 Fast
 Yamaha,AN1x,Oscillators,VCO 2 PWM Depth,,56,,0,127,,,,,,,centered,,
 Yamaha,AN1x,Mixer,Mixer VCO 1 Level,,68,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Mixer,Mixer VCO 2 Level,,69,,0,127,,,,,,,0-based,,
@@ -49,12 +44,8 @@ Yamaha,AN1x,Mixer,Ring Modulator Level,,70,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Mixer,Mixer Noise Level,,39,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Filter,VCF HPF Cutoff,,58,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Filter,VCF Type,,59,,0,127,,,,,,,0-based,,0-21: Low Pass 24dB; 22-42: Low Pass 18dB; 43-63: Low Pass 12dB; 64-85: Band Pass; 86-106: High Pass 12dB; 107-127: Band Eliminate
-Yamaha,AN1x,Filter,VCF Cutoff (Brightness),,74,,0,127,,,,,,,0-based,"Setting a value adds to or subtracts from the center value 64 since it is an
-offset parameter. The effective range may be narrower than the range you can designate depending on
-the selected voice.",
-Yamaha,AN1x,Filter,VCF Resonance (Harmonic Content),,71,,0,127,,,,,,,0-based,"Setting a value adds to or subtracts from the center value 64 since it is
-an offset parameter. The effective range may be narrower than the range you can designate depending
-on the selected voice.",
+Yamaha,AN1x,Filter,VCF Cutoff (Brightness),,74,,0,127,,,,,,,0-based,Setting a value adds to or subtracts from the center value 64 since it is an offset parameter. The effective range may be narrower than the range you can designate depending on the selected voice.,
+Yamaha,AN1x,Filter,VCF Resonance (Harmonic Content),,71,,0,127,,,,,,,0-based,Setting a value adds to or subtracts from the center value 64 since it is an offset parameter. The effective range may be narrower than the range you can designate depending on the selected voice.,
 Yamaha,AN1x,Filter,VCF Filter Mod Depth,,19,,0,127,,,,,,,centered,,
 Yamaha,AN1x,Filter,VCF Cutoff Keyboard Track,,30,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Filter Envelope,Filter EG Atack,,82,,0,127,,,,,,,0-based,,
@@ -66,8 +57,7 @@ Yamaha,AN1x,Filter Envelope,Filter EG Velocity Sensitivity,,60,,0,127,,,,,,,cent
 Yamaha,AN1x,Amp,VCA Volume,,62,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Amp,VCA Feedback Level,,63,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Amp,VCA Mod Depth,,80,,0,127,,,,,,,centered,,
-Yamaha,AN1x,Amp Envelope,Amp EG Attack,,73,,0,127,,,,,,,0-based,"Setting a value adds to or subtracts from the center value 64 since it is
-an offset parameter.",
+Yamaha,AN1x,Amp Envelope,Amp EG Attack,,73,,0,127,,,,,,,0-based,Setting a value adds to or subtracts from the center value 64 since it is an offset parameter.,
 Yamaha,AN1x,Amp Envelope,Amp EG Decay,,75,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Amp Envelope,Amo EG Sustain Level,,31,,0,127,,,,,,,0-based,,
 Yamaha,AN1x,Amp Envelope,Amp EG Release,,72,,0,127,,,,,,,0-based,Setting a value adds to or subtracts from the center value 64 since it is an offset parameter.,
