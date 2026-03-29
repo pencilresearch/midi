@@ -1,0 +1,153 @@
+name: Root Folder Approval Gate
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - synchronize
+      - ready_for_review
+  pull_request_review:
+    types:
+      - submitted
+      - dismissed
+
+permissions:
+  contents: read
+  pull-requests: read
+
+jobs:
+  require-extra-approvals:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Require approvals for new root folders
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const pr = context.payload.pull_request;
+            if (!pr) {
+              core.setFailed("This workflow only supports pull request events.");
+              return;
+            }
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner,
+              repo,
+              pull_number: pr.number,
+              per_page: 100,
+            });
+
+            const changedPaths = files.map((file) => file.filename);
+            if (changedPaths.length === 0) {
+              core.info("No files changed in this pull request.");
+              return;
+            }
+
+            const nonPreviewPaths = changedPaths.filter(
+              (path) => !path.startsWith("preview/")
+            );
+
+            if (nonPreviewPaths.length === 0) {
+              core.info("Preview-only pull request detected; skipping extra approval gate.");
+              return;
+            }
+
+            const baseCommit = await github.rest.git.getCommit({
+              owner,
+              repo,
+              commit_sha: pr.base.sha,
+            });
+
+            const baseTree = await github.rest.git.getTree({
+              owner,
+              repo,
+              tree_sha: baseCommit.data.tree.sha,
+            });
+
+            const baseRootDirectories = new Set(
+              baseTree.data.tree
+                .filter((entry) => entry.type === "tree")
+                .map((entry) => entry.path)
+            );
+
+            const newRootDirectories = new Set();
+            for (const path of nonPreviewPaths) {
+              if (!path.includes("/")) {
+                continue;
+              }
+
+              const topLevelDirectory = path.split("/")[0];
+              if (!baseRootDirectories.has(topLevelDirectory)) {
+                newRootDirectories.add(topLevelDirectory);
+              }
+            }
+
+            if (newRootDirectories.size === 0) {
+              core.info("No new top-level folders were added.");
+              return;
+            }
+
+            const reviews = await github.paginate(github.rest.pulls.listReviews, {
+              owner,
+              repo,
+              pull_number: pr.number,
+              per_page: 100,
+            });
+
+            const latestReviewByUser = new Map();
+            for (const review of reviews) {
+              if (!review.user) {
+                continue;
+              }
+              latestReviewByUser.set(review.user.login, review);
+            }
+
+            const approvedReviews = [...latestReviewByUser.values()].filter(
+              (review) =>
+                review.state === "APPROVED" && review.user.login !== pr.user.login
+            );
+
+            if (approvedReviews.length < 3) {
+              core.setFailed(
+                `This pull request adds new top-level folder(s): ${[...newRootDirectories].join(", ")}. It needs 3 approvals and currently has ${approvedReviews.length}.`
+              );
+              return;
+            }
+
+            let hasAdminApproval = false;
+            for (const review of approvedReviews) {
+              try {
+                const permission = await github.rest.repos.getCollaboratorPermissionLevel({
+                  owner,
+                  repo,
+                  username: review.user.login,
+                });
+
+                if (
+                  permission.data.permission === "admin" ||
+                  permission.data.role_name === "admin"
+                ) {
+                  hasAdminApproval = true;
+                  break;
+                }
+              } catch (error) {
+                core.warning(
+                  `Could not determine collaborator permission for ${review.user.login}: ${error.message}`
+                );
+              }
+            }
+
+            if (!hasAdminApproval) {
+              core.setFailed(
+                "This pull request adds a new top-level folder and needs at least one approval from a repository admin."
+              );
+              return;
+            }
+
+            core.info(
+              `Extra approval gate satisfied for new top-level folder(s): ${[...newRootDirectories].join(", ")}.`
+            );

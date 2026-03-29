@@ -1,0 +1,55 @@
+name: Validate README Rules
+
+on:
+  pull_request:
+  push:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run validator unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate newly added CSV files
+        shell: bash
+        run: |
+          if [ "${{ github.event_name }}" = "pull_request" ]; then
+            base_sha="${{ github.event.pull_request.base.sha }}"
+            head_sha="${{ github.sha }}"
+          else
+            base_sha="${{ github.event.before }}"
+            head_sha="${{ github.sha }}"
+          fi
+
+          if [ -z "$base_sha" ] || [ "$base_sha" = "0000000000000000000000000000000000000000" ]; then
+            mapfile -d '' added_csvs < <(git diff-tree --root --no-commit-id --name-only -r -z --diff-filter=AR "$head_sha" -- '*.csv')
+          else
+            mapfile -d '' added_csvs < <(git diff --name-only -z --diff-filter=AR "$base_sha" "$head_sha" -- '*.csv')
+          fi
+
+          filtered_csvs=()
+          for path in "${added_csvs[@]}"; do
+            if [ "$path" = "template.csv" ]; then
+              continue
+            fi
+            filtered_csvs+=("$path")
+          done
+
+          if [ "${#filtered_csvs[@]}" -eq 0 ]; then
+            echo "No newly added or renamed CSV files to validate."
+            exit 0
+          fi
+
+          python3 scripts/validate_readme_rules.py "${filtered_csvs[@]}"
