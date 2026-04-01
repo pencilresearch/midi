@@ -33,6 +33,7 @@ Deno.test("CSV validation", async () => {
   }
 
   const allErrors: string[] = [];
+  const allWarnings: string[] = [];
 
   for (const file of files) {
     const rel = relative(ROOT, file);
@@ -42,14 +43,22 @@ Deno.test("CSV validation", async () => {
     allErrors.push(...validateFile(rows, rel));
 
     for (const row of rows) {
-      allErrors.push(...validateRow(row, rel));
+      const { errors, warnings } = validateRow(row, rel);
+      allErrors.push(...errors);
+      allWarnings.push(...warnings);
     }
+  }
+
+  if (allWarnings.length > 0) {
+    console.warn(
+      allWarnings.length + " warning(s):\n\n" + allWarnings.map((w) => "  ⚠️  " + w).join("\n"),
+    );
   }
 
   if (allErrors.length > 0) {
     throw new Error(
       allErrors.length + " error(s) in " + files.length + " file(s):\n\n" +
-        allErrors.join("\n"),
+        allErrors.map((e) => "  ❌ " + e).join("\n"),
     );
   }
 });

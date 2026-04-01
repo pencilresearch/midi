@@ -15,9 +15,15 @@ function midiRange(
   return null;
 }
 
+export interface ValidationResult {
+  errors: string[];
+  warnings: string[];
+}
+
 // Validate a single row's fields
-export function validateRow(row: Row, filename: string): string[] {
+export function validateRow(row: Row, filename: string): ValidationResult {
   const errors: string[] = [];
+  const warnings: string[] = [];
   const label = rowLabel(row, filename);
 
   // --- MIDI spec range checks (0-127) ---
@@ -78,7 +84,7 @@ export function validateRow(row: Row, filename: string): string[] {
     row.cc_max_value !== null && row.cc_max_value < 127 &&
     !(row.cc_msb === 0 && row.cc_lsb === 32)
   ) {
-    errors.push(`CC low max in hi-res CC in: ${label}`);
+    warnings.push(`CC low max in hi-res CC in: ${label}`);
   }
 
   // CC LSB without MSB
@@ -91,13 +97,13 @@ export function validateRow(row: Row, filename: string): string[] {
     errors.push(`NRPN LSB without NRPN MSB in: ${label}`);
   }
 
-  // Ambiguous max for CC & NRPN
+  // When a row defines both CC and NRPN, their max values should match
   if (
     row.cc_lsb !== null &&
     row.cc_max_value !== null && row.nrpn_max_value !== null &&
     row.cc_max_value !== row.nrpn_max_value
   ) {
-    errors.push(`Ambiguous max for CC & NRPN in: ${label}`);
+    errors.push(`CC max (${row.cc_max_value}) does not match NRPN max (${row.nrpn_max_value}) in: ${label}`);
   }
 
   // CC default outside min/max
@@ -150,15 +156,18 @@ export function validateRow(row: Row, filename: string): string[] {
   if (min >= 0 && max >= 0) {
     // Min greater than max
     if (min > max) {
-      errors.push(`min ${min} should be lower than max ${max} in: ${label}`);
+      warnings.push(`min ${min} should be lower than max ${max} in: ${label}`);
     }
 
-    // Usage range coverage
+    // Usage range coverage: only check when usage covers most of the range,
+    // since sparse usage (e.g. "0: Off; 127: On") is valid — undocumented
+    // values in between are assumed to be no-op or continuous.
     const optionKeys = Object.keys(usageOptions);
-    if (optionKeys.length > 1) {
+    const rangeSize = max - min + 1;
+    if (optionKeys.length > 1 && optionKeys.length >= rangeSize / 2) {
       for (let i = min; i <= max; i++) {
         if (!(String(i) in usageOptions)) {
-          errors.push(
+          warnings.push(
             `No options specified for value ${i} in min ${min} max ${max} in: ${label}`,
           );
           break;
@@ -170,7 +179,7 @@ export function validateRow(row: Row, filename: string): string[] {
     for (const k of optionKeys) {
       const v = parseInt(k);
       if (v < min || v > max) {
-        errors.push(
+        warnings.push(
           `Options specified outside range ${v} in min ${min} max ${max} in: ${label}`,
         );
         break;
@@ -178,7 +187,7 @@ export function validateRow(row: Row, filename: string): string[] {
     }
   }
 
-  return errors;
+  return { errors, warnings };
 }
 
 // Validate file-level concerns across all rows
