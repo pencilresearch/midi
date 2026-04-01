@@ -1,0 +1,48 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+SIEL,DK 80,Amplifier envelope,Attack,,21,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Amplifier envelope,Decay,,22,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Amplifier envelope,Breakpoint,,23,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Amplifier envelope,Slope,,24,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Amplifier envelope,Sustain,,25,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Amplifier envelope,Release,,26,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Amplifier envelope,Dynamics,,27,,0,1,,,,,,,0-based,,0: Off; 1: On
+SIEL,DK 80,Amplifier envelope,Damper pedal,,28,,0,1,,,,,,,0-based,,0: Off; 1: On
+SIEL,DK 80,Detune,Interval,,29,,0,11,,,,,,,0-based,Voice B only,
+SIEL,DK 80,Detune,Fine,,30,,0,15,,,,,,,0-based,Voice B only,
+SIEL,DK 80,Noise,Level,,31,,0,15,,,,,,,0-based,Voice B only,
+SIEL,DK 80,Filter envelope,Attack,,32,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Filter envelope,Decay,,33,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Filter envelope,Breakpoint,,34,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Filter envelope,Slope,,35,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Filter envelope,Sustain,,36,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Filter envelope,Release,,37,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Filter envelope,Dynamics,,38,,0,1,,,,,,,0-based,,0: Off; 1: On
+SIEL,DK 80,LFO 1,Frequency,,45,,0,15,,,,,,,0-based,,
+SIEL,DK 80,LFO 1,Final level,,46,,0,15,,,,,,,0-based,,
+SIEL,DK 80,LFO 1,Initial level,,47,,0,15,,,,,,,0-based,,
+SIEL,DK 80,LFO 1,Delay time,,48,,0,15,,,,,,,0-based,,
+SIEL,DK 80,LFO 1,Delay mode,,49,,1,2,,,,,,,0-based,,1: Manual; 2: Auto
+SIEL,DK 80,LFO 2,Frequency,,39,,0,15,,,,,,,0-based,,
+SIEL,DK 80,LFO 2,Final level,,40,,0,15,,,,,,,0-based,,
+SIEL,DK 80,LFO 2,Initial level,,41,,0,15,,,,,,,0-based,,
+SIEL,DK 80,LFO 2,Delay time,,42,,0,15,,,,,,,0-based,,
+SIEL,DK 80,LFO 2,Delay mode,,43,,1,2,,,,,,,0-based,,1: Manual; 2: Auto
+SIEL,DK 80,LFO 2,Waveform,,44,,1,2,,,,,,,0-based,,1: Triangle; 2: Square
+SIEL,DK 80,Oscillator,Split point,,50,,0,61,,,,,,,0-based,,
+SIEL,DK 80,Oscillator,Waveform,,51,,0,2,,,,,,,0-based,,0: Off; 1: Square; 2: Sawtooth
+SIEL,DK 80,Oscillator,Sawtooth footage,,52,,1,3,,,,,,,0-based,,1: 16'; 2: 8'; 3: 4'
+SIEL,DK 80,Oscillator,Square 16' level,,53,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Oscillator,Square 8' level,,54,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Oscillator,Square 4' level,,55,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Oscillator,Square 2' level,,56,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Filter,Cutoff,,57,,0,99,,,,,,,0-based,,
+SIEL,DK 80,Filter,Resonance,,58,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Filter,Keyboard tracking,,59,,0,2,,,,,,,0-based,,0: Off; 1: Half; 2: Full
+SIEL,DK 80,Filter,Trigger mode,,60,,1,2,,,,,,,0-based,,1: Single; 2: Multi
+SIEL,DK 80,Filter,Envelope level,,61,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Chorus,Chorus,,62,,0,1,,,,,,,0-based,,0: Off; 1: On
+SIEL,DK 80,Volume,Volume,,63,,0,15,,,,,,,0-based,,
+SIEL,DK 80,Controls,Voice select,Selects which voice (A or B) subsequent CC messages apply to,68,,0,127,,,,,,,0-based,,0: A; 127: B
+SIEL,DK 80,Controls,Modulation depth,,65,,0,127,,,,,,,0-based,,0: Off; 127: On
+SIEL,DK 80,Controls,Hold,,66,,0,127,,,,,,,0-based,,0: Off; 127: On
+SIEL,DK 80,Controls,Chord memory,,67,,0,127,,,,,,,0-based,,0: Off; 127: On
