@@ -8,7 +8,7 @@ const ROOT = new URL("../../", import.meta.url).pathname;
 async function collectCSVFiles(): Promise<string[]> {
   // If CSV_FILES env var is set, use only those (relative paths from repo root)
   const csvFilesEnv = Deno.env.get("CSV_FILES");
-  if (csvFilesEnv) {
+  if (csvFilesEnv !== undefined) {
     return csvFilesEnv
       .split("\n")
       .map((f) => f.trim())
@@ -29,6 +29,10 @@ Deno.test("CSV validation", async () => {
   const files = await collectCSVFiles();
 
   if (files.length === 0) {
+    if (Deno.env.get("CSV_FILES") !== undefined) {
+      console.log("No changed CSV files to check");
+      return;
+    }
     throw new Error("No CSV files found to check");
   }
 
