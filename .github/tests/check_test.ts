@@ -3,7 +3,7 @@ import { relative, resolve } from "@std/path";
 import { parseCSV } from "./parse.ts";
 import { validateFile, validateRow } from "./validate.ts";
 
-const ROOT = new URL("../", import.meta.url).pathname;
+const ROOT = new URL("../../", import.meta.url).pathname;
 
 async function collectCSVFiles(): Promise<string[]> {
   // If CSV_FILES env var is set, use only those (relative paths from repo root)

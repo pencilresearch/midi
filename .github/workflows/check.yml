@@ -32,5 +32,5 @@ jobs:
           echo "$CSV_FILES"
 
       - name: Run validation
-        working-directory: test-src
+        working-directory: .github/tests
         run: deno test --allow-read --allow-env=CSV_FILES
