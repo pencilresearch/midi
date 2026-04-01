@@ -13,7 +13,7 @@ Moog,One,Synth 1: LFO 3,Rate synced,,,,,,,4,52,0,16383,,0-based,,0-1365: 64; 136
 Moog,One,Synth 1: LFO 4,Waveform,,,,,,,4,89,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
 Moog,One,Synth 1: LFO 4,Rate free,,,,,,,4,101,0,16383,,0-based,,
 Moog,One,Synth 1: LFO 4,Rate synced,,,,,,,4,102,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
-Moog,One,Synth 1: Oscillator 1,Octave,,,,,,,1,24,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,One,Synth 1: Oscillator 1,Octave,,,,,,,1,24,0,16383,,0-based,,0-3276: 32'; 3277-6553: 16'; 6554-9829: 8'; 9830-13106: 4'; 13107-16383: 2'
 Moog,One,Synth 1: Oscillator 1,Frequency,,,,,,,1,23,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 1,Beat,,,,,,,1,28,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 1,Saw,,,,,,,1,30,0,16383,,0-based,,
@@ -21,7 +21,7 @@ Moog,One,Synth 1: Oscillator 1,Triangle,,,,,,,1,29,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 1,Pulse width,,,,,,,2,44,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 1,Mix,,,,,,,7,4,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 1,Wave,,,,,,,1,22,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
-Moog,One,Synth 1: Oscillator 2,Octave,,,,,,,1,74,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,One,Synth 1: Oscillator 2,Octave,,,,,,,1,74,0,16383,,0-based,,0-3276: 32'; 3277-6553: 16'; 6554-9829: 8'; 9830-13106: 4'; 13107-16383: 2'
 Moog,One,Synth 1: Oscillator 2,Frequency,,,,,,,1,73,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 2,Beat,,,,,,,1,78,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 2,Saw,,,,,,,1,80,0,16383,,0-based,,
@@ -30,7 +30,7 @@ Moog,One,Synth 1: Oscillator 2,Pulse width,,,,,,,2,94,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 2,Mix,,,,,,,7,8,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 2,Wave,,,,,,,1,72,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
 Moog,One,Synth 1: Oscillator 2,Hard sync,,,,,,,1,89,0,16383,,0-based,,0-8191: Off; 8192-16383: On
-Moog,One,Synth 1: Oscillator 3,Octave,,,,,,,1,124,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,One,Synth 1: Oscillator 3,Octave,,,,,,,1,124,0,16383,,0-based,,0-3276: 32'; 3277-6553: 16'; 6554-9829: 8'; 9830-13106: 4'; 13107-16383: 2'
 Moog,One,Synth 1: Oscillator 3,Frequency,,,,,,,1,123,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 3,Beat,,,,,,,2,0,0,16383,,0-based,,
 Moog,One,Synth 1: Oscillator 3,Saw,,,,,,,2,2,0,16383,,0-based,,
@@ -131,7 +131,7 @@ Moog,One,Synth 2: LFO 3,Rate synced,,,,,,,34,52,0,16383,,0-based,,0-1365: 64; 13
 Moog,One,Synth 2: LFO 4,Waveform,,,,,,,34,89,0,16383,,0-based,,0-4095: Tri; 4096-8191: Pulse; 8192-12287: Saw; 12288-16383: S&H
 Moog,One,Synth 2: LFO 4,Rate free,,,,,,,34,101,0,16383,,0-based,,
 Moog,One,Synth 2: LFO 4,Rate synced,,,,,,,34,102,0,16383,,0-based,,0-1365: 64; 1366-2730: 32; 2731-4095: 16; 4096-5460: 8; 5461-6826: 4; 6827-8191: 2; 8192-9556: 1; 9557-10921: 1/2; 10922-12287: 1/4; 12288-13652: 1/8; 13653-15017: 1/16; 15018-16382: 1/32; 16383: 1/64
-Moog,One,Synth 2: Oscillator 1,Octave,,,,,,,31,24,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,One,Synth 2: Oscillator 1,Octave,,,,,,,31,24,0,16383,,0-based,,0-3276: 32'; 3277-6553: 16'; 6554-9829: 8'; 9830-13106: 4'; 13107-16383: 2'
 Moog,One,Synth 2: Oscillator 1,Frequency,,,,,,,31,23,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 1,Beat,,,,,,,31,28,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 1,Saw,,,,,,,31,30,0,16383,,0-based,,
@@ -139,7 +139,7 @@ Moog,One,Synth 2: Oscillator 1,Triangle,,,,,,,31,29,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 1,Pulse width,,,,,,,32,44,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 1,Mix,,,,,,,37,4,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 1,Wave,,,,,,,31,22,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
-Moog,One,Synth 2: Oscillator 2,Octave,,,,,,,31,74,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,One,Synth 2: Oscillator 2,Octave,,,,,,,31,74,0,16383,,0-based,,0-3276: 32'; 3277-6553: 16'; 6554-9829: 8'; 9830-13106: 4'; 13107-16383: 2'
 Moog,One,Synth 2: Oscillator 2,Frequency,,,,,,,31,73,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 2,Beat,,,,,,,31,78,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 2,Saw,,,,,,,31,80,0,16383,,0-based,,
@@ -148,7 +148,7 @@ Moog,One,Synth 2: Oscillator 2,Pulse width,,,,,,,32,94,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 2,Mix,,,,,,,37,8,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 2,Wave,,,,,,,31,72,0,16383,,0-based,,0-8191: Tri; 8192-16383: Saw
 Moog,One,Synth 2: Oscillator 2,Hard sync,,,,,,,31,89,0,16383,,0-based,,0-8191: Off; 8192-16383: On
-Moog,One,Synth 2: Oscillator 3,Octave,,,,,,,31,124,0,16383,,0-based,,0-3276: 32'.; 3277-6553: 16'; 9830-13106: 4'; 13107-16383: 2'
+Moog,One,Synth 2: Oscillator 3,Octave,,,,,,,31,124,0,16383,,0-based,,0-3276: 32'; 3277-6553: 16'; 6554-9829: 8'; 9830-13106: 4'; 13107-16383: 2'
 Moog,One,Synth 2: Oscillator 3,Frequency,,,,,,,31,123,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 3,Beat,,,,,,,32,0,0,16383,,0-based,,
 Moog,One,Synth 2: Oscillator 3,Saw,,,,,,,32,2,0,16383,,0-based,,

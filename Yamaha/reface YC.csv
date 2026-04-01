@@ -15,5 +15,5 @@ Yamaha,reface YC,Vibrato/chorus,Vibrato/chorus depth,,77,,0,127,,,,,,,0-based,,0
 Yamaha,reface YC,Percussion,Percussion on/off switch,,111,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Yamaha,reface YC,Percussion,Percussion type switch,,112,,0,127,,,,,,,0-based,,0-63: A; 64-127: B
 Yamaha,reface YC,Percussion,Percussion length,,113,,0,127,,,,,,,0-based,,0-25: 0; 26-51: 1; 52-76: 2; 77-102: 3; 103-127: 4
-Yamaha,reface YC,Effects,Effect dist,,18,,0,127,,,,,,,0-based,
+Yamaha,reface YC,Effects,Effect dist,,18,,0,127,,,,,,,0-based,,
 Yamaha,reface YC,Effects,Effect reverb,,91,,0,127,,,,,,,0-based,,

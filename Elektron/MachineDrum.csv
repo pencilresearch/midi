@@ -315,10 +315,10 @@ Elektron,MachineDrum,"CH+3: Track 13, M1",M1 level,,8,,0,127,,,,,,,0-based,,
 Elektron,MachineDrum,"CH+3: Track 14, M2",M2 level,,9,,0,127,,,,,,,0-based,,
 Elektron,MachineDrum,"CH+3: Track 15, M3",M3 level,,10,,0,127,,,,,,,0-based,,
 Elektron,MachineDrum,"CH+3: Track 16, M4",M4 level,,11,,0,127,,,,,,,0-based,,
-Elektron,MachineDrum,"CH+3: Track 13, M1",M1 mute,,12,,0,127,,,,,,,0-based,,0-based
-Elektron,MachineDrum,"CH+3: Track 14, M2",M2 mute,,13,,0,127,,,,,,,0-based,,0-based
-Elektron,MachineDrum,"CH+3: Track 15, M3",M3 mute,,14,,0,127,,,,,,,0-based,,0-based
-Elektron,MachineDrum,"CH+3: Track 16, M4",M4 mute,,15,,0,127,,,,,,,0-based,,0-based
+Elektron,MachineDrum,"CH+3: Track 13, M1",M1 mute,,12,,0,127,,,,,,,0-based,,0: Unmute track; 1-127: Mute track
+Elektron,MachineDrum,"CH+3: Track 14, M2",M2 mute,,13,,0,127,,,,,,,0-based,,0: Unmute track; 1-127: Mute track
+Elektron,MachineDrum,"CH+3: Track 15, M3",M3 mute,,14,,0,127,,,,,,,0-based,,0: Unmute track; 1-127: Mute track
+Elektron,MachineDrum,"CH+3: Track 16, M4",M4 mute,,15,,0,127,,,,,,,0-based,,0: Unmute track; 1-127: Mute track
 Elektron,MachineDrum,"CH+3: Track 13, M1",M1 parameter 01,,16,,0,127,,,,,,,0-based,,
 Elektron,MachineDrum,"CH+3: Track 13, M1",M1 parameter 02,,17,,0,127,,,,,,,0-based,,
 Elektron,MachineDrum,"CH+3: Track 13, M1",M1 parameter 03,,18,,0,127,,,,,,,0-based,,
