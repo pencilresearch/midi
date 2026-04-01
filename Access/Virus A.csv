@@ -2,22 +2,22 @@ manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,c
 Access,Virus A,General,Modulation wheel,,1,,0,127,,,,,,,0-based,,
 Access,Virus A,General,Portamento time,,5,,0,127,,,,,,,0-based,,
 Access,Virus A,General,Channel volume,,7,,0,127,,,,,,,0-based,,
-Access,Virus A,General,Panorama,,10,,0,127,,,,,,,centered,Left..Center..Right,0~127: Pan direction
-Access,Virus A,Oscillators,Osc1 shape,,17,,0,127,,,,,,,centered,Wave..Saw..Pulse,0~127: Sine to saw to pulse
+Access,Virus A,General,Panorama,,10,,0,127,,,,,,,centered,,0~127: Pan direction
+Access,Virus A,Oscillators,Osc1 shape,,17,,0,127,,,,,,,centered,,0~127: Sine to saw to pulse
 Access,Virus A,Oscillators,Osc1 pulsewidth,,18,,0,127,,,,,,,0-based,,
-Access,Virus A,Oscillators,Osc1 wave select,,19,,0,64,,,,,,,0-based,,1: Sine; 2: Triangle; 3-64: Wave
+Access,Virus A,Oscillators,Osc1 wave select,,19,,0,64,,,,,,,0-based,,1: Sine; 2: Triangle; 3~64: Wave
 Access,Virus A,Oscillators,Osc1 semitone,,20,,0,127,,,,,,,centered,,
-Access,Virus A,Oscillators,Osc1 keyfollow,,21,,0,127,,,,,,,centered,Default: 32,
+Access,Virus A,Oscillators,Osc1 keyfollow,,21,,0,127,32,,,,,,centered,,
 Access,Virus A,Oscillators,Osc2 shape,,22,,0,127,,,,,,,centered,,0~127: Sine to saw to pulse
 Access,Virus A,Oscillators,Osc2 pulsewidth,,23,,0,127,,,,,,,0-based,,
-Access,Virus A,Oscillators,Osc2 wave select,,24,,0,64,,,,,,,0-based,,1: Sine; 2: Triangle; 3-64: Wave
+Access,Virus A,Oscillators,Osc2 wave select,,24,,0,64,,,,,,,0-based,,1: Sine; 2: Triangle; 3~64: Wave
 Access,Virus A,Oscillators,Osc2 semitone,,25,,0,127,,,,,,,centered,,
 Access,Virus A,Oscillators,Osc2 detune,,26,,0,127,,,,,,,0-based,,
 Access,Virus A,Oscillators,Osc2 fm amount,,27,,0,127,,,,,,,0-based,,
 Access,Virus A,Oscillators,Osc2 sync,,28,,0,1,,,,,,,0-based,,0: Off; 1: On
 Access,Virus A,Oscillators,Osc2 filt env amt,,29,,0,127,,,,,,,centered,,
 Access,Virus A,General,Fm filt env amt,,30,,0,127,,,,,,,centered,,
-Access,Virus A,General,Osc2 keyfollow,,31,,0,127,,,,,,,centered,Default: 32,
+Access,Virus A,General,Osc2 keyfollow,,31,,0,127,32,,,,,,centered,,
 Access,Virus A,General,Bank select,,32,,0,1,,,,,,,0-based,,0: Bank A; 1: Bank B
 Access,Virus A,Mix,Osc balance,,33,,0,127,,,,,,,centered,,0~127: Balance between Osc1 and Osc2
 Access,Virus A,Mix,Suboscillator volume,,34,,0,127,,,,,,,0-based,,
@@ -40,12 +40,12 @@ Access,Virus A,Filter,Filter routing,,53,,0,3,,,,,,,0-based,,0: Ser 4; 1: Ser 6;
 Access,Virus A,Envelopes,Filter env attack,,54,,0,127,,,,,,,0-based,,
 Access,Virus A,Envelopes,Filter env decay,,55,,0,127,,,,,,,0-based,,
 Access,Virus A,Envelopes,Filter env sustain,,56,,0,127,,,,,,,0-based,,
-Access,Virus A,Envelopes,Filter env sustain time,,57,,0,127,,,,,,,centered,Fall...Infinite...Rise,0~127: Fall to infinite to rise
+Access,Virus A,Envelopes,Filter env sustain time,,57,,0,127,,,,,,,centered,,0~127: Fall to infinite to rise
 Access,Virus A,Envelopes,Filter env release,,58,,0,127,,,,,,,0-based,,
 Access,Virus A,Envelopes,Amp env attack,,59,,0,127,,,,,,,0-based,,
 Access,Virus A,Envelopes,Amp env decay,,60,,0,127,,,,,,,0-based,,
 Access,Virus A,Envelopes,Amp env sustain,,61,,0,127,,,,,,,0-based,,
-Access,Virus A,Envelopes,Amp env sustain time,,62,,0,127,,,,,,,centered,Fall...Infinite...Rise,0~127: Fall to infinite to rise
+Access,Virus A,Envelopes,Amp env sustain time,,62,,0,127,,,,,,,centered,,0~127: Fall to infinite to rise
 Access,Virus A,Envelopes,Amp env release,,63,,0,127,,,,,,,0-based,,
 Access,Virus A,General,Hold pedal,,64,,0,127,,,,,,,0-based,,
 Access,Virus A,LFO,Lfo1 rate,,67,,0,127,,,,,,,0-based,,
