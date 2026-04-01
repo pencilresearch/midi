@@ -1,4 +1,6 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Elektron,Octatrack,Track,Track Level,,7,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,Track,Track Balance,,8,,0,127,,,,,,,centered,Receive only,
 Elektron,Octatrack,Playback,Pitch,,16,,0,127,,,,,,,centered,,
 Elektron,Octatrack,Playback,Start,,17,,0,127,,,,,,,0-based,,
 Elektron,Octatrack,Playback,Length,,18,,0,127,,,,,,,0-based,,
@@ -175,11 +177,11 @@ Elektron,Octatrack,Track,All Arm,,54,,0,127,,,,,,,0-based,,0: All Disarm; 1-127:
 Elektron,Octatrack,Scene,Crossfader,,48,,0,127,,,,,,,0-based,,
 Elektron,Octatrack,Scene,Scene A Select,,55,,0,15,,,,,,,0-based,,
 Elektron,Octatrack,Scene,Scene B Select,,56,,0,15,,,,,,,0-based,,
-Elektron,Octatrack,Track,Pickup SRC AB Level,,57,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,Track,Pickup SRC CD Level,,58,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,Track,Note On,,59,,0,127,,,,,,,0-based,receive only,0: C-1; 1: C#-1; 2: D-1; 3: D#-1; 4: E-1; 5: F-1; 6: F#-1; 7: G-1; 8: G#-1; 9: A-1; 10: A#-1; 11: B-1; 12: C0; 13: C#0; 14: D0; 15: D#0; 16: E0; 17: F0; 18: F#0; 19: G0; 20: G#0; 21: A0; 22: A#0; 23: B0; 24: C1; 25: C#1; 26: D1; 27: D#1; 28: E1; 29: F1; 30: F#1; 31: G1; 32: G#1; 33: A1; 34: A#1; 35: B1; 36: C2; 37: C#2; 38: D2; 39: D#2; 40: E2; 41: F2; 42: F#2; 43: G2; 44: G#2; 45: A2; 46: A#2; 47: B2; 48: C3; 49: C#3; 50: D3; 51: D#3; 52: E3; 53: F3; 54: F#3; 55: G3; 56: G#3; 57: A3; 58: A#3; 59: B3; 60: C4; 61: C#4; 62: D4; 63: D#4; 64: E4; 65: F4; 66: F#4; 67: G4; 68: G#4; 69: A4; 70: A#4; 71: B4; 72: C5; 73: C#5; 74: D5; 75: D#5; 76: E5; 77: F5; 78: F#5; 79: G5; 80: G#5; 81: A5; 82: A#5; 83: B5; 84: C6; 85: C#6; 86: D6; 87: D#6; 88: E6; 89: F6; 90: F#6; 91: G6; 92: G#6; 93: A6; 94: A#6; 95: B6; 96: C7; 97: C#7; 98: D7; 99: D#7; 100: E7; 101: F7; 102: F#7; 103: G7; 104: G#7; 105: A7; 106: A#7; 107: B7; 108: C8; 109: C#8; 110: D8; 111: D#8; 112: E8; 113: F8; 114: F#8; 115: G8; 116: G#8; 117: A8; 118: A#8; 119: B8; 120: C9; 121: C#9; 122: D9; 123: D#9; 124: E9; 125: F9; 126: F#9; 127: G9
-Elektron,Octatrack,Track,Note Off,,60,,0,127,,,,,,,0-based,receive only,0: C-1; 1: C#-1; 2: D-1; 3: D#-1; 4: E-1; 5: F-1; 6: F#-1; 7: G-1; 8: G#-1; 9: A-1; 10: A#-1; 11: B-1; 12: C0; 13: C#0; 14: D0; 15: D#0; 16: E0; 17: F0; 18: F#0; 19: G0; 20: G#0; 21: A0; 22: A#0; 23: B0; 24: C1; 25: C#1; 26: D1; 27: D#1; 28: E1; 29: F1; 30: F#1; 31: G1; 32: G#1; 33: A1; 34: A#1; 35: B1; 36: C2; 37: C#2; 38: D2; 39: D#2; 40: E2; 41: F2; 42: F#2; 43: G2; 44: G#2; 45: A2; 46: A#2; 47: B2; 48: C3; 49: C#3; 50: D3; 51: D#3; 52: E3; 53: F3; 54: F#3; 55: G3; 56: G#3; 57: A3; 58: A#3; 59: B3; 60: C4; 61: C#4; 62: D4; 63: D#4; 64: E4; 65: F4; 66: F#4; 67: G4; 68: G#4; 69: A4; 70: A#4; 71: B4; 72: C5; 73: C#5; 74: D5; 75: D#5; 76: E5; 77: F5; 78: F#5; 79: G5; 80: G#5; 81: A5; 82: A#5; 83: B5; 84: C6; 85: C#6; 86: D6; 87: D#6; 88: E6; 89: F6; 90: F#6; 91: G6; 92: G#6; 93: A6; 94: A#6; 95: B6; 96: C7; 97: C#7; 98: D7; 99: D#7; 100: E7; 101: F7; 102: F#7; 103: G7; 104: G#7; 105: A7; 106: A#7; 107: B7; 108: C8; 109: C#8; 110: D8; 111: D#8; 112: E8; 113: F8; 114: F#8; 115: G8; 116: G#8; 117: A8; 118: A#8; 119: B8; 120: C9; 121: C#9; 122: D9; 123: D#9; 124: E9; 125: F9; 126: F#9; 127: G9
-Elektron,Octatrack,Track,Send Request,,61,,0,0,,,,,,,0-based,receive only,0: All Audio CC
+Elektron,Octatrack,Track,Pickup SRC AB Level,,57,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,Track,Pickup SRC CD Level,,58,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,Track,Note On,,59,,0,127,,,,,,,0-based,Receive only,0: C-1; 1: C#-1; 2: D-1; 3: D#-1; 4: E-1; 5: F-1; 6: F#-1; 7: G-1; 8: G#-1; 9: A-1; 10: A#-1; 11: B-1; 12: C0; 13: C#0; 14: D0; 15: D#0; 16: E0; 17: F0; 18: F#0; 19: G0; 20: G#0; 21: A0; 22: A#0; 23: B0; 24: C1; 25: C#1; 26: D1; 27: D#1; 28: E1; 29: F1; 30: F#1; 31: G1; 32: G#1; 33: A1; 34: A#1; 35: B1; 36: C2; 37: C#2; 38: D2; 39: D#2; 40: E2; 41: F2; 42: F#2; 43: G2; 44: G#2; 45: A2; 46: A#2; 47: B2; 48: C3; 49: C#3; 50: D3; 51: D#3; 52: E3; 53: F3; 54: F#3; 55: G3; 56: G#3; 57: A3; 58: A#3; 59: B3; 60: C4; 61: C#4; 62: D4; 63: D#4; 64: E4; 65: F4; 66: F#4; 67: G4; 68: G#4; 69: A4; 70: A#4; 71: B4; 72: C5; 73: C#5; 74: D5; 75: D#5; 76: E5; 77: F5; 78: F#5; 79: G5; 80: G#5; 81: A5; 82: A#5; 83: B5; 84: C6; 85: C#6; 86: D6; 87: D#6; 88: E6; 89: F6; 90: F#6; 91: G6; 92: G#6; 93: A6; 94: A#6; 95: B6; 96: C7; 97: C#7; 98: D7; 99: D#7; 100: E7; 101: F7; 102: F#7; 103: G7; 104: G#7; 105: A7; 106: A#7; 107: B7; 108: C8; 109: C#8; 110: D8; 111: D#8; 112: E8; 113: F8; 114: F#8; 115: G8; 116: G#8; 117: A8; 118: A#8; 119: B8; 120: C9; 121: C#9; 122: D9; 123: D#9; 124: E9; 125: F9; 126: F#9; 127: G9
+Elektron,Octatrack,Track,Note Off,,60,,0,127,,,,,,,0-based,Receive only,0: C-1; 1: C#-1; 2: D-1; 3: D#-1; 4: E-1; 5: F-1; 6: F#-1; 7: G-1; 8: G#-1; 9: A-1; 10: A#-1; 11: B-1; 12: C0; 13: C#0; 14: D0; 15: D#0; 16: E0; 17: F0; 18: F#0; 19: G0; 20: G#0; 21: A0; 22: A#0; 23: B0; 24: C1; 25: C#1; 26: D1; 27: D#1; 28: E1; 29: F1; 30: F#1; 31: G1; 32: G#1; 33: A1; 34: A#1; 35: B1; 36: C2; 37: C#2; 38: D2; 39: D#2; 40: E2; 41: F2; 42: F#2; 43: G2; 44: G#2; 45: A2; 46: A#2; 47: B2; 48: C3; 49: C#3; 50: D3; 51: D#3; 52: E3; 53: F3; 54: F#3; 55: G3; 56: G#3; 57: A3; 58: A#3; 59: B3; 60: C4; 61: C#4; 62: D4; 63: D#4; 64: E4; 65: F4; 66: F#4; 67: G4; 68: G#4; 69: A4; 70: A#4; 71: B4; 72: C5; 73: C#5; 74: D5; 75: D#5; 76: E5; 77: F5; 78: F#5; 79: G5; 80: G#5; 81: A5; 82: A#5; 83: B5; 84: C6; 85: C#6; 86: D6; 87: D#6; 88: E6; 89: F6; 90: F#6; 91: G6; 92: G#6; 93: A6; 94: A#6; 95: B6; 96: C7; 97: C#7; 98: D7; 99: D#7; 100: E7; 101: F7; 102: F#7; 103: G7; 104: G#7; 105: A7; 106: A#7; 107: B7; 108: C8; 109: C#8; 110: D8; 111: D#8; 112: E8; 113: F8; 114: F#8; 115: G8; 116: G#8; 117: A8; 118: A#8; 119: B8; 120: C9; 121: C#9; 122: D9; 123: D#9; 124: E9; 125: F9; 126: F#9; 127: G9
+Elektron,Octatrack,Track,Send Request,,61,,0,0,,,,,,,0-based,Receive only,0: All Audio CC
 Elektron,Octatrack,MIDI,MIDI Track 1 Mute,,112,,0,127,,,,,,,0-based,,0: Unmute; 1-127: Mute
 Elektron,Octatrack,MIDI,MIDI Track 2 Mute,,113,,0,127,,,,,,,0-based,,0: Unmute; 1-127: Mute
 Elektron,Octatrack,MIDI,MIDI Track 3 Mute,,114,,0,127,,,,,,,0-based,,0: Unmute; 1-127: Mute
@@ -196,25 +198,27 @@ Elektron,Octatrack,MIDI,MIDI Track 5 Solo,,124,,0,127,,,,,,,0-based,,0: Unsolo; 
 Elektron,Octatrack,MIDI,MIDI Track 6 Solo,,125,,0,127,,,,,,,0-based,,0: Unsolo; 1-127: Solo
 Elektron,Octatrack,MIDI,MIDI Track 7 Solo,,126,,0,127,,,,,,,0-based,,0: Unsolo; 1-127: Solo
 Elektron,Octatrack,MIDI,MIDI Track 8 Solo,,127,,0,127,,,,,,,0-based,,0: Unsolo; 1-127: Solo
-Elektron,Octatrack,MIDI Note,Note,,16,,0,127,,,,,,,0-based,receive only,0: C-1; 1: C#-1; 2: D-1; 3: D#-1; 4: E-1; 5: F-1; 6: F#-1; 7: G-1; 8: G#-1; 9: A-1; 10: A#-1; 11: B-1; 12: C0; 13: C#0; 14: D0; 15: D#0; 16: E0; 17: F0; 18: F#0; 19: G0; 20: G#0; 21: A0; 22: A#0; 23: B0; 24: C1; 25: C#1; 26: D1; 27: D#1; 28: E1; 29: F1; 30: F#1; 31: G1; 32: G#1; 33: A1; 34: A#1; 35: B1; 36: C2; 37: C#2; 38: D2; 39: D#2; 40: E2; 41: F2; 42: F#2; 43: G2; 44: G#2; 45: A2; 46: A#2; 47: B2; 48: C3; 49: C#3; 50: D3; 51: D#3; 52: E3; 53: F3; 54: F#3; 55: G3; 56: G#3; 57: A3; 58: A#3; 59: B3; 60: C4; 61: C#4; 62: D4; 63: D#4; 64: E4; 65: F4; 66: F#4; 67: G4; 68: G#4; 69: A4; 70: A#4; 71: B4; 72: C5; 73: C#5; 74: D5; 75: D#5; 76: E5; 77: F5; 78: F#5; 79: G5; 80: G#5; 81: A5; 82: A#5; 83: B5; 84: C6; 85: C#6; 86: D6; 87: D#6; 88: E6; 89: F6; 90: F#6; 91: G6; 92: G#6; 93: A6; 94: A#6; 95: B6; 96: C7; 97: C#7; 98: D7; 99: D#7; 100: E7; 101: F7; 102: F#7; 103: G7; 104: G#7; 105: A7; 106: A#7; 107: B7; 108: C8; 109: C#8; 110: D8; 111: D#8; 112: E8; 113: F8; 114: F#8; 115: G8; 116: G#8; 117: A8; 118: A#8; 119: B8; 120: C9; 121: C#9; 122: D9; 123: D#9; 124: E9; 125: F9; 126: F#9; 127: G9
-Elektron,Octatrack,MIDI Note,Note Velocity,,17,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI Note,Note Length,,18,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI Note,Note 2,,19,,0,127,,,,,,,centered,receive only,
-Elektron,Octatrack,MIDI Note,Note 3,,20,,0,127,,,,,,,centered,receive only,
-Elektron,Octatrack,MIDI Note,Note 4,,21,,0,127,,,,,,,centered,receive only,
-Elektron,Octatrack,MIDI Arp,Arp Transpose,,22,,0,127,,,,,,,centered,receive only,
-Elektron,Octatrack,MIDI Arp,Arp Legato,,23,,0,127,,,,,,,0-based,receive only,0: Off; 1-127: On
-Elektron,Octatrack,MIDI Arp,Arp Mode,,24,,0,6,,,,,,,0-based,receive only,0: Off; 1: True; 2: Up; 3: Down; 4: Cycle; 5: Shuffle; 6: Random
-Elektron,Octatrack,MIDI Arp,Arp Speed,,25,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI Arp,Arp Octave Range,,26,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI Arp,Arp Note Length,,27,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #1,,36,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #2,,37,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #3,,38,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #4,,39,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #5,,40,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #6,,41,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #7,,42,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #8,,43,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #9,,44,,0,127,,,,,,,0-based,receive only,
-Elektron,Octatrack,MIDI CC,CC #10,,45,,0,127,,,,,,,0-based,receive only,
+Elektron,Octatrack,MIDI Note,Note,,16,,0,127,,,,,,,0-based,Receive only,0: C-1; 1: C#-1; 2: D-1; 3: D#-1; 4: E-1; 5: F-1; 6: F#-1; 7: G-1; 8: G#-1; 9: A-1; 10: A#-1; 11: B-1; 12: C0; 13: C#0; 14: D0; 15: D#0; 16: E0; 17: F0; 18: F#0; 19: G0; 20: G#0; 21: A0; 22: A#0; 23: B0; 24: C1; 25: C#1; 26: D1; 27: D#1; 28: E1; 29: F1; 30: F#1; 31: G1; 32: G#1; 33: A1; 34: A#1; 35: B1; 36: C2; 37: C#2; 38: D2; 39: D#2; 40: E2; 41: F2; 42: F#2; 43: G2; 44: G#2; 45: A2; 46: A#2; 47: B2; 48: C3; 49: C#3; 50: D3; 51: D#3; 52: E3; 53: F3; 54: F#3; 55: G3; 56: G#3; 57: A3; 58: A#3; 59: B3; 60: C4; 61: C#4; 62: D4; 63: D#4; 64: E4; 65: F4; 66: F#4; 67: G4; 68: G#4; 69: A4; 70: A#4; 71: B4; 72: C5; 73: C#5; 74: D5; 75: D#5; 76: E5; 77: F5; 78: F#5; 79: G5; 80: G#5; 81: A5; 82: A#5; 83: B5; 84: C6; 85: C#6; 86: D6; 87: D#6; 88: E6; 89: F6; 90: F#6; 91: G6; 92: G#6; 93: A6; 94: A#6; 95: B6; 96: C7; 97: C#7; 98: D7; 99: D#7; 100: E7; 101: F7; 102: F#7; 103: G7; 104: G#7; 105: A7; 106: A#7; 107: B7; 108: C8; 109: C#8; 110: D8; 111: D#8; 112: E8; 113: F8; 114: F#8; 115: G8; 116: G#8; 117: A8; 118: A#8; 119: B8; 120: C9; 121: C#9; 122: D9; 123: D#9; 124: E9; 125: F9; 126: F#9; 127: G9
+Elektron,Octatrack,MIDI Note,Note Velocity,,17,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI Note,Note Length,,18,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI Note,Note 2,,19,,0,127,,,,,,,centered,Receive only,
+Elektron,Octatrack,MIDI Note,Note 3,,20,,0,127,,,,,,,centered,Receive only,
+Elektron,Octatrack,MIDI Note,Note 4,,21,,0,127,,,,,,,centered,Receive only,
+Elektron,Octatrack,MIDI Arp,Arp Transpose,,22,,0,127,,,,,,,centered,Receive only,
+Elektron,Octatrack,MIDI Arp,Arp Legato,,23,,0,127,,,,,,,0-based,Receive only,0: Off; 1-127: On
+Elektron,Octatrack,MIDI Arp,Arp Mode,,24,,0,6,,,,,,,0-based,Receive only,0: Off; 1: True; 2: Up; 3: Down; 4: Cycle; 5: Shuffle; 6: Random
+Elektron,Octatrack,MIDI Arp,Arp Speed,,25,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI Arp,Arp Octave Range,,26,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI Arp,Arp Note Length,,27,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,Pitch Bend,,34,,0,127,,,,,,,centered,Receive only,
+Elektron,Octatrack,MIDI CC,Aftertouch,,35,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #1,,36,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #2,,37,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #3,,38,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #4,,39,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #5,,40,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #6,,41,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #7,,42,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #8,,43,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #9,,44,,0,127,,,,,,,0-based,Receive only,
+Elektron,Octatrack,MIDI CC,CC #10,,45,,0,127,,,,,,,0-based,Receive only,
