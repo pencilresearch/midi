@@ -108,6 +108,15 @@ export function parseCSV(content: string, filename: string): ParseResult {
       (record.length === 1 && record[0].trim() === "")
     ) continue;
 
+    // Check column count
+    if (record.length !== EXPECTED_HEADERS.length) {
+      errors.push(
+        filename + ":" + (i + 2) + " has " + record.length +
+          " columns, expected " + EXPECTED_HEADERS.length,
+      );
+      continue;
+    }
+
     const row: Record<string, string | number | null> = {};
     for (let c = 0; c < headers.length; c++) {
       const val = (record[c] ?? "").trim();
