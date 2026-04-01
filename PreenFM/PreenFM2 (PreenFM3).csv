@@ -1,17 +1,17 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-PreenFM,PreenFM2 (PreenFM3),MIDI,Mod wheel,,1,,0,127,,,,,,,0-based,Can be routed in matrix sources,0~127: Modulation amount
-PreenFM,PreenFM2 (PreenFM3),MIDI,Bank select,,0,,0,127,,,,,,,0-based,Used with Bank select LSB (CC 32) and Program change,0: PreenFM bank; 1: Combo; 2: DX7 bank 0-127; 3: DX7 bank 128-255
+PreenFM,PreenFM2 (PreenFM3),MIDI,Bank select,,0,,0,3,,,,,,,0-based,Used with Bank select LSB (CC 32) and Program change,0: PreenFM bank; 1: Combo; 2: DX7 bank 0-127; 3: DX7 bank 128-255
 PreenFM,PreenFM2 (PreenFM3),MIDI,Bank select LSB,,32,,0,127,,,,,,,0-based,Bank number meaning depends on Bank select (CC 0) value,0~127: Bank number
-PreenFM,PreenFM2 (PreenFM3),MIDI,Hold pedal,Do not listen anymore to note off,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
-PreenFM,PreenFM2 (PreenFM3),MIDI,All sounds off,Mute immediately all voices,120,,0,127,,,,,,,0-based,,
-PreenFM,PreenFM2 (PreenFM3),MIDI,All notes off,Send note off to all voices. Release stage will be heard.,123,,0,127,,,,,,,0-based,,
+PreenFM,PreenFM2 (PreenFM3),MIDI,Mod wheel,,1,,0,127,,,,,,,0-based,Can be routed in matrix sources,0~127: Modulation amount
+PreenFM,PreenFM2 (PreenFM3),MIDI,Hold pedal,"Ignore ""note off""",64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+PreenFM,PreenFM2 (PreenFM3),MIDI,All sounds off,Immediately mute all voices,120,,0,127,,,,,,,0-based,,
+PreenFM,PreenFM2 (PreenFM3),MIDI,All notes off,"Send ""note off"" to all voices; release stage will be heard.",123,,0,127,,,,,,,0-based,,
 PreenFM,PreenFM2 (PreenFM3),MIDI,Omni on,Enable listening on all MIDI channels,124,,0,127,,,,,,,0-based,,
 PreenFM,PreenFM2 (PreenFM3),MIDI,Omni off,Disable listening on all MIDI channels,125,,0,127,,,,,,,0-based,,
 PreenFM,PreenFM2 (PreenFM3),MIDI,Parameter flush,Flush all parameters for current preset,,,,,,127,127,,,,0-based,Triggers a dump of all current preset parameters via NRPN,
 PreenFM,PreenFM2 (PreenFM3),Engine,Algorithm number,,16,,0,127,,0,0,0,28,,0-based,,0~28: Algorithm number
 PreenFM,PreenFM2 (PreenFM3),Engine,Velocity,Higher values increase velocity impact on note volume,,,,,,0,1,0,16,,0-based,,0~16: Velocity sensitivity
 PreenFM,PreenFM2 (PreenFM3),Engine,Voice,Number of voices for the current instrument,,,,,,0,2,0,16,,0-based,,0~16: Voice count
-PreenFM,PreenFM2 (PreenFM3),Engine,Glide,,,,,,,0,3,0,10,,0-based,Valid only if voices is set,0~10: Glide time
+PreenFM,PreenFM2 (PreenFM3),Engine,Glide,,,,,,,0,3,0,10,,0-based,,0~10: Glide time
 PreenFM,PreenFM2 (PreenFM3),Modulation,Modulation index 1,,17,,0,127,,0,4,0,1600,,0-based,NRPN value divided by 100 gives the real modulation index value,0~1600: Modulation index amount
 PreenFM,PreenFM2 (PreenFM3),Modulation,Modulation index 1 velocity,Modulation index amount controlled by velocity,,,,,,0,5,0,1600,,0-based,NRPN value divided by 100 gives the real value,0~1600: Velocity modulation amount
 PreenFM,PreenFM2 (PreenFM3),Modulation,Modulation index 2,,18,,0,127,,0,6,0,1600,,0-based,NRPN value divided by 100 gives the real modulation index value,0~1600: Modulation index amount
