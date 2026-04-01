@@ -1,5 +1,5 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Novation,Circuit Mono Station,Patch,Category,,64,2,0,14,0,,,,,,0-based,,
+Novation,Circuit Mono Station,Patch,Category,,64,,0,14,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Oscillator common,Oscillator sync,,110,,0,1,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Oscillator 1,Keyboard octave,,117,,58,69,64,,,,,,centered,,
 Novation,Circuit Mono Station,Oscillator 1,Waveform type,,80,,0,3,2,,,,,,centered,,0: Sine; 1: Triangle; 2: Saw; 3: Pulse
@@ -26,10 +26,10 @@ Novation,Circuit Mono Station,Filter,Overdrive,,114,,0,127,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Filter,Resonance,,71,,0,127,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Filter,Frequency,,16,48,0,255,255,,,,,,0-based,,
 Novation,Circuit Mono Station,Filter,Shape,,84,,0,2,0,,,,,,0-based,,0: Low pass; 1: Band pass; 2: High pass
-Novation,Circuit Mono Station,Filter,Slope,,40,,0,1,1,,,,,,0-based,,0: Low pass; 1: Band pass; 2: High pass
+Novation,Circuit Mono Station,Filter,Slope,,40,,0,1,1,,,,,,0-based,,0: 12dB; 1: 24dB
 Novation,Circuit Mono Station,Filter,Bypass,,83,,0,3,0,,,,,,0-based,,0: Off; 1: Noise; 2: Oscillator 2; 3: Noise and oscillator 2
 Novation,Circuit Mono Station,Filter,Key tracking,,69,,0,7,7,,,,,,0-based,,0: 0%; 1: 15%; 2: 30%; 3: 45%; 4: 60%; 5: 75%; 6: 90%; 7: 100%
-Novation,Circuit Mono Station,Envelope,Trigger,,73,0,0,1,0,,,,,,0-based,,
+Novation,Circuit Mono Station,Envelope,Trigger,,73,,0,1,0,,,,,,0-based,,
 Novation,Circuit Mono Station,Envelope,Attack,,90,,0,127,2,,,,,,0-based,,
 Novation,Circuit Mono Station,Envelope,Decay,,91,,0,127,90,,,,,,0-based,,
 Novation,Circuit Mono Station,Envelope,Sustain,,92,,0,127,127,,,,,,0-based,,
