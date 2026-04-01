@@ -1,0 +1,46 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Sonicware,LIVEN Ambient Ø,Performance,Velocity,,5,,0,127,,,,,,,0-based,,0~127: Velocity
+Sonicware,LIVEN Ambient Ø,Performance,Dice,,56,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Performance,Parameter lock,,62,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Global,Tune all,,20,,0,127,,,,,,,centered,,0~127: Tune all
+Sonicware,LIVEN Ambient Ø,Oscillator,Structure,,28,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Oscillator,Wave,,29,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Oscillator,Harmonic,,30,,0,127,,,,,,,0-based,Layer parameter,0~127: Harmonic
+Sonicware,LIVEN Ambient Ø,Oscillator,Balance,,31,,0,127,,,,,,,centered,Layer parameter,0~127: Balance
+Sonicware,LIVEN Ambient Ø,Oscillator,Pitch,,32,,0,127,,,,,,,centered,Layer parameter,0~127: Pitch
+Sonicware,LIVEN Ambient Ø,Oscillator,Detune,,33,,0,127,,,,,,,centered,Layer parameter,0~127: Detune
+Sonicware,LIVEN Ambient Ø,Oscillator,Octave,,57,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Modulation,Modulation shape,,34,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Modulation,Modulation amount,,35,,0,127,,,,,,,0-based,Layer parameter,0~127: Modulation amount
+Sonicware,LIVEN Ambient Ø,Modulation,Modulation depth,,36,,0,127,,,,,,,0-based,Layer parameter,0~127: Modulation depth
+Sonicware,LIVEN Ambient Ø,Filter,Filter type,,37,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Filter,Filter cutoff,,38,,0,127,,,,,,,0-based,Layer parameter,0~127: Filter cutoff
+Sonicware,LIVEN Ambient Ø,Filter,Filter resonance,,39,,0,127,,,,,,,0-based,Layer parameter,0~127: Filter resonance
+Sonicware,LIVEN Ambient Ø,Amplifier,Amplifier attack,,40,,0,127,,,,,,,0-based,Layer parameter,0~127: Amplifier attack
+Sonicware,LIVEN Ambient Ø,Amplifier,Amplifier release,,41,,0,127,,,,,,,0-based,Layer parameter,0~127: Amplifier release
+Sonicware,LIVEN Ambient Ø,LFO 1,LFO 1 shape,,42,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,LFO 1,LFO 1 assign,,43,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,LFO 1,LFO 1 trigger,,44,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,LFO 1,LFO 1 rate,,45,,0,127,,,,,,,0-based,Layer parameter,0~127: LFO 1 rate
+Sonicware,LIVEN Ambient Ø,LFO 1,LFO 1 depth,,46,,0,127,,,,,,,0-based,Layer parameter,0~127: LFO 1 depth
+Sonicware,LIVEN Ambient Ø,LFO 2,LFO 2 shape,,47,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,LFO 2,LFO 2 assign,,48,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,LFO 2,LFO 2 trigger,,49,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,LFO 2,LFO 2 rate,,50,,0,127,,,,,,,0-based,Layer parameter,0~127: LFO 2 rate
+Sonicware,LIVEN Ambient Ø,LFO 2,LFO 2 depth,,51,,0,127,,,,,,,0-based,Layer parameter,0~127: LFO 2 depth
+Sonicware,LIVEN Ambient Ø,Mixer,Track level,,52,,0,127,,,,,,,0-based,Layer parameter,0~127: Track level
+Sonicware,LIVEN Ambient Ø,Mixer,Track pan,,53,,0,127,,,,,,,centered,Layer parameter,0~127: Track pan
+Sonicware,LIVEN Ambient Ø,Mixer,Reverb send,,54,,0,127,,,,,,,0-based,Layer parameter,0~127: Reverb send
+Sonicware,LIVEN Ambient Ø,Mixer,Shimmer send,,55,,0,127,,,,,,,0-based,Layer parameter,0~127: Shimmer send
+Sonicware,LIVEN Ambient Ø,Mixer,Track mute,,63,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Voice,Voice mode,,58,,0,127,,,,,,,0-based,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Voice,Voice adjust,,59,,0,127,,,,,,,0-based,Layer parameter,0~127: Voice adjust
+Sonicware,LIVEN Ambient Ø,Effects,Effect type,,21,,0,127,,,,,,,0-based,,
+Sonicware,LIVEN Ambient Ø,Effects,Effect speed,,22,,0,127,,,,,,,0-based,,0~127: Effect speed
+Sonicware,LIVEN Ambient Ø,Effects,Effect amount,,23,,0,127,,,,,,,0-based,,0~127: Effect amount
+Sonicware,LIVEN Ambient Ø,Reverb,Reverb type,,24,,0,127,,,,,,,0-based,,
+Sonicware,LIVEN Ambient Ø,Reverb,Reverb level,,25,,0,127,,,,,,,0-based,,0~127: Reverb level
+Sonicware,LIVEN Ambient Ø,Sequencer,Pattern level,,26,,0,127,,,,,,,0-based,,0~127: Pattern level
+Sonicware,LIVEN Ambient Ø,Sequencer,Random sequence,,27,,0,127,,,,,,,0-based,,
+Sonicware,LIVEN Ambient Ø,Sequencer,Transpose,,60,,0,127,,,,,,,centered,Layer parameter,
+Sonicware,LIVEN Ambient Ø,Sequencer,Random step,,61,,0,127,,,,,,,0-based,Layer parameter,
