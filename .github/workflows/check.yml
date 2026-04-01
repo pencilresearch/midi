@@ -4,7 +4,6 @@ on:
   pull_request:
     branches: [main]
   push:
-    branches: [main]
 
 permissions:
   contents: read
@@ -22,13 +21,13 @@ jobs:
           deno-version: v2.x
 
       - name: Find changed CSV files
-        if: github.event_name == 'pull_request'
+        if: github.event_name == 'push' && github.ref != 'refs/heads/main'
         run: |
-          CSV_FILES=$(git diff --name-only --diff-filter=ACM origin/${{ github.base_ref }}...HEAD -- '*.csv')
+          CSV_FILES=$(git diff --name-only --diff-filter=ACM origin/main...HEAD -- '*.csv')
           echo "CSV_FILES<<EOF" >> "$GITHUB_ENV"
           echo "$CSV_FILES" >> "$GITHUB_ENV"
           echo "EOF" >> "$GITHUB_ENV"
-          echo "Changed CSV files:"
+          echo "Changed CSV files (vs origin/main):"
           echo "$CSV_FILES"
 
       - name: Run validation
