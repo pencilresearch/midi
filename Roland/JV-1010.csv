@@ -23,3 +23,16 @@ Roland,JV-1010,,Hold1,,64,,0,127,,,,,,,0-based,,
 Roland,JV-1010,,Hold2,,69,,0,127,,,,,,,0-based,,
 Roland,JV-1010,,Sostenuto,,66,,0,127,,,,,,,0-based,,
 Roland,JV-1010,,Soft,,67,,0,127,,,,,,,0-based,,
+Roland,JV-1010,Vibrato,Vibrato Rate,Relative offset to patch vibrato rate,,,,,,1,8,0,127,64,centered,,0~127: Vibrato rate
+Roland,JV-1010,Vibrato,Vibrato Depth,Relative offset to patch vibrato depth,,,,,,1,9,0,127,64,centered,,0~127: Vibrato depth
+Roland,JV-1010,Vibrato,Vibrato Delay,Relative offset to patch vibrato delay,,,,,,1,10,0,127,64,centered,,0~127: Vibrato delay
+Roland,JV-1010,TVF,TVF Cutoff Frequency,Relative offset to patch cutoff,,,,,,1,32,0,127,64,centered,,0~127: Cutoff offset
+Roland,JV-1010,TVF,TVF Resonance,Relative offset to patch resonance,,,,,,1,33,0,127,64,centered,,0~127: Resonance offset
+Roland,JV-1010,Envelope,TVF & TVA Envelope Attack Time,Relative offset to envelope attack time,,,,,,1,99,0,127,64,centered,,0~127: Attack offset
+Roland,JV-1010,Envelope,TVF & TVA Envelope Decay Time,Relative offset to envelope decay time,,,,,,1,100,0,127,64,centered,,0~127: Decay offset
+Roland,JV-1010,Envelope,TVF & TVA Envelope Release Time,Relative offset to envelope release time,,,,,,1,102,0,127,64,centered,,0~127: Release offset
+Roland,JV-1010,Drum,Drum Pitch Coarse,Per-drum pitch offset on rhythm part. NRPN LSB = MIDI note number of drum being edited.,,,,,,24,,0,127,64,centered,LSB = drum note number,0~127: Pitch offset
+Roland,JV-1010,Drum,Drum TVA Level,Per-drum level on rhythm part. NRPN LSB = MIDI note number of drum being edited.,,,,,,26,,0,127,,0-based,LSB = drum note number,0~127: Level
+Roland,JV-1010,Drum,Drum Panpot,Per-drum pan on rhythm part. NRPN LSB = MIDI note number of drum being edited. 0 = random.,,,,,,28,,0,127,64,centered,LSB = drum note number; 0 = random,0: Random; 1~127: Pan
+Roland,JV-1010,Drum,Drum Reverb Send,Per-drum reverb send on rhythm part. NRPN LSB = MIDI note number of drum being edited.,,,,,,29,,0,127,,0-based,LSB = drum note number,0~127: Reverb send
+Roland,JV-1010,Drum,Drum Chorus Send,Per-drum chorus send on rhythm part. NRPN LSB = MIDI note number of drum being edited.,,,,,,30,,0,127,,0-based,LSB = drum note number,0~127: Chorus send

@@ -1,0 +1,38 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Roland,JV-1080,,Modulation,,1,,0,127,,,,,,,0-based,,0~127: Modulation depth
+Roland,JV-1080,,Breath Type,,2,,0,127,,,,,,,0-based,,0~127: Breath control
+Roland,JV-1080,,Foot Type,,4,,0,127,,,,,,,0-based,,0~127: Foot control
+Roland,JV-1080,,Portamento Time,,5,,0,127,,,,,,,0-based,,0~127: Portamento time
+Roland,JV-1080,,Volume,,7,,0,127,,,,,,,0-based,,0~127: Part volume
+Roland,JV-1080,,Balance,,8,,0,127,,,,,,,0-based,,0~127: Balance
+Roland,JV-1080,,Pan,,10,,0,127,64,,,,,,centered,,0~127: Pan
+Roland,JV-1080,,Expression,,11,,0,127,,,,,,,0-based,,0~127: Expression
+Roland,JV-1080,,Hold 1,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JV-1080,,Portamento ON OFF,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JV-1080,,Sostenuto,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JV-1080,,Soft,,67,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JV-1080,,Hold 2,,69,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JV-1080,VCF,Resonance,Relative offset to patch resonance,,71,,0,127,64,,,,,,centered,,0~127: Resonance offset
+Roland,JV-1080,Envelope,ENV Release,Relative offset to envelope release,,72,,0,127,64,,,,,,centered,,0~127: Release offset
+Roland,JV-1080,Envelope,ENV Attack,Relative offset to envelope attack,,73,,0,127,64,,,,,,centered,,0~127: Attack offset
+Roland,JV-1080,VCF,Cutoff Frequency,Relative offset to patch cutoff,,74,,0,127,64,,,,,,centered,,0~127: Cutoff offset
+Roland,JV-1080,Tones,Level ENV Tone1,,80,,0,127,,,,,,,0-based,,0~127: Tone 1 level envelope
+Roland,JV-1080,Tones,Level ENV Tone2,,81,,0,127,,,,,,,0-based,,0~127: Tone 2 level envelope
+Roland,JV-1080,Tones,Level ENV Tone3,,82,,0,127,,,,,,,0-based,,0~127: Tone 3 level envelope
+Roland,JV-1080,Tones,Level ENV Tone4,,83,,0,127,,,,,,,0-based,,0~127: Tone 4 level envelope
+Roland,JV-1080,,Portamento Amount,,84,,0,127,,,,,,,0-based,,0~127: Portamento amount
+Roland,JV-1080,Effects,Reverb Send,,91,,0,127,,,,,,,0-based,,0~127: Reverb send level
+Roland,JV-1080,Effects,Chorus Send,,93,,0,127,,,,,,,0-based,,0~127: Chorus send level
+Roland,JV-1080,Vibrato,Vibrato Rate,Relative offset to patch vibrato rate,,,,,,1,8,0,127,64,centered,,0~127: Vibrato rate
+Roland,JV-1080,Vibrato,Vibrato Depth,Relative offset to patch vibrato depth,,,,,,1,9,0,127,64,centered,,0~127: Vibrato depth
+Roland,JV-1080,Vibrato,Vibrato Delay,Relative offset to patch vibrato delay,,,,,,1,10,0,127,64,centered,,0~127: Vibrato delay
+Roland,JV-1080,TVF,TVF Cutoff Frequency,Relative offset to patch cutoff,,,,,,1,32,0,127,64,centered,,0~127: Cutoff offset
+Roland,JV-1080,TVF,TVF Resonance,Relative offset to patch resonance,,,,,,1,33,0,127,64,centered,,0~127: Resonance offset
+Roland,JV-1080,Envelope,TVF & TVA Envelope Attack Time,Relative offset to envelope attack time,,,,,,1,99,0,127,64,centered,,0~127: Attack offset
+Roland,JV-1080,Envelope,TVF & TVA Envelope Decay Time,Relative offset to envelope decay time,,,,,,1,100,0,127,64,centered,,0~127: Decay offset
+Roland,JV-1080,Envelope,TVF & TVA Envelope Release Time,Relative offset to envelope release time,,,,,,1,102,0,127,64,centered,,0~127: Release offset
+Roland,JV-1080,Drum,Drum Pitch Coarse,Per-drum pitch offset on rhythm part. NRPN LSB = MIDI note number of drum being edited.,,,,,,24,,0,127,64,centered,LSB = drum note number,0~127: Pitch offset
+Roland,JV-1080,Drum,Drum TVA Level,Per-drum level on rhythm part. NRPN LSB = MIDI note number of drum being edited.,,,,,,26,,0,127,,0-based,LSB = drum note number,0~127: Level
+Roland,JV-1080,Drum,Drum Panpot,Per-drum pan on rhythm part. NRPN LSB = MIDI note number of drum being edited. 0 = random.,,,,,,28,,0,127,64,centered,LSB = drum note number; 0 = random,0: Random; 1~127: Pan
+Roland,JV-1080,Drum,Drum Reverb Send,Per-drum reverb send on rhythm part. NRPN LSB = MIDI note number of drum being edited.,,,,,,29,,0,127,,0-based,LSB = drum note number,0~127: Reverb send
+Roland,JV-1080,Drum,Drum Chorus Send,Per-drum chorus send on rhythm part. NRPN LSB = MIDI note number of drum being edited.,,,,,,30,,0,127,,0-based,LSB = drum note number,0~127: Chorus send
