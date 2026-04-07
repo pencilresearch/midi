@@ -12,10 +12,10 @@ Roland,JV-1080,,Portamento ON OFF,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: O
 Roland,JV-1080,,Sostenuto,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Roland,JV-1080,,Soft,,67,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Roland,JV-1080,,Hold 2,,69,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
-Roland,JV-1080,VCF,Resonance,Relative offset to patch resonance,,71,,0,127,64,,,,,,centered,,0~127: Resonance offset
-Roland,JV-1080,Envelope,ENV Release,Relative offset to envelope release,,72,,0,127,64,,,,,,centered,,0~127: Release offset
-Roland,JV-1080,Envelope,ENV Attack,Relative offset to envelope attack,,73,,0,127,64,,,,,,centered,,0~127: Attack offset
-Roland,JV-1080,VCF,Cutoff Frequency,Relative offset to patch cutoff,,74,,0,127,64,,,,,,centered,,0~127: Cutoff offset
+Roland,JV-1080,VCF,Resonance,Relative offset to patch resonance,71,,0,127,64,,,,,,centered,,0~127: Resonance offset
+Roland,JV-1080,Envelope,ENV Release,Relative offset to envelope release,72,,0,127,64,,,,,,centered,,0~127: Release offset
+Roland,JV-1080,Envelope,ENV Attack,Relative offset to envelope attack,73,,0,127,64,,,,,,centered,,0~127: Attack offset
+Roland,JV-1080,VCF,Cutoff Frequency,Relative offset to patch cutoff,74,,0,127,64,,,,,,centered,,0~127: Cutoff offset
 Roland,JV-1080,Tones,Level ENV Tone1,,80,,0,127,,,,,,,0-based,,0~127: Tone 1 level envelope
 Roland,JV-1080,Tones,Level ENV Tone2,,81,,0,127,,,,,,,0-based,,0~127: Tone 2 level envelope
 Roland,JV-1080,Tones,Level ENV Tone3,,82,,0,127,,,,,,,0-based,,0~127: Tone 3 level envelope
