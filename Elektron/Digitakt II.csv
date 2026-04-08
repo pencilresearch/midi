@@ -30,7 +30,7 @@ Elektron,Digitakt II,Source: Werp,Werp: Sample Bank Select,,24,,0,127,,1,9,0,163
 Elektron,Digitakt II,Source: Werp,Werp: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
 Elektron,Digitakt II,Source: Werp,Werp: Segment Size,,20,,0,2,1,1,4,0,2,1,0-based,,0: 1/32; 1: 1/16; 2: 1/8
 Elektron,Digitakt II,Source: Werp,Werp: Segment Mode,,21,,0,3,3,1,5,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Werp,Werp: Bars,,22,,0,3,2,1,6,0,3,2,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
+Elektron,Digitakt II,Source: Werp,Werp: Bars,,22,,0,3,2,1,6,0,3,2,0-based,,0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
 Elektron,Digitakt II,Source: Werp,Werp: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Tune,,16,,0,127,63,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
@@ -38,7 +38,7 @@ Elektron,Digitakt II,Source: Stretch,Stretch: Sample Bank Select,,24,,0,127,,1,9
 Elektron,Digitakt II,Source: Stretch,Stretch: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Start,,20,,0,120,0,1,4,0,15360,0,0-based,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Length,,21,,0,120,120,1,5,0,15360,15360,0-based,,
-Elektron,Digitakt II,Source: Stretch,Stretch: Bars,,22,,0,3,2,1,6,0,3,2,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
+Elektron,Digitakt II,Source: Stretch,Stretch: Bars,,22,,0,3,2,1,6,0,3,2,0-based,,0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
 Elektron,Digitakt II,Source: Stretch,Stretch: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Tune,,16,,0,127,63,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
@@ -46,7 +46,7 @@ Elektron,Digitakt II,Source: Repitch,Repitch: Sample Bank Select,,24,,0,127,,1,9
 Elektron,Digitakt II,Source: Repitch,Repitch: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Start,,20,,0,120,0,1,4,0,15360,0,0-based,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Length,,21,,0,120,120,1,5,0,15360,15360,0-based,,
-Elektron,Digitakt II,Source: Repitch,Repitch: Bars,,22,,0,3,2,1,6,0,3,2,0-based,, 0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
+Elektron,Digitakt II,Source: Repitch,Repitch: Bars,,22,,0,3,2,1,6,0,3,2,0-based,,0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
 Elektron,Digitakt II,Source: Repitch,Repitch: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Slice,Slice: Tune,,16,,0,127,63,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Slice,Slice: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
@@ -61,7 +61,7 @@ Elektron,Digitakt II,Source: Grid,Grid: Sample Bank Select,,24,,0,127,,1,9,0,163
 Elektron,Digitakt II,Source: Grid,Grid: Sample Slot Select,,19,,0,127,,1,8,0,16383,,0-based,,
 Elektron,Digitakt II,Source: Grid,Grid: Slice Select,,20,,0,64,0,1,4,0,64,0,0-based,,0: Note
 Elektron,Digitakt II,Source: Grid,Grid: Slice Length,,21,,0,63,0,1,5,0,63,0,0-based,,
-Elektron,Digitakt II,Source: Grid,Grid: Slice Grid,,22,,0,4,0,1,6,0,4,0,0-based,, 0: 4; 1: 8; 2: 16; 3: 32; 4: 64
+Elektron,Digitakt II,Source: Grid,Grid: Slice Grid,,22,,0,4,0,1,6,0,4,0,0-based,,0: 4; 1: 8; 2: 16; 3: 32; 4: 64
 Elektron,Digitakt II,Source: Grid,Grid: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Filter: Generic,Filter: Attack Time,,70,,0,127,0,1,16,0,127,0,0-based,,
 Elektron,Digitakt II,Filter: Generic,Filter: Decay Time,,71,,0,127,64,1,17,0,127,64,0-based,,
