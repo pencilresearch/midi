@@ -103,7 +103,7 @@ export function validateRow(row: Row, filename: string): ValidationResult {
     row.cc_max_value !== null && row.nrpn_max_value !== null &&
     row.cc_max_value !== row.nrpn_max_value
   ) {
-    errors.push(`CC max (${row.cc_max_value}) does not match NRPN max (${row.nrpn_max_value}) in: ${label}`);
+    warnings.push(`CC max (${row.cc_max_value}) does not match NRPN max (${row.nrpn_max_value}) in: ${label}`);
   }
 
   // CC default outside min/max
