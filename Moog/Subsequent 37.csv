@@ -94,8 +94,8 @@ Moog,Subsequent 37,Modulation 2,Modulation 2 controller 4 amount,,,,,,,3,79,0,16
 Moog,Subsequent 37,LFO 1,LFO 1 rate,,3,35,0,127,,3,39,0,16383,,0-based,CC values select clock division when LFO 1 sync is enabled,
 Moog,Subsequent 37,LFO 1,LFO 1 clock divider,,3,,0,127,,,,,,,0-based,Active when LFO 1 sync is enabled,0-6: 4 whole notes; 7-12: 3 whole notes; 13-18: 2 whole notes; 19-24: Whole + half note; 25-30: Whole note; 31-36: Dotted half note; 37-42: Whole note triplet; 43-48: Half note; 49-54: Dotted quarter note; 55-60: Half note triplet; 61-67: Quarter note; 68-73: Dotted 8th note; 74-79: Quarter note triplet; 80-85: 8th note; 86-91: Dotted 16th note; 92-97: 8th note triplet; 98-103: 16th note; 104-109: 16th note triplet; 110-115: 32nd note; 116-121: 32nd note triplet; 122-127: 64th note triplet
 Moog,Subsequent 37,LFO 1,LFO 1 clock divider (NRPN),,,,,,,3,43,0,20,,0-based,Active when LFO 1 sync is enabled,0: 4 whole notes; 1: 3 whole notes; 2: 2 whole notes; 3: Whole + half note; 4: Whole note; 5: Dotted half note; 6: Whole note triplet; 7: Half note; 8: Dotted quarter note; 9: Half note triplet; 10: Quarter note; 11: Dotted 8th note; 12: Quarter note triplet; 13: 8th note; 14: Dotted 16th note; 15: 8th note triplet; 16: 16th note; 17: 16th note triplet; 18: 32nd note; 19: 32nd note triplet; 20: 64th note triplet
-Moog,Subsequent 37,LFO 1,LFO 1 range,,76,,0,127,,3,40,0,2,,0-based,,0-42: Low; 43-84: Medium; 85-127: High
-Moog,Subsequent 37,LFO 1,LFO 1 range (NRPN),,,,,,,,,,,,,,
+Moog,Subsequent 37,LFO 1,LFO 1 range,,76,,0,127,,,,,,,0-based,,0-42: Low; 43-84: Medium; 85-127: High
+Moog,Subsequent 37,LFO 1,LFO 1 range (NRPN),,,,,,,3,40,0,2,,0-based,,0: Low; 1: Medium; 2: High
 Moog,Subsequent 37,LFO 1,LFO 1 sync,,,,,,,3,41,0,1,,0-based,,0: Off; 1: On
 Moog,Subsequent 37,LFO 1,LFO 1 keyboard reset,,93,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Moog,Subsequent 37,LFO 1,LFO 1 keyboard reset (NRPN),,,,,,,3,42,0,1,,0-based,,0: Off; 1: On
