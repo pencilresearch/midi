@@ -179,7 +179,7 @@ export function validateRow(row: Row, filename: string): ValidationResult {
     for (const k of optionKeys) {
       const v = parseInt(k);
       if (v < min || v > max) {
-        warnings.push(
+        errors.push(
           `Options specified outside range ${v} in min ${min} max ${max} in: ${label}`,
         );
         break;
