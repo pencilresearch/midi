@@ -1,5 +1,3 @@
-{{TOC}}
-
 # Contributing to the MIDI CC & NRPN Database
 
 Thank you for helping MIDI Guide to document every MIDI CC parameter! This contribution guide explains how to submit new or edited device definitions.
@@ -54,24 +52,23 @@ Most columns are optional or flexible. These ones are strict:
 
 *Email*: We're just as happy to receive your submission by email. Send your CSV to [midi@midi.guide](mailto:midi@midi.guide) and we'll publish it for you.
 
-## Dataset file structure
+# This dataset's file structure
 
 These are the guidelines we use to keep the entire dataset human-navigable and organized.
 
-### Folder names
+## Folder names
 
 Each manufacturer gets its own folder, e.g. `Teenage Engineering/`, `Dave Smith Instruments/`.
 
 The folder name should precisely match the name of the manufacturer (so not `teenage-engineering/` or `DSI/`).
 
-### Filenames
+## Filenames
 
 Each device gets one CSV inside its manufacturer folder, e.g. `Analog Four Mk II.csv`.
 
 The filename should precisely match the name of the device (so not `analog-four.csv` or `Analog Four Mk 2.csv`).
 
 Do not include the manufacturer name in the filename (so not `Elektron Analog Four.csv`).
-
 
 # The MIDI Guide CSV Format
 
@@ -268,11 +265,3 @@ Here's another one:
 `61: -3st; 62: -2st; 63: -1st; 64: 0; 65: +1st; 66: +2st; 67: +3st; 68: +4st` (default: 64)
 
 What's the correct one? Well, if it doesn't say in the MIDI implementation reference in the manual, and you're not willing to poke at the synth to reverse engineer it, you can't tell. The manual's logical values don't give you enough to go on, and you should leave the `usage` column empty. 
-
-
-
-
-
-
-
-
