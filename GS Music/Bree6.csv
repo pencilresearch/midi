@@ -1,0 +1,52 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+GS Music,Bree6,Oscillator,Oscillator waveform,Corresponds to waveform switch,14,,0,127,,,,,,,0-based,Intermediate values snap to lowest valid setting.,16-31: Saw; 32-47: Pulse; 48-63: Saw + Pulse; 64-79: Sub; 80-95: Saw + Sub; 96-111: Pulse + Sub; 112-127: Saw + Pulse + Sub
+GS Music,Bree6,Oscillator,Pulse width,,15,,0,127,,,,,,,0-based,Labelled PW on panel.,
+GS Music,Bree6,Oscillator,Oscillator level,,41,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Oscillator,Detune,Applies to oscillator 1 relative to oscillator 2,37,,0,127,,,,,,,centered,,
+GS Music,Bree6,Oscillator,Glide time,,5,,0,127,,,,,,,0-based,Portamento Time knob.,
+GS Music,Bree6,Oscillator,Transpose,,43,,16,112,,,,,,,centered,,16~112: -48 to +48 semitones
+GS Music,Bree6,Oscillator,Pitch bend range,,40,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Oscillator,LFO to pitch,,22,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Oscillator,LFO to pulse width modulation,,26,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Oscillator,Aftertouch to oscillator LFO depth,,42,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Oscillator,Mod wheel to oscillator LFO depth,,39,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Filter,Cutoff,,74,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Filter,Resonance,,71,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Filter,Envelope 1 to cutoff,,89,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Filter,LFO to cutoff,,90,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Filter,Mod wheel to cutoff,,88,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Filter,Key tracking to cutoff,,85,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Filter,Velocity to cutoff,,86,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Filter,Aftertouch to cutoff,,87,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Amplifier,Key tracking to amplifier,,93,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Amplifier,LFO to amplifier,,103,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Amplifier,Velocity to amplifier,,94,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Envelope 1,Attack,,16,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Envelope 1,Decay,,17,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Envelope 1,Sustain,,18,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Envelope 1,Release,,19,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Envelope 2,Attack,,80,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Envelope 2,Decay,,81,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Envelope 2,Sustain,,82,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Envelope 2,Release,,83,,0,127,,,,,,,0-based,,
+GS Music,Bree6,LFO,Shape,,53,,0,127,,,,,,,0-based,Intermediate values snap to lowest valid setting.,0-15: Triangle; 16-31: Ramp up; 32-47: Ramp down; 48-63: Square; 64-127: Noise / Sample-and-hold
+GS Music,Bree6,LFO,Rate,,76,,0,127,,,,,,,0-based,Exponential response curve.,0~127: 0.10 Hz to 100 Hz
+GS Music,Bree6,Effects,Delay time,,111,,0,127,,,,,,,0-based,,0~127: 7.85 ms to 1000 ms
+GS Music,Bree6,Effects,Delay feedback,,112,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Effects,Delay mix,,12,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Effects,Chorus amount,,13,,0,127,,,,,,,0-based,Mapped to FX2 (Chorus) on panel.,
+GS Music,Bree6,Performance,Modulation,Affects mod matrix or LFO depth,1,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Performance,Output volume,,7,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Performance,Expression,,11,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Performance,Sustain pedal,Affects envelope release stage,64,,0,127,,,,,,,0-based,,
+GS Music,Bree6,Performance,Voice mode,,36,,0,127,,,,,,,0-based,Intermediate values snap to lowest valid setting.,0-31: Poly Stereo; 32-63: Poly; 64-95: Mono; 96-127: Unison
+GS Music,Bree6,Performance,Unison interval,Interval between voices in unison mode,35,,52,76,,,,,,,centered,,52~76: -12 to +12 semitones
+GS Music,Bree6,MPE,Y-axis to filter,,50,,0,127,,,,,,,0-based,,
+GS Music,Bree6,MPE,Y-axis to amplifier,,51,,0,127,,,,,,,0-based,,
+GS Music,Bree6,MPE,Pressure to amplifier,,52,,0,127,,,,,,,0-based,,
+GS Music,Bree6,MPE,Pressure to filter,,55,,0,127,,,,,,,0-based,,
+GS Music,Bree6,MIDI,Bank select MSB,,0,,0,3,,,,,,,0-based,Use with Program Change. LSB (CC 32) is ignored.,0: Banks 1-2; 1: Banks 3-4; 2: Banks 5-6; 3: Banks 7-8
+GS Music,Bree6,MIDI,All sound off,,120,,0,127,,,,,,,0-based,,
+GS Music,Bree6,MIDI,Reset all controllers,,121,,0,127,,,,,,,0-based,,
+GS Music,Bree6,MIDI,Local control,,122,,0,127,,,,,,,0-based,,0: Off; 127: On
+GS Music,Bree6,MIDI,All notes off,,123,,0,127,,,,,,,0-based,,
