@@ -38,7 +38,7 @@ discoDSP,Corona,Mod LFO,M LFO Decay,Modulation LFO decay,49,,0,127,127,,,,,,0-ba
 discoDSP,Corona,Mod LFO,M LFO Smooth,Modulation LFO smooth,50,,0,127,0,,,,,,0-based,Output slew / waveform smoothing.,
 discoDSP,Corona,Mod LFO,M LFO Waveform,Modulation LFO waveform,51,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,0~11: same waveform set as Filter LFO
 discoDSP,Corona,Mod LFO,M LFO Mode,Modulation LFO mode,52,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid mode.,
-discoDSP,Corona,Filter 1 LFO,F LFO Waveform,Filter LFO waveform,53,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,0~11: sine; triangle; saw up; saw down; square; S&H; and variants
+discoDSP,Corona,Filter 1 LFO,F LFO Waveform,Filter LFO waveform,53,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,"0~11: sine, triangle, saw up, saw down, square, S&H, and variants"
 discoDSP,Corona,Mod LFO,M LFO -> Phase,Modulation LFO to phase,54,,0,127,64,,,,,,centered,Direct routing: mod LFO to oscillator phase.,0~127: Negative to positive modulation
 discoDSP,Corona,Mod LFO,M LFO -> Osc 2,Modulation LFO to osc 2 pitch,55,,0,127,64,,,,,,centered,Direct routing: mod LFO to oscillator 2 pitch.,0~127: Negative to positive modulation
 discoDSP,Corona,Filter 2 LFO,F2 LFO Freq,Filter LFO frequency,56,,0,127,0,,,,,,0-based,Exponential response curve.,
@@ -50,7 +50,7 @@ discoDSP,Corona,Chorus,Chorus Depth,,61,,0,127,90,,,,,,0-based,Chorus LFO pitch 
 discoDSP,Corona,Distortion,Distortion Mix,,62,,0,127,127,,,,,,0-based,,0~127: Dry only to fully wet
 discoDSP,Corona,Distortion,Distortion Amount,,63,,0,127,20,,,,,,0-based,Drive / gain into the distortion stage.,
 discoDSP,Corona,Distortion,Distortion Tone,,65,,0,127,64,,,,,,centered,Post-distortion tone filter.,0~63: Darker amount; 64: Flat; 65~127: Brighter amount
-discoDSP,Corona,Distortion,Distortion Type,,66,,0,8,0,,,,,,0-based,Intermediate values snap to lowest valid algorithm.,0~8: soft clip; hard clip; waveshaper variants
+discoDSP,Corona,Distortion,Distortion Type,,66,,0,8,0,,,,,,0-based,Intermediate values snap to lowest valid algorithm.,"0~8: soft clip, hard clip, waveshaper variants"
 discoDSP,Corona,Filter 2 LFO,F2 LFO Waveform,Filter LFO waveform,67,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,
 discoDSP,Corona,Arpeggiator,A Length,Note length,68,,0,127,127,,,,,,0-based,Note gate length per step.,0~127: Staccato to full legato
 discoDSP,Corona,Arpeggiator,A Swing,Swing,69,,0,127,100,,,,,,0-based,,0~63: Negative swing; 64: Straight; 65-127: Positive swing
