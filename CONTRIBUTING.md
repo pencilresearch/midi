@@ -86,7 +86,7 @@ Every CSV must have exactly these 18 columns, in this order:
 | `device` | **Yes** | Device name. Must match filename | `Subsequent 37` |
 | `section` | No | Logical grouping of parameters |`Oscillators`, or `Filter`, or `LFO 1` |
 | `parameter_name` | **Yes** | Brief label, sentence-cased | `Filter 1 envelope` |
-| `parameter_description` | No | Details about the parameter can be added here. Do not use line breaks. (Caveats, warnings, etc. go in `notes`.) | _Controls either the Time Subdivision or Global Tempo._ |
+| `parameter_description` | No | Details about the parameter can be added here. Sentence-cased. Do not use line breaks. (Caveats, warnings, etc. go in `notes`.) | _Controls either the Time Subdivision or Global Tempo._ |
 | `cc_msb` | If applicable | CC number, 0-127 | `1`|
 | `cc_lsb` | If applicable | LSB for 14-bit CC pairs, 0-127 | `33` |
 | `cc_min_value` | No | Minimum CC value | `0` |
@@ -98,7 +98,7 @@ Every CSV must have exactly these 18 columns, in this order:
 | `nrpn_max_value` | No | Maximum NRPN value | `16383` |
 | `nrpn_default_value` | No | Default NRPN value | `0` |
 | `orientation` | **Yes** | Must be either `0-based` (unipolar) or `centered` (bipolar). If unsure, use `0-based`. | `0-based` |
-| `notes` | No | Caveats, gotchas, channel constraints. Do not use line breaks. | _CC 33 (LSB) should always be sent as 0._ |
+| `notes` | No | Caveats, gotchas, channel constraints. Sentence-cased. Do not use line breaks. | _CC 33 (LSB) should always be sent as 0._ |
 | `usage` | No | Value mappings (see usage syntax below) | `0-63: Off; 64-127: On` |
 
 ### Sections
@@ -225,13 +225,15 @@ Here are some sample, made-up parameter names and usage fields. All ranges are i
 
 As you might have noticed, ranges of values can be defined in three ways:
 
- - By a single number, like `0: Off`. Think of an elevator button.
+ - By a single number, like `0: All notes off`. Think of an elevator button.
  - By a dash, like `0-63: Off`. The dash `-` means that every value in the range does the same thing. Think of an on/off switch.
  - By a tilde, like `0~127: Filter cutoff`. The tilde `~` means that every value in the range does something different. Think of a gas pedal.
 
 A usage value can contain different types of ranges, like the "Wave shape" example above.
 
-Numbers in a range must **always** be equal to or greater than zero.
+ - Numbers in a range must **always** be equal to or greater than zero.
+ - Numbers in a range must **always** be equal to or greater than `cc_min_value`.
+ - Numbers in a range must **always** be equal to or less than `cc_max_value`.
 
 #### Putting multiple ranges in a usage value
 
@@ -265,3 +267,18 @@ Here's another one:
 `61: -3st; 62: -2st; 63: -1st; 64: 0; 65: +1st; 66: +2st; 67: +3st; 68: +4st` (default: 64)
 
 What's the correct one? Well, if it doesn't say in the MIDI implementation reference in the manual, and you're not willing to poke at the synth to reverse engineer it, you can't tell. The manual's logical values don't give you enough to go on, and you should leave the `usage` column empty. 
+
+### Instruments with mappable MIDI CC (MIDI Learn)
+
+Some instruments, instead of offering predefined MIDI CC mappings, allow the user to assign MIDI CC numbers to the synth's parameters. This might be true for the entire range of CC messages, or only a subset.
+
+The correct approach to documenting these synthesizers is to provide a row for each mappable MIDI CC number. This is true even if all 128 MIDI CC numbers are mappable. For example, if the made-up synthesizer "SynthCo Orca" allows the user to assign MIDI CCs 51 to 55 to arbitrary parameters, those MIDI CC numbers should be documented as follows:
+
+| manufacturer | device | section | parameter_name | cc_msb | \[...\] |
+| --- | --- | --- | --- | --- | --- |
+| SynthCo | Orca | Assignable parameters | Parameter 51 | 51 | \[...\] |
+| SynthCo | Orca | Assignable parameters | Parameter 52 | 52 | \[...\] |
+| SynthCo | Orca | Assignable parameters | Parameter 53 | 53 | \[...\] |
+| SynthCo | Orca | Assignable parameters | Parameter 54 | 54 | \[...\] |
+| SynthCo | Orca | Assignable parameters | Parameter 55 | 55 | \[...\] |
+
