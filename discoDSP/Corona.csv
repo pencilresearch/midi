@@ -12,14 +12,14 @@ discoDSP,Corona,Volume Envelope,Sustain,Volume envelope sustain,18,,0,127,127,,,
 discoDSP,Corona,Volume Envelope,Release,Volume envelope release,19,,0,127,0,,,,,,0-based,,0~127: Near-instant to slowest release
 discoDSP,Corona,Filter 1,Drive,Filter drive,21,,0,127,64,,,,,,0-based,Pre-filter saturation stage.,0~127: Clean to maximum saturation
 discoDSP,Corona,Unison,Unison Spread (cents),Unison pitch detune spread,24,,0,100,5,,,,,,0-based,,0~100: No spread (unison) to maximum spread
-discoDSP,Corona,Unison,Unison Panning Spread,Unison stereo panning spread,25,,0,100,0,,,,,,0-based,,0: mono (centre); 100: maximum stereo spread
+discoDSP,Corona,Unison,Unison Panning Spread,Unison stereo panning spread,25,,0,100,0,,,,,,0-based,,0: Mono (centre); 100: Maximum stereo spread
 discoDSP,Corona,Filter 1 Envelope,Filter Attack,Filter envelope attack,26,,0,127,0,,,,,,0-based,,0~127: Near-instant to slowest attack
 discoDSP,Corona,Filter 1 Envelope,Filter Decay,Filter envelope decay,27,,0,127,64,,,,,,0-based,,0~127: Near-instant to slowest decay
 discoDSP,Corona,Filter 1 Envelope,Filter Sustain,Filter envelope sustain,28,,0,127,0,,,,,,0-based,,0~127: No sustain to full sustain
 discoDSP,Corona,Filter 1 Envelope,Filter Release,Filter envelope release,29,,0,127,64,,,,,,0-based,,0~127: Near-instant to slowest release
 discoDSP,Corona,Filter 1 LFO,F LFO Delay,Filter LFO delay,30,,0,127,0,,,,,,0-based,Onset delay after note-on.,0~127: Immediate to longest delay
 discoDSP,Corona,Filter 1 LFO,F LFO Smooth,Filter LFO smooth,31,,0,127,0,,,,,,0-based,Output slew / waveform smoothing.,0~127: No smoothing to maximum smoothing
-discoDSP,Corona,Filter 1 LFO,F LFO Mode,Filter LFO mode,33,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid mode.,"0~11: Free, tempo-synced, retrigger on note-on, and variants"
+discoDSP,Corona,Filter 1 LFO,F LFO Mode,Filter LFO mode,33,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid mode.,"0: Voice (free-run, retrigger per voice); 1: Legato (free-run, retrigger only on legato); 2: Global (free-run, single LFO shared across voices); 3: V.16th (voice, 1/16 sync); 4: L.16th (legato, 1/16 sync); 5: G.16th (global, 1/16 sync); 6: V.64th (voice, 1/64 sync); 7: L.64th (legato, 1/64 sync); 8: G.64th (global, 1/64 sync); 9: V.32nd T (voice, 1/32 triplet); 10: L.32nd T (legato, 1/32 triplet); 11: G.32nd T (global, 1/32 triplet)"
 discoDSP,Corona,Oscillator,Semitones,Waveform 2 detune (semitones),34,,0,127,64,,,,,,centered,,0~127: -64 to +63 semitones
 discoDSP,Corona,Global,Global Finetune,,35,,0,100,50,,,,,,centered,,0~100: -50 to +50 cents
 discoDSP,Corona,Oscillator,W3 Level,Waveform 3 level,36,,0,127,127,,,,,,0-based,,0~127: Silent to full level
@@ -36,9 +36,9 @@ discoDSP,Corona,Mod LFO,M LFO Delay,Modulation LFO delay,47,,0,127,0,,,,,,0-base
 discoDSP,Corona,Mod LFO,M LFO Freq,Modulation LFO frequency,48,,0,127,0,,,,,,0-based,,
 discoDSP,Corona,Mod LFO,M LFO Decay,Modulation LFO decay,49,,0,127,127,,,,,,0-based,LFO amplitude decay over note duration.,0~126: LFO fade out time; 127: Constant amplitudeover time
 discoDSP,Corona,Mod LFO,M LFO Smooth,Modulation LFO smooth,50,,0,127,0,,,,,,0-based,Output slew / waveform smoothing.,
-discoDSP,Corona,Mod LFO,M LFO Waveform,Modulation LFO waveform,51,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,0~11: same waveform set as Filter LFO
-discoDSP,Corona,Mod LFO,M LFO Mode,Modulation LFO mode,52,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid mode.,
-discoDSP,Corona,Filter 1 LFO,F LFO Waveform,Filter LFO waveform,53,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,"0~11: sine, triangle, saw up, saw down, square, S&H, and variants"
+discoDSP,Corona,Mod LFO,M LFO Waveform,Modulation LFO waveform,51,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,0: Triangle; 1: Sine; 2: Sawtooth; 3: Square; 4: Rnd (random / S&H); 5: Rnd^2; 6: Rnd^2 up; 7: Saw^2; 8: Saw^0.5; 9: Parabola; 10: x*|x|; 11: x(|x|*2-1)
+discoDSP,Corona,Mod LFO,M LFO Mode,Modulation LFO mode,52,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid mode.,"0: Voice (free-run, retrigger per voice); 1: Legato (free-run, retrigger only on legato); 2: Global (free-run, single LFO shared across voices); 3: V.16th (voice, 1/16 sync); 4: L.16th (legato, 1/16 sync); 5: G.16th (global, 1/16 sync); 6: V.64th (voice, 1/64 sync); 7: L.64th (legato, 1/64 sync); 8: G.64th (global, 1/64 sync); 9: V.32nd T (voice, 1/32 triplet); 10: L.32nd T (legato, 1/32 triplet); 11: G.32nd T (global, 1/32 triplet)"
+discoDSP,Corona,Filter 1 LFO,F LFO Waveform,Filter LFO waveform,53,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,0: Triangle; 1: Sine; 2: Sawtooth; 3: Square; 4: Rnd (random / S&H); 5: Rnd^2; 6: Rnd^2 up; 7: Saw^2; 8: Saw^0.5; 9: Parabola; 10: x*|x|; 11: x(|x|*2-1)
 discoDSP,Corona,Mod LFO,M LFO -> Phase,Modulation LFO to phase,54,,0,127,64,,,,,,centered,Direct routing.,0~127: Negative to positive modulation
 discoDSP,Corona,Mod LFO,M LFO -> Osc 2,Modulation LFO to osc 2 pitch,55,,0,127,64,,,,,,centered,Direct routing.,0~127: Negative to positive modulation
 discoDSP,Corona,Filter 2 LFO,F2 LFO Freq,Filter LFO frequency,56,,0,127,0,,,,,,0-based,Exponential response curve.,
@@ -50,13 +50,13 @@ discoDSP,Corona,Chorus,Chorus Depth,,61,,0,127,90,,,,,,0-based,,
 discoDSP,Corona,Distortion,Distortion Mix,,62,,0,127,127,,,,,,0-based,,0~127: Dry only to fully wet
 discoDSP,Corona,Distortion,Distortion Amount,,63,,0,127,20,,,,,,0-based,Drive / gain into the distortion stage.,
 discoDSP,Corona,Distortion,Distortion Tone,,65,,0,127,64,,,,,,centered,Post-distortion tone filter.,0~63: Darker amount; 64: Flat; 65~127: Brighter amount
-discoDSP,Corona,Distortion,Distortion Type,,66,,0,8,0,,,,,,0-based,Intermediate values snap to lowest valid algorithm.,"0~8: soft clip, hard clip, waveshaper variants"
-discoDSP,Corona,Filter 2 LFO,F2 LFO Waveform,Filter LFO waveform,67,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,
+discoDSP,Corona,Distortion,Distortion Type,,66,,0,8,0,,,,,,0-based,Intermediate values snap to lowest valid algorithm.,0: Overdrive; 1: Foldback; 2: Clip (hard clip); 3: Asym (asymmetric clip); 4: Scream; 5: Quantize (bitcrush); 6: S&h (sample & hold); 7: S&h clip; 8: S&h asym
+discoDSP,Corona,Filter 2 LFO,F2 LFO Waveform,Filter LFO waveform,67,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid waveform.,0: Triangle; 1: Sine; 2: Sawtooth; 3: Square; 4: Rnd (random / S&H); 5: Rnd^2; 6: Rnd^2 up; 7: Saw^2; 8: Saw^0.5; 9: Parabola; 10: x*|x|; 11: x(|x|*2-1)
 discoDSP,Corona,Arpeggiator,A Length,Note length,68,,0,127,127,,,,,,0-based,Note gate length per step.,0~127: Staccato to full legato
-discoDSP,Corona,Arpeggiator,A Swing,Swing,69,,0,127,100,,,,,,0-based,,0~63: Negative swing; 64: Straight; 65-127: Positive swing
-discoDSP,Corona,Arpeggiator,A Vel Mix,Velocity mix,70,,0,100,0,,,,,,0-based,,0: Use only incoming MIDI velocity; 100: Use only programmed step velocities
+discoDSP,Corona,Arpeggiator,A Swing,Swing,69,,0,127,64,,,,,,0-based,,0~63: Negative swing; 64: Straight; 65-127: Positive swing
+discoDSP,Corona,Arpeggiator,A Vel Mix,Velocity mix,70,,0,127,0,,,,,,0-based,,0: Use only programmed step velocities; 1~126: Blend programmed step velocieis and incoming MIDI key velocities; 127: Use only incoming MIDI key velocity
 discoDSP,Corona,Filter 1,Resonance,Filter resonance,71,,0,127,0,,,,,,0-based,May self-oscillate at high values depending on filter type.,0~127: No resonance to maximum Q
-discoDSP,Corona,Filter 2 LFO,F2 LFO Mode,Filter LFO mode,72,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid mode.,
+discoDSP,Corona,Filter 2 LFO,F2 LFO Mode,Filter LFO mode,72,,0,11,0,,,,,,0-based,Intermediate values snap to lowest valid mode.,"0: Voice (free-run, retrigger per voice); 1: Legato (free-run, retrigger only on legato); 2: Global (free-run, single LFO shared across voices); 3: V.16th (voice, 1/16 sync); 4: L.16th (legato, 1/16 sync); 5: G.16th (global, 1/16 sync); 6: V.64th (voice, 1/64 sync); 7: L.64th (legato, 1/64 sync); 8: G.64th (global, 1/64 sync); 9: V.32nd T (voice, 1/32 triplet); 10: L.32nd T (legato, 1/32 triplet); 11: G.32nd T (global, 1/32 triplet)"
 discoDSP,Corona,Filter 1,Cutoff,Filter cutoff,74,,0,127,127,,,,,,0-based,Exponential frequency response,0~127: Fully closed to fully open
 discoDSP,Corona,Filter 1 LFO,F LFO Freq,Filter LFO frequency,76,,0,127,0,,,,,,0-based,Exponential response curve.,
 discoDSP,Corona,Mod Envelope,M Attack,Modulation envelope attack,80,,0,127,0,,,,,,0-based,Routes to mod matrix as MS_ModEnv source.,0~127: Near-instant to slowest
