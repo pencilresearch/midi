@@ -76,7 +76,7 @@ L.L. Electronics,RozzBox One V2,ModMatrix,Mod4 Amount,,102,117,0,255,,,,,,,0-bas
 L.L. Electronics,RozzBox One V2,System,NRPN parameter (fine),,98,,0,4,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,System,NRPN parameter (coarse),,99,,0,127,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod4 Amt Coarse,,103,117,0,3,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,Filter,Filter Mode,,104,117,0,3,,,,,,,0-based,,0: Digital > Transistor (Serial); 1: Digital > Tube (Serial); 2: Transitor > Tube (Serial); 4: Trans > Tube (Parallel)
+L.L. Electronics,RozzBox One V2,Filter,Filter Mode,,104,117,0,4,,,,,,,0-based,,0: Digital > Transistor (Serial); 1: Digital > Tube (Serial); 2: Transitor > Tube (Serial); 4: Trans > Tube (Parallel)
 L.L. Electronics,RozzBox One V2,FM,FM Mode,,105,117,0,7,,,,,,,0-based,,0: Algo 0; 1: Algo 1; 2: Algo 2; 3: Algo 3; 4: Algo 4; 5: Algo 5; 6: Algo 6; 7: Algo 7
 L.L. Electronics,RozzBox One V2,System,Bit Resolution,,106,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,System,Precision Register,,117,,0,255,,,,,,,0-based,,
