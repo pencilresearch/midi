@@ -1,0 +1,18 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Roland,SPD-20 PRO,Bank select,Bank select MSB,,0,,0,127,,,,,,,0-based,Received value is ignored and processed as 00H; Bank Select is suspended until a Program Change is received,
+Roland,SPD-20 PRO,Bank select,Bank select LSB,,32,,0,1,,,,,,,0-based,Bank Select is suspended until a Program Change is received,0: Kits 1 to 128; 1: Kits 129 to 200
+Roland,SPD-20 PRO,Hi-hat control,Hi-hat pedal position (1:MOD),,1,,0,127,,,,,,,0-based,Active when System > MIDI HH CC is set to 1:MOD,0~127: Open to closed
+Roland,SPD-20 PRO,Hi-hat control,Hi-hat pedal position (2:BREATH),,2,,0,127,,,,,,,0-based,Active when System > MIDI HH CC is set to 2:BREATH,0~127: Open to closed
+Roland,SPD-20 PRO,Hi-hat control,Hi-hat pedal position (4:FOOT),,4,,0,127,,,,,,,0-based,Active when System > MIDI HH CC is set to 4:FOOT,0~127: Open to closed
+Roland,SPD-20 PRO,Hi-hat control,Hi-hat pedal position (11:EXP),,11,,0,127,,,,,,,0-based,Active when System > MIDI HH CC is set to 11:EXP,0~127: Open to closed
+Roland,SPD-20 PRO,Hi-hat control,Hi-hat pedal position (16:GEN1),,16,,0,127,,,,,,,0-based,Active when System > MIDI HH CC is set to 16:GEN1,0~127: Open to closed
+Roland,SPD-20 PRO,Hi-hat control,Hi-hat pedal position (17:GEN2),,17,,0,127,,,,,,,0-based,Active when System > MIDI HH CC is set to 17:GEN2,0~127: Open to closed
+Roland,SPD-20 PRO,Hi-hat control,Hi-hat pedal position (18:GEN3),,18,,0,127,,,,,,,0-based,Active when System > MIDI HH CC is set to 18:GEN3,0~127: Open to closed
+Roland,SPD-20 PRO,Hi-hat control,Hi-hat pedal position (19:GEN4),,19,,0,127,,,,,,,0-based,Active when System > MIDI HH CC is set to 19:GEN4,0~127: Open to closed
+Roland,SPD-20 PRO,Channel mode,All sounds off,,120,,0,0,,,,,,,0-based,,
+Roland,SPD-20 PRO,Channel mode,Reset all controllers,Polyphonic key pressure for all pads on the channel is reset to 0.,121,,0,0,,,,,,,0-based,If the channel matches the HC instrument pad then the hi-hat CC controller value is also reset to 0,
+Roland,SPD-20 PRO,Channel mode,All notes off,,123,,0,0,,,,,,,0-based,,
+Roland,SPD-20 PRO,Channel mode,Omni off,,124,,0,0,,,,,,,0-based,,
+Roland,SPD-20 PRO,Channel mode,Omni on,,125,,0,0,,,,,,,0-based,,
+Roland,SPD-20 PRO,Channel mode,Mono,,126,,0,16,,,,,,,0-based,Value is the mono number,
+Roland,SPD-20 PRO,Channel mode,Poly,,127,,0,0,,,,,,,0-based,,
