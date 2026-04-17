@@ -1,0 +1,11 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Animal Factory Amplification,Dirty Mirror,General,Global bypass,,10,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Animal Factory Amplification,Dirty Mirror,General,CB mode select,,20,,0,127,,,,,,,0-based,,0-63: Dry; 64-95: Wet; 96-127: Mix
+Animal Factory Amplification,Dirty Mirror,General,CB master enable,,22,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Animal Factory Amplification,Dirty Mirror,General,BM mode select,,21,,0,127,,,,,,,0-based,,0-63: Dry; 64-95: Wet; 96-127: Mix
+Animal Factory Amplification,Dirty Mirror,General,BM master enable,,23,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Animal Factory Amplification,Dirty Mirror,General,Feedback (latching),,30,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Animal Factory Amplification,Dirty Mirror,General,External LFO rate,,40,,0,127,,,,,,,0-based,,
+Animal Factory Amplification,Dirty Mirror,General,LFO waveform,,41,,0,127,,,,,,,0-based,,0-63: Sawtooth; 64-127: Sine
+Animal Factory Amplification,Dirty Mirror,General,Clock follow,,44,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Animal Factory Amplification,Dirty Mirror,General,Clock subdivision,,45,,0,127,,,,,,,0-based,,0-15: Bar; 16-31: 1/2; 32-63: 1/4; 64-79: 1/8; 80-95: 1/8T; 96-111: 1/16; 112-127: 1/16T

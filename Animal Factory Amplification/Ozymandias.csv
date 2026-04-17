@@ -1,0 +1,4 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Animal Factory Amplification,Ozymandias,General,Flail channel bypass,Enables or disables the Flail channel,6,,0,127,,,,,,,0-based,Only responds on MIDI channel 4,0-63: Disabled; 64-127: Enabled
+Animal Factory Amplification,Ozymandias,General,Crook channel bypass,Enables or disables the Crook channel,7,,0,127,,,,,,,0-based,Only responds on MIDI channel 4,0-63: Disabled; 64-127: Enabled
+Animal Factory Amplification,Ozymandias,General,Series / parallel,Enables or disables the series / parallel function,8,,0,127,,,,,,,0-based,Only responds on MIDI channel 4,0-63: Series; 64-127: Parallel
