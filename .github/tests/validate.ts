@@ -203,8 +203,8 @@ export function validateFile(rows: Row[], filename: string): string[] {
   // Folder name should match manufacturer field
   const parts = filename.split("/");
   if (parts.length >= 2) {
-    const folder = parts[parts.length - 2];
-    const manufacturer = rows[0].manufacturer;
+    const folder = parts[parts.length - 2].normalize("NFC");
+    const manufacturer = rows[0].manufacturer.normalize("NFC");
     if (folder !== manufacturer) {
       errors.push(
         filename + ': folder "' + folder +

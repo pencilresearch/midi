@@ -1,0 +1,8 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Animal Factory Amplification,Godeater+,General,Bypass,,6,,0,127,,,,,,,0-based,,0-63: Disabled; 64-127: Enabled
+Animal Factory Amplification,Godeater+,General,Sidechain,,7,,0,127,,,,,,,0-based,Only active when Bypass is enabled,0-63: Disabled; 64-127: Enabled
+Animal Factory Amplification,Godeater+,General,Target selector,,8,,0,127,,,,,,,0-based,,0-42: Pre-gain; 43-84: High-pass filter; 85-127: Tone
+Animal Factory Amplification,Godeater+,General,Direction,,9,,0,127,,,,,,,0-based,Inverts the incoming control voltage,0-63: Normal (clockwise); 64-127: Inverted (counter-clockwise)
+Animal Factory Amplification,Godeater+,General,MIDI envelope enable,,10,,0,127,,,,,,,0-based,Overrides internal sidechain voltage,0-63: Disabled; 64-127: Enabled
+Animal Factory Amplification,Godeater+,General,MIDI envelope value (CC 1),,1,,0,127,,,,,,,0-based,Writes a voltage value to the selected target,
+Animal Factory Amplification,Godeater+,General,MIDI envelope value (CC 4),,4,,0,127,,,,,,,0-based,Writes a voltage value to the selected target,
