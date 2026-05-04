@@ -1,5 +1,58 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Teenage Engineering,OP-1 field,MIDI LFO,Parameter 1,,1,,0,127,,,,,,,0-based,,
-Teenage Engineering,OP-1 field,MIDI LFO,Parameter 2,,2,,0,127,,,,,,,0-based,,
-Teenage Engineering,OP-1 field,MIDI LFO,Parameter 3,,3,,0,127,,,,,,,0-based,,
-Teenage Engineering,OP-1 field,MIDI LFO,Parameter 4,,4,,0,127,,,,,,,0-based,,
+Teenage Engineering,OP-1 field,Mixer,Volume,mixer volume,7,,0,127,,,,,,,0-based,Midi channels 1-4 map to mixer channels 1-4,0~127: Volume amount
+Teenage Engineering,OP-1 field,Mixer,Mute,mixer mute,9,,0,127,,,,,,,0-based,Midi channels 1-4 map to mixer channels 1-4,0-63: Mute off; 64-127: Mute on
+Teenage Engineering,OP-1 field,Mixer,Pan,mixer pan,10,,0,127,64,,,,,,centered,Midi channels 1-4 map to mixer channels 1-4,0~127: Pan amount
+Teenage Engineering,OP-1 field,Synth,Parameter 1,synth: parameter 1,46,,0,127,,,,,,,0-based,Any channel,0~127: Synth parameter 1 amount
+Teenage Engineering,OP-1 field,Synth,Parameter 2,synth: parameter 2,47,,0,127,,,,,,,0-based,Any channel,0~127: Synth parameter 2 amount
+Teenage Engineering,OP-1 field,Synth,Parameter 3,synth: parameter 3,48,,0,127,,,,,,,0-based,Any channel,0~127: Synth parameter 3 amount
+Teenage Engineering,OP-1 field,Synth,Parameter 4,synth: parameter 4,49,,0,127,,,,,,,0-based,Any channel,0~127: Synth parameter 4 amount
+Teenage Engineering,OP-1 field,Drum,Active key pitch,drum: active key pitch,46,,0,127,,,,,,,0-based,Any channel,0~127: drum active key pitch amount
+Teenage Engineering,OP-1 field,Drum,Active key loop in,drum: active key loop in,47,,0,127,,,,,,,0-based,Any channel,0~127: drum active key loop in position
+Teenage Engineering,OP-1 field,Drum,Active key loop out,drum: active key loop out,48,,0,127,,,,,,,0-based,Any channel,0~127: drum active key loop out position
+Teenage Engineering,OP-1 field,Drum,Active key play mode,drum: active key play mode,49,,0,127,,,,,,,0-based,Any channel,0~127: drum active key play mode select
+Teenage Engineering,OP-1 field,Synth,Envelope attack,synth envelope: attack,50,,0,127,,,,,,,0-based,Any channel,0~127: synth envelope attack duration
+Teenage Engineering,OP-1 field,Synth,Envelope decay,synth envelope: decay,51,,0,127,,,,,,,0-based,Any channel,0~127: synth envelope decay duration
+Teenage Engineering,OP-1 field,Synth,Envelope sustain,synth envelope: sustain,52,,0,127,,,,,,,0-based,Any channel,0~127: synth envelope sustain volume
+Teenage Engineering,OP-1 field,Synth,Envelope release,synth envelope: release,53,,0,127,,,,,,,0-based,Any channel,0~127: synth envelope release duration
+Teenage Engineering,OP-1 field,Drum,Envelope attack,drum envelope: attack,50,,0,127,,,,,,,0-based,Any channel,0~127: drum envelope attack duration
+Teenage Engineering,OP-1 field,Drum,Envelope gain,drum envelope: gain,51,,0,127,,,,,,,0-based,Any channel,0~127: drum envelope gain amount
+Teenage Engineering,OP-1 field,Drum,Envelope release,drum envelope: release,52,,0,127,,,,,,,0-based,Any channel,0~127: drum envelope release duration
+Teenage Engineering,OP-1 field,Drum,Envelope smooth,drum envelope: smooth,53,,0,127,,,,,,,0-based,Any channel,0~127: drum envelope smooth amount
+Teenage Engineering,OP-1 field,Patch,FX parameter 1,patch fx parameter 1,54,,0,127,,,,,,,0-based,Any channel,0~127: patch fx parameter 1 amount
+Teenage Engineering,OP-1 field,Patch,FX parameter 2,patch fx parameter 2,55,,0,127,,,,,,,0-based,Any channel,0~127: patch fx parameter 2 amount
+Teenage Engineering,OP-1 field,Patch,FX parameter 3,patch fx parameter 3,56,,0,127,,,,,,,0-based,Any channel,0~127: patch fx parameter 3 amount
+Teenage Engineering,OP-1 field,Patch,FX parameter 4,patch fx parameter 4,57,,0,127,,,,,,,0-based,Any channel,0~127: patch fx parameter 4 amount
+Teenage Engineering,OP-1 field,Patch,LFO parameter 1,patch lfo parameter 1,58,,0,127,,,,,,,0-based,Any channel,0~127: patch lfo parameter 1 amount
+Teenage Engineering,OP-1 field,Patch,LFO parameter 2,patch lfo parameter 2,59,,0,127,,,,,,,0-based,Any channel,0~127: patch lfo parameter 2 amount
+Teenage Engineering,OP-1 field,Patch,LFO parameter 3,patch lfo parameter 3,60,,0,127,,,,,,,0-based,Any channel,0~127: patch lfo parameter 3 amount
+Teenage Engineering,OP-1 field,Patch,LFO parameter 4,patch lfo parameter 4,61,,0,127,,,,,,,0-based,Any channel,0~127: patch lfo parameter 4 amount
+Teenage Engineering,OP-1 field,Patch,Randomize patch,randomize active patch,62,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Randomize active patch
+Teenage Engineering,OP-1 field,Patch,Reset patch,reset active patch,63,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Reset active patch
+Teenage Engineering,OP-1 field,Global,Sustain pedal,sustain pedal,64,,0,127,,,,,,,0-based,Any channel,0-63: Sustain up; 64-127: Sustain down
+Teenage Engineering,OP-1 field,Master,FX parameter 1,master fx parameter 1,70,,0,127,,,,,,,0-based,Any channel,0~127: master fx parameter 1
+Teenage Engineering,OP-1 field,Master,FX parameter 2,master fx parameter 2,71,,0,127,,,,,,,0-based,Any channel,0~127: master fx parameter 2
+Teenage Engineering,OP-1 field,Master,FX parameter 3,master fx parameter 3,72,,0,127,,,,,,,0-based,Any channel,0~127: master fx parameter 3
+Teenage Engineering,OP-1 field,Master,FX parameter 4,master fx parameter 4,73,,0,127,,,,,,,0-based,Any channel,0~127: master fx parameter 4
+Teenage Engineering,OP-1 field,Master,Volume L,master compressor parameter 1,74,,0,127,,,,,,,0-based,Any channel,0~127: master compressor parameter 1
+Teenage Engineering,OP-1 field,Master,Volume R,master compressor parameter 2,75,,0,127,,,,,,,0-based,Any channel,0~127: master compressor parameter 2
+Teenage Engineering,OP-1 field,Master,Drive,master compressor parameter 3,76,,0,127,,,,,,,0-based,Any channel,0~127: master compressor parameter 3
+Teenage Engineering,OP-1 field,Master,Compressor,master compressor parameter 4,77,,0,127,,,,,,,0-based,Any channel,0~127: master compressor parameter 4
+Teenage Engineering,OP-1 field,Global,Tape record level,tape record level,78,,0,127,,,,,,,0-based,Any channel,0~127: tape record level
+Teenage Engineering,OP-1 field,Global,Octave,octave,79,,0,127,,,,,,,0-based,Any channel,0-63: Down 1 octave; 64-127: Up 1 octave
+Teenage Engineering,OP-1 field,Global,Tempo,tempo,80,,0,127,,,,,,,0-based,Any channel,0~5: 40–50 BPM; 6~120: 52–166 BPM; 121~127: 168–180 BPM
+Teenage Engineering,OP-1 field,Global,Metronome level,metronome level,81,,0,127,,,,,,,0-based,Any channel,0~127: Metronome level amount
+Teenage Engineering,OP-1 field,Tape,Previous bar,tape: previous bar,82,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Jump to previous bar
+Teenage Engineering,OP-1 field,Tape,Next bar,tape: next bar,83,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Jump to next bar
+Teenage Engineering,OP-1 field,Tape,Jump to start,tape: jump to start,84,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Jump to tape start
+Teenage Engineering,OP-1 field,Tape,Jump to end,tape: jump to end,85,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Jump to tape end
+Teenage Engineering,OP-1 field,Tape,Set loop in,tape: set loop in,86,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Set loop in
+Teenage Engineering,OP-1 field,Tape,Set loop out,tape: set loop out,87,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Set loop out
+Teenage Engineering,OP-1 field,Tape,Toggle loop,tape: toggle loop,88,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Toggle loop state
+Teenage Engineering,OP-1 field,Master,EQ low,master eq low,90,,0,127,,,,,,,0-based,Any channel,0~127: Master eq low amount
+Teenage Engineering,OP-1 field,Master,EQ mid,master eq mid,91,,0,127,,,,,,,0-based,Any channel,0~127: Master eq mid amount
+Teenage Engineering,OP-1 field,Master,EQ high,master eq high,92,,0,127,,,,,,,0-based,Any channel,0~127: Master eq high amount
+Teenage Engineering,OP-1 field,Global,Mode select,mode select,93,,0,127,,,,,,,0-based,Any channel,0-63: Activate synth mode; 64-127: Activate drum mode
+Teenage Engineering,OP-1 field,Global,Sound slot select,sound slot select,102,,0,127,,,,,,,0-based,Midi channels 1-8 map to sound slots 1-8,0-63: Off; 64-127: Select sound slot
+Teenage Engineering,OP-1 field,Tape,Stop,tape: stop,104,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Stop tape
+Teenage Engineering,OP-1 field,Tape,Play,tape: play,105,,0,127,,,,,,,0-based,Any channel,0-63: Off; 64-127: Play tape
+Teenage Engineering,OP-1 field,Global,All notes off,all notes off,123,,0,127,,,,,,,0-based,Any channel,0-127: All notes off
