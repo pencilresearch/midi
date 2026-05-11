@@ -1,0 +1,100 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Morphor,ECHON 6,Bank select,Bank select MSB,,0,,0,5,,,,,,,0-based,Preset channel only,0~5: Select 1 of 6 banks
+Morphor,ECHON 6,Bank select,Bank select LSB,,32,,0,35,,,,,,,0-based,Preset channel only,0~35: Sub bank and preset selection
+Morphor,ECHON 6,Performance,Modwheel,,1,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Exciter,External input,,14,,0,127,,,,,,,0-based,Voice groups only,0-63: Off; 64-127: On
+Morphor,ECHON 6,Exciter,Wave,,15,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Exciter,Keyboard reset,,16,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,Exciter,Coarse frequency,,17,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Exciter,Fine frequency,,18,,0,127,,,,,,,centered,Manual lists center value as 63,
+Morphor,ECHON 6,Exciter,Noise sample and hold rate,,19,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Exciter,Wave noise mix,,20,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Exciter,Level,,21,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Envelope,Onset delay,,22,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Envelope,Attack,,23,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Envelope,Decay,,24,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Envelope,Sustain,,25,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Envelope,Release,,26,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Envelope,Range,,27,,0,127,,,,,,,0-based,,0-41: Short; 42-83: Medium; 84-127: Long
+Morphor,ECHON 6,Envelope,Hold,,28,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,Envelope,Legato,,29,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,Envelope,Loop,,30,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,Resonator,Input filter,,31,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Resonator,Feedback filter,,40,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Resonator,Invert,,41,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Resonator,Feedback,,43,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Resonator,Glide,,5,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Resonator,Fine tune,,46,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Resonator,Note offset,,47,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Output,Dry/wet,,48,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Output,Panning,,10,,0,127,,,,,,,centered,,
+Morphor,ECHON 6,Output,Level,,7,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 1,Wave,,49,,0,127,,,,,,,0-based,,0-31: Sine; 32-63: Triangle; 64-95: Ramp; 96-127: Square
+Morphor,ECHON 6,LFO 1,Random rate,,50,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 1,Amplitude,,51,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 1,Smooth,,52,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 1,Mix,,53,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 1,Keyboard reset,,54,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 1,Single shot,,55,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 1,Rate,,56,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 1,Polarity,,57,,0,127,,,,,,,0-based,,0-63: Bipolar; 64-127: Unipolar
+Morphor,ECHON 6,LFO 1,Clock sync,,58,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 2,Wave,,59,,0,127,,,,,,,0-based,,0-31: Sine; 32-63: Triangle; 64-95: Ramp; 96-127: Square
+Morphor,ECHON 6,LFO 2,Random rate,,60,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 2,Amplitude,,61,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 2,Smooth,,62,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 2,Mix,,63,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 2,Keyboard reset,,70,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 2,Single shot,,71,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 2,Rate,,72,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 2,Polarity,,73,,0,127,,,,,,,0-based,,0-63: Bipolar; 64-127: Unipolar
+Morphor,ECHON 6,LFO 2,Clock sync,,74,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 3,Wave,,75,,0,127,,,,,,,0-based,,0-31: Sine; 32-63: Triangle; 64-95: Ramp; 96-127: Square
+Morphor,ECHON 6,LFO 3,Random rate,,76,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 3,Amplitude,,77,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 3,Smooth,,78,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 3,Mix,,79,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 3,Keyboard reset,,80,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 3,Single shot,,81,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 3,Rate,,82,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 3,Polarity,,83,,0,127,,,,,,,0-based,,0-63: Bipolar; 64-127: Unipolar
+Morphor,ECHON 6,LFO 3,Clock sync,,85,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 4,Wave,,86,,0,127,,,,,,,0-based,,0-31: Sine; 32-63: Triangle; 64-95: Ramp; 96-127: Square
+Morphor,ECHON 6,LFO 4,Random rate,,87,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 4,Amplitude,,88,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 4,Smooth,,89,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 4,Mix,,90,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 4,Keyboard reset,,91,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 4,Single shot,,92,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,LFO 4,Rate,,93,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,LFO 4,Polarity,,94,,0,127,,,,,,,0-based,,0-63: Bipolar; 64-127: Unipolar
+Morphor,ECHON 6,LFO 4,Clock sync,,95,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Morphor,ECHON 6,Source attenuverter,Detach / attach source,,9,,0,127,,,,,,,0-based,,0-9: Envelope detached; 10-20: Envelope attached; 21-31: Quad LFO detached; 32-41: Quad LFO attached; 42-52: Modwheel detached; 53-63: Modwheel attached; 64-73: Velocity detached; 74-84: Velocity attached; 85-95: Aftertouch detached; 96-105: Aftertouch attached; 106-116: Key follow detached; 117-127: Key follow attached
+Morphor,ECHON 6,Source attenuverter,Envelope depth,,102,,0,127,,,,,,,centered,,0~63: Negative depth; 64: No modulation; 65~127: Positive depth
+Morphor,ECHON 6,Source attenuverter,Quad LFO depth,,103,,0,127,,,,,,,centered,,0~63: Negative depth; 64: No modulation; 65~127: Positive depth
+Morphor,ECHON 6,Source attenuverter,Modwheel depth,,104,,0,127,,,,,,,centered,,0~63: Negative depth; 64: No modulation; 65~127: Positive depth
+Morphor,ECHON 6,Source attenuverter,Velocity depth,,105,,0,127,,,,,,,centered,,0~63: Negative depth; 64: No modulation; 65~127: Positive depth
+Morphor,ECHON 6,Source attenuverter,Aftertouch depth,,106,,0,127,,,,,,,centered,,0~63: Negative depth; 64: No modulation; 65~127: Positive depth
+Morphor,ECHON 6,Source attenuverter,Key follow depth,,107,,0,127,,,,,,,centered,,0~63: Negative depth; 64: No modulation; 65~127: Positive depth
+Morphor,ECHON 6,Source attenuverter,Pitchbend depth,,108,,0,127,,,,,,,0-based,,0-21: ±1 semitones; 22-42: ±2 semitones; 43-63: ±3 semitones; 64-84: ±5 semitones; 85-105: ±7 semitones; 106-127: ±12 semitones
+Morphor,ECHON 6,Modulation path,Source select,,109,,0,8,,,,,,,0-based,,0: Envelope; 1: Random/LFO 1; 2: Random/LFO 2; 3: Random/LFO 3; 4: Random/LFO 4; 5: Modwheel; 6: Velocity; 7: Aftertouch; 8: Key follow
+Morphor,ECHON 6,Modulation path,Destination select,,110,,0,31,,,,,,,0-based,,0: Exciter wave external input; 1: Exciter noise sample and hold rate; 2: Exciter wave external input noise mix; 3: Exciter frequency; 4: Exciter level; 5: Envelope onset delay; 6: Envelope attack; 7: Envelope decay; 8: Resonator input filter; 9: Resonator feedback filter; 10: Resonator feedback; 11: Resonator glide; 12: Resonator fine tune; 13: Resonator dry/wet; 14: Resonator panning; 15: Resonator level; 16: LFO 1 rate; 17: LFO 1 mix; 18: LFO 1 amplitude; 19: LFO 1 random rate; 20: LFO 2 rate; 21: LFO 2 mix; 22: LFO 2 amplitude; 23: LFO 2 random rate; 24: LFO 3 rate; 25: LFO 3 mix; 26: LFO 3 amplitude; 27: LFO 3 random rate; 28: LFO 4 rate; 29: LFO 4 mix; 30: LFO 4 amplitude; 31: LFO 4 random rate
+Morphor,ECHON 6,Modulation path,Destination depth,,111,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Modulation path,Destination depth polarity,,112,,0,127,,,,,,,0-based,,0-63: Negative; 64-127: Positive
+Morphor,ECHON 6,Modulation path,Enable,,113,,0,127,,,,,,,0-based,,0-63: Disable; 64-127: Enable
+Morphor,ECHON 6,Modulation path,LFO select,,115,,0,127,,,,,,,0-based,,0-31: LFO 1; 32-63: LFO 2; 64-95: LFO 3; 96-127: LFO 4
+Morphor,ECHON 6,Number key,Key select,,11,,0,127,,,,,,,0-based,,0-20: Key 1; 21-41: Key 2; 42-62: Key 3; 63-83: Key 4; 84-104: Key 5; 105-127: Key 6
+Morphor,ECHON 6,Number key,MIDI note number,,12,,12,108,,,,,,,0-based,,
+Morphor,ECHON 6,Number key,Velocity,,13,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Number key,Modwheel,,2,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Number key,Aftertouch,,3,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Voice groups,Select voice group,,114,,0,5,,,,,,,0-based,Preset channel only,0: Voice group 1; 1: Voice group 2; 2: Voice group 3; 3: Voice group 4; 4: Voice group 5; 5: Voice group 6
+Morphor,ECHON 6,Voice groups,Note priority mode,,116,,0,127,,,,,,,0-based,,0-25: Mode 1; 26-51: Mode 2; 52-77: Mode 3; 78-102: Mode 4; 103-127: Mode 5
+Morphor,ECHON 6,Voice groups,Remove voice,,117,,0,5,,,,,,,0-based,,0: Voice 1; 1: Voice 2; 2: Voice 3; 3: Voice 4; 4: Voice 5; 5: Voice 6
+Morphor,ECHON 6,Voice groups,Add voice,,118,,0,5,,,,,,,0-based,,0: Voice 1; 1: Voice 2; 2: Voice 3; 3: Voice 4; 4: Voice 5; 5: Voice 6
+Morphor,ECHON 6,Channel mode,All sounds off,,120,,0,127,,,,,,,0-based,,0: Silence all voices
+Morphor,ECHON 6,Channel mode,Reset all controllers,,121,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Channel mode,Local control,,122,,0,127,,,,,,,0-based,Preset channel only,0: Off; 127: On
+Morphor,ECHON 6,Channel mode,All notes off,,123,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Channel mode,Mono mode on,,126,,0,127,,,,,,,0-based,,
+Morphor,ECHON 6,Channel mode,Poly mode on,,127,,0,127,,,,,,,0-based,,
