@@ -1,0 +1,78 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Squarp instruments,Rample,SP1 Voice Parameters,Pitch,Shift pitch +/- 1 octave,10,,0,127,63,,,,,,centered,Repitch is varispeed,0~62: Pitch down; 63: Base pitch; 64~127: Pitch up
+Squarp instruments,Rample,SP1 Voice Parameters,Bits,Bitcrush - sample rate and resolution reduction,11,,0,127,63,,,,,,centered,2 algorithms to add bitcrush,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,SP1 Voice Parameters,Filter,DJ style low resonance filter,12,,0,127,63,,,,,,centered,Low pass to high pass,0~62: Lowpass; 63: Unfiltered; 64~127: Highpass
+Squarp instruments,Rample,SP1 Voice Parameters,Freeze,Resampled beat repeat and glitch,13,,0,127,63,,,,,,centered,Algo 1: ping-pong style short loop. Algo 2: Rhythmic freeze,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,SP1 Voice Parameters,Start point,Start point for sample playback ,14,,0,127,0,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Playback start point
+Squarp instruments,Rample,SP1 Voice Parameters,Length,How much of the sample is played,15,,0,127,127,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Sample playback length
+Squarp instruments,Rample,SP1 Voice Parameters,Envelope,AD envelope to add attack OR decay,16,,0,127,63,,,,,,centered,"Left adds env attack, Right adds env delay",0~62: Attack time; 63: Unenveloped; 64~127: Decay time
+Squarp instruments,Rample,SP1 Voice Parameters,Run mode,"Sample playback mode: oneshot, looping, or gated",17,,0,127,63,,,,,,centered,3 types of sample playback,0-62: Toggle loop; 63: One shot; 64-127: Gate high only
+Squarp instruments,Rample,SP1 Voice Parameters,Level,Sample playback gain,18,,0,127,63,,,,,,centered,Clean gain through to warm saturation,0~63: Clean gain; 64~127: Driven gain
+Squarp instruments,Rample,SP1 Voice Parameters,Layer,Multisample playback layer selection,19,,0,127,0,,,,,,0-based,Move throught the available layers,0~127: Layer select
+Squarp instruments,Rample,SP2 Voice Parameters,Pitch,Shift pitch +/- 1 octave,20,,0,127,63,,,,,,centered,Repitch is varispeed,0~62: Pitch down; 63: Base pitch; 64~127: Pitch up
+Squarp instruments,Rample,SP2 Voice Parameters,Bits,Bitcrush - sample rate and resolution reduction,21,,0,127,63,,,,,,centered,2 algorithms to add bitcrush,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,SP2 Voice Parameters,Filter,DJ style low resonance filter,22,,0,127,63,,,,,,centered,Low pass to high pass,0~62: Lowpass; 63: Unfiltered; 64~127: Highpass
+Squarp instruments,Rample,SP2 Voice Parameters,Freeze,Resampled beat repeat and glitch,23,,0,127,63,,,,,,centered,Algo 1: ping-pong style short loop. Algo 2: Rhythmic freeze,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,SP2 Voice Parameters,Start point,Start point for sample playback ,24,,0,127,0,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Playback start point
+Squarp instruments,Rample,SP2 Voice Parameters,Length,How much of the sample is played,25,,0,127,127,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Sample playback length
+Squarp instruments,Rample,SP2 Voice Parameters,Envelope,AD envelope to add attack OR decay,26,,0,127,63,,,,,,centered,"Left adds env attack, Right adds env delay",0~62: Attack time; 63: Unenveloped; 64~127: Decay time
+Squarp instruments,Rample,SP2 Voice Parameters,Run mode,"Sample playback mode: oneshot, looping, or gated",27,,0,127,63,,,,,,centered,3 types of sample playback,0-62: Toggle loop; 63: One shot; 64-127: Gate high only
+Squarp instruments,Rample,SP2 Voice Parameters,Level,Sample playback gain,28,,0,127,63,,,,,,centered,Clean gain through to warm saturation,0~63: Clean gain; 64~127: Driven gain
+Squarp instruments,Rample,SP2 Voice Parameters,Layer,Multisample playback layer selection,29,,0,127,0,,,,,,0-based,Move throught the available layers,0~127: Layer select
+Squarp instruments,Rample,SP3 Voice Parameters,Pitch,Shift pitch +/- 1 octave,30,,0,127,63,,,,,,centered,Repitch is varispeed,0~62: Pitch down; 63: Base pitch; 64~127: Pitch up
+Squarp instruments,Rample,SP3 Voice Parameters,Bits,Bitcrush - sample rate and resolution reduction,31,,0,127,63,,,,,,centered,2 algorithms to add bitcrush,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,SP3 Voice Parameters,Filter,DJ style low resonance filter,32,,0,127,63,,,,,,centered,Low pass to high pass,0~62: Lowpass; 63: Unfiltered; 64~127: Highpass
+Squarp instruments,Rample,SP3 Voice Parameters,Freeze,Resampled beat repeat and glitch,33,,0,127,63,,,,,,centered,Algo 1: ping-pong style short loop. Algo 2: Rhythmic freeze,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,SP3 Voice Parameters,Start point,Start point for sample playback ,34,,0,127,0,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Playback start point
+Squarp instruments,Rample,SP3 Voice Parameters,Length,How much of the sample is played,35,,0,127,127,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Sample playback length
+Squarp instruments,Rample,SP3 Voice Parameters,Envelope,AD envelope to add attack OR decay,36,,0,127,63,,,,,,centered,"Left adds env attack, Right adds env delay",0~62: Attack time; 63: Unenveloped; 64~127: Decay time
+Squarp instruments,Rample,SP3 Voice Parameters,Run mode,"Sample playback mode: oneshot, looping, or gated",37,,0,127,63,,,,,,centered,3 types of sample playback,0-62: Toggle loop; 63: One shot; 64-127: Gate high only
+Squarp instruments,Rample,SP3 Voice Parameters,Level,Sample playback gain,38,,0,127,63,,,,,,centered,Clean gain through to warm saturation,0~63: Clean gain; 64~127: Driven gain
+Squarp instruments,Rample,SP3 Voice Parameters,Layer,Multisample playback layer selection,39,,0,127,0,,,,,,0-based,Move throught the available layers,0~127: Layer select
+Squarp instruments,Rample,SP4 Voice Parameters,Pitch,Shift pitch +/- 1 octave,40,,0,127,63,,,,,,centered,Repitch is varispeed,0~62: Pitch down; 63: Base pitch; 64~127: Pitch up
+Squarp instruments,Rample,SP4 Voice Parameters,Bits,Bitcrush - sample rate and resolution reduction,41,,0,127,63,,,,,,centered,2 algorithms to add bitcrush,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,SP4 Voice Parameters,Filter,DJ style low resonance filter,42,,0,127,63,,,,,,centered,Low pass to high pass,0~62: Lowpass; 63: Unfiltered; 64~127: Highpass
+Squarp instruments,Rample,SP4 Voice Parameters,Freeze,Resampled beat repeat and glitch,43,,0,127,63,,,,,,centered,Algo 1: ping-pong style short loop. Algo 2: Rhythmic freeze,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,SP4 Voice Parameters,Start point,Start point for sample playback ,44,,0,127,0,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Playback start point
+Squarp instruments,Rample,SP4 Voice Parameters,Length,How much of the sample is played,45,,0,127,127,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Sample playback length
+Squarp instruments,Rample,SP4 Voice Parameters,Envelope,AD envelope to add attack OR decay,46,,0,127,63,,,,,,centered,"Left adds env attack, Right adds env delay",0~62: Attack time; 63: Unenveloped; 64~127: Decay time
+Squarp instruments,Rample,SP4 Voice Parameters,Run mode,"Sample playback mode: oneshot, looping, or gated",47,,0,127,63,,,,,,centered,3 types of sample playback,0-62: Toggle loop; 63: One shot; 64-127: Gate high only
+Squarp instruments,Rample,SP4 Voice Parameters,Level,Sample playback gain,48,,0,127,63,,,,,,centered,Clean gain through to warm saturation,0~63: Clean gain; 64~127: Driven gain
+Squarp instruments,Rample,SP4 Voice Parameters,Layer,Multisample playback layer selection,49,,0,127,0,,,,,,0-based,Move throught the available layers,0~127: Layer select
+Squarp instruments,Rample,All Channel Voice Parameters,Pitch,Shift pitch +/- 1 octave,50,,0,127,63,,,,,,centered,"Repitch is varispeed, to +/- 1 octave",0~62: Pitch down; 63: Base pitch; 64~127: Pitch up
+Squarp instruments,Rample,All Channel Voice Parameters,Bits,Bitcrush - sample rate and resolution reduction,51,,0,127,63,,,,,,centered,2 algorithms to add bitcrush,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,All Channel Voice Parameters,Filter,DJ style low resonance filter,52,,0,127,63,,,,,,centered,Low pass to high pass,0~62: Lowpass; 63: Unfiltered; 64~127: Highpass
+Squarp instruments,Rample,All Channel Voice Parameters,Freeze,Resampled beat repeat and glitch,53,,0,127,63,,,,,,centered,Algo 1: ping-pong style short loop. Algo 2: Rhythmic freeze,0~62: Algo 1 depth; 63: Dry; 64~127: Algo 2 depth
+Squarp instruments,Rample,All Channel Voice Parameters,Start point,Start point for sample playback ,54,,0,127,0,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Playback start point
+Squarp instruments,Rample,All Channel Voice Parameters,Length,How much of the sample is played,55,,0,127,127,,,,,,0-based,"% of sample, or in beat values, based on slicer settings: ",0~127: Sample playback length
+Squarp instruments,Rample,All Channel Voice Parameters,Envelope,AD envelope to add attack OR decay,56,,0,127,63,,,,,,centered,"Left adds env attack, Right adds env delay",0~62: Attack time; 63: Unenveloped; 64~127: Decay time
+Squarp instruments,Rample,All Channel Voice Parameters,Run mode,"Sample playback mode: oneshot, looping, or gated",57,,0,127,63,,,,,,centered,3 types of sample playback,0-62: Toggle loop; 63: One shot; 64-127: Gate high only
+Squarp instruments,Rample,All Channel Voice Parameters,Level,Sample playback gain,58,,0,127,63,,,,,,centered,Clean gain through to warm saturation,0~63: Clean gain; 64~127: Driven gain
+Squarp instruments,Rample,All Channel Voice Parameters,Layer,Multisample playback layer selection,59,,0,127,0,,,,,,0-based,Move throught the available layers,0~127: Layer select
+Squarp instruments,Rample,Layer Mode Controls,All Chan Layer Mode,Select multisample layer playback mode for all channels,60,,0,4,2,,,,,,0-based,,0: Manual; 1: Random; 2: Cyclic; 3: Reverse Cyclic; 4:Velocity
+Squarp instruments,Rample,Layer Mode Controls,SP1 Layer Mode,Select multisample layer playback mode for SP1,61,,0,4,2,,,,,,0-based,,0: Manual; 1: Random; 2: Cyclic; 3: Reverse Cyclic; 4:Velocity
+Squarp instruments,Rample,Layer Mode Controls,SP2 Layer Mode,Select multisample layer playback mode for SP2,62,,0,4,2,,,,,,0-based,,0: Manual; 1: Random; 2: Cyclic; 3: Reverse Cyclic; 4:Velocity
+Squarp instruments,Rample,Layer Mode Controls,SP3 Layer Mode,Select multisample layer playback mode for SP3,63,,0,4,2,,,,,,0-based,,0: Manual; 1: Random; 2: Cyclic; 3: Reverse Cyclic; 4:Velocity
+Squarp instruments,Rample,Layer Mode Controls,SP4 Layer Mode,Select multisample layer playback mode for SP4,64,,0,4,2,,,,,,0-based,,0: Manual; 1: Random; 2: Cyclic; 3: Reverse Cyclic; 4:Velocity
+Squarp instruments,Rample,Parameter Randomisation,All Chan Randomise Params,Randomise parameters on all channels,70,,0,127,0,,,,,,0-based,"No value required, randomise on any CC change",
+Squarp instruments,Rample,Parameter Randomisation,SP1 Randomise Params,Randomise parameters on SP1,71,,0,127,0,,,,,,0-based,"No value required, randomise on any CC change",
+Squarp instruments,Rample,Parameter Randomisation,SP2 Randomise Params,Randomise parameters on SP2,72,,0,127,0,,,,,,0-based,"No value required, randomise on any CC change",
+Squarp instruments,Rample,Parameter Randomisation,SP3 Randomise Params,Randomise parameters on SP3,73,,0,127,0,,,,,,0-based,"No value required, randomise on any CC change",
+Squarp instruments,Rample,Parameter Randomisation,SP4 Randomise Params,Randomise parameters on SP4,74,,0,127,0,,,,,,0-based,"No value required, randomise on any CC change",
+Squarp instruments,Rample,Parameter Reset,All Chan Reset Params,Reset parameters on all channels,80,,0,127,0,,,,,,0-based,"No value required, reset on any CC change",
+Squarp instruments,Rample,Parameter Reset,SP1 Reset Params,Reset parameters on SP1,81,,0,127,0,,,,,,0-based,"No value required, reset on any CC change",
+Squarp instruments,Rample,Parameter Reset,SP2 Reset Params,Reset parameters on SP2,82,,0,127,0,,,,,,0-based,"No value required, reset on any CC change",
+Squarp instruments,Rample,Parameter Reset,SP3 Reset Params,Reset parameters on SP3,83,,0,127,0,,,,,,0-based,"No value required, reset on any CC change",
+Squarp instruments,Rample,Parameter Reset,SP4 Reset Params,Reset parameters on SP4,84,,0,127,0,,,,,,0-based,"No value required, reset on any CC change",
+Squarp instruments,Rample,Punch FX,SP1 Punch FX,Enable punch effects on SP1,91,,0,127,0,,,,,,0-based,,0: Disabled; 1-127: Enabled
+Squarp instruments,Rample,Punch FX,SP2 Punch FX,Enable punch effects on SP2,92,,0,127,0,,,,,,0-based,,0: Disabled; 1-127: Enabled
+Squarp instruments,Rample,Punch FX,SP3 Punch FX,Enable punch effects on SP3,93,,0,127,0,,,,,,0-based,,0: Disabled; 1-127: Enabled
+Squarp instruments,Rample,Punch FX,SP4 Punch FX,Enable punch effects on SP4,94,,0,127,0,,,,,,0-based,,0: Disabled; 1-127: Enabled
+Squarp instruments,Rample,Master FX,Tape Amount,Amount of tape wow & flutter on all channels,110,,0,127,0,,,,,,0-based,Depth and LFO speed controlled as a macro,0: Disabled; 1~127: Tape Amount
+Squarp instruments,Rample,Master FX,Compressor Preset,Select compressor preset,111,,0,9,0,,,,,,0-based,,0: Disabled; 1: Glue; 2: Peak Limiter; 3: Slow Opto; 4: Drum Transient; 5: Punchy VCA; 6: Leveling amp; 7: Parallel; 8: Agressive Limiter FET; 9: Mastering
+Squarp instruments,Rample,Master FX,Compressor Amount,"Compressor amount, or depth of compression",112,,0,127,0,,,,,,0-based,,0: Disabled; 1~127: Compression Depth
+Squarp instruments,Rample,Kit Select,Kit Select (Instant),Instantly select the kit number within current bank,98,,0,99,,,,,,,0-based,,0~99: Select Kit Number
+Squarp instruments,Rample,Kit Select,Select Bank,"Select the bank, from A~Z",99,,0,25,,,,,,,0-based,Typo: the manual states 1~25,0~25: Bank A~Z
+Squarp instruments,Rample,Kit Select,Kit Select (Other Bank),Select a kit within a different bank (using PC or CC99 to select bank),0,,0,99,,,,,,,0-based,This message THEN PC/CC99 for bank selection,0~99: Select Kit Number
+Squarp instruments,Rample,Kit Select,Prev Kit,Select previous kit sequentially,100,,0,127,0,,,,,,0-based,"No value required, any CC Change will trigger kit change",
+Squarp instruments,Rample,Kit Select,Next Kit,Select next kit sequentially,101,,0,127,0,,,,,,0-based,"No value required, any CC Change will trigger kit change",

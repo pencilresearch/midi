@@ -1,0 +1,11 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Manikin Electronic,Memotron m2d,Performance,Mix,Cross-fades between the three tracks,1,,0,127,,,,,,,0-based,,
+Manikin Electronic,Memotron m2d,Performance,Volume,,7,,0,127,,,,,,,0-based,,
+Manikin Electronic,Memotron m2d,Performance,Panorama,,10,,0,127,,,,,,,centered,,
+Manikin Electronic,Memotron m2d,Performance,Half speed,,12,,0,127,,,,,,,0-based,,
+Manikin Electronic,Memotron m2d,Performance,Sustain,,64,,0,127,,,,,,,0-based,,
+Manikin Electronic,Memotron m2d,Performance,Tone,,74,,0,127,,,,,,,0-based,,
+Manikin Electronic,Memotron m2d,Channel mode,All sound off,,120,,0,127,,,,,,,0-based,,
+Manikin Electronic,Memotron m2d,Channel mode,All notes off,,123,,0,127,,,,,,,0-based,,
+Manikin Electronic,Memotron m2d,Channel mode,Omni off,,124,,0,127,,,,,,,0-based,,
+Manikin Electronic,Memotron m2d,Channel mode,Omni on,,125,,0,127,,,,,,,0-based,,
