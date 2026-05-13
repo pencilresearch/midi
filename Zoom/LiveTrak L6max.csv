@@ -91,5 +91,5 @@ Zoom,LiveTrak L6max,MONO,MONO x2 CH 5,,109,,0,127,,,,,,,0-based,,
 Zoom,LiveTrak L6max,MONO,MONO x2 CH 6,,110,,0,127,,,,,,,0-based,,
 Zoom,LiveTrak L6max,USB,USB 1/2,,113,,0,127,,,,,,,0-based,,
 Zoom,LiveTrak L6max,USB,USB 3/4,,114,,0,127,,,,,,,0-based,,
-Zoom,LiveTrak L6max,EFX,EFX TYPE,,117,,0,127,,,,,,,0-based,,0-25: Hall; 25-49: Room; 52-76: Spring; 77-101: Delay; 102-127: Echo
+Zoom,LiveTrak L6max,EFX,EFX TYPE,,117,,0,127,,,,,,,0-based,,0-20: AI Noise Reduction; 21-42: Hall; 43-63: Room; 64-84: Spring; 85-106: Delay; 107-127: Echo
 Zoom,LiveTrak L6max,COMP,COMPRESSOR,,119,,0,127,,,,,,,0-based,,
