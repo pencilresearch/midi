@@ -1,0 +1,13 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+LZX Industries,Videomancer,Parameters,Knob 1,Continuous (per program),0,32,0,127,,,,,,,0-based,14-bit; MIDI Learn,
+LZX Industries,Videomancer,Parameters,Knob 2,Continuous (per program),1,33,0,127,,,,,,,0-based,14-bit; MIDI Learn,
+LZX Industries,Videomancer,Parameters,Knob 3,Continuous (per program),2,34,0,127,,,,,,,0-based,14-bit; MIDI Learn,
+LZX Industries,Videomancer,Parameters,Knob 4,Continuous (per program),3,35,0,127,,,,,,,0-based,14-bit; MIDI Learn,
+LZX Industries,Videomancer,Parameters,Knob 5,Continuous (per program),4,36,0,127,,,,,,,0-based,14-bit; MIDI Learn,
+LZX Industries,Videomancer,Parameters,Knob 6,Continuous (per program),5,37,0,127,,,,,,,0-based,14-bit; MIDI Learn,
+LZX Industries,Videomancer,Parameters,Toggle 7,Binary (per program),6,38,0,127,,,,,,,0-based,14-bit; MIDI Learn,0-63: Off; 64-127: On
+LZX Industries,Videomancer,Parameters,Toggle 8,Binary (per program),7,39,0,127,,,,,,,0-based,14-bit; MIDI Learn,0-63: Off; 64-127: On
+LZX Industries,Videomancer,Parameters,Toggle 9,Binary (per program),8,40,0,127,,,,,,,0-based,14-bit; MIDI Learn,0-63: Off; 64-127: On
+LZX Industries,Videomancer,Parameters,Toggle 10,Binary (per program),9,41,0,127,,,,,,,0-based,14-bit; MIDI Learn,0-63: Off; 64-127: On
+LZX Industries,Videomancer,Parameters,Toggle 11,Binary (per program),10,42,0,127,,,,,,,0-based,14-bit; MIDI Learn,0-63: Off; 64-127: On
+LZX Industries,Videomancer,Parameters,Fader,Continuous (per program),11,43,0,127,,,,,,,0-based,14-bit; MIDI Learn,
