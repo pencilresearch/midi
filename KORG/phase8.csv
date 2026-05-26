@@ -1,0 +1,23 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,phase8,Velocity,Velocity 1,Reflects the position of the Velocity 1 knob. Also affects the velocity of MIDI Note On events.,12,,0,127,,,,,,,0-based,,0~127: Velocity amount
+KORG,phase8,Velocity,Velocity 2,Reflects the position of the Velocity 2 knob. Also affects the velocity of MIDI Note On events.,13,,0,127,,,,,,,0-based,,0~127: Velocity amount
+KORG,phase8,Velocity,Velocity 3,Reflects the position of the Velocity 3 knob. Also affects the velocity of MIDI Note On events.,14,,0,127,,,,,,,0-based,,0~127: Velocity amount
+KORG,phase8,Velocity,Velocity 4,Reflects the position of the Velocity 4 knob. Also affects the velocity of MIDI Note On events.,15,,0,127,,,,,,,0-based,,0~127: Velocity amount
+KORG,phase8,Velocity,Velocity 5,Reflects the position of the Velocity 5 knob. Also affects the velocity of MIDI Note On events.,16,,0,127,,,,,,,0-based,,0~127: Velocity amount
+KORG,phase8,Velocity,Velocity 6,Reflects the position of the Velocity 6 knob. Also affects the velocity of MIDI Note On events.,17,,0,127,,,,,,,0-based,,0~127: Velocity amount
+KORG,phase8,Velocity,Velocity 7,Reflects the position of the Velocity 7 knob. Also affects the velocity of MIDI Note On events.,18,,0,127,,,,,,,0-based,,0~127: Velocity amount
+KORG,phase8,Velocity,Velocity 8,Reflects the position of the Velocity 8 knob. Also affects the velocity of MIDI Note On events.,19,,0,127,,,,,,,0-based,,0~127: Velocity amount
+KORG,phase8,Envelope,Envelope 1,,20,,0,127,,,,,,,0-based,,0~127: Envelope amount
+KORG,phase8,Envelope,Envelope 2,,21,,0,127,,,,,,,0-based,,0~127: Envelope amount
+KORG,phase8,Envelope,Envelope 3,,22,,0,127,,,,,,,0-based,,0~127: Envelope amount
+KORG,phase8,Envelope,Envelope 4,,23,,0,127,,,,,,,0-based,,0~127: Envelope amount
+KORG,phase8,Envelope,Envelope 5,,24,,0,127,,,,,,,0-based,,0~127: Envelope amount
+KORG,phase8,Envelope,Envelope 6,,25,,0,127,,,,,,,0-based,,0~127: Envelope amount
+KORG,phase8,Envelope,Envelope 7,,26,,0,127,,,,,,,0-based,,0~127: Envelope amount
+KORG,phase8,Envelope,Envelope 8,,27,,0,127,,,,,,,0-based,,0~127: Envelope amount
+KORG,phase8,Modulation,Depth,,28,,0,127,,,,,,,0-based,,0~127: Depth amount
+KORG,phase8,Modulation,Rate,,29,,0,127,,,,,,,0-based,,0~127: Rate amount
+KORG,phase8,Modulation,Air,Controls the Air slider,30,,0,127,,,,,,,0-based,,0~127: Air amount
+KORG,phase8,Modulation,Tempo,Controls the Tempo knob,31,,0,127,,,,,,,0-based,,0~127: Tempo amount
+KORG,phase8,Modulation,Shift,,90,,0,127,,,,,,,0-based,,0~127: Shift amount
+KORG,phase8,Modulation,Mod type,Selects the modulation type,92,,0,127,,,,,,,0-based,,0: Tremolo; 64: Pitch envelope; 127: AM ring modulation
