@@ -1,0 +1,28 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Tubbutec,Juno-66,Arp,Arp MIDI clock divider,,16,,0,127,,,,,,,,,0-7: 2.5 bars; 8-15: 2 bars; 16-23: 1.5 bars; 24-31: 1 bar; 32-39: 3/4; 40-47: 1T; 48-55: 1/2; 56-63: 3/8; 64-71: 1/2T; 72-79: 1/4; 80-87: 3/16; 88-95: 1/4T; 96-103: 1/8; 104-111: 1/8T; 112-119: 1/16; 120-127: 1/32
+Tubbutec,Juno-66,Filter,Filter cutoff,,17,,0,127,,,,,,,,,
+Tubbutec,Juno-66,LFO,S/H LFO amount,,18,,0,127,,,,,,,,,
+Tubbutec,Juno-66,LFO,S/H LFO divider,,19,,0,127,,,,,,,,,0-7: 2.5 bars; 8-15: 2 bars; 16-23: 1.5 bars; 24-31: 1 bar; 32-39: 3/4; 40-47: 1T; 48-55: 1/2; 56-63: 3/8; 64-71: 1/2T; 72-79: 1/4; 80-87: 3/16; 88-95: 1/4T; 96-103: 1/8; 104-111: 1/8T; 112-119: 1/16; 120-127: 1/32
+Tubbutec,Juno-66,Arp,Arp Clock divider,,20,,0,127,,,,,,,,,0-7: 2.5 bars; 8-15: 2 bars; 16-23: 1.5 bars; 24-31: 1 bar; 32-39: 3/4; 40-47: 1T; 48-55: 1/2; 56-63: 3/8; 64-71: 1/2T; 72-79: 1/4; 80-87: 3/16; 88-95: 1/4T; 96-103: 1/8; 104-111: 1/8T; 112-119: 1/16; 120-127: 1/32
+Tubbutec,Juno-66,CV,CV2 (if installed),,21,,0,127,,,,,,,,,
+Tubbutec,Juno-66,CV,CV3 (if installed),,22,,0,127,,,,,,,,,
+Tubbutec,Juno-66,LFO,Tri LFO frequency coarse,,23,,0,127,,,,,,,,,
+Tubbutec,Juno-66,LFO,Tri LFO frequency fine,,24,,0,127,,,,,,,,,
+Tubbutec,Juno-66,LFO,Tri LFO amount,,25,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Osc,Detune amount,,26,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Osc,Fatness amount,,27,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Portamento,Portamento speed fast,,28,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Portamento,Portamento speed slow,,29,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Filter ADSR,Attack,,30,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Filter ADSR,Decay,,31,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Filter ADSR,Sustain,,32,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Filter ADSR,Release,,33,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Filter ADSR,Amount,,34,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Seq,Seq/Clock source,,35,,0,127,,,,,,,,"Sequence clock source: internal, MIDI note, or MIDI clock",
+Tubbutec,Juno-66,LFO,S/H Clock source,,36,,0,127,,,,,,,,"S/H clock source: internal, MIDI note, or MIDI clock",
+Tubbutec,Juno-66,Filter ADSR,Delay,,37,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Filter ADSR,Looping,,38,,0,127,,,,,,,,,0-63: Off; 64-127: On
+Tubbutec,Juno-66,Filter ADSR,Polarity inversion,,39,,0,127,,,,,,,,,0-63: Normal; 64-127: Inverted
+Tubbutec,Juno-66,Global,Sustain pedal,,64,,0,127,,,,,,,,,0-63: Off; 64-127: On
+Tubbutec,Juno-66,Global,All sound off,,120,,0,127,,,,,,,,,
+Tubbutec,Juno-66,Global,All notes off,,123,,0,127,,,,,,,,,

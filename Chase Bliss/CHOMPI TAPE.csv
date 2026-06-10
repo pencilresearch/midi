@@ -1,0 +1,10 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,CHOMPI TAPE,Sound Design,Sample playback speed and direction,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,CHOMPI TAPE,Sound Design,Sample start point,,21,,0,127,,,,,,,0-based,,
+Chase Bliss,CHOMPI TAPE,Sound Design,Sample end point,,22,,0,127,,,,,,,0-based,,
+Chase Bliss,CHOMPI TAPE,Effects,Delay and reverb amount,,23,,0,127,,,,,,,0-based,Default layered delay+reverb mode (Delay/Reverb Split user option disabled),
+Chase Bliss,CHOMPI TAPE,Effects,Split delay and reverb,,23,,0,127,,,,,,,centered,Active when Delay/Reverb Split user option is enabled; counterclockwise = reverb; noon = no effect; clockwise = delay,
+Chase Bliss,CHOMPI TAPE,Looper,Loop playback speed and direction,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,CHOMPI TAPE,Looper,Play/pause,,26,,0,127,,,,,,,0-based,,
+Chase Bliss,CHOMPI TAPE,Looper,Loop and overdub,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,CHOMPI TAPE,Volume,Master volume,,25,,0,127,,,,,,,0-based,,

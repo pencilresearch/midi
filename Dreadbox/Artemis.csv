@@ -6,7 +6,7 @@ Dreadbox,Artemis,General,Volume,,7,,0,127,,,,,,,0-based,,0~127: 0-100
 Dreadbox,Artemis,General,LFO 1 VCO target,,18,,0,127,,,,,,,0-based,,0-43: VCO 1 and 2; 44-86: VCO 1; 87-127: VCO 2
 Dreadbox,Artemis,General,LFO 1 wave,,24,,0,127,,,,,,,0-based,,0-15: Sine; 16-31: Tri; 32-47: Saw; 48-63: Ramp; 64-79: Square; 80-95: Random; 96-111: Env+; 112-127: Env-
 Dreadbox,Artemis,General,LFO 2 wave,,27,,0,127,,,,,,,0-based,,0-15: Sine; 16-31: Tri; 32-47: Saw; 48-63: Ramp; 64-79: Square; 80-95: Random; 96-111: Env+; 112-127: Env-
-Dreadbox,Artemis,General,LFO sync mode,,29,,0,127,,,,,,,0-based,,0-31: Free; 32-63: Key; 64-95: BPM: 96-127: BPM key
+Dreadbox,Artemis,General,LFO sync mode,,29,,0,127,,,,,,,0-based,,0-31: Free; 32-63: Key; 64-95: BPM; 96-127: BPM key
 Dreadbox,Artemis,General,Play mode,,30,,0,127,,,,,,,0-based,,0-25: Poly; 26-51: Tri; 52-77: Duo; 78-104: Unison; 105-127: Mono
 Dreadbox,Artemis,General,Distortions type,,38,,0,127,,,,,,,0-based,,0-7: Exp; 8-15: Parabolic; 16-23: Sine clip; 24-31: S-curve; 32-39: Soft-clip; 40-47: Hard-clip; 48-55: Tri-clip; 56-63: Tri-fold; 64-71: Single-fold; 72-79: Multi-fold; 80-87: Sine-bend; 88-95: Sine-fold; 96-103: Sine-shred; 104-111: Bin-shred; 112-127: Sym-wrap
 Dreadbox,Artemis,General,Modulations type,,44,,0,127,,,,,,,0-based,,0-11: Chorus; 12-23: Ensemble; 24-35: Tape chorus; 36-47: BBD chorus; 48-59: Flanger; 60-71: BBD flanger; 72-83: TZ flanger; 84-95: Phaser; 96-107: B-pole phaser; 108-119: Double notch; 120-127: Pitch shifter

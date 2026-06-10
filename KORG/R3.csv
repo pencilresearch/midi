@@ -1,0 +1,130 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,R3,Performance,Modulation depth,,1,,0,127,,,,,,,0-based,,
+KORG,R3,Performance,Expression,,11,,0,127,,,,,,,0-based,,
+KORG,R3,Performance,Damper pedal,,64,,0,127,,,,,,,0-based,,0: Off; 127: On
+KORG,R3,Performance,Portamento switch,,65,,0,127,,,,,,,0-based,CC#65 is also the default assignment for Envelope 1 attack.,0: Off; 127: On
+KORG,R3,Unison,Switch,,3,,0,127,,,,,,,0-based,,0-31: Off; 32-63: 2 voice; 64-95: 3 voice; 96-127: 4 voice
+KORG,R3,Pitch,Portamento time,,5,,0,127,,,,,,,0-based,,
+KORG,R3,Oscillator 1,Waveform,,8,,0,127,,,,,,,0-based,,0-15: Saw; 16-31: Square; 32-47: Triangle; 48-63: Sine; 64-79: Formant; 80-95: Noise; 96-111: DWGS; 112-127: Audio in
+KORG,R3,Oscillator 1,Mod type,,9,,0,127,,,,,,,0-based,,0-31: Waveform; 32-63: Cross; 64-95: Unison; 96-127: VPM
+KORG,R3,Oscillator 1,Control 1,,15,,0,127,,,,,,,0-based,,
+KORG,R3,Oscillator 1,Control 2,,17,,0,127,,,,,,,0-based,,
+KORG,R3,Oscillator 2,Waveform,,18,,0,127,,,,,,,0-based,,0-31: Saw; 32-63: Square; 64-95: Triangle; 96-127: Sine
+KORG,R3,Oscillator 2,Mod type,,19,,0,127,,,,,,,0-based,,0-31: Off; 32-63: Ring; 64-95: Sync; 96-127: Ring sync
+KORG,R3,Oscillator 2,Semitone,,20,,0,127,,,,,,,centered,,0~127: -24 to +24 semitones
+KORG,R3,Oscillator 2,Tune,,21,,0,127,,,,,,,0-based,,
+KORG,R3,Mixer,Oscillator 1 level,,23,,0,127,,,,,,,0-based,,
+KORG,R3,Mixer,Oscillator 2 level,,24,,0,127,,,,,,,0-based,,
+KORG,R3,Mixer,Noise level,,25,,0,127,,,,,,,0-based,,
+KORG,R3,Filter 1,Cutoff,,74,,0,127,,,,,,,0-based,,
+KORG,R3,Filter 1,Resonance,,71,,0,127,,,,,,,0-based,,
+KORG,R3,Filter 1,Balance,Morphs between filter types,27,,0,127,,,,,,,0-based,,0: -24 dB LPF; 1~30: -24 dB LPF to -12 dB LPF; 31-33: -12 dB LPF; 34~62: -12 dB LPF to HPF; 63-65: HPF; 66~94: HPF to BPF; 95-97: BPF; 98~126: BPF to Thru; 127: Thru
+KORG,R3,Filter 1,Routing,,26,,0,127,,,,,,,0-based,,0-31: Single; 32-63: Serial; 64-95: Parallel; 96-127: Individual
+KORG,R3,Filter 1,Envelope 1 intensity,,79,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Filter 1,Key track,,28,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Filter 2,Cutoff,,30,,0,127,,,,,,,0-based,,
+KORG,R3,Filter 2,Resonance,,68,,0,127,,,,,,,0-based,,
+KORG,R3,Filter 2,Type,,29,,0,127,,,,,,,0-based,,0-31: Low-pass filter; 32-63: High-pass filter; 64-95: Band-pass filter; 96-127: Comb
+KORG,R3,Filter 2,Envelope 1 intensity,,69,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Filter 2,Key track,,82,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Amplifier,Level,,7,,0,127,,,,,,,0-based,,
+KORG,R3,Amplifier,Pan,,10,,0,127,,,,,,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Drive,Waveshaper depth,,83,,0,127,,,,,,,0-based,,
+KORG,R3,Envelope 1,Attack,,65,,0,127,,,,,,,0-based,CC#65 is also used for Portamento switch.,
+KORG,R3,Envelope 1,Decay,,86,,0,127,,,,,,,0-based,,
+KORG,R3,Envelope 1,Sustain,,87,,0,127,,,,,,,0-based,,
+KORG,R3,Envelope 1,Release,,88,,0,127,,,,,,,0-based,,
+KORG,R3,Envelope 2,Attack,,73,,0,127,,,,,,,0-based,,
+KORG,R3,Envelope 2,Decay,,75,,0,127,,,,,,,0-based,,
+KORG,R3,Envelope 2,Sustain,,70,,0,127,,,,,,,0-based,,
+KORG,R3,Envelope 2,Release,,72,,0,127,,,,,,,0-based,,
+KORG,R3,LFO 1,Waveform,,89,,0,127,,,,,,,0-based,,0-25: Saw; 26-50: Square; 51-76: Triangle; 77-101: S&H; 102-127: Random
+KORG,R3,LFO 1,Frequency,,90,,0,127,,,,,,,0-based,"When BPM Sync is on, values map to sync note divisions.",
+KORG,R3,LFO 2,Waveform,,102,,0,127,,,,,,,0-based,,0-25: Saw; 26-50: Square; 51-76: Triangle; 77-101: S&H; 102-127: Random
+KORG,R3,LFO 2,Frequency,,76,,0,127,,,,,,,0-based,"When BPM Sync is on, values map to sync note divisions.",
+KORG,R3,Virtual patch,Patch 1 source,,,,,,,4,0,0,127,,0-based,"In vocoder mode, this NRPN address controls FC mod source.",0-11: Envelope 1; 12-20: Envelope 2; 21-31: Envelope 3; 32-43: LFO 1; 44-52: LFO 2; 53-63: Velocity; 64-75: Pitch bend; 76-84: Mod wheel; 85-95: Keyboard track; 96-106: MIDI 1; 107-116: MIDI 2; 117-127: MIDI 3
+KORG,R3,Virtual patch,Patch 1 destination,,,,,,,4,8,0,127,,0-based,,0-8: Pitch; 9-16: Oscillator 2 pitch; 17-25: Oscillator 1 control; 26-33: Oscillator 1 level; 34-42: Oscillator 2 level; 43-50: Noise level; 51-59: Filter 1 type; 60-67: Filter 1 cutoff; 68-76: Filter 1 resonance; 77-84: Filter 2 cutoff; 85-94: Drive/waveshaper depth; 95-101: Amplifier level; 102-110: Pan; 111-118: LFO 1 frequency; 119-127: LFO 2 frequency
+KORG,R3,Virtual patch,Patch 1 intensity,,103,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Virtual patch,Patch 2 source,,,,,,,4,1,0,127,,0-based,,0-11: Envelope 1; 12-20: Envelope 2; 21-31: Envelope 3; 32-43: LFO 1; 44-52: LFO 2; 53-63: Velocity; 64-75: Pitch bend; 76-84: Mod wheel; 85-95: Keyboard track; 96-106: MIDI 1; 107-116: MIDI 2; 117-127: MIDI 3
+KORG,R3,Virtual patch,Patch 2 destination,,,,,,,4,9,0,127,,0-based,,0-8: Pitch; 9-16: Oscillator 2 pitch; 17-25: Oscillator 1 control; 26-33: Oscillator 1 level; 34-42: Oscillator 2 level; 43-50: Noise level; 51-59: Filter 1 type; 60-67: Filter 1 cutoff; 68-76: Filter 1 resonance; 77-84: Filter 2 cutoff; 85-94: Drive/waveshaper depth; 95-101: Amplifier level; 102-110: Pan; 111-118: LFO 1 frequency; 119-127: LFO 2 frequency
+KORG,R3,Virtual patch,Patch 2 intensity,,104,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Virtual patch,Patch 3 source,,,,,,,4,2,0,127,,0-based,,0-11: Envelope 1; 12-20: Envelope 2; 21-31: Envelope 3; 32-43: LFO 1; 44-52: LFO 2; 53-63: Velocity; 64-75: Pitch bend; 76-84: Mod wheel; 85-95: Keyboard track; 96-106: MIDI 1; 107-116: MIDI 2; 117-127: MIDI 3
+KORG,R3,Virtual patch,Patch 3 destination,,,,,,,4,10,0,127,,0-based,,0-8: Pitch; 9-16: Oscillator 2 pitch; 17-25: Oscillator 1 control; 26-33: Oscillator 1 level; 34-42: Oscillator 2 level; 43-50: Noise level; 51-59: Filter 1 type; 60-67: Filter 1 cutoff; 68-76: Filter 1 resonance; 77-84: Filter 2 cutoff; 85-94: Drive/waveshaper depth; 95-101: Amplifier level; 102-110: Pan; 111-118: LFO 1 frequency; 119-127: LFO 2 frequency
+KORG,R3,Virtual patch,Patch 3 intensity,,105,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Virtual patch,Patch 4 source,,,,,,,4,3,0,127,,0-based,,0-11: Envelope 1; 12-20: Envelope 2; 21-31: Envelope 3; 32-43: LFO 1; 44-52: LFO 2; 53-63: Velocity; 64-75: Pitch bend; 76-84: Mod wheel; 85-95: Keyboard track; 96-106: MIDI 1; 107-116: MIDI 2; 117-127: MIDI 3
+KORG,R3,Virtual patch,Patch 4 destination,,,,,,,4,11,0,127,,0-based,,0-8: Pitch; 9-16: Oscillator 2 pitch; 17-25: Oscillator 1 control; 26-33: Oscillator 1 level; 34-42: Oscillator 2 level; 43-50: Noise level; 51-59: Filter 1 type; 60-67: Filter 1 cutoff; 68-76: Filter 1 resonance; 77-84: Filter 2 cutoff; 85-94: Drive/waveshaper depth; 95-101: Amplifier level; 102-110: Pan; 111-118: LFO 1 frequency; 119-127: LFO 2 frequency
+KORG,R3,Virtual patch,Patch 4 intensity,,106,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Virtual patch,Patch 5 source,,,,,,,4,4,0,127,,0-based,,0-11: Envelope 1; 12-20: Envelope 2; 21-31: Envelope 3; 32-43: LFO 1; 44-52: LFO 2; 53-63: Velocity; 64-75: Pitch bend; 76-84: Mod wheel; 85-95: Keyboard track; 96-106: MIDI 1; 107-116: MIDI 2; 117-127: MIDI 3
+KORG,R3,Virtual patch,Patch 5 destination,,,,,,,4,12,0,127,,0-based,,0-8: Pitch; 9-16: Oscillator 2 pitch; 17-25: Oscillator 1 control; 26-33: Oscillator 1 level; 34-42: Oscillator 2 level; 43-50: Noise level; 51-59: Filter 1 type; 60-67: Filter 1 cutoff; 68-76: Filter 1 resonance; 77-84: Filter 2 cutoff; 85-94: Drive/waveshaper depth; 95-101: Amplifier level; 102-110: Pan; 111-118: LFO 1 frequency; 119-127: LFO 2 frequency
+KORG,R3,Virtual patch,Patch 5 intensity,,107,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Virtual patch,Patch 6 source,,,,,,,4,5,0,127,,0-based,,0-11: Envelope 1; 12-20: Envelope 2; 21-31: Envelope 3; 32-43: LFO 1; 44-52: LFO 2; 53-63: Velocity; 64-75: Pitch bend; 76-84: Mod wheel; 85-95: Keyboard track; 96-106: MIDI 1; 107-116: MIDI 2; 117-127: MIDI 3
+KORG,R3,Virtual patch,Patch 6 destination,,,,,,,4,13,0,127,,0-based,,0-8: Pitch; 9-16: Oscillator 2 pitch; 17-25: Oscillator 1 control; 26-33: Oscillator 1 level; 34-42: Oscillator 2 level; 43-50: Noise level; 51-59: Filter 1 type; 60-67: Filter 1 cutoff; 68-76: Filter 1 resonance; 77-84: Filter 2 cutoff; 85-94: Drive/waveshaper depth; 95-101: Amplifier level; 102-110: Pan; 111-118: LFO 1 frequency; 119-127: LFO 2 frequency
+KORG,R3,Virtual patch,Patch 6 intensity,,108,,0,127,,,,,,,centered,,0~127: -63 to +63
+KORG,R3,Equalizer,Low gain,,110,,0,127,,,,,,,centered,,0~127: -15.0 to +15.0 dB in 0.5dB steps
+KORG,R3,Equalizer,High gain,,109,,0,127,,,,,,,centered,,0~127: -15.0 to +15.0 dB in 0.5dB steps
+KORG,R3,Mod sequence,Switch,,111,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,R3,Mod sequence,Step 1,,,,,,,4,16,0,127,,0-based,,0~127: Step value
+KORG,R3,Mod sequence,Step 2,,,,,,,4,17,0,127,,0-based,,0~127: Step value
+KORG,R3,Mod sequence,Step 3,,,,,,,4,18,0,127,,0-based,,0~127: Step value
+KORG,R3,Mod sequence,Step 4,,,,,,,4,19,0,127,,0-based,,0~127: Step value
+KORG,R3,Mod sequence,Step 5,,,,,,,4,20,0,127,,0-based,,0~127: Step value
+KORG,R3,Mod sequence,Step 6,,,,,,,4,21,0,127,,0-based,,0~127: Step value
+KORG,R3,Mod sequence,Step 7,,,,,,,4,22,0,127,,centered,Display range is -24 to +24 for pitch parameters or -63 to +63 for others,0~127: Step value
+KORG,R3,Mod sequence,Step 8,,,,,,,4,23,0,127,,centered,Display range is -24 to +24 for pitch parameters or -63 to +63 for others,0~127: Step value
+KORG,R3,Mod sequence,Step 9,,,,,,,4,24,0,127,,centered,Display range is -63 to +63,0~127: Step value
+KORG,R3,Mod sequence,Step 10,,,,,,,4,25,0,127,,centered,Display range is -63 to +63,0~127: Step value
+KORG,R3,Mod sequence,Step 11,,,,,,,4,26,0,127,,centered,Display range is -63 to +63,0~127: Step value
+KORG,R3,Mod sequence,Step 12,,,,,,,4,27,0,127,,centered,Display range is -63 to +63,0~127: Step value
+KORG,R3,Mod sequence,Step 13,,,,,,,4,28,0,127,,centered,Display range is -63 to +63,0~127: Step value
+KORG,R3,Mod sequence,Step 14,,,,,,,4,29,0,127,,centered,Display range is -63 to +63,0~127: Step value
+KORG,R3,Mod sequence,Step 15,,,,,,,4,30,0,127,,centered,Display range is -63 to +63,0~127: Step value
+KORG,R3,Mod sequence,Step 16,,,,,,,4,31,0,127,,centered,Display range is -63 to +63,0~127: Step value
+KORG,R3,Effects,Insert effect 1 dry/wet,,115,,0,127,,,,,,,0-based,,0: Dry; 1~126: Dry/wet mix; 127: Wet
+KORG,R3,Effects,Insert effect 1 knob,,12,,0,127,,,,,,,0-based,,
+KORG,R3,Effects,Insert effect 2 dry/wet,,116,,0,127,,,,,,,0-based,,0: Dry; 1~126: Dry/wet mix; 127: Wet
+KORG,R3,Effects,Insert effect 2 knob,,13,,0,127,,,,,,,0-based,,
+KORG,R3,Effects,Master effect dry/wet,,94,,0,127,,,,,,,0-based,,0: Dry; 1~126: Dry/wet mix; 127: Wet
+KORG,R3,Effects,Master effect knob,,114,,0,127,,,,,,,0-based,,
+KORG,R3,Arpeggiator,On/off,,,,,,,0,2,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,R3,Arpeggiator,Latch,,,,,,,0,4,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,R3,Arpeggiator,Type,,,,,,,0,7,0,127,,0-based,,0-21: Up; 22-42: Down; 43-63: Alt 1; 64-85: Alt 2; 86-106: Random; 107-127: Trigger
+KORG,R3,Arpeggiator,Gate,,,,,,,0,10,0,127,,0-based,Non-linear mapping; see manual for detailed value table.,
+KORG,R3,Arpeggiator,Select,,,,,,,0,11,1,127,,0-based,,1: Timbre 1; 2: Timbre 2; 3-127: Timbre 1+2
+KORG,R3,Vocoder,FC mod source,,,,,,,4,0,0,127,,0-based,"In synth mode, this NRPN address controls Virtual patch 1 source. The manual lists value 116 in both MIDI 2 and MIDI 3 ranges - probably a typo.",0-11: Envelope 1; 12-20: Envelope 2; 21-31: Envelope 3; 32-43: LFO 1; 44-52: LFO 2; 53-63: Velocity; 64-75: Pitch bend; 76-84: Mod wheel; 85-95: Keyboard track; 96-107: MIDI 1; 108-116: MIDI 2; 117-127: MIDI 3
+KORG,R3,Vocoder,Switch,,,,,,,5,4,0,127,,0-based,,0: Off; 127: On
+KORG,R3,Vocoder channels,Channel 1 level,,,,,,,4,64,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 2 level,,,,,,,4,65,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 3 level,,,,,,,4,66,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 4 level,,,,,,,4,67,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 5 level,,,,,,,4,68,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 6 level,,,,,,,4,69,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 7 level,,,,,,,4,70,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 8 level,,,,,,,4,71,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 9 level,,,,,,,4,72,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 10 level,,,,,,,4,73,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 11 level,,,,,,,4,74,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 12 level,,,,,,,4,75,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 13 level,,,,,,,4,76,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 14 level,,,,,,,4,77,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 15 level,,,,,,,4,78,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 16 level,,,,,,,4,79,0,127,,0-based,,
+KORG,R3,Vocoder channels,Channel 1 pan,,,,,,,4,80,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 2 pan,,,,,,,4,81,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 3 pan,,,,,,,4,82,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 4 pan,,,,,,,4,83,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 5 pan,,,,,,,4,84,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 6 pan,,,,,,,4,85,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 7 pan,,,,,,,4,86,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 8 pan,,,,,,,4,87,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 9 pan,,,,,,,4,88,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 10 pan,,,,,,,4,89,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 11 pan,,,,,,,4,90,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 12 pan,,,,,,,4,91,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 13 pan,,,,,,,4,92,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 14 pan,,,,,,,4,93,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 15 pan,,,,,,,4,94,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Vocoder channels,Channel 16 pan,,,,,,,4,95,0,127,,centered,,0-1: L63; 2~63: L62 to L01; 64: Center; 65~127: R01 to R63
+KORG,R3,Voice,Voice mode,,,,,,,5,0,0,127,,0-based,,0-31: Single; 32-63: Layer; 64-95: Split; 96-127: Multi
+KORG,R3,Channel mode,All note off,,123,,0,0,,,,,,,0-based,,0: All notes off
+KORG,R3,Channel mode,All sound off,,120,,0,0,,,,,,,0-based,,0: All sound off
+KORG,R3,Channel mode,Reset all controllers,,121,,0,0,,,,,,,0-based,,0: Reset all controllers

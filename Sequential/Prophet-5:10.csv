@@ -1,0 +1,60 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Sequential,Prophet-5/10,Oscillator A,OSC A frequency,,3,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Oscillator A,OSC A saw on/off,,15,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Oscillator A,OSC A square on/off,,20,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Oscillator A,OSC A pulse width,,21,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Oscillator A,OSC A level,,27,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Oscillator A,Noise level,,29,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Oscillator B,OSC B frequency,,9,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Oscillator B,OSC B fine tune,,14,,0,127,,,,,,,0-based,,
+Sequential,Prophet-5/10,Oscillator B,OSC B pulse width,,22,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Oscillator B,OSC sync on/off,,23,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Oscillator B,OSC B low freq on/off,,24,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Oscillator B,OSC B level,,28,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Oscillator B,OSC B saw on/off,,30,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Oscillator B,OSC B tri on/off,,52,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Oscillator B,OSC B square on/off,,116,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Oscillators,OSC B keyboard on/off,,25,,0,1,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter,Resonance,,31,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter,Filter keyboard track off/half/full,,35,,0,2,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter,Filter rev select,,41,,0,1,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter,Cutoff,,73,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter,Brightness,,74,,0,127,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter,Vintage,,85,,0,127,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter envelope,Envelope amount,,89,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter envelope,Envelope velocity on/off,,90,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Filter envelope,Attack,,103,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter envelope,Decay,,105,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter envelope,Sustain,,107,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Filter envelope,Release,,109,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,LFO,LFO frequency,,46,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,LFO,LFO initial amount,,47,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,LFO,LFO source mix,,53,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,LFO,LFO freq A on/off,,54,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,LFO,LFO freq B on/off,,55,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,LFO,LFO freq pw A on/off,,56,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,LFO,LFO freq pw B on/off,,57,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,LFO,LFO filter on/off,,58,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,LFO,LFO saw on/off,,117,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,LFO,LFO tri on/off,,118,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,LFO,LFO square on/off,,119,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Poly,Poly mod filt env amount,,59,,0,127,,,,,,,0-based,,
+Sequential,Prophet-5/10,Poly,Poly mod OSC B amount,,60,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,Poly,Poly mod freq A on/off,,61,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Poly,Poly mod pw on/off,,62,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Poly,Poly mod filter on/off,,63,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Pressure,Pressure filter,,86,,0,1,,,,,,,0-based,,
+Sequential,Prophet-5/10,Pressure,Pressure LFO,,87,,0,1,,,,,,,0-based,,
+Sequential,Prophet-5/10,VCA envelope,Envelope velocity on/off,,102,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,VCA envelope,Attack,,104,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,VCA envelope,Decay,,106,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,VCA envelope,Sustain,,108,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,VCA envelope,Release,,110,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,General,Master volume,,7,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,General,Glide rate,,26,,0,120,,,,,,,0-based,,
+Sequential,Prophet-5/10,General,Pitch wheel range,,70,,0,11,,,,,,,0-based,,
+Sequential,Prophet-5/10,Voicing,Retrigger and unison assign,,71,,0,3,,,,,,,0-based,,
+Sequential,Prophet-5/10,Voicing,Release on/off,,111,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Voicing,Unison on/off,,112,,0,1,,,,,,,0-based,,0: Off; 1: On
+Sequential,Prophet-5/10,Voicing,Unison voice count,,113,,0,10,,,,,,,0-based,,
+Sequential,Prophet-5/10,Voicing,Unison detune,,114,,0,7,,,,,,,0-based,,

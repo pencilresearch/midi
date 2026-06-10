@@ -33,7 +33,7 @@ L.L. Electronics,RozzBox One V2,Mixer,Ring Mod Level,,53,117,0,255,,,,,,,0-based
 L.L. Electronics,RozzBox One V2,Mixer,Noise Level,,54,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,Mixer,External Level,,55,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,Drive,Clip Amount,,56,117,0,255,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,Drive,Distortion Type,,57,117,0,3,,,,,,,0-based,,
+L.L. Electronics,RozzBox One V2,Drive,Distortion Type,,57,117,0,3,,,,,,,0-based,,0: Brick Wall; 1: Digital Clip; 2: Overdrive 1; 3: Overdrive 2
 L.L. Electronics,RozzBox One V2,Filter,Filter1 Cutoff,,58,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,Filter,Filter1 Resonance,,59,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,Filter,Filter1 Env Mod,,60,117,0,255,,,,,,,0-based,,
@@ -58,26 +58,26 @@ L.L. Electronics,RozzBox One V2,LFO1,LFO1 Speed,,78,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,LFO2,LFO2 Mode,,79,117,0,3,,,,,,,0-based,,0: Tracking; 1: Wave; 2: Saw; 3: Triangle
 L.L. Electronics,RozzBox One V2,System,Midi Gate,,80,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,LFO2,LFO2 Speed,,81,117,0,255,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,ModMatrix,Mod1 Source,,82,117,0,15,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,ModMatrix,Mod1 Destination,,83,117,0,15,,,,,,,0-based,,
+L.L. Electronics,RozzBox One V2,ModMatrix,Mod1 Source,,82,117,0,15,,,,,,,0-based,,0: Env 1; 1: Env 2; 2: LFO 1; 3: LFO 2; 4: Velocity; 5: Mod Wheel; 6: Mod Wheel & LFO; 7: Osc 1; 8: Osc 2; 9: Osc Mix; 10: Midi Pitch; 11: Env Follower; 12: Seq 1; 13: Seq 2: 14: Seq 3: 15: Seq 4
+L.L. Electronics,RozzBox One V2,ModMatrix,Mod1 Destination,,83,117,0,15,,,,,,,0-based,,0: Pitch OSC 1; 1: Pitch OSC 2; 2: Pitch OSC 3; 3: Pitch OSC 4; 4: Pitch (Mix); 5: PW OSC 1; 6: PW OSC 2; 7: Cut Filter 1; 8: Cut Filter 2; 9: Cut Filter (Mix); 10: Reso Filter 1; 11: Reso Filter 2; 12: LFO 1 Speed; 13: LFO Speed 2; 14: Mod 1 Amount; 15: VCA
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod1 Amount,,84,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod1 Amt Coarse,,85,117,0,3,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,ModMatrix,Mod2 Source,,86,117,0,15,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,ModMatrix,Mod2 Destination,,87,117,0,15,,,,,,,0-based,,
+L.L. Electronics,RozzBox One V2,ModMatrix,Mod2 Source,,86,117,0,15,,,,,,,0-based,,0: Env 1; 1: Env 2; 2: LFO 1; 3: LFO 2; 4: Velocity; 5: Mod Wheel; 6: Mod Wheel & LFO; 7: Osc 1; 8: Osc 2; 9: Osc Mix; 10: Midi Pitch; 11: Env Follower; 12: Seq 1; 13: Seq 2: 14: Seq 3: 15: Seq 4
+L.L. Electronics,RozzBox One V2,ModMatrix,Mod2 Destination,,87,117,0,15,,,,,,,0-based,,0: Pitch OSC 1; 1: Pitch OSC 2; 2: Pitch OSC 3; 3: Pitch OSC 4; 4: Pitch (Mix); 5: PW OSC 1; 6: PW OSC 2; 7: Cut Filter 1; 8: Cut Filter 2; 9: Cut Filter (Mix); 10: Reso Filter 1; 11: Reso Filter 2; 12: LFO 1 Speed; 13: LFO Speed 2; 14: Mod 1 Amount; 15: VCA
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod2 Amount,,88,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod2 Amt Coarse,,89,117,0,3,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,ModMatrix,Mod3 Source,,90,117,0,15,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,ModMatrix,Mod3 Destination,,91,117,0,15,,,,,,,0-based,,
+L.L. Electronics,RozzBox One V2,ModMatrix,Mod3 Source,,90,117,0,15,,,,,,,0-based,,0: Env 1; 1: Env 2; 2: LFO 1; 3: LFO 2; 4: Velocity; 5: Mod Wheel; 6: Mod Wheel & LFO; 7: Osc 1; 8: Osc 2; 9: Osc Mix; 10: Midi Pitch; 11: Env Follower; 12: Seq 1; 13: Seq 2: 14: Seq 3: 15: Seq 4
+L.L. Electronics,RozzBox One V2,ModMatrix,Mod3 Destination,,91,117,0,15,,,,,,,0-based,,0: Pitch OSC 1; 1: Pitch OSC 2; 2: Pitch OSC 3; 3: Pitch OSC 4; 4: Pitch (Mix); 5: PW OSC 1; 6: PW OSC 2; 7: Cut Filter 1; 8: Cut Filter 2; 9: Cut Filter (Mix); 10: Reso Filter 1; 11: Reso Filter 2; 12: LFO 1 Speed; 13: LFO Speed 2; 14: Mod 1 Amount; 15: VCA
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod3 Amount,,92,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod3 Amt Coarse,,93,117,0,3,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,ModMatrix,Mod4 Source,,94,117,0,15,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,ModMatrix,Mod4 Destination,,95,117,0,15,,,,,,,0-based,,
+L.L. Electronics,RozzBox One V2,ModMatrix,Mod4 Source,,94,117,0,15,,,,,,,0-based,,0: Env 1; 1: Env 2; 2: LFO 1; 3: LFO 2; 4: Velocity; 5: Mod Wheel; 6: Mod Wheel & LFO; 7: Osc 1; 8: Osc 2; 9: Osc Mix; 10: Midi Pitch; 11: Env Follower; 12: Seq 1; 13: Seq 2: 14: Seq 3: 15: Seq 4
+L.L. Electronics,RozzBox One V2,ModMatrix,Mod4 Destination,,95,117,0,15,,,,,,,0-based,,0: Pitch OSC 1; 1: Pitch OSC 2; 2: Pitch OSC 3; 3: Pitch OSC 4; 4: Pitch (Mix); 5: PW OSC 1; 6: PW OSC 2; 7: Cut Filter 1; 8: Cut Filter 2; 9: Cut Filter (Mix); 10: Reso Filter 1; 11: Reso Filter 2; 12: LFO 1 Speed; 13: LFO Speed 2; 14: Mod 1 Amount; 15: VCA
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod4 Amount,,102,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,System,NRPN parameter (fine),,98,,0,4,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,System,NRPN parameter (coarse),,99,,0,127,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,ModMatrix,Mod4 Amt Coarse,,103,117,0,3,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,Filter,Filter Mode,,104,117,0,3,,,,,,,0-based,,
-L.L. Electronics,RozzBox One V2,FM,FM Mode,,105,117,0,7,,,,,,,0-based,,
+L.L. Electronics,RozzBox One V2,Filter,Filter Mode,,104,117,0,4,,,,,,,0-based,,0: Digital > Transistor (Serial); 1: Digital > Tube (Serial); 2: Transitor > Tube (Serial); 4: Trans > Tube (Parallel)
+L.L. Electronics,RozzBox One V2,FM,FM Mode,,105,117,0,7,,,,,,,0-based,,0: Algo 0; 1: Algo 1; 2: Algo 2; 3: Algo 3; 4: Algo 4; 5: Algo 5; 6: Algo 6; 7: Algo 7
 L.L. Electronics,RozzBox One V2,System,Bit Resolution,,106,117,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,System,Precision Register,,117,,0,255,,,,,,,0-based,,
 L.L. Electronics,RozzBox One V2,System,Wave Input 1,,118,117,0,255,,,,,,,0-based,,

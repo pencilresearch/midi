@@ -1,0 +1,180 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,RADIAS,Program,Bank select MSB,Selects the program bank (paired with CC 32 and a Program Change),0,,0,32,0,,,,,,0-based,Value 0 selects the Program area; value 32 selects Timbre or Drum Kit areas. Must be followed by CC 32 and a Program Change,0: Program A-P; 32: Timbre or Drum Kit
+KORG,RADIAS,Program,Bank select LSB,Selects the program bank (paired with CC 0 and a Program Change),32,,0,64,0,,,,,,0-based,"Value pairs with CC 0 to pick bank. With MSB 0: 0 selects banks A-H, 1 selects banks I-P. With MSB 32: 32-39 select Timbre 1-4, 64 selects Drum Kit",0: Banks A-H; 1: Banks I-P; 32: Timbre 1; 33: Timbre 1 preset; 34: Timbre 2; 35: Timbre 2 preset; 36: Timbre 3; 37: Timbre 3 preset; 38: Timbre 4; 39: Timbre 4 preset; 64: Drum Kit
+KORG,RADIAS,Controllers,Modulation,Modulation wheel depth (controls LFO2 vibrato intensity by default),1,,0,127,0,,,,,,0-based,,0~127: Modulation depth
+KORG,RADIAS,Controllers,Breath control,Breath controller depth (assignable pedal can also drive it),2,,0,127,0,,,,,,0-based,,0~127: Breath controller depth
+KORG,RADIAS,Controllers,Foot control,Foot controller (assignable pedal),4,,0,127,0,,,,,,0-based,,0~127: Foot controller amount
+KORG,RADIAS,Controllers,Expression,Expression pedal (controls timbre volume),11,,0,127,127,,,,,,0-based,,0~127: Expression amount
+KORG,RADIAS,Controllers,Sustain,Damper pedal on/off,64,,0,127,0,,,,,,0-based,Default CC for the assignable switch when set to Damper,0-63: Off; 64-127: On
+KORG,RADIAS,Controllers,Portamento switch,Portamento on/off,65,,0,127,0,,,,,,0-based,Default CC for the assignable switch when set to PortSw,0-63: Off; 64-127: On
+KORG,RADIAS,Controllers,Foot switch,Assignable foot switch (Multi Purpose Controller 17),82,,0,127,0,,,,,,0-based,Default CC sent when the assignable switch is set to FootSw. Conflicts with the default Filter 2 keyboard track knob assignment,0-63: Off; 64-127: On
+KORG,RADIAS,Global,All sound off,Silences all sounding notes,120,,0,0,,,,,,,0-based,Receive only,0: All sound off
+KORG,RADIAS,Global,Reset all controllers,Resets all continuous controllers to their default values,121,,0,0,,,,,,,0-based,Receive only,0: Reset all controllers
+KORG,RADIAS,Global,All note off,Silences all currently held notes,123,,0,0,,,,,,,0-based,Receive only,0: All notes off
+KORG,RADIAS,Global,Omni mode off,Sets the Timbre to receive on its MIDI channel only,124,,0,0,,,,,,,0-based,Receive only,0: Omni mode off
+KORG,RADIAS,Global,Omni mode on,Sets the Timbre to receive on any MIDI channel,125,,0,0,,,,,,,0-based,Receive only,0: Omni mode on
+KORG,RADIAS,Unison,Unison switch,Turns the Unison voice mode on or off,3,,0,127,0,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Pitch,Portamento time,Sets the portamento glide time,5,,0,127,0,,,,,,0-based,,0~127: Portamento time
+KORG,RADIAS,Oscillator 1,Wave,Selects the oscillator 1 waveform,8,,0,127,0,,,,,,0-based,,0-13: Saw; 14-27: Square; 28-41: Triangle; 42-55: Sine; 56-69: Formant; 70-83: Noise; 84-97: Synth PCM; 98-111: Drum PCM; 112-127: Audio in
+KORG,RADIAS,Oscillator 1,Modulation type,Selects the oscillator 1 modulation algorithm,9,,0,127,0,,,,,,0-based,,0-31: Waveform; 32-63: Cross; 64-95: Unison; 96-127: VPM
+KORG,RADIAS,Oscillator 1,Control 1,"Oscillator 1 primary control (waveform, pulse width, cross depth, detune, VPM depth, formant width, resonance, or gain depending on the wave and modulation type)",15,,0,127,0,,,,,,0-based,,0~127: Oscillator 1 control 1
+KORG,RADIAS,Oscillator 1,Control 2,"Oscillator 1 secondary control (LFO modulation intensity, unison phase, carrier harmonics, formant shift, LPF-HPF balance, or wave select depending on the wave and modulation type)",17,,0,127,0,,,,,,0-based,,0~127: Oscillator 1 control 2
+KORG,RADIAS,Oscillator 2,Wave,Selects the oscillator 2 waveform,18,,0,127,0,,,,,,0-based,,0-31: Saw; 32-63: Square; 64-95: Triangle; 96-127: Sine
+KORG,RADIAS,Oscillator 2,Modulation type,Selects the oscillator 2 modulation algorithm,19,,0,127,0,,,,,,0-based,,0-31: Off; 32-63: Ring; 64-95: Sync; 96-127: Ring plus sync
+KORG,RADIAS,Oscillator 2,Semitone,Oscillator 2 pitch offset in semitones relative to oscillator 1,20,,0,127,64,,,,,,centered,Non-linear gradient maps to -24 to +24 semitones,0~127: -24 to +24 semitones
+KORG,RADIAS,Oscillator 2,Tune,Oscillator 2 fine tune in cents,21,,0,127,64,,,,,,centered,,0~127: -63 to +63 cents
+KORG,RADIAS,Mixer,Oscillator 1 level,Oscillator 1 level into the mixer,23,,0,127,,,,,,,0-based,,0~127: Oscillator 1 level
+KORG,RADIAS,Mixer,Oscillator 2 level,Oscillator 2 level into the mixer,24,,0,127,,,,,,,0-based,,0~127: Oscillator 2 level
+KORG,RADIAS,Mixer,Noise level,Noise generator level into the mixer,25,,0,127,0,,,,,,0-based,,0~127: Noise level
+KORG,RADIAS,Filter,Routing,Configures how the two filters are connected,26,,0,127,0,,,,,,0-based,,0-31: Single; 32-63: Serial; 64-95: Parallel; 96-127: Individual
+KORG,RADIAS,Filter 1,Type balance,"Continuously blends filter 1 between LPF24, LPF12, HPF, BPF, and THRU",27,,0,127,0,,,,,,0-based,Set to 0 for LPF24 and 127 for THRU; intermediate values blend between filter types,0: LPF24; 1~30: LPF24 to LPF12 blend; 31-33: LPF12; 34~62: LPF12 to HPF blend; 63-65: HPF; 66~94: HPF to BPF blend; 95-97: BPF; 98~126: BPF to THRU blend; 127: THRU
+KORG,RADIAS,Filter 1,Cutoff,Filter 1 cutoff frequency,74,,0,127,,,,,,,0-based,,0~127: Cutoff frequency
+KORG,RADIAS,Filter 1,Resonance,Filter 1 resonance amount,71,,0,127,0,,,,,,0-based,,0~127: Resonance
+KORG,RADIAS,Filter 1,EG1 intensity,Amount that EG 1 modulates the filter 1 cutoff,79,,0,127,64,,,,,,centered,,0~127: -63 to +63 modulation amount
+KORG,RADIAS,Filter 1,Keyboard track,Amount that note number tracks filter 1 cutoff,28,,0,127,64,,,,,,centered,Non-linear gradient maps to -2.00 to +2.00 tracking ratio,0~127: -2.00 to +2.00 tracking ratio
+KORG,RADIAS,Filter 2,Type,Selects the filter 2 type,29,,0,127,0,,,,,,0-based,,0-31: LPF; 32-63: HPF; 64-95: BPF; 96-127: Comb
+KORG,RADIAS,Filter 2,Cutoff,Filter 2 cutoff frequency,30,,0,127,,,,,,,0-based,,0~127: Cutoff frequency
+KORG,RADIAS,Filter 2,Resonance,Filter 2 resonance amount,68,,0,127,0,,,,,,0-based,,0~127: Resonance
+KORG,RADIAS,Filter 2,EG1 intensity,Amount that EG 1 modulates the filter 2 cutoff,69,,0,127,64,,,,,,centered,,0~127: -63 to +63 modulation amount
+KORG,RADIAS,Filter 2,Keyboard track,Amount that note number tracks filter 2 cutoff,82,,0,127,64,,,,,,centered,Shares CC 82 with the default assignable foot switch; reassign one if both are needed,0~127: -63 to +63 tracking amount
+KORG,RADIAS,Amp,Level,Amp section output level (also receives MIDI Volume),7,,0,127,127,,,,,,0-based,,0~127: Amp level
+KORG,RADIAS,Amp,Panpot,Amp section stereo position (also receives MIDI Pan),10,,0,127,64,,,,,,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Amp,Drive depth,Drive or waveshape amount,83,,0,127,0,,,,,,0-based,,0~127: Drive or waveshape depth
+KORG,RADIAS,Amp,Drive switch,Selects the drive or waveshape mode,84,,0,127,0,,,,,,0-based,,0-41: Off; 42-84: Drive; 85-127: Waveshape
+KORG,RADIAS,EG 1,Attack,EG 1 attack time,85,,0,127,,,,,,,0-based,,0~127: Attack time
+KORG,RADIAS,EG 1,Decay,EG 1 decay time,86,,0,127,,,,,,,0-based,,0~127: Decay time
+KORG,RADIAS,EG 1,Sustain,EG 1 sustain level,87,,0,127,,,,,,,0-based,,0~127: Sustain level
+KORG,RADIAS,EG 1,Release,EG 1 release time,88,,0,127,,,,,,,0-based,,0~127: Release time
+KORG,RADIAS,EG 2,Attack,EG 2 attack time,73,,0,127,,,,,,,0-based,,0~127: Attack time
+KORG,RADIAS,EG 2,Decay,EG 2 decay time,75,,0,127,,,,,,,0-based,,0~127: Decay time
+KORG,RADIAS,EG 2,Sustain,EG 2 sustain level,70,,0,127,,,,,,,0-based,,0~127: Sustain level
+KORG,RADIAS,EG 2,Release,EG 2 release time,72,,0,127,,,,,,,0-based,,0~127: Release time
+KORG,RADIAS,LFO 1,Wave,Selects the LFO 1 waveform,89,,0,127,0,,,,,,0-based,,0-31: Saw; 32-63: Square; 64-95: Triangle; 96-127: Sample and hold
+KORG,RADIAS,LFO 1,Frequency,LFO 1 rate (free or tempo-synced depending on program setting),90,,0,127,,,,,,,0-based,Mapping depends on the LFO Tempo Sync setting; tempo-synced mode maps values to note divisions from 8-1 to 1-64,0~127: LFO frequency
+KORG,RADIAS,LFO 2,Wave,Selects the LFO 2 waveform,102,,0,127,0,,,,,,0-based,,0-31: Saw; 32-63: Square; 64-95: Triangle; 96-127: Sample and hold
+KORG,RADIAS,LFO 2,Frequency,LFO 2 rate (free or tempo-synced depending on program setting),76,,0,127,,,,,,,0-based,Mapping depends on the LFO Tempo Sync setting; tempo-synced mode maps values to note divisions from 8-1 to 1-64,0~127: LFO frequency
+KORG,RADIAS,Virtual Patch,Patch 1 source,Modulation source feeding Virtual Patch 1,,,,,,4,0,0,127,,0-based,,0-7: EG1; 8-16: EG2; 17-24: EG3; 25-33: LFO 1; 34-41: LFO 2; 42-50: Velocity; 51-58: Pitch bend; 59-67: Mod wheel; 68-75: Keyboard track; 76-84: Envelope follower; 85-92: MIDI 1; 93-101: MIDI 2; 102-109: MIDI 3; 110-118: MIDI 4; 119-127: MIDI 5
+KORG,RADIAS,Virtual Patch,Patch 2 source,Modulation source feeding Virtual Patch 2,,,,,,4,1,0,127,,0-based,,0-7: EG1; 8-16: EG2; 17-24: EG3; 25-33: LFO 1; 34-41: LFO 2; 42-50: Velocity; 51-58: Pitch bend; 59-67: Mod wheel; 68-75: Keyboard track; 76-84: Envelope follower; 85-92: MIDI 1; 93-101: MIDI 2; 102-109: MIDI 3; 110-118: MIDI 4; 119-127: MIDI 5
+KORG,RADIAS,Virtual Patch,Patch 3 source,Modulation source feeding Virtual Patch 3,,,,,,4,2,0,127,,0-based,,0-7: EG1; 8-16: EG2; 17-24: EG3; 25-33: LFO 1; 34-41: LFO 2; 42-50: Velocity; 51-58: Pitch bend; 59-67: Mod wheel; 68-75: Keyboard track; 76-84: Envelope follower; 85-92: MIDI 1; 93-101: MIDI 2; 102-109: MIDI 3; 110-118: MIDI 4; 119-127: MIDI 5
+KORG,RADIAS,Virtual Patch,Patch 4 source,Modulation source feeding Virtual Patch 4,,,,,,4,3,0,127,,0-based,,0-7: EG1; 8-16: EG2; 17-24: EG3; 25-33: LFO 1; 34-41: LFO 2; 42-50: Velocity; 51-58: Pitch bend; 59-67: Mod wheel; 68-75: Keyboard track; 76-84: Envelope follower; 85-92: MIDI 1; 93-101: MIDI 2; 102-109: MIDI 3; 110-118: MIDI 4; 119-127: MIDI 5
+KORG,RADIAS,Virtual Patch,Patch 5 source,Modulation source feeding Virtual Patch 5,,,,,,4,4,0,127,,0-based,,0-7: EG1; 8-16: EG2; 17-24: EG3; 25-33: LFO 1; 34-41: LFO 2; 42-50: Velocity; 51-58: Pitch bend; 59-67: Mod wheel; 68-75: Keyboard track; 76-84: Envelope follower; 85-92: MIDI 1; 93-101: MIDI 2; 102-109: MIDI 3; 110-118: MIDI 4; 119-127: MIDI 5
+KORG,RADIAS,Virtual Patch,Patch 6 source,Modulation source feeding Virtual Patch 6,,,,,,4,5,0,127,,0-based,,0-7: EG1; 8-16: EG2; 17-24: EG3; 25-33: LFO 1; 34-41: LFO 2; 42-50: Velocity; 51-58: Pitch bend; 59-67: Mod wheel; 68-75: Keyboard track; 76-84: Envelope follower; 85-92: MIDI 1; 93-101: MIDI 2; 102-109: MIDI 3; 110-118: MIDI 4; 119-127: MIDI 5
+KORG,RADIAS,Virtual Patch,Patch 1 destination,Parameter modulated by Virtual Patch 1,,,,,,4,8,0,127,,0-based,,0-7: Pitch; 8-15: OSC2 pitch; 16-23: OSC1 control; 24-31: OSC1 level; 32-39: OSC2 level; 40-47: Noise level; 48-55: Filter 1 type; 56-63: Filter 1 cutoff; 64-71: Filter 1 resonance; 72-79: Filter 2 cutoff; 80-87: Drive or WS depth; 88-95: Amp level; 96-103: Panpot; 104-111: LFO 1 frequency; 112-127: LFO 2 frequency
+KORG,RADIAS,Virtual Patch,Patch 2 destination,Parameter modulated by Virtual Patch 2,,,,,,4,9,0,127,,0-based,,0-7: Pitch; 8-15: OSC2 pitch; 16-23: OSC1 control; 24-31: OSC1 level; 32-39: OSC2 level; 40-47: Noise level; 48-55: Filter 1 type; 56-63: Filter 1 cutoff; 64-71: Filter 1 resonance; 72-79: Filter 2 cutoff; 80-87: Drive or WS depth; 88-95: Amp level; 96-103: Panpot; 104-111: LFO 1 frequency; 112-127: LFO 2 frequency
+KORG,RADIAS,Virtual Patch,Patch 3 destination,Parameter modulated by Virtual Patch 3,,,,,,4,10,0,127,,0-based,,0-7: Pitch; 8-15: OSC2 pitch; 16-23: OSC1 control; 24-31: OSC1 level; 32-39: OSC2 level; 40-47: Noise level; 48-55: Filter 1 type; 56-63: Filter 1 cutoff; 64-71: Filter 1 resonance; 72-79: Filter 2 cutoff; 80-87: Drive or WS depth; 88-95: Amp level; 96-103: Panpot; 104-111: LFO 1 frequency; 112-127: LFO 2 frequency
+KORG,RADIAS,Virtual Patch,Patch 4 destination,Parameter modulated by Virtual Patch 4,,,,,,4,11,0,127,,0-based,,0-7: Pitch; 8-15: OSC2 pitch; 16-23: OSC1 control; 24-31: OSC1 level; 32-39: OSC2 level; 40-47: Noise level; 48-55: Filter 1 type; 56-63: Filter 1 cutoff; 64-71: Filter 1 resonance; 72-79: Filter 2 cutoff; 80-87: Drive or WS depth; 88-95: Amp level; 96-103: Panpot; 104-111: LFO 1 frequency; 112-127: LFO 2 frequency
+KORG,RADIAS,Virtual Patch,Patch 5 destination,Parameter modulated by Virtual Patch 5,,,,,,4,12,0,127,,0-based,,0-7: Pitch; 8-15: OSC2 pitch; 16-23: OSC1 control; 24-31: OSC1 level; 32-39: OSC2 level; 40-47: Noise level; 48-55: Filter 1 type; 56-63: Filter 1 cutoff; 64-71: Filter 1 resonance; 72-79: Filter 2 cutoff; 80-87: Drive or WS depth; 88-95: Amp level; 96-103: Panpot; 104-111: LFO 1 frequency; 112-127: LFO 2 frequency
+KORG,RADIAS,Virtual Patch,Patch 6 destination,Parameter modulated by Virtual Patch 6,,,,,,4,13,0,127,,0-based,,0-7: Pitch; 8-15: OSC2 pitch; 16-23: OSC1 control; 24-31: OSC1 level; 32-39: OSC2 level; 40-47: Noise level; 48-55: Filter 1 type; 56-63: Filter 1 cutoff; 64-71: Filter 1 resonance; 72-79: Filter 2 cutoff; 80-87: Drive or WS depth; 88-95: Amp level; 96-103: Panpot; 104-111: LFO 1 frequency; 112-127: LFO 2 frequency
+KORG,RADIAS,Virtual Patch,Patch 1 intensity,Virtual Patch 1 modulation amount,103,,0,127,64,,,,,,centered,,0~127: -63 to +63 intensity
+KORG,RADIAS,Virtual Patch,Patch 2 intensity,Virtual Patch 2 modulation amount,104,,0,127,64,,,,,,centered,,0~127: -63 to +63 intensity
+KORG,RADIAS,Virtual Patch,Patch 3 intensity,Virtual Patch 3 modulation amount,105,,0,127,64,,,,,,centered,,0~127: -63 to +63 intensity
+KORG,RADIAS,Virtual Patch,Patch 4 intensity,Virtual Patch 4 modulation amount,106,,0,127,64,,,,,,centered,,0~127: -63 to +63 intensity
+KORG,RADIAS,Virtual Patch,Patch 5 intensity,Virtual Patch 5 modulation amount,107,,0,127,64,,,,,,centered,,0~127: -63 to +63 intensity
+KORG,RADIAS,Virtual Patch,Patch 6 intensity,Virtual Patch 6 modulation amount,108,,0,127,64,,,,,,centered,,0~127: -63 to +63 intensity
+KORG,RADIAS,EQ,High gain,Program EQ high band gain,109,,0,127,64,,,,,,centered,Non-linear gradient maps to -15.0 to +15.0 dB,0~127: -15.0 to +15.0 dB
+KORG,RADIAS,EQ,Low gain,Program EQ low band gain,110,,0,127,64,,,,,,centered,Non-linear gradient maps to -15.0 to +15.0 dB,0~127: -15.0 to +15.0 dB
+KORG,RADIAS,Modulation Sequencer,Switch,Turns the modulation sequencer on or off,111,,0,127,0,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Modulation Sequencer 1,Step 1 value,Modulation Sequencer 1 step 1 value offset,,,,,,4,16,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 2 value,Modulation Sequencer 1 step 2 value offset,,,,,,4,17,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 3 value,Modulation Sequencer 1 step 3 value offset,,,,,,4,18,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 4 value,Modulation Sequencer 1 step 4 value offset,,,,,,4,19,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 5 value,Modulation Sequencer 1 step 5 value offset,,,,,,4,20,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 6 value,Modulation Sequencer 1 step 6 value offset,,,,,,4,21,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 7 value,Modulation Sequencer 1 step 7 value offset,,,,,,4,22,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 8 value,Modulation Sequencer 1 step 8 value offset,,,,,,4,23,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 9 value,Modulation Sequencer 1 step 9 value offset,,,,,,4,24,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 10 value,Modulation Sequencer 1 step 10 value offset,,,,,,4,25,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 11 value,Modulation Sequencer 1 step 11 value offset,,,,,,4,26,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 12 value,Modulation Sequencer 1 step 12 value offset,,,,,,4,27,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 13 value,Modulation Sequencer 1 step 13 value offset,,,,,,4,28,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 14 value,Modulation Sequencer 1 step 14 value offset,,,,,,4,29,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 15 value,Modulation Sequencer 1 step 15 value offset,,,,,,4,30,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 1,Step 16 value,Modulation Sequencer 1 step 16 value offset,,,,,,4,31,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 1 value,Modulation Sequencer 2 step 1 value offset,,,,,,4,32,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 2 value,Modulation Sequencer 2 step 2 value offset,,,,,,4,33,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 3 value,Modulation Sequencer 2 step 3 value offset,,,,,,4,34,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 4 value,Modulation Sequencer 2 step 4 value offset,,,,,,4,35,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 5 value,Modulation Sequencer 2 step 5 value offset,,,,,,4,36,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 6 value,Modulation Sequencer 2 step 6 value offset,,,,,,4,37,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 7 value,Modulation Sequencer 2 step 7 value offset,,,,,,4,38,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 8 value,Modulation Sequencer 2 step 8 value offset,,,,,,4,39,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 9 value,Modulation Sequencer 2 step 9 value offset,,,,,,4,40,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 10 value,Modulation Sequencer 2 step 10 value offset,,,,,,4,41,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 11 value,Modulation Sequencer 2 step 11 value offset,,,,,,4,42,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 12 value,Modulation Sequencer 2 step 12 value offset,,,,,,4,43,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 13 value,Modulation Sequencer 2 step 13 value offset,,,,,,4,44,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 14 value,Modulation Sequencer 2 step 14 value offset,,,,,,4,45,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 15 value,Modulation Sequencer 2 step 15 value offset,,,,,,4,46,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 2,Step 16 value,Modulation Sequencer 2 step 16 value offset,,,,,,4,47,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 1 value,Modulation Sequencer 3 step 1 value offset,,,,,,4,48,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 2 value,Modulation Sequencer 3 step 2 value offset,,,,,,4,49,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 3 value,Modulation Sequencer 3 step 3 value offset,,,,,,4,50,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 4 value,Modulation Sequencer 3 step 4 value offset,,,,,,4,51,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 5 value,Modulation Sequencer 3 step 5 value offset,,,,,,4,52,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 6 value,Modulation Sequencer 3 step 6 value offset,,,,,,4,53,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 7 value,Modulation Sequencer 3 step 7 value offset,,,,,,4,54,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 8 value,Modulation Sequencer 3 step 8 value offset,,,,,,4,55,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 9 value,Modulation Sequencer 3 step 9 value offset,,,,,,4,56,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 10 value,Modulation Sequencer 3 step 10 value offset,,,,,,4,57,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 11 value,Modulation Sequencer 3 step 11 value offset,,,,,,4,58,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 12 value,Modulation Sequencer 3 step 12 value offset,,,,,,4,59,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 13 value,Modulation Sequencer 3 step 13 value offset,,,,,,4,60,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 14 value,Modulation Sequencer 3 step 14 value offset,,,,,,4,61,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 15 value,Modulation Sequencer 3 step 15 value offset,,,,,,4,62,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Modulation Sequencer 3,Step 16 value,Modulation Sequencer 3 step 16 value offset,,,,,,4,63,0,127,64,centered,Range is -24 to +24 when assigned to a pitch destination; otherwise -63 to +63,0~127: Value offset
+KORG,RADIAS,Insert FX 1,Switch,Turns insert effect 1 on or off,115,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Insert FX 1,Edit 1,Insert effect 1 Edit 1 knob (parameter depends on the selected effect type),12,,0,127,,,,,,,0-based,Transmitted and received on the timbre MIDI channel regardless of MIDI filter settings,0~127: Effect parameter value
+KORG,RADIAS,Insert FX 1,Edit 2,Insert effect 1 Edit 2 knob (parameter depends on the selected effect type),112,,0,127,,,,,,,0-based,Transmitted and received on the timbre MIDI channel regardless of MIDI filter settings,0~127: Effect parameter value
+KORG,RADIAS,Insert FX 2,Switch,Turns insert effect 2 on or off,116,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Insert FX 2,Edit 1,Insert effect 2 Edit 1 knob (parameter depends on the selected effect type),13,,0,127,,,,,,,0-based,Transmitted and received on the timbre MIDI channel regardless of MIDI filter settings,0~127: Effect parameter value
+KORG,RADIAS,Insert FX 2,Edit 2,Insert effect 2 Edit 2 knob (parameter depends on the selected effect type),113,,0,127,,,,,,,0-based,Transmitted and received on the timbre MIDI channel regardless of MIDI filter settings,0~127: Effect parameter value
+KORG,RADIAS,Master FX,Switch,Turns the master effect on or off,94,,0,127,,,,,,,0-based,Transmitted and received on the global MIDI channel,0-63: Off; 64-127: On
+KORG,RADIAS,Master FX,Edit,Master effect Edit knob (parameter depends on the selected effect type),114,,0,127,,,,,,,0-based,Transmitted and received on the global MIDI channel,0~127: Effect parameter value
+KORG,RADIAS,Arpeggiator,Arpeggiator on/off,Starts or stops the arpeggiator,,,,,,0,2,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Arpeggiator,Octave range,Sets how many octaves the arpeggio spans,,,,,,0,3,0,3,,0-based,Receive only,0: 1 octave; 1: 2 octaves; 2: 3 octaves; 3: 4 octaves
+KORG,RADIAS,Arpeggiator,Latch on/off,Enables arpeggio latch so notes hold after release,,,,,,0,4,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Arpeggiator,Type,Selects the arpeggio pattern type,,,,,,0,7,0,127,,0-based,,0-20: Up; 21-41: Down; 42-62: Alt1; 63-83: Alt2; 84-104: Random; 105-127: Trigger
+KORG,RADIAS,Arpeggiator,Gate time,Sets the arpeggio gate time as a percentage offset,,,,,,0,10,0,127,64,centered,,0~127: -100 to +100 percent
+KORG,RADIAS,Arpeggiator,Select switch,"Chooses whether the keyboard drives the arpeggiator, Step Seq 1, or Step Seq 2",,,,,,0,11,0,127,,0-based,,0: Off; 1: Arpeggiator; 2: Step Seq 1; 3-127: Step Seq 2
+KORG,RADIAS,Step Sequencer 1,Latch,Enables latch so the sequence keeps running after keys are released,,,,,,0,20,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Step Sequencer 1,Gate time,Sets the Step Seq 1 gate time as a percentage offset,,,,,,0,26,0,127,64,centered,,0~127: -100 to +100 percent
+KORG,RADIAS,Step Sequencer 2,Latch,Enables latch so the sequence keeps running after keys are released,,,,,,0,36,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Step Sequencer 2,Gate time,Sets the Step Seq 2 gate time as a percentage offset,,,,,,0,42,0,127,64,centered,,0~127: -100 to +100 percent
+KORG,RADIAS,Vocoder,Band 1 level,Level of vocoder analysis band 1,,,,,,4,64,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 2 level,Level of vocoder analysis band 2,,,,,,4,65,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 3 level,Level of vocoder analysis band 3,,,,,,4,66,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 4 level,Level of vocoder analysis band 4,,,,,,4,67,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 5 level,Level of vocoder analysis band 5,,,,,,4,68,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 6 level,Level of vocoder analysis band 6,,,,,,4,69,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 7 level,Level of vocoder analysis band 7,,,,,,4,70,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 8 level,Level of vocoder analysis band 8,,,,,,4,71,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 9 level,Level of vocoder analysis band 9,,,,,,4,72,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 10 level,Level of vocoder analysis band 10,,,,,,4,73,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 11 level,Level of vocoder analysis band 11,,,,,,4,74,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 12 level,Level of vocoder analysis band 12,,,,,,4,75,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 13 level,Level of vocoder analysis band 13,,,,,,4,76,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 14 level,Level of vocoder analysis band 14,,,,,,4,77,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 15 level,Level of vocoder analysis band 15,,,,,,4,78,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 16 level,Level of vocoder analysis band 16,,,,,,4,79,0,127,,0-based,,0~127: Band level
+KORG,RADIAS,Vocoder,Band 1 pan,Pan position of vocoder band 1,,,,,,4,80,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 2 pan,Pan position of vocoder band 2,,,,,,4,81,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 3 pan,Pan position of vocoder band 3,,,,,,4,82,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 4 pan,Pan position of vocoder band 4,,,,,,4,83,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 5 pan,Pan position of vocoder band 5,,,,,,4,84,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 6 pan,Pan position of vocoder band 6,,,,,,4,85,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 7 pan,Pan position of vocoder band 7,,,,,,4,86,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 8 pan,Pan position of vocoder band 8,,,,,,4,87,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 9 pan,Pan position of vocoder band 9,,,,,,4,88,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 10 pan,Pan position of vocoder band 10,,,,,,4,89,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 11 pan,Pan position of vocoder band 11,,,,,,4,90,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 12 pan,Pan position of vocoder band 12,,,,,,4,91,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 13 pan,Pan position of vocoder band 13,,,,,,4,92,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 14 pan,Pan position of vocoder band 14,,,,,,4,93,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 15 pan,Pan position of vocoder band 15,,,,,,4,94,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Band 16 pan,Pan position of vocoder band 16,,,,,,4,95,0,127,64,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+KORG,RADIAS,Vocoder,Fc mod source,Selects the modulation source for the vocoder filter cutoff,,,,,,4,96,0,127,,0-based,,0-7: EG1; 8-16: EG2; 17-24: EG3; 25-33: LFO 1; 34-41: LFO 2; 42-50: Velocity; 51-58: Pitch bend; 59-67: Mod wheel; 68-75: Keyboard track; 76-84: Envelope follower; 85-92: MIDI 1; 93-101: MIDI 2; 102-109: MIDI 3; 110-118: MIDI 4; 119-127: MIDI 5
+KORG,RADIAS,Timbres,Timbre 1 switch,Enables or disables Timbre 1,,,,,,5,0,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Timbres,Timbre 2 switch,Enables or disables Timbre 2,,,,,,5,1,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Timbres,Timbre 3 switch,Enables or disables Timbre 3,,,,,,5,2,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Timbres,Timbre 4 switch,Enables or disables Timbre 4,,,,,,5,3,0,127,,0-based,,0-63: Off; 64-127: On
+KORG,RADIAS,Timbres,Vocoder switch,Enables or disables the vocoder,,,,,,5,4,0,127,,0-based,,0-63: Off; 64-127: On

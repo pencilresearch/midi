@@ -1,0 +1,15 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,CHOMPI TEMPO,Sampler,Sample record,,14,,0,127,,,,,,,0-based,Mode switch must be in UP position to record,0: Off; 127: On
+Chase Bliss,CHOMPI TEMPO,Sampler,Sample pitch and direction,,20,,0,127,,,,,,,centered,Received when hardware encoder page 1 is selected,
+Chase Bliss,CHOMPI TEMPO,Sound design,Sample start point,,21,,0,127,,,,,,,0-based,Received when hardware encoder page 1 is selected,
+Chase Bliss,CHOMPI TEMPO,Sound design,Sample end point,,22,,0,127,,,,,,,0-based,Received when hardware encoder page 1 is selected,
+Chase Bliss,CHOMPI TEMPO,Sound design,Sample volume,,20,,0,127,,,,,,,0-based,Received when hardware encoder page 2 is selected,
+Chase Bliss,CHOMPI TEMPO,Sound design,Envelope attack,,21,,0,127,,,,,,,0-based,Received when hardware encoder page 2 is selected,
+Chase Bliss,CHOMPI TEMPO,Sound design,Envelope release,,22,,0,127,,,,,,,0-based,Received when hardware encoder page 2 is selected,
+Chase Bliss,CHOMPI TEMPO,Sound design,Multi-mode filter,,20,,0,127,,,,,,,centered,Received when hardware encoder page 3 is selected,
+Chase Bliss,CHOMPI TEMPO,Effects,Effects amount,,23,,0,127,,,,,,,centered,Received when hardware encoder page 1 is selected,
+Chase Bliss,CHOMPI TEMPO,Effects,Effects send/wet mix,,23,,0,127,,,,,,,0-based,Received when hardware encoder page 2 is selected,
+Chase Bliss,CHOMPI TEMPO,Mixer,Master output volume,,25,,0,127,,,,,,,0-based,Received when hardware encoder page 1 is selected,
+Chase Bliss,CHOMPI TEMPO,Mixer,Input gain,,25,,0,127,,,,,,,0-based,Received when hardware encoder page 2 is selected,
+Chase Bliss,CHOMPI TEMPO,Pattern generator,Tempo,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,CHOMPI TEMPO,Pattern generator,Arpeggiator/sequencer latch,,15,,0,127,,,,,,,0-based,Mirrors hardware button behavior,0: Off; 127: On

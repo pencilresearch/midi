@@ -1,0 +1,82 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+discoDSP,OB-Xd 3,Global,Voice Count,Polyphony / number of voices,15,,0,127,,,,,,,0-based,Voice count = round(value/127 * 31) + 1.,1~32: Voice count
+discoDSP,OB-Xd 3,Global,Unison,Unison enable,16,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Global,Octave,Master octave,17,,0,127,64,,,,,,centered,Octave = (round(value/127 * 4) - 2) * 12 semitones.,0-15: -2 oct; 16-47: -1 oct; 48-79: 0; 80-111: +1 oct; 112-127: +2 oct
+discoDSP,OB-Xd 3,Filter,Oversampling,Filter oversampling enable,18,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO Frequency,LFO rate,19,,0,127,,,,,,,0-based,Logarithmic 0~50 Hz scaled internally.,0~127: Slowest to fastest
+discoDSP,OB-Xd 3,Envelope,Volume Env Velocity,Amp envelope velocity sensitivity,20,,0,127,0,,,,,,0-based,,0~127: No velocity to full velocity
+discoDSP,OB-Xd 3,Global,As Played Allocation,Voice allocation mode,21,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Round-robin; 64-127: As-played
+discoDSP,OB-Xd 3,LFO,LFO Amount 1,LFO modulation depth 1,22,,0,127,0,,,,,,0-based,,0~127: No modulation to maximum
+discoDSP,OB-Xd 3,Global,Portamento,Portamento time,23,,0,127,0,,,,,,0-based,Logarithmic 0.14~250 ms scaled internally.,0~127: Instant to slowest glide
+discoDSP,OB-Xd 3,Global,Unison Detune,Unison voice detune,24,,0,127,0,,,,,,0-based,,0~127: No detune to maximum
+discoDSP,OB-Xd 3,LFO,LFO Amount 2,LFO modulation depth 2 (PW),25,,0,127,0,,,,,,0-based,,0~127: No modulation to maximum
+discoDSP,OB-Xd 3,Global,Bend Osc 2 Only,Pitch wheel affects only oscillator 2,31,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off (both oscillators); 64-127: On (Osc 2 only)
+discoDSP,OB-Xd 3,Global,Tune,Master fine tune,33,,0,127,64,,,,,,centered,Maps to -1~+1 internally.,0~127: -100 to +100 cents
+discoDSP,OB-Xd 3,Global,Legato Mode,Mono/legato mode,35,,0,127,0,,,,,,0-based,LegatoMode = round(value/127 * 3 + 1) - 1.,0-21: Mode 0; 22-63: Mode 1; 64-105: Mode 2; 106-127: Mode 3
+discoDSP,OB-Xd 3,Envelope,Loudness Decay,Amp envelope decay,36,,0,127,,,,,,,0-based,Logarithmic 4~60000 ms.,0~127: Near-instant to slowest
+discoDSP,OB-Xd 3,Envelope,Loudness Sustain,Amp envelope sustain,37,,0,127,,,,,,,0-based,,0~127: No sustain to full sustain
+discoDSP,OB-Xd 3,Envelope,Filter Attack,Filter envelope attack,38,,0,127,,,,,,,0-based,Logarithmic 4~60000 ms.,0~127: Near-instant to slowest
+discoDSP,OB-Xd 3,Envelope,Filter Decay,Filter envelope decay,39,,0,127,,,,,,,0-based,Logarithmic 4~60000 ms.,0~127: Near-instant to slowest
+discoDSP,OB-Xd 3,Envelope,Filter Sustain,Filter envelope sustain,40,,0,127,,,,,,,0-based,,0~127: No sustain to full sustain
+discoDSP,OB-Xd 3,Envelope,Filter Release,Filter envelope release,41,,0,127,,,,,,,0-based,Logarithmic 8~60000 ms.,0~127: Near-instant to slowest
+discoDSP,OB-Xd 3,Filter,Resonance,Filter resonance,42,,0,127,0,,,,,,0-based,,0~127: No resonance to maximum Q
+discoDSP,OB-Xd 3,Oscillator,Osc 2 Detune,Oscillator 2 detune,43,,0,127,0,,,,,,0-based,Logarithmic 0.001~0.6.,0~127: No detune to maximum
+discoDSP,OB-Xd 3,LFO,LFO Sine Wave,LFO sine waveform enable,44,,0,127,0,,,,,,0-based,Threshold at 64; OR'd into LFO waveform bitmask.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO Square Wave,LFO square waveform enable,45,,0,127,0,,,,,,0-based,Threshold at 64; OR'd into LFO waveform bitmask.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO S&H Wave,LFO sample-and-hold waveform enable,46,,0,127,0,,,,,,0-based,Threshold at 64; OR'd into LFO waveform bitmask.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO to Osc 1 Pitch,LFO target oscillator 1 pitch,47,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO to Osc 2 Pitch,LFO target oscillator 2 pitch,48,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO to Filter,LFO target filter cutoff,49,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO to PW Osc 1,LFO target oscillator 1 pulse width,50,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO to PW Osc 2,LFO target oscillator 2 pulse width,51,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Oscillator,Osc 2 Hard Sync,Oscillator 2 hard sync to osc 1,52,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Oscillator,Cross Mod,Osc 2 cross modulation amount,53,,0,127,0,,,,,,0-based,Maps to 0~24 internally.,0~127: No cross-mod to maximum
+discoDSP,OB-Xd 3,Oscillator,Osc 1 Pitch,Oscillator 1 pitch offset (semitones),54,,0,127,0,,,,,,0-based,Maps to 0~48 semitones.,0~127: 0 to +48 semitones
+discoDSP,OB-Xd 3,Oscillator,Osc 2 Pitch,Oscillator 2 pitch offset (semitones),55,,0,127,0,,,,,,0-based,Maps to 0~48 semitones.,0~127: 0 to +48 semitones
+discoDSP,OB-Xd 3,Oscillator,Pitch Quantize,Quantize osc pitch to semitones,56,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Oscillator,Osc 1 Saw,Oscillator 1 saw waveform enable,57,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Oscillator,Osc 1 Pulse,Oscillator 1 pulse waveform enable,58,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Oscillator,Osc 2 Saw,Oscillator 2 saw waveform enable,59,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Oscillator,Osc 2 Pulse,Oscillator 2 pulse waveform enable,60,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Oscillator,Pulse Width,Oscillator pulse width,61,,0,127,,,,,,,0-based,,0~127: Narrow to wide
+discoDSP,OB-Xd 3,Oscillator,Brightness,Oscillator brightness,62,,0,127,,,,,,,0-based,Linear 7000~26000 internally.,0~127: Dark to bright
+discoDSP,OB-Xd 3,Envelope,Env to Pitch,Filter envelope to pitch amount,63,,0,127,0,,,,,,0-based,Maps to 0~36 internally.,0~127: No mod to maximum
+discoDSP,OB-Xd 3,Envelope,Loudness Release,Amp envelope release,72,,0,127,,,,,,,0-based,Logarithmic 8~60000 ms.,0~127: Near-instant to slowest
+discoDSP,OB-Xd 3,Envelope,Loudness Attack,Amp envelope attack,73,,0,127,,,,,,,0-based,Logarithmic 4~60000 ms.,0~127: Near-instant to slowest
+discoDSP,OB-Xd 3,Filter,Cutoff,Filter cutoff,74,,0,127,127,,,,,,0-based,Linear 0~120 internally.,0~127: Fully closed to fully open
+discoDSP,OB-Xd 3,Global,Pitch Bend LFO Rate,Vibrato LFO rate (mod wheel),75,,0,127,0,,,,,,0-based,Vibrato enabled when value > 6.,0: Off; 1~127: Slowest to fastest vibrato rate
+discoDSP,OB-Xd 3,Envelope,Filter Env Velocity,Filter envelope velocity sensitivity,76,,0,127,0,,,,,,0-based,,0~127: No velocity to full velocity
+discoDSP,OB-Xd 3,Oscillator,Osc 1 Mix,Oscillator 1 level,77,,0,127,,,,,,,0-based,,0~127: Silent to full level
+discoDSP,OB-Xd 3,Oscillator,Osc 2 Mix,Oscillator 2 level,78,,0,127,,,,,,,0-based,,0~127: Silent to full level
+discoDSP,OB-Xd 3,Global,Volume,Master volume,71,,0,127,,,,,,,0-based,Linear 0~0.30 internally.,0~127: Silence to full output
+discoDSP,OB-Xd 3,Pan,Pan Voice 1,Voice 1 pan position,81,,0,127,64,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+discoDSP,OB-Xd 3,Pan,Pan Voice 2,Voice 2 pan position,82,,0,127,64,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+discoDSP,OB-Xd 3,Pan,Pan Voice 3,Voice 3 pan position,83,,0,127,64,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+discoDSP,OB-Xd 3,Pan,Pan Voice 4,Voice 4 pan position,84,,0,127,64,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+discoDSP,OB-Xd 3,Pan,Pan Voice 5,Voice 5 pan position,85,,0,127,64,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+discoDSP,OB-Xd 3,Pan,Pan Voice 6,Voice 6 pan position,86,,0,127,64,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+discoDSP,OB-Xd 3,Pan,Pan Voice 7,Voice 7 pan position,87,,0,127,64,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+discoDSP,OB-Xd 3,Pan,Pan Voice 8,Voice 8 pan position,88,,0,127,64,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+discoDSP,OB-Xd 3,Oscillator,Noise Mix,Noise level,102,,0,127,0,,,,,,0-based,Logarithmic 0~1 (35 internally).,0~127: Silent to full noise
+discoDSP,OB-Xd 3,Filter,Filter Key Follow,Filter cutoff keyboard tracking,103,,0,127,0,,,,,,0-based,,0~127: No tracking to full tracking
+discoDSP,OB-Xd 3,Filter,Multimode,Filter multimode (LP to HP),104,,0,127,,,,,,,0-based,Continuous LP to HP morph.,0~127: Low-pass to High-pass (centre = Band-pass)
+discoDSP,OB-Xd 3,Filter,Bandpass Blend,Bandpass mode enable,105,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Filter,Four Pole,4-pole filter mode (24dB/oct) enable,106,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off (2-pole / 12 dB); 64-127: On (4-pole / 24 dB)
+discoDSP,OB-Xd 3,Filter,Filter Env Amount,Filter envelope modulation amount,107,,0,127,0,,,,,,0-based,Linear 0~140 internally.,0~127: No modulation to maximum
+discoDSP,OB-Xd 3,Variation,Envelope Detune,Per-voice envelope time variation,108,,0,127,0,,,,,,0-based,,0~127: No variation to maximum
+discoDSP,OB-Xd 3,Variation,Filter Detune,Per-voice filter detune variation,109,,0,127,0,,,,,,0-based,Linear 0~18 internally.,0~127: No variation to maximum
+discoDSP,OB-Xd 3,Variation,Portamento Detune,Per-voice portamento variation,110,,0,127,0,,,,,,0-based,Linear 0~0.75 internally.,0~127: No variation to maximum
+discoDSP,OB-Xd 3,Global,Economy Mode,CPU economy mode (skip inactive voices),111,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,LFO,LFO Sync,LFO tempo sync,112,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off (free); 64-127: On (synced)
+discoDSP,OB-Xd 3,Envelope,PW Env,Pulse width envelope amount,113,,0,127,0,,,,,,0-based,,0~127: No modulation to maximum
+discoDSP,OB-Xd 3,Envelope,PW Env Both,Apply PW envelope to both oscillators,114,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Osc 1 only; 64-127: Both oscillators
+discoDSP,OB-Xd 3,Envelope,Env Pitch Both,Apply pitch envelope to both oscillators,115,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Osc 1 only; 64-127: Both oscillators
+discoDSP,OB-Xd 3,Envelope,Filter Env Invert,Invert filter envelope,116,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Normal; 64-127: Inverted
+discoDSP,OB-Xd 3,Oscillator,PW Osc 2 Offset,Pulse width offset for oscillator 2,117,,0,127,,,,,,,0-based,,0~127: No offset to maximum offset
+discoDSP,OB-Xd 3,Global,Bend Range,Pitch bend range,118,,0,127,0,,,,,,0-based,Threshold at 64; sets pitch wheel amount.,0-63: 2 semitones; 64-127: 12 semitones
+discoDSP,OB-Xd 3,Filter,Self Osc Push,Filter self-oscillation push,119,,0,127,0,,,,,,0-based,Threshold at 64.,0-63: Off; 64-127: On
+discoDSP,OB-Xd 3,Envelope,Loudness Env Shape,Amp envelope shape,120,,0,127,0,,,,,,0-based,Logarithmic 1.05~10 (asymmetry); shadows MIDI All Sound Off.,0~127: Linear to most curved
+discoDSP,OB-Xd 3,Envelope,Filter Env Shape,Filter envelope shape,121,,0,127,0,,,,,,0-based,Logarithmic 1.05~10 (asymmetry); shadows MIDI Reset All Controllers.,0~127: Linear to most curved
+discoDSP,OB-Xd 3,Filter,Filter Falloff,Filter analog falloff/leak,122,,0,127,0,,,,,,0-based,Linear 0~0.0003 internally.,0~127: No leak to maximum leak
+discoDSP,OB-Xd 3,Global,Multiply Voices,Voice multiplier,123,,0,127,,,,,,,0-based,Voices = round(value/127 * 15) + 1; shadows MIDI All Notes Off.,1~16: Voice multiplier
+discoDSP,OB-Xd 3,Oscillator,Level Difference,Loudness detune (per-voice level variation),124,,0,127,0,,,,,,0-based,,0~127: No variation to maximum

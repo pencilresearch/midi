@@ -1,39 +1,268 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Pioneer DJ,Toraiz AS-1,,BPM,,3,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,Glide Mode,,5,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC1 SUB LVL,,8,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,Voice VOL,,39,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV VCA AMT,,40,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV VCA VEL,,41,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV VCA ATK,,43,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV VCA DEC,,44,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV VCA SUS,,45,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV VCA REL,,46,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,LPF ENV AMT,,47,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV Filt ATK,,50,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV Filt DEC,,51,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV Filt SUS,,52,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ENV Filt REL,,53,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,HPF ENV AMT,,54,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ARP ON OFF,,58,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ARP Mode,,59,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ARP Range,,60,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,ARP Time Signature,,62,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,Glide ON OFF,,65,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC1 Freq,,67,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC1 Level,,69,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC1 Shape,,70,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC1 Pulsewidth,,71,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC2 Freq,,75,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC2 Freq Fine,,76,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC2 Level,,77,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC2 Shape,,78,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,OSC2 Pulsewidth,,79,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,LPF Freq,,102,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,LPF Reso,,103,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,LPF KEY Tracking,,104,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,LPF VEL,,105,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,HPF Freq,,106,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,HPF Reso,,107,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,HPF KEY Tracking,,108,,0,127,,,,,,,0-based,,
-Pioneer DJ,Toraiz AS-1,,HPF VEL ON,,109,,0,127,,,,,,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 1,Oscillator 1 frequency,,67,,0,127,,0,0,0,60,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 1,Oscillator 1 sync,,,,,,,0,1,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Oscillator 1,Oscillator 1 level,,69,,0,127,,0,2,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 1,Oscillator 1 shape,,70,,0,127,,0,3,0,254,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 1,Oscillator 1 pulse width,,71,,0,127,,0,4,0,255,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 1,Oscillator 1 sub level,,8,,0,127,,0,27,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 2,Oscillator 2 frequency,,75,,0,127,,0,5,0,60,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 2,Oscillator 2 fine frequency,,76,,0,127,,0,6,0,254,,centered,,
+Pioneer DJ,Toraiz AS-1,Oscillator 2,Oscillator 2 level,,77,,0,127,,0,7,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 2,Oscillator 2 shape,,78,,0,127,,0,8,0,254,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 2,Oscillator 2 pulse width,,79,,0,127,,0,9,0,255,,0-based,,
+Pioneer DJ,Toraiz AS-1,Oscillator 2,Oscillator 2 low frequency mode,,,,,,,0,10,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Oscillator 2,Oscillator 2 keyboard tracking,,,,,,,0,11,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Mixer,Noise level,,,,,,,0,32,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Mixer,Voice volume,,39,,0,127,,0,62,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Mixer,Slop,,,,,,,0,33,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Low-pass filter,Low-pass filter frequency,,102,,0,127,,0,45,0,164,,0-based,,
+Pioneer DJ,Toraiz AS-1,Low-pass filter,Low-pass filter resonance,,103,,0,127,,0,46,0,255,,0-based,,
+Pioneer DJ,Toraiz AS-1,Low-pass filter,Low-pass filter key tracking,,104,,0,127,,0,47,0,2,,0-based,,
+Pioneer DJ,Toraiz AS-1,Low-pass filter,Low-pass filter velocity,,105,,0,127,,0,48,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,High-pass filter,High-pass filter frequency,,106,,0,127,,0,49,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,High-pass filter,High-pass filter resonance,,107,,0,127,,0,50,0,255,,0-based,,
+Pioneer DJ,Toraiz AS-1,High-pass filter,High-pass filter key tracking,,108,,0,127,,0,51,0,2,,0-based,,
+Pioneer DJ,Toraiz AS-1,High-pass filter,High-pass filter velocity,,109,,0,127,,0,52,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Amplifier envelope,Amplifier envelope amount,,40,,0,127,,0,66,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Amplifier envelope,Amplifier envelope velocity,,41,,0,127,,0,71,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Amplifier envelope,Amplifier envelope attack,,43,,0,127,,0,67,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Amplifier envelope,Amplifier envelope decay,,44,,0,127,,0,68,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Amplifier envelope,Amplifier envelope sustain,,45,,0,127,,0,69,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Amplifier envelope,Amplifier envelope release,,46,,0,127,,0,70,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Filter envelope,Filter envelope low-pass amount,,47,,0,127,,0,77,0,254,,centered,,
+Pioneer DJ,Toraiz AS-1,Filter envelope,Filter envelope high-pass amount,,54,,0,127,,0,82,0,127,,centered,,
+Pioneer DJ,Toraiz AS-1,Filter envelope,Filter envelope attack,,50,,0,127,,0,78,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Filter envelope,Filter envelope decay,,51,,0,127,,0,79,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Filter envelope,Filter envelope sustain,,52,,0,127,,0,80,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Filter envelope,Filter envelope release,,53,,0,127,,0,81,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,LFO,LFO frequency,,,,,,,0,88,0,255,,0-based,,
+Pioneer DJ,Toraiz AS-1,LFO,LFO initial amount,,,,,,,0,89,0,255,,0-based,,
+Pioneer DJ,Toraiz AS-1,LFO,LFO shape,,,,,,,0,90,0,4,,0-based,,
+Pioneer DJ,Toraiz AS-1,LFO,LFO external sync,,,,,,,0,91,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,LFO,LFO to oscillator 1 frequency,,,,,,,0,93,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,LFO,LFO to oscillator 2 frequency,,,,,,,0,94,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,LFO,LFO to pulse width 1 and 2,,,,,,,0,95,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,LFO,LFO to amplifier,,,,,,,0,96,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,LFO,LFO to low-pass filter,,,,,,,0,97,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,LFO,LFO to high-pass filter,,,,,,,0,98,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Poly mod,Poly mod filter envelope amount,,,,,,,1,15,0,254,,centered,,
+Pioneer DJ,Toraiz AS-1,Poly mod,Poly mod oscillator 2 amount,,,,,,,1,16,0,254,,centered,,
+Pioneer DJ,Toraiz AS-1,Poly mod,Poly mod to oscillator 1 frequency,,,,,,,1,17,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Poly mod,Poly mod to oscillator 1 shape,,,,,,,1,18,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Poly mod,Poly mod to oscillator 1 pulse width,,,,,,,1,19,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Poly mod,Poly mod to low-pass filter,,,,,,,1,20,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Poly mod,Poly mod to high-pass filter,,,,,,,1,21,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Pressure,Pressure amount,,,,,,,0,109,0,254,,centered,,
+Pioneer DJ,Toraiz AS-1,Pressure,Pressure to oscillator 1 frequency,,,,,,,0,110,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Pressure,Pressure to oscillator 2 frequency,,,,,,,0,111,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Pressure,Pressure to low-pass filter,,,,,,,0,112,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Pressure,Pressure to high-pass filter,,,,,,,0,113,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Pressure,Pressure to amplifier,,,,,,,0,114,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Pressure,Pressure to LFO amount,,,,,,,0,115,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Effects,Effects on/off,,,,,,,1,7,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Effects 1,Effect 1 select,,,,,,,0,119,0,3,,0-based,,
+Pioneer DJ,Toraiz AS-1,Effects 1,Effect 1 mix,,,,,,,0,120,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Effects 1,Effect 1 parameter 1,,,,,,,0,121,0,255,,0-based,,
+Pioneer DJ,Toraiz AS-1,Effects 1,Effect 1 parameter 2,,,,,,,0,122,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Effects 1,Effect 1 sync,,,,,,,0,123,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Effects 1,Effect 1 sync rate,,,,,,,0,124,0,10,,0-based,,
+Pioneer DJ,Toraiz AS-1,Effects 2,Effect 2 select,,,,,,,0,127,0,4,,0-based,,
+Pioneer DJ,Toraiz AS-1,Effects 2,Effect 2 mix,,,,,,,1,0,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Effects 2,Effect 2 parameter 1,,,,,,,1,1,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Effects 2,Effect 2 parameter 2,,,,,,,1,2,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Performance,Tempo,,3,,0,127,,1,39,30,250,,0-based,,
+Pioneer DJ,Toraiz AS-1,Performance,Glide mode,,5,,0,127,,0,28,0,3,,0-based,,
+Pioneer DJ,Toraiz AS-1,Performance,Glide on/off,,65,,0,127,,0,29,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Performance,Glide rate,,,,,,,0,30,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Performance,Pitch bend range,,,,,,,0,31,0,12,,0-based,,0~12: Semitones
+Pioneer DJ,Toraiz AS-1,Performance,Key mode,,,,,,,1,30,0,5,,0-based,,
+Pioneer DJ,Toraiz AS-1,Arpeggiator,Arpeggiator on/off,,58,,0,127,,1,32,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Arpeggiator,Arpeggiator mode,,59,,0,127,,1,33,0,4,,0-based,,
+Pioneer DJ,Toraiz AS-1,Arpeggiator,Arpeggiator range,,60,,0,127,,1,34,0,2,,0-based,,
+Pioneer DJ,Toraiz AS-1,Arpeggiator,Arpeggiator time signature,,62,,0,127,,1,35,0,9,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer on/off,,,,,,,1,40,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer length,,,,,,,1,42,0,6,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer record on/off,,,,,,,1,44,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Sequencer,Lock sequence on/off,,,,,,,9,0,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 1 note,,,,,,,2,0,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 2 note,,,,,,,2,1,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 3 note,,,,,,,2,2,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 4 note,,,,,,,2,3,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 5 note,,,,,,,2,4,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 6 note,,,,,,,2,5,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 7 note,,,,,,,2,6,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 8 note,,,,,,,2,7,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 9 note,,,,,,,2,8,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 10 note,,,,,,,2,9,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 11 note,,,,,,,2,10,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 12 note,,,,,,,2,11,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 13 note,,,,,,,2,12,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 14 note,,,,,,,2,13,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 15 note,,,,,,,2,14,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 16 note,,,,,,,2,15,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 17 note,,,,,,,2,16,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 18 note,,,,,,,2,17,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 19 note,,,,,,,2,18,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 20 note,,,,,,,2,19,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 21 note,,,,,,,2,20,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 22 note,,,,,,,2,21,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 23 note,,,,,,,2,22,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 24 note,,,,,,,2,23,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 25 note,,,,,,,2,24,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 26 note,,,,,,,2,25,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 27 note,,,,,,,2,26,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 28 note,,,,,,,2,27,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 29 note,,,,,,,2,28,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 30 note,,,,,,,2,29,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 31 note,,,,,,,2,30,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 32 note,,,,,,,2,31,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 33 note,,,,,,,2,32,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 34 note,,,,,,,2,33,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 35 note,,,,,,,2,34,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 36 note,,,,,,,2,35,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 37 note,,,,,,,2,36,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 38 note,,,,,,,2,37,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 39 note,,,,,,,2,38,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 40 note,,,,,,,2,39,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 41 note,,,,,,,2,40,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 42 note,,,,,,,2,41,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 43 note,,,,,,,2,42,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 44 note,,,,,,,2,43,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 45 note,,,,,,,2,44,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 46 note,,,,,,,2,45,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 47 note,,,,,,,2,46,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 48 note,,,,,,,2,47,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 49 note,,,,,,,2,48,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 50 note,,,,,,,2,49,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 51 note,,,,,,,2,50,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 52 note,,,,,,,2,51,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 53 note,,,,,,,2,52,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 54 note,,,,,,,2,53,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 55 note,,,,,,,2,54,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 56 note,,,,,,,2,55,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 57 note,,,,,,,2,56,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 58 note,,,,,,,2,57,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 59 note,,,,,,,2,58,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 60 note,,,,,,,2,59,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 61 note,,,,,,,2,60,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 62 note,,,,,,,2,61,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 63 note,,,,,,,2,62,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 64 note,,,,,,,2,63,12,108,,0-based,,12~108: MIDI note number
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 1 velocity,,,,,,,2,64,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 2 velocity,,,,,,,2,65,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 3 velocity,,,,,,,2,66,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 4 velocity,,,,,,,2,67,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 5 velocity,,,,,,,2,68,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 6 velocity,,,,,,,2,69,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 7 velocity,,,,,,,2,70,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 8 velocity,,,,,,,2,71,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 9 velocity,,,,,,,2,72,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 10 velocity,,,,,,,2,73,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 11 velocity,,,,,,,2,74,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 12 velocity,,,,,,,2,75,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 13 velocity,,,,,,,2,76,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 14 velocity,,,,,,,2,77,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 15 velocity,,,,,,,2,78,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 16 velocity,,,,,,,2,79,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 17 velocity,,,,,,,2,80,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 18 velocity,,,,,,,2,81,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 19 velocity,,,,,,,2,82,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 20 velocity,,,,,,,2,83,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 21 velocity,,,,,,,2,84,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 22 velocity,,,,,,,2,85,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 23 velocity,,,,,,,2,86,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 24 velocity,,,,,,,2,87,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 25 velocity,,,,,,,2,88,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 26 velocity,,,,,,,2,89,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 27 velocity,,,,,,,2,90,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 28 velocity,,,,,,,2,91,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 29 velocity,,,,,,,2,92,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 30 velocity,,,,,,,2,93,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 31 velocity,,,,,,,2,94,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 32 velocity,,,,,,,2,95,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 33 velocity,,,,,,,2,96,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 34 velocity,,,,,,,2,97,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 35 velocity,,,,,,,2,98,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 36 velocity,,,,,,,2,99,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 37 velocity,,,,,,,2,100,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 38 velocity,,,,,,,2,101,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 39 velocity,,,,,,,2,102,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 40 velocity,,,,,,,2,103,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 41 velocity,,,,,,,2,104,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 42 velocity,,,,,,,2,105,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 43 velocity,,,,,,,2,106,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 44 velocity,,,,,,,2,107,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 45 velocity,,,,,,,2,108,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 46 velocity,,,,,,,2,109,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 47 velocity,,,,,,,2,110,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 48 velocity,,,,,,,2,111,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 49 velocity,,,,,,,2,112,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 50 velocity,,,,,,,2,113,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 51 velocity,,,,,,,2,114,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 52 velocity,,,,,,,2,115,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 53 velocity,,,,,,,2,116,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 54 velocity,,,,,,,2,117,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 55 velocity,,,,,,,2,118,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 56 velocity,,,,,,,2,119,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 57 velocity,,,,,,,2,120,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 58 velocity,,,,,,,2,121,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 59 velocity,,,,,,,2,122,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 60 velocity,,,,,,,2,123,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 61 velocity,,,,,,,2,124,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 62 velocity,,,,,,,2,125,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 63 velocity,,,,,,,2,126,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Sequencer,Sequencer step 64 velocity,,,,,,,2,127,0,127,,0-based,,
+Pioneer DJ,Toraiz AS-1,Slider,Slider oscillator 1 frequency amount,,,,,,,1,52,0,254,,centered,,0~254: Modulation amount
+Pioneer DJ,Toraiz AS-1,Slider,Slider oscillator 2 frequency amount,,,,,,,1,53,0,254,,centered,,0~254: Modulation amount
+Pioneer DJ,Toraiz AS-1,Slider,Slider LFO amount,,,,,,,1,54,0,254,,centered,,0~254: Modulation amount
+Pioneer DJ,Toraiz AS-1,Slider,Slider effect 1 mix amount,,,,,,,1,55,0,254,,centered,,0~254: Modulation amount
+Pioneer DJ,Toraiz AS-1,Slider,Slider effect 2 mix amount,,,,,,,1,56,0,254,,centered,,0~254: Modulation amount
+Pioneer DJ,Toraiz AS-1,Slider,Slider low-pass filter amount,,,,,,,1,57,0,254,,centered,,0~254: Modulation amount
+Pioneer DJ,Toraiz AS-1,Slider,Slider high-pass filter amount,,,,,,,1,58,0,254,,centered,,0~254: Modulation amount
+Pioneer DJ,Toraiz AS-1,Global,Master fine tune,,,,,,,8,0,0,100,,centered,,
+Pioneer DJ,Toraiz AS-1,Global,Master coarse tune,,,,,,,8,1,0,24,,centered,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI channel,,,,,,,8,2,0,16,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI clock mode,,,,,,,8,3,0,4,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI clock cable,,,,,,,8,4,0,1,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI parameter send,,,,,,,8,5,0,2,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI parameter receive,,,,,,,8,6,0,2,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI control enable,,,,,,,8,7,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Global,MIDI system exclusive cable,,,,,,,8,8,0,1,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI output select,,,,,,,8,9,0,2,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI output thru,,,,,,,8,10,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Global,Local control,,,,,,,8,11,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Global,Potentiometer mode,,,,,,,8,13,0,2,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,Sequencer jack mode,,,,,,,8,17,0,3,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,Pedal polarity,,,,,,,8,18,0,1,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,Mono/stereo,,,,,,,8,19,0,1,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,Alternate tuning,,,,,,,8,20,0,16,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,Scale mode,,,,,,,8,21,0,21,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,MIDI sequencer output,,,,,,,8,22,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Global,Screen saver,,,,,,,8,23,0,1,,0-based,,0: Off; 1: On
+Pioneer DJ,Toraiz AS-1,Global,Key sensitivity,,,,,,,8,25,0,9,,0-based,,
+Pioneer DJ,Toraiz AS-1,Global,Quick program 1 program select,,,,,,,8,26,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 2 program select,,,,,,,8,27,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 3 program select,,,,,,,8,28,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 4 program select,,,,,,,8,29,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 5 program select,,,,,,,8,30,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 6 program select,,,,,,,8,31,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 7 program select,,,,,,,8,32,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 8 program select,,,,,,,8,33,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 9 program select,,,,,,,8,34,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 10 program select,,,,,,,8,35,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 11 program select,,,,,,,8,36,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 12 program select,,,,,,,8,37,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 13 program select,,,,,,,8,38,0,99,,0-based,,0~99: Program number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 1 bank select,,,,,,,8,39,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 2 bank select,,,,,,,8,40,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 3 bank select,,,,,,,8,41,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 4 bank select,,,,,,,8,42,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 5 bank select,,,,,,,8,43,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 6 bank select,,,,,,,8,44,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 7 bank select,,,,,,,8,45,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 8 bank select,,,,,,,8,46,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 9 bank select,,,,,,,8,47,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 10 bank select,,,,,,,8,48,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 11 bank select,,,,,,,8,49,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 12 bank select,,,,,,,8,50,0,9,,0-based,,0~9: Bank number
+Pioneer DJ,Toraiz AS-1,Global,Quick program 13 bank select,,,,,,,8,51,0,9,,0-based,,0~9: Bank number

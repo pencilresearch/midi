@@ -1,0 +1,93 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Nord,Lead 4 (Lead 4R),Voice,Voice mode unison,,16,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Voice,Mono selector,,15,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Voice,Octave shift,,17,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Voice,Pitch bend range,,118,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Voice,Glide rate,,5,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Voice,Vibrato select,,56,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Voice,Hold,,58,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Voice,Hold enable,,54,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Voice,Chord enable,,112,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Voice,Impulse morph buttons,,70,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 1 waveform,,30,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 1 wavetable selection,,49,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 2 waveform,,31,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 2 semitones,,78,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 2 fine tune,,33,,0,127,,,,,,,centered,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 2 keyboard tracking,,34,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 2 noise resonance,,61,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 2 noise frequency,,62,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator 2 noise keyboard tracking,,63,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator modulation amount,,69,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator modulation select,,105,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Oscillators,Oscillator mix,,8,,0,127,,,,,,,centered,,
+Nord,Lead 4 (Lead 4R),Amplifier,Output level,,71,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Amplifier,Amplifier velocity,,35,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Amplifier,Amplifier envelope attack,,73,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Amplifier,Amplifier envelope decay,,36,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Amplifier,Amplifier envelope sustain,,37,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Amplifier,Amplifier envelope release,,72,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter type,,44,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter frequency,,74,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter resonance,,42,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter drive,,47,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter envelope amount,,43,,0,127,,,,,,,centered,,
+Nord,Lead 4 (Lead 4R),Filter,Filter velocity,,45,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Filter,Filter keyboard tracking,,46,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter envelope attack,,38,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter envelope decay,,39,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter envelope sustain,,40,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Filter,Filter envelope release,,41,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Modulation envelope,Modulation envelope attack,,26,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Modulation envelope,Modulation envelope decay,,27,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Modulation envelope,Modulation envelope destination,,28,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Modulation envelope,Modulation envelope amount,,29,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Modulation envelope,Modulation envelope release mode,,109,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Modulation envelope,Modulation envelope impulse sync,,6,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 rate,,19,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 waveform,,20,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 destination,,21,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 amount,,22,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 master clock,,2,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 clock divisions,,3,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 keyboard sync,,83,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 impulse sync,,59,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),LFO 1,LFO 1 / arpeggiator on/off,,91,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),LFO 2,LFO 2 rate,,23,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 2,LFO 2 waveform,,85,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 2,LFO 2 destination,,24,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 2,LFO 2 amount,,25,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 2,LFO 2 master clock,,18,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),LFO 2,LFO 2 clock divisions,,14,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),LFO 2,LFO 2 keyboard sync,,12,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),LFO 2,LFO 2 impulse sync,,13,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Arpeggiator,Arpeggiator tempo,,9,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Arpeggiator,Arpeggiator master clock,,86,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Arpeggiator,Arpeggiator clock division,,87,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Arpeggiator,Arpeggiator direction,,89,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Arpeggiator,Arpeggiator range,,88,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Arpeggiator,Arpeggiator run,,90,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Arpeggiator,Arpeggiator keyboard sync,,92,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Arpeggiator,Arpeggiator impulse sync,,93,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Effects,Effects selection,,53,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Effects,Effects on/off,,52,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Effects,Effects amount,,55,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Delay,Delay tempo,,77,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Delay,Delay master clock,,51,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Delay,Delay clock division,,57,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Delay,Delay feedback,,79,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Reverb,Reverb model,,96,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Reverb,Reverb bright,,94,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Delay/Reverb,Delay/reverb selection,,50,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Delay/Reverb,Delay/reverb amount,,76,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Delay/Reverb,Delay/reverb on/off,,97,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Performance,Pattern selection,,117,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Performance,Slot focus,,119,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Performance,Slot enable,,115,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead 4 (Lead 4R),Performance,Pan,,10,,0,127,,,,,,,centered,,
+Nord,Lead 4 (Lead 4R),External controllers,Modulation wheel,,1,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),External controllers,Sustain pedal,,64,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),External controllers,Volume pedal,,7,,0,127,,,,,,,0-based,Only active if assigned in System menu,
+Nord,Lead 4 (Lead 4R),External controllers,Control pedal,,11,,0,127,,,,,,,0-based,Only active if assigned in System menu,
+Nord,Lead 4 (Lead 4R),Bank select,Bank select MSB,,0,,0,127,,,,,,,0-based,,
+Nord,Lead 4 (Lead 4R),Bank select,Bank select LSB,,32,,0,127,,,,,,,0-based,,

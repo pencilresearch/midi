@@ -1,0 +1,58 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Moog,Messenger,Performance,Mod wheel,,1,33,0,16383,,,,,,,0-based,,
+Moog,Messenger,Performance,Expression pedal,,11,43,0,16383,,,,,,,0-based,,
+Moog,Messenger,Performance,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,Performance,Hold,,73,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,Performance,Glide rate,,5,37,0,16383,,,,,,,0-based,,
+Moog,Messenger,Performance,Pitch bend up amount,,107,,0,24,,,,,,,0-based,,0~24: Semitones
+Moog,Messenger,Performance,Pitch bend down amount,,108,,0,24,,,,,,,0-based,,0~24: Semitones
+Moog,Messenger,Performance,Keyboard octave,,89,,0,127,,,,,,,0-based,,0-25: -2 octaves; 26-50: -1 octave; 51-75: 0; 76-100: +1 octave; 101-127: +2 octaves
+Moog,Messenger,Performance,MPE 3rd dimension of control,,74,,0,127,,,,,,,0-based,On/Off via MPE Activation message RPN 6,
+Moog,Messenger,Global,Master volume,,7,39,0,16383,,,,,,,0-based,,
+Moog,Messenger,Global,Tempo,,2,34,0,16383,,,,,,,0-based,Always rounds to nearest integer value,0~16383: 30 to 300 BPM
+Moog,Messenger,Global,Data entry,,6,38,0,16383,,,,,,,0-based,,
+Moog,Messenger,Global,Multitrig,,114,,0,127,,,,,,,0-based,,0-63: Single trig; 64-127: Multitrig
+Moog,Messenger,Oscillators,Oscillator 1 waveshape,,9,41,0,16383,,,,,,,0-based,,
+Moog,Messenger,Oscillators,Oscillator 1 octave,,75,,0,127,,,,,,,0-based,,0-31: 4'; 32-63: 8'; 64-95: 16'; 96-127: 32'
+Moog,Messenger,Oscillators,Oscillator 2 waveshape,,14,46,0,16383,,,,,,,0-based,,
+Moog,Messenger,Oscillators,Oscillator 2 frequency,,12,44,0,16383,8192,,,,,,centered,,
+Moog,Messenger,Oscillators,Oscillator 2 octave,,76,,0,127,,,,,,,0-based,,0-31: 4'; 32-63: 8'; 64-95: 16'; 96-127: 32'
+Moog,Messenger,Oscillators,Sub oscillator waveshape,,71,,0,127,,,,,,,0-based,,
+Moog,Messenger,Oscillators,Oscillator tune,,10,42,0,16383,8192,,,,,,centered,,
+Moog,Messenger,Oscillators,Sync 2 to 1,,77,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,Oscillators,Oscillator mod amount,,13,45,0,16383,8192,,,,,,centered,,
+Moog,Messenger,Oscillators,Oscillator mod destination,,72,,0,127,,,,,,,0-based,,0-31: 1-2 frequency modulation; 32-63: Filter envelope to oscillator 2 frequency; 64-95: Filter envelope to oscillator 2 wave; 96-127: Filter envelope to sub wave
+Moog,Messenger,Mixer,Oscillator 1 level,,15,47,0,16383,,,,,,,0-based,,
+Moog,Messenger,Mixer,Oscillator 2 level,,16,48,0,16383,,,,,,,0-based,,
+Moog,Messenger,Mixer,Sub oscillator level,,17,49,0,16383,,,,,,,0-based,,
+Moog,Messenger,Mixer,Noise level,,8,40,0,16383,,,,,,,0-based,,
+Moog,Messenger,Mixer,Feedback/external input level,,18,50,0,16383,,,,,,,0-based,,
+Moog,Messenger,Filter,Filter cutoff,,19,51,0,16383,,,,,,,0-based,,
+Moog,Messenger,Filter,Filter resonance,,21,53,0,16383,,,,,,,0-based,,
+Moog,Messenger,Filter,Filter mode,,109,,0,127,,,,,,,0-based,,0-31: 4-pole low-pass; 32-63: 2-pole low-pass; 64-95: Band-pass; 96-127: High-pass
+Moog,Messenger,Filter,Filter keyboard tracking,,78,,0,127,,,,,,,0-based,,0-42: 0; 43-84: 2/3; 85-127: 1/1
+Moog,Messenger,Filter,Filter resonance bass,,79,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,Filter,Oscillator 2 cutoff amount,,20,52,0,16383,,,,,,,0-based,,
+Moog,Messenger,Filter envelope,Filter envelope amount,,22,54,0,16383,8192,,,,,,centered,,
+Moog,Messenger,Filter envelope,Filter envelope attack,,23,55,0,16383,,,,,,,0-based,,
+Moog,Messenger,Filter envelope,Filter envelope decay,,24,56,0,16383,,,,,,,0-based,,
+Moog,Messenger,Filter envelope,Filter envelope sustain,,25,57,0,16383,,,,,,,0-based,,
+Moog,Messenger,Filter envelope,Filter envelope release,,26,58,0,16383,,,,,,,0-based,,
+Moog,Messenger,Filter envelope,Filter envelope velocity,,80,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,Filter envelope,Filter envelope loop,,112,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,Amplifier envelope,Amplifier envelope attack,,28,60,0,16383,,,,,,,0-based,,
+Moog,Messenger,Amplifier envelope,Amplifier envelope decay,,29,61,0,16383,,,,,,,0-based,,
+Moog,Messenger,Amplifier envelope,Amplifier envelope sustain,,30,62,0,16383,,,,,,,0-based,,
+Moog,Messenger,Amplifier envelope,Amplifier envelope release,,31,63,0,16383,,,,,,,0-based,,
+Moog,Messenger,Amplifier envelope,Amplifier envelope velocity,,81,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,Amplifier envelope,Amplifier envelope loop,,113,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,LFOs,LFO 1 rate,,3,35,0,16383,,,,,,,0-based,,
+Moog,Messenger,LFOs,LFO 1 depth,,4,36,0,16383,8192,,,,,,centered,,
+Moog,Messenger,LFOs,LFO 1 waveshape,,83,,0,127,,,,,,,0-based,,0-31: Triangle; 32-63: Sawtooth; 64-95: Ramp; 96-127: Square
+Moog,Messenger,LFOs,LFO 1 destination,,85,,0,127,,,,,,,0-based,,0: Cutoff; 32: Oscillator 2 frequency; 64: Oscillator wave; 96: Sub wave
+Moog,Messenger,LFOs,LFO 2 rate,,27,59,0,16383,,,,,,,0-based,,
+Moog,Messenger,LFOs,LFO 2 pitch,,116,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,LFOs,LFO 2 cutoff,,117,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,LFOs,LFO 2 amplifier,,118,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,LFOs,LFO keyboard reset,,93,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Messenger,LFOs,LFO sync,,102,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On

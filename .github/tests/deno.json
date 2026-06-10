@@ -1,0 +1,11 @@
+{
+  "tasks": {
+    "check": "deno test --allow-read --allow-env=CSV_FILES",
+    "check:file": "CSV_FILES='Roland/JX-08.csv' deno test --allow-read --allow-env=CSV_FILES"
+  },
+  "imports": {
+    "@std/csv": "jsr:@std/csv@^1",
+    "@std/fs": "jsr:@std/fs@^1",
+    "@std/path": "jsr:@std/path@^1"
+  }
+}

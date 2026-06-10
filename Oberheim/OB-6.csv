@@ -1,76 +1,123 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Oberheim,OB-6,,MSB,,,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,MOD Wheel,,1,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,BPM,,3,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Foot Controller,,4,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Glide Mode,,5,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Data Entry MSB,,6,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Midi Volume,,7,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,SUB OSC Level,,8,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Distortion Amount,,9,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Data Entry LSB,,38,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Volume LSB,,39,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,VCA ENV AMT,,40,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,VCA ENV VEL AMT,,41,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,VCA ENV Attack,,43,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,VCA ENV Decay,,44,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,VCA ENV Sustain,,45,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,VCA ENV Release,,46,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter ENV AMT,,47,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter ENV Attack,,50,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter ENV Decay,,51,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter ENV Sustain,,52,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter ENV Release,,53,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,ARP ON OFF,,58,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,ARP Mode,,59,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,ARP Octave,,60,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,ARP Clock Division,,62,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Damper Pedal,,64,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Glide ON OFF,,65,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC1 Freq,,67,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC1 Level,,69,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC1 Shape,,70,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC1 PW,,71,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Brightness,,74,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC2 Freq,,75,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC2 Detune,,76,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC2 Level,,77,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC2 Shape,,78,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,OSC2 PW,,79,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Data Increment,,96,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Data Decrement,,97,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Nrpn Param LSB,,98,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Nrpn Param MSB,,99,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,RPN Param LSB,,100,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,RPN Param MSB,,101,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter Freq,,102,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter Resonance,,103,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter KEY AMT,,104,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter VEL ON OFF,,105,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Filter Mode,,106,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Band Pass ON OFF,,107,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,ALL Sound OFF,,120,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Reset Controllers,,121,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Local Control,,122,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,ALL Notes OFF,,123,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Omni Mode OFF,,124,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Omni Mode ON,,125,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Mono Mode ON,,126,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Poly Mode ON,,127,,0,127,,,,,,,0-based,,
-Oberheim,OB-6,,Noise Level,,,,,,,0,32,0,127,,0-based,,
-Oberheim,OB-6,,PAN Spread,,,,,,,0,63,0,127,,0-based,,
-Oberheim,OB-6,,LFO Freq,,,,,,,0,88,0,254,,0-based,,
-Oberheim,OB-6,,LFO Amt,,,,,,,0,89,0,255,,0-based,,
-Oberheim,OB-6,,LFO Shape,,,,,,,0,90,0,4,,0-based,,
-Oberheim,OB-6,,LFO Sync,,,,,,,0,91,0,1,,0-based,,
-Oberheim,OB-6,,FX1 Type,,,,,,,0,119,0,5,,0-based,,
-Oberheim,OB-6,,FX1 Mix,,,,,,,0,120,0,127,,0-based,,
-Oberheim,OB-6,,FX1 Param1,,,,,,,0,121,0,255,,0-based,,
-Oberheim,OB-6,,FX1 Param2,,,,,,,0,122,0,127,,0-based,,
-Oberheim,OB-6,,FX2 Type,,,,,,,0,127,0,9,,0-based,,
-Oberheim,OB-6,,FX2 Mix,,,,,,,0,128,0,127,,0-based,,
-Oberheim,OB-6,,FX2 Param1,,,,,,,0,129,0,255,,0-based,,
-Oberheim,OB-6,,FX2 Param2,,,,,,,0,130,0,127,,0-based,,
-Oberheim,OB-6,,FX ON Off,,,,,,,0,135,0,1,,0-based,,
-Oberheim,OB-6,,X MOD Filter ENV Amt,,,,,,,0,143,0,254,,0-based,,
-Oberheim,OB-6,,X MOD VCO2 Amt,,,,,,,0,144,0,254,,0-based,,
+Oberheim,OB-6,Performance,Mod wheel,,1,,0,127,,,,,,,0-based,,0~127: Mod wheel
+Oberheim,OB-6,Performance,Foot controller,,4,,0,127,,,,,,,0-based,,0~127: Foot controller
+Oberheim,OB-6,Performance,MIDI volume,,7,39,0,127,,,,,,,0-based,,0~127: Volume
+Oberheim,OB-6,Performance,Sustain pedal,,64,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,Oscillator 1,Oscillator 1 frequency,,67,,0,127,,0,0,0,60,,0-based,,0~60: Frequency
+Oberheim,OB-6,Oscillator 1,Oscillator 1 sync,,,,,,,0,1,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Oscillator 1,Oscillator 1 level,,69,,0,127,,0,2,0,127,,0-based,,0~127: Level
+Oberheim,OB-6,Oscillator 1,Oscillator 1 shape,,70,,0,127,,0,3,0,255,,0-based,,0~255: Shape
+Oberheim,OB-6,Oscillator 1,Oscillator 1 pulse width,,71,,0,127,,0,4,0,255,,0-based,,0~255: Pulse width
+Oberheim,OB-6,Oscillator 1,Oscillator 1 sub level,,8,,0,127,,0,27,0,127,,0-based,,0~127: Sub level
+Oberheim,OB-6,Oscillator 2,Oscillator 2 frequency,,75,,0,127,,0,5,0,60,,0-based,,0~60: Frequency
+Oberheim,OB-6,Oscillator 2,Oscillator 2 frequency fine,,76,,0,127,,0,6,0,254,,centered,,0~254: Frequency fine
+Oberheim,OB-6,Oscillator 2,Oscillator 2 level,,77,,0,127,,0,7,0,127,,0-based,,0~127: Level
+Oberheim,OB-6,Oscillator 2,Oscillator 2 shape,,78,,0,127,,0,8,0,254,,0-based,,0~254: Shape
+Oberheim,OB-6,Oscillator 2,Oscillator 2 pulse width,,79,,0,127,,0,9,0,255,,0-based,,0~255: Pulse width
+Oberheim,OB-6,Oscillator 2,Oscillator 2 low frequency,,,,,,,0,10,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Oscillator 2,Oscillator 2 keyboard tracking,,,,,,,0,11,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Mixer,Noise level,,,,,,,0,32,0,127,,0-based,,0~127: Noise level
+Oberheim,OB-6,Mixer,Detune,,,,,,,0,33,0,127,,centered,,0~127: Detune
+Oberheim,OB-6,Portamento,Portamento on/off,,65,,0,127,,0,29,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Portamento,Portamento mode,,5,,0,127,,0,28,0,3,,0-based,,
+Oberheim,OB-6,Portamento,Portamento rate,,,,,,,0,30,0,127,,0-based,,0~127: Rate
+Oberheim,OB-6,Portamento,Pitch bend range,,,,,,,0,31,0,12,,0-based,,0~12: Pitch bend range
+Oberheim,OB-6,Filter,Filter frequency,,102,,0,127,,0,45,0,164,,0-based,,0~164: Frequency
+Oberheim,OB-6,Filter,Filter frequency (brightness),,74,,0,127,,,,,,,0-based,Standard MIDI brightness CC; controls same parameter as CC 102,0~127: Filter frequency
+Oberheim,OB-6,Filter,Filter resonance,,103,,0,127,,0,46,0,255,,0-based,,0~255: Resonance
+Oberheim,OB-6,Filter,Filter keyboard amount,,104,,0,127,,0,47,0,2,,0-based,,
+Oberheim,OB-6,Filter,Filter velocity on/off,,105,,0,127,,0,48,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Filter,Filter mode,,106,,0,127,,0,49,0,127,,0-based,,0~127: Mode
+Oberheim,OB-6,Filter,Filter bandpass,,107,,0,127,,0,50,0,1,,0-based,,0: Normal; 1: Bandpass
+Oberheim,OB-6,Filter envelope,Filter envelope amount,,47,,0,127,,0,77,0,254,,0-based,,0~254: Envelope amount
+Oberheim,OB-6,Filter envelope,Filter envelope attack,,50,,0,127,,0,78,0,127,,0-based,,0~127: Attack
+Oberheim,OB-6,Filter envelope,Filter envelope decay,,51,,0,127,,0,79,0,127,,0-based,,0~127: Decay
+Oberheim,OB-6,Filter envelope,Filter envelope sustain,,52,,0,127,,0,80,0,127,,0-based,,0~127: Sustain
+Oberheim,OB-6,Filter envelope,Filter envelope release,,53,,0,127,,0,81,0,127,,0-based,,0~127: Release
+Oberheim,OB-6,Amplifier,Program volume,,,,,,,0,62,0,127,,0-based,,0~127: Volume
+Oberheim,OB-6,Amplifier,Pan spread,,,,,,,0,63,0,127,,0-based,,0~127: Pan spread
+Oberheim,OB-6,Amplifier,Distortion amount,,9,,0,127,,0,64,0,127,,0-based,,0~127: Distortion amount
+Oberheim,OB-6,Amplifier,Amplifier envelope amount,,40,,0,127,,0,66,0,127,,0-based,,0~127: Envelope amount
+Oberheim,OB-6,Amplifier,Amplifier envelope attack,,43,,0,127,,0,67,0,127,,0-based,,0~127: Attack
+Oberheim,OB-6,Amplifier,Amplifier envelope decay,,44,,0,127,,0,68,0,127,,0-based,,0~127: Decay
+Oberheim,OB-6,Amplifier,Amplifier envelope sustain,,45,,0,127,,0,69,0,127,,0-based,,0~127: Sustain
+Oberheim,OB-6,Amplifier,Amplifier envelope release,,46,,0,127,,0,70,0,127,,0-based,,0~127: Release
+Oberheim,OB-6,Amplifier,Amplifier envelope velocity on/off,,41,,0,127,,0,71,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,LFO,LFO frequency,,,,,,,0,88,0,254,,0-based,,0~254: Frequency
+Oberheim,OB-6,LFO,LFO initial amount,,,,,,,0,89,0,255,,0-based,,0~255: Initial amount
+Oberheim,OB-6,LFO,LFO shape,,,,,,,0,90,0,4,,0-based,,
+Oberheim,OB-6,LFO,LFO sync,,,,,,,0,91,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,LFO,LFO oscillator 1 destination,,,,,,,0,93,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,LFO,LFO oscillator 2 destination,,,,,,,0,94,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,LFO,LFO pulse width 1 and 2 destination,,,,,,,0,95,0,3,,0-based,,0: Pulse width 1; 1: Pulse width 2; 2: Destination on; 3: Destination off
+Oberheim,OB-6,LFO,LFO filter frequency destination,,,,,,,0,96,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,LFO,LFO filter mode destination,,,,,,,0,97,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,LFO,LFO amplifier destination,,,,,,,0,98,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Cross modulation,Cross modulation filter envelope amount,,,,,,,1,15,0,254,,0-based,,0~254: Filter envelope amount
+Oberheim,OB-6,Cross modulation,Cross modulation oscillator 2 amount,,,,,,,1,16,0,254,,0-based,,0~254: Oscillator 2 amount
+Oberheim,OB-6,Cross modulation,Cross modulation oscillator 1 destination,,,,,,,1,17,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Cross modulation,Cross modulation shape 1 destination,,,,,,,1,18,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Cross modulation,Cross modulation pulse width 1 destination,,,,,,,1,19,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Cross modulation,Cross modulation filter frequency destination,,,,,,,1,20,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Cross modulation,Cross modulation filter mode destination,,,,,,,1,21,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Cross modulation,Cross modulation normal/bandpass destination,,,,,,,1,22,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Pressure,Pressure amount,,,,,,,0,109,0,254,,0-based,,0~254: Amount
+Oberheim,OB-6,Pressure,Pressure oscillator 1 destination,,,,,,,0,110,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Pressure,Pressure oscillator 2 destination,,,,,,,0,111,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Pressure,Pressure filter frequency destination,,,,,,,0,112,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Pressure,Pressure filter mode destination,,,,,,,0,113,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Pressure,Pressure amplifier destination,,,,,,,0,114,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Pressure,Pressure LFO amount destination,,,,,,,0,115,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Effects,Effects on/off,,,,,,,1,7,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Effects,Effect 1 type,,,,,,,0,119,0,5,,0-based,,
+Oberheim,OB-6,Effects,Effect 1 mix,,,,,,,0,120,0,127,,0-based,,0~127: Mix
+Oberheim,OB-6,Effects,Effect 1 parameter 1,,,,,,,0,121,0,255,,0-based,,0~255: Parameter 1
+Oberheim,OB-6,Effects,Effect 1 parameter 2,,,,,,,0,122,0,127,,0-based,,0~127: Parameter 2
+Oberheim,OB-6,Effects,Effect 1 sync,,,,,,,0,123,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Effects,Effect 2 type,,,,,,,0,127,0,9,,0-based,,
+Oberheim,OB-6,Effects,Effect 2 mix,,,,,,,1,0,0,127,,0-based,,0~127: Mix
+Oberheim,OB-6,Effects,Effect 2 parameter 1,,,,,,,1,1,0,255,,0-based,,0~255: Parameter 1
+Oberheim,OB-6,Effects,Effect 2 parameter 2,,,,,,,1,2,0,127,,0-based,,0~127: Parameter 2
+Oberheim,OB-6,Effects,Effect 2 sync,,,,,,,1,3,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Unison,Unison on/off,,,,,,,1,28,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Unison,Unison mode,,,,,,,1,29,0,6,,0-based,,
+Oberheim,OB-6,Unison,Key mode,,,,,,,1,30,0,5,,0-based,,
+Oberheim,OB-6,Arpeggiator,Arpeggiator on/off,,58,,0,127,,1,32,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Arpeggiator,Arpeggiator mode,,59,,0,127,,1,33,0,4,,0-based,,
+Oberheim,OB-6,Arpeggiator,Arpeggiator range,,60,,0,127,,1,34,0,2,,0-based,,
+Oberheim,OB-6,Arpeggiator,Arpeggiator time signature,,62,,0,127,,1,35,0,9,,0-based,,
+Oberheim,OB-6,Arpeggiator,Tempo,,3,,0,127,,1,39,30,250,,0-based,,30~250: Tempo
+Oberheim,OB-6,Sequencer,Sequencer transpose,,,,,,,8,65,0,127,,0-based,,0~127: Transpose
+Oberheim,OB-6,Global,Master fine tune,,,,,,,8,0,0,100,,centered,,0~100: Fine tune
+Oberheim,OB-6,Global,Master coarse tune,,,,,,,8,1,0,24,,centered,,0~24: Coarse tune
+Oberheim,OB-6,Global,MIDI channel,,,,,,,8,2,0,16,,0-based,,0: All; 1-16: Channel number
+Oberheim,OB-6,Global,MIDI clock mode,,,,,,,8,3,0,3,,0-based,,0: Off; 1: Master; 2: Slave; 3: Slave thru
+Oberheim,OB-6,Global,MIDI clock port,,,,,,,8,4,0,1,,0-based,,0: MIDI port; 1: USB
+Oberheim,OB-6,Global,MIDI parameter send,,,,,,,8,5,0,2,,0-based,Received but not transmitted,0: NRPN; 1: CC; 2: Off
+Oberheim,OB-6,Global,MIDI parameter receive,,,,,,,8,6,0,2,,0-based,Transmitted but ignored when received,0: NRPN; 1: CC; 2: Off
+Oberheim,OB-6,Global,MIDI control enable,,,,,,,8,7,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Global,MIDI SysEx enable,,,,,,,8,8,0,1,,0-based,,0: Off; 1: On
+Oberheim,OB-6,Global,MIDI out select,,,,,,,8,9,0,3,,0-based,,0: Off; 1: MIDI; 2: USB; 3: MIDI and USB
+Oberheim,OB-6,Global,Local control,,122,,0,127,,8,11,0,1,,0-based,Received but not transmitted,0: Off; 1: On
+Oberheim,OB-6,Global,Pot mode,,,,,,,8,13,0,2,,0-based,,0: Relative; 1: Pass-through; 2: Jump
+Oberheim,OB-6,Global,Sequencer jack,,,,,,,8,15,0,3,,0-based,,0: Normal; 1: Trigger; 2: Gate; 3: Trigger and gate
+Oberheim,OB-6,Global,Sustain polarity,,,,,,,8,16,0,3,,0-based,,0: Normally open; 1: Normally closed; 2: Sustain open / sequencer closed; 3: Sustain closed / sequencer open
+Oberheim,OB-6,Global,Velocity response,,,,,,,8,17,0,3,,0-based,,
+Oberheim,OB-6,Global,Aftertouch response,,,,,,,8,18,0,3,,0-based,,
+Oberheim,OB-6,Global,Stereo/mono,,,,,,,8,19,0,1,,0-based,,0: Stereo; 1: Mono
+Oberheim,OB-6,Global,Alternative tuning,,,,,,,8,20,0,16,,0-based,,
+Oberheim,OB-6,MIDI,Data entry MSB,,6,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,Data entry LSB,,38,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,Data increment,,96,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,Data decrement,,97,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,NRPN parameter LSB,,98,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,NRPN parameter MSB,,99,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,RPN parameter LSB,,100,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,RPN parameter MSB,,101,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,All sound off,,120,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,Reset all controllers,,121,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,All notes off,,123,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,Omni mode off,,124,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,Omni mode on,,125,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,Mono mode on,,126,,0,127,,,,,,,0-based,,
+Oberheim,OB-6,MIDI,Poly mode on,,127,,0,127,,,,,,,0-based,,

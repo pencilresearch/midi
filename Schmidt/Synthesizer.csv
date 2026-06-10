@@ -1,0 +1,330 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Schmidt,Synthesizer,Bank select,Bank select MSB,,0,,0,0,,,,,,,0-based,MSB is fixed at 0,
+Schmidt,Synthesizer,Bank select,Bank select LSB,,32,,0,7,,,,,,,0-based,LSB selects Single (0) or Multi (1-7) bank,
+Schmidt,Synthesizer,Performance,Modulation wheel MSB,,1,,0,127,,,,,,,0-based,LSB (CC 33) only sent when Snd-CC14Bit is on,
+Schmidt,Synthesizer,Performance,Modulation wheel LSB,,33,,0,127,,,,,,,0-based,Only sent when Snd-CC14Bit is on,
+Schmidt,Synthesizer,Performance,Volume MSB,,7,,0,127,,,,,,,0-based,LSB (CC 39) only sent when Snd-CC14Bit is on,
+Schmidt,Synthesizer,Performance,Volume LSB,,39,,0,127,,,,,,,0-based,Only sent when Snd-CC14Bit is on,
+Schmidt,Synthesizer,Performance,Sustain,,64,,0,127,,,,,,,0-based,,
+Schmidt,Synthesizer,Performance,Sostenuto,,66,,0,127,,,,,,,0-based,,
+Schmidt,Synthesizer,Performance,Joystick X position,,102,,0,127,,,,,,,0-based,,
+Schmidt,Synthesizer,Performance,Joystick Y position,,103,,0,127,,,,,,,0-based,,
+Schmidt,Synthesizer,Performance,External pedal 1,,104,,0,127,,,,,,,0-based,,
+Schmidt,Synthesizer,Performance,External pedal 2,,105,,0,127,,,,,,,0-based,,
+Schmidt,Synthesizer,Performance,External pedal 3,,106,,0,127,,,,,,,0-based,,
+Schmidt,Synthesizer,NRPN protocol,Data entry MSB,,6,,0,127,,,,,,,0-based,NRPN value transport,
+Schmidt,Synthesizer,NRPN protocol,Data entry LSB,,38,,0,127,,,,,,,0-based,NRPN value transport,
+Schmidt,Synthesizer,NRPN protocol,NRPN number LSB,,98,,0,127,,,,,,,0-based,NRPN parameter number transport. When NRPN = 127 MSB + 127 LSB all subsequent data entries are ignored,
+Schmidt,Synthesizer,NRPN protocol,NRPN number MSB,,99,,0,127,,,,,,,0-based,NRPN parameter number transport,
+Schmidt,Synthesizer,Display,LED color,,107,,0,63,,,,,,,0-based,Receive only,
+Schmidt,Synthesizer,Display,Display color,,108,,0,63,,,,,,,0-based,Receive only,
+Schmidt,Synthesizer,Display,LED and display color,,109,,0,63,,,,,,,0-based,Receive only,
+Schmidt,Synthesizer,Channel mode,Reset all controllers,,121,,,,,,,,,,0-based,Single mode only. Receive only,
+Schmidt,Synthesizer,Channel mode,Local control,,122,,0,127,,,,,,,0-based,Receive only,
+Schmidt,Synthesizer,Channel mode,All notes off,,123,,,,,,,,,,0-based,Receive only,
+Schmidt,Synthesizer,Oscillators 1-3,Pulse width max limit,,,,,,,1,26,0,255,,0-based,Bit-packed NRPN 154 (LMKKMVXR). L at bit 7. Byte += 128 when set,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Oscillators 1-3,Pulse width LFO mode,,,,,,,1,26,0,255,,0-based,Bit-packed NRPN 154 (LMKKMVXR). MM split across bits 6 and 3. Byte += bit6 * 64 + bit3 * 8,0: Triangle; 1: One-shot; 2: Sine
+Schmidt,Synthesizer,Oscillators 1-3,Pulse width keyboard scale,,,,,,,1,26,0,255,,0-based,Bit-packed NRPN 154 (LMKKMVXR). KK at bits 5-4. Byte += field * 16,0: Off; 2: 1/4; 3: 1/2
+Schmidt,Synthesizer,Oscillators 1-3,Pulse width velocity to LFO depth,,,,,,,1,26,0,255,,0-based,Bit-packed NRPN 154 (LMKKMVXR). V at bit 2. Byte += 4 when set,
+Schmidt,Synthesizer,Oscillators 1-3,Pulse width rate 1 to rate 2/3,,,,,,,1,26,0,255,,0-based,Bit-packed NRPN 154 (LMKKMVXR). R at bit 0. Byte += 1 when set,
+Schmidt,Synthesizer,Oscillators 1-4,Vibrato assign,,,,,,,1,94,0,255,,0-based,Bit-packed NRPN 222. Bit 7 disables assignment. Byte += 128 when off,0-127: On; 128-255: Off
+Schmidt,Synthesizer,Oscillators 1-4,Envelope assign,,,,,,,1,95,0,255,,0-based,Bit-packed NRPN 223. Bit 7 disables assignment. Byte += 128 when off,0-127: On; 128-255: Off
+Schmidt,Synthesizer,Oscillators 1-4,Unison tune (mono),,,,,,,0,72,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillators 1-4,Single fine tune,,,,,,,0,73,0,255,,centered,,0~127: -50 cent; 128: 0; 129~255: +50 cent
+Schmidt,Synthesizer,Oscillators 1-4,Single transpose,,,,,,,0,74,0,255,,centered,,244~255: -12 to -1 semitones; 0~12: 0 to +12 semitones
+Schmidt,Synthesizer,Oscillator 1,Vibrato wave,,,,,,,1,78,0,3,,0-based,,0: Sine; 1: Square; 2: Random; 3: Sine/Random
+Schmidt,Synthesizer,Oscillator 1,Vibrato depth,,,,,,,1,70,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 1,Vibrato rate,,,,,,,1,74,0,255,,0-based,0.1Hz-75Hz (all waves except Random). 0.2Hz-150Hz (Random),
+Schmidt,Synthesizer,Oscillator 1,Envelope destination,,,,,,,1,90,0,255,,0-based,Bit-packed NRPN 218 (DDXXQMVM). DD at bits 7-6. Byte += field * 64,0-63: Pitch; 128-191: Vibrato depth; 192-255: Noise depth
+Schmidt,Synthesizer,Oscillator 1,Envelope mode,,,,,,,1,90,0,255,,0-based,Bit-packed NRPN 218 (DDXXQMVM). MM split across bits 2 and 0. Byte += bit2 * 4 + bit0 * 1,0: Decay exp; 1: Attack/decay; 4: Decay lin
+Schmidt,Synthesizer,Oscillator 1,Envelope quantize,,,,,,,1,90,0,255,,0-based,Bit-packed NRPN 218 (DDXXQMVM). Q at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Oscillator 1,Envelope velocity,,,,,,,1,90,0,255,,0-based,Bit-packed NRPN 218 (DDXXQMVM). V at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Oscillator 1,Envelope depth,,,,,,,1,82,0,255,,centered,,0~255: -15 to +15 semitones
+Schmidt,Synthesizer,Oscillator 1,Envelope time,,,,,,,1,86,0,255,,0-based,12ms-6.1s (decay lin/exp modes). 7.5ms-3.8s (attack/decay mode),
+Schmidt,Synthesizer,Oscillator 1,Noise modulation,,,,,,,1,24,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 1,Detune,,,,,,,1,21,0,255,,centered,Fine on: +/-15 cent. Fine off: +/-75 cent,
+Schmidt,Synthesizer,Oscillator 1,Semitone,,,,,,,1,25,2,30,,centered,"Discrete values stepped by 2 (2, 4, 6, ..., 30)",2~30: -7 to +7 semitones
+Schmidt,Synthesizer,Oscillator 1,Keyboard scale,,,,,,,1,22,0,255,,0-based,Bit-packed NRPN 150 (KKFXXWWW). KK at bits 7-6. Byte += field * 64,0-63: Off; 128-191: 1/4; 192-255: 1/2
+Schmidt,Synthesizer,Oscillator 1,Fine tune on/off,,,,,,,1,22,0,255,,0-based,Bit-packed NRPN 150 (KKFXXWWW). F at bit 5. Byte += 32 when set,
+Schmidt,Synthesizer,Oscillator 1,Wave,,,,,,,1,22,0,255,,0-based,Bit-packed NRPN 150 (KKFXXWWW). WWW at bits 2-0. Byte += field,1: Square; 2: Pulse width; 3: Noise; 4: Multi PWM; 5: Sawtooth; 6: Multi/pulse width; 7: Sawtooth/pulse width
+Schmidt,Synthesizer,Oscillator 1,Sub octave,,,,,,,1,23,0,255,,0-based,Bit-packed NRPN 151 (XSSSXXOO). SSS at bits 6-4. Byte += field * 16,0: Off; 1: 64'; 2: 32'; 3: 16'; 4: 8'
+Schmidt,Synthesizer,Oscillator 1,Octave,,,,,,,1,23,0,255,,0-based,Bit-packed NRPN 151 (XSSSXXOO). OO at bits 1-0. Byte += field,0: 32'; 1: 16'; 2: 8'; 3: 4'
+Schmidt,Synthesizer,Oscillator 1,Multi PWM LFO diffuse,,,,,,,1,42,0,255,,0-based,Bit-packed NRPN 170 (XXXDDXMM). DD at bits 4-3. Byte += field * 8,0: Off; 2: Slow; 3: Fast
+Schmidt,Synthesizer,Oscillator 1,Multi PWM mode,,,,,,,1,42,0,255,,0-based,Bit-packed NRPN 170 (XXXDDXMM). MM at bits 1-0. Byte += field,0: Mode 1; 1: Mode 2; 2: Mode 3; 3: Osz4 to ring mod
+Schmidt,Synthesizer,Oscillator 1,Multi PWM LFO keyboard scale,,,,,,,1,43,0,255,,0-based,Bit-packed NRPN 171 (KKKMMMWS). KKK at bits 7-5. Byte += field * 32,0-31: Off; 192-223: 1/4; 224-255: 1/2
+Schmidt,Synthesizer,Oscillator 1,Multi PWM LFO mode,,,,,,,1,43,0,255,,0-based,Bit-packed NRPN 171 (KKKMMMWS). MMM at bits 4-2. Byte += field * 4,0: LFO; 1: Decay; 2: Step; 5: Attack/decay
+Schmidt,Synthesizer,Oscillator 1,Multi PWM width velocity to LFO,,,,,,,1,43,0,255,,0-based,Bit-packed NRPN 171 (KKKMMMWS). W at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Oscillator 1,Multi PWM space velocity to LFO,,,,,,,1,43,0,255,,0-based,Bit-packed NRPN 171 (KKKMMMWS). S at bit 0. Byte += 1 when set,
+Schmidt,Synthesizer,Oscillator 1,Multi PWM width center,,,,,,,1,36,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 1,Multi PWM width LFO depth,,,,,,,1,39,0,255,,centered,-Max to +Max,
+Schmidt,Synthesizer,Oscillator 1,Multi PWM width LFO rate,,,,,,,1,38,0,255,,0-based,0.025Hz-20Hz,
+Schmidt,Synthesizer,Oscillator 1,Multi PWM space center,,,,,,,1,37,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 1,Multi PWM space LFO depth,,,,,,,1,41,0,255,,centered,-Max to +Max,
+Schmidt,Synthesizer,Oscillator 1,Multi PWM space LFO rate,,,,,,,1,40,0,255,,0-based,0.025Hz-20Hz (LFO mode). 20s-25ms (decay mode). 40s-50ms (attack/decay mode),
+Schmidt,Synthesizer,Oscillator 1,PWM center,,,,,,,1,27,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 1,PWM LFO rate,,,,,,,1,28,0,255,,0-based,0.025Hz-20Hz (sine/triangle mode). 20s-25ms (one-shot mode),
+Schmidt,Synthesizer,Oscillator 1,PWM LFO depth,,,,,,,1,29,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 2,Vibrato wave,,,,,,,1,79,0,3,,0-based,,0: Sine; 1: Square; 2: Random; 3: Sine/Random
+Schmidt,Synthesizer,Oscillator 2,Vibrato depth,,,,,,,1,71,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 2,Vibrato rate,,,,,,,1,75,0,255,,0-based,0.1Hz-75Hz (all waves except Random). 0.2Hz-150Hz (Random),
+Schmidt,Synthesizer,Oscillator 2,Envelope destination,,,,,,,1,91,0,255,,0-based,Bit-packed NRPN 219 (DDXXQMVM). DD at bits 7-6. Byte += field * 64,0-63: Pitch; 128-191: Vibrato depth; 192-255: Noise depth
+Schmidt,Synthesizer,Oscillator 2,Envelope mode,,,,,,,1,91,0,255,,0-based,Bit-packed NRPN 219 (DDXXQMVM). MM split across bits 2 and 0. Byte += bit2 * 4 + bit0 * 1,0: Decay exp; 1: Attack/decay; 4: Decay lin
+Schmidt,Synthesizer,Oscillator 2,Envelope quantize,,,,,,,1,91,0,255,,0-based,Bit-packed NRPN 219 (DDXXQMVM). Q at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Oscillator 2,Envelope velocity,,,,,,,1,91,0,255,,0-based,Bit-packed NRPN 219 (DDXXQMVM). V at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Oscillator 2,Envelope depth,,,,,,,1,83,0,255,,centered,,0~255: -15 to +15 semitones
+Schmidt,Synthesizer,Oscillator 2,Envelope time,,,,,,,1,87,0,255,,0-based,12ms-6.1s (decay lin/exp modes). 7.5ms-3.8s (attack/decay mode),
+Schmidt,Synthesizer,Oscillator 2,Noise modulation,,,,,,,1,47,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 2,Detune,,,,,,,1,44,0,255,,centered,Fine on: +/-15 cent. Fine off: +/-75 cent,
+Schmidt,Synthesizer,Oscillator 2,Semitone,,,,,,,1,48,2,30,,centered,"Discrete values stepped by 2 (2, 4, 6, ..., 30)",2~30: -7 to +7 semitones
+Schmidt,Synthesizer,Oscillator 2,Keyboard scale,,,,,,,1,45,0,255,,0-based,Bit-packed NRPN 173 (KKFXXWWW). KK at bits 7-6. Byte += field * 64,0-63: Off; 128-191: 1/4; 192-255: 1/2
+Schmidt,Synthesizer,Oscillator 2,Fine tune on/off,,,,,,,1,45,0,255,,0-based,Bit-packed NRPN 173 (KKFXXWWW). F at bit 5. Byte += 32 when set,
+Schmidt,Synthesizer,Oscillator 2,Wave,,,,,,,1,45,0,255,,0-based,Bit-packed NRPN 173 (KKFXXWWW). WWW at bits 2-0. Byte += field,0: Noise; 1: Sawtooth; 2: Osz3 to ring mod; 3: Sawtooth/pulse width; 4: Square; 6: Pulse width
+Schmidt,Synthesizer,Oscillator 2,Octave,,,,,,,1,46,0,255,,0-based,Bit-packed NRPN 174 (XXXXXXOO). OO at bits 1-0. Byte += field,0: 32'; 1: 16'; 2: 8'; 3: 4'
+Schmidt,Synthesizer,Oscillator 2,PWM center,,,,,,,1,30,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 2,PWM LFO rate,,,,,,,1,31,0,255,,0-based,0.025Hz-20Hz (sine/triangle mode). 20s-25ms (one-shot mode),
+Schmidt,Synthesizer,Oscillator 2,PWM LFO depth,,,,,,,1,32,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 3,Vibrato wave,,,,,,,1,80,0,3,,0-based,,0: Sine; 1: Square; 2: Random; 3: Sine/Random
+Schmidt,Synthesizer,Oscillator 3,Vibrato depth,,,,,,,1,72,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 3,Vibrato rate,,,,,,,1,76,0,255,,0-based,0.1Hz-75Hz (all waves except Random). 0.2Hz-150Hz (Random),
+Schmidt,Synthesizer,Oscillator 3,Envelope destination,,,,,,,1,92,0,255,,0-based,Bit-packed NRPN 220 (DDXXQMVM). DD at bits 7-6. Byte += field * 64,0-63: Pitch; 128-191: Vibrato depth; 192-255: Noise depth
+Schmidt,Synthesizer,Oscillator 3,Envelope mode,,,,,,,1,92,0,255,,0-based,Bit-packed NRPN 220 (DDXXQMVM). MM split across bits 2 and 0. Byte += bit2 * 4 + bit0 * 1,0: Decay exp; 1: Attack/decay; 4: Decay lin
+Schmidt,Synthesizer,Oscillator 3,Envelope quantize,,,,,,,1,92,0,255,,0-based,Bit-packed NRPN 220 (DDXXQMVM). Q at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Oscillator 3,Envelope velocity,,,,,,,1,92,0,255,,0-based,Bit-packed NRPN 220 (DDXXQMVM). V at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Oscillator 3,Envelope depth,,,,,,,1,84,0,255,,centered,,0~255: -15 to +15 semitones
+Schmidt,Synthesizer,Oscillator 3,Envelope time,,,,,,,1,88,0,255,,0-based,12ms-6.1s (decay lin/exp modes). 7.5ms-3.8s (attack/decay mode),
+Schmidt,Synthesizer,Oscillator 3,Noise modulation,,,,,,,1,51,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 3,Detune,,,,,,,1,49,0,255,,centered,Fine on: +/-15 cent. Fine off: +/-75 cent,
+Schmidt,Synthesizer,Oscillator 3,Semitone,,,,,,,1,50,2,30,,centered,"Discrete values stepped by 2 (2, 4, 6, ..., 30)",2~30: -7 to +7 semitones
+Schmidt,Synthesizer,Oscillator 3,Keyboard scale,,,,,,,1,53,0,255,,0-based,Bit-packed NRPN 181 (KKFXXXOO). KK at bits 7-6. Byte += field * 64,0-63: Off; 128-191: 1/4; 192-255: 1/2
+Schmidt,Synthesizer,Oscillator 3,Fine tune on/off,,,,,,,1,53,0,255,,0-based,Bit-packed NRPN 181 (KKFXXXOO). F at bit 5. Byte += 32 when set,
+Schmidt,Synthesizer,Oscillator 3,Octave,,,,,,,1,53,0,255,,0-based,Bit-packed NRPN 181 (KKFXXXOO). OO at bits 1-0. Byte += field,0: 32'; 1: 16'; 2: 8'; 3: 4'
+Schmidt,Synthesizer,Oscillator 3,Wave,,,,,,,1,52,0,255,,0-based,NRPN 180 uses specific byte values. 0=Noise; 1/9=PW variants; 3=Square; 4/6/20/36=SAW variants,0: Noise; 1: Pulse width (RM Osz2 sub+); 3: Square; 4: Sawtooth; 6: Sawtooth + pulse width; 9: Pulse width (RM PWM Osz2); 20: Sawtooth (RM PWM Osz2); 36: Sawtooth (RM Osz2 sub-)
+Schmidt,Synthesizer,Oscillator 3,Sync,,,,,,,1,54,0,255,,0-based,Bit-packed NRPN 182 (YA000SSS). Y at bit 7. Byte += 128 when set,
+Schmidt,Synthesizer,Oscillator 3,Additional pitch mod,,,,,,,1,54,0,255,,0-based,Bit-packed NRPN 182 (YA000SSS). A at bit 6. Byte += 64 when set,
+Schmidt,Synthesizer,Oscillator 3,Sub octave,,,,,,,1,54,0,255,,0-based,Bit-packed NRPN 182 (YA000SSS). SSS at bits 2-0. Byte += field,0: Off; 1: 64'; 2: 32'; 3: 16'; 4: 8'
+Schmidt,Synthesizer,Oscillator 3,LFO velocity to depth,,,,,,,1,55,0,255,,0-based,Bit-packed NRPN 183 (XXVMMXLX). V at bit 5. Byte += 32 when set,
+Schmidt,Synthesizer,Oscillator 3,LFO mode,,,,,,,1,55,0,255,,0-based,Bit-packed NRPN 183 (XXVMMXLX). MM at bits 4-3. Byte += field * 8,0: LFO; 1: Attack; 3: Decay
+Schmidt,Synthesizer,Oscillator 3,Pitch to level,,,,,,,1,55,0,255,,0-based,Bit-packed NRPN 183 (XXVMMXLX). L at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Oscillator 3,FM depth from Osc 2,,,,,,,1,56,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 3,Main pitch,,,,,,,0,7,0,511,,0-based,,0~511: 0 to 4 octaves
+Schmidt,Synthesizer,Oscillator 3,Fine pitch,,,,,,,1,57,0,255,,centered,,0~255: -50 to +50 cent
+Schmidt,Synthesizer,Oscillator 3,Velocity,,,,,,,1,58,0,255,,centered,,0~255: -16 to +16 semitones
+Schmidt,Synthesizer,Oscillator 3,LFO depth,,,,,,,1,59,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 3,LFO rate,,,,,,,1,60,0,255,,0-based,0.025Hz-20Hz (LFO mode). 20s-25ms (attack/decay mode),
+Schmidt,Synthesizer,Oscillator 3,PWM center,,,,,,,1,33,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 3,PWM LFO rate,,,,,,,1,34,0,255,,0-based,0.025Hz-20Hz (sine/triangle mode). 20s-25ms (one-shot mode),
+Schmidt,Synthesizer,Oscillator 3,PWM LFO depth,,,,,,,1,35,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 4,Vibrato wave,,,,,,,1,81,0,3,,0-based,,0: Sine; 1: Square; 2: Random; 3: Sine/Random
+Schmidt,Synthesizer,Oscillator 4,Vibrato depth,,,,,,,1,73,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 4,Vibrato rate,,,,,,,1,77,0,255,,0-based,0.1Hz-75Hz (all waves except Random). 0.2Hz-150Hz (Random),
+Schmidt,Synthesizer,Oscillator 4,Envelope destination,,,,,,,1,93,0,255,,0-based,Bit-packed NRPN 221 (DD00QMVM). DD at bits 7-6. Byte += field * 64,0-63: Pitch; 128-191: Vibrato depth; 192-255: Noise depth
+Schmidt,Synthesizer,Oscillator 4,Envelope mode,,,,,,,1,93,0,255,,0-based,Bit-packed NRPN 221 (DD00QMVM). MM split across bits 2 and 0. Byte += bit2 * 4 + bit0 * 1,0: Decay exp; 1: Attack/decay; 4: Decay lin
+Schmidt,Synthesizer,Oscillator 4,Envelope quantize,,,,,,,1,93,0,255,,0-based,Bit-packed NRPN 221 (DD00QMVM). Q at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Oscillator 4,Envelope velocity,,,,,,,1,93,0,255,,0-based,Bit-packed NRPN 221 (DD00QMVM). V at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Oscillator 4,Envelope depth,,,,,,,1,85,0,255,,centered,,0~255: -15 to +15 semitones
+Schmidt,Synthesizer,Oscillator 4,Envelope time,,,,,,,1,89,0,255,,0-based,12ms-6.1s (decay lin/exp modes). 7.5ms-3.8s (attack/decay mode),
+Schmidt,Synthesizer,Oscillator 4,Noise modulation,,,,,,,1,64,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 4,Main tune,,,,,,,0,8,0,511,,0-based,,0~511: 0 to 2 octaves
+Schmidt,Synthesizer,Oscillator 4,Wave preset A/B,,,,,,,1,65,0,38,,0-based,,
+Schmidt,Synthesizer,Oscillator 4,Fine tune,,,,,,,1,61,0,255,,0-based,,0~255: 0 to 1 semitone
+Schmidt,Synthesizer,Oscillator 4,Velocity,,,,,,,1,62,0,255,,centered,,0~255: -30 to +30 semitones
+Schmidt,Synthesizer,Oscillator 4,Keyboard scale,,,,,,,1,63,0,255,,centered,,0~255: -100% to +100%
+Schmidt,Synthesizer,Oscillator 4,Mode,,,,,,,1,66,0,255,,0-based,Bit-packed NRPN 194 (XXXXXSOO). S at bit 2. Byte += 4 when set,0: Ring mod; 1: Clean
+Schmidt,Synthesizer,Oscillator 4,Octave,,,,,,,1,66,0,255,,0-based,Bit-packed NRPN 194 (XXXXXSOO). OO at bits 1-0. Byte += field,0: Low; 1: Mid; 2: High
+Schmidt,Synthesizer,Oscillator 4,A/B mix mode,,,,,,,1,67,0,255,,0-based,Bit-packed NRPN 195 (MMMVSXXX). MMM at bits 7-5. Byte += field * 32,0-31: Off; 128-159: A to B; 160-191: A to B to A; 224-255: LFO
+Schmidt,Synthesizer,Oscillator 4,A/B mix velocity,,,,,,,1,67,0,255,,0-based,Bit-packed NRPN 195 (MMMVSXXX). V at bit 4. Byte += 16 when set,
+Schmidt,Synthesizer,Oscillator 4,A/B mix swap,,,,,,,1,67,0,255,,0-based,Bit-packed NRPN 195 (MMMVSXXX). S at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Oscillator 4,A/B mix,,,,,,,1,68,0,255,,0-based,,
+Schmidt,Synthesizer,Oscillator 4,A/B mix rate,,,,,,,1,69,0,255,,0-based,100Hz-0.125Hz (LFO mode). 5ms-4s (A to B mode). 10ms-8s (A to B to A mode),
+Schmidt,Synthesizer,Filters LFO routing,Filter 1 LFO source,,,,,,,0,100,0,255,,0-based,Bit-packed NRPN 100 (DDCCBBAA). BB at bits 3-2. Byte += field * 4,0: Filter 1; 1: Filter 2; 3: Filter 1 + 2
+Schmidt,Synthesizer,Filters LFO routing,Filter 2 LFO source,,,,,,,0,100,0,255,,0-based,Bit-packed NRPN 100 (DDCCBBAA). AA at bits 1-0. Byte += field,0: Filter 2; 1: Filter 1; 3: Filter 1 + 2
+Schmidt,Synthesizer,Filters LFO routing,Digital filter 1 LFO source,,,,,,,0,100,0,255,,0-based,Bit-packed NRPN 100 (DDCCBBAA). CC at bits 5-4. Byte += field * 16,0: Digital filter 1; 2: Filter 1; 3: Filter 2
+Schmidt,Synthesizer,Filters LFO routing,Digital filter 2 LFO source,,,,,,,0,100,0,255,,0-based,Bit-packed NRPN 100 (DDCCBBAA). DD at bits 7-6. Byte += field * 64,64-127: Digital filter 2; 128-191: Filter 1; 192-255: Digital filter 1
+Schmidt,Synthesizer,Filters 1 and 2,Filter 1 input A source,,,,,,,0,79,0,255,,0-based,Bit-packed NRPN 79 (DDCCBBAA). AA at bits 1-0. Byte += field,0: Osc 4; 1: Osc 2; 2: Osc 1; 3: Osc 3
+Schmidt,Synthesizer,Filters 1 and 2,Filter 1 input B source,,,,,,,0,79,0,255,,0-based,Bit-packed NRPN 79 (DDCCBBAA). BB at bits 3-2. Byte += field * 4,0: Osc 4; 1: Osc 2; 2: Osc 1; 3: Osc 3
+Schmidt,Synthesizer,Filters 1 and 2,Filter 2 input A source,,,,,,,0,79,0,255,,0-based,Bit-packed NRPN 79 (DDCCBBAA). CC at bits 5-4. Byte += field * 16,0: Osc 4; 1: Osc 2; 2: Osc 1; 3: Osc 3
+Schmidt,Synthesizer,Filters 1 and 2,Filter 2 input B source,,,,,,,0,79,0,255,,0-based,Bit-packed NRPN 79 (DDCCBBAA). DD at bits 7-6. Byte += field * 64,0-63: Osc 4; 64-127: Osc 2; 128-191: Osc 1; 192-255: Osc 3
+Schmidt,Synthesizer,Filters 1 and 2,Filter 1 input B filter mod,,,,,,,0,81,0,255,,0-based,Bit-packed NRPN 81 (ABCDFFMM). B at bit 6. Byte += 64 when set. Edited via preset menu,
+Schmidt,Synthesizer,Filters 1 and 2,Filter 2 input B filter mod,,,,,,,0,81,0,255,,0-based,Bit-packed NRPN 81 (ABCDFFMM). A at bit 7. Byte += 128 when set. Edited via preset menu,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Filters 1 and 2,Filter 1 level mod velocity,,,,,,,0,81,0,255,,0-based,Bit-packed NRPN 81 (ABCDFFMM). D at bit 4. Byte += 16 when set,
+Schmidt,Synthesizer,Filters 1 and 2,Filter 2 level mod velocity,,,,,,,0,81,0,255,,0-based,Bit-packed NRPN 81 (ABCDFFMM). C at bit 5. Byte += 32 when set,
+Schmidt,Synthesizer,Filters 1 and 2,Filter 1 level mod envelope source,,,,,,,0,81,0,255,,0-based,Bit-packed NRPN 81 (ABCDFFMM). MM at bits 1-0. Byte += field,0: Off; 1: Decay; 2: Attack; 3: LFO
+Schmidt,Synthesizer,Filters 1 and 2,Filter 2 level mod envelope source,,,,,,,0,81,0,255,,0-based,Bit-packed NRPN 81 (ABCDFFMM). FF at bits 3-2. Byte += field * 4,0: Off; 1: Decay; 2: Attack; 3: LFO
+Schmidt,Synthesizer,Filters 1 and 2,Filter 1 decay 2 on/off,,,,,,,0,61,0,255,,0-based,Bit-packed NRPN 61 (BAXXXXXX). B at bit 7. Byte += 128 when set,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Filters 1 and 2,Filter 2 decay 2 on/off,,,,,,,0,61,0,255,,0-based,Bit-packed NRPN 61 (BAXXXXXX). A at bit 6. Byte += 64 when set,
+Schmidt,Synthesizer,Filters 1 and 2,Filter 1 LFO sync mode,,,,,,,0,31,0,255,,0-based,Bit-packed NRPN 31 (BBBBAAAA). AAAA at bits 3-0. Byte += field,0: Internal; 1: MIDI/32; 2: MIDI/16; 3: MIDI/16 dotted; 4: MIDI/8; 5: MIDI/8 dotted; 6: MIDI/4; 7: MIDI/4 dotted; 8: MIDI/2; 9: MIDI/2 dotted; 10: MIDI/1; 11: MIDI/1 dotted; 12: MIDI*2; 13: MIDI*2 dotted
+Schmidt,Synthesizer,Filters 1 and 2,Filter 2 LFO sync mode,,,,,,,0,31,0,255,,0-based,Bit-packed NRPN 31 (BBBBAAAA). BBBB at bits 7-4. Byte += field * 16,0-15: Internal; 16-31: MIDI/32; 32-47: MIDI/16; 48-63: MIDI/16 dotted; 64-79: MIDI/8; 80-95: MIDI/8 dotted; 96-111: MIDI/4; 112-127: MIDI/4 dotted; 128-143: MIDI/2; 144-159: MIDI/2 dotted; 160-175: MIDI/1; 176-191: MIDI/1 dotted; 192-207: MIDI*2; 208-223: MIDI*2 dotted
+Schmidt,Synthesizer,Digital filters 1 and 2,Digital filter 1 input A source,,,,,,,0,80,0,255,,0-based,Bit-packed NRPN 80 (DDCCBBAA). AA at bits 1-0. Byte += field,0: Osc 1; 1: Osc 2; 2: Osc 3; 3: Osc 4
+Schmidt,Synthesizer,Digital filters 1 and 2,Digital filter 1 input B source,,,,,,,0,80,0,255,,0-based,Bit-packed NRPN 80 (DDCCBBAA). BB at bits 3-2. Byte += field * 4,0: Osc 1; 1: Osc 2; 2: Osc 3; 3: Osc 4
+Schmidt,Synthesizer,Digital filters 1 and 2,Digital filter 2 input A source,,,,,,,0,80,0,255,,0-based,Bit-packed NRPN 80 (DDCCBBAA). CC at bits 5-4. Byte += field * 16,0: Osc 1; 1: Osc 2; 2: Osc 3; 3: Osc 4
+Schmidt,Synthesizer,Digital filters 1 and 2,Digital filter 2 input B source,,,,,,,0,80,0,255,,0-based,Bit-packed NRPN 80 (DDCCBBAA). DD at bits 7-6. Byte += field * 64,0-63: Osc 1; 64-127: Osc 2; 128-191: Osc 3; 192-255: Osc 4
+Schmidt,Synthesizer,Digital filters 1 and 2,Digital filter 1 resonance,,,,,,,1,3,0,255,,0-based,Bit-packed NRPN 131 (XXBBBAAA). AAA at bits 2-0. Byte += field,0~7: Min to Max
+Schmidt,Synthesizer,Digital filters 1 and 2,Digital filter 2 resonance,,,,,,,1,3,0,255,,0-based,Bit-packed NRPN 131 (XXBBBAAA). BBB at bits 5-3. Byte += field * 8,0~7: Min to Max
+Schmidt,Synthesizer,Digital filters 1 and 2,Digital filter 1 envelope mode,,,,,,,1,2,0,255,,0-based,Bit-packed NRPN 130 (XXXXXCBA). A at bit 0. Byte += 1 when set,0: Envelope; 1: Ramp
+Schmidt,Synthesizer,Digital filters 1 and 2,Digital filter 2 envelope mode,,,,,,,1,2,0,255,,0-based,Bit-packed NRPN 130 (XXXXXCBA). B at bit 1. Byte += 2 when set,0: Envelope; 1: Ramp
+Schmidt,Synthesizer,Digital filters 1 and 2,Assign DF1 to DF2 settings,,,,,,,1,2,0,255,,0-based,Bit-packed NRPN 130 (XXXXXCBA). C at bit 2. Byte += 4 when set,
+Schmidt,Synthesizer,Filter 1,Input level A,,,,,,,0,82,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 1,Input level B,,,,,,,0,83,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 1,Input level DF1 out,,,,,,,0,96,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 1,Input B level mod time,,,,,,,0,86,0,255,,0-based,Envelope attack/decay: 12.5ms-25s. Envelope LFO: 40Hz-0.02Hz,
+Schmidt,Synthesizer,Filter 1,Filter mode,,,,,,,0,76,0,255,,centered,LP-BP-HP morph,0~255: Low-pass to band-pass to high-pass
+Schmidt,Synthesizer,Filter 1,Cutoff,,,,,,,0,3,0,511,,0-based,,
+Schmidt,Synthesizer,Filter 1,Resonance,,,,,,,0,75,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 1,Key follow,,,,,,,0,90,0,255,,centered,,0~255: -216% to +216%
+Schmidt,Synthesizer,Filter 1,Velocity,,,,,,,0,88,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Filter 1,Envelope depth,,,,,,,0,1,0,511,,centered,,0~511: -Max to +Max
+Schmidt,Synthesizer,Filter 1,Envelope trigger delay,,,,,,,0,69,0,255,,0-based,,0~255: 0 to 2.5 seconds
+Schmidt,Synthesizer,Filter 1,Envelope attack,,,,,,,0,40,0,255,,0-based,,0~255: 1ms to 10 seconds
+Schmidt,Synthesizer,Filter 1,Envelope decay 1,,,,,,,0,41,0,255,,0-based,Decay 2 off: 2ms-20s. Decay 2 on: 1ms-5s,
+Schmidt,Synthesizer,Filter 1,Envelope sustain,,,,,,,0,42,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 1,Envelope decay 2,,,,,,,0,62,0,255,,0-based,,0~255: 2ms to 21 seconds
+Schmidt,Synthesizer,Filter 1,Envelope release,,,,,,,0,43,0,255,,0-based,,0~255: 2ms to 20 seconds
+Schmidt,Synthesizer,Filter 1,Envelope velocity depth,,,,,,,0,66,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Filter 1,Envelope velocity destination,,,,,,,0,64,0,255,,0-based,Bit-packed NRPN 64 (XXXXXDDD). DDD at bits 2-0. Byte += field,0: Off; 1: Depth; 2: Attack; 4: Decay
+Schmidt,Synthesizer,Filter 1,LFO note reset,,,,,,,0,101,0,255,,0-based,Bit-packed NRPN 101 (NXFFVFMM). N at bit 7. Byte += 128 when set,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Filter 1,LFO velocity to depth,,,,,,,0,101,0,255,,0-based,Bit-packed NRPN 101 (NXFFVFMM). V at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Filter 1,LFO ramp mode,,,,,,,0,101,0,255,,0-based,"Bit-packed NRPN 101 (NXFFVFMM). FFF split across bits 5, 4, and 2. Byte += bit5 * 32 + bit4 * 16 + bit2 * 4",0: Off; 4: Clock; 16: Fade out; 48: Fade in
+Schmidt,Synthesizer,Filter 1,LFO mode,,,,,,,0,101,0,255,,0-based,Bit-packed NRPN 101 (NXFFVFMM). MM at bits 1-0. Byte += field,0: Sine; 1: Triangle; 2: Sample and hold; 3: Square
+Schmidt,Synthesizer,Filter 1,LFO depth,,,,,,,0,103,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Filter 1,LFO rate,,,,,,,0,105,0,255,,0-based,0.01Hz-25Hz (sine/triangle ramp off/fade). 0.08Hz-200Hz (square ramp off/fade). 0.04Hz-100Hz (sample and hold ramp off/fade),
+Schmidt,Synthesizer,Filter 1,LFO time,,,,,,,0,107,0,255,,0-based,60ms-10s fade time (ramp = fade). 60Hz-0.15Hz clock rate (ramp = clock),
+Schmidt,Synthesizer,Filter 2,Input level A,,,,,,,0,84,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 2,Input level B,,,,,,,0,85,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 2,Input level DF1 out,,,,,,,0,97,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 2,Input B level mod time,,,,,,,0,87,0,255,,0-based,Envelope attack/decay: 12.5ms-25s. Envelope LFO: 40Hz-0.02Hz,
+Schmidt,Synthesizer,Filter 2,Filter mode,,,,,,,0,78,0,255,,centered,LP-BP-HP morph,0~255: Low-pass to band-pass to high-pass
+Schmidt,Synthesizer,Filter 2,Cutoff,,,,,,,0,4,0,511,,0-based,,
+Schmidt,Synthesizer,Filter 2,Resonance,,,,,,,0,77,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 2,Key follow,,,,,,,0,91,0,255,,centered,,0~255: -216% to +216%
+Schmidt,Synthesizer,Filter 2,Velocity,,,,,,,0,89,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Filter 2,Envelope depth,,,,,,,0,2,0,511,,centered,,0~511: -Max to +Max
+Schmidt,Synthesizer,Filter 2,Envelope trigger delay,,,,,,,0,70,0,255,,0-based,,0~255: 0 to 2.5 seconds
+Schmidt,Synthesizer,Filter 2,Envelope attack,,,,,,,0,44,0,255,,0-based,,0~255: 1ms to 10 seconds
+Schmidt,Synthesizer,Filter 2,Envelope decay 1,,,,,,,0,45,0,255,,0-based,Decay 2 off: 2ms-20s. Decay 2 on: 1ms-5s,
+Schmidt,Synthesizer,Filter 2,Envelope sustain,,,,,,,0,46,0,255,,0-based,,
+Schmidt,Synthesizer,Filter 2,Envelope decay 2,,,,,,,0,63,0,255,,0-based,,0~255: 2ms to 21 seconds
+Schmidt,Synthesizer,Filter 2,Envelope release,,,,,,,0,47,0,255,,0-based,,0~255: 2ms to 20 seconds
+Schmidt,Synthesizer,Filter 2,Envelope velocity depth,,,,,,,0,67,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Filter 2,Envelope velocity destination,,,,,,,0,65,0,255,,0-based,Bit-packed NRPN 65 (XXXXXDDD). DDD at bits 2-0. Byte += field,0: Off; 1: Depth; 2: Attack; 4: Decay
+Schmidt,Synthesizer,Filter 2,Envelope trigger repeat rate,,,,,,,0,68,0,255,,0-based,,0~255: 200Hz to 0.4Hz
+Schmidt,Synthesizer,Filter 2,LFO note reset,,,,,,,0,102,0,255,,0-based,Bit-packed NRPN 102 (NXFFVFMM). N at bit 7. Byte += 128 when set,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Filter 2,LFO velocity to depth,,,,,,,0,102,0,255,,0-based,Bit-packed NRPN 102 (NXFFVFMM). V at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Filter 2,LFO ramp mode,,,,,,,0,102,0,255,,0-based,"Bit-packed NRPN 102 (NXFFVFMM). FFF split across bits 5, 4, and 2. Byte += bit5 * 32 + bit4 * 16 + bit2 * 4",0: Off; 4: Clock (sync off); 16: Fade out; 36: Clock + sync to Filter 1 LFO; 48: Fade in
+Schmidt,Synthesizer,Filter 2,LFO mode,,,,,,,0,102,0,255,,0-based,Bit-packed NRPN 102 (NXFFVFMM). MM at bits 1-0. Byte += field,0: Sine; 1: Triangle; 2: Sample and hold; 3: Square
+Schmidt,Synthesizer,Filter 2,LFO depth,,,,,,,0,104,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Filter 2,LFO rate,,,,,,,0,106,0,255,,0-based,0.01Hz-25Hz (sine/triangle ramp off/fade). 0.08Hz-200Hz (square ramp off/fade). 0.04Hz-100Hz (sample and hold ramp off/fade),
+Schmidt,Synthesizer,Filter 2,LFO time,,,,,,,0,108,0,255,,0-based,60ms-10s fade time (ramp = fade). 60Hz-0.15Hz clock rate (ramp = clock),
+Schmidt,Synthesizer,Digital filter 1,Input level A,,,,,,,0,92,0,255,,0-based,,
+Schmidt,Synthesizer,Digital filter 1,Input level B,,,,,,,0,93,0,255,,0-based,,
+Schmidt,Synthesizer,Digital filter 1,Cutoff,,,,,,,0,5,0,511,,0-based,,
+Schmidt,Synthesizer,Digital filter 1,Space,,,,,,,0,118,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Digital filter 1,Key follow,,,,,,,0,119,0,255,,centered,,0~255: -100% to +100%
+Schmidt,Synthesizer,Digital filter 1,Velocity,,,,,,,0,120,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Digital filter 1,Envelope depth,,,,,,,0,121,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Digital filter 1,LFO depth,,,,,,,0,122,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Digital filter 1,LFO rate,,,,,,,0,123,0,255,,0-based,,0~255: 0.01Hz to 23Hz
+Schmidt,Synthesizer,Digital filter 1,Envelope trigger delay,,,,,,,1,12,0,255,,0-based,,0~255: Off to 2.8 seconds
+Schmidt,Synthesizer,Digital filter 1,Ramp number,,,,,,,1,14,0,31,,0-based,,0~31: Ramp 1 to 32
+Schmidt,Synthesizer,Digital filter 1,Envelope attack,,,,,,,1,6,0,255,,0-based,Active when envelope mode is ADR,0~255: 1ms to 21 seconds
+Schmidt,Synthesizer,Digital filter 1,Clock rate,,,,,,,1,6,0,255,,0-based,Active when envelope mode is Ramp. Range depends on selected ramp number,
+Schmidt,Synthesizer,Digital filter 1,Envelope decay,,,,,,,1,8,0,255,,0-based,Active when envelope mode is ADR,0~255: 10ms to 25 seconds
+Schmidt,Synthesizer,Digital filter 1,Ramp quantize,,,,,,,1,8,0,255,,0-based,Active when envelope mode is Ramp,0: Square; 64: Mix 1; 128: Mix 2; 192: Mix 3; 224~255: Ramp
+Schmidt,Synthesizer,Digital filter 1,Envelope release,,,,,,,1,10,0,255,,0-based,Active when envelope mode is ADR,0~255: 10ms to 25 seconds
+Schmidt,Synthesizer,Digital filter 1,Ramp repeats,,,,,,,1,10,0,255,,0-based,Active when envelope mode is Ramp,0: 1 repeat; 32: 2 repeats; 64: 3 repeats; 96: 4 repeats; 128: 5 repeats; 160: 6 repeats; 192: 7 repeats; 200: 8 repeats; 240~255: Continuous
+Schmidt,Synthesizer,Digital filter 1,Envelope depth velocity,,,,,,,1,4,0,255,,0-based,Bit-packed NRPN 132 (DEVLFXMM). D at bit 7. Byte += 128 when set,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Digital filter 1,Envelope destination,,,,,,,1,4,0,255,,0-based,Bit-packed NRPN 132 (DEVLFXMM). E at bit 6. Byte += 64 when set,0: Cutoff; 1: Space
+Schmidt,Synthesizer,Digital filter 1,Velocity destination,,,,,,,1,4,0,255,,0-based,Bit-packed NRPN 132 (DEVLFXMM). V at bit 5. Byte += 32 when set,0: Cutoff; 1: Space
+Schmidt,Synthesizer,Digital filter 1,LFO destination,,,,,,,1,4,0,255,,0-based,Bit-packed NRPN 132 (DEVLFXMM). L at bit 4. Byte += 16 when set,0: Cutoff; 1: Space
+Schmidt,Synthesizer,Digital filter 1,Filter mod B to A,,,,,,,1,4,0,255,,0-based,Bit-packed NRPN 132 (DEVLFXMM). F at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Digital filter 1,Filter mode,,,,,,,1,4,0,255,,0-based,Bit-packed NRPN 132 (DEVLFXMM). MM at bits 1-0. Byte += field,0: LP/LP; 1: LP/HP; 2: BP/BP; 3: HP/HP
+Schmidt,Synthesizer,Digital filter 2,Input level A,,,,,,,0,94,0,255,,0-based,,
+Schmidt,Synthesizer,Digital filter 2,Input level B,,,,,,,0,95,0,255,,0-based,,
+Schmidt,Synthesizer,Digital filter 2,Cutoff,,,,,,,0,6,0,511,,0-based,,
+Schmidt,Synthesizer,Digital filter 2,Space,,,,,,,0,124,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Digital filter 2,Key follow,,,,,,,0,125,0,255,,centered,,0~255: -100% to +100%
+Schmidt,Synthesizer,Digital filter 2,Velocity,,,,,,,0,126,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Digital filter 2,Envelope depth,,,,,,,0,127,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Digital filter 2,LFO depth,,,,,,,1,0,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Digital filter 2,LFO rate,,,,,,,1,1,0,255,,0-based,,0~255: 0.01Hz to 23Hz
+Schmidt,Synthesizer,Digital filter 2,Assign DF1 LFO depth,,,,,,,0,117,0,255,,0-based,Bit-packed NRPN 117 (XXLEVKSC). L at bit 5. Byte += 32 when set. When on DF2 uses DF1 value,
+Schmidt,Synthesizer,Digital filter 2,Assign DF1 envelope depth,,,,,,,0,117,0,255,,0-based,Bit-packed NRPN 117 (XXLEVKSC). E at bit 4. Byte += 16 when set. When on DF2 uses DF1 value,
+Schmidt,Synthesizer,Digital filter 2,Assign DF1 velocity,,,,,,,0,117,0,255,,0-based,Bit-packed NRPN 117 (XXLEVKSC). V at bit 3. Byte += 8 when set. When on DF2 uses DF1 value,
+Schmidt,Synthesizer,Digital filter 2,Assign DF1 key follow,,,,,,,0,117,0,255,,0-based,Bit-packed NRPN 117 (XXLEVKSC). K at bit 2. Byte += 4 when set. When on DF2 uses DF1 value,
+Schmidt,Synthesizer,Digital filter 2,Assign DF1 space,,,,,,,0,117,0,255,,0-based,Bit-packed NRPN 117 (XXLEVKSC). S at bit 1. Byte += 2 when set. When on DF2 uses DF1 value,
+Schmidt,Synthesizer,Digital filter 2,Assign DF1 cutoff,,,,,,,0,117,0,255,,0-based,Bit-packed NRPN 117 (XXLEVKSC). C at bit 0. Byte += 1 when set. When on DF2 uses DF1 value,
+Schmidt,Synthesizer,Digital filter 2,Envelope trigger delay,,,,,,,1,13,0,255,,0-based,,0~255: Off to 2.8 seconds
+Schmidt,Synthesizer,Digital filter 2,Ramp number,,,,,,,1,15,0,31,,0-based,,0~31: Ramp 1 to 32
+Schmidt,Synthesizer,Digital filter 2,Envelope attack,,,,,,,1,7,0,255,,0-based,Active when envelope mode is ADR,0~255: 1ms to 21 seconds
+Schmidt,Synthesizer,Digital filter 2,Clock rate,,,,,,,1,7,0,255,,0-based,Active when envelope mode is Ramp. Range depends on selected ramp number,
+Schmidt,Synthesizer,Digital filter 2,Envelope decay,,,,,,,1,9,0,255,,0-based,Active when envelope mode is ADR,0~255: 10ms to 25 seconds
+Schmidt,Synthesizer,Digital filter 2,Ramp quantize,,,,,,,1,9,0,255,,0-based,Active when envelope mode is Ramp,0: Square; 64: Mix 1; 128: Mix 2; 192: Mix 3; 224~255: Ramp
+Schmidt,Synthesizer,Digital filter 2,Envelope release,,,,,,,1,11,0,255,,0-based,Active when envelope mode is ADR,0~255: 10ms to 25 seconds
+Schmidt,Synthesizer,Digital filter 2,Ramp repeats,,,,,,,1,11,0,255,,0-based,Active when envelope mode is Ramp,0: 1 repeat; 32: 2 repeats; 64: 3 repeats; 96: 4 repeats; 128: 5 repeats; 160: 6 repeats; 192: 7 repeats; 200: 8 repeats; 240~255: Continuous
+Schmidt,Synthesizer,Digital filter 2,Envelope depth velocity,,,,,,,1,5,0,255,,0-based,Bit-packed NRPN 133 (DEVLFXMM). D at bit 7. Byte += 128 when set,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Digital filter 2,Envelope destination,,,,,,,1,5,0,255,,0-based,Bit-packed NRPN 133 (DEVLFXMM). E at bit 6. Byte += 64 when set,0: Cutoff; 1: Space
+Schmidt,Synthesizer,Digital filter 2,Velocity destination,,,,,,,1,5,0,255,,0-based,Bit-packed NRPN 133 (DEVLFXMM). V at bit 5. Byte += 32 when set,0: Cutoff; 1: Space
+Schmidt,Synthesizer,Digital filter 2,LFO destination,,,,,,,1,5,0,255,,0-based,Bit-packed NRPN 133 (DEVLFXMM). L at bit 4. Byte += 16 when set,0: Cutoff; 1: Space
+Schmidt,Synthesizer,Digital filter 2,Filter mod B to A,,,,,,,1,5,0,255,,0-based,Bit-packed NRPN 133 (DEVLFXMM). F at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Digital filter 2,Filter mode,,,,,,,1,5,0,255,,0-based,Bit-packed NRPN 133 (DEVLFXMM). MM at bits 1-0. Byte += field,0: LP/LP; 1: LP/HP; 2: BP/BP; 3: HP/HP
+Schmidt,Synthesizer,Groups routing,Digital filter 2 mix A+B input,,,,,,,0,109,0,255,,0-based,Bit-packed NRPN 109 (GFEDCCBA). G at bit 7. Byte += 128 when set,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Groups routing,Digital filter 1 mix A+B input,,,,,,,0,109,0,255,,0-based,Bit-packed NRPN 109 (GFEDCCBA). F at bit 6. Byte += 64 when set,
+Schmidt,Synthesizer,Groups routing,Filter 2 out invert,,,,,,,0,109,0,255,,0-based,Bit-packed NRPN 109 (GFEDCCBA). E at bit 5. Byte += 32 when set,
+Schmidt,Synthesizer,Groups routing,Filter 2 out on/off,,,,,,,0,109,0,255,,0-based,Bit-packed NRPN 109 (GFEDCCBA). D at bit 4. Byte += 16 when set,
+Schmidt,Synthesizer,Groups routing,Filter 3 input source,,,,,,,0,109,0,255,,0-based,Bit-packed NRPN 109 (GFEDCCBA). CC at bits 3-2. Byte += field * 4,0: Osc 1; 1: Osc 2; 2: Osc 3; 3: Osc 4
+Schmidt,Synthesizer,Groups routing,Filter 1 out invert,,,,,,,0,109,0,255,,0-based,Bit-packed NRPN 109 (GFEDCCBA). B at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Groups routing,Filter 1 out on/off,,,,,,,0,109,0,255,,0-based,Bit-packed NRPN 109 (GFEDCCBA). A at bit 0. Byte += 1 when set,
+Schmidt,Synthesizer,Groups routing,Group 1 Filter 3 out,,,,,,,0,110,0,255,,0-based,Bit-packed NRPN 110 (BAXXXXX1). A at bit 6. Byte += 64 when set. Bit 0 is fixed at 1,
+Schmidt,Synthesizer,Groups routing,Group 2 Filter 3 out,,,,,,,0,110,0,255,,0-based,Bit-packed NRPN 110 (BAXXXXX1). B at bit 7. Byte += 128 when set. Bit 0 is fixed at 1,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Groups routing,Group 1 Digital filter 1 out,,,,,,,0,114,0,255,,0-based,Bit-packed NRPN 114 (XXFEDCBA). A at bit 0. Byte += 1 when set,
+Schmidt,Synthesizer,Groups routing,Group 2 Digital filter 2 out,,,,,,,0,114,0,255,,0-based,Bit-packed NRPN 114 (XXFEDCBA). B at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Groups routing,Group 1 Digital filter 1 invert,,,,,,,0,114,0,255,,0-based,Bit-packed NRPN 114 (XXFEDCBA). C at bit 2. Byte += 4 when set,
+Schmidt,Synthesizer,Groups routing,Group 2 Digital filter 2 invert,,,,,,,0,114,0,255,,0-based,Bit-packed NRPN 114 (XXFEDCBA). D at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Groups routing,Group 1 Digital filter 1 distortion velocity,,,,,,,0,114,0,255,,0-based,Bit-packed NRPN 114 (XXFEDCBA). E at bit 4. Byte += 16 when set,
+Schmidt,Synthesizer,Groups routing,Group 2 Digital filter 2 distortion velocity,,,,,,,0,114,0,255,,0-based,Bit-packed NRPN 114 (XXFEDCBA). F at bit 5. Byte += 32 when set,
+Schmidt,Synthesizer,Groups routing,Group 1 velocity,,,,,,,0,38,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Groups routing,Group 2 velocity,,,,,,,0,39,0,255,,centered,,0~255: -Max to +Max
+Schmidt,Synthesizer,Groups routing,Group 1 Digital filter 1 distortion,,,,,,,0,115,0,255,,0-based,,
+Schmidt,Synthesizer,Groups routing,Group 2 Digital filter 2 distortion,,,,,,,0,116,0,255,,0-based,,
+Schmidt,Synthesizer,Groups routing,Group 1 Digital filter 1 level,,,,,,,0,98,0,255,,0-based,,
+Schmidt,Synthesizer,Groups routing,Group 2 Digital filter 2 level,,,,,,,0,99,0,255,,0-based,,
+Schmidt,Synthesizer,Groups routing,Group 1 Filter 3 level,,,,,,,0,111,0,255,,0-based,,
+Schmidt,Synthesizer,Groups routing,Group 2 Filter 3 level,,,,,,,0,112,0,255,,0-based,,
+Schmidt,Synthesizer,Groups routing,Filter 3 cutoff,,,,,,,0,113,0,255,,0-based,,
+Schmidt,Synthesizer,Groups level modulation,Fade mode,,,,,,,0,48,0,255,,0-based,Bit-packed NRPN 48 (XXFFMSXX). FF at bits 5-4. Byte += field * 16,0: 2 to Min; 1: 2 to 1; 2: 2 to Min to 2; 3: 2 to 1 to 2
+Schmidt,Synthesizer,Groups level modulation,Mix mode,,,,,,,0,48,0,255,,0-based,Bit-packed NRPN 48 (XXFFMSXX). M at bit 3. Byte += 8 when set,0: Fade; 1: Manual
+Schmidt,Synthesizer,Groups level modulation,Fade swap,,,,,,,0,48,0,255,,0-based,Bit-packed NRPN 48 (XXFFMSXX). S at bit 2. Byte += 4 when set,
+Schmidt,Synthesizer,Groups level modulation,Group 1 and 2 manual mix,,,,,,,0,49,0,255,,centered,,0~255: Group 1 to Group 2
+Schmidt,Synthesizer,Groups level modulation,Group 1 and 2 fade time,,,,,,,0,50,0,255,,0-based,5ms-4s (fade mode 2 to 1 or 2 to Min). 10ms-8s (fade mode 2 to 1 to 2 or 2 to Min to 2),
+Schmidt,Synthesizer,Groups level modulation,Group 1 and 2 fade delay,,,,,,,0,51,0,255,,0-based,,0~255: 0 to 4.5 seconds
+Schmidt,Synthesizer,Groups level modulation,LFO group destination,,,,,,,0,57,0,255,,0-based,Bit-packed NRPN 57 (DDDRVXXX). DDD at bits 7-5. Byte += field * 32,0-31: Off; 64-95: Group 2; 128-159: Group 1; 192-223: Groups 1+2; 224-255: Group 1 + 2 inverted
+Schmidt,Synthesizer,Groups level modulation,LFO note reset,,,,,,,0,57,0,255,,0-based,Bit-packed NRPN 57 (DDDRVXXX). R at bit 4. Byte += 16 when set,
+Schmidt,Synthesizer,Groups level modulation,LFO velocity to depth,,,,,,,0,57,0,255,,0-based,Bit-packed NRPN 57 (DDDRVXXX). V at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Groups level modulation,Mix LFO depth,,,,,,,0,58,0,255,,0-based,,
+Schmidt,Synthesizer,Groups level modulation,Mix LFO rate,,,,,,,0,59,0,255,,0-based,,0~255: 0 to 4.5 seconds
+Schmidt,Synthesizer,Groups level modulation,Voice spread,,,,,,,0,52,0,255,,0-based,Bit-packed NRPN 52 (SDDVMMXD). S at bit 7. Byte += 128 when set,0-127: Off; 128-255: On
+Schmidt,Synthesizer,Groups level modulation,Panorama group destination,,,,,,,0,52,0,255,,0-based,"Bit-packed NRPN 52 (SDDVMMXD). DDD split across bits 6, 5, and 0. Byte += bit6 * 64 + bit5 * 32 + bit0 * 1",0: Off; 1: Group 1; 32: Group 2; 33: Groups 1+2; 97: Group 1 + 2 inverted
+Schmidt,Synthesizer,Groups level modulation,Panorama LFO velocity to depth,,,,,,,0,52,0,255,,0-based,Bit-packed NRPN 52 (SDDVMMXD). V at bit 4. Byte += 16 when set,
+Schmidt,Synthesizer,Groups level modulation,Panorama LFO mode,,,,,,,0,52,0,255,,0-based,Bit-packed NRPN 52 (SDDVMMXD). MM at bits 3-2. Byte += field * 4,0: Triangle continuous; 1: Left to right; 2: Left to right to left
+Schmidt,Synthesizer,Groups level modulation,Panorama LFO depth,,,,,,,0,55,0,255,,0-based,,
+Schmidt,Synthesizer,Groups level modulation,Panorama LFO rate,,,,,,,0,56,0,255,,0-based,0.025Hz-10Hz (continuous mode). 20s-40ms (L to R mode). 40s-80ms (L to R to L mode),
+Schmidt,Synthesizer,Groups level modulation,Group 1 pan offset,,,,,,,0,53,0,255,,centered,,0~255: Left to right
+Schmidt,Synthesizer,Groups level modulation,Group 2 pan offset,,,,,,,0,54,0,255,,centered,,0~255: Left to right
+Schmidt,Synthesizer,Amplifier envelope,Amplifier retrigger,,,,,,,0,60,0,255,,0-based,Bit-packed NRPN 60 (XXXXDCBA). A at bit 0. Byte += 1 when set,
+Schmidt,Synthesizer,Amplifier envelope,Amplifier soft,,,,,,,0,60,0,255,,0-based,Bit-packed NRPN 60 (XXXXDCBA). B at bit 1. Byte += 2 when set,
+Schmidt,Synthesizer,Amplifier envelope,Filter 2 retrigger,,,,,,,0,60,0,255,,0-based,Bit-packed NRPN 60 (XXXXDCBA). C at bit 2. Byte += 4 when set,
+Schmidt,Synthesizer,Amplifier envelope,Filter 1 retrigger,,,,,,,0,60,0,255,,0-based,Bit-packed NRPN 60 (XXXXDCBA). D at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Amplifier envelope,Sound volume,,,,,,,0,32,0,255,,0-based,,
+Schmidt,Synthesizer,Amplifier envelope,Attack,,,,,,,0,33,0,255,,0-based,,0~255: 1ms to 10ms
+Schmidt,Synthesizer,Amplifier envelope,Decay,,,,,,,0,34,0,255,,0-based,,0~255: 2ms to 20 seconds
+Schmidt,Synthesizer,Amplifier envelope,Sustain,,,,,,,0,35,0,255,,0-based,,
+Schmidt,Synthesizer,Amplifier envelope,Release,,,,,,,0,36,0,255,,0-based,,0~255: 2ms to 20 seconds
+Schmidt,Synthesizer,Amplifier envelope,Release level,,,,,,,0,37,0,255,,0-based,,
+Schmidt,Synthesizer,Glide and pitch bend,Pitch bend range,,,,,,,1,20,0,31,,centered,,0-2: -12 semitones; 3~13: -11 to -1 semitones; 14: Off; 15~28: +1 to +11 semitones; 29-31: +12 semitones
+Schmidt,Synthesizer,Glide and pitch bend,Oscillator glide time,,,,,,,1,19,0,255,,0-based,,0~111: 1.2s/octave to 12ms/octave; 112-143: Off; 144~255: 16ms to 4s fixed
+Schmidt,Synthesizer,Glide and pitch bend,Filter glide time,,,,,,,1,18,0,255,,0-based,,0~111: 1.2s/octave to 12ms/octave; 112-143: Off; 144~255: 16ms to 4s fixed
+Schmidt,Synthesizer,Glide and pitch bend,Glide depth,,,,,,,0,71,0,255,,0-based,,0~127: 32 to 1 semitones; 128~255: 10% to 100%
+Schmidt,Synthesizer,Glide and pitch bend,Mono/poly,,,,,,,1,17,0,255,,0-based,Bit-packed NRPN 145 (PTMXUXXF). P at bit 7. Byte += 128 when set,0-127: Poly; 128-255: Mono
+Schmidt,Synthesizer,Glide and pitch bend,Envelope trigger,,,,,,,1,17,0,255,,0-based,Bit-packed NRPN 145 (PTMXUXXF). T at bit 6. Byte += 64 when set,
+Schmidt,Synthesizer,Glide and pitch bend,Glide mode,,,,,,,1,17,0,255,,0-based,Bit-packed NRPN 145 (PTMXUXXF). M at bit 5. Byte += 32 when set,0: Legato; 1: Normal
+Schmidt,Synthesizer,Glide and pitch bend,Mono unison,,,,,,,1,17,0,255,,0-based,Bit-packed NRPN 145 (PTMXUXXF). U at bit 3. Byte += 8 when set,
+Schmidt,Synthesizer,Glide and pitch bend,Individual filter glide,,,,,,,1,17,0,255,,0-based,Bit-packed NRPN 145 (PTMXUXXF). F at bit 0. Byte += 1 when set,

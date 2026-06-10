@@ -1,0 +1,60 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Nord,Lead A1,Arpeggiator,Arpeggiator run,,90,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Arpeggiator,Arpeggiator tempo/clock divisions,,9,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Arpeggiator,Arpeggiator master clock enable,,86,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Arpeggiator,Arpeggiator range,,88,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Arpeggiator,Arpeggiator direction,,89,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Voice,Mono selector,,15,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Voice,Voice mode unison,,16,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Voice,Glide rate,,5,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Voice,Pitch bend range,,118,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Voice,Vibrato select,,56,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Oscillator,Oscillator waveform selector,,30,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Oscillator,Oscillator configuration,,33,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Oscillator,Oscillator control,,31,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Oscillator,Oscillator LFO modulation amount,,68,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Oscillator,Oscillator modulation envelope amount,,69,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Filter,Filter frequency,,74,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Filter,Filter resonance,,42,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Filter,Filter type,,44,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Filter,Filter keyboard tracking,,46,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Filter,Filter drive,,47,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Filter,Filter LFO modulation amount,,48,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Filter,Filter modulation envelope amount,,43,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Amplifier envelope,Amplifier envelope attack,,73,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Amplifier envelope,Amplifier envelope decay,,36,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Amplifier envelope,Amplifier envelope release,,72,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Amplifier envelope,Amplifier envelope velocity,,35,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Modulation envelope,Modulation envelope attack,,26,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Modulation envelope,Modulation envelope decay/sustain,,27,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Modulation envelope,Modulation envelope release,,28,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Modulation envelope,Modulation envelope invert,,38,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Modulation envelope,Modulation envelope velocity,,29,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,LFO,LFO rate/clock divisions,,19,,0,127,,,,,,,0-based,,
+Nord,Lead A1,LFO,LFO waveform selector,,20,,0,127,,,,,,,0-based,,
+Nord,Lead A1,LFO,LFO master clock enable,,2,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,LFO,LFO envelope selector,,34,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Effects,Effects selection,,53,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Effects,Effects amount,,55,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Effects,Effects on/off,,52,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Delay,Delay tempo/clock divisions,,78,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Delay,Delay master clock enable,,51,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Delay,Delay feedback,,79,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Delay,Delay ping pong,,100,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Delay,Delay amount,,76,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Delay,Delay on/off,,99,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Reverb,Reverb selector,,96,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Reverb,Reverb amount,,98,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Reverb,Reverb on/off,,97,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Output,Output level,,71,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Output,Pan,,10,,0,127,,,,,,,centered,,
+Nord,Lead A1,Performance,Octave shift,,17,,0,127,,,,,,,centered,,
+Nord,Lead A1,Performance,Hold,,58,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Performance,Hold enable,,54,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Performance,Slot focus,,119,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Performance,Slot enable,,115,,0,127,,,,,,,0-based,,0: Off; 127: On
+Nord,Lead A1,Controllers,Modulation wheel,,1,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Controllers,Wheel/pedal morph,,11,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Controllers,Sustain pedal,,64,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Bank select,Bank Select MSB,,0,,0,127,,,,,,,0-based,,
+Nord,Lead A1,Bank select,Bank Select LSB,,32,,0,127,,,,,,,0-based,,

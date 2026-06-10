@@ -1,6 +1,6 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Arturia,MicroFreak,General,Glide,,5,,0,127,,,,,,,0-based,,
-Arturia,MicroFreak,Oscillator,Type,,9,,0,127,,,,,,,0-based,,
+Arturia,MicroFreak,Oscillator,Type,,9,,0,127,,,,,,,0-based,,0-11: Basic Waves; 12-16: SuperWave; 17-22: Wavetable; 23-27: Harmo; 28-33: Karplus St; 34-38: V. Analog; 39-44: Waveshaper; 45-49: Two Op FM; 50-55: Formant; 56-60: Chords; 61-66: Speech; 67-71: Modal; 72-77: Noise; 78-82: Bass; 83-88: SawX; 89-93: Harm; 94-99: WaveUser; 100-104: Sample; 105-110: ScanGrains; 111-115: CloudGrains; 116-121: HitGrains; 122-127: Vocoder
 Arturia,MicroFreak,Oscillator,Wave,,10,,0,127,,,,,,,0-based,,
 Arturia,MicroFreak,Oscillator,Timbre,,12,,0,127,,,,,,,0-based,,
 Arturia,MicroFreak,Oscillator,Shape,,13,,0,127,,,,,,,0-based,,

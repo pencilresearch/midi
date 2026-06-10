@@ -1,33 +1,33 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Roland,P-6,Voice,Grain reverse probability,,3,,0,127,,,,,,,0-based,,
 Roland,P-6,Voice,Detune,,13,,0,127,,,,,,,0-based,,
-Roland,P-6,Voice,Grain shape,,15,,0,127,,,,,,,0-based,"OFF, 1-49, 50, 51-100",
+Roland,P-6,Voice,Grain shape,,15,,0,127,,,,,,,0-based,,0-1: Off; 2~63: Fade-out; 64: Half fade-in half fade-out; 65~127: Fade-in
 Roland,P-6,Voice,Grain time key follow,,16,,0,127,,,,,,,0-based,,
-Roland,P-6,Voice,Fine tune,,18,,0,127,,,,,,,0-based,,
+Roland,P-6,Voice,Fine tune,,18,,0,127,,,,,,,centered,,
 Roland,P-6,Voice,Head position,,19,,0,127,,,,,,,0-based,,
-Roland,P-6,Voice,Head speed,,20,,0,127,,,,,,,0-based,,
+Roland,P-6,Voice,Head speed,,20,,0,127,,,,,,,centered,,
 Roland,P-6,Voice,Grains,,21,,0,127,,,,,,,0-based,,
 Roland,P-6,Voice,Grain size,,23,,0,127,,,,,,,0-based,,
 Roland,P-6,Voice,Spread,,25,,0,127,,,,,,,0-based,,
 Roland,P-6,Voice,Grain timing jitter,,68,,0,127,,,,,,,0-based,,
-Roland,P-6,Voice,Coarse tune,,76,,0,127,,,,,,,0-based,,
-Roland,P-6,Voice,Start mode,,79,,0,127,,,,,,,0-based,"Cold, Hot",
-Roland,P-6,Voice,Sample,,88,,0,127,,,,,,,0-based,,
+Roland,P-6,Voice,Coarse tune,,76,,0,127,,,,,,,centered,,
+Roland,P-6,Voice,Start mode,,79,,0,127,,,,,,,0-based,,0: Cold; 1-127: Hot
+Roland,P-6,Voice,Sample,,88,,0,127,,,,,,,0-based,,0-2: A1; 3-5: A2; 6-7: A3; 8-10: A4; 11-13: A5; 14-15: A6; 16-18: B1; 19-20: B2; 21-23: B3; 24-26: B4; 27-28: B5; 29-31: B6; 32-33: C1; 34-36: C2; 37-39: C3; 40-41: C4; 42-44: C5; 45-47: C6; 48-49: D1; 50-52: D2; 53-54: D3; 55-57: D4; 58-60: D5; 61-62: D6; 63-65: E1; 66-67: E2; 68-70: E3; 71-73: E4; 74-75: E5; 76-78: E6; 79-80: F1; 81-83: F2; 84-86: F3; 87-88: F4; 89-91: F5; 92-94: F6; 95-96: G1; 97-99: G2; 100-101: G3; 102-104: G4; 105-107: G5; 108-109: G6; 110-112: H1; 113-114: H2; 115-117: H3; 118-120: H4; 121-122: H5; 123-127: H6
 Roland,P-6,Mixer,Level,,7,,0,127,,,,,,,0-based,,
-Roland,P-6,Mixer,Auto pan,,9,,0,127,,,,,,,0-based,"Off, Alt, Swing, Rnd",
-Roland,P-6,Mixer,Pan,,10,,0,127,,,,,,,centered,"When Autopan is off, L64-C-R63",
+Roland,P-6,Mixer,Auto pan,,9,,0,127,,,,,,,0-based,,0: Off; 1: Alternate; 2: Swing; 3-127: Random
+Roland,P-6,Mixer,Pan,,10,,0,127,,,,,,,centered,Only active when Auto pan is off.,0~63: Pan left; 64: Center; 65~127: Pan right
 Roland,P-6,Mixer,Level jitter,,14,,0,127,,,,,,,0-based,,
-Roland,P-6,Mixer,Output bus select,,84,,0,127,,,,,,,0-based,"A, B, Effect",
+Roland,P-6,Mixer,Output bus select,,84,,0,127,,,,,,,0-based,,0: Bus A; 1: Bus B; 2-127: Effect
 Roland,P-6,Mixer,Send delay,,85,,0,127,,,,,,,0-based,,
 Roland,P-6,Mixer,Send reverb,,86,,0,127,,,,,,,0-based,,
-Roland,P-6,Envelope,Amp switch,"When enabled, volume is controlled by the envelope settings.",28,,0,127,,,,,,,0-based,"Off, On",
-Roland,P-6,Envelope,Envelope mode,"ADSR, ADR, or cyclic (ADAD...)",29,,0,127,,,,,,,0-based,,
+Roland,P-6,Envelope,Amp switch,"When enabled, volume is controlled by the envelope settings.",28,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Roland,P-6,Envelope,Envelope mode,,29,,0,127,,,,,,,0-based,,0: ADSR; 1: ADR; 2-127: Cyclic
 Roland,P-6,Envelope,Envelope attack,,73,,0,127,,,,,,,0-based,,
 Roland,P-6,Envelope,Envelope decay,,75,,0,127,,,,,,,0-based,,
 Roland,P-6,Envelope,Envelope sustain,,30,,0,127,,,,,,,0-based,,
 Roland,P-6,Envelope,Envelope release,,72,,0,127,,,,,,,0-based,,
 Roland,P-6,Envelope,Envelope time key follow,,77,,0,127,,,,,,,0-based,,
-Roland,P-6,Filter,Filter type,,12,,0,127,,,,,,,0-based,"Off, LPF, BPF, HPF, Peaking",
+Roland,P-6,Filter,Filter type,,12,,0,127,,,,,,,0-based,,0: Off; 1: LPF; 2: BPF; 3: HPF; 4-127: PKG
 Roland,P-6,Filter,Filter frequency,,74,,0,127,,,,,,,0-based,,
 Roland,P-6,Filter,Filter resonance,,71,,0,127,,,,,,,0-based,,
 Roland,P-6,Filter,Filter envelope depth,,24,,0,127,,,,,,,0-based,,
@@ -37,5 +37,5 @@ Roland,P-6,Delay and reverb,Delay time,,90,,0,127,,,,,,,0-based,,
 Roland,P-6,Delay and reverb,Delay level,,92,,0,127,,,,,,,0-based,,
 Roland,P-6,Delay and reverb,Reverb time,,89,,0,127,,,,,,,0-based,,
 Roland,P-6,Delay and reverb,Reverb level,,91,,0,127,,,,,,,0-based,,
-Roland,P-6,Lo-fi,Lo-fi switch,,87,,0,127,,,,,,,0-based,,
-Roland,P-6,Lo-fi,Lo-fi intensity,,17,,0,127,,,,,,,0-based,,
+Roland,P-6,Lo-Fi,Lo-Fi switch,,87,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Roland,P-6,Lo-Fi,Lo-Fi intensity,,17,,0,127,,,,,,,0-based,,

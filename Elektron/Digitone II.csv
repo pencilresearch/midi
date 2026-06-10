@@ -66,7 +66,7 @@ Elektron,Digitone II,Synth: FM Tone,FM Tone 3: B Env Reset,,62,,0,1,1,1,95,0,1,1
 Elektron,Digitone II,Synth: FM Tone,FM Tone 4: Ratio C Offset,,70,,0,127,63,1,97,0,16383,8191,centered,,
 Elektron,Digitone II,Synth: FM Tone,FM Tone 4: Ratio A Offset,,71,,0,127,63,1,98,0,16383,8191,centered,,
 Elektron,Digitone II,Synth: FM Tone,FM Tone 4: Ratio B1 Offset,,72,,0,127,63,1,99,0,16383,8191,centered,,
-Elektron,Digitone II,Synth: FM Tone,FM Tone 4: Ratio B2 Offset,,73,,0,127,63,1,100,0,16383,8191,0-based,,
+Elektron,Digitone II,Synth: FM Tone,FM Tone 4: Ratio B2 Offset,,73,,0,127,63,1,100,0,16383,8191,centered,,
 Elektron,Digitone II,Synth: FM Tone,FM Tone 4: Key Tracking A,,75,,0,127,0,1,102,0,127,0,0-based,,
 Elektron,Digitone II,Synth: FM Tone,FM Tone 4: Key Tracking B1,,76,,0,127,0,1,103,0,127,0,0-based,,
 Elektron,Digitone II,Synth: FM Tone,FM Tone 4: Key Tracking B2,,77,,0,127,0,1,104,0,127,0,0-based,,
@@ -255,7 +255,7 @@ Elektron,Digitone II,FX,Reverb: Lowpass Filter,,91,,0,127,96,2,13,0,127,96,0-bas
 Elektron,Digitone II,FX,Reverb: Mix Volume,,92,,0,127,110,2,15,0,127,110,0-based,,
 Elektron,Digitone II,FX,Chorus: Depth,,16,,0,127,127,2,41,0,127,127,0-based,,
 Elektron,Digitone II,FX,Chorus: Speed,,9,,0,127,32,2,42,0,127,32,0-based,,
-Elektron,Digitone II,FX,Chorus: High Pass Filter,0,70,,0,127,0,2,43,0,127,0,0-based,,
+Elektron,Digitone II,FX,Chorus: High Pass Filter,,70,,0,127,0,2,43,0,127,0,0-based,,
 Elektron,Digitone II,FX,Chorus: Width,,71,,0,127,127,2,44,0,127,127,0-based,,
 Elektron,Digitone II,FX,Chorus: Delay Send,,12,,0,127,0,2,45,0,127,0,0-based,,
 Elektron,Digitone II,FX,Chorus: Reverb Send,,13,,0,127,0,2,46,0,127,0,0-based,,
@@ -333,4 +333,5 @@ Elektron,Digitone II,Euclidean,Rotation Gen 2,,,,,,,3,12,0,127,127,centered,rang
 Elektron,Digitone II,Euclidean,Track Rotation,,,,,,,3,13,0,127,127,centered,range: 112 - 127 - 14 (weird),
 Elektron,Digitone II,Euclidean,Boolean Operator,,,,,,,3,10,0,3,0,0-based,,0: OR; 1: XOR; 2: AND; 3: SUB
 Elektron,Digitone II,Misc,Pattern Mute,,110,,0,1,0,1,109,0,1,0,0-based,,0: Unmuted; 1: Muted
+Elektron,Digitone II,Misc,Master Overdrive,,17,,0,127,,2,50,0,127,,0-based,,
 Elektron,Digitone II,Misc,Master Overdrive,,17,,0,127,0,2,50,0,127,0,0-based,,0: Off

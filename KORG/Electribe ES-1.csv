@@ -1,0 +1,101 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,Electribe ES-1,Part 1,Pitch,Sets the sample pitch,,,,,,5,0,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 1,Level,Sets the part level,,,,,,5,1,0,127,,0-based,,
+KORG,Electribe ES-1,Part 1,Filter,Sets the filter cutoff,,,,,,5,2,0,127,,0-based,,
+KORG,Electribe ES-1,Part 1,Pan,Pans between left and right channel,,,,,,5,3,0,127,64,centered,,
+KORG,Electribe ES-1,Part 1,Effect send,Routes the part through the effect,,,,,,5,4,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 1,Roll,Enables the step roll,,,,,,5,5,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 1,Reverse,Plays the sample in reverse,,,,,,5,6,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 1,Motion sequence type,Sets the motion sequence mode,,,,,,5,7,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Part 2,Pitch,Sets the sample pitch,,,,,,5,8,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 2,Level,Sets the part level,,,,,,5,9,0,127,,0-based,,
+KORG,Electribe ES-1,Part 2,Filter,Sets the filter cutoff,,,,,,5,10,0,127,,0-based,,
+KORG,Electribe ES-1,Part 2,Pan,Pans between left and right channel,,,,,,5,11,0,127,64,centered,,
+KORG,Electribe ES-1,Part 2,Effect send,Routes the part through the effect,,,,,,5,12,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 2,Roll,Enables the step roll,,,,,,5,13,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 2,Reverse,Plays the sample in reverse,,,,,,5,14,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 2,Motion sequence type,Sets the motion sequence mode,,,,,,5,15,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Part 3,Pitch,Sets the sample pitch,,,,,,5,16,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 3,Level,Sets the part level,,,,,,5,17,0,127,,0-based,,
+KORG,Electribe ES-1,Part 3,Filter,Sets the filter cutoff,,,,,,5,18,0,127,,0-based,,
+KORG,Electribe ES-1,Part 3,Pan,Pans between left and right channel,,,,,,5,19,0,127,64,centered,,
+KORG,Electribe ES-1,Part 3,Effect send,Routes the part through the effect,,,,,,5,20,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 3,Roll,Enables the step roll,,,,,,5,21,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 3,Reverse,Plays the sample in reverse,,,,,,5,22,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 3,Motion sequence type,Sets the motion sequence mode,,,,,,5,23,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Part 4,Pitch,Sets the sample pitch,,,,,,5,24,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 4,Level,Sets the part level,,,,,,5,25,0,127,,0-based,,
+KORG,Electribe ES-1,Part 4,Filter,Sets the filter cutoff,,,,,,5,26,0,127,,0-based,,
+KORG,Electribe ES-1,Part 4,Pan,Pans between left and right channel,,,,,,5,27,0,127,64,centered,,
+KORG,Electribe ES-1,Part 4,Effect send,Routes the part through the effect,,,,,,5,28,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 4,Roll,Enables the step roll,,,,,,5,29,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 4,Reverse,Plays the sample in reverse,,,,,,5,30,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 4,Motion sequence type,Sets the motion sequence mode,,,,,,5,31,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Part 5,Pitch,Sets the sample pitch,,,,,,5,32,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 5,Level,Sets the part level,,,,,,5,33,0,127,,0-based,,
+KORG,Electribe ES-1,Part 5,Filter,Sets the filter cutoff,,,,,,5,34,0,127,,0-based,,
+KORG,Electribe ES-1,Part 5,Pan,Pans between left and right channel,,,,,,5,35,0,127,64,centered,,
+KORG,Electribe ES-1,Part 5,Effect send,Routes the part through the effect,,,,,,5,36,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 5,Roll,Enables the step roll,,,,,,5,37,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 5,Reverse,Plays the sample in reverse,,,,,,5,38,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 5,Motion sequence type,Sets the motion sequence mode,,,,,,5,39,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Part 6A,Pitch,Sets the sample pitch,,,,,,5,40,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 6A,Level,Sets the part level,,,,,,5,41,0,127,,0-based,,
+KORG,Electribe ES-1,Part 6A,Filter,Sets the filter cutoff,,,,,,5,42,0,127,,0-based,,
+KORG,Electribe ES-1,Part 6A,Pan,Pans between left and right channel,,,,,,5,43,0,127,64,centered,,
+KORG,Electribe ES-1,Part 6A,Effect send,Routes the part through the effect,,,,,,5,44,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 6A,Roll,Enables the step roll,,,,,,5,45,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 6A,Reverse,Plays the sample in reverse,,,,,,5,46,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 6A,Motion sequence type,Sets the motion sequence mode,,,,,,5,47,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Part 6B,Pitch,Sets the sample pitch,,,,,,5,48,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 6B,Level,Sets the part level,,,,,,5,49,0,127,,0-based,,
+KORG,Electribe ES-1,Part 6B,Filter,Sets the filter cutoff,,,,,,5,50,0,127,,0-based,,
+KORG,Electribe ES-1,Part 6B,Pan,Pans between left and right channel,,,,,,5,51,0,127,64,centered,,
+KORG,Electribe ES-1,Part 6B,Effect send,Routes the part through the effect,,,,,,5,52,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 6B,Roll,Enables the step roll,,,,,,5,53,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 6B,Reverse,Plays the sample in reverse,,,,,,5,54,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 6B,Motion sequence type,Sets the motion sequence mode,,,,,,5,55,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Part 7A,Pitch,Sets the sample pitch,,,,,,5,56,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 7A,Level,Sets the part level,,,,,,5,57,0,127,,0-based,,
+KORG,Electribe ES-1,Part 7A,Filter,Sets the filter cutoff,,,,,,5,58,0,127,,0-based,,
+KORG,Electribe ES-1,Part 7A,Pan,Pans between left and right channel,,,,,,5,59,0,127,64,centered,,
+KORG,Electribe ES-1,Part 7A,Effect send,Routes the part through the effect,,,,,,5,60,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 7A,Roll,Enables the step roll,,,,,,5,61,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 7A,Reverse,Plays the sample in reverse,,,,,,5,62,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 7A,Motion sequence type,Sets the motion sequence mode,,,,,,5,63,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Part 7B,Pitch,Sets the sample pitch,,,,,,5,64,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Part 7B,Level,Sets the part level,,,,,,5,65,0,127,,0-based,,
+KORG,Electribe ES-1,Part 7B,Filter,Sets the filter cutoff,,,,,,5,66,0,127,,0-based,,
+KORG,Electribe ES-1,Part 7B,Pan,Pans between left and right channel,,,,,,5,67,0,127,64,centered,,
+KORG,Electribe ES-1,Part 7B,Effect send,Routes the part through the effect,,,,,,5,68,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 7B,Roll,Enables the step roll,,,,,,5,69,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 7B,Reverse,Plays the sample in reverse,,,,,,5,70,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Part 7B,Motion sequence type,Sets the motion sequence mode,,,,,,5,71,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Slice,Pitch,Sets the sample pitch,,,,,,5,72,0,127,64,centered,64 = equal pitch,
+KORG,Electribe ES-1,Slice,Level,Sets the part level,,,,,,5,73,0,127,,0-based,,
+KORG,Electribe ES-1,Slice,Filter,Sets the filter cutoff,,,,,,5,74,0,127,,0-based,,
+KORG,Electribe ES-1,Slice,Pan,Pans between left and right channel,,,,,,5,75,0,127,64,centered,,
+KORG,Electribe ES-1,Slice,Effect send,Routes the part through the effect,,,,,,5,76,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Slice,Roll,Enables the step roll,,,,,,5,77,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Slice,Reverse,Plays the sample in reverse,,,,,,5,78,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Slice,Motion sequence type,Sets the motion sequence mode,,,,,,5,79,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Audio In,Speed,Sets the audio in playback speed,,,,,,5,80,0,63,,0-based,,
+KORG,Electribe ES-1,Audio In,Level,Sets the part level,,,,,,5,81,0,127,,0-based,,
+KORG,Electribe ES-1,Audio In,Filter,Sets the filter cutoff,,,,,,5,82,0,127,,0-based,,
+KORG,Electribe ES-1,Audio In,Pan,Pans between left and right channel,,,,,,5,83,0,127,64,centered,,
+KORG,Electribe ES-1,Audio In,Effect send,Routes the part through the effect,,,,,,5,84,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Audio In,Roll,Enables the step roll,,,,,,5,85,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Audio In,Motion sequence type,Sets the motion sequence mode,,,,,,5,87,0,2,,0-based,,0: Off; 1: Smooth; 2: Trig hold
+KORG,Electribe ES-1,Delay,Depth,Sets the depth of the delay effect,,,,,,5,96,0,127,,0-based,,
+KORG,Electribe ES-1,Delay,Time,Sets the delay time,,,,,,5,97,0,127,,0-based,,
+KORG,Electribe ES-1,Delay,BPM sync,Syncs the delay to the pattern tempo,,,,,,5,101,0,1,,0-based,,0: Off; 1: Tempo delay
+KORG,Electribe ES-1,Delay,Motion sequence switch,Enables motion sequencing for the delay,,,,,,5,102,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Effect,Type,Selects the effect type,,,,,,5,98,0,10,,0-based,,0: Reverb; 1: Flanger/Chorus; 2: Phaser; 3: Ring modulation; 4: Pitch shifter; 5: Compressor; 6: Distortion; 7: Decimator; 8: Isolator; 9: Resonance filter; 10: Wah
+KORG,Electribe ES-1,Effect,Edit 1,First effect edit parameter,,,,,,5,99,0,127,,0-based,,
+KORG,Electribe ES-1,Effect,Edit 2,Second effect edit parameter,,,,,,5,100,0,127,,0-based,,
+KORG,Electribe ES-1,Effect,Motion sequence switch,Enables motion sequencing for the effect,,,,,,5,103,0,1,,0-based,,0: Off; 1: On
+KORG,Electribe ES-1,Accent,Level,Sets the accent level,,,,,,5,104,0,127,,0-based,,
+KORG,Electribe ES-1,Mute,Mute 1,"Mute or solo any combination of Audio In and parts 1-4",,,,,,5,107,0,127,,0-based,Best used with binary; Bit 6 toggles Mute/Solo; Bits 4-0 (Audio In; P4; P3; P2; P1) = 1 to mute,
+KORG,Electribe ES-1,Mute,Mute 2,"Mute or solo any combination of Slice and parts 5-7B",,,,,,5,108,0,127,,0-based,Best used with binary; Bit 6 toggles Mute/Solo; Bits 5-0 (Slice; P7B; P7A; P6B; P6A; P5) = 1 to mute,
+KORG,Electribe ES-1,Global,Reset all controllers,Resets all controllers on the current channel,121,,0,0,,,,,,,0-based,Always enabled,0: Reset all controllers
+KORG,Electribe ES-1,Global,All note off,All notes off,123,,0,0,,,,,,,0-based,Only forces note off on the Audio In part; has no effect on parts 1-7B or Slice,0: All note off

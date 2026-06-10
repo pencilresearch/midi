@@ -1,0 +1,18 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Bastl Instruments,Kastle 2 FX Wizard,Effects,FX mode,,1,,0,127,,,,,,,0-based,,0-13: Delay; 14-27: Flanger; 28-41: Freezer; 42-55: Panner; 56-69: Crusher; 70-83: Slicer; 84-97: Pitcher; 98-111: Replayer; 112-127: Shifter
+Bastl Instruments,Kastle 2 FX Wizard,Effects,FX mode modulation,,26,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Effects,Time,,14,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Effects,Time modulation,,15,,0,127,,,,,,,centered,,
+Bastl Instruments,Kastle 2 FX Wizard,Effects,Feedback,,16,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Effects,Feedback modulation,,17,,0,127,,,,,,,centered,,
+Bastl Instruments,Kastle 2 FX Wizard,Effects,Amount,,18,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Effects,Amount modulation,,19,,0,127,,,,,,,centered,,
+Bastl Instruments,Kastle 2 FX Wizard,Effects,Filter,,20,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Effects,Stereo,,21,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,LFO,LFO,,22,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,LFO,LFO modulation,,23,,0,127,,,,,,,centered,,
+Bastl Instruments,Kastle 2 FX Wizard,Sequencer,Tempo,,24,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Sequencer,Rhythm,,25,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Global,Output volume,,7,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Global,Input gain,,9,,0,127,,,,,,,0-based,,
+Bastl Instruments,Kastle 2 FX Wizard,Global,Reset all controllers,,121,,0,127,,,,,,,0-based,Goes back to knob control for values,

@@ -1,0 +1,113 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+discoDSP,Discovery Pro,Global,Mod Wheel,Modulation wheel,1,,0,127,0,,,,,,0-based,Standard MIDI mod wheel input.,0~127: No modulation to full modulation
+discoDSP,Discovery Pro,Global,Portamento,Portamento time,5,,0,127,0,,,,,,0-based,Per-layer glide time.,0~127: Instant to slowest glide
+discoDSP,Discovery Pro,Amp,Amp Gain,Amplifier output gain,7,,0,127,,,,,,,0-based,Per-layer level.,0~127: Silence to full output
+discoDSP,Discovery Pro,Oscillator,Osc Mix,Oscillator 1/2 mix,8,,0,127,,,,,,,0-based,Per-layer.,0~127: Osc 1 only to Osc 2 only
+discoDSP,Discovery Pro,Global,Master Volume,Global output volume,12,,0,127,,,,,,,0-based,Global; not per-layer.,0~127: Silence to full output
+discoDSP,Discovery Pro,Global,Morph Assign,Morph assign toggle,14,,0,127,0,,,,,,0-based,Global; sets user_morph_assign on/off.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Global,Play Mode,Voice play mode,15,,0,2,0,,,,,,0-based,Per-layer; raw value stored.,0: Monophonic; 1: Legato; 2: Polyphonic
+discoDSP,Discovery Pro,Global,Unison,Unison enable,16,,0,127,0,,,,,,0-based,"Per-layer; replaces Chorus. When MIDICCOSCRANGE config is on, threshold is 64; otherwise threshold is 1. Activates 4-voice unison.",0: Off; 1-127: On (4-voice unison)
+discoDSP,Discovery Pro,Global,Octave Shift,Octave shift,17,,0,127,2,,,,,,centered,Per-layer; values above 4 clamp to 4.,0: -2 oct; 1: -1 oct; 2: 0; 3: +1 oct; 4-127: +2 oct
+discoDSP,Discovery Pro,Global,Wheel Mode,Mod wheel destination mode,18,,0,5,0,,,,,,0-based,Per-layer.,0: Filter; 1: FM; 2: Osc 2; 3: LFO 1; 4: Morph; 5: Off
+discoDSP,Discovery Pro,LFO 1,LFO1 Rate,LFO 1 rate,19,,0,127,0,,,,,,0-based,Per-layer.,0~127: Slowest to fastest
+discoDSP,Discovery Pro,LFO 1,LFO1 Waveform,LFO 1 waveform,20,,0,9,0,,,,,,0-based,Per-layer; direct value selects waveform.,0: Random; 1: Saw; 2: Triangle; 3: Square; 4: LF Filtered Noise; 5: Random (Retrig); 6: Saw (Retrig); 7: Triangle (Retrig); 8: Square (Retrig); 9: LF Filtered Noise (Retrig)
+discoDSP,Discovery Pro,LFO 1,LFO1 Destination,LFO 1 destination,21,,0,4,0,,,,,,0-based,Per-layer; direct value selects destination.,0: Pulse Width; 1: Filter; 2: Oscillator 2; 3: Oscillator 1+2; 4: FM
+discoDSP,Discovery Pro,LFO 1,LFO1 Amount,LFO 1 amount,22,,0,127,0,,,,,,0-based,Per-layer.,0~127: No modulation to maximum
+discoDSP,Discovery Pro,LFO 2,LFO2 Rate,LFO 2 rate,23,,0,127,0,,,,,,0-based,Per-layer.,0~127: Slowest to fastest
+discoDSP,Discovery Pro,Global,Layer Apply MIDI CC 1,Selects layer that receives following CCs / LFO2 Arp+Dest combo,24,,0,9,0,,,,,,0-based,Per-layer; sets layer target. Value also encodes LFO 2 arp_hold + arp_mode + destination as a combined preset; channel 5 broadcasts to all active layers.,0: Arp Down (Hold On); 1: Arp Up (Hold On); 2: Arp Up&Down (Hold On); 3: Dest Filter (Hold Off); 4: Dest Amplitude (Hold Off); 5: Arp Random (Hold On); 6: Arp Random 2 (Hold On); 7: Dest Disabled (Hold Off); 8: Dest Osc 1+2 (Hold Off); 9: Arp Random Markov (Hold On)
+discoDSP,Discovery Pro,LFO 2,LFO2 Amount,LFO 2 amount,25,,0,127,0,,,,,,0-based,Per-layer.,0~127: No modulation to maximum
+discoDSP,Discovery Pro,Mod Envelope,Mod Env Attack,Modulation envelope attack,26,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery Pro,Mod Envelope,Mod Env Decay,Modulation envelope decay,27,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery Pro,Mod Envelope,Mod Env Destination,Modulation envelope destination,28,,0,4,3,,,,,,0-based,Per-layer; direct value selects destination.,0: Oscillator 2; 1: FM; 2: Pulse Width; 3: Disabled; 4: Oscillator 2 + Wave
+discoDSP,Discovery Pro,Mod Envelope,Mod Env Amount,Modulation envelope amount,29,,0,127,64,,,,,,centered,Per-layer.,0~63: Negative; 64: None; 65~127: Positive
+discoDSP,Discovery Pro,Oscillator,Osc 1 Waveform,Oscillator 1 waveform,30,,0,6,0,,,,,,0-based,"Per-layer; direct value (0~6). When MIDICCOSCRANGE config is on, full 0~127 range is mapped (value/19, clamped to 0~6).",0: Pulse Width Modulation; 1: Saw; 2: Triangle; 3: Sine; 4: Pulse; 5: Parabolic; 6: Super 7
+discoDSP,Discovery Pro,Oscillator,Osc 2 Waveform,Oscillator 2 waveform,31,,0,7,0,,,,,,0-based,"Per-layer; direct value (0~7). When MIDICCOSCRANGE config is on, full 0~127 range is mapped (value/16, clamped to 0~7).",0: Pulse Width Modulation; 1: Saw; 2: Triangle; 3: Noise; 4: Pulse; 5: Parabolic; 6: Pink Noise; 7: Super 7
+discoDSP,Discovery Pro,Oscillator,Osc 2 Finetune,Oscillator 2 finetune,33,,0,127,64,,,,,,centered,Per-layer.,0~127: -50 to +50 cents
+discoDSP,Discovery Pro,Oscillator,Osc 2 Kbd Track,Oscillator 2 keyboard tracking,34,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Oscillator,Osc Mode,Oscillator 2 modulation mode,35,,0,3,0,,,,,,0-based,Per-layer; direct value selects mode.,0: Off; 1: Sync; 2: Ring Modulation; 3: FM via Osc 2
+discoDSP,Discovery Pro,Amp Envelope,Amp Decay,Amplitude envelope decay,36,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery Pro,Amp Envelope,Amp Sustain,Amplitude envelope sustain,37,,0,127,0,,,,,,0-based,Per-layer.,0~127: No sustain to full sustain
+discoDSP,Discovery Pro,Filter Envelope,Filter Decay,Filter envelope decay,39,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery Pro,Filter Envelope,Filter Sustain,Filter envelope sustain,40,,0,127,0,,,,,,0-based,Per-layer.,0~127: No sustain to full sustain
+discoDSP,Discovery Pro,Filter Envelope,Filter Release,Filter envelope release,41,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery Pro,Filter,Filter Resonance,Filter resonance,42,,0,127,0,,,,,,0-based,Per-layer; may self-oscillate at high values.,0~127: No resonance to maximum Q
+discoDSP,Discovery Pro,Filter,Filter Env Amount,Filter envelope modulation amount,43,,0,127,64,,,,,,centered,Per-layer.,0~63: Inverted env; 64: None; 65~127: Positive env
+discoDSP,Discovery Pro,Filter,Filter Type,Filter type,44,,0,15,1,,,,,,0-based,Per-layer; direct value selects filter algorithm.,0: LP12; 1: LP24; 2: HP24; 3: BP24; 4: BR24; 5: HP12; 6: Formant; 7: Phaser; 8: XFilter12; 9: XFilter24; 10: YFilter12; 11: YFilter24; 12: Ladder24; 13: Ladder12; 14: SEM Classic; 15: SEM Raw
+discoDSP,Discovery Pro,Filter,Filter Velocity,Filter velocity sensitivity,45,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Filter,Filter Kbd Track,Filter keyboard tracking,46,,0,3,0,,,,,,0-based,Per-layer; direct value selects amount.,0: Off; 1: 2/3; 2: 1/3; 3: Full
+discoDSP,Discovery Pro,Wave,Layer Apply MIDI CC 2 (Wave Set),Selects wave preset (legacy),47,,0,127,0,,,,,,0-based,Per-layer; SetWave().,0~127: Wave preset index
+discoDSP,Discovery Pro,Wave,Layer Apply MIDI CC 3 (Wave Bank),Selects wave bank (legacy),48,,0,127,0,,,,,,0-based,Per-layer; SetWaveBank().,0~127: Wave bank index
+discoDSP,Discovery Pro,Oscillator,Osc Enable,VA Oscillator section enable,49,,0,2,1,,,,,,0-based,Per-layer; direct value selects state.,0: Off; 1: On (Free Phase); 2: On (Retrigger Phase)
+discoDSP,Discovery Pro,Global,Unison Mode (alt),Unison mode bitfield,50,,0,7,0,,,,,,0-based,Per-layer; bitfield.,0: All Off; 1: Phaser; 2: Chorus; 3: Phaser+Chorus; 4: Unison; 5: Unison+Phaser; 6: Unison+Chorus; 7: All On
+discoDSP,Discovery Pro,Global,Portamento Auto,Portamento auto/legato mode,65,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: Auto
+discoDSP,Discovery Pro,Oscillator,Osc 1 FM Amount,Oscillator 1 FM amount,70,,0,127,0,,,,,,0-based,Per-layer.,0~127: No FM to maximum FM depth
+discoDSP,Discovery Pro,Global,Click Style MIDI CC,Toggle button-mode (click) for CCs 14~45,71,,0,127,0,,,,,,0-based,"Global. When On, CCs 14~45 act as click-style buttons (any non-zero value triggers a single click on the corresponding GUI button). When Off, those CCs operate as normal continuous parameters.",0: Off (continuous mode); 1-127: On (button mode)
+discoDSP,Discovery Pro,Amp Envelope,Amp Release,Amplitude envelope release,72,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery Pro,Amp Envelope,Amp Attack,Amplitude envelope attack,73,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery Pro,Filter,Filter Frequency,Filter cutoff,74,,0,127,127,,,,,,0-based,Per-layer; exponential frequency response.,0~127: Fully closed to fully open
+discoDSP,Discovery Pro,Oscillator,Osc 2 Semitones,Oscillator 2 semitone offset,78,,0,127,64,,,,,,centered,Per-layer (scaled by /120).,0~127: -64 to +63 semitones
+discoDSP,Discovery Pro,Oscillator,Osc Pulse Width,Oscillator pulse width,79,,0,127,64,,,,,,centered,Per-layer.,0~63: Narrow; 64: Square; 65~127: Wide
+discoDSP,Discovery Pro,Filter,Filter Distortion,Filter distortion algorithm,80,,0,4,0,,,,,,0-based,Per-layer; value modulo 5.,0: Off; 1: Asymmetric 1; 2: Symmetric; 3: Asymmetric 2; 4: Tube Warmth
+discoDSP,Discovery Pro,Delay,Delay Level,Delay output level,81,,0,127,0,,,,,,0-based,Per-layer.,0~127: Dry only to fully wet delay
+discoDSP,Discovery Pro,Delay,Delay Left Time,Delay left channel time,82,,0,127,0,,,,,,0-based,Per-layer.,0~127: Shortest to longest
+discoDSP,Discovery Pro,Delay,Delay Right Time,Delay right channel time,83,,0,127,0,,,,,,0-based,Per-layer.,0~127: Shortest to longest
+discoDSP,Discovery Pro,Delay,Delay Feedback Left,Delay left feedback,84,,0,127,0,,,,,,0-based,Per-layer.,0~127: No feedback to near-infinite sustain
+discoDSP,Discovery Pro,Delay,Delay Feedback Right,Delay right feedback,85,,0,127,0,,,,,,0-based,Per-layer.,0~127: No feedback to near-infinite sustain
+discoDSP,Discovery Pro,Pan,Pan Position,Pan position,86,,0,127,64,,,,,,centered,Per-layer.,0~63: Left; 64: Center; 65~127: Right
+discoDSP,Discovery Pro,Pan,Pan Mod Rate,Auto-pan rate,87,,0,127,0,,,,,,0-based,Per-layer.,0~127: Slowest to fastest
+discoDSP,Discovery Pro,Pan,Pan Mod Amount,Auto-pan depth,88,,0,127,0,,,,,,0-based,Per-layer.,0~127: No movement to full stereo width
+discoDSP,Discovery Pro,Filter Envelope,Filter Attack,Filter envelope attack,89,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery Pro,LFO 1,LFO1 Sync,LFO 1 tempo sync,90,,0,127,0,,,,,,0-based,Per-layer.,0: Free; 1-127: Synced to host tempo
+discoDSP,Discovery Pro,LFO 2,LFO2 Sync,LFO 2 tempo sync,91,,0,127,0,,,,,,0-based,Per-layer.,0: Free; 1-127: Synced to host tempo
+discoDSP,Discovery Pro,Pan,Pan Mod Sync,Auto-pan tempo sync,92,,0,127,0,,,,,,0-based,Per-layer.,0: Free; 1-127: Synced to host tempo
+discoDSP,Discovery Pro,Amp,Amp Limiter,Output limiter enable,93,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Filter,Soft Filter,Filter soft saturation,94,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Delay,Delay Cross,Delay cross-feedback (ping-pong),95,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Delay,Delay Sync,Delay tempo sync,102,,0,127,0,,,,,,0-based,Per-layer.,0: Free; 1-127: Synced to host tempo
+discoDSP,Discovery Pro,Amp,Amp Shape 1,Amp shape bit 0,103,,0,127,0,,,,,,0-based,Per-layer; sets bit 0 of amp_shapes bitmask.,0: Bit cleared; 1-127: Bit set
+discoDSP,Discovery Pro,Amp,Amp Shape 2,Amp shape bit 1,104,,0,127,0,,,,,,0-based,Per-layer; sets bit 1 of amp_shapes bitmask.,0: Bit cleared; 1-127: Bit set
+discoDSP,Discovery Pro,Amp,Amp Shape 3,Amp shape bit 2,105,,0,127,0,,,,,,0-based,Per-layer; sets bit 2 of amp_shapes bitmask.,0: Bit cleared; 1-127: Bit set
+discoDSP,Discovery Pro,Global,MIDI to Velocity Swap,MIDI value-to-velocity swap,106,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Gate,Gate Level,Gate level,107,,0,127,0,,,,,,0-based,Per-layer.,0~127: Silent to full level
+discoDSP,Discovery Pro,Mod,Mod Level,Mod sequencer level,108,,0,127,0,,,,,,0-based,Per-layer.,0~127: No modulation to maximum
+discoDSP,Discovery Pro,Mod,Mod Destination,Mod sequencer destination,109,,0,3,0,,,,,,0-based,Per-layer; value modulo 4.,0: Osc 2 / Wave; 1: FM; 2: Pulse Width; 3: Filter
+discoDSP,Discovery Pro,Wave,Wave Level,Wave level,110,,0,127,0,,,,,,0-based,Per-layer.,0~127: Silent to full level
+discoDSP,Discovery Pro,Layer,Layer A Active,Layer A on/off,111,,0,127,0,,,,,,0-based,Global; toggles layer A active flag.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Layer,Layer B Active,Layer B on/off,112,,0,127,0,,,,,,0-based,Global; toggles layer B active flag.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Layer,Layer C Active,Layer C on/off,113,,0,127,0,,,,,,0-based,Global; toggles layer C active flag.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Layer,Layer D Active,Layer D on/off,114,,0,127,0,,,,,,0-based,Global; toggles layer D active flag.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Wave,Wave Semitones,Wave semitone offset,115,,0,127,64,,,,,,centered,Per-layer.,0~127: -64 to +63 semitones
+discoDSP,Discovery Pro,Wave,Wave Finetune,Wave finetune,116,,0,127,64,,,,,,centered,Per-layer.,0~127: -50 to +50 cents
+discoDSP,Discovery Pro,Wave,Wave Kbd Track,Wave keyboard tracking,117,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Wave,Wave Mode,Wave playback mode,118,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Pad,Pad Mode,Pad playback mode,119,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery Pro,Button Mode,Assign / Morph (button),Click Assign/Morph button,14,,0,127,,,,,,,0-based,Button mode (active when CC71 is ON; range 14~45). Any value > 0 triggers a single click on the GUI Assign button.,0: Ignored; 1-127: Single click toggles morph assign
+discoDSP,Discovery Pro,Button Mode,LFO1 Waveform (button),Cycle LFO 1 waveform,15,,0,127,,,,,,,0-based,Button mode. Single click cycles to next LFO 1 waveform (0 to 9 then wraps).,0: Ignored; 1-127: Cycle next waveform. Order: 0: Random; 1: Saw; 2: Triangle; 3: Square; 4: LF Filtered Noise; 5: Random (Retrig); 6: Saw (Retrig); 7: Triangle (Retrig); 8: Square (Retrig); 9: LF Filtered Noise (Retrig)
+discoDSP,Discovery Pro,Button Mode,LFO1 Destination (button),Cycle LFO 1 destination,16,,0,127,,,,,,,0-based,Button mode. Cycles to next LFO 1 destination (0 to 4 then wraps).,0: Ignored; 1-127: Cycle next destination. Order: 0: Pulse Width; 1: Filter; 2: Oscillator 2; 3: Oscillator 1+2; 4: FM
+discoDSP,Discovery Pro,Button Mode,LFO2 Arp Hold (button),Toggle LFO 2 arpeggiator hold,17,,0,127,,,,,,,0-based,Button mode. Toggles ARP/Hold on/off; on enable sets default destination.,0: Ignored; 1-127: Toggle ARP Hold (Off / On)
+discoDSP,Discovery Pro,Button Mode,LFO2 Arp Mode / Destination (button),Cycle LFO 2 arpeggiator mode or destination,18,,0,127,,,,,,,0-based,Button mode. Cycles arp_mode (when Hold On) or lfo2_destination (when Hold Off).,0: Ignored; 1-127: Cycle next. Hold On (arp mode): 0: Down; 1: Up&Down; 2: Up; 3: Random; 4: Random 2; 5: Random Markov. Hold Off (destination): 0: Filter; 1: Amplitude; 2: Oscillator 1+2
+discoDSP,Discovery Pro,Button Mode,Mod Env Destination (button),Cycle mod envelope destination,19,,0,127,,,,,,,0-based,Button mode. Cycles mod env destination through GUI order.,0: Ignored; 1-127: Cycle next destination. Order: 0: Oscillator 2; 1: FM; 2: Pulse Width; 3: Disabled; 4: Oscillator 2 + Wave
+discoDSP,Discovery Pro,Button Mode,Osc 1 Waveform (button),Cycle Osc 1 waveform,20,,0,127,,,,,,,0-based,Button mode. Cycles Osc 1 waveform through GUI order.,0: Ignored; 1-127: Cycle next waveform. Order: 0: Pulse Width Modulation; 1: Saw; 2: Triangle; 3: Sine; 4: Pulse; 5: Parabolic; 6: Super 7
+discoDSP,Discovery Pro,Button Mode,Osc 2 Waveform (button),Cycle Osc 2 waveform,21,,0,127,,,,,,,0-based,Button mode. Cycles Osc 2 waveform through GUI order.,0: Ignored; 1-127: Cycle next waveform. Order: 0: Pulse Width Modulation; 1: Saw; 2: Triangle; 3: Noise; 4: Pulse; 5: Parabolic; 6: Pink Noise; 7: Super 7
+discoDSP,Discovery Pro,Button Mode,Amp Limiter (button),Toggle output limiter,22,,0,127,,,,,,,0-based,Button mode. Toggles amp limiter on/off.,0: Ignored; 1-127: Toggle (Off / On)
+discoDSP,Discovery Pro,Button Mode,Osc 2 Kbd Track (button),Toggle Osc 2 keyboard tracking,23,,0,127,,,,,,,0-based,Button mode. Toggles Osc 2 keyboard tracking on/off.,0: Ignored; 1-127: Toggle (Off / On)
+discoDSP,Discovery Pro,Button Mode,Osc Mode (button),Cycle Osc 2 modulation mode,24,,0,127,,,,,,,0-based,Button mode. Cycles Osc mode (0 to 3 then wraps).,0: Ignored; 1-127: Cycle next mode. Order: 0: Off; 1: Sync; 2: Ring Modulation; 3: FM via Osc 2
+discoDSP,Discovery Pro,Button Mode,Filter Type Prev (button),Previous filter type,25,,0,127,,,,,,,0-based,Button mode. Steps backward through GUI-ordered filter list (skips hidden filters).,0: Ignored; 1-127: Step previous in GUI order: 0: LP24; 1: LP12; 2: Ladder24; 3: Ladder12; 4: XFilter24; 5: XFilter12; 6: YFilter24; 7: YFilter12; 8: SEM Classic; 9: SEM Raw; 10: HP24; 11: HP12; 12: BP24; 13: BR24; 14: Formant; 15: Phaser
+discoDSP,Discovery Pro,Button Mode,Filter Type Next (button),Next filter type,26,,0,127,,,,,,,0-based,Button mode. Steps forward through GUI-ordered filter list (skips hidden filters).,0: Ignored; 1-127: Step next in GUI order: 0: LP24; 1: LP12; 2: Ladder24; 3: Ladder12; 4: XFilter24; 5: XFilter12; 6: YFilter24; 7: YFilter12; 8: SEM Classic; 9: SEM Raw; 10: HP24; 11: HP12; 12: BP24; 13: BR24; 14: Formant; 15: Phaser
+discoDSP,Discovery Pro,Button Mode,Filter Velocity (button),Toggle filter velocity sensitivity,27,,0,127,,,,,,,0-based,Button mode. Toggles filter velocity on/off.,0: Ignored; 1-127: Toggle (Off / On)
+discoDSP,Discovery Pro,Button Mode,Filter Kbd Track (button),Cycle filter keyboard tracking,28,,0,127,,,,,,,0-based,Button mode. Cycles filter kbd tracking amount.,0: Ignored; 1-127: Cycle next amount. Order: 0: Off; 1: 2/3; 2: 1/3; 3: Full
+discoDSP,Discovery Pro,Button Mode,Filter Distortion (button),Cycle filter distortion algorithm,29,,0,127,,,,,,,0-based,Button mode. Cycles filter distortion algorithm.,0: Ignored; 1-127: Cycle next algorithm. Order: 0: Off; 1: Asymmetric 1; 2: Symmetric; 3: Asymmetric 2; 4: Tube Warmth
+discoDSP,Discovery Pro,Button Mode,Wave Kbd Track (button),Toggle wave keyboard tracking,30,,0,127,,,,,,,0-based,Button mode. Toggles wave keyboard tracking on/off.,0: Ignored; 1-127: Toggle (Off / On)
+discoDSP,Discovery Pro,Button Mode,Octave Down (button),Octave shift down,31,,0,127,,,,,,,0-based,Button mode. Decrements octave shift (clamped at -2).,0: Ignored; 1-127: Step octave -1
+discoDSP,Discovery Pro,Button Mode,Octave Up (button),Octave shift up,32,,0,127,,,,,,,0-based,Button mode. Increments octave shift (clamped at +2).,0: Ignored; 1-127: Step octave +1
+discoDSP,Discovery Pro,Button Mode,Wheel Mode (button),Cycle mod wheel destination,33,,0,127,,,,,,,0-based,Button mode. Cycles mod wheel destination.,0: Ignored; 1-127: Cycle next destination. Order: 0: Filter; 1: FM; 2: Osc 2; 3: LFO 1; 4: Morph; 5: Off
+discoDSP,Discovery Pro,Button Mode,Program Up (button),Next program,34,,0,127,,,,,,,0-based,Button mode. Loads next program.,0: Ignored; 1-127: Step program +1
+discoDSP,Discovery Pro,Button Mode,Program Down (button),Previous program,35,,0,127,,,,,,,0-based,Button mode. Loads previous program.,0: Ignored; 1-127: Step program -1
+discoDSP,Discovery Pro,Button Mode,Play Mode (button),Cycle play mode,36,,0,127,,,,,,,0-based,Button mode. Cycles play mode.,0: Ignored; 1-127: Cycle next mode. Order: 0: Monophonic; 1: Legato; 2: Polyphonic
+discoDSP,Discovery Pro,Button Mode,Portamento Auto (button),Toggle portamento auto,37,,0,127,,,,,,,0-based,Button mode. Toggles portamento auto/legato on/off.,0: Ignored; 1-127: Toggle (Off / On)
+discoDSP,Discovery Pro,Button Mode,Layer A Select (button),Select layer A,40,,0,127,,,,,,,0-based,Button mode. Clicks Layer A selector button in editor.,0: Ignored; 1-127: Click Layer A
+discoDSP,Discovery Pro,Button Mode,Layer B Select (button),Select layer B,41,,0,127,,,,,,,0-based,Button mode. Clicks Layer B selector button in editor.,0: Ignored; 1-127: Click Layer B
+discoDSP,Discovery Pro,Button Mode,Layer C Select (button),Select layer C,42,,0,127,,,,,,,0-based,Button mode. Clicks Layer C selector button in editor.,0: Ignored; 1-127: Click Layer C
+discoDSP,Discovery Pro,Button Mode,Layer D Select (button),Select layer D,43,,0,127,,,,,,,0-based,Button mode. Clicks Layer D selector button in editor.,0: Ignored; 1-127: Click Layer D
+discoDSP,Discovery Pro,Button Mode,Unison (button),Toggle Unison voices,44,,0,127,,,,,,,0-based,Button mode. Toggles Unison bit (bit 2) of misc_unison.,0: Ignored; 1-127: Toggle Unison (Off / On)
+discoDSP,Discovery Pro,Button Mode,Phaser/Chorus (button),Cycle Phaser/Chorus combination,45,,0,127,,,,,,,0-based,Button mode. Cycles bottom 2 bits of misc_unison (Phaser=bit0; Chorus=bit1).,0: Ignored; 1-127: Cycle next combination. Order: 0: Off; 1: Phaser; 2: Chorus; 3: Phaser+Chorus

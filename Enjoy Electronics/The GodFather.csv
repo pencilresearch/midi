@@ -1,0 +1,67 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Enjoy Electronics,The GodFather,"Channel 1, trigger",Trigger,,32,,0,1,,,,,,,0-based,,0: Off; 1: Trigger
+Enjoy Electronics,The GodFather,"Channel 1, saturator",Saturator,,3,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 1, filter",Filter,,7,,0,127,,,,,,,centered,,0~63: Low-pass cutoff; 64: No filter; 65~127: High-pass cutoff
+Enjoy Electronics,The GodFather,"Channel 1, filter",FDP filter,,104,,0,21,,,,,,,0-based,Manual states '11 No filtering' but range appears to extend to 21; 21 is likely the no-filter value (probable manual typo),0~10: Low-pass cutoff; 11~20: High-pass cutoff; 21: No filtering
+Enjoy Electronics,The GodFather,"Channel 1, delay",Delay amount,,4,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 1, delay",Delay time,,90,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 1, delay",Delay offset,,94,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 1, delay",Delay feedback,,98,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 1, double pulse delay",Double pulse delay level,,5,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 1, double pulse delay",Double pulse delay line 1 position,,82,,0,127,,,,,,,0-based,,0-16: Position 0; 17-33: Position 1; 34-49: Position 2; 50-66: Position 3; 67-83: Position 4; 84-99: Position 5; 100-116: Position 6; 117-127: Position 7
+Enjoy Electronics,The GodFather,"Channel 1, double pulse delay",Double pulse delay line 2 position,,86,,0,127,,,,,,,0-based,,0-16: Position 0; 17-33: Position 1; 34-49: Position 2; 50-66: Position 3; 67-83: Position 4; 84-99: Position 5; 100-116: Position 6; 117-127: Position 7
+Enjoy Electronics,The GodFather,"Channel 1, reverb",Reverb send,,6,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 1, mixer",Volume level,,70,,0,100,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 1, mixer",Pan,,74,,0,127,,,,,,,centered,,0~63: Left; 64: Centre; 65~127: Right
+Enjoy Electronics,The GodFather,"Channel 1, mixer",Width,,78,,0,100,,,,,,,0-based,Inverted: 0 is widest; higher values narrow the stereo field,
+Enjoy Electronics,The GodFather,"Channel 2, trigger",Trigger,,33,,0,1,,,,,,,0-based,,0: Off; 1: Trigger
+Enjoy Electronics,The GodFather,"Channel 2, saturator",Saturator,,8,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 2, filter",Filter,,12,,0,127,,,,,,,centered,,0~63: Low-pass cutoff; 64: No filter; 65~127: High-pass cutoff
+Enjoy Electronics,The GodFather,"Channel 2, filter",FDP filter,,105,,0,21,,,,,,,0-based,Manual states '11 No filtering' but range appears to extend to 21; 21 is likely the no-filter value (probable manual typo),0~10: Low-pass cutoff; 11~20: High-pass cutoff; 21: No filtering
+Enjoy Electronics,The GodFather,"Channel 2, delay",Delay amount,,9,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 2, delay",Delay time,,91,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 2, delay",Delay offset,,95,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 2, delay",Delay feedback,,99,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 2, double pulse delay",Double pulse delay level,,10,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 2, double pulse delay",Double pulse delay line 1 position,,83,,0,127,,,,,,,0-based,,0-16: Position 0; 17-33: Position 1; 34-49: Position 2; 50-66: Position 3; 67-83: Position 4; 84-99: Position 5; 100-116: Position 6; 117-127: Position 7
+Enjoy Electronics,The GodFather,"Channel 2, double pulse delay",Double pulse delay line 2 position,,87,,0,127,,,,,,,0-based,,0-16: Position 0; 17-33: Position 1; 34-49: Position 2; 50-66: Position 3; 67-83: Position 4; 84-99: Position 5; 100-116: Position 6; 117-127: Position 7
+Enjoy Electronics,The GodFather,"Channel 2, reverb",Reverb send,,11,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 2, mixer",Volume level,,71,,0,100,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 2, mixer",Pan,,75,,0,127,,,,,,,centered,,0~63: Left; 64: Centre; 65~127: Right
+Enjoy Electronics,The GodFather,"Channel 2, mixer",Width,,79,,0,100,,,,,,,0-based,Inverted: 0 is widest; higher values narrow the stereo field,
+Enjoy Electronics,The GodFather,"Channel 3, trigger",Trigger,,34,,0,1,,,,,,,0-based,,0: Off; 1: Trigger
+Enjoy Electronics,The GodFather,"Channel 3, saturator",Saturator,,13,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 3, filter",Filter,,17,,0,127,,,,,,,centered,,0~63: Low-pass cutoff; 64: No filter; 65~127: High-pass cutoff
+Enjoy Electronics,The GodFather,"Channel 3, filter",FDP filter,,106,,0,21,,,,,,,0-based,Manual states '11 No filtering' but range appears to extend to 21; 21 is likely the no-filter value (probable manual typo),0~10: Low-pass cutoff; 11~20: High-pass cutoff; 21: No filtering
+Enjoy Electronics,The GodFather,"Channel 3, delay",Delay amount,,14,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 3, delay",Delay time,,92,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 3, delay",Delay offset,,96,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 3, delay",Delay feedback,,100,,0,127,,,,,,,0-based,MIDI In only,
+Enjoy Electronics,The GodFather,"Channel 3, double pulse delay",Double pulse delay level,,15,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 3, double pulse delay",Double pulse delay line 1 position,,84,,0,127,,,,,,,0-based,,0-16: Position 0; 17-33: Position 1; 34-49: Position 2; 50-66: Position 3; 67-83: Position 4; 84-99: Position 5; 100-116: Position 6; 117-127: Position 7
+Enjoy Electronics,The GodFather,"Channel 3, double pulse delay",Double pulse delay line 2 position,,88,,0,127,,,,,,,0-based,,0-16: Position 0; 17-33: Position 1; 34-49: Position 2; 50-66: Position 3; 67-83: Position 4; 84-99: Position 5; 100-116: Position 6; 117-127: Position 7
+Enjoy Electronics,The GodFather,"Channel 3, reverb",Reverb send,,16,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 3, mixer",Volume level,,72,,0,100,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 3, mixer",Pan,,76,,0,127,,,,,,,centered,,0~63: Left; 64: Centre; 65~127: Right
+Enjoy Electronics,The GodFather,"Channel 3, mixer",Width,,80,,0,100,,,,,,,0-based,Inverted: 0 is widest; higher values narrow the stereo field,
+Enjoy Electronics,The GodFather,"Channel 4, trigger",Trigger,,35,,0,1,,,,,,,0-based,,0: Off; 1: Trigger
+Enjoy Electronics,The GodFather,"Channel 4, saturator",Saturator,,18,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 4, filter",Filter,,22,,0,127,,,,,,,centered,,0~63: Low-pass cutoff; 64: No filter; 65~127: High-pass cutoff
+Enjoy Electronics,The GodFather,"Channel 4, filter",FDP filter,,107,,0,21,,,,,,,0-based,Manual states '11 No filtering' but range appears to extend to 21; 21 is likely the no-filter value (probable manual typo),0~10: Low-pass cutoff; 11~20: High-pass cutoff; 21: No filtering
+Enjoy Electronics,The GodFather,"Channel 4, delay",Delay amount,,19,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 4, delay",Delay time,,93,,0,127,,,,,,,0-based,MIDI In only; on MIDI Out CC 93 carries global delay time changes instead of channel 4,
+Enjoy Electronics,The GodFather,"Channel 4, delay",Delay offset,,97,,0,127,,,,,,,0-based,MIDI In only; on MIDI Out CC 97 carries global delay offset changes instead of channel 4,
+Enjoy Electronics,The GodFather,"Channel 4, delay",Delay feedback,,101,,0,127,,,,,,,0-based,MIDI In only; on MIDI Out CC 101 carries global delay feedback changes instead of channel 4,
+Enjoy Electronics,The GodFather,"Channel 4, double pulse delay",Double pulse delay level,,20,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 4, double pulse delay",Double pulse delay line 1 position,,85,,0,127,,,,,,,0-based,,0-16: Position 0; 17-33: Position 1; 34-49: Position 2; 50-66: Position 3; 67-83: Position 4; 84-99: Position 5; 100-116: Position 6; 117-127: Position 7
+Enjoy Electronics,The GodFather,"Channel 4, double pulse delay",Double pulse delay line 2 position,,89,,0,127,,,,,,,0-based,,0-16: Position 0; 17-33: Position 1; 34-49: Position 2; 50-66: Position 3; 67-83: Position 4; 84-99: Position 5; 100-116: Position 6; 117-127: Position 7
+Enjoy Electronics,The GodFather,"Channel 4, reverb",Reverb send,,21,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 4, mixer",Volume level,,73,,0,100,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,"Channel 4, mixer",Pan,,77,,0,127,,,,,,,centered,,0~63: Left; 64: Centre; 65~127: Right
+Enjoy Electronics,The GodFather,"Channel 4, mixer",Width,,81,,0,100,,,,,,,0-based,Inverted: 0 is widest; higher values narrow the stereo field,
+Enjoy Electronics,The GodFather,Global,Reverb size,,23,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,Global,Reverb amount,,24,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,Global,Reverb filter,,25,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,Global,LFO 1 amount,,26,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,Global,LFO 2 amount,,27,,0,127,,,,,,,0-based,,
+Enjoy Electronics,The GodFather,Global,Master,,28,,0,127,,,,,,,0-based,,

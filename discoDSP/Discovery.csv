@@ -1,0 +1,56 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+discoDSP,Discovery,Global,Mod Wheel,Modulation wheel,1,,0,127,0,,,,,,0-based,Standard MIDI mod wheel input.,0~127: No modulation to full modulation
+discoDSP,Discovery,Global,Portamento,Portamento time,5,,0,127,0,,,,,,0-based,Per-layer glide time.,0~127: Instant to slowest glide
+discoDSP,Discovery,Amp,Amp Gain,Amplifier output gain,7,,0,127,,,,,,,0-based,Per-layer level.,0~127: Silence to full output
+discoDSP,Discovery,Oscillator,Osc Mix,Oscillator 1/2 mix,8,,0,127,,,,,,,0-based,Per-layer.,0~127: Osc 1 only to Osc 2 only
+discoDSP,Discovery,Global,Play Mode,Voice play mode,15,,0,2,0,,,,,,0-based,Per-layer; raw value stored.,0: Monophonic; 1: Legato; 2: Polyphonic
+discoDSP,Discovery,Global,Unison,Chorus/Phaser bitfield,16,,0,3,0,,,,,,0-based,Per-layer; bitfield (Chorus=bit0; Phaser=bit1).,0: Off; 1: Chorus; 2: Phaser; 3: Chorus+Phaser
+discoDSP,Discovery,Global,Octave Shift,Octave shift,17,,0,127,2,,,,,,centered,Per-layer; values above 4 clamp to 4.,0: -2 oct; 1: -1 oct; 2: 0; 3: +1 oct; 4~127: +2 oct
+discoDSP,Discovery,Global,Wheel Mode,Mod wheel destination mode,18,,0,5,0,,,,,,0-based,Per-layer.,0: Filter; 1: FM; 2: Osc 2; 3: LFO 1; 4: Morph; 5: Off
+discoDSP,Discovery,LFO 1,LFO1 Rate,LFO 1 rate,19,,0,127,0,,,,,,0-based,Per-layer.,0~127: Slowest to fastest
+discoDSP,Discovery,LFO 1,LFO1 Waveform,LFO 1 waveform,20,,0,9,0,,,,,,0-based,Per-layer; direct value selects waveform.,0: Random; 1: Saw; 2: Triangle; 3: Square; 4: LF Filtered Noise; 5: Random (Retrig); 6: Saw (Retrig); 7: Triangle (Retrig); 8: Square (Retrig); 9: LF Filtered Noise (Retrig)
+discoDSP,Discovery,LFO 1,LFO1 Destination,LFO 1 destination,21,,0,4,0,,,,,,0-based,Per-layer; direct value selects destination.,0: Pulse Width; 1: Filter; 2: Oscillator 2; 3: Oscillator 1+2; 4: FM
+discoDSP,Discovery,LFO 1,LFO1 Amount,LFO 1 amount,22,,0,127,0,,,,,,0-based,Per-layer.,0~127: No modulation to maximum
+discoDSP,Discovery,LFO 2,LFO2 Rate,LFO 2 rate,23,,0,127,0,,,,,,0-based,Per-layer.,0~127: Slowest to fastest
+discoDSP,Discovery,Global,LFO2 Arp + Destination Combo,LFO 2 arp_hold + arp_mode + destination preset,24,,0,8,0,,,,,,0-based,Per-layer; encodes LFO 2 arp_hold + arp_mode + destination as a combined preset; channel 5 broadcasts to all active layers.,0: Arp Down (Hold On); 1: Arp Up (Hold On); 2: Arp Up&Down (Hold On); 3: Dest Filter (Hold Off); 4: Dest Amplitude (Hold Off); 5: Arp Random (Hold On); 6: Arp Random 2 (Hold On); 7: Dest Disabled (Hold Off); 8: Dest Osc 1+2 (Hold Off)
+discoDSP,Discovery,LFO 2,LFO2 Amount,LFO 2 amount,25,,0,127,0,,,,,,0-based,Per-layer.,0~127: No modulation to maximum
+discoDSP,Discovery,Mod Envelope,Mod Env Attack,Modulation envelope attack,26,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery,Mod Envelope,Mod Env Decay,Modulation envelope decay,27,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery,Mod Envelope,Mod Env Destination,Modulation envelope destination,28,,0,3,3,,,,,,0-based,Per-layer; direct value selects destination.,0: Oscillator 2; 1: FM; 2: Pulse Width; 3: Disabled
+discoDSP,Discovery,Mod Envelope,Mod Env Amount,Modulation envelope amount,29,,0,127,64,,,,,,centered,Per-layer.,0~63: Negative; 64: None; 65~127: Positive
+discoDSP,Discovery,Oscillator,Osc 1 Waveform,Oscillator 1 waveform,30,,0,4,0,,,,,,0-based,Per-layer; direct value selects waveform.,0: Pulse Width Modulation; 1: Saw; 2: Triangle; 3: Sine; 4: Pulse
+discoDSP,Discovery,Oscillator,Osc 2 Waveform,Oscillator 2 waveform,31,,0,4,0,,,,,,0-based,Per-layer; direct value selects waveform.,0: Pulse Width Modulation; 1: Saw; 2: Triangle; 3: Noise; 4: Pulse
+discoDSP,Discovery,Oscillator,Osc 2 Finetune,Oscillator 2 finetune,33,,0,127,64,,,,,,centered,Per-layer.,0~127: -50 to +50 cents
+discoDSP,Discovery,Oscillator,Osc 2 Kbd Track,Oscillator 2 keyboard tracking,34,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery,Oscillator,Osc Mode,Oscillator 2 modulation mode,35,,0,3,0,,,,,,0-based,Per-layer; direct value selects mode.,0: Off; 1: Sync; 2: Ring Modulation; 3: FM via Osc 2
+discoDSP,Discovery,Amp Envelope,Amp Decay,Amplitude envelope decay,36,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery,Amp Envelope,Amp Sustain,Amplitude envelope sustain,37,,0,127,0,,,,,,0-based,Per-layer.,0~127: No sustain to full sustain
+discoDSP,Discovery,Filter Envelope,Filter Decay,Filter envelope decay,39,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery,Filter Envelope,Filter Sustain,Filter envelope sustain,40,,0,127,0,,,,,,0-based,Per-layer.,0~127: No sustain to full sustain
+discoDSP,Discovery,Filter Envelope,Filter Release,Filter envelope release,41,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery,Filter,Filter Resonance,Filter resonance,42,,0,127,0,,,,,,0-based,Per-layer; may self-oscillate at high values.,0~127: No resonance to maximum Q
+discoDSP,Discovery,Filter,Filter Env Amount,Filter envelope modulation amount,43,,0,127,64,,,,,,centered,Per-layer.,0~63: Inverted env; 64: None; 65~127: Positive env
+discoDSP,Discovery,Filter,Filter Type,Filter type,44,,0,7,0,,,,,,0-based,Per-layer; direct value selects filter algorithm.,0: LowPass 12; 1: LowPass 24; 2: HighPass 24; 3: BandPass 24; 4: BandReject 24; 5: HighPass 12; 6: Formant 24; 7: Phaser 8Tap
+discoDSP,Discovery,Filter,Filter Velocity,Filter velocity sensitivity,45,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: On
+discoDSP,Discovery,Filter,Filter Kbd Track,Filter keyboard tracking,46,,0,3,0,,,,,,0-based,Per-layer; bitfield masked to lower 2 bits.,0: Off; 1: 2/3; 2: 1/3; 3: Full
+discoDSP,Discovery,Global,Portamento Auto,Portamento auto/legato mode,65,,0,127,0,,,,,,0-based,Per-layer.,0: Off; 1-127: Auto
+discoDSP,Discovery,Oscillator,Osc 1 FM Amount,Oscillator 1 FM amount,70,,0,127,0,,,,,,0-based,Per-layer.,0~127: No FM to maximum FM depth
+discoDSP,Discovery,Amp Envelope,Amp Release,Amplitude envelope release,72,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery,Amp Envelope,Amp Attack,Amplitude envelope attack,73,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery,Filter,Filter Frequency,Filter cutoff,74,,0,127,127,,,,,,0-based,Per-layer; exponential frequency response.,0~127: Fully closed to fully open
+discoDSP,Discovery,Oscillator,Osc 2 Semitones,Oscillator 2 semitone offset,78,,0,127,64,,,,,,centered,Per-layer (scaled by /120).,0~127: -64 to +63 semitones
+discoDSP,Discovery,Oscillator,Osc Pulse Width,Oscillator pulse width,79,,0,127,64,,,,,,centered,Per-layer.,0~63: Narrow; 64: Square; 65~127: Wide
+discoDSP,Discovery,Filter,Filter Distortion,Filter distortion algorithm,80,,0,3,0,,,,,,0-based,Per-layer; bitfield masked to lower 2 bits.,0: Off; 1: Asymmetric 1; 2: Symmetric; 3: Asymmetric 2
+discoDSP,Discovery,Delay,Delay Level,Delay output level,81,,0,127,0,,,,,,0-based,Per-layer.,0~127: Dry only to fully wet delay
+discoDSP,Discovery,Delay,Delay Left Time,Delay left channel time,82,,0,127,0,,,,,,0-based,Per-layer.,0~127: Shortest to longest
+discoDSP,Discovery,Delay,Delay Right Time,Delay right channel time,83,,0,127,0,,,,,,0-based,Per-layer.,0~127: Shortest to longest
+discoDSP,Discovery,Delay,Delay Feedback Left,Delay left feedback,84,,0,127,0,,,,,,0-based,Per-layer.,0~127: No feedback to near-infinite sustain
+discoDSP,Discovery,Delay,Delay Feedback Right,Delay right feedback,85,,0,127,0,,,,,,0-based,Per-layer.,0~127: No feedback to near-infinite sustain
+discoDSP,Discovery,Pan,Pan Position,Pan position,86,,0,127,64,,,,,,centered,Per-layer.,0~63: Left; 64: Center; 65~127: Right
+discoDSP,Discovery,Pan,Pan Mod Rate,Auto-pan rate,87,,0,127,0,,,,,,0-based,Per-layer.,0~127: Slowest to fastest
+discoDSP,Discovery,Pan,Pan Mod Amount,Auto-pan depth,88,,0,127,0,,,,,,0-based,Per-layer.,0~127: No movement to full stereo width
+discoDSP,Discovery,Filter Envelope,Filter Attack,Filter envelope attack,89,,0,127,0,,,,,,0-based,Per-layer.,0~127: Near-instant to slowest
+discoDSP,Discovery,Layer,Layer A Active,Layer A on/off,111,,0,127,0,,,,,,0-based,Global; toggles layer A active flag.,0: Off; 1-127: On
+discoDSP,Discovery,Layer,Layer B Active,Layer B on/off,112,,0,127,0,,,,,,0-based,Global; toggles layer B active flag.,0: Off; 1-127: On
+discoDSP,Discovery,Layer,Layer C Active,Layer C on/off,113,,0,127,0,,,,,,0-based,Global; toggles layer C active flag.,0: Off; 1-127: On
+discoDSP,Discovery,Layer,Layer D Active,Layer D on/off,114,,0,127,0,,,,,,0-based,Global; toggles layer D active flag.,0: Off; 1-127: On

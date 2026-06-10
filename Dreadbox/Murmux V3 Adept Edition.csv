@@ -1,0 +1,54 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Dreadbox,Murmux V3 Adept Edition,Performance,Mod wheel,,1,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Performance,Master spread,,8,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Performance,Modulation source,,25,,,,,,,,,,0-based,"MAIN, LFO, VELOCITY, MODWHEEL, AFTERTOUCH",
+Dreadbox,Murmux V3 Adept Edition,Performance,Play mode,,26,,,,,,,,,,0-based,"POLY, UNISON, SOLO",
+Dreadbox,Murmux V3 Adept Edition,Performance,Amplifier velocity,,31,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Performance,Sustain pedal,,64,,,,,,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Murmux V3 Adept Edition,Performance,Legato,,68,,,,,,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator glide,,5,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator 1 wave,,75,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator 2 wave,,76,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator 1 tune,,77,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator 2 tune,,78,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator detune,,79,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator 1 modulation,,15,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator 2 modulation,,16,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator mix,,70,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Oscillator sync,,89,,,,,,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Murmux V3 Adept Edition,Oscillators,Noise mix,,96,,,,,,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Murmux V3 Adept Edition,Filter,Filter cutoff,,74,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Filter,Filter resonance,,71,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Filter,Filter envelope amount,,3,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,Filter,Filter LFO amount,,4,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Filter,Filter frequency modulation,,2,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,Filter,Filter tracking,,81,,,,,,,,,,0-based,"ZERO, HALF, FULL",
+Dreadbox,Murmux V3 Adept Edition,Filter,Filter bass,,17,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Envelope,Envelope attack,,11,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Envelope,Envelope decay,,12,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Envelope,Envelope sustain,,13,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Envelope,Envelope release,,14,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Amplifier envelope,Amplifier envelope attack,,73,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Amplifier envelope,Amplifier envelope decay,,6,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Amplifier envelope,Amplifier envelope sustain,,9,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Amplifier envelope,Amplifier envelope release,,72,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Amplifier,Amplifier level,,7,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Amplifier,Drive,,28,,,,,,,,,,0-based,"LOW, MID, HIGH",
+Dreadbox,Murmux V3 Adept Edition,Polyphonic LFO,Polyphonic LFO rate,,19,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Polyphonic LFO,Polyphonic LFO wave,,21,,,,,,,,,,0-based,"SINE, TRI, SAW, RMP, SQR, RND",
+Dreadbox,Murmux V3 Adept Edition,Polyphonic LFO,Polyphonic LFO sync,,29,,,,,,,,,,0-based,"FREE, KEY, BPM, KBPM",
+Dreadbox,Murmux V3 Adept Edition,Polyphonic LFO,Polyphonic LFO fade,,18,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,Polyphonic LFO,Polyphonic LFO spread,,20,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,LFO B,LFO B rate,,22,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,LFO B,LFO B wave,,24,,,,,,,,,,0-based,"SINE, TRI, SAW, RMP, SQR, RND",
+Dreadbox,Murmux V3 Adept Edition,LFO B,LFO B sync,,30,,,,,,,,,,0-based,"FREE, KEY, BPM, KBPM",
+Dreadbox,Murmux V3 Adept Edition,LFO B,LFO B amount,,23,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,BBD,BBD amount,,91,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,BBD,BBD morph,,92,,,,,,,,,,centered,,0~127: -99 to +99
+Dreadbox,Murmux V3 Adept Edition,BBD,BBD LFO speed,,87,,,,,,,,,,0-based,"LOW, MID, HIGH",
+Dreadbox,Murmux V3 Adept Edition,BBD,BBD LFO depth,,88,,,,,,,,,,0-based,"LOW, MID, HIGH",
+Dreadbox,Murmux V3 Adept Edition,Delay,Delay mix,,93,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Delay,Delay time,,94,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,Delay,Delay feedback,,95,,,,,,,,,,0-based,,
+Dreadbox,Murmux V3 Adept Edition,System,All sound off,,120,,,,,,,,,,0-based,,0-63: Off; 64-127: On
+Dreadbox,Murmux V3 Adept Edition,System,All noise off,,123,,,,,,,,,,0-based,,0-63: Off; 64-127: On

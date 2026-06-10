@@ -1,0 +1,8 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Eowave,Quadrantid Swarm,General,LFO speed,,1,,0,127,,,,,,,0-based,,
+Eowave,Quadrantid Swarm,General,Spread,,2,,0,127,,,,,,,0-based,,
+Eowave,Quadrantid Swarm,General,Fold,,3,,0,127,,,,,,,0-based,,
+Eowave,Quadrantid Swarm,General,Perc,,4,,0,127,,,,,,,0-based,,
+Eowave,Quadrantid Swarm,General,Attack,,5,,0,127,,,,,,,0-based,,
+Eowave,Quadrantid Swarm,General,Decay,,6,,0,127,,,,,,,0-based,,
+Eowave,Quadrantid Swarm,General,Volume,,7,,0,127,,,,,,,0-based,,

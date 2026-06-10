@@ -1,6 +1,6 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Supercritical,Redshift 6 ,Part,Drive,,78,,0,127,,0,1,0,16383,,0-based,,
-Supercritical,Redshift 6 ,Part,Character,,70,,0,127,,0,2,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Drive,,78,,0,127,,0,1,0,16383,,0-based,,
+Supercritical,Redshift 6,Part,Character,,70,,0,127,,0,2,0,16383,,0-based,,
 Supercritical,Redshift 6,Part,DCO: Osc 1 Wave,,,,,,,1,0,0,4,,0-based,,0: Saw; 1: Pulse; 2: Saw R; 3: Pulse R; 4: None
 Supercritical,Redshift 6,Part,DCO: Osc 2 Wave,,,,,,,1,1,0,4,,0-based,,0: Saw; 1: Pulse; 2: Saw R; 3: Pulse R; 4: None
 Supercritical,Redshift 6,Part,DCO: Osc 1 PW,,,,,,,1,2,0,16383,,0-based,,

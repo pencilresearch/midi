@@ -1,0 +1,93 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+PWM,Mantis,Standard controls,Bank select,,0,,0,127,,,,,,,0-based,,
+PWM,Mantis,Standard controls,Modulation wheel,,1,,0,127,,,,,,,0-based,Routed to joystick Y axis,
+PWM,Mantis,Standard controls,Expression,,11,,0,127,,,,,,,0-based,Routed via pedal destination,
+PWM,Mantis,Standard controls,Sustain pedal,,64,,0,127,,,,,,,0-based,,
+PWM,Mantis,Standard controls,All sound off,,120,,0,127,,,,,,,0-based,Kills notes and sustained notes,
+PWM,Mantis,Standard controls,Local control,,122,,0,127,,,,,,,0-based,,
+PWM,Mantis,Standard controls,All notes off,,123,,0,127,,,,,,,0-based,,
+PWM,Mantis,Voicing,Voicing mode,,,,,,,0,66,0,2,,0-based,,0: Off; 1: Duophonic; 2: Quadphonic
+PWM,Mantis,Voicing,Voice spread,,,,,,,0,51,0,127,,0-based,,
+PWM,Mantis,Keyboard,Keyboard octave,,,,,,,0,5,60,67,,centered,,
+PWM,Mantis,Glide,Glide time,,5,,0,127,,,,,,,0-based,,
+PWM,Mantis,Glide,Glide auto,,35,,0,1,,,,,,,0-based,,0: Off; 1: On
+PWM,Mantis,Oscillator 1,Oscillator 1 wave,,,,,,,0,14,0,5,,0-based,,
+PWM,Mantis,Oscillator 1,Oscillator 1 shape,,12,44,0,255,,,,,,,0-based,,
+PWM,Mantis,Oscillator 1,Oscillator 1 shape modulation amount,,,,,,,0,21,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Oscillator 1,Oscillator 1 pitch modulation amount,,,,,,,0,22,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Oscillator 1,Oscillator 1 octave,,,,,,,0,24,0,5,,centered,,
+PWM,Mantis,Oscillator 2,Oscillator 2 wave,,,,,,,0,23,0,5,,0-based,,
+PWM,Mantis,Oscillator 2,Oscillator 2 shape,,19,51,0,255,,,,,,,0-based,,
+PWM,Mantis,Oscillator 2,Oscillator 2 shape modulation amount,,,,,,,0,30,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Oscillator 2,Oscillator 2 pitch modulation amount,,,,,,,0,31,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Oscillator 2,Oscillator 2 octave,,,,,,,0,32,0,5,,centered,,
+PWM,Mantis,Oscillator 2,Oscillator 2 semitone,,,,,,,0,28,52,76,,centered,,52~76: -12 to +12
+PWM,Mantis,Oscillator 2,Oscillator 2 cents,,,,,,,0,29,0,127,,0-based,,
+PWM,Mantis,Oscillator 2,Oscillator 2 density,,,,,,,0,26,0,127,,0-based,,
+PWM,Mantis,Oscillator 2,Oscillator 2 density rate,,,,,,,0,27,0,127,,0-based,,
+PWM,Mantis,Oscillators,Sub oscillator,,24,,0,127,,,,,,,0-based,,
+PWM,Mantis,Oscillators,Oscillator drift,,,,,,,0,10,0,127,,0-based,,
+PWM,Mantis,Mix,Oscillator balance,,23,,0,127,,,,,,,centered,,0~127: -64 to +63
+PWM,Mantis,Mix,Noise balance,,27,,0,127,,,,,,,0-based,,
+PWM,Mantis,Mix,Ring modulation balance,,26,,0,127,,,,,,,0-based,,
+PWM,Mantis,Mix,Oscillator level trim,,7,,0,127,,,,,,,0-based,,
+PWM,Mantis,Mix,Noise density,,,,,,,0,123,0,127,,0-based,,
+PWM,Mantis,Filter,Filter cutoff,,29,61,0,255,,,,,,,0-based,14-bit resolution alternative to CC74,
+PWM,Mantis,Filter,Filter cutoff,,74,,0,127,,,,,,,0-based,7-bit resolution alternative to CC29/CC61,
+PWM,Mantis,Filter,Filter resonance,,71,,0,127,,,,,,,0-based,,
+PWM,Mantis,Filter,Filter width,,75,,0,127,,,,,,,0-based,,
+PWM,Mantis,Filter,Filter drive,,80,,0,127,,,,,,,0-based,,
+PWM,Mantis,Filter,Filter type,,,,,,,0,46,0,7,,0-based,,
+PWM,Mantis,Filter,Filter keytrack,,,,,,,0,48,0,127,,0-based,,
+PWM,Mantis,Filter,Filter cutoff modulation amount,,,,,,,0,49,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Filter,Filter width modulation amount,,,,,,,0,50,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Envelope 1,Envelope 1 attack,,82,,0,127,,,,,,,0-based,,
+PWM,Mantis,Envelope 1,Envelope 1 decay,,83,,0,127,,,,,,,0-based,,
+PWM,Mantis,Envelope 1,Envelope 1 sustain,,84,,0,127,,,,,,,0-based,,
+PWM,Mantis,Envelope 1,Envelope 1 release,,85,,0,127,,,,,,,0-based,,
+PWM,Mantis,Envelope 1,Envelope 1 sustain fall,,,,,,,0,57,0,127,,0-based,,
+PWM,Mantis,Envelope 1,Envelope 1 velocity,,,,,,,0,55,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Envelope 1,Envelope 1 repeat,,,,,,,0,25,0,1,,0-based,,0: Off; 1: On
+PWM,Mantis,Envelope 1,Envelope 1 legato,,,,,,,0,56,0,1,,0-based,,0: Off; 1: On
+PWM,Mantis,Envelope 2,Envelope 2 attack,,86,,0,127,,,,,,,0-based,,
+PWM,Mantis,Envelope 2,Envelope 2 decay,,87,,0,127,,,,,,,0-based,,
+PWM,Mantis,Envelope 2,Envelope 2 sustain,,88,,0,127,,,,,,,0-based,,
+PWM,Mantis,Envelope 2,Envelope 2 release,,89,,0,127,,,,,,,0-based,,
+PWM,Mantis,Envelope 2,Envelope 2 sustain fall,,,,,,,0,62,0,127,,0-based,,
+PWM,Mantis,Envelope 2,Envelope 2 velocity,,,,,,,0,60,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Envelope 2,Envelope 2 repeat,,,,,,,0,33,0,1,,0-based,,0: Off; 1: On
+PWM,Mantis,Envelope 2,Envelope 2 legato,,,,,,,0,61,0,1,,0-based,,0: Off; 1: On
+PWM,Mantis,LFO 1,LFO 1 wave,,,,,,,0,69,0,5,,0-based,,
+PWM,Mantis,LFO 1,LFO 1 sync mode,,,,,,,0,68,0,2,,0-based,,0: Free; 1: Sync; 2: One shot
+PWM,Mantis,LFO 1,LFO 1 rate (sync off),,,,,,,0,70,0,127,,0-based,,
+PWM,Mantis,LFO 1,LFO 1 rate (sync on),,,,,,,0,71,0,127,,0-based,,
+PWM,Mantis,LFO 1,LFO 1 fade,,,,,,,0,67,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,LFO 1,LFO 1 retrigger,,,,,,,0,74,0,1,,0-based,,0: Off; 1: On
+PWM,Mantis,LFO 2,LFO 2 wave,,,,,,,0,78,0,5,,0-based,,
+PWM,Mantis,LFO 2,LFO 2 sync mode,,,,,,,0,77,0,2,,0-based,,0: Free; 1: Sync; 2: One shot
+PWM,Mantis,LFO 2,LFO 2 rate (sync off),,,,,,,0,79,0,127,,0-based,,
+PWM,Mantis,LFO 2,LFO 2 rate (sync on),,,,,,,0,80,0,127,,0-based,,
+PWM,Mantis,LFO 2,LFO 2 fade,,,,,,,0,76,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,LFO 2,LFO 2 retrigger,,,,,,,0,83,0,1,,0-based,,0: Off; 1: On
+PWM,Mantis,Modulation routing,Oscillator 1 shape modulation source,,,,,,,1,0,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Oscillator 1 shape modulation scale,,,,,,,1,1,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Oscillator 2 shape modulation source,,,,,,,2,0,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Oscillator 2 shape modulation scale,,,,,,,2,1,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Oscillator 1 pitch modulation source,,,,,,,3,0,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Oscillator 1 pitch modulation scale,,,,,,,3,1,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Oscillator 2 pitch modulation source,,,,,,,4,0,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Oscillator 2 pitch modulation scale,,,,,,,4,1,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Filter cutoff modulation source,,,,,,,5,0,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Filter cutoff modulation scale,,,,,,,5,1,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Filter width modulation source,,,,,,,6,0,0,5,,0-based,,
+PWM,Mantis,Modulation routing,Filter width modulation scale,,,,,,,6,1,0,5,,0-based,,
+PWM,Mantis,Arpeggiator,Arpeggiator enable,,,,,,,0,121,0,1,,0-based,,0: Off; 1: On
+PWM,Mantis,Arpeggiator,Arpeggiator mode,,,,,,,0,117,0,5,,0-based,,
+PWM,Mantis,Arpeggiator,Arpeggiator octave,,,,,,,0,119,0,5,,0-based,,
+PWM,Mantis,Arpeggiator,Arpeggiator swing,,,,,,,0,120,0,127,,centered,,0~127: -64 to +63
+PWM,Mantis,Arpeggiator,Arpeggiator sync,,,,,,,0,116,3,15,,0-based,,
+PWM,Mantis,Effects,Reverb level,,91,,0,127,,,,,,,0-based,,
+PWM,Mantis,Effects,Reverb type,,,,,,,0,102,0,7,,0-based,,
+PWM,Mantis,Effects,Reverb time,,,,,,,0,103,0,127,,0-based,,
+PWM,Mantis,Effects,Chorus level,,93,,0,127,,,,,,,0-based,,
+PWM,Mantis,Effects,Chorus type,,,,,,,0,111,0,3,,0-based,,
