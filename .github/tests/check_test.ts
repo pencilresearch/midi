@@ -1,7 +1,7 @@
 import { walk } from "@std/fs";
 import { relative, resolve } from "@std/path";
 import { parseCSV } from "./parse.ts";
-import { validateFile, validateRow } from "./validate.ts";
+import { validateFile, validatePath, validateRow } from "./validate.ts";
 
 const ROOT = new URL("../../", import.meta.url).pathname;
 
@@ -48,6 +48,7 @@ Deno.test("CSV validation", async () => {
 
   for (const file of files) {
     const rel = relative(ROOT, file);
+    allErrors.push(...validatePath(rel).errors);
     const content = await Deno.readTextFile(file);
     const { rows, errors: parseErrors } = parseCSV(content, rel);
     allErrors.push(...parseErrors);

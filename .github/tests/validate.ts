@@ -20,6 +20,49 @@ export interface ValidationResult {
   warnings: string[];
 }
 
+// Characters not permitted in file/folder names on FAT32 (VFAT long names).
+// "/" is the path separator and is handled by checking each segment, so it is
+// not listed here.
+const FAT32_INVALID = new Set(['"', "*", ":", "<", ">", "?", "\\", "|"]);
+
+// Validate that every component of a path is a legal FAT32 file/folder name.
+// The repo is distributed on FAT32-formatted disks, so folder and file names
+// must avoid reserved characters and control characters.
+export function validatePath(filename: string): ValidationResult {
+  const errors: string[] = [];
+  const warnings: string[] = [];
+
+  for (const segment of filename.split("/")) {
+    if (segment.length === 0) continue;
+
+    const invalid: string[] = [];
+    const seen = new Set<string>();
+    for (const ch of segment) {
+      const code = ch.codePointAt(0)!;
+      let token: string | null = null;
+      if (code <= 0x1f || code === 0x7f) {
+        token = "\\x" + code.toString(16).padStart(2, "0");
+      } else if (FAT32_INVALID.has(ch)) {
+        token = ch;
+      }
+      if (token !== null && !seen.has(token)) {
+        seen.add(token);
+        invalid.push(token);
+      }
+    }
+
+    if (invalid.length > 0) {
+      errors.push(
+        filename + ': name "' + segment +
+          '" contains characters not valid on FAT32 disks: ' +
+          invalid.join(" "),
+      );
+    }
+  }
+
+  return { errors, warnings };
+}
+
 // Validate a single row's fields
 export function validateRow(row: Row, filename: string): ValidationResult {
   const errors: string[] = [];
@@ -233,15 +276,11 @@ export function validateFile(rows: Row[], filename: string): ValidationResult {
       basename !== null && device !== basename && !seenDevice.has(device)
     ) {
       seenDevice.add(device);
-      // "/" is illegal in file names; accept ":" as a stand-in but warn so
-      // the substitution stays visible.
-      const msg = filename + ":" + row.line + ' device "' + device +
-        '" does not match file name "' + basename + '"';
-      if (device.includes("/") && basename.replaceAll(":", "/") === device) {
-        warnings.push(msg);
-      } else {
-        errors.push(msg);
-      }
+      // A device name must match its file name exactly. 
+      errors.push(
+        filename + ":" + row.line + ' device "' + device +
+          '" does not match file name "' + basename + '"',
+      );
     }
 
     if (
