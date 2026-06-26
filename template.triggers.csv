@@ -11,28 +11,28 @@ Lofty,Drumhead,Single-channel mode,CC,,basic,49,49,49,,1~126: Accent; 127: Gate
 Lofty,Drumhead,BD,BD,,1,40,40,40,,1~126: Accent; 127: Gate
 Lofty,Drumhead,BD,BD layer A,,1,41,41,41,,1~126: Accent; 127: Gate
 Lofty,Drumhead,BD,BD layer B,,1,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,SD,,,2,40,40,40,,1~126: Accent; 127: Gate
-Lofty,Drumhead,SD,,,2,41,41,41,,1~126: Accent; 127: Gate
-Lofty,Drumhead,SD,,,2,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,LT,,,3,40,40,40,,1~126: Accent; 127: Gate
-Lofty,Drumhead,LT,,,3,41,41,41,,1~126: Accent; 127: Gate
-Lofty,Drumhead,LT,,,3,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,HT,,,4,40,40,40,,1~126: Accent; 127: Gate
-Lofty,Drumhead,HT,,,4,41,41,41,,1~126: Accent; 127: Gate
-Lofty,Drumhead,HT,,,4,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,RS,,,5,40,40,40,,1~126: Accent; 127: Gate
-Lofty,Drumhead,RS,,,5,41,41,41,,1~126: Accent; 127: Gate
-Lofty,Drumhead,RS,,,5,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,HC,,,6,40,40,40,,1~126: Accent; 127: Gate
-Lofty,Drumhead,HC,,,6,41,41,41,,1~126: Accent; 127: Gate
-Lofty,Drumhead,HC,,,6,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,CH,,,7,40,40,40,,1~126: Accent; 127: Gate
-Lofty,Drumhead,CH,,,7,41,41,41,,1~126: Accent; 127: Gate
-Lofty,Drumhead,CH,,,7,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,OH,,,8,40,40,40,,1~126: Accent; 127: Gate
-Lofty,Drumhead,OH,,,8,41,41,41,,1~126: Accent; 127: Gate
-Lofty,Drumhead,OH,,,8,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,CC,,,9,40,40,40,,1~126: Accent; 127: Gate
-Lofty,Drumhead,CC,,,9,41,41,41,,1~126: Accent; 127: Gate
-Lofty,Drumhead,CC,,,9,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,SD,SD,,2,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,SD,SD layer A,,2,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,SD,SD layer B,,2,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,LT,LT,,3,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,LT,LT layer A,,3,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,LT,LT layer B,,3,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HT,HT,,4,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HT,HT layer A,,4,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HT,HT layer B,,4,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,RS,RS,,5,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,RS,RS layer A,,5,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,RS,RS layer B,,5,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HC,HC,,6,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HC,HC layer A,,6,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HC,HC layer B,,6,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CH,CH,,7,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CH,CH layer A,,7,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CH,CH layer B,,7,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,OH,OH,,8,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,OH,OH layer A,,8,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,OH,OH layer B,,8,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CC,CC,,9,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CC,CC layer A,,9,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CC,CC layer B,,9,42,42,42,,1~126: Accent; 127: Gate
 Lofty,Drumhead,General,Chromatic,"In per-track chanel mode, triggers the Drumhead's current active track, adjusted chromatically by note value.",auto,0,31,15,,1~126: Accent; 127: Gate
