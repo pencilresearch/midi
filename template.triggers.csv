@@ -1,0 +1,38 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Lofty,Drumhead,Single-channel mode,BD,,basic,36,36,36,,1~126: Accent; 127: Gate
+Lofty,Drumhead,Single-channel mode,SD,,basic,38,38,38,,1~126: Accent; 127: Gate
+Lofty,Drumhead,Single-channel mode,LT,,basic,43,43,43,,1~126: Accent; 127: Gate
+Lofty,Drumhead,Single-channel mode,HT,,basic,50,50,50,,1~126: Accent; 127: Gate
+Lofty,Drumhead,Single-channel mode,RS,,basic,37,37,37,,1~126: Accent; 127: Gate
+Lofty,Drumhead,Single-channel mode,HC,,basic,39,39,39,,1~126: Accent; 127: Gate
+Lofty,Drumhead,Single-channel mode,CH,,basic,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,Single-channel mode,OH,,basic,46,46,46,,1~126: Accent; 127: Gate
+Lofty,Drumhead,Single-channel mode,CC,,basic,49,49,49,,1~126: Accent; 127: Gate
+Lofty,Drumhead,BD,BD,,1,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,BD,BD layer A,,1,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,BD,BD layer B,,1,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,SD,,,2,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,SD,,,2,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,SD,,,2,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,LT,,,3,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,LT,,,3,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,LT,,,3,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HT,,,4,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HT,,,4,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HT,,,4,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,RS,,,5,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,RS,,,5,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,RS,,,5,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HC,,,6,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HC,,,6,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,HC,,,6,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CH,,,7,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CH,,,7,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CH,,,7,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,OH,,,8,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,OH,,,8,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,OH,,,8,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CC,,,9,40,40,40,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CC,,,9,41,41,41,,1~126: Accent; 127: Gate
+Lofty,Drumhead,CC,,,9,42,42,42,,1~126: Accent; 127: Gate
+Lofty,Drumhead,General,Chromatic,"In per-track chanel mode, triggers the Drumhead's current active track, adjusted chromatically by note value.",auto,0,31,15,,1~126: Accent; 127: Gate

@@ -1,0 +1,69 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Roland,TR-1000,Single channel mode,BD,,basic,36,36,36,,1~127: Volume
+Roland,TR-1000,Single channel mode,BD Layer A,,basic,35,35,35,,1~127: Volume
+Roland,TR-1000,Single channel mode,BD Layer B/alt,,basic,99,99,99,,1~127: Volume
+Roland,TR-1000,Single channel mode,SD,,basic,38,38,38,,1~127: Volume
+Roland,TR-1000,Single channel mode,SD Layer A,,basic,40,40,40,,1~127: Volume
+Roland,TR-1000,Single channel mode,SD Layer B/alt,,basic,104,104,104,,1~127: Volume
+Roland,TR-1000,Single channel mode,LT,,basic,43,43,43,,1~127: Volume
+Roland,TR-1000,Single channel mode,LT Layer A,,basic,41,41,41,,1~127: Volume
+Roland,TR-1000,Single channel mode,LT Layer B/alt,,basic,105,105,105,,1~127: Volume
+Roland,TR-1000,Single channel mode,HT,,basic,50,50,50,,1~127: Volume
+Roland,TR-1000,Single channel mode,HT Layer A,,basic,48,48,48,,1~127: Volume
+Roland,TR-1000,Single channel mode,HT Layer B/alt,,basic,112,112,112,,1~127: Volume
+Roland,TR-1000,Single channel mode,RS,,basic,37,37,37,,1~127: Volume
+Roland,TR-1000,Single channel mode,RS Layer B/alt,,basic,56,56,56,,1~127: Volume
+Roland,TR-1000,Single channel mode,HC,,basic,39,39,39,,1~127: Volume
+Roland,TR-1000,Single channel mode,HC Layer B/alt,,basic,54,54,54,,1~127: Volume
+Roland,TR-1000,Single channel mode,CH,,basic,42,42,42,,1~127: Volume
+Roland,TR-1000,Single channel mode,CH Layer B/alt,,basic,44,44,44,,1~127: Volume
+Roland,TR-1000,Single channel mode,OH,,basic,46,46,46,,1~127: Volume
+Roland,TR-1000,Single channel mode,OH Layer B/alt,,basic,58,58,58,,1~127: Volume
+Roland,TR-1000,Single channel mode,CC,,basic,49,49,49,,1~127: Volume
+Roland,TR-1000,Single channel mode,CC Layer B/alt,,basic,61,61,61,,1~127: Volume
+Roland,TR-1000,Single channel mode,RC,,basic,51,51,51,,1~127: Volume
+Roland,TR-1000,Single channel mode,RC Layer B/alt,,basic,63,63,63,,1~127: Volume
+Roland,TR-1000,Single channel mode,TRG,,basic,84,84,84,,1~127: Volume
+Roland,TR-1000,BD,BD,,1,40,40,40,,1~127: Volume
+Roland,TR-1000,BD,BD Layer A,,1,89,89,89,,1~127: Volume
+Roland,TR-1000,BD,BD Layer A slice,,1,0,15,,,1~127: Volume
+Roland,TR-1000,BD,BD Layer B/alt,,2,89,89,89,,1~127: Volume
+Roland,TR-1000,BD,BD Layer A+B slice,,2,16,31,,,1~127: Volume
+Roland,TR-1000,BD,BD Layer B slice,,2,0,15,,,1~127: Volume
+Roland,TR-1000,SD,SD,,3,40,40,40,,1~127: Volume
+Roland,TR-1000,SD,SD Layer A,,3,89,89,89,,1~127: Volume
+Roland,TR-1000,SD,SD Layer A slice,,3,0,15,,,1~127: Volume
+Roland,TR-1000,SD,SD Layer B/alt,,4,89,89,89,,1~127: Volume
+Roland,TR-1000,SD,SD Layer A+B slice,,4,16,31,,,1~127: Volume
+Roland,TR-1000,SD,SD Layer B slice,,4,0,15,,,1~127: Volume
+Roland,TR-1000,LT,LT,,5,40,40,40,,1~127: Volume
+Roland,TR-1000,LT,LT Layer A,,5,89,89,89,,1~127: Volume
+Roland,TR-1000,LT,LT Layer A slice,,5,0,15,,,1~127: Volume
+Roland,TR-1000,LT,LT Layer B/alt,,6,89,89,89,,1~127: Volume
+Roland,TR-1000,LT,LT Layer A+B slice,,6,16,31,,,1~127: Volume
+Roland,TR-1000,LT,LT Layer B slice,,6,0,15,,,1~127: Volume
+Roland,TR-1000,HT,HT,,7,40,40,40,,1~127: Volume
+Roland,TR-1000,HT,HT Layer A,,7,89,89,89,,1~127: Volume
+Roland,TR-1000,HT,HT Layer A slice,,7,0,15,,,1~127: Volume
+Roland,TR-1000,HT,HT Layer B/alt,,8,89,89,89,,1~127: Volume
+Roland,TR-1000,HT,HT Layer A+B slice,,8,16,31,,,1~127: Volume
+Roland,TR-1000,HT,HT Layer B slice,,8,0,15,,,1~127: Volume
+Roland,TR-1000,RS,RS,,9,40,40,40,,1~127: Volume
+Roland,TR-1000,RS,RS Layer B/alt,,9,89,89,89,,1~127: Volume
+Roland,TR-1000,RS,RS Layer A+B slice,,9,0,15,,,1~127: Volume
+Roland,TR-1000,HC,HC,,10,40,40,40,,1~127: Volume
+Roland,TR-1000,HC,HC Layer B/alt,,10,89,89,89,,1~127: Volume
+Roland,TR-1000,HC,HC Layer A+B slice,,10,0,15,,,1~127: Volume
+Roland,TR-1000,CH,CH,,11,40,40,40,,1~127: Volume
+Roland,TR-1000,CH,CH Layer B/alt,,11,89,89,89,,1~127: Volume
+Roland,TR-1000,CH,CH Layer A+B slice,,11,0,15,,,1~127: Volume
+Roland,TR-1000,OH,OH,,12,40,40,40,,1~127: Volume
+Roland,TR-1000,OH,OH Layer B/alt,,12,89,89,89,,1~127: Volume
+Roland,TR-1000,OH,OH Layer A+B slice,,12,0,15,,,1~127: Volume
+Roland,TR-1000,CC,CC,,13,40,40,40,,1~127: Volume
+Roland,TR-1000,CC,CC Layer B/alt,,13,89,89,89,,1~127: Volume
+Roland,TR-1000,CC,CC Layer A+B slice,,13,0,15,,,1~127: Volume
+Roland,TR-1000,RC,RC,,14,40,40,40,,1~127: Volume
+Roland,TR-1000,RC,RC Layer B/alt,,14,89,89,89,,1~127: Volume
+Roland,TR-1000,RC,RC Layer A+B slice,,14,0,15,,,1~127: Volume
+Roland,TR-1000,TRG,TRG,,15,40,40,40,,1~127: Volume
