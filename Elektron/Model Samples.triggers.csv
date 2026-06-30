@@ -1,0 +1,14 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Elektron,Model Samples,General,Track 1,,1,0,0,0,,1~127: Volume
+Elektron,Model Samples,General,Track 1,"Plays track 1's sample chromatically across 49 variations, lowest to highest pitch.",1,12,60,36,Inferred; not explicit in the official documentation.,1~127: Volume
+Elektron,Model Samples,General,Track 2,,2,1,1,1,,1~127: Volume
+Elektron,Model Samples,General,Track 2,"Plays track 2's sample chromatically across 49 variations, lowest to highest pitch.",2,12,60,36,Inferred; not explicit in the official documentation.,1~127: Volume
+Elektron,Model Samples,General,Track 3,,3,2,2,2,,1~127: Volume
+Elektron,Model Samples,General,Track 3,"Plays track 3's sample chromatically across 49 variations, lowest to highest pitch.",3,12,60,36,Inferred; not explicit in the official documentation.,1~127: Volume
+Elektron,Model Samples,General,Track 4,,4,3,3,3,,1~127: Volume
+Elektron,Model Samples,General,Track 4,"Plays track 4's sample chromatically across 49 variations, lowest to highest pitch.",4,12,60,36,Inferred; not explicit in the official documentation.,1~127: Volume
+Elektron,Model Samples,General,Track 5,,5,4,4,4,,1~127: Volume
+Elektron,Model Samples,General,Track 5,"Plays track 5's sample chromatically across 49 variations, lowest to highest pitch.",5,12,60,36,Inferred; not explicit in the official documentation.,1~127: Volume
+Elektron,Model Samples,General,Track 6,,6,5,5,5,,1~127: Volume
+Elektron,Model Samples,General,Track 6,"Plays track 6's sample chromatically across 49 variations, lowest to highest pitch.",6,12,60,36,Inferred; not explicit in the official documentation.,1~127: Volume
+Elektron,Model Samples,General,Active track,"Plays the currently active track's sample across its 49 chromatic variations, lowest to highest pitch.",auto,12,60,36,,1~127: Volume
