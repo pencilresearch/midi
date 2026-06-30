@@ -1,4 +1,4 @@
-# Contributing to the MIDI CC & NRPN Database
+# Contributing to MIDI Guide
 
 Thank you for helping MIDI Guide to document every MIDI CC parameter! This contribution guide explains how to submit new or edited device definitions.
 
