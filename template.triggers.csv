@@ -35,4 +35,4 @@ Lofty,Drumhead,OH,OH layer B,,8,42,42,42,,1~126: Accent; 127: Gate
 Lofty,Drumhead,CC,CC,,9,40,40,40,,1~126: Accent; 127: Gate
 Lofty,Drumhead,CC,CC layer A,,9,41,41,41,,1~126: Accent; 127: Gate
 Lofty,Drumhead,CC,CC layer B,,9,42,42,42,,1~126: Accent; 127: Gate
-Lofty,Drumhead,General,Chromatic,"In per-track chanel mode, triggers the Drumhead's current active track, adjusted chromatically by note value.",auto,0,31,15,,1~126: Accent; 127: Gate
+Lofty,Drumhead,General,Chromatic,"In per-track channel mode, triggers the Drumhead's current active track, adjusted chromatically by note value.",auto,0,31,15,,1~126: Accent; 127: Gate
