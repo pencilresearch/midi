@@ -2,12 +2,23 @@ import { walk } from "@std/fs";
 import { relative, resolve } from "@std/path";
 import { parseCSV } from "./parse.ts";
 import { validateFile, validatePath, validateRow } from "./validate.ts";
+import { parseTriggerCSV } from "./parse-triggers.ts";
+import {
+  validateTriggerFile,
+  validateTriggerRow,
+} from "./validate-triggers.ts";
 
 const ROOT = new URL("../../", import.meta.url).pathname;
 
+function isTriggerFile(absPath: string): boolean {
+  return absPath.endsWith(".triggers.csv");
+}
+
 function isExcluded(absPath: string): boolean {
-  // template.csv at the repo root is a scaffolding file, not a real definition.
-  return resolve(absPath) === resolve(ROOT, "template.csv");
+  // The root template.csv / template.triggers.csv files are scaffolding, not
+  // real definitions.
+  return resolve(absPath) === resolve(ROOT, "template.csv") ||
+    resolve(absPath) === resolve(ROOT, "template.triggers.csv");
 }
 
 async function collectCSVFiles(): Promise<string[]> {
@@ -50,6 +61,22 @@ Deno.test("CSV validation", async () => {
     const rel = relative(ROOT, file);
     allErrors.push(...validatePath(rel).errors);
     const content = await Deno.readTextFile(file);
+
+    if (isTriggerFile(file)) {
+      const { rows, errors: parseErrors } = parseTriggerCSV(content, rel);
+      allErrors.push(...parseErrors);
+      const fileResult = validateTriggerFile(rows, rel);
+      allErrors.push(...fileResult.errors);
+      allWarnings.push(...fileResult.warnings);
+
+      for (const row of rows) {
+        const { errors, warnings } = validateTriggerRow(row, rel);
+        allErrors.push(...errors);
+        allWarnings.push(...warnings);
+      }
+      continue;
+    }
+
     const { rows, errors: parseErrors } = parseCSV(content, rel);
     allErrors.push(...parseErrors);
     const fileResult = validateFile(rows, rel);

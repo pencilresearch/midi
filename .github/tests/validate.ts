@@ -1,10 +1,11 @@
 import type { Row } from "./parse.ts";
+import { parseUsageOptions } from "./usage.ts";
 
 function rowLabel(row: Row, filename: string): string {
   return filename + ":" + row.line + " " + row.parameter_name;
 }
 
-function midiRange(
+export function midiRange(
   value: number | null,
   name: string,
   label: string,
@@ -82,42 +83,11 @@ export function validateRow(row: Row, filename: string): ValidationResult {
   }
 
   // --- Usage checks ---
-  const usageOptions: Record<string, string> = {};
-  if (row.usage) {
-    const parts = row.usage.split(";");
-    for (const rawPart of parts) {
-      const part = rawPart.trim();
-      if (!part.length) continue;
-
-      const sparts = part.split(":");
-      if (sparts.length < 2) {
-        errors.push(`Bad usage part, no ":" in "${part}" in: ${label}`);
-        continue;
-      }
-
-      const values = sparts.shift()!.trim();
-      const meaning = sparts.join(":").trim();
-
-      if (values.match(/^\d+$/)) {
-        if (!(values in usageOptions)) usageOptions[values] = meaning;
-      } else if (values.match(/^\d+\s*[-~]\s*\d+$/)) {
-        const match = values.match(/^(\d+)\s*[-~]\s*(\d+)$/)!;
-        const s = parseInt(match[1]);
-        const e = parseInt(match[2]);
-        for (let v = s; v <= e; v++) {
-          if (!(String(v) in usageOptions)) usageOptions[String(v)] = meaning;
-        }
-      } else {
-        errors.push(
-          `Bad usage part, values "${values}" not correctly formatted in "${part}" in: ${label}`,
-        );
-      }
-
-      if (!meaning) {
-        errors.push(`Bad usage part, no meaning in "${part}" in: ${label}`);
-      }
-    }
-  }
+  const { options: usageOptions, errors: usageErrors } = parseUsageOptions(
+    row.usage,
+    label,
+  );
+  errors.push(...usageErrors);
 
   // --- Column checks ---
 
