@@ -1,0 +1,7 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Korg,volca drum,Parts,Part 1,,1,0,127,,,
+Korg,volca drum,Parts,Part 2,,2,0,127,,,
+Korg,volca drum,Parts,Part 3,,3,0,127,,,
+Korg,volca drum,Parts,Part 4,,4,0,127,,,
+Korg,volca drum,Parts,Part 5,,5,0,127,,,
+Korg,volca drum,Parts,Part 6,,6,0,127,,,
