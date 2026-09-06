@@ -1,0 +1,33 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Behringer,LM DRUM,Default note map,Bass drum,,basic,36,36,36,Velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Default note map,Sidestick,,basic,37,37,37,,1~127: Volume
+Behringer,LM DRUM,Default note map,Snare drum,,basic,40,40,40,Velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Default note map,Closed hi-hat,,basic,42,42,42,Velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Default note map,Open hi-hat,,basic,46,46,46,,1~127: Volume
+Behringer,LM DRUM,Default note map,Crash cymbal,,basic,49,49,49,,1~127: Volume
+Behringer,LM DRUM,Default note map,Ride cymbal,,basic,51,51,51,Velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Default note map,High tom,,basic,50,50,50,,1~127: Volume
+Behringer,LM DRUM,Default note map,Mid tom,,basic,47,47,47,,1~127: Volume
+Behringer,LM DRUM,Default note map,Low tom,,basic,45,45,45,,1~127: Volume
+Behringer,LM DRUM,Default note map,Cabasa,,basic,69,69,69,Velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Default note map,Tambourine,,basic,54,54,54,Velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Default note map,High conga,,basic,63,63,63,,1~127: Volume
+Behringer,LM DRUM,Default note map,Low conga,,basic,64,64,64,,1~127: Volume
+Behringer,LM DRUM,Default note map,Cowbell,,basic,56,56,56,,1~127: Volume
+Behringer,LM DRUM,Default note map,Claps,,basic,39,39,39,,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Bass drum,Plays the bass drum chromatically.,1,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits; velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Snare drum,Plays the snare drum chromatically.,2,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits; velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Sidestick,Plays the sidestick chromatically.,3,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Closed hi-hat,Plays the closed hi-hat chromatically.,4,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits; velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Open hi-hat,Plays the open hi-hat chromatically.,5,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,High tom,Plays the high tom chromatically.,6,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Mid tom,Plays the mid tom chromatically.,7,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Low tom,Plays the low tom chromatically.,8,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Ride cymbal,Plays the ride cymbal chromatically.,9,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits; velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Crash cymbal,Plays the crash cymbal chromatically.,10,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Cabasa,Plays the cabasa chromatically.,11,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits; velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Tambourine,Plays the tambourine chromatically.,12,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits; velocity can select alternate samples at configurable thresholds.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,High conga,Plays the high conga chromatically.,13,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Low conga,Plays the low conga chromatically.,14,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Cowbell,Plays the cowbell chromatically.,15,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
+Behringer,LM DRUM,Chromatic mode,Claps,Plays the claps chromatically.,16,0,127,,Default channel; reconfigurable. Playable note range inferred from MIDI 1.0 because the manual does not state limits.,1~127: Volume
