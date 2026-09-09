@@ -1,0 +1,17 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Meris,Mercury7,Expression,Expression pedal,Morphs between toe up and toe down knob settings,4,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Footswitches,Bypass,Bypasses or engages effect processing,14,,0,127,,,,,,,0-based,,0-63: Bypass; 64-127: Engage
+Meris,Mercury7,Knobs,Space decay,Sets decay energy of the reverberation space,16,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Knobs,Modulate,Sets overall modulation depth of the reverb algorithm,17,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Knobs,Mix,Adjusts mix of dry and wet signals in analog domain,18,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Knobs,Lo frequency,Changes low frequency decay times in the reverb algorithm,19,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Knobs,Pitch vector,Sets intra-tank pitch interval,20,,0,127,,,,,,,0-based,Pitch intervals are octave down slight pitch down slight pitch up 5th up and octave up,
+Meris,Mercury7,Knobs,Hi frequency,Changes high frequency absorption in the reverb algorithm,21,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Alt functions,Predelay,Sets amount of time that elapses before the onset of reverberation,22,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Alt functions,Mod speed,Sets dominant modulation speed of the reverb algorithm,23,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Alt functions,Pitch vector mix,Adjusts mix between intra-tank pitch shifted reflections and normal reflections,24,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Alt functions,Density,Sets amount of initial build up of echoes before the reverb tank,25,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Alt functions,Attack time,Sets the attack time for the swell envelope,26,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Alt functions,Vibrato depth,Adds vibrato to the reverb input,27,,0,127,,,,,,,0-based,,
+Meris,Mercury7,Footswitches,Swell,Engages auto swell function or maximizes space decay sustain when held,28,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Meris,Mercury7,Footswitches,Algorithm select,Selects active reverb algorithm,29,,0,127,,,,,,,0-based,,0-63: Ultraplate; 64-127: Cathedra
