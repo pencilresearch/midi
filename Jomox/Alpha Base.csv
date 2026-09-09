@@ -43,35 +43,35 @@ Jomox,Alpha Base,MBrane,Envelope 2 Decay,Decay time of modulation envelope 2,95,
 Jomox,Alpha Base,MBrane,Envelope 2 Amount,Amount of modulation envelope 2 applied,96,,0,127,,,,,,,0-based,Channel 2,0~127: Envelope 2 depth
 Jomox,Alpha Base,MBrane,Select Instrument for Multi Kit,Selects the instrument slot for a multi kit,64,,0,127,,,,,,,0-based,Channel 2,0~127: Instrument select
 Jomox,Alpha Base,MBrane,Volume,Instrument output level,7,,0,127,,,,,,,0-based,Channel 2,0~127: Output level
-Jomox,Alpha Base,Sample,Sample Tune,Coarse tuning of the sample,100,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample coarse tune
-Jomox,Alpha Base,Sample,Sample Cents,Fine tuning of the sample in cents,99,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample fine tune
-Jomox,Alpha Base,Sample,Sample Start,Sample playback start point,101,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample start position
-Jomox,Alpha Base,Sample,Sample Stop,Sample playback stop point,102,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample stop position
-Jomox,Alpha Base,Sample,Sample Loop,Sample loop point,97,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample loop position
-Jomox,Alpha Base,Sample,Sample Select,Selects the sample,103,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample select
-Jomox,Alpha Base,Sample,VCA Envelope Attack,Attack time of the amplitude envelope,104,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope attack
-Jomox,Alpha Base,Sample,Filter Envelope Attack,Attack time of the filter envelope,105,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope attack
-Jomox,Alpha Base,Sample,VCA Envelope Decay,Decay time of the amplitude envelope,106,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope decay
-Jomox,Alpha Base,Sample,Filter Envelope Decay,Decay time of the filter envelope,107,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope decay
-Jomox,Alpha Base,Sample,VCA Envelope Sustain,Sustain level of the amplitude envelope,108,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope sustain
-Jomox,Alpha Base,Sample,Filter Envelope Sustain,Sustain level of the filter envelope,109,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope sustain
-Jomox,Alpha Base,Sample,VCA Envelope Release,Release time of the amplitude envelope,110,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope release
-Jomox,Alpha Base,Sample,Filter Envelope Release,Release time of the filter envelope,111,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope release
-Jomox,Alpha Base,Sample,Filter Cutoff,Filter cutoff frequency (low pass on HH),112,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter cutoff
-Jomox,Alpha Base,Sample,Filter Resonance,Filter resonance amount,113,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter resonance
-Jomox,Alpha Base,Sample,Filter Hi Pass,High pass filter amount (only HH),114,,0,127,,,,,,,0-based,Channels 3-10,0~127: High pass amount
-Jomox,Alpha Base,Sample,Filter Envelope Amount,Amount of filter envelope applied to cutoff,115,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope depth
-Jomox,Alpha Base,Sample,Filter Mode,Selects the filter mode,116,,0,3,,,,,,,0-based,"Channels 3-10; range 0-1 on HH, 0-3 on CLP-RID",0~3: Filter mode
-Jomox,Alpha Base,Sample,LFO Synchronization,LFO free run or retrigger on note,96,,0,1,,,,,,,0-based,Channels 3-10,0-1: LFO sync
-Jomox,Alpha Base,Sample,LFO Wave,Selects the LFO waveform,119,,0,63,,,,,,,0-based,Channels 3-10,0~63: LFO waveform select
-Jomox,Alpha Base,Sample,LFO Rate,LFO speed,122,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO speed
-Jomox,Alpha Base,Sample,LFO Tune Amount,LFO modulation depth to pitch,121,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to tune depth
-Jomox,Alpha Base,Sample,LFO VCA Amount,LFO modulation depth to amplitude,124,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to VCA depth
-Jomox,Alpha Base,Sample,LFO Filter Amount,LFO modulation depth to filter cutoff,125,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to filter depth
-Jomox,Alpha Base,Sample,Metallic Noise,Selects metallic noise patterns,94,,0,127,,,,,,,0-based,Channels 3-10,0~127: Metallic noise mode
-Jomox,Alpha Base,Sample,Switch CC,Toggles reverse and loop states,65,,0,3,,,,,,,0-based,Channels 3-10,1-0: Reverse on/off; 3-2: Loop on/off
-Jomox,Alpha Base,Sample,Select Instrument for Multi Kit,Selects the instrument slot for a multi kit,64,,0,127,,,,,,,0-based,Channels 3-10,0~127: Instrument select
-Jomox,Alpha Base,Sample,Volume,Instrument output level,7,,0,127,,,,,,,0-based,Channels 3-10,0~127: Output level
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Tune,Coarse tuning of the sample,100,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample coarse tune
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Cents,Fine tuning of the sample in cents,99,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample fine tune
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Start,Sample playback start point,101,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample start position
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Stop,Sample playback stop point,102,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample stop position
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Loop,Sample loop point,97,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample loop position
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Select,Selects the sample,103,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample select
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),VCA Envelope Attack,Attack time of the amplitude envelope,104,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope attack
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Attack,Attack time of the filter envelope,105,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope attack
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),VCA Envelope Decay,Decay time of the amplitude envelope,106,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope decay
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Decay,Decay time of the filter envelope,107,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope decay
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),VCA Envelope Sustain,Sustain level of the amplitude envelope,108,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope sustain
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Sustain,Sustain level of the filter envelope,109,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope sustain
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),VCA Envelope Release,Release time of the amplitude envelope,110,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope release
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Release,Release time of the filter envelope,111,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope release
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Cutoff,Filter cutoff frequency (low pass on HH),112,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter cutoff
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Resonance,Filter resonance amount,113,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter resonance
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Hi Pass,High pass filter amount (only HH),114,,0,127,,,,,,,0-based,Channels 3-10,0~127: High pass amount
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Amount,Amount of filter envelope applied to cutoff,115,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope depth
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Mode,Selects the filter mode,116,,0,3,,,,,,,0-based,"Channels 3-10; range 0-1 on HH, 0-3 on CLP-RID",0~3: Filter mode
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Synchronization,LFO free run or retrigger on note,96,,0,1,,,,,,,0-based,Channels 3-10,0-1: LFO sync
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Wave,Selects the LFO waveform,119,,0,63,,,,,,,0-based,Channels 3-10,0~63: LFO waveform select
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Rate,LFO speed,122,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO speed
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Tune Amount,LFO modulation depth to pitch,121,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to tune depth
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO VCA Amount,LFO modulation depth to amplitude,124,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to VCA depth
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Filter Amount,LFO modulation depth to filter cutoff,125,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to filter depth
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Metallic Noise,Selects metallic noise patterns,94,,0,127,,,,,,,0-based,Channels 3-10,0~127: Metallic noise mode
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Switch CC,Toggles reverse and loop states,65,,0,3,,,,,,,0-based,Channels 3-10,1-0: Reverse on/off; 3-2: Loop on/off
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Select Instrument for Multi Kit,Selects the instrument slot for a multi kit,64,,0,127,,,,,,,0-based,Channels 3-10,0~127: Instrument select
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Volume,Instrument output level,7,,0,127,,,,,,,0-based,Channels 3-10,0~127: Output level
 Jomox,Alpha Base,FM Synth,OP1 Tune,Tuning of operator 1,100,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 1 tune
 Jomox,Alpha Base,FM Synth,OP2 Tune,Tuning of operator 2,101,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 2 tune
 Jomox,Alpha Base,FM Synth,OP3 Tune,Tuning of operator 3,102,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 3 tune
