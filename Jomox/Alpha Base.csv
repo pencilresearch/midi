@@ -1,0 +1,161 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Jomox,Alpha Base,Kick Drum,Tune,Intensity of initial pitch sweep envelope for the kick,100,,0,127,,,,,,,0-based,Channel 1,0~127: Pitch sweep amount
+Jomox,Alpha Base,Kick Drum,Pitch,Base oscillator frequency of the kick,101,,0,127,,,,,,,0-based,Channel 1,0~127: Base pitch
+Jomox,Alpha Base,Kick Drum,Decay,Length of the kick tail,102,,0,127,,,,,,,0-based,Channel 1,0~127: Decay time
+Jomox,Alpha Base,Kick Drum,Harmonics,Shapes sine toward more harmonic content,103,,0,127,,,,,,,0-based,Channel 1,0~127: Harmonic shaping
+Jomox,Alpha Base,Kick Drum,Pulse,Level of the click pulse in the attack,104,,0,127,,,,,,,0-based,Channel 1,0~127: Pulse attack level
+Jomox,Alpha Base,Kick Drum,Noise,Level of noise in the attack,105,,0,127,,,,,,,0-based,Channel 1,0~127: Noise attack level
+Jomox,Alpha Base,Kick Drum,Attack,Scales the mixed pulse and noise attack,106,,0,127,,,,,,,0-based,Channel 1,0~127: Attack mix depth
+Jomox,Alpha Base,Kick Drum,EQ,Gentle output EQ filter intensity,107,,0,127,,,,,,,0-based,Channel 1,0~127: Output EQ amount
+Jomox,Alpha Base,Kick Drum,Compression,Compression shaping of decay loudness,113,,0,127,,,,,,,0-based,Channel 1,0~127: Decay envelope compression
+Jomox,Alpha Base,Kick Drum,Gate Time,Gate length for the analog trigger circuit,114,,0,127,,,,,,,0-based,Channel 1,0~127: Trigger gate length
+Jomox,Alpha Base,Kick Drum,Metallic Noise,Selects metallic noise patterns,115,,0,127,,,,,,,0-based,Channel 1,0~127: Metallic noise mode
+Jomox,Alpha Base,Kick Drum,LFO Wave,Selects the LFO waveform,119,,0,63,,,,,,,0-based,Channel 1,0~63: LFO waveform select
+Jomox,Alpha Base,Kick Drum,LFO Intensity,Amount of LFO modulation applied,121,,0,127,,,,,,,0-based,Channel 1,0~127: LFO depth
+Jomox,Alpha Base,Kick Drum,LFO Rate,LFO speed,122,,0,127,,,,,,,0-based,Channel 1,0~127: LFO speed
+Jomox,Alpha Base,Kick Drum,Envelope Attack,Attack time of the modulation envelope,90,,0,127,,,,,,,0-based,Channel 1,0~127: Envelope attack time
+Jomox,Alpha Base,Kick Drum,Envelope Decay,Decay time of the modulation envelope,91,,0,127,,,,,,,0-based,Channel 1,0~127: Envelope decay time
+Jomox,Alpha Base,Kick Drum,Envelope Amount,Amount of modulation envelope applied,116,,0,127,,,,,,,0-based,Channel 1,0~127: Envelope depth
+Jomox,Alpha Base,Kick Drum,Select Instrument for Multi Kit,Selects the instrument slot for a multi kit,64,,0,127,,,,,,,0-based,Channel 1,0~127: Instrument select
+Jomox,Alpha Base,Kick Drum,Volume,Instrument output level,7,,0,127,,,,,,,0-based,Channel 1,0~127: Output level
+Jomox,Alpha Base,MBrane,Pitch 1,Pitch of resonator 1,108,,0,127,,,,,,,0-based,Channel 2,0~127: Resonator 1 pitch
+Jomox,Alpha Base,MBrane,Dampen 1,Damping of resonator 1,93,,0,127,,,,,,,0-based,Channel 2,0~127: Resonator 1 damping
+Jomox,Alpha Base,MBrane,Pitch 2,Pitch of resonator 2,111,,0,127,,,,,,,0-based,Channel 2,0~127: Resonator 2 pitch
+Jomox,Alpha Base,MBrane,Dampen 2,Damping of resonator 2,97,,0,127,,,,,,,0-based,Channel 2,0~127: Resonator 2 damping
+Jomox,Alpha Base,MBrane,Coupling 1 to 2,Coupling amount from resonator 1 into 2,101,,0,127,,,,,,,0-based,Channel 2,0~127: Coupling 1 into 2
+Jomox,Alpha Base,MBrane,Coupling 2 to 1,Coupling amount from resonator 2 into 1,103,,0,127,,,,,,,centered,Channel 2; Center 63,0~127: Coupling 2 into 1
+Jomox,Alpha Base,MBrane,Noise Level,Level of the noise component,109,,0,127,,,,,,,0-based,Channel 2,0~127: Noise level
+Jomox,Alpha Base,MBrane,Decay,Length of the tail,110,,0,127,,,,,,,0-based,Channel 2,0~127: Decay time
+Jomox,Alpha Base,MBrane,Metallic Noise 1,Selects metallic noise pattern 1,107,,0,127,,,,,,,0-based,Channel 2,0~127: Metallic noise 1 mode
+Jomox,Alpha Base,MBrane,Metallic Noise 2,Selects metallic noise pattern 2,116,,0,127,,,,,,,0-based,Channel 2,0~127: Metallic noise 2 mode
+Jomox,Alpha Base,MBrane,Gate Time,Gate length for the analog trigger circuit,114,,0,127,,,,,,,0-based,Channel 2,0~127: Trigger gate length
+Jomox,Alpha Base,MBrane,LFO 1 Wave,Selects LFO 1 waveform,119,,0,63,,,,,,,0-based,Channel 2,0~63: LFO 1 waveform select
+Jomox,Alpha Base,MBrane,LFO 1 Intensity,Amount of LFO 1 modulation applied,121,,0,127,,,,,,,0-based,Channel 2,0~127: LFO 1 depth
+Jomox,Alpha Base,MBrane,LFO 1 Rate,LFO 1 speed,122,,0,127,,,,,,,0-based,Channel 2,0~127: LFO 1 speed
+Jomox,Alpha Base,MBrane,LFO 2 Wave,Selects LFO 2 waveform,123,,0,63,,,,,,,0-based,Channel 2,0~63: LFO 2 waveform select
+Jomox,Alpha Base,MBrane,LFO 2 Intensity,Amount of LFO 2 modulation applied,124,,0,127,,,,,,,0-based,Channel 2,0~127: LFO 2 depth
+Jomox,Alpha Base,MBrane,LFO 2 Rate,LFO 2 speed,125,,0,127,,,,,,,0-based,Channel 2,0~127: LFO 2 speed
+Jomox,Alpha Base,MBrane,Envelope 1 Attack,Attack time of modulation envelope 1,90,,0,127,,,,,,,0-based,Channel 2,0~127: Envelope 1 attack time
+Jomox,Alpha Base,MBrane,Envelope 1 Decay,Decay time of modulation envelope 1,91,,0,127,,,,,,,0-based,Channel 2,0~127: Envelope 1 decay time
+Jomox,Alpha Base,MBrane,Envelope 1 Amount,Amount of modulation envelope 1 applied,92,,0,127,,,,,,,0-based,Channel 2,0~127: Envelope 1 depth
+Jomox,Alpha Base,MBrane,Envelope 2 Attack,Attack time of modulation envelope 2,94,,0,127,,,,,,,0-based,Channel 2,0~127: Envelope 2 attack time
+Jomox,Alpha Base,MBrane,Envelope 2 Decay,Decay time of modulation envelope 2,95,,0,127,,,,,,,0-based,Channel 2,0~127: Envelope 2 decay time
+Jomox,Alpha Base,MBrane,Envelope 2 Amount,Amount of modulation envelope 2 applied,96,,0,127,,,,,,,0-based,Channel 2,0~127: Envelope 2 depth
+Jomox,Alpha Base,MBrane,Select Instrument for Multi Kit,Selects the instrument slot for a multi kit,64,,0,127,,,,,,,0-based,Channel 2,0~127: Instrument select
+Jomox,Alpha Base,MBrane,Volume,Instrument output level,7,,0,127,,,,,,,0-based,Channel 2,0~127: Output level
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Tune,Coarse tuning of the sample,100,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample coarse tune
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Cents,Fine tuning of the sample in cents,99,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample fine tune
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Start,Sample playback start point,101,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample start position
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Stop,Sample playback stop point,102,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample stop position
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Loop,Sample loop point,97,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample loop position
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Sample Select,Selects the sample,103,,0,127,,,,,,,0-based,Channels 3-10,0~127: Sample select
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),VCA Envelope Attack,Attack time of the amplitude envelope,104,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope attack
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Attack,Attack time of the filter envelope,105,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope attack
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),VCA Envelope Decay,Decay time of the amplitude envelope,106,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope decay
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Decay,Decay time of the filter envelope,107,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope decay
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),VCA Envelope Sustain,Sustain level of the amplitude envelope,108,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope sustain
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Sustain,Sustain level of the filter envelope,109,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope sustain
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),VCA Envelope Release,Release time of the amplitude envelope,110,,0,127,,,,,,,0-based,Channels 3-10,0~127: VCA envelope release
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Release,Release time of the filter envelope,111,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope release
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Cutoff,Filter cutoff frequency (low pass on HH),112,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter cutoff
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Resonance,Filter resonance amount,113,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter resonance
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Hi Pass,High pass filter amount (only HH),114,,0,127,,,,,,,0-based,Channels 3-10,0~127: High pass amount
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Envelope Amount,Amount of filter envelope applied to cutoff,115,,0,127,,,,,,,0-based,Channels 3-10,0~127: Filter envelope depth
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Filter Mode,Selects the filter mode,116,,0,3,,,,,,,0-based,"Channels 3-10; range 0-1 on HH, 0-3 on CLP-RID",0~3: Filter mode
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Synchronization,LFO free run or retrigger on note,96,,0,1,,,,,,,0-based,Channels 3-10,0-1: LFO sync
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Wave,Selects the LFO waveform,119,,0,63,,,,,,,0-based,Channels 3-10,0~63: LFO waveform select
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Rate,LFO speed,122,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO speed
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Tune Amount,LFO modulation depth to pitch,121,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to tune depth
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO VCA Amount,LFO modulation depth to amplitude,124,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to VCA depth
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Filter Amount,LFO modulation depth to filter cutoff,125,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to filter depth
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Metallic Noise,Selects metallic noise patterns,94,,0,127,,,,,,,0-based,Channels 3-10,0~127: Metallic noise mode
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Switch CC,Toggles reverse and loop states,65,,0,3,,,,,,,0-based,Channels 3-10,1-0: Reverse on/off; 3-2: Loop on/off
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Select Instrument for Multi Kit,Selects the instrument slot for a multi kit,64,,0,127,,,,,,,0-based,Channels 3-10,0~127: Instrument select
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Volume,Instrument output level,7,,0,127,,,,,,,0-based,Channels 3-10,0~127: Output level
+Jomox,Alpha Base,FM Synth,OP1 Tune,Tuning of operator 1,100,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 1 tune
+Jomox,Alpha Base,FM Synth,OP2 Tune,Tuning of operator 2,101,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 2 tune
+Jomox,Alpha Base,FM Synth,OP3 Tune,Tuning of operator 3,102,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 3 tune
+Jomox,Alpha Base,FM Synth,OP4 Tune,Tuning of operator 4,103,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 4 tune
+Jomox,Alpha Base,FM Synth,FM Amount 1 to 2,FM modulation depth from operator 1 to 2,104,,0,127,,,,,,,0-based,Channel 11,0~127: FM 1 into 2
+Jomox,Alpha Base,FM Synth,FM Amount 1 to 3,FM modulation depth from operator 1 to 3,105,,0,127,,,,,,,0-based,Channel 11,0~127: FM 1 into 3
+Jomox,Alpha Base,FM Synth,FM Amount 1 to 4,FM modulation depth from operator 1 to 4,106,,0,127,,,,,,,0-based,Channel 11,0~127: FM 1 into 4
+Jomox,Alpha Base,FM Synth,FM Amount 2 to 1,FM modulation depth from operator 2 to 1,107,,0,127,,,,,,,0-based,Channel 11,0~127: FM 2 into 1
+Jomox,Alpha Base,FM Synth,FM Amount 2 to 3,FM modulation depth from operator 2 to 3,108,,0,127,,,,,,,0-based,Channel 11,0~127: FM 2 into 3
+Jomox,Alpha Base,FM Synth,FM Amount 2 to 4,FM modulation depth from operator 2 to 4,109,,0,127,,,,,,,0-based,Channel 11,0~127: FM 2 into 4
+Jomox,Alpha Base,FM Synth,FM Amount 3 to 1,FM modulation depth from operator 3 to 1,110,,0,127,,,,,,,0-based,Channel 11,0~127: FM 3 into 1
+Jomox,Alpha Base,FM Synth,FM Amount 3 to 2,FM modulation depth from operator 3 to 2,111,,0,127,,,,,,,0-based,Channel 11,0~127: FM 3 into 2
+Jomox,Alpha Base,FM Synth,FM Amount 3 to 4,FM modulation depth from operator 3 to 4,112,,0,127,,,,,,,0-based,Channel 11,0~127: FM 3 into 4
+Jomox,Alpha Base,FM Synth,FM Amount 4 to 1,FM modulation depth from operator 4 to 1,113,,0,127,,,,,,,0-based,Channel 11,0~127: FM 4 into 1
+Jomox,Alpha Base,FM Synth,FM Amount 4 to 2,FM modulation depth from operator 4 to 2,114,,0,127,,,,,,,0-based,Channel 11,0~127: FM 4 into 2
+Jomox,Alpha Base,FM Synth,FM Amount 4 to 3,FM modulation depth from operator 4 to 3,115,,0,127,,,,,,,0-based,Channel 11,0~127: FM 4 into 3
+Jomox,Alpha Base,FM Synth,OP1 Env Attack,Attack time of operator 1 envelope,14,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 1 attack
+Jomox,Alpha Base,FM Synth,OP2 Env Attack,Attack time of operator 2 envelope,15,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 2 attack
+Jomox,Alpha Base,FM Synth,OP3 Env Attack,Attack time of operator 3 envelope,16,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 3 attack
+Jomox,Alpha Base,FM Synth,OP4 Env Attack,Attack time of operator 4 envelope,17,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 4 attack
+Jomox,Alpha Base,FM Synth,OP1 Env Decay,Decay time of operator 1 envelope,18,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 1 decay
+Jomox,Alpha Base,FM Synth,OP2 Env Decay,Decay time of operator 2 envelope,19,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 2 decay
+Jomox,Alpha Base,FM Synth,OP3 Env Decay,Decay time of operator 3 envelope,20,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 3 decay
+Jomox,Alpha Base,FM Synth,OP4 Env Decay,Decay time of operator 4 envelope,21,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 4 decay
+Jomox,Alpha Base,FM Synth,OP1 EG to VCA Amount,Operator 1 envelope depth to amplitude,22,,0,127,,,,,,,0-based,Channel 11,0~127: OP1 EG to VCA
+Jomox,Alpha Base,FM Synth,OP2 EG to VCA Amount,Operator 2 envelope depth to amplitude,23,,0,127,,,,,,,0-based,Channel 11,0~127: OP2 EG to VCA
+Jomox,Alpha Base,FM Synth,OP3 EG to VCA Amount,Operator 3 envelope depth to amplitude,24,,0,127,,,,,,,0-based,Channel 11,0~127: OP3 EG to VCA
+Jomox,Alpha Base,FM Synth,OP4 EG to VCA Amount,Operator 4 envelope depth to amplitude,25,,0,127,,,,,,,0-based,Channel 11,0~127: OP4 EG to VCA
+Jomox,Alpha Base,FM Synth,OP1 EG to FM Amount,Operator 1 envelope depth to FM amount,26,,0,127,,,,,,,0-based,Channel 11,0~127: OP1 EG to FM
+Jomox,Alpha Base,FM Synth,OP2 EG to FM Amount,Operator 2 envelope depth to FM amount,27,,0,127,,,,,,,0-based,Channel 11,0~127: OP2 EG to FM
+Jomox,Alpha Base,FM Synth,OP3 EG to FM Amount,Operator 3 envelope depth to FM amount,28,,0,127,,,,,,,0-based,Channel 11,0~127: OP3 EG to FM
+Jomox,Alpha Base,FM Synth,OP4 EG to FM Amount,Operator 4 envelope depth to FM amount,29,,0,127,,,,,,,0-based,Channel 11,0~127: OP4 EG to FM
+Jomox,Alpha Base,FM Synth,Select Instrument for Multi Kit,Selects the instrument slot for a multi kit,64,,0,127,,,,,,,0-based,Channel 11,0~127: Instrument select
+Jomox,Alpha Base,FM Synth,Max Voices,Maximum polyphony,30,,0,5,,,,,,,0-based,Channel 11,0-5: Voice count
+Jomox,Alpha Base,FM Synth,Volume,Instrument output level,7,,0,127,,,,,,,0-based,Channel 11,0~127: Output level
+Jomox,Alpha Base,FX Reverb,Room Size,Reverb room size,100,,0,127,,,,,,,0-based,Channel 16,0~127: Room size
+Jomox,Alpha Base,FX Reverb,Low Pass Reflections,Low pass filtering of reflections,101,,0,127,,,,,,,0-based,Channel 16,0~127: Low pass reflections
+Jomox,Alpha Base,FX Reverb,Hi Pass Reflections,High pass filtering of reflections,102,,0,127,,,,,,,0-based,Channel 16,0~127: High pass reflections
+Jomox,Alpha Base,FX Reverb,Reverb Level,Overall reverb output level,103,,0,127,,,,,,,0-based,Channel 16,0~127: Reverb level
+Jomox,Alpha Base,FX Reverb,KD Reverb Amount,Kick drum send to reverb,104,,0,127,,,,,,,0-based,Channel 16,0~127: Kick reverb send
+Jomox,Alpha Base,FX Reverb,MB Reverb Amount,MBrane send to reverb,105,,0,127,,,,,,,0-based,Channel 16,0~127: MBrane reverb send
+Jomox,Alpha Base,FX Reverb,CH Reverb Amount,Closed hat send to reverb,106,,0,127,,,,,,,0-based,Channel 16,0~127: Closed hat reverb send
+Jomox,Alpha Base,FX Reverb,OH Reverb Amount,Open hat send to reverb,107,,0,127,,,,,,,0-based,Channel 16,0~127: Open hat reverb send
+Jomox,Alpha Base,FX Reverb,CLP Reverb Amount,Clap send to reverb,108,,0,127,,,,,,,0-based,Channel 16,0~127: Clap reverb send
+Jomox,Alpha Base,FX Reverb,RIM Reverb Amount,Rim send to reverb,109,,0,127,,,,,,,0-based,Channel 16,0~127: Rim reverb send
+Jomox,Alpha Base,FX Reverb,CRH Reverb Amount,Crash send to reverb,110,,0,127,,,,,,,0-based,Channel 16,0~127: Crash reverb send
+Jomox,Alpha Base,FX Reverb,RID Reverb Amount,Ride send to reverb,111,,0,127,,,,,,,0-based,Channel 16,0~127: Ride reverb send
+Jomox,Alpha Base,FX Reverb,X1 Reverb Amount,Aux 1 send to reverb,112,,0,127,,,,,,,0-based,Channel 16,0~127: X1 reverb send
+Jomox,Alpha Base,FX Reverb,X2 Reverb Amount,Aux 2 send to reverb,113,,0,127,,,,,,,0-based,Channel 16,0~127: X2 reverb send
+Jomox,Alpha Base,FX Reverb,FM Reverb Amount,FM synth send to reverb,114,,0,127,,,,,,,0-based,Channel 16,0~127: FM reverb send
+Jomox,Alpha Base,FX Delay,Delay Time,Delay time,14,,0,127,,,,,,,0-based,Channel 16,0~127: Delay time
+Jomox,Alpha Base,FX Delay,Delay Feedback,Delay feedback amount,15,,0,127,,,,,,,0-based,Channel 16,0~127: Delay feedback
+Jomox,Alpha Base,FX Delay,Delay Spatial,Delay stereo spread,17,,0,127,,,,,,,0-based,Channel 16,0~127: Delay spatial width
+Jomox,Alpha Base,FX Delay,Delay Level,Overall delay output level,18,,0,127,,,,,,,0-based,Channel 16,0~127: Delay level
+Jomox,Alpha Base,FX Delay,KD Delay Amount,Kick drum send to delay,19,,0,127,,,,,,,0-based,Channel 16,0~127: Kick delay send
+Jomox,Alpha Base,FX Delay,MB Delay Amount,MBrane send to delay,20,,0,127,,,,,,,0-based,Channel 16,0~127: MBrane delay send
+Jomox,Alpha Base,FX Delay,CH Delay Amount,Closed hat send to delay,21,,0,127,,,,,,,0-based,Channel 16,0~127: Closed hat delay send
+Jomox,Alpha Base,FX Delay,OH Delay Amount,Open hat send to delay,22,,0,127,,,,,,,0-based,Channel 16,0~127: Open hat delay send
+Jomox,Alpha Base,FX Delay,CLP Delay Amount,Clap send to delay,23,,0,127,,,,,,,0-based,Channel 16,0~127: Clap delay send
+Jomox,Alpha Base,FX Delay,RIM Delay Amount,Rim send to delay,24,,0,127,,,,,,,0-based,Channel 16,0~127: Rim delay send
+Jomox,Alpha Base,FX Delay,CRH Delay Amount,Crash send to delay,25,,0,127,,,,,,,0-based,Channel 16,0~127: Crash delay send
+Jomox,Alpha Base,FX Delay,RID Delay Amount,Ride send to delay,26,,0,127,,,,,,,0-based,Channel 16,0~127: Ride delay send
+Jomox,Alpha Base,FX Delay,X1 Delay Amount,Aux 1 send to delay,27,,0,127,,,,,,,0-based,Channel 16,0~127: X1 delay send
+Jomox,Alpha Base,FX Delay,X2 Delay Amount,Aux 2 send to delay,28,,0,127,,,,,,,0-based,Channel 16,0~127: X2 delay send
+Jomox,Alpha Base,FX Delay,FM Delay Amount,FM synth send to delay,29,,0,127,,,,,,,0-based,Channel 16,0~127: FM delay send
+Jomox,Alpha Base,Mute,KD Mute,Mute the kick drum,93,,0,1,,,,,,,0-based,Channel 16; internal range 0/1,0: Off; 1: On
+Jomox,Alpha Base,Mute,MB Mute,Mute the MBrane,93,,2,3,,,,,,,0-based,Channel 16; internal range 2/3,2: Off; 3: On
+Jomox,Alpha Base,Mute,CH Mute,Mute the closed hat,93,,4,5,,,,,,,0-based,Channel 16; internal range 4/5,4: Off; 5: On
+Jomox,Alpha Base,Mute,OH Mute,Mute the open hat,93,,6,7,,,,,,,0-based,Channel 16; internal range 6/7,6: Off; 7: On
+Jomox,Alpha Base,Mute,Clap Mute,Mute the clap,93,,8,9,,,,,,,0-based,Channel 16; internal range 8/9,8: Off; 9: On
+Jomox,Alpha Base,Mute,Rim Mute,Mute the rim,93,,10,11,,,,,,,0-based,Channel 16; internal range 10/11,10: Off; 11: On
+Jomox,Alpha Base,Mute,Crash Mute,Mute the crash,93,,12,13,,,,,,,0-based,Channel 16; internal range 12/13,12: Off; 13: On
+Jomox,Alpha Base,Mute,Ride Mute,Mute the ride,93,,14,15,,,,,,,0-based,Channel 16; internal range 14/15,14: Off; 15: On
+Jomox,Alpha Base,Mute,X1 Mute,Mute aux 1,93,,16,17,,,,,,,0-based,Channel 16; internal range 16/17,16: Off; 17: On
+Jomox,Alpha Base,Mute,X2 Mute,Mute aux 2,93,,18,19,,,,,,,0-based,Channel 16; internal range 18/19,18: Off; 19: On
+Jomox,Alpha Base,Mute,FM Mute,Mute the FM synth,93,,20,21,,,,,,,0-based,Channel 16; internal range 20/21,20: Off; 21: On
+Jomox,Alpha Base,Stereo Pan,MB Pan,Stereo pan of the MBrane,34,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,CH Pan,Stereo pan of the closed hat,35,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,OH Pan,Stereo pan of the open hat,36,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,Clap Pan,Stereo pan of the clap,37,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,Rim Pan,Stereo pan of the rim,38,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,Crash Pan,Stereo pan of the crash,39,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,Ride Pan,Stereo pan of the ride,40,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,X1 Pan,Stereo pan of aux 1,41,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,X2 Pan,Stereo pan of aux 2,42,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Stereo Pan,FM Pan,Stereo pan of the FM synth,43,,0,127,64,,,,,,centered,Channel 16,0~127: Pan (64=Center)
+Jomox,Alpha Base,Global,Store Instruments,Stores the current instruments,62,,64,64,,,,,,,0-based,Channel 16; send value 64 to trigger,64: Store instruments
