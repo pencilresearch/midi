@@ -1,0 +1,94 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Kemper,Profiler Stage,Banks and presets,Bank Select MSB,Values above 0 fall outside of available memory,0,,0,0,,,,,,,0-based,Kemper implements only bank 0,
+Kemper,Profiler Stage,Banks and presets,Bank Select LSB,,32,,0,4,,,,,,,0-based,,
+Kemper,Profiler Stage,Banks and presets,Performance Select,"Preselected performance index, Performance mode only",47,,0,124,,,,,,,0-based,,
+Kemper,Profiler Stage,Banks and presets,Performance Index Increase,,48,,0,1,,,,,,,0-based,,0: Noop; 1: Increase
+Kemper,Profiler Stage,Banks and presets,Performance Index Decrease,,49,,0,1,,,,,,,0-based,,0: Noop; 1: Decrease
+Kemper,Profiler Stage,Banks and presets,Select Performance Slot 1,,50,,1,1,,,,,,,0-based,,1: Select Slot 1
+Kemper,Profiler Stage,Banks and presets,Select Performance Slot 2,,51,,1,1,,,,,,,0-based,,1: Select Slot 2
+Kemper,Profiler Stage,Banks and presets,Select Performance Slot 3,,52,,1,1,,,,,,,0-based,,1: Select Slot 3
+Kemper,Profiler Stage,Banks and presets,Select Performance Slot 4,,53,,1,1,,,,,,,0-based,,1: Select Slot 4
+Kemper,Profiler Stage,Banks and presets,Select Performance Slot 5,,54,,1,1,,,,,,,0-based,,1: Select Slot 5
+Kemper,Profiler Stage,Pedals,Wah Pedal Level,,1,,0,127,,,,,,,0-based,,0~127: Wah pedal level
+Kemper,Profiler Stage,Pedals,Pitch Pedal Level,,4,,0,127,,,,,,,0-based,,0~127: Pitch pedal level
+Kemper,Profiler Stage,Pedals,Volume,"Volume, where assigned in the signal chain",7,,0,127,,,,,,,0-based,,0~127: Volume
+Kemper,Profiler Stage,Pedals,Pan,,10,,0,127,,,,,,,centered,,0~127: Pan
+Kemper,Profiler Stage,Pedals,Morph Pedal Value,,11,,0,127,,,,,,,0-based,,0~127: Morph pedal value
+Kemper,Profiler Stage,Stomps,All Stomps On/Off,,16,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Stomps,Stomp A On/Off,,17,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Stomps,Stomp B On/Off,,18,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Stomps,Stomp C On/Off,,19,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Stomps,Stomp D On/Off,,20,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Effect X On/Off,,22,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Effect Mod On/Off,,24,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Delay On/Off (Cuts Tails),,26,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Delay On/Off (Keeps Tails),,27,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Reverb On/Off (Cuts Tails),,28,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Reverb On/Off (Keeps Tails),,29,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Rotary Speed,Toggles the Rotary Speaker effect's fast/slow speed,33,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Delay Feedback Infinity On/Off,,34,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Delay Hold On/Off,,35,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Delay Mix Level,,68,,0,127,,,,,,,0-based,,0~127: Delay mix level
+Kemper,Profiler Stage,Effects,Delay Feedback Level,,69,,0,127,,,,,,,0-based,,0~127: Delay feedback level
+Kemper,Profiler Stage,Effects,Reverb Mix Level,,70,,0,127,,,,,,,0-based,,0~127: Reverb mix level
+Kemper,Profiler Stage,Effects,Reverb Time Level,,71,,0,127,,,,,,,0-based,,0~127: Reverb time level
+Kemper,Profiler Stage,Effects,Effect Button I,Emulates Effect Button I,75,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Effect Button II,Emulates Effect Button II,76,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Effect Button III,Emulates Effect Button III,77,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Effects,Effect Button IV,Emulates Effect Button IIII,78,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Amplifier,Amplifier Gain Level,,72,,0,127,,,,,,,0-based,,0~127: Amplifier gain level
+Kemper,Profiler Stage,Global controls,Tap Tempo,"Value 1 performs a tap, 127 engages the beat scanner, 0 disengages it",30,,0,127,,,,,,,0-based,,0: Off; 1: Tap; 127: Engage Beat Scanner
+Kemper,Profiler Stage,Global controls,Tuner Display,,31,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Global controls,Monitor Volume,,73,,0,127,,,,,,,0-based,,0~127: Monitor volume
+Kemper,Profiler Stage,Looper,Looper Start,,81,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Looper,Looper Stop,,82,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,Profiler Stage,Rig,Tempo,,,,,,,4,0,0,16383,,0-based,,
+Kemper,Profiler Stage,Rig,Volume,,,,,,,4,1,0,16383,,0-based,,
+Kemper,Profiler Stage,Rig,Tempo Enable,,,,,,,4,2,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Rig,Transpose,,,,,,,4,4,0,16383,,centered,,
+Kemper,Profiler Stage,Rig,Stomps Section On/Off,,,,,,,4,64,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Rig,Stack Section On/Off,,,,,,,4,65,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Rig,Effects Section On/Off,,,,,,,4,66,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Rig,Volume Pedal Location,,,,,,,4,68,0,16383,,0-based,,
+Kemper,Profiler Stage,Rig,Volume Pedal Range,,,,,,,4,69,0,16383,,0-based,,
+Kemper,Profiler Stage,Rig,Parallel Path Enable,,,,,,,4,71,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Rig,Parallel Path Mix,,,,,,,4,72,0,16383,,0-based,,
+Kemper,Profiler Stage,Rig,Rig Spillover Off,,,,,,,4,73,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Rig,Delay+Reverb Routing,,,,,,,4,74,0,16383,,0-based,,
+Kemper,Profiler Stage,Input,Noise Gate Intensity,,,,,,,9,3,0,16383,,0-based,,
+Kemper,Profiler Stage,Input,Clean Sense,,,,,,,9,4,0,16383,,0-based,,
+Kemper,Profiler Stage,Input,Distortion Sense,,,,,,,9,5,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,On/Off,,,,,,,10,2,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Amplifier,Gain,,,,,,,10,4,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Clean Compensation,,,,,,,10,5,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Definition,,,,,,,10,6,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Clarity,,,,,,,10,7,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Power Sagging,,,,,,,10,8,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Pick,,,,,,,10,9,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Compressor,,,,,,,10,10,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Tube Shape,,,,,,,10,11,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Tube Bias,,,,,,,10,12,0,16383,,0-based,,
+Kemper,Profiler Stage,Amplifier,Direct Mix,,,,,,,10,15,0,16383,,0-based,,
+Kemper,Profiler Stage,Tone stack,On/Off,,,,,,,11,2,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Tone stack,Bass,,,,,,,11,4,0,16383,,0-based,,
+Kemper,Profiler Stage,Tone stack,Mids,,,,,,,11,5,0,16383,,0-based,,
+Kemper,Profiler Stage,Tone stack,Treble,,,,,,,11,6,0,16383,,0-based,,
+Kemper,Profiler Stage,Tone stack,Presence,,,,,,,11,7,0,16383,,0-based,,
+Kemper,Profiler Stage,Cabinet,On/Off,,,,,,,12,2,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,Cabinet,Volume,,,,,,,12,3,0,16383,,0-based,,
+Kemper,Profiler Stage,Cabinet,High Shift,,,,,,,12,4,0,16383,,0-based,,
+Kemper,Profiler Stage,Cabinet,Low Shift,,,,,,,12,5,0,16383,,0-based,,
+Kemper,Profiler Stage,Cabinet,Character,,,,,,,12,6,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Main Output Volume,,,,,,,127,0,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Headphone Output Volume,,,,,,,127,1,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Monitor Output Volume,,,,,,,127,2,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Direct Output Volume,,,,,,,127,3,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,SPDIF Input Enable,,,,,,,127,11,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,Profiler Stage,System and global outputs,Main Output EQ Bass,,,,,,,127,12,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Main Output EQ Mids,,,,,,,127,13,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Main Output EQ Treble,,,,,,,127,14,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Main Output EQ Presence,,,,,,,127,15,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Monitor Output EQ Bass,,,,,,,127,17,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Monitor Output EQ Mids,,,,,,,127,18,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Monitor Output EQ Treble,,,,,,,127,19,0,16383,,0-based,,
+Kemper,Profiler Stage,System and global outputs,Monitor Output EQ Presence,,,,,,,127,20,0,16383,,0-based,,
