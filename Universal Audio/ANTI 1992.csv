@@ -1,0 +1,32 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,ANTI 1992,Global controls,Bypass,,19,,0,2,,,,,,,0-based,,0: Bypass; 1: Unbypass Left Footswitch; 2: Unbypass Right Footswitch
+Universal Audio,ANTI 1992,Global controls,Store,,16,,0,1,,,,,,,0-based,Stores the current edits to the active preset,0: Off; 1: Hold
+Universal Audio,ANTI 1992,Footswitches,Footswitch Left,,12,,0,1,,,,,,,0-based,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode. 1 toggles the footswitch,
+Universal Audio,ANTI 1992,Footswitches,Footswitch Right,,13,,0,1,,,,,,,0-based,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode. 1 toggles the footswitch,
+Universal Audio,ANTI 1992,Amp,Input,,21,,0,1,,,,,,,0-based,,0: Low; 1: High
+Universal Audio,ANTI 1992,Amp,Channel Select,,17,,0,2,,,,,,,0-based,"Rhythm Mode variants (Clean, Punch, Punch+) can't be set via CC. Create presets and assign them to MIDI Program Changes instead",0: Rhythm; 1: Crunch; 2: Lead
+Universal Audio,ANTI 1992,Amp,Bias,,26,,0,3,,,,,,,0-based,Choke bias options reduce output power for a more compressed feel,0: Cool; 1: Warm; 2: Cool Choke; 3: Warm Choke
+Universal Audio,ANTI 1992,Amp,Bright,,36,,0,1,,,,,,,0-based,,0: Off; 1: On
+Universal Audio,ANTI 1992,Amp,Pre,,22,,0,127,,,,,,,0-based,,0~127: Pre
+Universal Audio,ANTI 1992,Amp,Post,,25,,0,127,,,,,,,0-based,,0~127: Post
+Universal Audio,ANTI 1992,Amp,Output,,7,,0,127,,,,,,,0-based,,0~127: Output
+Universal Audio,ANTI 1992,Amp,Bass,,31,,0,127,,,,,,,0-based,,0~127: Bass
+Universal Audio,ANTI 1992,Amp,Middle,,32,,0,127,,,,,,,0-based,,0~127: Middle
+Universal Audio,ANTI 1992,Amp,Treble,,33,,0,127,,,,,,,0-based,,0~127: Treble
+Universal Audio,ANTI 1992,Amp,Presence,,34,,0,127,,,,,,,0-based,,0~127: Presence
+Universal Audio,ANTI 1992,Amp,Resonance,,35,,0,127,,,,,,,0-based,,0~127: Resonance
+Universal Audio,ANTI 1992,Amp,Room,,30,,0,127,,,,,,,0-based,,0~127: Room
+Universal Audio,ANTI 1992,Amp,Boost Enable,,40,,0,1,,,,,,,0-based,,0: Off; 1: On
+Universal Audio,ANTI 1992,Amp,Boost Drive,,42,,0,127,,,,,,,0-based,,0~127: Boost drive
+Universal Audio,ANTI 1992,Amp,Boost Level,,41,,0,127,,,,,,,0-based,,0~127: Boost level
+Universal Audio,ANTI 1992,Amp,Boost Tone,,44,,0,127,,,,,,,0-based,,0~127: Boost tone
+Universal Audio,ANTI 1992,Amp,Boost Type,,45,,0,1,,,,,,,0-based,,0: TS; 1: TC
+Universal Audio,ANTI 1992,Cabinet,Cab Select,,18,,0,6,,,,,,,0-based,Values above 6 are clamped to Cab 1 to prevent accidentally disabling the cab,0-5: Cab 1-6; 6: No Cab
+Universal Audio,ANTI 1992,Cabinet,Cab Up,,14,,0,1,,,,,,,0-based,1 toggles the switch,
+Universal Audio,ANTI 1992,Cabinet,Cab Down,,15,,0,1,,,,,,,0-based,1 toggles the switch,
+Universal Audio,ANTI 1992,Noise Gate,Gate Enable,,70,,0,1,,,,,,,0-based,,0: Off; 1: On
+Universal Audio,ANTI 1992,Noise Gate,Gate Threshold,,71,,0,127,,,,,,,0-based,,0~127: Gate threshold
+Universal Audio,ANTI 1992,Noise Gate,Gate Attack,,73,,0,127,,,,,,,0-based,,0~127: Gate attack
+Universal Audio,ANTI 1992,Noise Gate,Gate Hold,,72,,0,127,,,,,,,0-based,,0~127: Gate hold
+Universal Audio,ANTI 1992,Noise Gate,Gate Release,,74,,0,127,,,,,,,0-based,,0~127: Gate release
+Universal Audio,ANTI 1992,Noise Gate,Gate Attenuation,,75,,0,127,,,,,,,0-based,,0~127: Gate attenuation
