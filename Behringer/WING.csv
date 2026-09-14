@@ -1,0 +1,898 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Behringer,WING,Channels,Channel 1 Fader,,12,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 1 Mute,,12,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 1 Pan,,12,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 2 Fader,,13,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 2 Mute,,13,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 2 Pan,,13,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 3 Fader,,14,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 3 Mute,,14,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 3 Pan,,14,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 4 Fader,,15,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 4 Mute,,15,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 4 Pan,,15,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 5 Fader,,16,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 5 Mute,,16,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 5 Pan,,16,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 6 Fader,,17,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 6 Mute,,17,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 6 Pan,,17,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 7 Fader,,18,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 7 Mute,,18,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 7 Pan,,18,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 8 Fader,,19,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 8 Mute,,19,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 8 Pan,,19,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 9 Fader,,20,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 9 Mute,,20,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 9 Pan,,20,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 10 Fader,,21,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 10 Mute,,21,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 10 Pan,,21,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 11 Fader,,22,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 11 Mute,,22,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 11 Pan,,22,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 12 Fader,,23,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 12 Mute,,23,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 12 Pan,,23,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 13 Fader,,24,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 13 Mute,,24,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 13 Pan,,24,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 14 Fader,,25,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 14 Mute,,25,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 14 Pan,,25,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 15 Fader,,26,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 15 Mute,,26,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 15 Pan,,26,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 16 Fader,,27,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 16 Mute,,27,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 16 Pan,,27,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 17 Fader,,28,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 17 Mute,,28,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 17 Pan,,28,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 18 Fader,,29,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 18 Mute,,29,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 18 Pan,,29,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 19 Fader,,30,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 19 Mute,,30,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 19 Pan,,30,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 20 Fader,,31,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 20 Mute,,31,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 20 Pan,,31,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 21 Fader,,44,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 21 Mute,,44,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 21 Pan,,44,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 22 Fader,,45,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 22 Mute,,45,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 22 Pan,,45,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 23 Fader,,46,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 23 Mute,,46,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 23 Pan,,46,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 24 Fader,,47,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 24 Mute,,47,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 24 Pan,,47,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 25 Fader,,48,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 25 Mute,,48,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 25 Pan,,48,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 26 Fader,,49,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 26 Mute,,49,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 26 Pan,,49,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 27 Fader,,50,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 27 Mute,,50,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 27 Pan,,50,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 28 Fader,,51,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 28 Mute,,51,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 28 Pan,,51,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 29 Fader,,52,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 29 Mute,,52,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 29 Pan,,52,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 30 Fader,,53,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 30 Mute,,53,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 30 Pan,,53,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 31 Fader,,54,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 31 Mute,,54,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 31 Pan,,54,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 32 Fader,,55,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 32 Mute,,55,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 32 Pan,,55,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 33 Fader,,56,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 33 Mute,,56,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 33 Pan,,56,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 34 Fader,,57,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 34 Mute,,57,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 34 Pan,,57,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 35 Fader,,58,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 35 Mute,,58,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 35 Pan,,58,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 36 Fader,,59,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 36 Mute,,59,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 36 Pan,,59,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 37 Fader,,60,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 37 Mute,,60,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 37 Pan,,60,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 38 Fader,,61,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 38 Mute,,61,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 38 Pan,,61,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 39 Fader,,62,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 39 Mute,,62,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 39 Pan,,62,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Channels,Channel 40 Fader,,63,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Channels,Channel 40 Mute,,63,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Channels,Channel 40 Pan,,63,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Aux,Aux 1 Fader,,70,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Aux,Aux 1 Mute,,70,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Aux,Aux 1 Pan,,70,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Aux,Aux 2 Fader,,71,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Aux,Aux 2 Mute,,71,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Aux,Aux 2 Pan,,71,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Aux,Aux 3 Fader,,72,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Aux,Aux 3 Mute,,72,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Aux,Aux 3 Pan,,72,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Aux,Aux 4 Fader,,73,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Aux,Aux 4 Mute,,73,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Aux,Aux 4 Pan,,73,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Aux,Aux 5 Fader,,74,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Aux,Aux 5 Mute,,74,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Aux,Aux 5 Pan,,74,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Aux,Aux 6 Fader,,75,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Aux,Aux 6 Mute,,75,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Aux,Aux 6 Pan,,75,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Aux,Aux 7 Fader,,76,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Aux,Aux 7 Mute,,76,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Aux,Aux 7 Pan,,76,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Aux,Aux 8 Fader,,77,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Aux,Aux 8 Mute,,77,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Aux,Aux 8 Pan,,77,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 1 Fader,,78,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 1 Mute,,78,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 1 Pan,,78,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 2 Fader,,79,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 2 Mute,,79,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 2 Pan,,79,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 3 Fader,,80,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 3 Mute,,80,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 3 Pan,,80,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 4 Fader,,81,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 4 Mute,,81,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 4 Pan,,81,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 5 Fader,,82,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 5 Mute,,82,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 5 Pan,,82,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 6 Fader,,83,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 6 Mute,,83,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 6 Pan,,83,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 7 Fader,,84,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 7 Mute,,84,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 7 Pan,,84,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 8 Fader,,85,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 8 Mute,,85,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 8 Pan,,85,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 9 Fader,,86,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 9 Mute,,86,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 9 Pan,,86,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 10 Fader,,87,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 10 Mute,,87,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 10 Pan,,87,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 11 Fader,,88,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 11 Mute,,88,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 11 Pan,,88,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 12 Fader,,89,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 12 Mute,,89,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 12 Pan,,89,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 13 Fader,,90,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 13 Mute,,90,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 13 Pan,,90,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 14 Fader,,91,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 14 Mute,,91,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 14 Pan,,91,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 15 Fader,,92,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 15 Mute,,92,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 15 Pan,,92,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Buses,Bus 16 Fader,,93,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Buses,Bus 16 Mute,,93,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Buses,Bus 16 Pan,,93,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Main outputs,Main 1 Fader,,94,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Main outputs,Main 1 Mute,,94,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Main outputs,Main 1 Pan,,94,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Main outputs,Main 2 Fader,,95,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Main outputs,Main 2 Mute,,95,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Main outputs,Main 2 Pan,,95,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Main outputs,Main 3 Fader,,102,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Main outputs,Main 3 Mute,,102,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Main outputs,Main 3 Pan,,102,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Main outputs,Main 4 Fader,,103,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Main outputs,Main 4 Mute,,103,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Main outputs,Main 4 Pan,,103,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Matrices,Matrix 1 Fader,,104,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Matrices,Matrix 1 Mute,,104,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Matrices,Matrix 1 Pan,,104,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Matrices,Matrix 2 Fader,,105,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Matrices,Matrix 2 Mute,,105,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Matrices,Matrix 2 Pan,,105,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Matrices,Matrix 3 Fader,,106,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Matrices,Matrix 3 Mute,,106,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Matrices,Matrix 3 Pan,,106,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Matrices,Matrix 4 Fader,,107,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Matrices,Matrix 4 Mute,,107,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Matrices,Matrix 4 Pan,,107,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Matrices,Matrix 5 Fader,,108,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Matrices,Matrix 5 Mute,,108,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Matrices,Matrix 5 Pan,,108,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Matrices,Matrix 6 Fader,,109,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Matrices,Matrix 6 Mute,,109,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Matrices,Matrix 6 Pan,,109,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Matrices,Matrix 7 Fader,,110,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Matrices,Matrix 7 Mute,,110,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Matrices,Matrix 7 Pan,,110,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,Matrices,Matrix 8 Fader,,111,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,WING,Matrices,Matrix 8 Mute,,111,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,WING,Matrices,Matrix 8 Pan,,111,,0,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,0~127: Pan/balance
+Behringer,WING,DCA groups,DCA 1 Fader,,12,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 1 Mute,,12,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 2 Fader,,13,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 2 Mute,,13,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 3 Fader,,14,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 3 Mute,,14,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 4 Fader,,15,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 4 Mute,,15,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 5 Fader,,16,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 5 Mute,,16,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 6 Fader,,17,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 6 Mute,,17,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 7 Fader,,18,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 7 Mute,,18,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 8 Fader,,19,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 8 Mute,,19,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 9 Fader,,20,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 9 Mute,,20,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 10 Fader,,21,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 10 Mute,,21,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 11 Fader,,22,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 11 Mute,,22,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 12 Fader,,23,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 12 Mute,,23,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 13 Fader,,24,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 13 Mute,,24,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 14 Fader,,25,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 14 Mute,,25,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 15 Fader,,26,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 15 Mute,,26,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,DCA groups,DCA 16 Fader,,27,,0,127,,,,,,,0-based,Send on MIDI channel 4,0~127: Fader level
+Behringer,WING,DCA groups,DCA 16 Mute,,27,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,Mute groups,Mute Group 1 Mute,,28,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,Mute groups,Mute Group 2 Mute,,29,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,Mute groups,Mute Group 3 Mute,,30,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,Mute groups,Mute Group 4 Mute,,31,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,Mute groups,Mute Group 5 Mute,,44,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,Mute groups,Mute Group 6 Mute,,45,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,Mute groups,Mute Group 7 Mute,,46,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,Mute groups,Mute Group 8 Mute,,47,,0,127,,,,,,,0-based,Send on MIDI channel 5,0: Off; 127: On
+Behringer,WING,FX,FX 1 Insert On/Off,,12,,0,127,,,,,,,0-based,Send on MIDI channel 9,0: Off; 127: On
+Behringer,WING,FX,FX 1 Mix,,13,,0,127,,,,,,,0-based,Send on MIDI channel 9,0~127: FX mix
+Behringer,WING,FX,FX 1 Model,,14,,0,127,,,,,,,0-based,Send on MIDI channel 9. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 1 Parameter 1,,15,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 2,,16,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 3,,17,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 4,,18,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 5,,19,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 6,,20,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 7,,21,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 8,,22,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 9,,23,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 10,,24,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 11,,25,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 12,,26,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 13,,27,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 14,,28,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 15,,29,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 16,,30,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 17,,31,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 18,,44,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 19,,45,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 20,,46,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 21,,47,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 22,,48,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 23,,49,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 24,,50,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 25,,51,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 26,,52,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 27,,53,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 28,,54,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 29,,55,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 30,,56,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 31,,57,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 1 Parameter 32,,58,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Insert On/Off,,70,,0,127,,,,,,,0-based,Send on MIDI channel 9,0: Off; 127: On
+Behringer,WING,FX,FX 9 Mix,,71,,0,127,,,,,,,0-based,Send on MIDI channel 9,0~127: FX mix
+Behringer,WING,FX,FX 9 Model,,72,,0,127,,,,,,,0-based,Send on MIDI channel 9. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 9 Parameter 1,,73,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 2,,74,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 3,,75,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 4,,76,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 5,,77,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 6,,78,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 7,,79,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 8,,80,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 9,,81,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 10,,82,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 11,,83,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 12,,84,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 13,,85,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 14,,86,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 15,,87,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 16,,88,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 17,,89,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 18,,90,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 19,,91,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 20,,92,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 21,,93,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 22,,94,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 23,,95,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 24,,102,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 25,,103,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 26,,104,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 27,,105,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 28,,106,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 29,,107,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 30,,108,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 31,,109,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 9 Parameter 32,,110,,0,127,,,,,,,0-based,Send on MIDI channel 9. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Insert On/Off,,12,,0,127,,,,,,,0-based,Send on MIDI channel 10,0: Off; 127: On
+Behringer,WING,FX,FX 2 Mix,,13,,0,127,,,,,,,0-based,Send on MIDI channel 10,0~127: FX mix
+Behringer,WING,FX,FX 2 Model,,14,,0,127,,,,,,,0-based,Send on MIDI channel 10. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 2 Parameter 1,,15,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 2,,16,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 3,,17,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 4,,18,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 5,,19,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 6,,20,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 7,,21,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 8,,22,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 9,,23,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 10,,24,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 11,,25,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 12,,26,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 13,,27,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 14,,28,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 15,,29,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 16,,30,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 17,,31,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 18,,44,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 19,,45,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 20,,46,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 21,,47,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 22,,48,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 23,,49,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 24,,50,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 25,,51,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 26,,52,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 27,,53,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 28,,54,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 29,,55,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 30,,56,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 31,,57,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 2 Parameter 32,,58,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Insert On/Off,,70,,0,127,,,,,,,0-based,Send on MIDI channel 10,0: Off; 127: On
+Behringer,WING,FX,FX 10 Mix,,71,,0,127,,,,,,,0-based,Send on MIDI channel 10,0~127: FX mix
+Behringer,WING,FX,FX 10 Model,,72,,0,127,,,,,,,0-based,Send on MIDI channel 10. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 10 Parameter 1,,73,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 2,,74,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 3,,75,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 4,,76,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 5,,77,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 6,,78,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 7,,79,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 8,,80,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 9,,81,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 10,,82,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 11,,83,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 12,,84,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 13,,85,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 14,,86,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 15,,87,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 16,,88,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 17,,89,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 18,,90,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 19,,91,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 20,,92,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 21,,93,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 22,,94,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 23,,95,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 24,,102,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 25,,103,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 26,,104,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 27,,105,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 28,,106,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 29,,107,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 30,,108,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 31,,109,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 10 Parameter 32,,110,,0,127,,,,,,,0-based,Send on MIDI channel 10. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Insert On/Off,,12,,0,127,,,,,,,0-based,Send on MIDI channel 11,0: Off; 127: On
+Behringer,WING,FX,FX 3 Mix,,13,,0,127,,,,,,,0-based,Send on MIDI channel 11,0~127: FX mix
+Behringer,WING,FX,FX 3 Model,,14,,0,127,,,,,,,0-based,Send on MIDI channel 11. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 3 Parameter 1,,15,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 2,,16,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 3,,17,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 4,,18,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 5,,19,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 6,,20,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 7,,21,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 8,,22,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 9,,23,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 10,,24,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 11,,25,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 12,,26,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 13,,27,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 14,,28,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 15,,29,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 16,,30,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 17,,31,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 18,,44,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 19,,45,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 20,,46,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 21,,47,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 22,,48,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 23,,49,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 24,,50,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 25,,51,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 26,,52,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 27,,53,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 28,,54,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 29,,55,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 30,,56,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 31,,57,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 3 Parameter 32,,58,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Insert On/Off,,70,,0,127,,,,,,,0-based,Send on MIDI channel 11,0: Off; 127: On
+Behringer,WING,FX,FX 11 Mix,,71,,0,127,,,,,,,0-based,Send on MIDI channel 11,0~127: FX mix
+Behringer,WING,FX,FX 11 Model,,72,,0,127,,,,,,,0-based,Send on MIDI channel 11. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 11 Parameter 1,,73,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 2,,74,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 3,,75,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 4,,76,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 5,,77,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 6,,78,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 7,,79,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 8,,80,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 9,,81,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 10,,82,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 11,,83,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 12,,84,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 13,,85,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 14,,86,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 15,,87,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 16,,88,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 17,,89,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 18,,90,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 19,,91,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 20,,92,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 21,,93,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 22,,94,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 23,,95,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 24,,102,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 25,,103,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 26,,104,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 27,,105,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 28,,106,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 29,,107,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 30,,108,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 31,,109,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 11 Parameter 32,,110,,0,127,,,,,,,0-based,Send on MIDI channel 11. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Insert On/Off,,12,,0,127,,,,,,,0-based,Send on MIDI channel 12,0: Off; 127: On
+Behringer,WING,FX,FX 4 Mix,,13,,0,127,,,,,,,0-based,Send on MIDI channel 12,0~127: FX mix
+Behringer,WING,FX,FX 4 Model,,14,,0,127,,,,,,,0-based,Send on MIDI channel 12. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 4 Parameter 1,,15,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 2,,16,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 3,,17,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 4,,18,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 5,,19,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 6,,20,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 7,,21,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 8,,22,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 9,,23,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 10,,24,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 11,,25,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 12,,26,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 13,,27,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 14,,28,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 15,,29,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 16,,30,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 17,,31,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 18,,44,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 19,,45,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 20,,46,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 21,,47,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 22,,48,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 23,,49,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 24,,50,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 25,,51,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 26,,52,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 27,,53,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 28,,54,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 29,,55,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 30,,56,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 31,,57,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 4 Parameter 32,,58,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Insert On/Off,,70,,0,127,,,,,,,0-based,Send on MIDI channel 12,0: Off; 127: On
+Behringer,WING,FX,FX 12 Mix,,71,,0,127,,,,,,,0-based,Send on MIDI channel 12,0~127: FX mix
+Behringer,WING,FX,FX 12 Model,,72,,0,127,,,,,,,0-based,Send on MIDI channel 12. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 12 Parameter 1,,73,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 2,,74,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 3,,75,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 4,,76,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 5,,77,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 6,,78,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 7,,79,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 8,,80,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 9,,81,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 10,,82,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 11,,83,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 12,,84,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 13,,85,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 14,,86,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 15,,87,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 16,,88,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 17,,89,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 18,,90,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 19,,91,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 20,,92,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 21,,93,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 22,,94,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 23,,95,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 24,,102,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 25,,103,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 26,,104,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 27,,105,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 28,,106,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 29,,107,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 30,,108,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 31,,109,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 12 Parameter 32,,110,,0,127,,,,,,,0-based,Send on MIDI channel 12. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Insert On/Off,,12,,0,127,,,,,,,0-based,Send on MIDI channel 13,0: Off; 127: On
+Behringer,WING,FX,FX 5 Mix,,13,,0,127,,,,,,,0-based,Send on MIDI channel 13,0~127: FX mix
+Behringer,WING,FX,FX 5 Model,,14,,0,127,,,,,,,0-based,Send on MIDI channel 13. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 5 Parameter 1,,15,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 2,,16,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 3,,17,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 4,,18,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 5,,19,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 6,,20,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 7,,21,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 8,,22,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 9,,23,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 10,,24,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 11,,25,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 12,,26,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 13,,27,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 14,,28,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 15,,29,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 16,,30,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 17,,31,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 18,,44,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 19,,45,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 20,,46,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 21,,47,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 22,,48,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 23,,49,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 24,,50,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 25,,51,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 26,,52,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 27,,53,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 28,,54,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 29,,55,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 30,,56,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 31,,57,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 5 Parameter 32,,58,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Insert On/Off,,70,,0,127,,,,,,,0-based,Send on MIDI channel 13,0: Off; 127: On
+Behringer,WING,FX,FX 13 Mix,,71,,0,127,,,,,,,0-based,Send on MIDI channel 13,0~127: FX mix
+Behringer,WING,FX,FX 13 Model,,72,,0,127,,,,,,,0-based,Send on MIDI channel 13. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 13 Parameter 1,,73,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 2,,74,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 3,,75,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 4,,76,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 5,,77,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 6,,78,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 7,,79,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 8,,80,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 9,,81,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 10,,82,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 11,,83,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 12,,84,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 13,,85,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 14,,86,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 15,,87,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 16,,88,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 17,,89,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 18,,90,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 19,,91,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 20,,92,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 21,,93,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 22,,94,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 23,,95,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 24,,102,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 25,,103,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 26,,104,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 27,,105,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 28,,106,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 29,,107,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 30,,108,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 31,,109,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 13 Parameter 32,,110,,0,127,,,,,,,0-based,Send on MIDI channel 13. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Insert On/Off,,12,,0,127,,,,,,,0-based,Send on MIDI channel 14,0: Off; 127: On
+Behringer,WING,FX,FX 6 Mix,,13,,0,127,,,,,,,0-based,Send on MIDI channel 14,0~127: FX mix
+Behringer,WING,FX,FX 6 Model,,14,,0,127,,,,,,,0-based,Send on MIDI channel 14. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 6 Parameter 1,,15,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 2,,16,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 3,,17,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 4,,18,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 5,,19,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 6,,20,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 7,,21,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 8,,22,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 9,,23,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 10,,24,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 11,,25,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 12,,26,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 13,,27,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 14,,28,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 15,,29,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 16,,30,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 17,,31,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 18,,44,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 19,,45,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 20,,46,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 21,,47,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 22,,48,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 23,,49,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 24,,50,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 25,,51,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 26,,52,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 27,,53,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 28,,54,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 29,,55,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 30,,56,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 31,,57,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 6 Parameter 32,,58,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Insert On/Off,,70,,0,127,,,,,,,0-based,Send on MIDI channel 14,0: Off; 127: On
+Behringer,WING,FX,FX 14 Mix,,71,,0,127,,,,,,,0-based,Send on MIDI channel 14,0~127: FX mix
+Behringer,WING,FX,FX 14 Model,,72,,0,127,,,,,,,0-based,Send on MIDI channel 14. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 14 Parameter 1,,73,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 2,,74,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 3,,75,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 4,,76,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 5,,77,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 6,,78,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 7,,79,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 8,,80,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 9,,81,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 10,,82,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 11,,83,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 12,,84,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 13,,85,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 14,,86,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 15,,87,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 16,,88,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 17,,89,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 18,,90,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 19,,91,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 20,,92,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 21,,93,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 22,,94,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 23,,95,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 24,,102,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 25,,103,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 26,,104,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 27,,105,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 28,,106,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 29,,107,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 30,,108,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 31,,109,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 14 Parameter 32,,110,,0,127,,,,,,,0-based,Send on MIDI channel 14. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Insert On/Off,,12,,0,127,,,,,,,0-based,Send on MIDI channel 15,0: Off; 127: On
+Behringer,WING,FX,FX 7 Mix,,13,,0,127,,,,,,,0-based,Send on MIDI channel 15,0~127: FX mix
+Behringer,WING,FX,FX 7 Model,,14,,0,127,,,,,,,0-based,Send on MIDI channel 15. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 7 Parameter 1,,15,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 2,,16,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 3,,17,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 4,,18,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 5,,19,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 6,,20,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 7,,21,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 8,,22,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 9,,23,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 10,,24,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 11,,25,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 12,,26,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 13,,27,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 14,,28,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 15,,29,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 16,,30,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 17,,31,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 18,,44,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 19,,45,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 20,,46,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 21,,47,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 22,,48,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 23,,49,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 24,,50,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 25,,51,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 26,,52,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 27,,53,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 28,,54,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 29,,55,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 30,,56,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 31,,57,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 7 Parameter 32,,58,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Insert On/Off,,70,,0,127,,,,,,,0-based,Send on MIDI channel 15,0: Off; 127: On
+Behringer,WING,FX,FX 15 Mix,,71,,0,127,,,,,,,0-based,Send on MIDI channel 15,0~127: FX mix
+Behringer,WING,FX,FX 15 Model,,72,,0,127,,,,,,,0-based,Send on MIDI channel 15. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 15 Parameter 1,,73,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 2,,74,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 3,,75,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 4,,76,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 5,,77,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 6,,78,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 7,,79,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 8,,80,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 9,,81,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 10,,82,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 11,,83,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 12,,84,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 13,,85,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 14,,86,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 15,,87,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 16,,88,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 17,,89,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 18,,90,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 19,,91,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 20,,92,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 21,,93,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 22,,94,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 23,,95,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 24,,102,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 25,,103,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 26,,104,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 27,,105,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 28,,106,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 29,,107,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 30,,108,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 31,,109,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 15 Parameter 32,,110,,0,127,,,,,,,0-based,Send on MIDI channel 15. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Insert On/Off,,12,,0,127,,,,,,,0-based,Send on MIDI channel 16,0: Off; 127: On
+Behringer,WING,FX,FX 8 Mix,,13,,0,127,,,,,,,0-based,Send on MIDI channel 16,0~127: FX mix
+Behringer,WING,FX,FX 8 Model,,14,,0,127,,,,,,,0-based,Send on MIDI channel 16. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 8 Parameter 1,,15,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 2,,16,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 3,,17,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 4,,18,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 5,,19,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 6,,20,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 7,,21,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 8,,22,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 9,,23,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 10,,24,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 11,,25,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 12,,26,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 13,,27,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 14,,28,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 15,,29,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 16,,30,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 17,,31,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 18,,44,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 19,,45,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 20,,46,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 21,,47,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 22,,48,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 23,,49,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 24,,50,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 25,,51,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 26,,52,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 27,,53,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 28,,54,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 29,,55,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 30,,56,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 31,,57,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 8 Parameter 32,,58,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Insert On/Off,,70,,0,127,,,,,,,0-based,Send on MIDI channel 16,0: Off; 127: On
+Behringer,WING,FX,FX 16 Mix,,71,,0,127,,,,,,,0-based,Send on MIDI channel 16,0~127: FX mix
+Behringer,WING,FX,FX 16 Model,,72,,0,127,,,,,,,0-based,Send on MIDI channel 16. Value depends on the currently loaded FX model list,
+Behringer,WING,FX,FX 16 Parameter 1,,73,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 2,,74,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 3,,75,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 4,,76,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 5,,77,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 6,,78,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 7,,79,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 8,,80,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 9,,81,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 10,,82,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 11,,83,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 12,,84,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 13,,85,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 14,,86,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 15,,87,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 16,,88,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 17,,89,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 18,,90,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 19,,91,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 20,,92,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 21,,93,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 22,,94,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 23,,95,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 24,,102,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 25,,103,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 26,,104,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 27,,105,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 28,,106,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 29,,107,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 30,,108,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 31,,109,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,FX,FX 16 Parameter 32,,110,,0,127,,,,,,,0-based,Send on MIDI channel 16. Meaning depends on the currently loaded FX model,
+Behringer,WING,Custom controls,Layer 1 Rotary 1,,12,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 1 Rotary 2,,13,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 1 Rotary 3,,14,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 1 Rotary 4,,15,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 2 Rotary 1,,16,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 2 Rotary 2,,17,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 2 Rotary 3,,18,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 2 Rotary 4,,19,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 3 Rotary 1,,20,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 3 Rotary 2,,21,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 3 Rotary 3,,22,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 3 Rotary 4,,23,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 4 Rotary 1,,24,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 4 Rotary 2,,25,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 4 Rotary 3,,26,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 4 Rotary 4,,27,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 5 Rotary 1,,28,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 5 Rotary 2,,29,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 5 Rotary 3,,30,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 5 Rotary 4,,31,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 6 Rotary 1,,44,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 6 Rotary 2,,45,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 6 Rotary 3,,46,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 6 Rotary 4,,47,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 7 Rotary 1,,48,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 7 Rotary 2,,49,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 7 Rotary 3,,50,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 7 Rotary 4,,51,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 8 Rotary 1,,52,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 8 Rotary 2,,53,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 8 Rotary 3,,54,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 8 Rotary 4,,55,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 9 Rotary 1,,56,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 9 Rotary 2,,57,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 9 Rotary 3,,58,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 9 Rotary 4,,59,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 10 Rotary 1,,60,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 10 Rotary 2,,61,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 10 Rotary 3,,62,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 10 Rotary 4,,63,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 11 Rotary 1,,70,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 11 Rotary 2,,71,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 11 Rotary 3,,72,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 11 Rotary 4,,73,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 12 Rotary 1,,74,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 12 Rotary 2,,75,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 12 Rotary 3,,76,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 12 Rotary 4,,77,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 13 Rotary 1,,78,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 13 Rotary 2,,79,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 13 Rotary 3,,80,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 13 Rotary 4,,81,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 14 Rotary 1,,82,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 14 Rotary 2,,83,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 14 Rotary 3,,84,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 14 Rotary 4,,85,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 15 Rotary 1,,86,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 15 Rotary 2,,87,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 15 Rotary 3,,88,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 15 Rotary 4,,89,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 16 Rotary 1,,90,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 16 Rotary 2,,91,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 16 Rotary 3,,92,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Custom controls,Layer 16 Rotary 4,,93,,0,127,,,,,,,0-based,Send on MIDI channel 6. Received (RX) only - controls the physical Custom Control rotaries when that user layer is active,0~127: Rotary value
+Behringer,WING,Scenes and shows,Scene Bank Select MSB,,0,,0,127,,,,,,,0-based,"Send on MIDI channel 7. Used with a following Program Change to select Scene numbers above 128 (bank 0 = Scenes 1-128, bank 1 = 129-256, etc). Requires SETUP > MIDI REMOTE CONTROL > SCENE CHANGE enabled",0~127: Scene bank
+Behringer,WING,Scenes and shows,Scene Tag Bank Select MSB,,0,,0,127,,,,,,,0-based,Send on MIDI channel 8. Used with a following Program Change to select Scene tags above #128. Requires SETUP > MIDI REMOTE CONTROL > SHOW CONTROL enabled,0~127: Scene tag bank
+Behringer,WING,Scenes and shows,Scene Select (Program Change),Send a Program Change on MIDI channel 7 to recall a Scene by its number,,,,,,,,,,,0-based,"Program Change 1-128 on MIDI channel 7 recalls Scene 1-128 (combine with Scene Bank Select MSB for Scene numbers above 128, up to 1000). Requires SETUP > MIDI REMOTE CONTROL > SCENE CHANGE enabled. Whether this is active can depend on the console's Show Control configuration - verify against your firmware",1~128: Scene number
+Behringer,WING,Scenes and shows,Scene Tag Select (Program Change),"Send a Program Change on MIDI channel 8 to recall a Scene, Snip, Clip, Preset, or Audio Clip by its Library tag",,,,,,,,,,,0-based,"Program Change 1-128 on MIDI channel 8 recalls Library item tag #1-128 (combine with Scene Tag Bank Select MSB for tags above #128, up to #16384). Requires SETUP > MIDI REMOTE CONTROL > SHOW CONTROL enabled. Tags are a more robust alternative to raw Scene numbers, since they don't depend on Scene ordering",1~128: Scene tag number
+Behringer,WING,Scenes and shows,Scene Navigation (Program Change),Send a Program Change on MIDI channel 9 to navigate the currently loaded Show,,,,,,,,,,,0-based,MIDI channel 9. Requires SETUP > MIDI REMOTE CONTROL > SHOW CONTROL enabled,1: GO; 2: Previous; 3: Next; 4: GO Previous; 5: GO Next
