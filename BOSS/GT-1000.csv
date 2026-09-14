@@ -1,0 +1,3 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+BOSS,GT-1000,Banks and presets,Bank Select MSB,Selects the patch bank. Combine with a Program Change to recall a patch,0,,0,2,,,,,,,0-based,GT-1000 starts up on bank 0 until a Bank Select message is received. Beyond Bank Select and Program Change the GT-1000 has no fixed default CC targets - CC#1-31 and CC#64-95 are only recognized once MENU > ASSIGN SETTING > SOURCE is set to that CC number by the user and mapped to a target parameter and range,
+BOSS,GT-1000,Banks and presets,Bank Select LSB,,32,,0,0,,,,,,,0-based,Always 0 on this unit,
