@@ -1,0 +1,21 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Line 6,POD Go,Setlists and presets,Setlist Select,,32,,0,1,,,,,,,0-based,Sent on MIDI channel 1 by default,0: Factory; 1: User
+Line 6,POD Go,Setlists and presets,Snapshot Select,POD Go supports 4 Snapshots,69,,0,127,,,,,,,0-based,,0: Snapshot 1; 1: Snapshot 2; 2: Snapshot 3; 3: Snapshot 4; 8: Next Snapshot; 9: Previous Snapshot
+Line 6,POD Go,Global controls,Tap Tempo,Trigger a 'Tap' on the Tap Tempo switch,64,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Tap Tempo
+Line 6,POD Go,Global controls,Tuner,Tuner screen on/off,68,,0,127,,,,,,,0-based,,0~127: Tuner
+Line 6,POD Go,Expression pedal,Expression Pedal 1,Emulates EXP 1,1,,0,127,,,,,,,0-based,,0~127: Expression pedal 1
+Line 6,POD Go,Expression pedal,Expression Pedal 2,Emulates EXP 2,2,,0,127,,,,,,,0-based,,0~127: Expression pedal 2
+Line 6,POD Go,Footswitch control,Footswitch 1,Emulates FS1,49,,0,127,,,,,,,0-based,,0~127: FS1
+Line 6,POD Go,Footswitch control,Footswitch 2,Emulates FS2,50,,0,127,,,,,,,0-based,,0~127: FS2
+Line 6,POD Go,Footswitch control,Footswitch 3,Emulates FS3,51,,0,127,,,,,,,0-based,,0~127: FS3
+Line 6,POD Go,Footswitch control,Footswitch 4,Emulates FS4,52,,0,127,,,,,,,0-based,,0~127: FS4
+Line 6,POD Go,Footswitch control,Footswitch 5,Emulates FS5,53,,0,127,,,,,,,0-based,,0~127: FS5
+Line 6,POD Go,Footswitch control,Footswitch 6,Emulates FS6,54,,0,127,,,,,,,0-based,,0~127: FS6
+Line 6,POD Go,Footswitch control,Footswitch 7,Emulates FS7,55,,0,127,,,,,,,0-based,,0~127: FS7
+Line 6,POD Go,Footswitch control,Footswitch 8,Emulates FS8,56,,0,127,,,,,,,0-based,,0~127: FS8
+Line 6,POD Go,Looper,Record/Overdub,,60,,0,127,,,,,,,0-based,,0-63: Overdub; 64-127: Record
+Line 6,POD Go,Looper,Play/Stop,,61,,0,127,,,,,,,0-based,,0-63: Stop; 64-127: Play
+Line 6,POD Go,Looper,Play Once,,62,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Play Once
+Line 6,POD Go,Looper,Undo/Redo,,63,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Undo/Redo
+Line 6,POD Go,Looper,Forward/Reverse,,65,,0,127,,,,,,,0-based,,0-63: Forward; 64-127: Reverse
+Line 6,POD Go,Looper,Full/Half Speed,,66,,0,127,,,,,,,0-based,,0-63: Full Speed; 64-127: Half Speed
