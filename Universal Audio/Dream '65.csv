@@ -1,0 +1,20 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,Dream '65,Global controls,Bypass,,19,,0,2,,,,,,,0-based,,0: Bypass; 1: Unbypass Left Footswitch; 2: Unbypass Right Footswitch
+Universal Audio,Dream '65,Global controls,Store,Stores the current edits to the active preset,16,,0,1,,,,,,,0-based,,0: Off; 1: Hold
+Universal Audio,Dream '65,Footswitches,Footswitch Left,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode,12,,0,1,,,,,,,0-based,1 toggles the footswitch,
+Universal Audio,Dream '65,Footswitches,Footswitch Right,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode,13,,0,1,,,,,,,0-based,1 toggles the footswitch,
+Universal Audio,Dream '65,Amp,Output,,7,,0,127,,,,,,,0-based,,0~127: Output
+Universal Audio,Dream '65,Amp,Volume,,22,,0,127,,,,,,,0-based,,0~127: Volume
+Universal Audio,Dream '65,Amp,Bass,,31,,0,127,,,,,,,0-based,,0~127: Bass
+Universal Audio,Dream '65,Amp,Treble,,33,,0,127,,,,,,,0-based,,0~127: Treble
+Universal Audio,Dream '65,Amp,Boost Enable,,40,,0,1,,,,,,,0-based,,0: Off; 1: On
+Universal Audio,Dream '65,Amp,Boost Gain,,41,,0,127,,,,,,,0-based,,0~127: Boost gain
+Universal Audio,Dream '65,Cabinet,Cab Select,,18,,0,6,,,,,,,0-based,Values above 6 are clamped to Cab 1 to prevent accidentally disabling the cab,0-5: Cab 1-6; 6: No Cab
+Universal Audio,Dream '65,Cabinet,Cab Up,,14,,0,1,,,,,,,0-based,1 toggles the switch,
+Universal Audio,Dream '65,Cabinet,Cab Down,,15,,0,1,,,,,,,0-based,1 toggles the switch,
+Universal Audio,Dream '65,Modulation,Mod Select,,17,,0,2,,,,,,,0-based,,0: Lead; 1: Stock; 2: D-Tex
+Universal Audio,Dream '65,Reverb,Reverb Enable,,50,,0,1,,,,,,,0-based,,0: Off; 1: On
+Universal Audio,Dream '65,Reverb,Reverb,,51,,0,127,,,,,,,0-based,,0~127: Reverb amount
+Universal Audio,Dream '65,Vibrato,Vib Enable,,60,,0,1,,,,,,,0-based,,0: Off; 1: On
+Universal Audio,Dream '65,Vibrato,Vib Speed,,61,,0,127,,,,,,,0-based,,0~127: Vibrato speed
+Universal Audio,Dream '65,Vibrato,Vib Intensity,,62,,0,127,,,,,,,0-based,,0~127: Vibrato intensity
