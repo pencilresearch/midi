@@ -91,3 +91,4 @@ Behringer,XR12,Sends,FX Send 4 Mute,,30,,0,127,,,,,,,0-based,Send on MIDI channe
 Behringer,XR12,Main outputs,Main LR Fader,,31,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
 Behringer,XR12,Main outputs,Main LR Mute,,31,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
 Behringer,XR12,Main outputs,Main LR Pan,,31,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is stereo center,1~127: Pan/balance
+Behringer,XR12,Snapshots,Snapshot Select (Program Change),Send a Program Change on MIDI channel 1 to recall a Snapshot,,,,,,,,,,,0-based,Program Change 0-63 on MIDI channel 1 recalls Snapshot 1-64. X-Air has no separate Show Control/Cue mode like X32 - this is the mixer's only scene recall mechanism,0~63: Snapshot 1-64
