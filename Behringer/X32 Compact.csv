@@ -1,0 +1,247 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Behringer,X32 Compact,Input channels,Channel 1 Fader,,0,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 1 Mute,,0,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 1 Pan,,0,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 2 Fader,,1,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 2 Mute,,1,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 2 Pan,,1,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 3 Fader,,2,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 3 Mute,,2,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 3 Pan,,2,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 4 Fader,,3,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 4 Mute,,3,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 4 Pan,,3,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 5 Fader,,4,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 5 Mute,,4,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 5 Pan,,4,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 6 Fader,,5,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 6 Mute,,5,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 6 Pan,,5,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 7 Fader,,6,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 7 Mute,,6,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 7 Pan,,6,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 8 Fader,,7,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 8 Mute,,7,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 8 Pan,,7,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 9 Fader,,8,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 9 Mute,,8,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 9 Pan,,8,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 10 Fader,,9,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 10 Mute,,9,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 10 Pan,,9,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 11 Fader,,10,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 11 Mute,,10,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 11 Pan,,10,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 12 Fader,,11,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 12 Mute,,11,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 12 Pan,,11,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 13 Fader,,12,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 13 Mute,,12,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 13 Pan,,12,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 14 Fader,,13,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 14 Mute,,13,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 14 Pan,,13,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 15 Fader,,14,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 15 Mute,,14,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 15 Pan,,14,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 16 Fader,,15,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 16 Mute,,15,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 16 Pan,,15,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 17 Fader,,16,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 17 Mute,,16,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 17 Pan,,16,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 18 Fader,,17,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 18 Mute,,17,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 18 Pan,,17,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 19 Fader,,18,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 19 Mute,,18,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 19 Pan,,18,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 20 Fader,,19,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 20 Mute,,19,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 20 Pan,,19,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 21 Fader,,20,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 21 Mute,,20,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 21 Pan,,20,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 22 Fader,,21,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 22 Mute,,21,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 22 Pan,,21,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 23 Fader,,22,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 23 Mute,,22,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 23 Pan,,22,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 24 Fader,,23,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 24 Mute,,23,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 24 Pan,,23,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 25 Fader,,24,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 25 Mute,,24,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 25 Pan,,24,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 26 Fader,,25,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 26 Mute,,25,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 26 Pan,,25,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 27 Fader,,26,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 27 Mute,,26,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 27 Pan,,26,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 28 Fader,,27,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 28 Mute,,27,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 28 Pan,,27,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 29 Fader,,28,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 29 Mute,,28,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 29 Pan,,28,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 30 Fader,,29,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 30 Mute,,29,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 30 Pan,,29,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 31 Fader,,30,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 31 Mute,,30,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 31 Pan,,30,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Input channels,Channel 32 Fader,,31,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Input channels,Channel 32 Mute,,31,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Input channels,Channel 32 Pan,,31,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Aux and USB,Aux In 1 Fader,,32,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Aux and USB,Aux In 1 Mute,,32,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Aux and USB,Aux In 1 Pan,,32,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Aux and USB,Aux In 2 Fader,,33,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Aux and USB,Aux In 2 Mute,,33,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Aux and USB,Aux In 2 Pan,,33,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Aux and USB,Aux In 3 Fader,,34,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Aux and USB,Aux In 3 Mute,,34,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Aux and USB,Aux In 3 Pan,,34,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Aux and USB,Aux In 4 Fader,,35,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Aux and USB,Aux In 4 Mute,,35,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Aux and USB,Aux In 4 Pan,,35,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Aux and USB,Aux In 5 Fader,,36,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Aux and USB,Aux In 5 Mute,,36,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Aux and USB,Aux In 5 Pan,,36,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Aux and USB,Aux In 6 Fader,,37,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Aux and USB,Aux In 6 Mute,,37,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Aux and USB,Aux In 6 Pan,,37,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Aux and USB,USB Play L Fader,,38,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Aux and USB,USB Play L Mute,,38,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Aux and USB,USB Play L Pan,,38,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Aux and USB,USB Play R Fader,,39,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Aux and USB,USB Play R Mute,,39,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Aux and USB,USB Play R Pan,,39,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,FX returns,FX Return 1 L Fader,,40,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,FX returns,FX Return 1 L Mute,,40,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,FX returns,FX Return 1 L Pan,,40,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,FX returns,FX Return 1 R Fader,,41,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,FX returns,FX Return 1 R Mute,,41,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,FX returns,FX Return 1 R Pan,,41,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,FX returns,FX Return 2 L Fader,,42,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,FX returns,FX Return 2 L Mute,,42,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,FX returns,FX Return 2 L Pan,,42,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,FX returns,FX Return 2 R Fader,,43,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,FX returns,FX Return 2 R Mute,,43,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,FX returns,FX Return 2 R Pan,,43,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,FX returns,FX Return 3 L Fader,,44,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,FX returns,FX Return 3 L Mute,,44,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,FX returns,FX Return 3 L Pan,,44,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,FX returns,FX Return 3 R Fader,,45,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,FX returns,FX Return 3 R Mute,,45,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,FX returns,FX Return 3 R Pan,,45,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,FX returns,FX Return 4 L Fader,,46,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,FX returns,FX Return 4 L Mute,,46,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,FX returns,FX Return 4 L Pan,,46,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,FX returns,FX Return 4 R Fader,,47,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,FX returns,FX Return 4 R Mute,,47,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,FX returns,FX Return 4 R Pan,,47,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 1 Fader,,48,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 1 Mute,,48,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 1 Pan,,48,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 2 Fader,,49,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 2 Mute,,49,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 2 Pan,,49,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 3 Fader,,50,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 3 Mute,,50,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 3 Pan,,50,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 4 Fader,,51,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 4 Mute,,51,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 4 Pan,,51,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 5 Fader,,52,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 5 Mute,,52,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 5 Pan,,52,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 6 Fader,,53,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 6 Mute,,53,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 6 Pan,,53,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 7 Fader,,54,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 7 Mute,,54,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 7 Pan,,54,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 8 Fader,,55,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 8 Mute,,55,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 8 Pan,,55,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 9 Fader,,56,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 9 Mute,,56,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 9 Pan,,56,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 10 Fader,,57,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 10 Mute,,57,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 10 Pan,,57,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 11 Fader,,58,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 11 Mute,,58,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 11 Pan,,58,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 12 Fader,,59,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 12 Mute,,59,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 12 Pan,,59,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 13 Fader,,60,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 13 Mute,,60,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 13 Pan,,60,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 14 Fader,,61,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 14 Mute,,61,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 14 Pan,,61,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 15 Fader,,62,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 15 Mute,,62,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 15 Pan,,62,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mix buses,Bus 16 Fader,,63,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Mix buses,Bus 16 Mute,,63,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mix buses,Bus 16 Pan,,63,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Matrices,Matrix 1 Fader,,64,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Matrices,Matrix 1 Mute,,64,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Matrices,Matrix 1 Pan,,64,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Matrices,Matrix 2 Fader,,65,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Matrices,Matrix 2 Mute,,65,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Matrices,Matrix 2 Pan,,65,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Matrices,Matrix 3 Fader,,66,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Matrices,Matrix 3 Mute,,66,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Matrices,Matrix 3 Pan,,66,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Matrices,Matrix 4 Fader,,67,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Matrices,Matrix 4 Mute,,67,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Matrices,Matrix 4 Pan,,67,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Matrices,Matrix 5 Fader,,68,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Matrices,Matrix 5 Mute,,68,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Matrices,Matrix 5 Pan,,68,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Matrices,Matrix 6 Fader,,69,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Matrices,Matrix 6 Mute,,69,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Matrices,Matrix 6 Pan,,69,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Main outputs,Main LR Fader,,70,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Main outputs,Main LR Mute,,70,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Main outputs,Main LR Pan,,70,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Main outputs,Main C Fader,,71,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,Main outputs,Main C Mute,,71,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Main outputs,Main C Pan,,71,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,DCA groups,DCA 1 Fader,,72,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,DCA groups,DCA 1 Mute,,72,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,DCA groups,DCA 1 Pan,,72,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,DCA groups,DCA 2 Fader,,73,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,DCA groups,DCA 2 Mute,,73,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,DCA groups,DCA 2 Pan,,73,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,DCA groups,DCA 3 Fader,,74,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,DCA groups,DCA 3 Mute,,74,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,DCA groups,DCA 3 Pan,,74,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,DCA groups,DCA 4 Fader,,75,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,DCA groups,DCA 4 Mute,,75,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,DCA groups,DCA 4 Pan,,75,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,DCA groups,DCA 5 Fader,,76,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,DCA groups,DCA 5 Mute,,76,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,DCA groups,DCA 5 Pan,,76,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,DCA groups,DCA 6 Fader,,77,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,DCA groups,DCA 6 Mute,,77,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,DCA groups,DCA 6 Pan,,77,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,DCA groups,DCA 7 Fader,,78,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,DCA groups,DCA 7 Mute,,78,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,DCA groups,DCA 7 Pan,,78,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,DCA groups,DCA 8 Fader,,79,,0,127,,,,,,,0-based,Send on MIDI channel 1. Value 95 corresponds to 0dB,0~127: Fader level
+Behringer,X32 Compact,DCA groups,DCA 8 Mute,,79,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,DCA groups,DCA 8 Pan,,79,,0,127,,,,,,,centered,Send on MIDI channel 3. Centered value 64 is the pan/balance center,0~127: Pan/balance
+Behringer,X32 Compact,Mute groups,Mute Group 1 Mute,,80,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mute groups,Mute Group 2 Mute,,81,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mute groups,Mute Group 3 Mute,,82,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mute groups,Mute Group 4 Mute,,83,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mute groups,Mute Group 5 Mute,,84,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,X32 Compact,Mute groups,Mute Group 6 Mute,,85,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
