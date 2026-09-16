@@ -1,0 +1,97 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+IK Multimedia,ToneX One+,Global and switching,Preset On/Off,,12,,0,127,,,,,,,0-based,,0: Off; 127: On
+IK Multimedia,ToneX One+,Global and switching,Tuner,,9,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+IK Multimedia,ToneX One+,Global and switching,Tap Tempo,,10,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Tap Tempo
+IK Multimedia,ToneX One+,Global and switching,BPM,,88,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Global and switching,Preset Down,,86,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Previous preset
+IK Multimedia,ToneX One+,Global and switching,Preset Up,,87,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Next preset
+IK Multimedia,ToneX One+,Main amp parameters,Gain,,102,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Main amp parameters,Bass,,23,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Main amp parameters,Mid,,25,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Main amp parameters,Treble,,28,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Main amp parameters,Model Volume,,103,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Main amp parameters,Presence,,106,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Main amp parameters,Depth,,107,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Main amp parameters,Model Mix,,104,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Noise gate,Power,,14,,0,127,,,,,,,0-based,,0: Off; 127: On
+IK Multimedia,ToneX One+,Noise gate,Threshold,,15,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Noise gate,Release,,16,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Noise gate,Depth,,17,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Noise gate,Position,,13,,0,127,,,,,,,0-based,,0: First; 127: Post Amp
+IK Multimedia,ToneX One+,Compressor,Power,,18,,0,127,,,,,,,0-based,,0: Off; 127: On
+IK Multimedia,ToneX One+,Compressor,Threshold,,19,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Compressor,Gain,,20,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Compressor,Attack,,21,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Compressor,Position,Value labels for this parameter aren't given in the manual,22,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,EQ,Bass Frequency,,24,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,EQ,Mid Q,,26,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,EQ,Mid Frequency,,27,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,EQ,Treble Frequency,,29,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,EQ,Position,,30,,0,127,,,,,,,0-based,,0: Pre; 127: Post
+IK Multimedia,ToneX One+,Reverb,Power,,75,,0,127,,,,,,,0-based,,0: Off; 127: On
+IK Multimedia,ToneX One+,Reverb,Type,,85,,0,5,,,,,,,0-based,,0: Spring 1; 1: Spring 2; 2: Spring 3; 3: Spring 4; 4: Room; 5: Plate
+IK Multimedia,ToneX One+,Reverb,Position,,84,,0,127,,,,,,,0-based,,0: Post Amp; 127: Last
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 1) Time,,59,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 1) Pre-Delay,,60,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 1) Color,,61,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 1) Mix,,62,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 2) Time,,63,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 2) Pre-Delay,,64,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 2) Color,,65,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 2) Mix,,66,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 3) Time,,67,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 3) Pre-Delay,,68,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 3) Color,,69,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 3) Mix,,70,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 4) Time,,80,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 4) Pre-Delay,,81,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 4) Color,,82,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Spring 4) Mix,,83,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Room) Time,,71,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Room) Pre-Delay,,72,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Room) Color,,73,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Room) Mix,,74,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Plate) Time,,76,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Plate) Pre-Delay,,77,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Plate) Color,,78,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Reverb,Reverb (Plate) Mix,,79,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Delay,Power,,2,,0,127,,,,,,,0-based,,0: Off; 127: On
+IK Multimedia,ToneX One+,Delay,Type,,3,,0,1,,,,,,,0-based,,0: Digital; 1: Tape
+IK Multimedia,ToneX One+,Delay,Position,,1,,0,127,,,,,,,0-based,,0: Pre Amp; 127: Post Amp
+IK Multimedia,ToneX One+,Delay,Delay (Digital) Sync,,4,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Delay,Delay (Digital) Time,,5,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Delay,Delay (Digital) Feedback,,6,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Delay,Delay (Digital) Mode,Normal vs. ping-pong,7,,0,127,,,,,,,0-based,,0-63: Normal; 64-127: Ping-Pong
+IK Multimedia,ToneX One+,Delay,Delay (Digital) Mix,,8,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Delay,Delay (Tape) Sync,,91,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Delay,Delay (Tape) Time,,92,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Delay,Delay (Tape) Feedback,,93,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Delay,Delay (Tape) Mode,Normal vs. ping-pong,94,,0,127,,,,,,,0-based,,0-63: Normal; 64-127: Ping-Pong
+IK Multimedia,ToneX One+,Delay,Delay (Tape) Mix,,95,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Power,,32,,0,127,,,,,,,0-based,,0: Off; 127: On
+IK Multimedia,ToneX One+,Modulation,Type,,33,,0,4,,,,,,,0-based,,0: Chorus; 1: Tremolo; 2: Phaser; 3: Flanger; 4: Rotary
+IK Multimedia,ToneX One+,Modulation,Position,,31,,0,127,,,,,,,0-based,,0: Pre Amp; 127: Post Amp
+IK Multimedia,ToneX One+,Modulation,Modulation (Chorus) Sync,,34,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Chorus) Rate/Speed,,35,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Chorus) Depth/Radius,,36,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Chorus) Level/Mix,,37,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Tremolo) Sync,,38,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Tremolo) Rate/Speed,,39,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Tremolo) Level/Mix,,42,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Tremolo) Shape,,40,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Tremolo) Spread,,41,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Phaser) Sync,,38,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Phaser) Rate/Speed,,39,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Phaser) Level/Mix,,42,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Phaser) Shape,,40,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Phaser) Spread,,41,,0,127,,,,,,,0-based,CC number shared with another effect type in this slot. The value's meaning depends on which type is currently selected,
+IK Multimedia,ToneX One+,Modulation,Modulation (Flanger) Sync,,47,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Flanger) Rate/Speed,,48,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Flanger) Depth/Radius,,49,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Flanger) Level/Mix,,51,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Flanger) Feedback,,50,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Rotary) Sync,,52,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Rotary) Rate/Speed,,53,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Rotary) Depth/Radius,,54,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Rotary) Level/Mix,,56,,0,127,,,,,,,0-based,,
+IK Multimedia,ToneX One+,Modulation,Modulation (Rotary) Spread,,55,,0,127,,,,,,,0-based,,
