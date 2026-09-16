@@ -11,14 +11,14 @@ Line 6,HX Stomp XL,Global controls,Tap Tempo,Trigger a 'Tap' on the Tap Tempo sw
 Line 6,HX Stomp XL,Global controls,Tuner,Tuner screen on/off,68,,0,127,,,,,,,0-based,,0~127: Tuner
 Line 6,HX Stomp XL,Expression pedal,Expression Pedal 1,Emulates EXP 1,1,,0,127,,,,,,,0-based,,0~127: Expression pedal 1
 Line 6,HX Stomp XL,Expression pedal,Expression Pedal 2,Emulates EXP 2,2,,0,127,,,,,,,0-based,,0~127: Expression pedal 2
-Line 6,HX Stomp XL,Footswitch control,Footswitch 1,Emulates FS1 in Stomp/Preset/Snapshot footswitch mode,49,,0,127,,,,,,,0-based,CC49-56 control the respective switch's function while in Stomp Preset or Snapshot footswitch mode,0~127: FS1
-Line 6,HX Stomp XL,Footswitch control,Footswitch 2,Emulates FS2,50,,0,127,,,,,,,0-based,,0~127: FS2
-Line 6,HX Stomp XL,Footswitch control,Footswitch 3,Emulates FS3,51,,0,127,,,,,,,0-based,,0~127: FS3
-Line 6,HX Stomp XL,Footswitch control,Footswitch 4,Emulates FS4,52,,0,127,,,,,,,0-based,,0~127: FS4
-Line 6,HX Stomp XL,Footswitch control,Footswitch 5,Emulates FS5,53,,0,127,,,,,,,0-based,,0~127: FS5
-Line 6,HX Stomp XL,Footswitch control,Footswitch 6,Emulates FS6,54,,0,127,,,,,,,0-based,,0~127: FS6
-Line 6,HX Stomp XL,Footswitch control,Footswitch 7,Emulates FS7,55,,0,127,,,,,,,0-based,,0~127: FS7
-Line 6,HX Stomp XL,Footswitch control,Footswitch 8,Emulates FS8,56,,0,127,,,,,,,0-based,,0~127: FS8
+Line 6,HX Stomp XL,Footswitch control,Footswitch 1,Emulates FS1 in Stomp/Preset/Snapshot footswitch mode,49,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS1
+Line 6,HX Stomp XL,Footswitch control,Footswitch 2,Emulates FS2,50,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS2
+Line 6,HX Stomp XL,Footswitch control,Footswitch 3,Emulates FS3,51,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS3
+Line 6,HX Stomp XL,Footswitch control,Footswitch 4,Emulates FS4,52,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS4
+Line 6,HX Stomp XL,Footswitch control,Footswitch 5,Emulates FS5,53,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS5
+Line 6,HX Stomp XL,Footswitch control,Footswitch 6,Emulates FS6,54,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS6
+Line 6,HX Stomp XL,Footswitch control,Footswitch 7,Emulates FS7,55,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS7
+Line 6,HX Stomp XL,Footswitch control,Footswitch 8,Emulates FS8,56,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS8
 Line 6,HX Stomp XL,Looper,Record/Overdub,,60,,0,127,,,,,,,0-based,,0-63: Overdub; 64-127: Record
 Line 6,HX Stomp XL,Looper,Play/Stop,,61,,0,127,,,,,,,0-based,,0-63: Stop; 64-127: Play
 Line 6,HX Stomp XL,Looper,Play Once,,62,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Play Once

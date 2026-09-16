@@ -8,17 +8,17 @@ Line 6,Helix LT,Banks and presets,Page Left/Right,Triggers Page Left and Page Ri
 Line 6,Helix LT,Expression pedal,Expression Pedal 1,Emulates EXP 1,1,,0,127,,,,,,,0-based,,0~127: Expression pedal 1
 Line 6,Helix LT,Expression pedal,Expression Pedal 2,Emulates EXP 2,2,,0,127,,,,,,,0-based,,0~127: Expression pedal 2
 Line 6,Helix LT,Expression pedal,Expression Pedal 3,Emulates EXP 3,3,,0,127,,,,,,,0-based,,0~127: Expression pedal 3
-Line 6,Helix LT,Expression pedal,EXP Toe Switch,Emulates EXP toe switch,59,,0,127,,,,,,,0-based,,0~127: EXP toe switch
-Line 6,Helix LT,Footswitch control,Footswitch 1,Emulates FS1 in Stomp/Preset/Snapshot mode,49,,0,127,,,,,,,0-based,CC49-59 control respective switch function in Stomp Preset or Snapshot mode,0~127: FS1
-Line 6,Helix LT,Footswitches,Footswitch 2,Emulates FS2,50,,0,127,,,,,,,0-based,,0~127: FS2
-Line 6,Helix LT,Footswitches,Footswitch 3,Emulates FS3,51,,0,127,,,,,,,0-based,,0~127: FS3
-Line 6,Helix LT,Footswitches,Footswitch 4,Emulates FS4,52,,0,127,,,,,,,0-based,,0~127: FS4
-Line 6,Helix LT,Footswitches,Footswitch 5,Emulates FS5,53,,0,127,,,,,,,0-based,,0~127: FS5
-Line 6,Helix LT,Footswitches,Footswitch 7,Emulates FS7,54,,0,127,,,,,,,0-based,,0~127: FS7
-Line 6,Helix LT,Footswitches,Footswitch 8,Emulates FS8,55,,0,127,,,,,,,0-based,,0~127: FS8
-Line 6,Helix LT,Footswitches,Footswitch 9,Emulates FS9,56,,0,127,,,,,,,0-based,,0~127: FS9
-Line 6,Helix LT,Footswitches,Footswitch 10,Emulates FS10,57,,0,127,,,,,,,0-based,,0~127: FS10
-Line 6,Helix LT,Footswitches,Footswitch 11,Emulates FS11,58,,0,127,,,,,,,0-based,,0~127: FS11
+Line 6,Helix LT,Expression pedal,EXP Toe Switch,Emulates EXP toe switch,59,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: EXP toe switch
+Line 6,Helix LT,Footswitch control,Footswitch 1,Emulates FS1 in Stomp/Preset/Snapshot mode,49,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS1
+Line 6,Helix LT,Footswitches,Footswitch 2,Emulates FS2,50,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS2
+Line 6,Helix LT,Footswitches,Footswitch 3,Emulates FS3,51,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS3
+Line 6,Helix LT,Footswitches,Footswitch 4,Emulates FS4,52,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS4
+Line 6,Helix LT,Footswitches,Footswitch 5,Emulates FS5,53,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS5
+Line 6,Helix LT,Footswitches,Footswitch 7,Emulates FS7,54,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS7
+Line 6,Helix LT,Footswitches,Footswitch 8,Emulates FS8,55,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS8
+Line 6,Helix LT,Footswitches,Footswitch 9,Emulates FS9,56,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS9
+Line 6,Helix LT,Footswitches,Footswitch 10,Emulates FS10,57,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS10
+Line 6,Helix LT,Footswitches,Footswitch 11,Emulates FS11,58,,0,127,,,,,,,0-based,Controls the respective switch's function while in Stomp Preset or Snapshot footswitch mode.,0~127: FS11
 Line 6,Helix LT,Looper,Record/Overdub,Looper Record/Overdub switch (FS8),60,,0,127,,,,,,,0-based,,0-63: Overdub; 64-127: Record
 Line 6,Helix LT,Looper,Play/Stop,Looper Play/Stop switch (FS9),61,,0,127,,,,,,,0-based,,0-63: Stop; 64-127: Play
 Line 6,Helix LT,Looper,Play Once,Looper Play Once switch (FS3),62,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Play Once
