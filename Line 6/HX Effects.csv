@@ -1,0 +1,26 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Line 6,HX Effects,Banks and presets,Snapshot Select,HX Effects supports 4 Snapshots,69,,0,127,,,,,,,0-based,Set Global Settings > MIDI/Tempo > Snapshot CC to On for auto-send to MIDI Out,0: Snapshot 1; 1: Snapshot 2; 2: Snapshot 3; 3: Snapshot 4; 8: Next Snapshot; 9: Previous Snapshot
+Line 6,HX Effects,Banks and presets,Preset Previous/Next,Loads previous or next preset,72,,0,127,,,,,,,0-based,,0-63: Previous; 64-127: Next
+Line 6,HX Effects,Global controls,Mode Switch,Engages the MODE switch,71,,0,127,,,,,,,0-based,,0~127: Mode switch
+Line 6,HX Effects,Global controls,Page Left/Right,Triggers the Page Left and Page Right buttons,81,,0,127,,,,,,,0-based,,0-63: Page Left; 64-127: Page Right
+Line 6,HX Effects,Global controls,All Bypass,,70,,0,127,,,,,,,0-based,,0-63: Bypass; 64-127: On
+Line 6,HX Effects,Global controls,Tap Tempo,Trigger a 'Tap' on the Tap Tempo switch,64,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Tap Tempo
+Line 6,HX Effects,Global controls,Tuner,Tuner screen on/off,68,,0,127,,,,,,,0-based,,0~127: Tuner
+Line 6,HX Effects,Expression pedal,Expression Pedal 1,Emulates EXP 1,1,,0,127,,,,,,,0-based,,0~127: Expression pedal 1
+Line 6,HX Effects,Expression pedal,Expression Pedal 2,Emulates EXP 2,2,,0,127,,,,,,,0-based,,0~127: Expression pedal 2
+Line 6,HX Effects,Footswitch control,Footswitch 1,Emulates FS1 in Stomp/Preset/Snapshot footswitch mode,49,,0,127,,,,,,,0-based,CC49-54 control the respective switch's function while in Stomp Preset or Snapshot footswitch mode,0~127: FS1
+Line 6,HX Effects,Footswitch control,Footswitch 2,Emulates FS2,50,,0,127,,,,,,,0-based,,0~127: FS2
+Line 6,HX Effects,Footswitch control,Footswitch 3,Emulates FS3,51,,0,127,,,,,,,0-based,,0~127: FS3
+Line 6,HX Effects,Footswitch control,Footswitch 4,Emulates FS4,52,,0,127,,,,,,,0-based,,0~127: FS4
+Line 6,HX Effects,Footswitch control,Footswitch 5,Emulates FS5,53,,0,127,,,,,,,0-based,,0~127: FS5
+Line 6,HX Effects,Footswitch control,Footswitch 6,Emulates FS6,54,,0,127,,,,,,,0-based,,0~127: FS6
+Line 6,HX Effects,Looper,Record/Overdub,Looper Record/Overdub switch (FS4),60,,0,127,,,,,,,0-based,,0-63: Overdub; 64-127: Record
+Line 6,HX Effects,Looper,Play/Stop,Looper Play/Stop switch (FS5),61,,0,127,,,,,,,0-based,,0-63: Stop; 64-127: Play
+Line 6,HX Effects,Looper,Play Once,Looper Play Once switch (FS6),62,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Play Once
+Line 6,HX Effects,Looper,Undo/Redo,Looper Undo/Redo switch (FS1),63,,0,127,,,,,,,0-based,,0-63: Noop; 64-127: Undo/Redo
+Line 6,HX Effects,Looper,Forward/Reverse,Looper Forward/Reverse switch (FS3),65,,0,127,,,,,,,0-based,,0-63: Forward; 64-127: Reverse
+Line 6,HX Effects,Looper,Full/Half Speed,Looper Full/Half Speed switch (FS2),66,,0,127,,,,,,,0-based,,0-63: Full Speed; 64-127: Half Speed
+Line 6,HX Effects,Looper,Looper Block On/Off,Looper block on/off (if available); also enters/exits Looper footswitch mode,67,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Line 6,HX Effects,Parameter control,Parameter Knob 1,Global control,75,,0,127,,,,,,,0-based,,0~127: Parameter knob 1
+Line 6,HX Effects,Parameter control,Parameter Knob 2,Global control,76,,0,127,,,,,,,0-based,,0~127: Parameter knob 2
+Line 6,HX Effects,Parameter control,Parameter Knob 3,Global control,77,,0,127,,,,,,,0-based,,0~127: Parameter knob 3
