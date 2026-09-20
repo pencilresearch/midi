@@ -1,0 +1,7 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Nord,Drum 2,Global MIDI Channel,Channel 1,,10,60,60,60,Factory default assignment; each channel's note is freely reassignable (range 0-127).,
+Nord,Drum 2,Global MIDI Channel,Channel 2,,10,62,62,62,Factory default assignment; each channel's note is freely reassignable (range 0-127).,
+Nord,Drum 2,Global MIDI Channel,Channel 3,,10,64,64,64,Factory default assignment; each channel's note is freely reassignable (range 0-127).,
+Nord,Drum 2,Global MIDI Channel,Channel 4,,10,65,65,65,Factory default assignment; each channel's note is freely reassignable (range 0-127).,
+Nord,Drum 2,Global MIDI Channel,Channel 5,,10,67,67,67,Factory default assignment; each channel's note is freely reassignable (range 0-127).,
+Nord,Drum 2,Global MIDI Channel,Channel 6,,10,69,69,69,Factory default assignment; each channel's note is freely reassignable (range 0-127).,
