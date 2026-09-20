@@ -1,0 +1,49 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Roland,INTEGRA-7,Bank and program,Bank Select,"Selects the tone group; the MSB and LSB pair chooses between the internal, expansion and GM2 banks.",0,32,0,127,,,,,,,0-based,Not received when the Rx Bank Select parameter (SYSTEM:MIDI) or the Rx Bank Select(BS) parameter (PART VIEW:MIDI) is OFF.,
+Roland,INTEGRA-7,Bank and program,Data Entry,Sets the value of the parameter most recently selected by RPN.,6,38,0,127,,,,,,,0-based,Only meaningful after an RPN has been selected with CC 101 and CC 100.,
+Roland,INTEGRA-7,Controllers,Modulation,Applies the tone's assigned modulation depth.,1,,0,127,,,,,,,0-based,Not received when the Rx Modulation(MOD) parameter (PART VIEW:MIDI) is OFF.,0~127: Modulation depth
+Roland,INTEGRA-7,Controllers,Breath Type,Breath controller input for the part.,2,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Controllers,Foot Type,Foot controller input for the part.,4,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Controllers,Portamento Time,Sets the time taken for the pitch to glide between notes.,5,,0,127,,,,,,,0-based,Not received when the Porta Time parameter (PART VIEW:PITCH) is OFF.,
+Roland,INTEGRA-7,Controllers,Volume,Sets the part's volume.,7,,0,127,,,,,,,0-based,Not received when the Rx Volume(VOL) parameter (PART VIEW:MIDI) is OFF. The Level parameter (PART VIEW:LEVEL/CH) will change.,
+Roland,INTEGRA-7,Controllers,Panpot,Sets the part's stereo position.,10,,0,127,64,,,,,,centered,Not received when the Rx Pan(PAN) parameter (PART VIEW:MIDI) is OFF. The Pan parameter (PART VIEW:LEVEL/CH) will change.,0~63: Pan left; 64: Center; 65~127: Pan right
+Roland,INTEGRA-7,Controllers,Expression,"Sets the part's expression level, scaling Volume.",11,,0,127,,,,,,,0-based,Not received when the Rx Expression(EXP) parameter (PART VIEW:MIDI) is OFF.,
+Roland,INTEGRA-7,Motional Surround,Motional Surround Control 1,Positions the part left to right in the surround field.,12,,0,127,64,,,,,,centered,The Part L-R parameter (MOTIONAL SURROUND EDIT:PART) will change. Valid only when Motional Surround is ON.,0~63: Left; 64: Center; 65~127: Right
+Roland,INTEGRA-7,Motional Surround,Motional Surround Control 2,Positions the part back to front in the surround field.,13,,0,127,64,,,,,,centered,The Part F-B parameter (MOTIONAL SURROUND EDIT:PART) will change. Valid only when Motional Surround is ON.,0~63: Back; 64: Center; 65~127: Front
+Roland,INTEGRA-7,Motional Surround,Motional Surround Control 3,Sets the part's ambience send level.,14,,0,127,,,,,,,0-based,The Part Ambience Send Level parameter (MOTIONAL SURROUND EDIT:PART) will change. Valid only when Motional Surround is ON.,
+Roland,INTEGRA-7,Motional Surround,Motional Surround External Part Control 1,Positions the external part left to right.,28,,0,127,64,,,,,,centered,The PartEx L-R parameter (MOTIONAL SURROUND EDIT:PART) will change. Valid only when Motional Surround is ON.,0~63: Left; 64: Center; 65~127: Right
+Roland,INTEGRA-7,Motional Surround,Motional Surround External Part Control 2,Positions the external part back to front.,29,,0,127,64,,,,,,centered,The PartEx F-B parameter (MOTIONAL SURROUND EDIT:PART) will change. Valid only when Motional Surround is ON.,0~63: Back; 64: Center; 65~127: Front
+Roland,INTEGRA-7,Motional Surround,Motional Surround External Part Control 3,Sets the external part's ambience send level.,30,,0,127,,,,,,,0-based,The PartEx Ambience Send Level parameter (MOTIONAL SURROUND EDIT:PART) will change. Valid only when Motional Surround is ON.,
+Roland,INTEGRA-7,Tone modify,Tone Modify 1,General Purpose Controller 1; destination is set per tone.,16,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Tone modify,Tone Modify 2,General Purpose Controller 2; destination is set per tone.,17,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Tone modify,Tone Modify 3,General Purpose Controller 3; destination is set per tone.,18,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Tone modify,Tone Modify 4,General Purpose Controller 4; destination is set per tone.,19,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Tone variation,Tone Variation 1,General Purpose Controller 5; destination is set per tone.,80,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Tone variation,Tone Variation 2,General Purpose Controller 6; destination is set per tone.,81,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Tone variation,Tone Variation 3,General Purpose Controller 7; destination is set per tone.,82,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Tone variation,Tone Variation 4,General Purpose Controller 8; destination is set per tone.,83,,0,127,,,,,,,0-based,,
+Roland,INTEGRA-7,Pedals and switches,Hold 1,Sustains the notes that are held when the pedal is pressed.,64,,0,127,,,,,,,0-based,Not received when the Rx Hold-1(HOLD) parameter (PART VIEW:MIDI) is OFF.,0-63: Off; 64-127: On
+Roland,INTEGRA-7,Pedals and switches,Portamento,Switches portamento on or off.,65,,0,127,,,,,,,0-based,The Porta Switch parameter (PART VIEW:PITCH) will change.,0-63: Off; 64-127: On
+Roland,INTEGRA-7,Pedals and switches,Sostenuto,Sustains only the notes already sounding when the pedal is pressed.,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,INTEGRA-7,Pedals and switches,Soft,Softens the tone.,67,,0,127,,,,,,,0-based,"The manual gives the range as 0-127 without documenting an on/off split, unlike Hold 1 and Legato.",
+Roland,INTEGRA-7,Pedals and switches,Legato Foot Switch,Switches legato playing on or off.,68,,0,127,,,,,,,0-based,The Legato Switch parameter (PART VIEW:LEVEL/CH) will change.,0-63: Off; 64-127: On
+Roland,INTEGRA-7,Pedals and switches,Hold-2,Lengthens the release of the notes being held.,69,,0,127,,,,,,,0-based,A hold movement is not performed.,
+Roland,INTEGRA-7,Pedals and switches,Portamento control,Glides from a specified source note to the next note played.,84,,0,127,,,,,,,0-based,The value is the source note number. A note-on received immediately afterwards glides from that note.,0~127: Source note number
+Roland,INTEGRA-7,Tone offsets,Resonance,Offsets the tone's stored resonance value.,71,,0,127,64,,,,,,centered,The Reso Offset parameter (PART VIEW:OFFSET) will change.,0~127: -64 to +63 offset
+Roland,INTEGRA-7,Tone offsets,Release Time,Offsets the tone's stored release time value.,72,,0,127,64,,,,,,centered,The Release Offset parameter (PART VIEW:OFFSET) will change.,0~127: -64 to +63 offset
+Roland,INTEGRA-7,Tone offsets,Attack Time,Offsets the tone's stored attack time value.,73,,0,127,64,,,,,,centered,The Attack Offset parameter (PART VIEW:OFFSET) will change.,0~127: -64 to +63 offset
+Roland,INTEGRA-7,Tone offsets,Cutoff,Offsets the tone's stored cutoff value.,74,,0,127,64,,,,,,centered,The Cutoff Offset parameter (PART VIEW:OFFSET) will change.,0~127: -64 to +63 offset
+Roland,INTEGRA-7,Tone offsets,Decay Time,Offsets the tone's stored decay time value.,75,,0,127,64,,,,,,centered,The Decay Offset parameter (PART VIEW:OFFSET) will change.,0~127: -64 to +63 offset
+Roland,INTEGRA-7,Tone offsets,Vibrato Rate,Offsets the tone's stored vibrato rate value.,76,,0,127,64,,,,,,centered,The Vibrato Rate parameter (PART VIEW:OFFSET) will change.,0~127: -64 to +63 offset
+Roland,INTEGRA-7,Tone offsets,Vibrato Depth,Offsets the tone's stored vibrato depth value.,77,,0,127,64,,,,,,centered,The Vibrato Depth parameter (PART VIEW:OFFSET) will change.,0~127: -64 to +63 offset
+Roland,INTEGRA-7,Tone offsets,Vibrato Delay,Offsets the tone's stored vibrato delay value.,78,,0,127,64,,,,,,centered,The Vibrato Delay parameter (PART VIEW:OFFSET) will change.,0~127: -64 to +63 offset
+Roland,INTEGRA-7,Effect sends,Reverb Send Level,Sets how much of the part is sent to the reverb.,91,,0,127,,,,,,,0-based,General Purpose Effect 1. The Rev Send Level parameter (PART VIEW:LEVEL/CH) will change.,
+Roland,INTEGRA-7,Effect sends,Chorus Send Level,Sets how much of the part is sent to the chorus.,93,,0,127,,,,,,,0-based,General Purpose Effect 3. The Cho Send Level parameter (PART VIEW:LEVEL/CH) will change.,
+Roland,INTEGRA-7,RPN,RPN MSB/LSB,"Selects a Registered Parameter, whose value is then set with Data Entry.",101,100,0,127,,,,,,,0-based,"Four RPNs are received: 00H 00H Pitch Bend Sensitivity (0-24 semitones, LSB ignored), 00H 01H Channel Fine Tuning, 00H 02H Channel Coarse Tuning (-48 to +48 semitones), and 7FH 7FH RPN Null. This format has no RPN columns, so the numbers are recorded here rather than in cc_msb/cc_lsb.",
+Roland,INTEGRA-7,Channel mode,All Sounds Off,Silences all notes sounding on the channel.,120,,0,0,,,,,,,0-based,Sent with a third byte of 00H.,0: All sounds off
+Roland,INTEGRA-7,Channel mode,Reset All Controllers,Returns the channel's controllers to their reset values.,121,,0,0,,,,,,,0-based,Sent with a third byte of 00H.,0: Reset all controllers
+Roland,INTEGRA-7,Channel mode,All Notes Off,Releases all notes held on the channel.,123,,0,0,,,,,,,0-based,Notes held by Hold 1 or Hold-2 continue to sound.,0: All notes off
+Roland,INTEGRA-7,Channel mode,Omni Off,Treated as All Notes Off.,124,,0,0,,,,,,,0-based,The same processing is carried out as when All Notes Off is received.,0: Omni off
+Roland,INTEGRA-7,Channel mode,Omni On,Treated as All Notes Off; Omni mode is not turned on.,125,,0,0,,,,,,,0-based,The same processing is carried out as when All Notes Off is received.,0: Omni on
+Roland,INTEGRA-7,Channel mode,Mono,Sets the part to mono and performs All Notes Off.,126,,0,16,,,,,,,0-based,The Mono/Poly parameter (PART VIEW:LEVEL/CH) will change.,0-16: Mono
+Roland,INTEGRA-7,Channel mode,Poly,Sets the part to poly and performs All Notes Off.,127,,0,0,,,,,,,0-based,The Mono/Poly parameter (PART VIEW:LEVEL/CH) will change.,0: Poly
