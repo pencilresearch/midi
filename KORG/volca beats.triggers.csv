@@ -1,0 +1,8 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+KORG,volca beats,Parts,Kick,,basic,36,36,36,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca beats,Parts,Clap,,basic,39,39,39,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca beats,Parts,Snare,,basic,38,38,38,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca beats,Parts,Closed hat,,basic,42,42,42,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca beats,Parts,Low tom,,basic,43,43,43,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca beats,Parts,Open hat,,basic,46,46,46,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca beats,Parts,High tom,,basic,50,50,50,Received only when the global parameter MIDI RX ShortMessage is set to ON.,

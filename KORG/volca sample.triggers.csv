@@ -1,0 +1,11 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+KORG,volca sample,Parts,Part 1,Triggered by any note number; the chart states that each sound does not correspond to a note number.,1,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 2,Triggered by any note number; the chart states that each sound does not correspond to a note number.,2,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 3,Triggered by any note number; the chart states that each sound does not correspond to a note number.,3,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 4,Triggered by any note number; the chart states that each sound does not correspond to a note number.,4,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 5,Triggered by any note number; the chart states that each sound does not correspond to a note number.,5,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 6,Triggered by any note number; the chart states that each sound does not correspond to a note number.,6,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 7,Triggered by any note number; the chart states that each sound does not correspond to a note number.,7,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 8,Triggered by any note number; the chart states that each sound does not correspond to a note number.,8,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 9,Triggered by any note number; the chart states that each sound does not correspond to a note number.,9,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
+KORG,volca sample,Parts,Part 10,Triggered by any note number; the chart states that each sound does not correspond to a note number.,10,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
