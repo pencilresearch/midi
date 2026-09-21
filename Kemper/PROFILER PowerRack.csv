@@ -1,94 +1,94 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Kemper,Profiler PowerRack,Banks and presets,Bank Select MSB,Values above 0 fall outside of available memory,0,,0,0,,,,,,,0-based,Kemper implements only bank 0,
-Kemper,Profiler PowerRack,Banks and presets,Bank Select LSB,,32,,0,4,,,,,,,0-based,,
-Kemper,Profiler PowerRack,Banks and presets,Performance Select,"Preselected performance index, Performance mode only",47,,0,124,,,,,,,0-based,,
-Kemper,Profiler PowerRack,Banks and presets,Performance Index Increase,,48,,0,1,,,,,,,0-based,,0: Noop; 1: Increase
-Kemper,Profiler PowerRack,Banks and presets,Performance Index Decrease,,49,,0,1,,,,,,,0-based,,0: Noop; 1: Decrease
-Kemper,Profiler PowerRack,Banks and presets,Select Performance Slot 1,,50,,1,1,,,,,,,0-based,,1: Select Slot 1
-Kemper,Profiler PowerRack,Banks and presets,Select Performance Slot 2,,51,,1,1,,,,,,,0-based,,1: Select Slot 2
-Kemper,Profiler PowerRack,Banks and presets,Select Performance Slot 3,,52,,1,1,,,,,,,0-based,,1: Select Slot 3
-Kemper,Profiler PowerRack,Banks and presets,Select Performance Slot 4,,53,,1,1,,,,,,,0-based,,1: Select Slot 4
-Kemper,Profiler PowerRack,Banks and presets,Select Performance Slot 5,,54,,1,1,,,,,,,0-based,,1: Select Slot 5
-Kemper,Profiler PowerRack,Pedals,Wah Pedal Level,,1,,0,127,,,,,,,0-based,,0~127: Wah pedal level
-Kemper,Profiler PowerRack,Pedals,Pitch Pedal Level,,4,,0,127,,,,,,,0-based,,0~127: Pitch pedal level
-Kemper,Profiler PowerRack,Pedals,Volume,"Volume, where assigned in the signal chain",7,,0,127,,,,,,,0-based,,0~127: Volume
-Kemper,Profiler PowerRack,Pedals,Pan,,10,,0,127,,,,,,,centered,,0~127: Pan
-Kemper,Profiler PowerRack,Pedals,Morph Pedal Value,,11,,0,127,,,,,,,0-based,,0~127: Morph pedal value
-Kemper,Profiler PowerRack,Stomps,All Stomps On/Off,,16,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Stomps,Stomp A On/Off,,17,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Stomps,Stomp B On/Off,,18,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Stomps,Stomp C On/Off,,19,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Stomps,Stomp D On/Off,,20,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Effect X On/Off,,22,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Effect Mod On/Off,,24,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Delay On/Off (Cuts Tails),,26,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Delay On/Off (Keeps Tails),,27,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Reverb On/Off (Cuts Tails),,28,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Reverb On/Off (Keeps Tails),,29,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Rotary Speed,Toggles the Rotary Speaker effect's fast/slow speed,33,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Delay Feedback Infinity On/Off,,34,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Delay Hold On/Off,,35,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Delay Mix Level,,68,,0,127,,,,,,,0-based,,0~127: Delay mix level
-Kemper,Profiler PowerRack,Effects,Delay Feedback Level,,69,,0,127,,,,,,,0-based,,0~127: Delay feedback level
-Kemper,Profiler PowerRack,Effects,Reverb Mix Level,,70,,0,127,,,,,,,0-based,,0~127: Reverb mix level
-Kemper,Profiler PowerRack,Effects,Reverb Time Level,,71,,0,127,,,,,,,0-based,,0~127: Reverb time level
-Kemper,Profiler PowerRack,Effects,Effect Button I,Emulates Effect Button I,75,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Effect Button II,Emulates Effect Button II,76,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Effect Button III,Emulates Effect Button III,77,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Effects,Effect Button IV,Emulates Effect Button IIII,78,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Amplifier,Amplifier Gain Level,,72,,0,127,,,,,,,0-based,,0~127: Amplifier gain level
-Kemper,Profiler PowerRack,Global controls,Tap Tempo,"Value 1 performs a tap, 127 engages the beat scanner, 0 disengages it",30,,0,127,,,,,,,0-based,,0: Off; 1: Tap; 127: Engage Beat Scanner
-Kemper,Profiler PowerRack,Global controls,Tuner Display,,31,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Global controls,Monitor Volume,,73,,0,127,,,,,,,0-based,,0~127: Monitor volume
-Kemper,Profiler PowerRack,Looper,Looper Start,,81,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Looper,Looper Stop,,82,,0,1,,,,,,,0-based,,0: Off; 1: On
-Kemper,Profiler PowerRack,Rig,Tempo,,,,,,,4,0,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Rig,Volume,,,,,,,4,1,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Rig,Tempo Enable,,,,,,,4,2,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Rig,Transpose,,,,,,,4,4,0,16383,,centered,,
-Kemper,Profiler PowerRack,Rig,Stomps Section On/Off,,,,,,,4,64,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Rig,Stack Section On/Off,,,,,,,4,65,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Rig,Effects Section On/Off,,,,,,,4,66,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Rig,Volume Pedal Location,,,,,,,4,68,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Rig,Volume Pedal Range,,,,,,,4,69,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Rig,Parallel Path Enable,,,,,,,4,71,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Rig,Parallel Path Mix,,,,,,,4,72,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Rig,Rig Spillover Off,,,,,,,4,73,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Rig,Delay+Reverb Routing,,,,,,,4,74,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Input,Noise Gate Intensity,,,,,,,9,3,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Input,Clean Sense,,,,,,,9,4,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Input,Distortion Sense,,,,,,,9,5,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,On/Off,,,,,,,10,2,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Amplifier,Gain,,,,,,,10,4,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Clean Compensation,,,,,,,10,5,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Definition,,,,,,,10,6,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Clarity,,,,,,,10,7,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Power Sagging,,,,,,,10,8,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Pick,,,,,,,10,9,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Compressor,,,,,,,10,10,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Tube Shape,,,,,,,10,11,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Tube Bias,,,,,,,10,12,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Amplifier,Direct Mix,,,,,,,10,15,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Tone stack,On/Off,,,,,,,11,2,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Tone stack,Bass,,,,,,,11,4,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Tone stack,Mids,,,,,,,11,5,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Tone stack,Treble,,,,,,,11,6,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Tone stack,Presence,,,,,,,11,7,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Cabinet,On/Off,,,,,,,12,2,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,Cabinet,Volume,,,,,,,12,3,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Cabinet,High Shift,,,,,,,12,4,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Cabinet,Low Shift,,,,,,,12,5,0,16383,,0-based,,
-Kemper,Profiler PowerRack,Cabinet,Character,,,,,,,12,6,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Main Output Volume,,,,,,,127,0,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Headphone Output Volume,,,,,,,127,1,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Monitor Output Volume,,,,,,,127,2,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Direct Output Volume,,,,,,,127,3,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,SPDIF Input Enable,,,,,,,127,11,0,16383,,0-based,,0: Off; 1~16383: On
-Kemper,Profiler PowerRack,System and global outputs,Main Output EQ Bass,,,,,,,127,12,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Main Output EQ Mids,,,,,,,127,13,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Main Output EQ Treble,,,,,,,127,14,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Main Output EQ Presence,,,,,,,127,15,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Monitor Output EQ Bass,,,,,,,127,17,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Monitor Output EQ Mids,,,,,,,127,18,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Monitor Output EQ Treble,,,,,,,127,19,0,16383,,0-based,,
-Kemper,Profiler PowerRack,System and global outputs,Monitor Output EQ Presence,,,,,,,127,20,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Banks and presets,Bank Select MSB,Values above 0 fall outside of available memory,0,,0,0,,,,,,,0-based,Kemper implements only bank 0,
+Kemper,PROFILER PowerRack,Banks and presets,Bank Select LSB,,32,,0,4,,,,,,,0-based,,
+Kemper,PROFILER PowerRack,Banks and presets,Performance Select,"Preselected performance index, Performance mode only",47,,0,124,,,,,,,0-based,,
+Kemper,PROFILER PowerRack,Banks and presets,Performance Index Increase,,48,,0,1,,,,,,,0-based,,0: Noop; 1: Increase
+Kemper,PROFILER PowerRack,Banks and presets,Performance Index Decrease,,49,,0,1,,,,,,,0-based,,0: Noop; 1: Decrease
+Kemper,PROFILER PowerRack,Banks and presets,Select Performance Slot 1,,50,,1,1,,,,,,,0-based,,1: Select Slot 1
+Kemper,PROFILER PowerRack,Banks and presets,Select Performance Slot 2,,51,,1,1,,,,,,,0-based,,1: Select Slot 2
+Kemper,PROFILER PowerRack,Banks and presets,Select Performance Slot 3,,52,,1,1,,,,,,,0-based,,1: Select Slot 3
+Kemper,PROFILER PowerRack,Banks and presets,Select Performance Slot 4,,53,,1,1,,,,,,,0-based,,1: Select Slot 4
+Kemper,PROFILER PowerRack,Banks and presets,Select Performance Slot 5,,54,,1,1,,,,,,,0-based,,1: Select Slot 5
+Kemper,PROFILER PowerRack,Pedals,Wah Pedal Level,,1,,0,127,,,,,,,0-based,,0~127: Wah pedal level
+Kemper,PROFILER PowerRack,Pedals,Pitch Pedal Level,,4,,0,127,,,,,,,0-based,,0~127: Pitch pedal level
+Kemper,PROFILER PowerRack,Pedals,Volume,"Volume, where assigned in the signal chain",7,,0,127,,,,,,,0-based,,0~127: Volume
+Kemper,PROFILER PowerRack,Pedals,Pan,,10,,0,127,,,,,,,centered,,0~127: Pan
+Kemper,PROFILER PowerRack,Pedals,Morph Pedal Value,,11,,0,127,,,,,,,0-based,,0~127: Morph pedal value
+Kemper,PROFILER PowerRack,Stomps,All Stomps On/Off,,16,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Stomps,Stomp A On/Off,,17,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Stomps,Stomp B On/Off,,18,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Stomps,Stomp C On/Off,,19,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Stomps,Stomp D On/Off,,20,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Effect X On/Off,,22,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Effect Mod On/Off,,24,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Delay On/Off (Cuts Tails),,26,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Delay On/Off (Keeps Tails),,27,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Reverb On/Off (Cuts Tails),,28,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Reverb On/Off (Keeps Tails),,29,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Rotary Speed,Toggles the Rotary Speaker effect's fast/slow speed,33,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Delay Feedback Infinity On/Off,,34,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Delay Hold On/Off,,35,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Delay Mix Level,,68,,0,127,,,,,,,0-based,,0~127: Delay mix level
+Kemper,PROFILER PowerRack,Effects,Delay Feedback Level,,69,,0,127,,,,,,,0-based,,0~127: Delay feedback level
+Kemper,PROFILER PowerRack,Effects,Reverb Mix Level,,70,,0,127,,,,,,,0-based,,0~127: Reverb mix level
+Kemper,PROFILER PowerRack,Effects,Reverb Time Level,,71,,0,127,,,,,,,0-based,,0~127: Reverb time level
+Kemper,PROFILER PowerRack,Effects,Effect Button I,Emulates Effect Button I,75,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Effect Button II,Emulates Effect Button II,76,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Effect Button III,Emulates Effect Button III,77,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Effects,Effect Button IV,Emulates Effect Button IIII,78,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Amplifier,Amplifier Gain Level,,72,,0,127,,,,,,,0-based,,0~127: Amplifier gain level
+Kemper,PROFILER PowerRack,Global controls,Tap Tempo,"Value 1 performs a tap, 127 engages the beat scanner, 0 disengages it",30,,0,127,,,,,,,0-based,,0: Off; 1: Tap; 127: Engage Beat Scanner
+Kemper,PROFILER PowerRack,Global controls,Tuner Display,,31,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Global controls,Monitor Volume,,73,,0,127,,,,,,,0-based,,0~127: Monitor volume
+Kemper,PROFILER PowerRack,Looper,Looper Start,,81,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Looper,Looper Stop,,82,,0,1,,,,,,,0-based,,0: Off; 1: On
+Kemper,PROFILER PowerRack,Rig,Tempo,,,,,,,4,0,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Rig,Volume,,,,,,,4,1,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Rig,Tempo Enable,,,,,,,4,2,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Rig,Transpose,,,,,,,4,4,0,16383,,centered,,
+Kemper,PROFILER PowerRack,Rig,Stomps Section On/Off,,,,,,,4,64,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Rig,Stack Section On/Off,,,,,,,4,65,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Rig,Effects Section On/Off,,,,,,,4,66,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Rig,Volume Pedal Location,,,,,,,4,68,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Rig,Volume Pedal Range,,,,,,,4,69,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Rig,Parallel Path Enable,,,,,,,4,71,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Rig,Parallel Path Mix,,,,,,,4,72,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Rig,Rig Spillover Off,,,,,,,4,73,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Rig,Delay+Reverb Routing,,,,,,,4,74,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Input,Noise Gate Intensity,,,,,,,9,3,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Input,Clean Sense,,,,,,,9,4,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Input,Distortion Sense,,,,,,,9,5,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,On/Off,,,,,,,10,2,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Amplifier,Gain,,,,,,,10,4,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Clean Compensation,,,,,,,10,5,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Definition,,,,,,,10,6,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Clarity,,,,,,,10,7,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Power Sagging,,,,,,,10,8,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Pick,,,,,,,10,9,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Compressor,,,,,,,10,10,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Tube Shape,,,,,,,10,11,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Tube Bias,,,,,,,10,12,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Amplifier,Direct Mix,,,,,,,10,15,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Tone stack,On/Off,,,,,,,11,2,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Tone stack,Bass,,,,,,,11,4,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Tone stack,Mids,,,,,,,11,5,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Tone stack,Treble,,,,,,,11,6,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Tone stack,Presence,,,,,,,11,7,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Cabinet,On/Off,,,,,,,12,2,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,Cabinet,Volume,,,,,,,12,3,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Cabinet,High Shift,,,,,,,12,4,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Cabinet,Low Shift,,,,,,,12,5,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,Cabinet,Character,,,,,,,12,6,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Main Output Volume,,,,,,,127,0,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Headphone Output Volume,,,,,,,127,1,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Monitor Output Volume,,,,,,,127,2,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Direct Output Volume,,,,,,,127,3,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,SPDIF Input Enable,,,,,,,127,11,0,16383,,0-based,,0: Off; 1~16383: On
+Kemper,PROFILER PowerRack,System and global outputs,Main Output EQ Bass,,,,,,,127,12,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Main Output EQ Mids,,,,,,,127,13,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Main Output EQ Treble,,,,,,,127,14,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Main Output EQ Presence,,,,,,,127,15,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Monitor Output EQ Bass,,,,,,,127,17,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Monitor Output EQ Mids,,,,,,,127,18,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Monitor Output EQ Treble,,,,,,,127,19,0,16383,,0-based,,
+Kemper,PROFILER PowerRack,System and global outputs,Monitor Output EQ Presence,,,,,,,127,20,0,16383,,0-based,,
