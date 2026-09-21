@@ -1,0 +1,20 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,Ruby '63,Global controls,Bypass,,19,,0,2,,,,,,,0-based,,0: Bypass; 1: Unbypass Left Footswitch; 2: Unbypass Right Footswitch
+Universal Audio,Ruby '63,Global controls,Store,,16,,0,1,,,,,,,0-based,Stores the current edits to the active preset,0: Off; 1: Hold
+Universal Audio,Ruby '63,Footswitches,Footswitch Left,,12,,0,1,,,,,,,0-based,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode. 1 toggles the footswitch,
+Universal Audio,Ruby '63,Footswitches,Footswitch Right,,13,,0,1,,,,,,,0-based,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode. 1 toggles the footswitch,
+Universal Audio,Ruby '63,Amp,Channel Select,,17,,0,2,,,,,,,0-based,,0: Brilliant; 1: Normal; 2: Vibrato
+Universal Audio,Ruby '63,Amp,Output,,7,,0,127,,,,,,,0-based,,0~127: Output
+Universal Audio,Ruby '63,Amp,Volume,,22,,0,127,,,,,,,0-based,,0~127: Volume
+Universal Audio,Ruby '63,Amp,Bass,,31,,0,127,,,,,,,0-based,,0~127: Bass
+Universal Audio,Ruby '63,Amp,Treble,,33,,0,127,,,,,,,0-based,,0~127: Treble
+Universal Audio,Ruby '63,Amp,Cut,,36,,0,127,,,,,,,0-based,,0~127: Cut
+Universal Audio,Ruby '63,Amp,Room,,30,,0,127,,,,,,,0-based,,0~127: Room
+Universal Audio,Ruby '63,Amp,Boost Enable,,40,,0,1,,,,,,,0-based,,0: Off; 1: On
+Universal Audio,Ruby '63,Amp,Boost,,41,,0,127,,,,,,,0-based,,0~127: Boost
+Universal Audio,Ruby '63,Cabinet,Cab Select,,18,,0,6,,,,,,,0-based,Values above 6 are clamped to Cab 1 to prevent accidentally disabling the cab,0-5: Cab 1-6; 6: No Cab
+Universal Audio,Ruby '63,Cabinet,Cab Up,,14,,0,1,,,,,,,0-based,1 toggles the switch,
+Universal Audio,Ruby '63,Cabinet,Cab Down,,15,,0,1,,,,,,,0-based,1 toggles the switch,
+Universal Audio,Ruby '63,Vibrato,Vib Enable,,60,,0,1,,,,,,,0-based,,0: Off; 1: On
+Universal Audio,Ruby '63,Vibrato,Vib Speed,,61,,0,127,,,,,,,0-based,,0~127: Vibrato speed
+Universal Audio,Ruby '63,Vibrato,Vib Intensity,,62,,0,127,,,,,,,0-based,,0~127: Vibrato intensity
