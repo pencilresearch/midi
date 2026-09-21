@@ -1,8 +1,8 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Universal Audio,Woodrow '55,Global controls,Bypass,,19,,0,2,,,,,,,0-based,,0: Bypass; 1: Unbypass Left Footswitch; 2: Unbypass Right Footswitch
 Universal Audio,Woodrow '55,Global controls,Store,,16,,0,1,,,,,,,0-based,Stores the current edits to the active preset,0: Off; 1: Hold
-Universal Audio,Woodrow '55,Footswitches,Footswitch Left,,12,,0,1,,,,,,,0-based,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode. 1 toggles the footswitch,
-Universal Audio,Woodrow '55,Footswitches,Footswitch Right,,13,,0,1,,,,,,,0-based,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode. 1 toggles the footswitch,
+Universal Audio,Woodrow '55,Footswitches,Footswitch Left,,12,,0,1,,,,,,,0-based,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode.,1: Toggle footswitch
+Universal Audio,Woodrow '55,Footswitches,Footswitch Right,,13,,0,1,,,,,,,0-based,MIDI CCs for footswitches control footswitch presses. Behavior depends on the pedal's footswitch mode.,1: Toggle footswitch
 Universal Audio,Woodrow '55,Amp,Instrument Volume,,22,,0,127,,,,,,,0-based,,0~127: Instrument volume
 Universal Audio,Woodrow '55,Amp,Mic Volume,,23,,0,127,,,,,,,0-based,,0~127: Mic volume
 Universal Audio,Woodrow '55,Amp,Tone,,31,,0,127,,,,,,,0-based,,0~127: Tone
@@ -11,6 +11,6 @@ Universal Audio,Woodrow '55,Amp,Room,,30,,0,127,,,,,,,0-based,,0~127: Room
 Universal Audio,Woodrow '55,Amp,Boost Enable,,40,,0,1,,,,,,,0-based,,0: Off; 1: On
 Universal Audio,Woodrow '55,Amp,Boost Level,,41,,0,127,,,,,,,0-based,,0~127: Boost level
 Universal Audio,Woodrow '55,Amp,Boost Select,,17,,0,2,,,,,,,0-based,,0: KP-3K; 1: Stockl; 2: EP-III
-Universal Audio,Woodrow '55,Cabinet,Cab Select,,18,,0,6,,,,,,,0-based,Values above 6 are clamped to Cab 1 to prevent accidentally disabling the cab,0-5: Cab 1-6; 6: No Cab
-Universal Audio,Woodrow '55,Cabinet,Cab Up,,14,,0,1,,,,,,,0-based,1 toggles the switch,
-Universal Audio,Woodrow '55,Cabinet,Cab Down,,15,,0,1,,,,,,,0-based,1 toggles the switch,
+Universal Audio,Woodrow '55,Cabinet,Cab Select,,18,,0,6,,,,,,,0-based,Values above 6 are clamped to Cab 1 to prevent accidentally disabling the cab,0~5: Cab 1-6; 6: No Cab
+Universal Audio,Woodrow '55,Cabinet,Cab Up,,14,,0,1,,,,,,,0-based,,1: Toggle switch
+Universal Audio,Woodrow '55,Cabinet,Cab Down,,15,,0,1,,,,,,,0-based,,1: Toggle switch
