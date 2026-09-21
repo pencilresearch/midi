@@ -1,0 +1,13 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,Grandstage,Controllers,Modulation,MOD Wheel,1,,0,127,,,,,,,0-based,,
+KORG,Grandstage,Mixer,Volume,,7,,0,127,,,,,,,0-based,,
+KORG,Grandstage,Mixer,Pan,,10,,0,127,,,,,,,centered,,
+KORG,Grandstage,Mixer,Expression,,11,,0,127,,,,,,,0-based,,
+KORG,Grandstage,Pedals & Switches,Damper,DAMPER Pedal,64,,0,127,,,,,,,0-based,,
+KORG,Grandstage,Pedals & Switches,Sostenuto Off/On,,66,,0,127,,,,,,,0-based,,
+KORG,Grandstage,Pedals & Switches,Soft Pedal,,67,,0,127,,,,,,,0-based,,
+KORG,Grandstage,General,SW1,,80,,0,127,,,,,,,0-based,,
+KORG,Grandstage,General,SW2,,81,,0,127,,,,,,,0-based,,
+KORG,Grandstage,Mode Messages,All Sound Off,,120,,0,127,,,,,,,0-based,,
+KORG,Grandstage,Mode Messages,Reset All Controllers,,121,,0,127,,,,,,,0-based,,
+KORG,Grandstage,Mode Messages,All Note Off,,123,,0,127,,,,,,,0-based,,

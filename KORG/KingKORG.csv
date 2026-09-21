@@ -1,0 +1,18 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,KingKORG,Program Select,Bank Select (MSB),Program/Timbre Change,0,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Controllers,Modulation1,,1,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Controllers,Modulation2,,2,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Data Entry,Data Entry (MSB),,6,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Mixer,Expression,,11,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Program Select,Bank Select (LSB),Program/Timbre Change,32,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Envelope,Sustain Off/On,,64,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Data Entry,NRPN LSB,,98,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Data Entry,NRPN MSB,,99,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Mode Messages,All Sound Off,,120,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Mode Messages,Reset All Controllers,,121,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Mode Messages,All Note Off,,123,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Mode Messages,Omni Mode Off,,124,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Mode Messages,Omni Mode On,,125,,0,127,,,,,,,0-based,,
+KORG,KingKORG,Arpeggio,Arpeggio On/Off,,,,,,,0,2,0,127,,0-based,,0: Off; 127: On
+KORG,KingKORG,Global,Voice Mode,,,,,,,5,0,0,85,,0-based,,0: Single; 43: Layer; 85: Split
+KORG,KingKORG,Vocoder,Vocoder SW,,,,,,,5,4,0,127,,0-based,,0: Off; 127: On
