@@ -1,0 +1,14 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Jomox,Airbase 99,Note-on messages,Kick Drum,,basic,36,36,36,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Rim Shot,,basic,37,37,37,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Clap,,basic,39,39,39,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Snare Drum,,basic,40,40,40,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Lo Tom,,basic,41,41,41,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Cl. Hi Hat,,basic,42,42,42,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Hi Tom,,basic,43,43,43,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Cl. Hi Hat lang,,basic,44,44,44,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Open Hi Hat,,basic,46,46,46,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Crash,,basic,49,49,49,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Crash,,basic,50,50,50,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Ride,,basic,52,52,52,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
+Jomox,Airbase 99,Note-on messages,Ride,,basic,53,53,53,Velocity affects the instrument's volume only when that instrument's Velocity parameter is ON; when OFF it always plays at its stored Level.,1~127: Volume
