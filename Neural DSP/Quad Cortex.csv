@@ -1,0 +1,32 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Neural DSP,Quad Cortex,Banks and presets,Bank Select MSB,Splits the 256 Presets into two groups of 128,0,,0,1,,,,,,,0-based,,0: Preset group 0-127; 1: Preset group 128-256
+Neural DSP,Quad Cortex,Banks and presets,Bank Select LSB,Setlist select. Combine with a Program Change to recall a Preset,32,,0,127,,,,,,,0-based,,0~127: Setlist
+Neural DSP,Quad Cortex,Pedals,Expression Pedal 1,,1,,0,127,,,,,,,0-based,,0~127: Expression pedal 1
+Neural DSP,Quad Cortex,Pedals,Expression Pedal 2,,2,,0,127,,,,,,,0-based,,0~127: Expression pedal 2
+Neural DSP,Quad Cortex,Footswitches,Footswitch A,"Enable/bypass. Applies in Preset, Stomp, and Scene Mode, and in Gig View",35,,0,127,,,,,,,0-based,,0~127: Footswitch A
+Neural DSP,Quad Cortex,Footswitches,Footswitch B,"Enable/bypass. Applies in Preset, Stomp, and Scene Mode, and in Gig View",36,,0,127,,,,,,,0-based,,0~127: Footswitch B
+Neural DSP,Quad Cortex,Footswitches,Footswitch C,"Enable/bypass. Applies in Preset, Stomp, and Scene Mode, and in Gig View",37,,0,127,,,,,,,0-based,,0~127: Footswitch C
+Neural DSP,Quad Cortex,Footswitches,Footswitch D,"Enable/bypass. Applies in Preset, Stomp, and Scene Mode, and in Gig View",38,,0,127,,,,,,,0-based,,0~127: Footswitch D
+Neural DSP,Quad Cortex,Footswitches,Footswitch E,"Enable/bypass. Applies in Preset, Stomp, and Scene Mode, and in Gig View",39,,0,127,,,,,,,0-based,,0~127: Footswitch E
+Neural DSP,Quad Cortex,Footswitches,Footswitch F,"Enable/bypass. Applies in Preset, Stomp, and Scene Mode, and in Gig View",40,,0,127,,,,,,,0-based,,0~127: Footswitch F
+Neural DSP,Quad Cortex,Footswitches,Footswitch G,"Enable/bypass. Applies in Preset, Stomp, and Scene Mode, and in Gig View",41,,0,127,,,,,,,0-based,,0~127: Footswitch G
+Neural DSP,Quad Cortex,Footswitches,Footswitch H,"Enable/bypass. Applies in Preset, Stomp, and Scene Mode, and in Gig View",42,,0,127,,,,,,,0-based,,0~127: Footswitch H
+Neural DSP,Quad Cortex,Modes and scenes,Scene Select,,43,,0,7,,,,,,,0-based,,0: Scene A; 1: Scene B; 2: Scene C; 3: Scene D; 4: Scene E; 5: Scene F; 6: Scene G; 7: Scene H
+Neural DSP,Quad Cortex,Modes and scenes,Mode Select,,47,,0,2,,,,,,,0-based,,0: Preset Mode; 1: Scene Mode; 2: Stomp Mode
+Neural DSP,Quad Cortex,Global controls,Tempo BPM,Each message received registers a tap,44,,0,127,,,,,,,0-based,,
+Neural DSP,Quad Cortex,Global controls,Tuner On/Off,,45,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Neural DSP,Quad Cortex,Global controls,Gig View Open/Close,,46,,0,127,,,,,,,0-based,,0-63: Close; 64-127: Open
+Neural DSP,Quad Cortex,Looper,Open/Close Looper UI,Always opens in Perform Mode,48,,64,127,,,,,,,0-based,,64~127: Open
+Neural DSP,Quad Cortex,Looper,Duplicate/Stop Duplicate,,49,,64,127,,,,,,,0-based,,64~127: Duplicate/Stop Duplicate
+Neural DSP,Quad Cortex,Looper,One Shot Enable/Disable,,50,,64,127,,,,,,,0-based,,64~127: Enable/Disable One Shot
+Neural DSP,Quad Cortex,Looper,Half Speed Enable/Disable,,51,,64,127,,,,,,,0-based,,64~127: Enable/Disable Half Speed
+Neural DSP,Quad Cortex,Looper,Punch In/Out,Value 0-63 only works when the parameter is set to momentary and is sent on MIDI controller footswitch release,52,,0,127,,,,,,,0-based,,0-63: Punch Out; 64-127: Punch In/Punch Out
+Neural DSP,Quad Cortex,Looper,Record/Overdub/Stop,Value 0-63 only works when the parameter is set to momentary and is sent on MIDI controller footswitch release,53,,0,127,,,,,,,0-based,,0-63: Stop Recording; 64-127: Record/Overdub/Stop
+Neural DSP,Quad Cortex,Looper,Play/Stop,,54,,64,127,,,,,,,0-based,,64~127: Play/Stop
+Neural DSP,Quad Cortex,Looper,Reverse Enable/Disable,,55,,64,127,,,,,,,0-based,,64~127: Enable/Disable Reverse
+Neural DSP,Quad Cortex,Looper,Undo/Redo,,56,,64,127,,,,,,,0-based,,64~127: Undo/Redo
+Neural DSP,Quad Cortex,Looper,Duplicate Mode,,57,,0,1,,,,,,,0-based,,0: Free; 1: Sync
+Neural DSP,Quad Cortex,Looper,Quantize,,58,,0,9,,,,,,,0-based,,0: Off; 1: 1 Beat; 2: 2 Beats; 3: 3 Beats; 4: 4 Beats; 5: 5 Beats; 6: 6 Beats; 7: 7 Beats; 8: 8 Beats; 9: 16 Beats
+Neural DSP,Quad Cortex,Looper,MIDI Clock Start,,59,,0,1,,,,,,,0-based,,0: Off; 1: On
+Neural DSP,Quad Cortex,Looper,Perform/Params Mode,,60,,0,1,,,,,,,0-based,,0: Perform Mode; 1: Params Mode
+Neural DSP,Quad Cortex,Looper,Routing Mode,Grid > I/Os > Multi Out,61,,0,13,,,,,,,0-based,,
