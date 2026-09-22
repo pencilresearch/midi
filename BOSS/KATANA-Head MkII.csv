@@ -1,12 +1,12 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-BOSS,Katana-Head MkII,Effects,Booster Switch,,16,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
-BOSS,Katana-Head MkII,Effects,Mod Switch,,17,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
-BOSS,Katana-Head MkII,Effects,FX Switch,,18,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
-BOSS,Katana-Head MkII,Effects,Delay Switch,,19,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
-BOSS,Katana-Head MkII,Effects,Reverb Switch,,20,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
-BOSS,Katana-Head MkII,Effects,Effect Loop Switch,,21,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
-BOSS,Katana-Head MkII,GA-FC,GA-FC Expression Pedal 1 (FX),Requires the separately sold GA-FC/GA-FC EX foot controller,80,,0,127,,,,,,,0-based,,0~127: Expression pedal 1
-BOSS,Katana-Head MkII,GA-FC,GA-FC Expression Pedal 2 (Volume),Requires the separately sold GA-FC/GA-FC EX foot controller,81,,0,127,,,,,,,0-based,,0~127: Expression pedal 2
-BOSS,Katana-Head MkII,GA-FC,GA-FC FS1,Requires the separately sold GA-FC/GA-FC EX foot controller,83,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
-BOSS,Katana-Head MkII,GA-FC,GA-FC FS2,Requires the separately sold GA-FC/GA-FC EX foot controller,84,,0,127,,,,,,,0-based,Manual lists both CC83 and CC84 as GA-FC (FS1). Likely a manual typo for FS2 since GA-FC has two footswitches and the two rows are otherwise identical,0-63: Off; 64-127: On
-BOSS,Katana-Head MkII,Foot control,Expression Pedal,SEL CH1 CH2/EXP PEDAL jack. Requires a separately sold expression pedal,82,,0,127,,,,,,,0-based,,0~127: Expression pedal
+BOSS,KATANA-Head MkII,Effects,Booster Switch,,16,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
+BOSS,KATANA-Head MkII,Effects,Mod Switch,,17,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
+BOSS,KATANA-Head MkII,Effects,FX Switch,,18,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
+BOSS,KATANA-Head MkII,Effects,Delay Switch,,19,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
+BOSS,KATANA-Head MkII,Effects,Reverb Switch,,20,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
+BOSS,KATANA-Head MkII,Effects,Effect Loop Switch,,21,,0,127,,,,,,,0-based,Turning a knob in the EFFECTS section overrides this on/off setting,0-63: Off; 64-127: On
+BOSS,KATANA-Head MkII,GA-FC,GA-FC Expression Pedal 1 (FX),Requires the separately sold GA-FC/GA-FC EX foot controller,80,,0,127,,,,,,,0-based,,0~127: Expression pedal 1
+BOSS,KATANA-Head MkII,GA-FC,GA-FC Expression Pedal 2 (Volume),Requires the separately sold GA-FC/GA-FC EX foot controller,81,,0,127,,,,,,,0-based,,0~127: Expression pedal 2
+BOSS,KATANA-Head MkII,GA-FC,GA-FC FS1,Requires the separately sold GA-FC/GA-FC EX foot controller,83,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+BOSS,KATANA-Head MkII,GA-FC,GA-FC FS2,Requires the separately sold GA-FC/GA-FC EX foot controller,84,,0,127,,,,,,,0-based,Manual lists both CC83 and CC84 as GA-FC (FS1). Likely a manual typo for FS2 since GA-FC has two footswitches and the two rows are otherwise identical,0-63: Off; 64-127: On
+BOSS,KATANA-Head MkII,Foot control,Expression Pedal,SEL CH1 CH2/EXP PEDAL jack. Requires a separately sold expression pedal,82,,0,127,,,,,,,0-based,,0~127: Expression pedal
