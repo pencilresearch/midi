@@ -1,0 +1,71 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Meris,Mercury X,General,Mix,,1,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Dry trim,,2,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Wet trim,,3,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Global / Control,Expression pedal,,4,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Preamp type,,5,,0,127,,,,,,,0-based,,0-25: Off; 26-51: Volume pedal; 52-76: Tube; 77-102: Transistor; 103-127: Op-amp
+Meris,Mercury X,General,Preamp location,,6,,0,127,,,,,,,0-based,,0-25: Pre + dry; 26-51: Pre; 52-76: Fdbk; 77-102: Pre tank; 103-127: Post
+Meris,Mercury X,Drive,Gain/volume pedal level,,7,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Balance,,8,,0,127,,,,,,,centered,,
+Meris,Mercury X,General,Preamp level,,11,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Delay,Delay structure,,13,,0,127,,,,,,,0-based,,0-63: Standard; 64-127: Reverse
+Meris,Mercury X,Global / Control,Bypass,,14,,0,127,,,,,,,0-based,,0-63: Fx bypass; 64-127: Fx enable
+Meris,Mercury X,General,Time,,15,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Type,,16,,0,127,,,,,,,0-based,,0-42: Digital; 43-85: Bbd; 86-127: Magnetic
+Meris,Mercury X,General,Left note division,,17,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Right note division,,18,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Delay,Feedback,,19,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Cross feedback,,20,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Modulation,Modulation,,21,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Damping,,22,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Dry blend,,23,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Half speed,,24,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Global / Control,Midi clock,,28,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb structure,,32,,0,127,,,,,,,0-based,,0-15: Ultraplate; 16-31: Cathedra; 32-47: Spring; 48-63: 78 room; 64-79: 78 plate; 80-95: 78 hall; 96-111: Prism; 112-127: Gravity
+Meris,Mercury X,Ambience,Reverb parameter 1,,33,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb parameter 2,,34,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb parameter 3,,35,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb parameter 4,,36,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb parameter 5,,37,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb parameter 6,,38,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb parameter 7,,39,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb parameter 8,,40,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Ambience,Reverb parameter 9,,41,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Predelay blend,,42,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Gate attack,,43,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Gate hold,,44,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Gate decay,,45,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Dynamics type,,62,,0,127,,,,,,,0-based,,0-15: Off; 16-31: Compressor; 32-47: Compressor link; 48-63: Swell; 64-79: Diffusion; 80-95: Limiter; 96-111: Limiter link; 112-127: Freeze
+Meris,Mercury X,General,Dynamics location,,63,,0,127,,,,,,,0-based,,0-25: Pre + dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre tank; 103-127: Post
+Meris,Mercury X,General,Dynamics parameter 1,,64,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Dynamics parameter 2,,65,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Dynamics parameter 3,,66,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Dynamics parameter 4,,67,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Dynamics parameter 5,,68,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Dynamics parameter 6,,69,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Pitch,Pitch type,,70,,0,127,,,,,,,centered,,0-31: Off; 32-63: Poly chroma; 64-95: Micro shift; 96-127: Lo-fi
+Meris,Mercury X,Pitch,Pitch location,,71,,0,127,,,,,,,centered,,0-25: Pre + dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre tank; 103-127: Post
+Meris,Mercury X,Pitch,Pitch parameter 1,,72,,0,127,,,,,,,centered,,
+Meris,Mercury X,Pitch,Pitch parameter 2,,73,,0,127,,,,,,,centered,,
+Meris,Mercury X,Pitch,Pitch parameter 3,,74,,0,127,,,,,,,centered,,
+Meris,Mercury X,Pitch,Pitch parameter 4,,75,,0,127,,,,,,,centered,,
+Meris,Mercury X,Pitch,Pitch parameter 5,,76,,0,127,,,,,,,centered,,
+Meris,Mercury X,Pitch,Pitch parameter 6,,77,,0,127,,,,,,,centered,,
+Meris,Mercury X,Filter,Filter type,,78,,0,127,,,,,,,0-based,,0-31: Off; 32-63: Ladder; 64-95: State var; 96-127: Parametric
+Meris,Mercury X,Filter,Filter location,,79,,0,127,,,,,,,0-based,,0-25: Pre + dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre tank; 103-127: Post
+Meris,Mercury X,Filter,Filter parameter 1,,80,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Filter,Filter parameter 2,,81,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Filter,Filter parameter 3,,82,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Filter,Filter parameter 4,,83,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Filter,Filter parameter 5,,84,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Filter,Filter parameter 6,,85,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Modulation,Mod type,,86,,0,127,,,,,,,0-based,,0-21: Off; 22-42: 79 chorus; 43-63: Vibrato; 64-85: Vowel mod; 86-106: Tremelo; 107-127: Hazy
+Meris,Mercury X,Modulation,Mod location,,87,,0,127,,,,,,,0-based,,0-25: Pre + dry; 26-51: Pre; 52-76: Feedback; 77-102: Pre tank; 103-127: Post
+Meris,Mercury X,Modulation,Mod parameter 1,,88,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Modulation,Mod parameter 2,,89,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Modulation,Mod parameter 3,,90,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Modulation,Mod parameter 4,,91,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Modulation,Mod parameter 5,,92,,0,127,,,,,,,0-based,,
+Meris,Mercury X,Modulation,Mod parameter 6,,93,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Toggle tuner mode,,117,,0,127,,,,,,,0-based,,
+Meris,Mercury X,General,Trigger hold modifier,,118,,0,127,,,,,,,0-based,,

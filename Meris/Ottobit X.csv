@@ -1,0 +1,80 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Meris,Ottobit X,General,Mix,,1,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Dry trim,,2,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Wet trim,,3,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Global / Control,Expression pedal,,4,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Preamp type,,5,,0,127,,,,,,,0-based,,0-25: Off; 26-51: Volume pedal; 52-76: Tube; 77-102: Vinyl; 103-127: Wavefold
+Meris,Ottobit X,General,Preamp location,,6,,0,127,,,,,,,0-based,,0-31: Pre + dry; 32-63: Dry; 64-95: Pre ambience; 96-127: Post ambience
+Meris,Ottobit X,Drive,Gain,,7,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Balance/dust/waveshape,,8,,0,127,,,,,,,centered,,
+Meris,Ottobit X,General,Level,,9,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Ambience,Ambience type,,10,,0,127,,,,,,,0-based,,0-42: Off; 43-85: Vhs delay; 86-127: Vhs verb
+Meris,Ottobit X,Delay,Feedback/decay,,11,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Age/ambience mod,,12,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Ambience,Ambience lows,,13,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Global / Control,Bypass,,14,,0,127,,,,,,,0-based,,0-63: Fx bypass; 64-127: Fx enable
+Meris,Ottobit X,General,Time,,15,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Play speed,,16,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Delay,Echo left division,,17,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Delay,Echo right division,,18,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Ambience,Ambience + echo mix,,19,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Dust amount,,20,,0,127,,,,,,,0-based,,0-42: Light; 43-85: Medium; 86-127: Heavy
+Meris,Ottobit X,Global / Control,Midi clock,,21,,0,127,,,,,,,0-based,,0-42: Use global; 43-85: Force listen; 86-127: Force ignore
+Meris,Ottobit X,General,Sample rate,,22,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Bits,,23,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Level,,24,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Crush location,,25,,0,127,,,,,,,0-based,,0-31: Pre + dry; 32-63: Dry; 64-95: Pre; 96-127: Post
+Meris,Ottobit X,General,Dry blend (crush),,26,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Top right knob assignment,,27,,0,127,,,,,,,0-based,,0-63: Level; 64-127: Glitch
+Meris,Ottobit X,General,Bit scaling,,28,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Meris,Ottobit X,Modulation,Mod type,,30,,0,127,,,,,,,0-based,,0-21: Off; 22-42: Ring mod; 43-63: Div trem; 64-85: Tape mod; 86-106: Freq shift; 107-127: Vibe
+Meris,Ottobit X,Modulation,Mod location,,31,,0,127,,,,,,,0-based,,0-31: Pre + dry; 32-63: Dry; 64-95: Pre; 96-127: Post
+Meris,Ottobit X,Modulation,Mod speed/frequency,,32,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod depth/width,,33,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod shape/mode,,34,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod blend/bias,,35,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod mix/tracking,,36,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod note div,,37,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod step 1,,38,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod step 2,,39,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod step 3,,40,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod step 4,,41,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod step 5,,42,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod step 6,,43,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod step 7,,44,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Modulation,Mod step 8,,45,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Pitch,Pitch type,,46,,0,127,,,,,,,centered,,0-21: Off; 22-42: Poly chroma; 43-63: Otto tune; 64-85: Micro tune; 86-106: Mono chroma; 107-127: Lo-fi
+Meris,Ottobit X,Pitch,Pitch location,,47,,0,127,,,,,,,centered,,0-31: Pre + dry; 32-63: Dry; 64-95: Pre; 96-127: Post
+Meris,Ottobit X,Pitch,Pitch L,,48,,0,127,,,,,,,centered,,
+Meris,Ottobit X,Pitch,Pitch R,,49,,0,127,,,,,,,centered,,
+Meris,Ottobit X,Pitch,Pitch mix,,50,,0,127,,,,,,,centered,,
+Meris,Ottobit X,General,Key,,51,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Scale,,52,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,"Correct, glide",,53,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Filter,Filter type,,54,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Filter,Filter location,,55,,0,127,,,,,,,0-based,,0-31: Pre + dry; 32-63: Dry; 64-95: Pre; 96-127: Post
+Meris,Ottobit X,Filter,Filter frequency,,56,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Filter,Filter resonance,,57,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Filter,Filter typology,,58,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Filter,Filter noise/mode,,59,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,Filter,Filter sensitivity,,60,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch type,,62,,0,127,,,,,,,0-based,,0-18: Off; 19-36: Freeze; 37-54: Stutter; 55-73: Push loop; 74-93: Wikki wikki; 92-109: Tape stop; 110-127: Stutter step
+Meris,Ottobit X,General,Glitch location,,63,,0,127,,,,,,,0-based,,0-31: Pre + dry; 32-63: Dry; 64-95: Pre; 96-127: Post
+Meris,Ottobit X,General,Glitch mode,,64,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch speed/pitch,,65,,0,127,,,,,,,centered,,
+Meris,Ottobit X,General,Glitch rate/sub div,,66,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch gain,,67,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch note div,,68,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch mix/level,,69,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch step 1,,70,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch step 2,,71,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch step 3,,72,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch step 4,,73,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch step 5,,74,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch step 6,,75,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch step 7,,76,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch step 8,,77,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Glitch quantize,,78,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Meris,Ottobit X,Global / Control,Tap tempo,,99,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Toggle tuner mode,,117,,0,127,,,,,,,0-based,,
+Meris,Ottobit X,General,Trigger hold modifier,,118,,0,127,,,,,,,0-based,,
