@@ -1,0 +1,15 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,Starlight Echo Station,General,FS Left,,12,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,Starlight Echo Station,General,FS Right,,13,,0,1,,,,,,,0-based,,1: Footswitch down; 0: footswitch up In Tap + Preset mode
+Universal Audio,Starlight Echo Station,General,Effect Up,,14,,0,1,,,,,,,0-based,1 toggles switch,
+Universal Audio,Starlight Echo Station,General,Effect Down,,15,,0,1,,,,,,,0-based,1 toggles switch,
+Universal Audio,Starlight Echo Station,Global / Control,Store,,16,,0,1,,,,,,,0-based,,0: Off; 1: Hold
+Universal Audio,Starlight Echo Station,General,A B C Select,,17,,0,2,,,,,,,0-based,,2: A - C
+Universal Audio,Starlight Echo Station,General,Effect Select,,18,,0,3,,,,,,,0-based,,0: Tape EP-III; 1: Analog DMM; 2: Precision; 3: Cooper Time Cube
+Universal Audio,Starlight Echo Station,Global / Control,Bypass,,19,,0,2,,,,,,,0-based,,0: Bypass; 1: Unbypass Left FS; 2: Unbypass Right FS
+Universal Audio,Starlight Echo Station,General,Mix,,22,,0,127,,,,,,,0-based,,
+Universal Audio,Starlight Echo Station,Delay,Delay,,23,,0,127,,,,,,,0-based,,
+Universal Audio,Starlight Echo Station,General,Feedback,,24,,0,127,,,,,,,0-based,,
+Universal Audio,Starlight Echo Station,General,Division,,25,,0,5,,,,,,,0-based,,0: 1/4; 1: Dotted 1/8; 2: 1/8; 3: 1/8 triplet; 4: Dual 1/4 + dotted 1/8; 5: Dual 1/4 + 1/8
+Universal Audio,Starlight Echo Station,General,Color,,26,,0,127,,,,,,,0-based,,
+Universal Audio,Starlight Echo Station,Modulation,Mod,,27,,0,127,,,,,,,0-based,,
