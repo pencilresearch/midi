@@ -8,5 +8,5 @@ Neural DSP,Nano Cortex,Slot bypass,FX Slot 2 Bypass,,38,,0,127,,,,,,,0-based,,0-
 Neural DSP,Nano Cortex,Slot bypass,FX Slot 3 Bypass,,39,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Neural DSP,Nano Cortex,Slot bypass,FX Slot 4 Bypass,,40,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
 Neural DSP,Nano Cortex,Slot bypass,FX Slot 5 Bypass,,41,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
-Neural DSP,Nano Cortex,Global controls,Tap Tempo,,42,,0,127,,,,,,,0-based,,0~127: Tap
+Neural DSP,Nano Cortex,Global controls,Tap Tempo,,42,,0,127,,,,,,,0-based,,0-127: Tap
 Neural DSP,Nano Cortex,Global controls,Tuner Access,,43,,0,127,,,,,,,0-based,,0-63: Tuner Off; 64-127: Tuner On
