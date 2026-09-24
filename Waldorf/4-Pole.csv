@@ -1,0 +1,35 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Waldorf,4-Pole,,Modulation Wheel,,1,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,Breath Controller,Signal Env.,2,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,Volume Parameter,,9,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,Panning Parameter,,10,,0,127,,,,,,,centered,,
+Waldorf,4-Pole,,VCF Envelope Attack,,14,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,VCF Envelope Decay,,15,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,VCF Envelope Sustain,,16,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,VCF Envelope Release,,17,,0,127,,,,,,,0-based,"The manual prints this as ""VFC Envelope Release""",
+Waldorf,4-Pole,,VCA Envelope Attack,,18,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,VCA Envelope Decay,,19,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,VCA Envelope Sustain,,20,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,VCA Envelope Release,,21,,0,127,,,,,,,0-based,"The manual prints this as ""VFA Envelope Release""",
+Waldorf,4-Pole,,VCF Envelope Cutoff Amount,,22,,0,127,,,,,,,centered,,
+Waldorf,4-Pole,,VCA Envelope Volume Amount,,23,,0,127,,,,,,,centered,,
+Waldorf,4-Pole,,LFO Speed,,24,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,LFO Shape,,25,,0,4,,,,,,,0-based,,0: Sin; 1: Tri; 2: Saw; 3: Pls; 4: S-H
+Waldorf,4-Pole,,LFO Speed Modulation Amount,,26,,0,127,,,,,,,centered,,
+Waldorf,4-Pole,,LFO Speed Modulation Source,,27,,0,15,,,,,,,0-based,,0: Off; 1: LFO; 2: LFO * ModS.; 3: LFO * Aftertouch; 4: LFO * VCA Env; 5: VCF Env; 6: VCA Env; 7: Signal Env; 8: Vel * VCA Env; 9: Velocity; 10: Keytrack; 11: Pitch Bend; 12: ModWheel; 13: Aftertouch; 14: Breath Ctr.; 15: Foot Ctr.
+Waldorf,4-Pole,,Sustain Switch,,64,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,Cutoff Modulation Amount,,70,,0,127,,,,,,,centered,,
+Waldorf,4-Pole,,Cutoff Modulation Source,,71,,0,15,,,,,,,0-based,,0: Off; 1: LFO; 2: LFO * ModS.; 3: LFO * Aftertouch; 4: LFO * VCA Env; 5: VCF Env; 6: VCA Env; 7: Signal Env; 8: Vel * VCA Env; 9: Velocity; 10: Keytrack; 11: Pitch Bend; 12: ModWheel; 13: Aftertouch; 14: Breath Ctr.; 15: Foot Ctr.
+Waldorf,4-Pole,,Resonance Modulation Amount,,72,,0,127,,,,,,,centered,,
+Waldorf,4-Pole,,Resonance Modulation Source,,73,,0,15,,,,,,,0-based,,0: Off; 1: LFO; 2: LFO * ModS.; 3: LFO * Aftertouch; 4: LFO * VCA Env; 5: VCF Env; 6: VCA Env; 7: Signal Env; 8: Vel * VCA Env; 9: Velocity; 10: Keytrack; 11: Pitch Bend; 12: ModWheel; 13: Aftertouch; 14: Breath Ctr.; 15: Foot Ctr.
+Waldorf,4-Pole,,Volume Modulation Amount,,74,,0,127,,,,,,,centered,,
+Waldorf,4-Pole,,Volume Modulation Source,,75,,0,15,,,,,,,0-based,,0: Off; 1: LFO; 2: LFO * ModS.; 3: LFO * Aftertouch; 4: LFO * VCA Env; 5: VCF Env; 6: VCA Env; 7: Signal Env; 8: Vel * VCA Env; 9: Velocity; 10: Keytrack; 11: Pitch Bend; 12: ModWheel; 13: Aftertouch; 14: Breath Ctr.; 15: Foot Ctr.
+Waldorf,4-Pole,,Panning Modulation Amount,,76,,0,127,,,,,,,centered,,
+Waldorf,4-Pole,,Panning Modulation Source,,77,,0,15,,,,,,,0-based,,0: Off; 1: LFO; 2: LFO * ModS.; 3: LFO * Aftertouch; 4: LFO * VCA Env; 5: VCF Env; 6: VCA Env; 7: Signal Env; 8: Vel * VCA Env; 9: Velocity; 10: Keytrack; 11: Pitch Bend; 12: ModWheel; 13: Aftertouch; 14: Breath Ctr.; 15: Foot Ctr.
+Waldorf,4-Pole,,Cutoff Frequency,,78,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,Resonance,,79,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,Gate Time,0.000 to 1.02 s,80,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,Trigger Source,,81,,0,2,,,,,,,0-based,,0: Audio; 1: MIDI; 2: All
+Waldorf,4-Pole,,Trigger Mode,,82,,0,1,,,,,,,0-based,,0: Multi; 1: Single
+Waldorf,4-Pole,,Reset All Controllers,,121,,0,127,,,,,,,0-based,,
+Waldorf,4-Pole,,All Notes Off,,123,,0,127,,,,,,,0-based,,
