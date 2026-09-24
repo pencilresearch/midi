@@ -1,0 +1,225 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Behringer,UB-Xa,Control,Portamento amount,Patch scope,84,37,0,16383,,0,0,0,16383,,0-based,,
+Behringer,UB-Xa,Control,Portamento bend,Patch scope,,,,,,0,1,0,16383,,0-based,,
+Behringer,UB-Xa,Control,Detune,Patch scope,9,41,0,16383,,0,2,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,Control,Voice detune,Patch scope,,,,,,0,3,0,16383,,0-based,,
+Behringer,UB-Xa,Control,Unison,Patch scope,,,,,,0,4,0,1,,0-based,,
+Behringer,UB-Xa,Control,Polyphonic voice count,Patch scope,,,,,,0,5,1,8,,0-based,,
+Behringer,UB-Xa,Control,Unison voice count,Patch scope,,,,,,0,6,1,16,,0-based,,
+Behringer,UB-Xa,Control,Portamento settings,Global scope,,,,,,0,7,0,15,,0-based,Bitmask: Match (0001) Quantize (0010) Bend (0100) Exponential (1000),
+Behringer,UB-Xa,Control,Aftertouch smoother,Global scope,,,,,,0,8,0,255,,0-based,,
+Behringer,UB-Xa,Control,Unison note priority,Global scope,,,,,,0,9,0,2,,0-based,,0: Below; 1: Above; 2: Last
+Behringer,UB-Xa,Control,Chord mode note priority,Global scope,,,,,,0,10,0,2,,0-based,,0: Below; 1: Above; 2: Last
+Behringer,UB-Xa,Control,Portamento spread,Global scope,,,,,,0,11,0,255,,0-based,,
+Behringer,UB-Xa,Control,Portamento range,Global scope,,,,,,0,12,0,255,,0-based,,
+Behringer,UB-Xa,Performance,Volume,Patch scope,,,,,,1,0,0,16383,,0-based,,
+Behringer,UB-Xa,Performance,Settings,Program scope,,,,,,1,1,0,63,,0-based,Bitmask: Bend Osc2 only~Bend Osc1 & Osc2 (000001) Custom bend~Bend +/- 2 (000010) OSC1 (000100) OSC2 (001000) Upper (010000) Lower (100000),
+Behringer,UB-Xa,Performance,Pitch bend sensitivity,Program scope,,,,,,1,2,0,16383,,0-based,,
+Behringer,UB-Xa,Performance,Transpose,Program scope,,,,,,1,3,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,Performance,LFO rate,Program scope,76,,0,127,,1,4,0,16383,,0-based,,
+Behringer,UB-Xa,Performance,LFO shapes,Program scope,,,,,,1,5,0,7,,0-based,,0: Sine; 1: Saw; 2: Square; 3: InverseSaw; 4: SH; 5: Triangle; 6: Sample Hold; 7: Noise
+Behringer,UB-Xa,Performance,LFO channel amount,Program scope,,,,,,1,6,0,16383,,0-based,,
+Behringer,UB-Xa,Performance,LFO mods,Program scope,,,,,,1,7,0,15,,0-based,Bitmask: Track (0001) Envelope (0010) TempoLock (0100) LFOTrig (1000),
+Behringer,UB-Xa,Performance,MPE pitch lower sensitivity,Global scope,,,,,,1,8,0,96,,0-based,,
+Behringer,UB-Xa,Performance,MPE pitch upper sensitivity,Global scope,,,,,,1,9,0,96,,0-based,,
+Behringer,UB-Xa,Performance,LFO trim,Global scope,,,,,,1,10,0,255,,0-based,,
+Behringer,UB-Xa,Modulation,LFO trig point,Patch scope,,,,,,2,0,0,16383,,0-based,,
+Behringer,UB-Xa,Modulation,LFO rate,Patch scope,15,47,0,16383,,2,1,0,16383,,0-based,,
+Behringer,UB-Xa,Modulation,LFO phase,Patch scope,,,,,,2,2,0,16383,,0-based,,
+Behringer,UB-Xa,Modulation,Channel 1 amount,Patch scope,20,52,0,16383,,2,3,0,16383,,0-based,,
+Behringer,UB-Xa,Modulation,Channel 2 amount,Patch scope,21,53,0,16383,,2,4,0,16383,,0-based,,
+Behringer,UB-Xa,Modulation,LFO mods,Patch scope,,,,,,2,5,0,15,,0-based,Bitmask: Track (0001) Envelope (0010) TempoLock (0100) LFOTrig (1000),
+Behringer,UB-Xa,Modulation,LFO shapes,Patch scope,,,,,,2,6,0,7,,0-based,,0: Sine; 1: Saw; 2: Square; 3: InverseSaw; 4: SH; 5: Triangle; 6: Sample Hold; 7: Noise
+Behringer,UB-Xa,Modulation,Channel 1 sends,Patch scope,,,,,,2,7,0,7,,0-based,Bitmask: OSC1 (001) OSC2 (010) Filter (100),
+Behringer,UB-Xa,Modulation,Channel 1 mods,Patch scope,,,,,,2,8,0,3,,0-based,Bitmask: Quantize (01) Invert (10),
+Behringer,UB-Xa,Modulation,Channel 2 sends,Patch scope,,,,,,2,9,0,7,,0-based,Bitmask: OSC1 (001) OSC2 (010) Volume (100),
+Behringer,UB-Xa,Modulation,Channel 2 mods,Patch scope,,,,,,2,10,0,3,,0-based,Bitmask: Quantize (01) Invert (10),
+Behringer,UB-Xa,Modulation,LFO trim,Global scope,,,,,,2,11,0,255,,0-based,,
+Behringer,UB-Xa,Modulation,Quirks,Global scope,,,,,,2,12,0,3,,0-based,Bitmask: FlipSquare (01) FlipVCFMod (10),
+Behringer,UB-Xa,Envelopes,Filter attack,Patch scope,85,,0,127,,3,0,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Filter decay,Patch scope,86,,0,127,,3,1,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Filter sustain,Patch scope,87,,0,127,,3,2,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Filter release,Patch scope,88,,0,127,,3,3,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Loudness attack,Patch scope,89,,0,127,,3,4,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Loudness decay,Patch scope,90,,0,127,,3,5,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Loudness sustain,Patch scope,102,,0,127,,3,6,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Loudness release,Patch scope,103,,0,127,,3,7,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Mod channel 1 attack,Patch scope,,,,,,3,8,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Mod channel 1 delay,Patch scope,,,,,,3,9,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Mod channel 2 attack,Patch scope,,,,,,3,10,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Mod channel 2 delay,Patch scope,,,,,,3,11,0,16383,,0-based,,
+Behringer,UB-Xa,Envelopes,Pedal release,Patch scope,,,,,,3,12,0,16383,,0-based,,
+Behringer,UB-Xa,Oscillators,OSC 1 PW amount,Patch scope,23,55,0,16383,,4,0,0,16383,,0-based,,
+Behringer,UB-Xa,Oscillators,OSC 1 transpose,Patch scope,22,54,0,16383,,4,1,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,Oscillators,OSC 2 PW amount,Patch scope,25,57,0,16383,,4,2,0,16383,,0-based,,
+Behringer,UB-Xa,Oscillators,OSC 2 transpose,Patch scope,24,56,0,16383,,4,3,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,Oscillators,Mode,Patch scope,,,,,,4,4,0,3,,0-based,Bitmask: OSC2 sync on~OSC2 sync off (01) OSC2 f-env on~OSC2 f-env off (10),
+Behringer,UB-Xa,Oscillators,OSC 1 state,Patch scope,,,,,,4,5,0,7,,0-based,Bitmask: OSC1 full~OSC1 off (001) OSC1 VCO LFO 180~OSC1 VCO LFO 0 (010) OSC1 PWM LFO 180~OSC1 PWM LFO 0 (100),
+Behringer,UB-Xa,Oscillators,OSC 1 shapes,Patch scope,,,,,,4,6,0,2,,0-based,,0: Osc1 pulse; 1: Osc1 saw; 2: Osc1 tri
+Behringer,UB-Xa,Oscillators,OSC 2 state,Patch scope,,,,,,4,7,0,2,,0-based,,0: Osc2 half; 1: Osc2 full; 2: Osc2 off
+Behringer,UB-Xa,Oscillators,OSC 2 shapes,Patch scope,,,,,,4,8,0,2,,0-based,,0: Osc2 pulse; 1: Osc2 saw; 2: Osc2 tri
+Behringer,UB-Xa,Oscillators,OSC 1 PW trim L,Global scope,,,,,,4,9,0,255,,0-based,,
+Behringer,UB-Xa,Oscillators,OSC 1 PW trim R,Global scope,,,,,,4,10,127,255,,0-based,,
+Behringer,UB-Xa,Oscillators,OSC 2 PW trim L,Global scope,,,,,,4,11,0,255,,0-based,,
+Behringer,UB-Xa,Oscillators,OSC 2 PW trim R,Global scope,,,,,,4,12,127,255,,0-based,,
+Behringer,UB-Xa,Oscillators,Mod depth,Global scope,,,,,,4,13,6,48,,0-based,,
+Behringer,UB-Xa,Oscillators,PWM depth,Global scope,,,,,,4,14,0,255,,0-based,,
+Behringer,UB-Xa,Oscillators,PWM offset shift,Global scope,,,,,,4,15,0,255,,0-based,,
+Behringer,UB-Xa,Oscillators,Chaos,Global scope,,,,,,4,16,0,63,,0-based,,
+Behringer,UB-Xa,Oscillators,VPO error,Global scope,,,,,,4,17,0,31,,0-based,,
+Behringer,UB-Xa,Oscillators,Drift speed,Global scope,,,,,,4,18,0,63,,0-based,,
+Behringer,UB-Xa,Oscillators,VPO error chaos,Global scope,,,,,,4,19,0,63,,0-based,,
+Behringer,UB-Xa,Oscillators,Osc auto init F,Global scope,,,,,,4,20,0,127,,0-based,,
+Behringer,UB-Xa,Oscillators,F env range,Global scope,,,,,,4,21,1,63,,0-based,,
+Behringer,UB-Xa,Filter,Frequency,Patch scope,26,58,0,16383,,5,0,0,16383,,0-based,,
+Behringer,UB-Xa,Filter,Resonance,Patch scope,27,59,0,16383,,5,1,0,16383,,0-based,,
+Behringer,UB-Xa,Filter,Modulation,Patch scope,28,60,0,16383,,5,2,0,16383,,0-based,,
+Behringer,UB-Xa,Filter,Noise,Patch scope,29,61,0,16383,,5,3,0,16383,,0-based,,
+Behringer,UB-Xa,Filter,Modes,Patch scope,,,,,,5,4,0,3,,0-based,Bitmask: Filter track on~Filter track off (01) 4 pole filter~2 pole filter (10),
+Behringer,UB-Xa,Filter,Resonance trim,Global scope,,,,,,5,5,0,255,,0-based,,
+Behringer,UB-Xa,Filter,Resonance trim 4 pole,Global scope,,,,,,5,6,0,255,,0-based,,
+Behringer,UB-Xa,Filter,Frequency range,Global scope,,,,,,5,7,0,63,,0-based,,
+Behringer,UB-Xa,Filter,Zero 2 offset,Global scope,,,,,,5,8,0,48,,0-based,,
+Behringer,UB-Xa,Filter,Zero 4 offset,Global scope,,,,,,5,9,0,48,,0-based,,
+Behringer,UB-Xa,Filter,Modulation range,Global scope,,,,,,5,10,0,127,,0-based,,
+Behringer,UB-Xa,Filter,Env linearity,Global scope,,,,,,5,11,0,63,,0-based,,
+Behringer,UB-Xa,Filter,Env chaos,Global scope,,,,,,5,12,0,31,,0-based,,
+Behringer,UB-Xa,Filter,LFO range,Global scope,,,,,,5,13,0,127,,0-based,,
+Behringer,UB-Xa,Filter,Chaos,Global scope,,,,,,5,14,0,63,,0-based,,
+Behringer,UB-Xa,Filter,Drift speed,Global scope,,,,,,5,15,0,63,,0-based,,
+Behringer,UB-Xa,Filter,Track offset,Global scope,,,,,,5,16,0,63,,0-based,,
+Behringer,UB-Xa,Filter,Pedal range,Global scope,,,,,,5,17,0,96,,0-based,,
+Behringer,UB-Xa,Filter,VPO error,Global scope,,,,,,5,18,0,63,,0-based,,
+Behringer,UB-Xa,Filter,VPO error chaos,Global scope,,,,,,5,19,0,63,,0-based,,
+Behringer,UB-Xa,Filter,Init freq,Global scope,,,,,,5,20,0,127,,0-based,,
+Behringer,UB-Xa,ModMatrix,Bus 1 amount,Patch scope,105,,0,127,,6,0,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,ModMatrix,Bus 2 amount,Patch scope,106,,0,127,,6,1,0,16383,,centered,"Signed Number, Midpoint is 8192. MSB        LSB     14-bit    Parameter Name               Range       Scope     Notes",
+Behringer,UB-Xa,ModMatrix,Bus 3 amount,Patch scope,107,,0,127,,6,2,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,ModMatrix,Bus 4 amount,Patch scope,108,,0,127,,6,3,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,ModMatrix,Bus 5 amount,Patch scope,109,,0,127,,6,4,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,ModMatrix,Bus 6 amount,Patch scope,110,,0,127,,6,5,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,ModMatrix,Bus 7 amount,Patch scope,111,,0,127,,6,6,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,ModMatrix,Bus 8 amount,Patch scope,112,,0,127,,6,7,0,16383,,centered,"Signed Number, Midpoint is 8192.",
+Behringer,UB-Xa,ModMatrix,Bus 1 source,Patch scope,,,,,,6,8,0,41,,0-based,,0: Empty; 1: ChannelPressure; 2: PolyAftertouch; 3: BreathControl; 4: ModChannel1Envelope; 5: ModChannel2Envelope; 6: ModChannel1; 7: ModChannel2; 8: Expression; 9: Cuttoff; 10: FilterEnvelope; 11: KeyTrack; 12: KeyTrackPoly; 13: LoudnessEnvelope; 14: MainLFO; 15: SecondaryLFO; 16: Noise; 17: ModWheel; 18: Oscillator1; 19: Oscillator2; 20: PulseWidth1; 21: PulseWidth2; 22: PitchBendAmount; 23: Resonance; 24: VoiceSlewer; 25: PerformanceChannel; 26: PanningLeft; 27: PanningRight; 28: KeyVelocity; 29: SpreadFtn; 30: GeneralPurpose1; 31: GeneralPurpose2; 32: GeneralPurpose3; 33: GeneralPurpose4; 34: ModWheelUp; 35: ModWheelDown; 36: MPETimbre; 37: MPEPitch; 38: MPEPressure; 39: EightLEightR; 40: FlipFlop; 41: Spiral
+Behringer,UB-Xa,ModMatrix,Bus 1 destination,Patch scope,,,,,,6,9,0,29,,0-based,"Enumeration: Empty (0), ButterInput (1), EnvelopesFilterA (2), EnvelopesFilterD (3), FilterFrequency (4), FilterModulation (5), FilterNoise (6), EnvelopesFilterR (7), FilterResonance (8), EnvelopesFilterS (9), EnvelopesLoudnessA (10), EnvelopesLoudnessD (11), EnvelopesLoudnessR (12), EnvelopesLoudnessS (13), ModulationChannel1Amount (14), ModulationChannel2Amount (15), ModulationLFOPhase (16), ModulationLFORate (17), OscillatorsOSC1PWAmount (18), OscillatorsOSC1Transpose (19), ControlDetune (20), OscillatorsOSC2PWAmount (21), OscillatorsOSC2Transpose (22), ControlPanning (23), ControlPortamentoAmount (24), PerformanceLFOChannelAmount (25), PerformanceLFORate (26), ManualMastertune (27), ControlVoiceDetune (28), PerformanceVolume (29), CuttoffLfo (30), Oscillator1Modulation (31), Oscillator1Fenv (32), Oscillator2Modulation (33), Oscillator2Fenv (34), PulseWidth1Modulation (35), PulseWidth2Modulation (36), PanningLeftModulation (37), PanningRightModulation (38),",
+Behringer,UB-Xa,ModMatrix,Bus 2 source,Patch scope,,,,,,6,10,0,41,,0-based,,0: Empty; 1: ChannelPressure; 2: PolyAftertouch; 3: BreathControl; 4: ModChannel1Envelope; 5: ModChannel2Envelope; 6: ModChannel1; 7: ModChannel2; 8: Expression; 9: Cuttoff; 10: FilterEnvelope; 11: KeyTrack; 12: KeyTrackPoly; 13: LoudnessEnvelope; 14: MainLFO; 15: SecondaryLFO; 16: Noise; 17: ModWheel; 18: Oscillator1; 19: Oscillator2; 20: PulseWidth1; 21: PulseWidth2; 22: PitchBendAmount; 23: Resonance; 24: VoiceSlewer; 25: PerformanceChannel; 26: PanningLeft; 27: PanningRight; 28: KeyVelocity; 29: SpreadFtn; 30: GeneralPurpose1; 31: GeneralPurpose2; 32: GeneralPurpose3; 33: GeneralPurpose4; 34: ModWheelUp; 35: ModWheelDown; 36: MPETimbre; 37: MPEPitch; 38: MPEPressure; 39: EightLEightR; 40: FlipFlop; 41: Spiral
+Behringer,UB-Xa,ModMatrix,Bus 2 destination,Patch scope,,,,,,6,11,0,29,,0-based,"Enumeration: Empty (0), ButterInput (1), EnvelopesFilterA (2), EnvelopesFilterD (3), FilterFrequency (4), FilterModulation (5), FilterNoise (6), EnvelopesFilterR (7), FilterResonance (8), EnvelopesFilterS (9), EnvelopesLoudnessA (10), EnvelopesLoudnessD (11), EnvelopesLoudnessR (12), EnvelopesLoudnessS (13), ModulationChannel1Amount (14), ModulationChannel2Amount (15), ModulationLFOPhase (16), ModulationLFORate (17), OscillatorsOSC1PWAmount (18), OscillatorsOSC1Transpose (19), ControlDetune (20), OscillatorsOSC2PWAmount (21), OscillatorsOSC2Transpose (22), ControlPanning (23), ControlPortamentoAmount (24), PerformanceLFOChannelAmount (25), PerformanceLFORate (26), ManualMastertune (27), ControlVoiceDetune (28), PerformanceVolume (29), CuttoffLfo (30), Oscillator1Modulation (31), Oscillator1Fenv (32), Oscillator2Modulation (33), Oscillator2Fenv (34), PulseWidth1Modulation (35), PulseWidth2Modulation (36), PanningLeftModulation (37), PanningRightModulation (38),",
+Behringer,UB-Xa,ModMatrix,Bus 3 source,Patch scope,,,,,,6,12,0,41,,0-based,,0: Empty; 1: ChannelPressure; 2: PolyAftertouch; 3: BreathControl; 4: ModChannel1Envelope; 5: ModChannel2Envelope; 6: ModChannel1; 7: ModChannel2; 8: Expression; 9: Cuttoff; 10: FilterEnvelope; 11: KeyTrack; 12: KeyTrackPoly; 13: LoudnessEnvelope; 14: MainLFO; 15: SecondaryLFO; 16: Noise; 17: ModWheel; 18: Oscillator1; 19: Oscillator2; 20: PulseWidth1; 21: PulseWidth2; 22: PitchBendAmount; 23: Resonance; 24: VoiceSlewer; 25: PerformanceChannel; 26: PanningLeft; 27: PanningRight; 28: KeyVelocity; 29: SpreadFtn; 30: GeneralPurpose1; 31: GeneralPurpose2; 32: GeneralPurpose3; 33: GeneralPurpose4; 34: ModWheelUp; 35: ModWheelDown; 36: MPETimbre; 37: MPEPitch; 38: MPEPressure; 39: EightLEightR; 40: FlipFlop; 41: Spiral
+Behringer,UB-Xa,ModMatrix,Bus 3 destination,Patch scope,,,,,,6,13,0,29,,0-based,"Enumeration: Empty (0), ButterInput (1), EnvelopesFilterA (2), EnvelopesFilterD (3), FilterFrequency (4), FilterModulation (5), FilterNoise (6), EnvelopesFilterR (7), FilterResonance (8), EnvelopesFilterS (9), EnvelopesLoudnessA (10), EnvelopesLoudnessD (11), EnvelopesLoudnessR (12), EnvelopesLoudnessS (13), ModulationChannel1Amount (14), ModulationChannel2Amount (15), ModulationLFOPhase (16), ModulationLFORate (17), OscillatorsOSC1PWAmount (18), OscillatorsOSC1Transpose (19), ControlDetune (20), OscillatorsOSC2PWAmount (21), OscillatorsOSC2Transpose (22), ControlPanning (23), ControlPortamentoAmount (24), PerformanceLFOChannelAmount (25), PerformanceLFORate (26), ManualMastertune (27), ControlVoiceDetune (28), PerformanceVolume (29), CuttoffLfo (30), Oscillator1Modulation (31), Oscillator1Fenv (32), Oscillator2Modulation (33), Oscillator2Fenv (34), PulseWidth1Modulation (35), PulseWidth2Modulation (36), PanningLeftModulation (37), PanningRightModulation (38),",
+Behringer,UB-Xa,ModMatrix,Bus 4 source,Patch scope,,,,,,6,14,0,41,,0-based,,0: Empty; 1: ChannelPressure; 2: PolyAftertouch; 3: BreathControl; 4: ModChannel1Envelope; 5: ModChannel2Envelope; 6: ModChannel1; 7: ModChannel2; 8: Expression; 9: Cuttoff; 10: FilterEnvelope; 11: KeyTrack; 12: KeyTrackPoly; 13: LoudnessEnvelope; 14: MainLFO; 15: SecondaryLFO; 16: Noise; 17: ModWheel; 18: Oscillator1; 19: Oscillator2; 20: PulseWidth1; 21: PulseWidth2; 22: PitchBendAmount; 23: Resonance; 24: VoiceSlewer; 25: PerformanceChannel; 26: PanningLeft; 27: PanningRight; 28: KeyVelocity; 29: SpreadFtn; 30: GeneralPurpose1; 31: GeneralPurpose2; 32: GeneralPurpose3; 33: GeneralPurpose4; 34: ModWheelUp; 35: ModWheelDown; 36: MPETimbre; 37: MPEPitch; 38: MPEPressure; 39: EightLEightR; 40: FlipFlop; 41: Spiral
+Behringer,UB-Xa,ModMatrix,Bus 4 destination,Patch scope,,,,,,6,15,0,29,,0-based,"Enumeration: Empty (0), ButterInput (1), EnvelopesFilterA (2), EnvelopesFilterD (3), FilterFrequency (4), FilterModulation (5), FilterNoise (6), EnvelopesFilterR (7), FilterResonance (8), EnvelopesFilterS (9), EnvelopesLoudnessA (10), EnvelopesLoudnessD (11), EnvelopesLoudnessR (12), EnvelopesLoudnessS (13), ModulationChannel1Amount (14), ModulationChannel2Amount (15), ModulationLFOPhase (16), ModulationLFORate (17), OscillatorsOSC1PWAmount (18), OscillatorsOSC1Transpose (19), ControlDetune (20), OscillatorsOSC2PWAmount (21), OscillatorsOSC2Transpose (22), ControlPanning (23), ControlPortamentoAmount (24), PerformanceLFOChannelAmount (25), PerformanceLFORate (26), ManualMastertune (27), ControlVoiceDetune (28), PerformanceVolume (29), CuttoffLfo (30), Oscillator1Modulation (31), Oscillator1Fenv (32), Oscillator2Modulation (33), Oscillator2Fenv (34), PulseWidth1Modulation (35), PulseWidth2Modulation (36), PanningLeftModulation (37), PanningRightModulation (38),",
+Behringer,UB-Xa,ModMatrix,Bus 5 source,Patch scope,,,,,,6,16,0,41,,0-based,,0: Empty; 1: ChannelPressure; 2: PolyAftertouch; 3: BreathControl; 4: ModChannel1Envelope; 5: ModChannel2Envelope; 6: ModChannel1; 7: ModChannel2; 8: Expression; 9: Cuttoff; 10: FilterEnvelope; 11: KeyTrack; 12: KeyTrackPoly; 13: LoudnessEnvelope; 14: MainLFO; 15: SecondaryLFO; 16: Noise; 17: ModWheel; 18: Oscillator1; 19: Oscillator2; 20: PulseWidth1; 21: PulseWidth2; 22: PitchBendAmount; 23: Resonance; 24: VoiceSlewer; 25: PerformanceChannel; 26: PanningLeft; 27: PanningRight; 28: KeyVelocity; 29: SpreadFtn; 30: GeneralPurpose1; 31: GeneralPurpose2; 32: GeneralPurpose3; 33: GeneralPurpose4; 34: ModWheelUp; 35: ModWheelDown; 36: MPETimbre; 37: MPEPitch; 38: MPEPressure; 39: EightLEightR; 40: FlipFlop; 41: Spiral
+Behringer,UB-Xa,ModMatrix,Bus 5 destination,Patch scope,,,,,,6,17,0,29,,0-based,"Enumeration: Empty (0), ButterInput (1), EnvelopesFilterA (2), EnvelopesFilterD (3), FilterFrequency (4), FilterModulation (5), FilterNoise (6), EnvelopesFilterR (7), FilterResonance (8), EnvelopesFilterS (9), EnvelopesLoudnessA (10), EnvelopesLoudnessD (11), EnvelopesLoudnessR (12), EnvelopesLoudnessS (13), ModulationChannel1Amount (14), ModulationChannel2Amount (15), ModulationLFOPhase (16), ModulationLFORate (17), OscillatorsOSC1PWAmount (18), OscillatorsOSC1Transpose (19), ControlDetune (20), OscillatorsOSC2PWAmount (21), OscillatorsOSC2Transpose (22), ControlPanning (23), ControlPortamentoAmount (24), PerformanceLFOChannelAmount (25), PerformanceLFORate (26), ManualMastertune (27), ControlVoiceDetune (28), PerformanceVolume (29), CuttoffLfo (30), Oscillator1Modulation (31), Oscillator1Fenv (32), Oscillator2Modulation (33), Oscillator2Fenv (34), PulseWidth1Modulation (35), PulseWidth2Modulation (36), PanningLeftModulation (37), PanningRightModulation (38),",
+Behringer,UB-Xa,ModMatrix,Bus 6 source,Patch scope,,,,,,6,18,0,41,,0-based,,0: Empty; 1: ChannelPressure; 2: PolyAftertouch; 3: BreathControl; 4: ModChannel1Envelope; 5: ModChannel2Envelope; 6: ModChannel1; 7: ModChannel2; 8: Expression; 9: Cuttoff; 10: FilterEnvelope; 11: KeyTrack; 12: KeyTrackPoly; 13: LoudnessEnvelope; 14: MainLFO; 15: SecondaryLFO; 16: Noise; 17: ModWheel; 18: Oscillator1; 19: Oscillator2; 20: PulseWidth1; 21: PulseWidth2; 22: PitchBendAmount; 23: Resonance; 24: VoiceSlewer; 25: PerformanceChannel; 26: PanningLeft; 27: PanningRight; 28: KeyVelocity; 29: SpreadFtn; 30: GeneralPurpose1; 31: GeneralPurpose2; 32: GeneralPurpose3; 33: GeneralPurpose4; 34: ModWheelUp; 35: ModWheelDown; 36: MPETimbre; 37: MPEPitch; 38: MPEPressure; 39: EightLEightR; 40: FlipFlop; 41: Spiral
+Behringer,UB-Xa,ModMatrix,Bus 6 destination,Patch scope,,,,,,6,19,0,29,,0-based,"Enumeration: Empty (0), ButterInput (1), EnvelopesFilterA (2), EnvelopesFilterD (3), FilterFrequency (4), FilterModulation (5), FilterNoise (6), EnvelopesFilterR (7), FilterResonance (8), EnvelopesFilterS (9), EnvelopesLoudnessA (10), EnvelopesLoudnessD (11), EnvelopesLoudnessR (12), EnvelopesLoudnessS (13), ModulationChannel1Amount (14), ModulationChannel2Amount (15), ModulationLFOPhase (16), ModulationLFORate (17), OscillatorsOSC1PWAmount (18), OscillatorsOSC1Transpose (19), ControlDetune (20), OscillatorsOSC2PWAmount (21), OscillatorsOSC2Transpose (22), ControlPanning (23), ControlPortamentoAmount (24), PerformanceLFOChannelAmount (25), PerformanceLFORate (26), ManualMastertune (27), ControlVoiceDetune (28), PerformanceVolume (29), CuttoffLfo (30), Oscillator1Modulation (31), Oscillator1Fenv (32), Oscillator2Modulation (33), Oscillator2Fenv (34), PulseWidth1Modulation (35), PulseWidth2Modulation (36), PanningLeftModulation (37), PanningRightModulation (38),",
+Behringer,UB-Xa,ModMatrix,Bus 7 source,Patch scope,,,,,,6,20,0,41,,0-based,,0: Empty; 1: ChannelPressure; 2: PolyAftertouch; 3: BreathControl; 4: ModChannel1Envelope; 5: ModChannel2Envelope; 6: ModChannel1; 7: ModChannel2; 8: Expression; 9: Cuttoff; 10: FilterEnvelope; 11: KeyTrack; 12: KeyTrackPoly; 13: LoudnessEnvelope; 14: MainLFO; 15: SecondaryLFO; 16: Noise; 17: ModWheel; 18: Oscillator1; 19: Oscillator2; 20: PulseWidth1; 21: PulseWidth2; 22: PitchBendAmount; 23: Resonance; 24: VoiceSlewer; 25: PerformanceChannel; 26: PanningLeft; 27: PanningRight; 28: KeyVelocity; 29: SpreadFtn; 30: GeneralPurpose1; 31: GeneralPurpose2; 32: GeneralPurpose3; 33: GeneralPurpose4; 34: ModWheelUp; 35: ModWheelDown; 36: MPETimbre; 37: MPEPitch; 38: MPEPressure; 39: EightLEightR; 40: FlipFlop; 41: Spiral
+Behringer,UB-Xa,ModMatrix,Bus 7 destination,Patch scope,,,,,,6,21,0,29,,0-based,"Enumeration: Empty (0), ButterInput (1), EnvelopesFilterA (2), EnvelopesFilterD (3), FilterFrequency (4), FilterModulation (5), FilterNoise (6), EnvelopesFilterR (7), FilterResonance (8), EnvelopesFilterS (9), EnvelopesLoudnessA (10), EnvelopesLoudnessD (11), EnvelopesLoudnessR (12), EnvelopesLoudnessS (13), ModulationChannel1Amount (14), ModulationChannel2Amount (15), ModulationLFOPhase (16), ModulationLFORate (17), OscillatorsOSC1PWAmount (18), OscillatorsOSC1Transpose (19), ControlDetune (20), OscillatorsOSC2PWAmount (21), OscillatorsOSC2Transpose (22), ControlPanning (23), ControlPortamentoAmount (24), PerformanceLFOChannelAmount (25), PerformanceLFORate (26), ManualMastertune (27), ControlVoiceDetune (28), PerformanceVolume (29), CuttoffLfo (30), Oscillator1Modulation (31), Oscillator1Fenv (32), Oscillator2Modulation (33), Oscillator2Fenv (34), PulseWidth1Modulation (35), PulseWidth2Modulation (36), PanningLeftModulation (37), PanningRightModulation (38),",
+Behringer,UB-Xa,ModMatrix,Bus 8 source,Patch scope,,,,,,6,22,0,41,,0-based,,0: Empty; 1: ChannelPressure; 2: PolyAftertouch; 3: BreathControl; 4: ModChannel1Envelope; 5: ModChannel2Envelope; 6: ModChannel1; 7: ModChannel2; 8: Expression; 9: Cuttoff; 10: FilterEnvelope; 11: KeyTrack; 12: KeyTrackPoly; 13: LoudnessEnvelope; 14: MainLFO; 15: SecondaryLFO; 16: Noise; 17: ModWheel; 18: Oscillator1; 19: Oscillator2; 20: PulseWidth1; 21: PulseWidth2; 22: PitchBendAmount; 23: Resonance; 24: VoiceSlewer; 25: PerformanceChannel; 26: PanningLeft; 27: PanningRight; 28: KeyVelocity; 29: SpreadFtn; 30: GeneralPurpose1; 31: GeneralPurpose2; 32: GeneralPurpose3; 33: GeneralPurpose4; 34: ModWheelUp; 35: ModWheelDown; 36: MPETimbre; 37: MPEPitch; 38: MPEPressure; 39: EightLEightR; 40: FlipFlop; 41: Spiral
+Behringer,UB-Xa,ModMatrix,Bus 8 destination,Patch scope,,,,,,6,23,0,29,,0-based,"Enumeration: Empty (0), ButterInput (1), EnvelopesFilterA (2), EnvelopesFilterD (3), FilterFrequency (4), FilterModulation (5), FilterNoise (6), EnvelopesFilterR (7), FilterResonance (8), EnvelopesFilterS (9), EnvelopesLoudnessA (10), EnvelopesLoudnessD (11), EnvelopesLoudnessR (12), EnvelopesLoudnessS (13), ModulationChannel1Amount (14), ModulationChannel2Amount (15), ModulationLFOPhase (16), ModulationLFORate (17), OscillatorsOSC1PWAmount (18), OscillatorsOSC1Transpose (19), ControlDetune (20), OscillatorsOSC2PWAmount (21), OscillatorsOSC2Transpose (22), ControlPanning (23), ControlPortamentoAmount (24), PerformanceLFOChannelAmount (25), PerformanceLFORate (26), ManualMastertune (27), ControlVoiceDetune (28), PerformanceVolume (29), CuttoffLfo (30), Oscillator1Modulation (31), Oscillator1Fenv (32), Oscillator2Modulation (33), Oscillator2Fenv (34), PulseWidth1Modulation (35), PulseWidth2Modulation (36), PanningLeftModulation (37), PanningRightModulation (38),",
+Behringer,UB-Xa,UI,Patch name A,Patch scope,,,,,,7,0,0,16383,,0-based,,
+Behringer,UB-Xa,UI,Patch name B,Patch scope,,,,,,7,1,0,16383,,0-based,,
+Behringer,UB-Xa,UI,Patch name C,Patch scope,,,,,,7,2,0,16383,,0-based,,
+Behringer,UB-Xa,UI,Patch name D,Patch scope,,,,,,7,3,0,16383,,0-based,,
+Behringer,UB-Xa,UI,Patch name E,Patch scope,,,,,,7,4,0,16383,,0-based,,
+Behringer,UB-Xa,UI,Patch name F,Patch scope,,,,,,7,5,0,16383,,0-based,,
+Behringer,UB-Xa,UI,Patch name G,Patch scope,,,,,,7,6,0,16383,,0-based,,
+Behringer,UB-Xa,UI,Patch name H,Patch scope,,,,,,7,7,0,16383,,0-based,,
+Behringer,UB-Xa,UI,Vintage knobs,Global scope,,,,,,7,8,0,1,,0-based,,0: Extended; 1: Purism
+Behringer,UB-Xa,UI,Last upper patch number,Global scope,,,,,,7,9,0,127,,0-based,,
+Behringer,UB-Xa,UI,Last upper patch bank,Global scope,,,,,,7,10,0,3,,0-based,,
+Behringer,UB-Xa,UI,Last split program number,Global scope,,,,,,7,11,0,35,,0-based,,
+Behringer,UB-Xa,UI,Last double program number,Global scope,,,,,,7,12,0,35,,0-based,,
+Behringer,UB-Xa,UI,Atrophy profile number,Global scope,,,,,,7,13,0,7,,0-based,,
+Behringer,UB-Xa,UI,Last patch,Global scope,,,,,,7,14,0,15,,0-based,Bitmask: Upper (0001) Lower (0010) Combo (0100) Split (1000),
+Behringer,UB-Xa,Arpeggiator,Enabled,Patch scope,,,,,,8,0,0,1,,0-based,,
+Behringer,UB-Xa,Arpeggiator,Mode,Patch scope,,,,,,8,1,0,11,,0-based,,0: Up; 1: Down; 2: Inclusive; 3: Exclusive; 4: Random; 5: Order; 6: Up x2; 7: Down x2; 8: Up x3; 9: Down x3; 10: Up x2/x3; 11: Down x2/x3
+Behringer,UB-Xa,Arpeggiator,Hold,Patch scope,,,,,,8,2,0,1,,0-based,,
+Behringer,UB-Xa,Arpeggiator,Time,Patch scope,,,,,,8,3,0,6,,0-based,,0: 1/4 notes; 1: 1/8 notes; 2: 1/16 notes; 3: 1/32 notes; 4: 1/4 triplets; 5: 1/8 triplets; 6: 1/16 triplets
+Behringer,UB-Xa,Arpeggiator,Gatetime,Patch scope,,,,,,8,4,0,99,,0-based,,
+Behringer,UB-Xa,Arpeggiator,Sync,Patch scope,,,,,,8,5,0,1,,0-based,,0: Global; 1: Retrigger
+Behringer,UB-Xa,Arpeggiator,Octave,Patch scope,,,,,,8,6,1,6,,0-based,,
+Behringer,UB-Xa,Arpeggiator,Swing,Patch scope,,,,,,8,7,0,10,,0-based,,
+Behringer,UB-Xa,Arpeggiator,Repeat,Patch scope,,,,,,8,8,0,10,,0-based,,
+Behringer,UB-Xa,Arpeggiator,Rest,Patch scope,,,,,,8,9,0,255,,0-based,,
+Behringer,UB-Xa,Midi,Transpose,Patch scope,,,,,,9,0,0,127,,0-based,,
+Behringer,UB-Xa,Midi,Patch tempo,Patch scope,,,,,,9,1,40,240,,0-based,,
+Behringer,UB-Xa,Midi,Tempo,Global scope,,,,,,9,2,40,240,,0-based,,
+Behringer,UB-Xa,Midi,Sync,Global scope,,,,,,9,3,0,2,,0-based,,0: Internal; 1: USB; 2: DIN
+Behringer,UB-Xa,Midi,Song,Global scope,,,,,,9,4,0,15,,0-based,Bitmask: Position In (0001) Stop on Seek (0010) Stop all off (0100) Keystart seq (1000),
+Behringer,UB-Xa,Midi,Channel upper rx,Global scope,,,,,,9,5,0,17,,0-based,,0: Channel 1; 1: Channel 2; 2: Channel 3; 3: Channel 4; 10: Channel Channel 11; 11: Channel 12; 12: Channel 13; 13: Channel 14; 14: Channel 15; 15: Channel 16; 16: All; 17: None
+Behringer,UB-Xa,Midi,Channel lower rx,Global scope,,,,,,9,6,0,17,,0-based,,0: Channel 1; 1: Channel 2; 2: Channel 3; 3: Channel 4; 10: Channel Channel 11; 11: Channel 12; 12: Channel 13; 13: Channel 14; 14: Channel 15; 15: Channel 16; 16: All; 17: None
+Behringer,UB-Xa,Midi,Channel upper TX,Global scope,,,,,,9,7,0,16,,0-based,,0: Channel 1; 1: Channel 2; 2: Channel 3; 3: Channel 4; 10: Channel Channel 11; 11: Channel 12; 12: Channel 13; 13: Channel 14; 14: Channel 15; 15: Channel 16; 16: RxChannel
+Behringer,UB-Xa,Midi,Channel lower TX,Global scope,,,,,,9,8,0,16,,0-based,,0: Channel 1; 1: Channel 2; 2: Channel 3; 3: Channel 4; 10: Channel Channel 11; 11: Channel 12; 12: Channel 13; 13: Channel 14; 14: Channel 15; 15: Channel 16; 16: RxChannel
+Behringer,UB-Xa,Midi,Local control,Global scope,,,,,,9,9,0,255,,0-based,Bitmask: Local Ctrl (00000001) Din Rt (00000010) Din Clock (00000100) USB Rt (00001000) USB Clock (00010000) ProgChngeRx (00100000) ProgChngeTx (01000000) NRPNTx (10000000),
+Behringer,UB-Xa,Midi,Forwarding,Global scope,,,,,,9,10,0,255,,0-based,Bitmask: Din to Usb (00000001) Usb to Din (00000010) Din to Din (00000100) Rt to Usb (00001000) Rt to Din (00010000) Clk to Din (00100000) Clk to Usb (01000000) ArpSeq Sel (10000000),
+Behringer,UB-Xa,Midi,USB control,Global scope,,,,,,9,11,0,15,,0-based,Bitmask: USB NRPN TX (0001) USB NRPN RX (0010) USB CC TX (0100) USB CC RX (1000),
+Behringer,UB-Xa,Midi,DIN control,Global scope,,,,,,9,12,0,15,,0-based,Bitmask: DIN NRPN TX (0001) DIN NRPN RX (0010) DIN CC TX (0100) DIN CC RX (1000),
+Behringer,UB-Xa,Midi,MPE profile,Global scope,,,,,,9,13,0,2,,0-based,,0: Disabled; 1: Single; 2: Zones
+Behringer,UB-Xa,Keyboard,Split point,Program scope,,,,,,10,0,0,127,,0-based,,
+Behringer,UB-Xa,Keyboard,Velocity curviness,Global scope,,,,,,10,1,0,2,,0-based,,0: Soft; 1: Medium; 2: Hard
+Behringer,UB-Xa,Keyboard,Velocity scaling,Global scope,,,,,,10,2,0,255,,0-based,,
+Behringer,UB-Xa,Keyboard,Aftertouch assignment,Global scope,,,,,,10,3,0,1,,0-based,,0: ChannelPressure; 1: PolyAftertouch
+Behringer,UB-Xa,Keyboard,Aftertouch curviness,Global scope,,,,,,10,4,0,255,,0-based,,
+Behringer,UB-Xa,Pedal,Sustain assignment,Global scope,,,,,,11,0,0,6,,0-based,,0: Patch Up; 1: Patch Down; 2: Program Up; 3: Program Down; 4: Sustain; 5: Hold; 6: Sostenuto
+Behringer,UB-Xa,Pedal,Sustain polarity,Global scope,,,,,,11,1,0,2,,0-based,,0: Negative; 1: Positive; 2: Disabled
+Behringer,UB-Xa,Pedal,Sustain internal latch,Global scope,,,,,,11,2,0,1,,0-based,,0: Unlatched; 1: Latched
+Behringer,UB-Xa,Pedal,Program assignment,Global scope,,,,,,11,3,0,6,,0-based,,0: Patch Up; 1: Patch Down; 2: Program Up; 3: Program Down; 4: Sustain; 5: Hold; 6: Sostenuto
+Behringer,UB-Xa,Pedal,Program polarity,Global scope,,,,,,11,4,0,2,,0-based,,0: Negative; 1: Positive; 2: Disabled
+Behringer,UB-Xa,Pedal,Program internal latch,Global scope,,,,,,11,5,0,1,,0-based,,0: Unlatched; 1: Latched
+Behringer,UB-Xa,Pedal,Hold assignment,Global scope,,,,,,11,6,0,6,,0-based,,0: Patch Up; 1: Patch Down; 2: Program Up; 3: Program Down; 4: Sustain; 5: Hold; 6: Sostenuto
+Behringer,UB-Xa,Pedal,Hold polarity,Global scope,,,,,,11,7,0,2,,0-based,,0: Negative; 1: Positive; 2: Disabled
+Behringer,UB-Xa,Pedal,Hold internal latch,Global scope,,,,,,11,8,0,1,,0-based,,0: Unlatched; 1: Latched
+Behringer,UB-Xa,Pedal,Vibrato assignment,Global scope,,,,,,11,9,0,8,,0-based,,0: Filter; 1: Vibrato; 2: Attack; 3: Release; 4: Decay; 5: General1 cc16; 6: General2 cc17; 7: General3 cc18; 8: General4 cc19
+Behringer,UB-Xa,Pedal,Vibrato polarity,Global scope,,,,,,11,10,0,2,,0-based,,0: Negative; 1: Positive; 2: Disabled
+Behringer,UB-Xa,Pedal,Vibrato lower,Global scope,,,,,,11,11,0,255,,0-based,,
+Behringer,UB-Xa,Pedal,Vibrato upper,Global scope,,,,,,11,12,0,255,,0-based,,
+Behringer,UB-Xa,Pedal,Filter assignment,Global scope,,,,,,11,13,0,8,,0-based,,0: Filter; 1: Vibrato; 2: Attack; 3: Release; 4: Decay; 5: General1 cc16; 6: General2 cc17; 7: General3 cc18; 8: General4 cc19
+Behringer,UB-Xa,Pedal,Filter polarity,Global scope,,,,,,11,14,0,2,,0-based,,0: Negative; 1: Positive; 2: Disabled
+Behringer,UB-Xa,Pedal,Filter lower,Global scope,,,,,,11,15,0,255,,0-based,,
+Behringer,UB-Xa,Pedal,Filter upper,Global scope,,,,,,11,16,0,255,,0-based,,
+Behringer,UB-Xa,Sysex,Device id,Global scope,,,,,,12,0,0,15,,0-based,,0: Channel 1; 1: Channel 2; 2: Channel 3; 3: Channel 4; 10: Channel Channel 11; 11: Channel 12; 12: Channel 13; 13: Channel 14; 14: Channel 15; 15: Channel 16
+Behringer,UB-Xa,Voice,Toggle 1 8,Global scope,,,,,,13,0,0,255,,0-based,Bitmask: Voice 1 (00000001) Voice 2 (00000010) Voice 3 (00000100) Voice 4 (00001000) Voice 5 (00010000) Voice 6 (00100000) Voice 7 (01000000) Voice 8 (10000000),
+Behringer,UB-Xa,Voice,Toggle 9 16,Global scope,,,,,,13,1,0,255,,0-based,Bitmask: Voice 9 (00000001) Voice 10 (00000010) Voice 11 (00000100) Voice 12 (00001000) Voice 13 (00010000) Voice 14 (00100000) Voice 15 (01000000) Voice,
+Behringer,UB-Xa,Voice,Ignore PWM calibration 1 8,Global scope,,,,,,13,2,0,255,,0-based,Bitmask: Voice 1 (00000001) Voice 2 (00000010) Voice 3 (00000100) Voice 4 (00001000) Voice 5 (00010000) Voice 6 (00100000) Voice 7 (01000000) Voice 8 (10000000),
+Behringer,UB-Xa,Voice,Ignore PWM calibration 9 16,Global scope,,,,,,13,3,0,255,,0-based,Bitmask: Voice 9 (00000001) Voice 10 (00000010) Voice 11 (00000100) Voice 12 (00001000) Voice 13 (00010000) Voice 14 (00100000) Voice 15 (01000000) Voice,
+Behringer,UB-Xa,Voice,Ignore VCO calibration 1 8,Global scope,,,,,,13,4,0,255,,0-based,Bitmask: Voice 1 (00000001) Voice 2 (00000010) Voice 3 (00000100) Voice 4 (00001000) Voice 5 (00010000) Voice 6 (00100000) Voice 7 (01000000) Voice 8 (10000000),
+Behringer,UB-Xa,Voice,Ignore VCO calibration 9 16,Global scope,,,,,,13,5,0,255,,0-based,Bitmask: Voice 9 (00000001) Voice 10 (00000010) Voice 11 (00000100) Voice 12 (00001000) Voice 13 (00010000) Voice 14 (00100000) Voice 15 (01000000) Voice,
+Behringer,UB-Xa,Voice,Ignore VCF calibration 1 8,Global scope,,,,,,13,6,0,255,,0-based,Bitmask: Voice 1 (00000001) Voice 2 (00000010) Voice 3 (00000100) Voice 4 (00001000) Voice 5 (00010000) Voice 6 (00100000) Voice 7 (01000000) Voice 8 (10000000),
+Behringer,UB-Xa,Voice,Ignore VCF calibration 9 16,Global scope,,,,,,13,7,0,255,,0-based,Bitmask: Voice 9 (00000001) Voice 10 (00000010) Voice 11 (00000100) Voice 12 (00001000) Voice 13 (00010000) Voice 14 (00100000) Voice 15 (01000000) Voice,
+Behringer,UB-Xa,Surface,Brightness,Global scope,,,,,,14,0,0,32,,0-based,,
+Behringer,UB-Xa,Surface,Contrast,Global scope,,,,,,14,1,0,32,,0-based,,
+Behringer,UB-Xa,Surface,Lever settings,Global scope,,,,,,14,2,0,3,,0-based,Bitmask: Invert Left (01) Invert Right (10),
+Behringer,UB-Xa,Surface,Fan,Global scope,,,,,,14,3,0,2,,0-based,,0: Enabled; 1: TempCtrl; 2: Disabled
+Behringer,UB-Xa,Background,Calibration settings,Global scope,,,,,,15,0,0,2,,0-based,,0: Enabled; 1: Only Auto; 2: Disabled
+Behringer,UB-Xa,Amplifier,Offset,Global scope,,,,,,16,0,0,255,,0-based,,
+Behringer,UB-Xa,Amplifier,Offset 2 P,Global scope,,,,,,16,1,0,255,,0-based,,
+Behringer,UB-Xa,Amplifier,Offset uni,Global scope,,,,,,16,2,0,255,,0-based,,
+Behringer,UB-Xa,Amplifier,Offset master,Global scope,,,,,,16,3,0,255,,0-based,,
+Behringer,UB-Xa,Amplifier,Env linearity,Global scope,,,,,,16,4,0,63,,0-based,,
+Behringer,UB-Xa,Amplifier,Env chaos,Global scope,,,,,,16,5,0,31,,0-based,,
+Behringer,UB-Xa,,Panning voice 1,Global scope,,,,,,17,0,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 2,Global scope,,,,,,17,1,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 3,Global scope,,,,,,17,2,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 4,Global scope,,,,,,17,3,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 5,Global scope,,,,,,17,4,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 6,Global scope,,,,,,17,5,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 7,Global scope,,,,,,17,6,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 8,Global scope,,,,,,17,7,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 9,Global scope,,,,,,17,8,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 10,Global scope,,,,,,17,9,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 11,Global scope,,,,,,17,10,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 12,Global scope,,,,,,17,11,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 13,Global scope,,,,,,17,12,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 14,Global scope,,,,,,17,13,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 15,Global scope,,,,,,17,14,0,255,,0-based,,
+Behringer,UB-Xa,,Panning voice 16,Global scope,,,,,,17,15,0,255,,0-based,,
+Behringer,UB-Xa,,Atrophy profile name A,Global scope,,,,,,18,0,32,255,,0-based,,
+Behringer,UB-Xa,,Atrophy profile name B,Global scope,,,,,,18,1,32,255,,0-based,,
+Behringer,UB-Xa,,Atrophy profile name C,Global scope,,,,,,18,2,32,255,,0-based,,
+Behringer,UB-Xa,,Atrophy profile name D,Global scope,,,,,,18,3,32,255,,0-based,,
+Behringer,UB-Xa,,Atrophy profile name E,Global scope,,,,,,18,4,32,255,,0-based,,
+Behringer,UB-Xa,,Atrophy profile name F,Global scope,,,,,,18,5,32,255,,0-based,,
+Behringer,UB-Xa,Sequencer,Step count,Patch scope,,,,,,19,0,0,128,,0-based,,
+Behringer,UB-Xa,Sequencer,Time,Patch scope,,,,,,19,1,0,6,,0-based,,0: 1/4 notes; 1: 1/8 notes; 2: 1/16 notes; 3: 1/32 notes; 4: 1/4 triplets; 5: 1/8 triplets; 6: 1/16 triplets
+Behringer,UB-Xa,Sequencer,Gatetime,Patch scope,,,,,,19,2,0,99,,0-based,,
+Behringer,UB-Xa,Sequencer,Sync,Patch scope,,,,,,19,3,0,1,,0-based,"Enumeration: Global (0), Retrigger (1), MPE messages. notes will be allocated to one channel dynamically as necessary. constitutes an instruction. have been played, but while they are still being held. Noise – A random sound comprising of all frequencies. Arpeggiator – a part of the synthesizer which causes the notes of a chord to be Note Priority – Determines which note is played when the maximum number is played individually as an arpeggio according to settings. exceeded. Typically lowest, highest or last. Atrophy - To degrade or to get worse. The sound of Vintage synthesizers changes Octave – A measure of pitch. over time, a model fresh from production line would not sound the same after 30 This is because the physical electronic components inside will 'atrophy'. The Oscillator Sync – The process by which the cycle of one oscillator is synchronized atrophy menu is to be able to give the user options to be able to make small to the cycle of another. tweaks to the voice engine, so the sound becomes not perfect and to make it another, or to the physical sockets used to connect to external equipment. Attack Time – The first stage of the envelope. Specified as the time taken for the waveforms or a waveform and a fixed reference point. Cent – Unit of measurement for tuning. One semitone is divided into 100 cents. Pitch Bend – Changing the pitch of a note up or down while it is being played. Cutoff Frequency – The point at which the filter starts to cut frequencies. Polyphonic – Capable of playing more than one note at a time, expressed as a Decay Time – The second stage of the envelope. Specified as the time taken for number of voices. the sound level to drop from maximum to the sustain level while the played keys changing instantly. Digital Audio Workstation (DAW) – A computer based software package that changed. Envelope Generator – Envelope generators can be used to contour the sound. be used on filters and to affect pitch. Rate – The speed at which an action takes place. Filter – Filters attenuate the frequencies above or below their cutoff point, thus Release Time – The final stage of the envelope. Specified as the time taken for affecting the timbre of the sound. the envelope to reach zero once keys have been released. Frequency Modulation (FM) – The use of one frequency to modulate another. Resonance – The emphasis of frequencies centered on the cutoff frequency. Typically the use of a low frequency from a low frequency oscillator to add leading edge followed by a gradual decline to zero point. Global – parameters that affect all patches. Self Oscillation – The point at which a filter starts to produce a sine wave output Hertz (Hz) – Unit of measurement for frequencies. 1 Hz is one cycle per second. owing to excessive use of resonance. Invert – change to the opposite, so a positive becomes negative for example. Semitone – A measure of pitch. Each octave contains 12 semitones. Keyboard Tracking – Use of the notes played on the keyboard to adjust another Sequencer – A part of the synthesizer which can be programmed with a series of parameter, for example. notes and/or chords which are then repeated back at a selected tempo. KiloHertz (kHz) – Common abbreviation for one thousand Hz. Signal Flow – The path of a signal from one part of the synthesizer to another. Low Frequency Oscillator (LFO) – An oscillator that runs at a low speed and is Sine Wave – A smooth waveform that contains only the fundamental frequency used to modulate other parts of the synthesiser. with no harmonics. MPE – MIDI Polyphonic Expression (also known as Multidimensional Polyphonic Square Wave – a symmetrical waveform which changes instantaneously from Expression). Please see the MPE chapter for a full explanation of MPE. zero state to full. Musical Instrument Digital Interface (MIDI) – a protocol that allows musical Sustain Level – The third stage of the envelope. This is the level that the instruments, other peripherals and DAWs to pass data according to a defined envelope holds at after decay until keys are released. standard. Synchronization (Sync) – Co-ordinating the timing of devices where one is the MIDI Clock – a timing signal that is sent as part of the MIDI data. master and the other(s) are synchronized to it. Trigger – The activation of a function, for example pressing a key to start the Envelope cycle. Tune – The adjustment of the pitch of an instrument to be the same as that of another instrument; or the adjustment of one oscillator to be in tune with the other. Unison – Two or more voices played together on the same key(s). Universal Serial Bus (USB) – An interface that can be used to connect your synthesizer to a DAW, or to receive firmware updates. Velocity – The strength at which the keyboard is played, which can be used as a modulation source. Voltage Controlled Amplifier (VCA) – An amplifier whose level can be adjusted by control voltages, for example from an envelope generator. FEDERAL COMMUNICATIONS COMMISSION COMPLIANCE INFORMATION Behringer UB-Xa Responsible Party Name:              Music Tribe Commercial NV Inc. Address:                             122 E. 42nd St.1, United States Email Address:                       legal@musictribe.com UB-Xa This equipment has been tested and found to comply with the limits for a Class B digital device, pursuant to part 15 of the FCC Rules. These limits are designed to provide reasonable protection against harmful interference in a residential installation. This equipment generates, uses and can radiate radio frequency energy and, if not installed and used in accordance with the instructions, may cause harmful interference to radio communications. However, there is no guarantee that interference will not occur in a particular installation. If this equipment does cause harmful interference to radio or television reception, which can be determined by turning the equipment off and on, the user is encouraged to try to correct the interference by one or more of the following measures: • Reorient or relocate the receiving antenna. • Increase the separation between the equipment and receiver. • Connect the equipment into an outlet on a circuit different from that to which the receiver is connected. • Consult the dealer or an experienced radio/TV technician for help. This equipment complies with Part 15 of the FCC rules. Operation is subject to the following two conditions: (1) this device may not cause harmful interference, and (2) this device must accept any interference received, including interference that may cause undesired operation. Important information: Changes or modifications to the equipment not expressly approved by Music Tribe can void the user’s authority to use the equipment. Hereby, Music Tribe declares that this product is in compliance with Directive EU, Directive 2012/19/EU, Regulation 519/2012 REACH SVHC and Directive Full text of EU DoC is available at https://community.musictribe.com/ EU Representative: Music Tribe Brands DK A/S Address: Gammel Strand 44, DK-1202 København K, Denmark UK Representative: Music Tribe Brands UK Ltd. We Hear You",
