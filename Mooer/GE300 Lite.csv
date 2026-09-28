@@ -1,0 +1,9 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Mooer,GE300 Lite,Banks and presets,Bank Select,,0,,0,1,,,,,,,0-based,,
+Mooer,GE300 Lite,Blocks,Comp On/Off,,10,,0,127,,,,,,,0-based,Manual gives the value range as 0-127 without specifying the exact off/on split,
+Mooer,GE300 Lite,Blocks,Wah On/Off,,11,,0,127,,,,,,,0-based,Manual gives the value range as 0-127 without specifying the exact off/on split,
+Mooer,GE300 Lite,Blocks,FX A On/Off,,12,,0,127,,,,,,,0-based,Manual gives the value range as 0-127 without specifying the exact off/on split,
+Mooer,GE300 Lite,Blocks,OD/DS On/Off,,13,,0,127,,,,,,,0-based,Manual gives the value range as 0-127 without specifying the exact off/on split,
+Mooer,GE300 Lite,Blocks,Amp On/Off,,14,,0,127,,,,,,,0-based,Manual gives the value range as 0-127 without specifying the exact off/on split,
+Mooer,GE300 Lite,Blocks,Cab On/Off,,15,,0,127,,,,,,,0-based,Manual gives the value range as 0-127 without specifying the exact off/on split,
+Mooer,GE300 Lite,Blocks,Noise Suppressor On/Off,,16,,0,127,,,,,,,0-based,Manual gives the value range as 0-127 without specifying the exact off/on split,
