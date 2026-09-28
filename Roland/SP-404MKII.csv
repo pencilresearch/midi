@@ -1,48 +1,48 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-Roland,SP-404MKII,Bus 1: Effects,Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 1,0-63: Off; 64-127: On
-Roland,SP-404MKII,Bus 1: Effects,Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 1,0: Off; 1: Direct FX1; 2: Direct FX2; 3: Direct FX3; 4: Direct FX4; 5: Direct FX5; 6: Scatter; 7: Downer; 8: Ha-Dou; 9: Ko-Da-Ma; 10: Zan-Zou; 11: To-Gu-Ro; 12: SBF; 13: Stopper; 14: Tape Echo; 15: TimeCtrlDly; 16: Super Filter; 17: WrmSaturator; 18: 303 VinylSim; 19: 404 VinylSim; 20: Cassette Sim; 21: Lo-fi; 22: Reverb; 23: Chorus; 24: JUNO Chorus; 25: Flanger; 26: Phaser; 27: Wah; 28: Slicer; 29: Tremolo/Pan; 30: Chromatic PS; 31: Hyper-Reso; 32: Ring Mod; 33: Crusher; 34: Overdrive; 35: Distortion; 36: Equalizer; 37: Compressor; 38: SX Reverb; 39: SX Delay; 40: Cloud Delay; 41: Back Spin; 42: DJFX Delay
-Roland,SP-404MKII,Bus 1: Effects,Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
-Roland,SP-404MKII,Bus 1: Effects,Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
-Roland,SP-404MKII,Bus 1: Effects,Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
-Roland,SP-404MKII,Bus 1: Effects,Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
-Roland,SP-404MKII,Bus 1: Effects,Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
-Roland,SP-404MKII,Bus 1: Effects,Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
-Roland,SP-404MKII,Bus 2: Effects,Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 2,0-63: Off; 64-127: On
-Roland,SP-404MKII,Bus 2: Effects,Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 2,0: Off; 1: Direct FX1; 2: Direct FX2; 3: Direct FX3; 4: Direct FX4; 5: Direct FX5; 6: Scatter; 7: Downer; 8: Ha-Dou; 9: Ko-Da-Ma; 10: Zan-Zou; 11: To-Gu-Ro; 12: SBF; 13: Stopper; 14: Tape Echo; 15: TimeCtrlDly; 16: Super Filter; 17: WrmSaturator; 18: 303 VinylSim; 19: 404 VinylSim; 20: Cassette Sim; 21: Lo-fi; 22: Reverb; 23: Chorus; 24: JUNO Chorus; 25: Flanger; 26: Phaser; 27: Wah; 28: Slicer; 29: Tremolo/Pan; 30: Chromatic PS; 31: Hyper-Reso; 32: Ring Mod; 33: Crusher; 34: Overdrive; 35: Distortion; 36: Equalizer; 37: Compressor; 38: SX Reverb; 39: SX Delay; 40: Cloud Delay; 41: Back Spin; 42: DJFX Delay
-Roland,SP-404MKII,Bus 2: Effects,Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
-Roland,SP-404MKII,Bus 2: Effects,Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
-Roland,SP-404MKII,Bus 2: Effects,Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
-Roland,SP-404MKII,Bus 2: Effects,Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
-Roland,SP-404MKII,Bus 2: Effects,Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
-Roland,SP-404MKII,Bus 2: Effects,Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
-Roland,SP-404MKII,Bus 3: Effects,Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 3,0-63: Off; 64-127: On
-Roland,SP-404MKII,Bus 3: Effects,Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 3,0: Off; 1: 303 VinylSim; 2: 404 VinylSim; 3: Cassette Sim; 4: Lo-fi; 5: Downer; 6: Compressor; 7: Equalizer; 8: Isolator; 9: Super Filter; 10: Filter+Drive; 11: WrmSaturator; 12: Overdrive; 13: Distortion; 14: Crusher; 15: Ring Mod; 16: SBF; 17: Resonator; 18: Hyper-Reso; 19: Chromatic PS; 20: Reverb; 21: Ha-Dou; 22: Zan-Zou; 23: Sync Delay; 24: TimeCtrlDly; 25: Ko-Da-Ma; 26: Tape Echo; 27: Chorus; 28: JUNO Chorus; 29: Flanger; 30: Phaser; 31: Wah; 32: Slicer; 33: Tremolo/Pan; 34: To-Gu-Ro; 35: DJFX Looper; 36: Scatter; 37: SX Reverb; 38: SX Delay; 39: Cloud Delay; 40: DJFX Delay
-Roland,SP-404MKII,Bus 3: Effects,Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
-Roland,SP-404MKII,Bus 3: Effects,Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
-Roland,SP-404MKII,Bus 3: Effects,Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
-Roland,SP-404MKII,Bus 3: Effects,Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
-Roland,SP-404MKII,Bus 3: Effects,Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
-Roland,SP-404MKII,Bus 3: Effects,Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
-Roland,SP-404MKII,Bus 4: Effects,Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 4,0-63: Off; 64-127: On
-Roland,SP-404MKII,Bus 4: Effects,Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 4,0: Off; 1: 303 VinylSim; 2: 404 VinylSim; 3: Cassette Sim; 4: Lo-fi; 5: Downer; 6: Compressor; 7: Equalizer; 8: Isolator; 9: Super Filter; 10: Filter+Drive; 11: WrmSaturator; 12: Overdrive; 13: Distortion; 14: Crusher; 15: Ring Mod; 16: SBF; 17: Resonator; 18: Hyper-Reso; 19: Chromatic PS; 20: Reverb; 21: Ha-Dou; 22: Zan-Zou; 23: Sync Delay; 24: TimeCtrlDly; 25: Ko-Da-Ma; 26: Tape Echo; 27: Chorus; 28: JUNO Chorus; 29: Flanger; 30: Phaser; 31: Wah; 32: Slicer; 33: Tremolo/Pan; 34: To-Gu-Ro; 35: DJFX Looper; 36: Scatter; 37: SX Reverb; 38: SX Delay; 39: Cloud Delay; 40: DJFX Delay
-Roland,SP-404MKII,Bus 4: Effects,Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
-Roland,SP-404MKII,Bus 4: Effects,Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
-Roland,SP-404MKII,Bus 4: Effects,Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
-Roland,SP-404MKII,Bus 4: Effects,Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
-Roland,SP-404MKII,Bus 4: Effects,Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
-Roland,SP-404MKII,Bus 4: Effects,Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
-Roland,SP-404MKII,Input: Effects,Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 5,0-63: Off; 64-127: On
-Roland,SP-404MKII,Input: Effects,Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 5,0: Off; 1: Auto Pitch; 2: Vocoder; 3: Harmony; 4: Gt Amp Sim; 5: Chorus; 6: JUNO Chorus; 7: Reverb; 8: TimeCtrlDly; 9: Chromatic PS; 10: Downer; 11: WrmSaturator; 12: 303 VinylSim; 13: 404 VinylSim; 14: Cassette Sim; 15: Lo-fi; 16: Equalizer; 17: Compressor
-Roland,SP-404MKII,Input: Effects,Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
-Roland,SP-404MKII,Input: Effects,Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
-Roland,SP-404MKII,Input: Effects,Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
-Roland,SP-404MKII,Input: Effects,Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
-Roland,SP-404MKII,Input: Effects,Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
-Roland,SP-404MKII,Input: Effects,Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
+Roland,SP-404MKII,"Bus 1, Effects",Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 1,0-63: Off; 64-127: On
+Roland,SP-404MKII,"Bus 1, Effects",Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 1,0: Off; 1: Direct FX1; 2: Direct FX2; 3: Direct FX3; 4: Direct FX4; 5: Direct FX5; 6: Scatter; 7: Downer; 8: Ha-Dou; 9: Ko-Da-Ma; 10: Zan-Zou; 11: To-Gu-Ro; 12: SBF; 13: Stopper; 14: Tape Echo; 15: TimeCtrlDly; 16: Super Filter; 17: WrmSaturator; 18: 303 VinylSim; 19: 404 VinylSim; 20: Cassette Sim; 21: Lo-fi; 22: Reverb; 23: Chorus; 24: JUNO Chorus; 25: Flanger; 26: Phaser; 27: Wah; 28: Slicer; 29: Tremolo/Pan; 30: Chromatic PS; 31: Hyper-Reso; 32: Ring Mod; 33: Crusher; 34: Overdrive; 35: Distortion; 36: Equalizer; 37: Compressor; 38: SX Reverb; 39: SX Delay; 40: Cloud Delay; 41: Back Spin; 42: DJFX Delay
+Roland,SP-404MKII,"Bus 1, Effects",Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
+Roland,SP-404MKII,"Bus 1, Effects",Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
+Roland,SP-404MKII,"Bus 1, Effects",Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
+Roland,SP-404MKII,"Bus 1, Effects",Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
+Roland,SP-404MKII,"Bus 1, Effects",Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
+Roland,SP-404MKII,"Bus 1, Effects",Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 1,
+Roland,SP-404MKII,"Bus 2, Effects",Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 2,0-63: Off; 64-127: On
+Roland,SP-404MKII,"Bus 2, Effects",Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 2,0: Off; 1: Direct FX1; 2: Direct FX2; 3: Direct FX3; 4: Direct FX4; 5: Direct FX5; 6: Scatter; 7: Downer; 8: Ha-Dou; 9: Ko-Da-Ma; 10: Zan-Zou; 11: To-Gu-Ro; 12: SBF; 13: Stopper; 14: Tape Echo; 15: TimeCtrlDly; 16: Super Filter; 17: WrmSaturator; 18: 303 VinylSim; 19: 404 VinylSim; 20: Cassette Sim; 21: Lo-fi; 22: Reverb; 23: Chorus; 24: JUNO Chorus; 25: Flanger; 26: Phaser; 27: Wah; 28: Slicer; 29: Tremolo/Pan; 30: Chromatic PS; 31: Hyper-Reso; 32: Ring Mod; 33: Crusher; 34: Overdrive; 35: Distortion; 36: Equalizer; 37: Compressor; 38: SX Reverb; 39: SX Delay; 40: Cloud Delay; 41: Back Spin; 42: DJFX Delay
+Roland,SP-404MKII,"Bus 2, Effects",Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
+Roland,SP-404MKII,"Bus 2, Effects",Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
+Roland,SP-404MKII,"Bus 2, Effects",Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
+Roland,SP-404MKII,"Bus 2, Effects",Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
+Roland,SP-404MKII,"Bus 2, Effects",Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
+Roland,SP-404MKII,"Bus 2, Effects",Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 2,
+Roland,SP-404MKII,"Bus 3, Effects",Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 3,0-63: Off; 64-127: On
+Roland,SP-404MKII,"Bus 3, Effects",Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 3,0: Off; 1: 303 VinylSim; 2: 404 VinylSim; 3: Cassette Sim; 4: Lo-fi; 5: Downer; 6: Compressor; 7: Equalizer; 8: Isolator; 9: Super Filter; 10: Filter+Drive; 11: WrmSaturator; 12: Overdrive; 13: Distortion; 14: Crusher; 15: Ring Mod; 16: SBF; 17: Resonator; 18: Hyper-Reso; 19: Chromatic PS; 20: Reverb; 21: Ha-Dou; 22: Zan-Zou; 23: Sync Delay; 24: TimeCtrlDly; 25: Ko-Da-Ma; 26: Tape Echo; 27: Chorus; 28: JUNO Chorus; 29: Flanger; 30: Phaser; 31: Wah; 32: Slicer; 33: Tremolo/Pan; 34: To-Gu-Ro; 35: DJFX Looper; 36: Scatter; 37: SX Reverb; 38: SX Delay; 39: Cloud Delay; 40: DJFX Delay
+Roland,SP-404MKII,"Bus 3, Effects",Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
+Roland,SP-404MKII,"Bus 3, Effects",Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
+Roland,SP-404MKII,"Bus 3, Effects",Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
+Roland,SP-404MKII,"Bus 3, Effects",Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
+Roland,SP-404MKII,"Bus 3, Effects",Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
+Roland,SP-404MKII,"Bus 3, Effects",Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 3,
+Roland,SP-404MKII,"Bus 4, Effects",Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 4,0-63: Off; 64-127: On
+Roland,SP-404MKII,"Bus 4, Effects",Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 4,0: Off; 1: 303 VinylSim; 2: 404 VinylSim; 3: Cassette Sim; 4: Lo-fi; 5: Downer; 6: Compressor; 7: Equalizer; 8: Isolator; 9: Super Filter; 10: Filter+Drive; 11: WrmSaturator; 12: Overdrive; 13: Distortion; 14: Crusher; 15: Ring Mod; 16: SBF; 17: Resonator; 18: Hyper-Reso; 19: Chromatic PS; 20: Reverb; 21: Ha-Dou; 22: Zan-Zou; 23: Sync Delay; 24: TimeCtrlDly; 25: Ko-Da-Ma; 26: Tape Echo; 27: Chorus; 28: JUNO Chorus; 29: Flanger; 30: Phaser; 31: Wah; 32: Slicer; 33: Tremolo/Pan; 34: To-Gu-Ro; 35: DJFX Looper; 36: Scatter; 37: SX Reverb; 38: SX Delay; 39: Cloud Delay; 40: DJFX Delay
+Roland,SP-404MKII,"Bus 4, Effects",Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
+Roland,SP-404MKII,"Bus 4, Effects",Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
+Roland,SP-404MKII,"Bus 4, Effects",Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
+Roland,SP-404MKII,"Bus 4, Effects",Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
+Roland,SP-404MKII,"Bus 4, Effects",Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
+Roland,SP-404MKII,"Bus 4, Effects",Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 4,
+Roland,SP-404MKII,"Input, Effects",Effect switch,,19,,0,127,,,,,,,0-based,Receives on MIDI channel 5,0-63: Off; 64-127: On
+Roland,SP-404MKII,"Input, Effects",Effect number,Selects the effect,83,,0,127,,,,,,,0-based,Receives on MIDI channel 5,0: Off; 1: Auto Pitch; 2: Vocoder; 3: Harmony; 4: Gt Amp Sim; 5: Chorus; 6: JUNO Chorus; 7: Reverb; 8: TimeCtrlDly; 9: Chromatic PS; 10: Downer; 11: WrmSaturator; 12: 303 VinylSim; 13: 404 VinylSim; 14: Cassette Sim; 15: Lo-fi; 16: Equalizer; 17: Compressor
+Roland,SP-404MKII,"Input, Effects",Control 1,Controls the effect parameter assigned to Ctrl 1,16,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
+Roland,SP-404MKII,"Input, Effects",Control 2,Controls the effect parameter assigned to Ctrl 2,17,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
+Roland,SP-404MKII,"Input, Effects",Control 3,Controls the effect parameter assigned to Ctrl 3,18,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
+Roland,SP-404MKII,"Input, Effects",Control 4,Controls the effect parameter assigned to Ctrl 4,80,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
+Roland,SP-404MKII,"Input, Effects",Control 5,Controls the effect parameter assigned to Ctrl 5,81,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
+Roland,SP-404MKII,"Input, Effects",Control 6,Controls the effect parameter assigned to Ctrl 6,82,,0,127,,,,,,,0-based,Receives on MIDI channel 5,
 Roland,SP-404MKII,DJ mode,Channel 1 volume,Channel 1 volume slider,7,,0,127,,,,,,,0-based,DJ mode only. Receives on MIDI channel 1,
 Roland,SP-404MKII,DJ mode,Channel 2 volume,Channel 2 volume slider,7,,0,127,,,,,,,0-based,DJ mode only. Receives on MIDI channel 2,
 Roland,SP-404MKII,DJ mode,Pattern sequencer volume,Pattern sequencer volume slider,7,,0,127,,,,,,,0-based,DJ mode only. Receives on MIDI channel 3,
-Roland,SP-404MKII,DJ mode,Crossfader,Crossfades between channel 1 (0) and channel 2 (127),8,,0,127,,,,,,,centered,DJ mode only. Receives on MIDI channel 1,
+Roland,SP-404MKII,DJ mode,Crossfader,Crossfades between channel 1 and channel 2,8,,0,127,,,,,,,centered,DJ mode only. Receives on MIDI channel 1,0~127: Crossfade between channel 1 and channel 2
 Roland,SP-404MKII,Looper,Stop all samples,Equivalent to the EXIT button,85,,0,127,,,,,,,0-based,Looper mode only. Receives on MIDI channel 1,127: Stop all samples
 Roland,SP-404MKII,Looper,Reset tempo,Equivalent to the PITCH/SPEED button,86,,0,127,,,,,,,0-based,Looper mode only. Receives on MIDI channel 1,127: Reset tempo
 Roland,SP-404MKII,Looper,Delete,Equivalent to the DEL button,87,,0,127,,,,,,,0-based,Looper mode only. Receives on MIDI channel 1,127: Delete sampled content
