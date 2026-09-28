@@ -1,0 +1,115 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Novation,KS 4 (KS 5),Controllers,Modwheel,modwheel msb,1,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Controllers,Breath control,breath msb,2,,0,127,,,,,,,0-based,receive only,
+Novation,KS 4 (KS 5),Arpeggiator,ARP pattern,,3,,0,127,,,,,,,0-based,"0..7 = up, down, ud1, ud2, order, random, chord, drum",
+Novation,KS 4 (KS 5),Mixer,Part volume,volume msb,7,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Pitch,Preglide semitones,balance msb,8,,0,127,,,,,,,centered,0=preglide disabled,0~127: -12..+12
+Novation,KS 4 (KS 5),Arpeggiator,Arp/general sync rate (,,9,,0,127,,,,,,,0-based,common,0~127: 64..191 bpm)
+Novation,KS 4 (KS 5),Effects,Pan position,pan msb,10,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Controllers,Expression pedal,expression msb,11,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Non-sync pan rate,effect control 1 msb,12,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Sync pan rate,effect control 2 msb,13,,0,127,,,,,,,0-based,"non-sync, 32Triplet..12bars",0~127: 0..34
+Novation,KS 4 (KS 5),General,Vocoder stereo width,,14,,0,127,,,,,,,0-based,common,
+Novation,KS 4 (KS 5),Mixer,Vocoder sibilance level,,15,,0,127,,,,,,,0-based,common,
+Novation,KS 4 (KS 5),Controllers,Modwheel distortion,gen. controller 1 msb,16,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Effects,Distortion compensation,gen. controller 2 msb,17,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Controllers,Modwheel delay send,gen. controller 3 msb,18,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Non-sync delay time,gen. controller 4 msb,19,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Sync delay time,,20,,0,127,,,,,,,0-based,"non-sync, 32Triplet..2bars",0~127: 0..19
+Novation,KS 4 (KS 5),Effects,Delay feedback,,21,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Effects,Delay stereo width,,22,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Effects,Delay ratio,,23,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Controllers,Modwheel reverb send,,24,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Envelope,Reverb decay,,25,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Controllers,Modwheel chorus send,,26,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),General,Non-sync chorus rate,,27,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Sync chorus rate,,28,,0,127,,,,,,,0-based,"non-sync, 32Triplet..12bars",0~127: 0..34
+Novation,KS 4 (KS 5),Effects,Chorus feedback,,29,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Effects,Chorus mod depth,,30,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Effects,Chorus mod centre point,,31,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Program Select,Bank select,bank lsb,32,,0,127,,,,,,,0-based,"bit 6 set forces perf mode, bit 5 set forces program mode",0~127: 1..8
+Novation,KS 4 (KS 5),Effects,EQ level,modwheel lsb,33,,0,127,,,,,,,centered,"0, 1..63, 64, 65..126, 127 = LP, LPshelf, flat, HPshelf, HP",0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Effects,EQ frequency,breath lsb,34,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Non-sync EQ mod rate,,35,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Sync EQ mod rate,foot controller lsb,36,,0,127,,,,,,,0-based,"non-sync, 32Triplet..12bars",0~127: 0..34
+Novation,KS 4 (KS 5),Effects,EQ mod depth,portamento time lsb,37,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Oscillator,OSC1 semitone,balance lsb,40,,0,127,,,,,,,centered,,0~127: -12..+12
+Novation,KS 4 (KS 5),Oscillator,OSC1 cent,,41,,0,127,,,,,,,centered,,0~127: -50..+50
+Novation,KS 4 (KS 5),Oscillator,OSC1 bendwheel pitch amount,pan lsb,42,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC1 LFO1 pitch amount,expression lsb,43,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC1 mod.env pitch amount,effect control 1 lsb,44,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC1 pulse width position,effect control 2 lsb,45,,0,127,,,,,,,centered,0=50% or in-phase double wave,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC1 LFO2 pulse width mod,,46,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC1 mod.env pulse width mod,,47,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC2 semitone,gen. controller 1 lsb,48,,0,127,,,,,,,centered,,0~127: -12..+12
+Novation,KS 4 (KS 5),Oscillator,OSC2 cent,gen. controller 2 lsb,49,,0,127,,,,,,,centered,,0~127: -50..+50
+Novation,KS 4 (KS 5),Oscillator,OSC2 bendwheel pitch amount,gen. controller 3 lsb,50,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC2 LFO1 pitch amount,gen. controller 4 lsb,51,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC2 mod.env pitch amount,,52,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC2 pulse width position,,53,,0,127,,,,,,,centered,0=50% or in-phase double wave,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC2 LFO2 pulse width mod,,54,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC2 mod.env pulse width mod,,55,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC3 semitone,,56,,0,127,,,,,,,centered,,0~127: -12..+12
+Novation,KS 4 (KS 5),Oscillator,OSC3 cent,,57,,0,127,,,,,,,centered,,0~127: -50..+50
+Novation,KS 4 (KS 5),Oscillator,OSC3 bendwheel pitch amount,,58,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC3 LFO1 pitch amount,,59,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC3 mod.env pitch amount,,60,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC3 pulse width position,,61,,0,127,,,,,,,centered,0=50% or in-phase double wave,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC3 LFO2 pulse width mod,,62,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Oscillator,OSC3 mod.env pulse width mod,,63,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Envelope,Sustain / momentary ARP latch on,sustain pedal,64,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Envelope mono multi modes,portamento on/off,65,,0,127,,,,,,,0-based,see packed parameter 1,
+Novation,KS 4 (KS 5),General,Unison / voice type / filter type,soft pedal,67,,0,127,,,,,,,0-based,see packed parameter 2,
+Novation,KS 4 (KS 5),Pitch,Unison detune,legato footswitch,68,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Pitch,Individual oscillator random detune,hold 2,69,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Pitch,Portamento mode,sound controller 1,70,,0,127,,,,,,,0-based,"0=exp, 1=lin",
+Novation,KS 4 (KS 5),Oscillator,"OSC 1,2,3 octave / OSC 1>2 sync",sound controller 2,71,,0,127,,,,,,,0-based,see packed parameter 3,
+Novation,KS 4 (KS 5),Oscillator,OSC1 level,sound controller 3,72,,0,127,,,,,,,0-based,to filter,
+Novation,KS 4 (KS 5),Oscillator,OSC2 level,sound controller 4,73,,0,127,,,,,,,0-based,to filter,
+Novation,KS 4 (KS 5),Oscillator,OSC3 level,sound controller 5,74,,0,127,,,,,,,0-based,to filter,
+Novation,KS 4 (KS 5),Mixer,Noise level,sound controller 6,75,,0,127,,,,,,,0-based,to filter,
+Novation,KS 4 (KS 5),Oscillator,OSC 1*2 ringmod level,sound controller 7,76,,0,127,,,,,,,0-based,to filter,
+Novation,KS 4 (KS 5),General,External input,sound controller 8,77,,0,127,,,,,,,0-based,to filter,
+Novation,KS 4 (KS 5),LFO,LFO delay mono multi mode,sound controller 9,78,,0,127,,,,,,,0-based,see packed parameter 4,
+Novation,KS 4 (KS 5),LFO,"LFO 1,2 keysync / lock / one-shot",sound controller 10,79,,0,127,,,,,,,0-based,see packed parameter 5,
+Novation,KS 4 (KS 5),General,Non-sync LFO1 speed,gen. controller 5 lsb,80,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Sync LFO1 speed,gen. controller 6 lsb,81,,0,127,,,,,,,0-based,"non-sync, 32Triplet..12bars",0~127: 0..34
+Novation,KS 4 (KS 5),LFO,LFO1 delay,gen. controller 7 lsb,82,,0,127,,,,,,,0-based,GRADUAL ONSET TIME/ ONE-SHOT MODE DELAY,
+Novation,KS 4 (KS 5),General,Non-sync LFO2 speed,gen. controller 8 lsb,83,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),General,Sync LFO2 speed,portamento control,84,,0,127,,,,,,,0-based,"non-sync, 32Triplet..12bars",0~127: 0..34
+Novation,KS 4 (KS 5),LFO,LFO2 delay,,85,,0,127,,,,,,,0-based,GRADUAL ONSET TIME/ ONE-SHOT MODE DELAY,
+Novation,KS 4 (KS 5),Arpeggiator,Arpeggiator sync setting,,87,,0,127,,,,,,,0-based,32Triplet..1 bar,0~127: 0..15
+Novation,KS 4 (KS 5),Arpeggiator,Arpeggiator gate time,,88,,0,127,,,,,,,centered,+64 GIVES TIED NOTE IN MONO MODE,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Arpeggiator,Arpeggiator control,,89,,0,127,,,,,,,0-based,see packed parameter 6,
+Novation,KS 4 (KS 5),Effects,Distortion level,,90,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Effects,Reverb send level,effects 1 depth,91,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Effects,Delay send level,effects 2 depth,92,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Effects,Chorus send level,effects 3 depth,93,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Effects,Pan mod depth,effects 4 depth,94,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Mixer,Vocoder balance (0=off 64=full vocoder 127=modulator only),effects 5 depth,95,,0,127,,,,,,,0-based,common,
+Novation,KS 4 (KS 5),General,NRPN number,nrpn lsb,98,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Filter,Filter frequency LFO2 mod depth,,102,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Filter,Filter q normalise,,103,,0,127,,,,,,,0-based,127=zero filter drive at max resonance,
+Novation,KS 4 (KS 5),Filter,Filter overdrive,,104,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Filter,Filter frequency,,105,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Filter,Filter resonance,,106,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Filter,Filter frequency mod.env depth,,107,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Envelope,Amplitude envelope attack,,108,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Amplitude envelope decay,,109,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Amplitude envelope sustain,,110,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Amplitude envelope release,,111,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Amplitude envelope velocity depth,,112,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Envelope,Mod. envelope attack,,114,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Mod. envelope decay,,115,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Mod. envelope sustain,,116,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Mod. envelope release,,117,,0,127,,,,,,,0-based,,
+Novation,KS 4 (KS 5),Envelope,Mod. envelope velocity depth,,118,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,KS 4 (KS 5),Mixer,Voice to output & effects level boost,,119,,0,127,,,,,,,0-based,0..30dB,
+Novation,KS 4 (KS 5),Envelope,All notes off with fast release,all sounds off,120,,0,127,,,,,,,0-based,receive only,
+Novation,KS 4 (KS 5),General,Reset controllers,reset controllers,121,,0,127,,,,,,,0-based,receive only,
+Novation,KS 4 (KS 5),General,Local on/off,local on/off,122,,0,127,,,,,,,0-based,ALSO VALUE 63 IS USED FOR SEQUENCER MODE,
+Novation,KS 4 (KS 5),General,All notes off,all notes off,123,,0,127,,,,,,,0-based,receive only,
+Novation,KS 4 (KS 5),General,All notes off,omni off,124,,0,127,,,,,,,0-based,receive only,
+Novation,KS 4 (KS 5),General,All notes off,omni on,125,,0,127,,,,,,,0-based,receive only,
+Novation,KS 4 (KS 5),General,All notes off,mono mode setup,126,,0,127,,,,,,,0-based,receive only,
+Novation,KS 4 (KS 5),General,All notes off,poly mode on,127,,0,127,,,,,,,0-based,receive only,
