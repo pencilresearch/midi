@@ -1,0 +1,12 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Behringer,RD-8,Default note map,Bass Drum,,basic,36,36,36,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Rim Shot/Claves,,basic,37,37,37,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Clap/Maracas,,basic,39,39,39,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Snare Drum,,basic,40,40,40,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Closed Hat,,basic,42,42,42,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Low Tom/Low Conga,,basic,45,45,45,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Open Hat,,basic,46,46,46,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Mid Tom/Mid Conga,,basic,47,47,47,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Hi Tom/Hi Conga,,basic,50,50,50,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Cymbal,,basic,51,51,51,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
+Behringer,RD-8,Default note map,Cowbell,,basic,56,56,56,The MAP page can reassign this voice to any note 0-127; the map is global and the same for all songs and patterns,
