@@ -1,0 +1,38 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Roland,JUNO-X,Program Select,Bank Select,,0,32,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Controllers,Modulation,,1,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Controllers,Breath type,,2,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Controllers,Foot Type,,4,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Pedals & Switches,Portamento Time,,5,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Data Entry,Data Entry,,6,38,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Mixer,Volume,,7,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Mixer,Panpot,,10,,0,127,,,,,,,centered,,
+Roland,JUNO-X,Controllers,Expression,,11,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Controllers,General Purpose Controller 1,,16,,0,127,,,,,,,0-based,Assignable controller; destination set on the instrument,
+Roland,JUNO-X,Controllers,General Purpose Controller 2,,17,,0,127,,,,,,,0-based,Assignable controller; destination set on the instrument,
+Roland,JUNO-X,Controllers,General Purpose Controller 3,,18,,0,127,,,,,,,0-based,Assignable controller; destination set on the instrument,
+Roland,JUNO-X,Controllers,General Purpose Controller 4,,19,,0,127,,,,,,,0-based,Assignable controller; destination set on the instrument,
+Roland,JUNO-X,Pedals & Switches,Hold 1,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JUNO-X,Pedals & Switches,Portamento,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JUNO-X,Pedals & Switches,Sostenuto,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JUNO-X,Pedals & Switches,Soft,,67,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JUNO-X,Pedals & Switches,Legato Foot Switch,,68,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,JUNO-X,Filter,Resonance,,71,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Envelope,Release Time,,72,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Envelope,Attack time,,73,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Filter,Cutoff,,74,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Envelope,Decay Time,,75,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Vibrato,Vibrato Rate,,76,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Vibrato,Vibrato Depth,,77,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Vibrato,Vibrato Delay,,78,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Controllers,General Purpose Controller 5,,80,,0,127,,,,,,,0-based,Assignable controller; destination set on the instrument,
+Roland,JUNO-X,Controllers,General Purpose Controller 6,,81,,0,127,,,,,,,0-based,Assignable controller; destination set on the instrument,
+Roland,JUNO-X,Controllers,General Purpose Controller 7,,82,,0,127,,,,,,,0-based,Assignable controller; destination set on the instrument,
+Roland,JUNO-X,Controllers,General Purpose Controller 8,,83,,0,127,,,,,,,0-based,Assignable controller; destination set on the instrument,
+Roland,JUNO-X,Pedals & Switches,Portamento control,,84,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Data Entry,RPN MSB/LSB,,100,101,0,127,,,,,,,0-based,,
+Roland,JUNO-X,General,System Exclusive Message,,123,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Mode Messages,OMNI OFF,,124,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Mode Messages,OMNI ON,,125,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Mode Messages,MONO,,126,,0,127,,,,,,,0-based,,
+Roland,JUNO-X,Mode Messages,POLY,,127,,0,127,,,,,,,0-based,,
