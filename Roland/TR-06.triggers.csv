@@ -1,0 +1,13 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Roland,TR-06,Note map,Bass drum,,10,35,35,35,Additional recognised note; the TR-06 transmits Bass drum on note 36.,
+Roland,TR-06,Note map,Bass drum,,10,36,36,36,,
+Roland,TR-06,Note map,Snare drum,,10,38,38,38,,
+Roland,TR-06,Note map,Snare drum,,10,40,40,40,Additional recognised note; the TR-06 transmits Snare drum on note 38.,
+Roland,TR-06,Note map,Low tom,,10,45,45,45,Additional recognised note; the TR-06 transmits Low tom on note 47.,
+Roland,TR-06,Note map,Low tom,,10,47,47,47,,
+Roland,TR-06,Note map,High tom,,10,48,48,48,Additional recognised note; the TR-06 transmits High tom on note 50.,
+Roland,TR-06,Note map,High tom,,10,50,50,50,,
+Roland,TR-06,Note map,Cymbal,,10,49,49,49,,
+Roland,TR-06,Note map,Open hi-hat,,10,46,46,46,,
+Roland,TR-06,Note map,Closed hi-hat,,10,42,42,42,,
+Roland,TR-06,Note map,Closed hi-hat,,10,44,44,44,Additional recognised note; the TR-06 transmits Closed hi-hat on note 42.,
