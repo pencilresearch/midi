@@ -224,7 +224,7 @@ Elektron,Digitone II,Filter: Equalizer,Equalizer: Env. Reset,,25,,0,1,0,1,68,0,1
 Elektron,Digitone II,Amp,Attack Time,,84,,0,127,8,1,30,0,127,8,0-based,,
 Elektron,Digitone II,Amp,Hold Time,,85,,0,127,127,1,31,0,127,127,0-based,,127: Note
 Elektron,Digitone II,Amp,Decay Time,,86,,0,127,32,1,32,0,127,32,0-based,,
-Elektron,Digitone II,Amp,Sustain Level,,86,,0,127,96,1,33,0,127,96,0-based,,
+Elektron,Digitone II,Amp,Sustain Level,,87,,0,127,96,1,33,0,127,96,0-based,,
 Elektron,Digitone II,Amp,Release Time,,88,,0,127,24,1,34,0,127,24,0-based,,
 Elektron,Digitone II,Amp,Env. Reset,,92,,0,1,1,1,41,0,1,1,0-based,,0: Off; 1: On
 Elektron,Digitone II,Amp,Mode,,91,,0,1,1,1,40,0,1,1,0-based,,0: AHD; 1: ADSR
@@ -272,7 +272,7 @@ Elektron,Digitone II,Mod,LFO 2: Speed,,111,,0,127,112,1,50,0,16383,14336,centere
 Elektron,Digitone II,Mod,LFO 2: Multiplier,,112,,0,23,1,1,51,0,23,1,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Digitone II,Mod,LFO 2: Fade In/Out,,113,,0,127,63,1,52,0,127,63,centered,,
 Elektron,Digitone II,Mod,LFO 2: Destination,,114,,0,127,0,1,53,0,127,0,0-based,list,
-Elektron,Digitone II,Mod,LFO 2: Waveform,,115,,0,6,1,1,54,0,6,1,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
+Elektron,Digitone II,Mod,LFO 2: Waveform,,115,,0,6,0,1,54,0,6,0,0-based,,0: Triangle; 1: Sine; 2: Square; 3: Saw; 4: Exponential; 5: Ramp; 6: Random
 Elektron,Digitone II,Mod,LFO 2: Start Phase/Slew,,116,,0,127,0,1,55,0,127,0,0-based,,
 Elektron,Digitone II,Mod,LFO 2: Trig Mode,,117,,0,4,0,1,56,0,4,0,0-based,,0: Free; 1: Trig; 2: Hold; 3: One; 4: Half
 Elektron,Digitone II,Mod,LFO 2: Depth,,118,,0,127,63,1,57,0,16383,8191,centered,,
@@ -289,7 +289,7 @@ Elektron,Digitone II,Mixer,Compressor: Attack Time,,112,,0,127,24,2,17,0,127,24,
 Elektron,Digitone II,Mixer,Compressor: Release Time,,113,,0,127,32,2,18,0,127,32,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Makeup Gain,,114,,0,127,64,2,19,0,127,64,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Pattern Volume,,119,,0,127,100,2,24,0,127,100,0-based,,
-Elektron,Digitone II,Mixer,Compressor: Ratio,,115,,0,127,3,2,20,0,127,3,0-based,,
+Elektron,Digitone II,Mixer,Compressor: Ratio,,115,,0,7,3,2,20,0,7,3,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Sidechain Source,,116,,0,127,0,2,21,0,127,0,0-based,list,
 Elektron,Digitone II,Mixer,Compressor: Sidechain Filter,,117,,0,127,80,2,22,0,127,80,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Dry/Wet Mix,,118,,0,127,0,2,23,0,127,0,0-based,,
