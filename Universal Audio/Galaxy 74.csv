@@ -1,0 +1,18 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,Galaxy 74,General,FS Left,,12,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,Galaxy 74,General,FS Right,,13,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,Galaxy 74,General,Head Up,,14,,0,1,,,,,,,0-based,1 toggles switch,
+Universal Audio,Galaxy 74,General,Head Down,,15,,0,1,,,,,,,0-based,1 toggles switch,
+Universal Audio,Galaxy 74,Global / Control,Store,,16,,0,1,,,,,,,0-based,,0: Off; 1: Hold
+Universal Audio,Galaxy 74,General,Head Select,,18,,0,6,,,,,,,0-based,,0: Dotted 1/16; 1: Dotted 1/8; 2: 1/4; 3: Dotted 1/16 + dotted 1/8; 4: Dotted 1/8 + 1/4; 5: Dotted 1/16 + 1/4; 6: Dotted 1/16 + dotted 1/8 + 1/4
+Universal Audio,Galaxy 74,Global / Control,Bypass*,,19,,0,1,,,,,,,0-based,,0: Bypass; 1: Unbypass *Bypasses both reverb and delay
+Universal Audio,Galaxy 74,Reverb,Reverb Bypass**,,20,,0,1,,,,,,,0-based,,0: Bypass Reverb; 1: Unbypass Reverb **Only in Delay | Reverb mode
+Universal Audio,Galaxy 74,Delay,Echo Vol,,22,,0,127,,,,,,,0-based,,
+Universal Audio,Galaxy 74,Delay,Echo Rate,,23,,0,127,,,,,,,0-based,,
+Universal Audio,Galaxy 74,General,Feedback,,24,,0,127,,,,,,,0-based,,
+Universal Audio,Galaxy 74,Amp,Input Vol,,26,,0,127,,,,,,,0-based,,0: no input to delay Level and tape drive increase above 0
+Universal Audio,Galaxy 74,General,Tape Age,,27,,0,127,,,,,,,0-based,,31: New 32 -; 95: Used 96 -; 127: Old
+Universal Audio,Galaxy 74,General,Bass,,28,,0,127,,,,,,,centered,,
+Universal Audio,Galaxy 74,General,Treble,,29,,0,127,,,,,,,centered,,
+Universal Audio,Galaxy 74,Reverb,Reverb Vol,,30,,0,127,,,,,,,0-based,,
+Universal Audio,Galaxy 74,General,Dwell,,31,,0,127,,,,,,,0-based,,

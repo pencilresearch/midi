@@ -1,0 +1,14 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,Del-Verb,General,FS Left,,12,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,Del-Verb,General,FS Right,,13,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,Del-Verb,Delay,Delay Select,,14,,0,2,,,,,,,0-based,,0: Tape EP-III; 1: Analog DMM; 2: Precision
+Universal Audio,Del-Verb,Reverb,Reverb Select,,15,,0,2,,,,,,,0-based,,0: Spring 65; 1: Plate 140; 2: Hall 224
+Universal Audio,Del-Verb,Delay,Delay Bypass,,19,,0,1,,,,,,,0-based,,0: Bypass; 1: Unbypass (always only bypasses Delay regardless of footswitch mode)
+Universal Audio,Del-Verb,Reverb,Reverb Bypass,,20,,0,1,,,,,,,0-based,,0: Bypass; 1: Unbypass (always only bypasses Reverb regardless of footswitch mode)
+Universal Audio,Del-Verb,General,Mix,,22,,0,127,,,,,,,0-based,,
+Universal Audio,Del-Verb,Delay,Delay,,23,,0,127,,,,,,,0-based,,
+Universal Audio,Del-Verb,General,Feedback,,24,,0,127,,,,,,,0-based,,
+Universal Audio,Del-Verb,General,Division,,25,,0,5,,,,,,,0-based,,0: 1/4; 1: Dotted 1/8; 2: 1/8; 3: 1/8 triplet; 4: Dual 1/4 + dotted 1/8; 5: Dual 1/4 + 1/8
+Universal Audio,Del-Verb,General,Color,,26,,0,127,,,,,,,0-based,,
+Universal Audio,Del-Verb,Modulation,Mod,,27,,0,127,,,,,,,0-based,"Tape EP-III: 0-63 = Mint tape, 64-128 = Worn tape Analog DMM: 0 = Mod off, 1-63 Vibrato, 64-127 = Chorus Precision: 0 = Mod off, 1-63 = Flanger, 64-127 = Chorus",
+Universal Audio,Del-Verb,Reverb,Reverb,,28,,0,127,,,,,,,0-based,,

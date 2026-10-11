@@ -1,0 +1,25 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,UAFX Max,General,FS Left,,12,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,UAFX Max,General,FS Right,,13,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,UAFX Max,General,1 Select,,14,,0,2,,,,,,,0-based,,0: Dyna; 1: Opto LA-2A; 2: FET 1176
+Universal Audio,UAFX Max,General,2 Select,,15,,0,2,,,,,,,0-based,,0: Dyna; 1: Opto LA-2A; 2: FET 1176
+Universal Audio,UAFX Max,General,1 Bypass,,19,,0,1,,,,,,,0-based,,0: Bypass; 1: Unbypass
+Universal Audio,UAFX Max,General,2 Bypass,,20,,0,1,,,,,,,0-based,,0: Bypass; 1: Unbypass
+Universal Audio,UAFX Max,General,1 Preamp,,22,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,1 Pre Low,,23,,0,2,,,,,,,0-based,,0: -6 dB; 1: Flat; 2: +6 dB
+Universal Audio,UAFX Max,General,1 Pre Hi,,24,,0,3,,,,,,,0-based,,0: -6 dB; 1: Flat; 2: +3 dB; 3: +6 dB
+Universal Audio,UAFX Max,General,1 Comp,,25,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,1 Output,,26,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,1 Attack,,27,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,1 Ratio,,28,,0,127,,,,,,,0-based,"CC for each ratio: 0, 20, 50, 80, 110, 127",
+Universal Audio,UAFX Max,General,1 Release,,29,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,1 SC Filter,,30,,0,1,,,,,,,0-based,FET 1176 only,
+Universal Audio,UAFX Max,General,2 Preamp,,32,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,2 Pre Low,,33,,0,2,,,,,,,0-based,,0: -6 dB; 1: Flat; 2: +6 dB
+Universal Audio,UAFX Max,General,2 Pre Hi,,34,,0,3,,,,,,,0-based,,0: -6 dB; 1: Flat; 2: +3 dB; 3: +6 dB
+Universal Audio,UAFX Max,General,2 Comp,,35,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,2 Output,,36,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,2 Attack,,37,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,2 Ratio,,38,,0,127,,,,,,,0-based,"CC for each ratio 0, 20, 50, 80, 110, 0-127",
+Universal Audio,UAFX Max,General,2 Release,,39,,0,127,,,,,,,0-based,,
+Universal Audio,UAFX Max,General,2 SC Filter,,40,,0,1,,,,,,,0-based,FET 1176 only,

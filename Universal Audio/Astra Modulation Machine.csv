@@ -1,0 +1,15 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,Astra Modulation Machine,General,FS Left,,12,,0,1,,,,,,,0-based,I toggles footswitch,
+Universal Audio,Astra Modulation Machine,General,FS Right,,13,,0,1,,,,,,,0-based,,1: Footswitch down; 0: footswitch up In Tap + Preset mode
+Universal Audio,Astra Modulation Machine,General,Effect Up,,14,,0,1,,,,,,,0-based,1 toggles switch,
+Universal Audio,Astra Modulation Machine,General,Effect Down,,15,,0,1,,,,,,,0-based,1 toggles switch,
+Universal Audio,Astra Modulation Machine,Global / Control,Store,,16,,0,1,,,,,,,0-based,,0: Off; 1: Hold
+Universal Audio,Astra Modulation Machine,General,A B Select,,17,,0,1,,,,,,,0-based,,0: Variation A; 1: Variation B
+Universal Audio,Astra Modulation Machine,General,Effect Select,,18,,0,4,,,,,,,0-based,,0: Chorus Brigade; 1: Flanger Dblr; 2: Trem 65; 3: Phaser X90; 4: Dharma Trem 61
+Universal Audio,Astra Modulation Machine,Global / Control,Bypass,,19,,0,2,,,,,,,0-based,,0: Bypass; 1: Unbypass Left FS; 2: Unbypass Right FS
+Universal Audio,Astra Modulation Machine,General,Speed,,22,,0,127,,,,,,,0-based,,
+Universal Audio,Astra Modulation Machine,General,Depth,,23,,0,127,,,,,,,0-based,,
+Universal Audio,Astra Modulation Machine,General,Intensity,,24,,0,127,,,,,,,0-based,,
+Universal Audio,Astra Modulation Machine,General,Shade,,25,,0,127,,,,,,,0-based,,
+Universal Audio,Astra Modulation Machine,General,Shape,,26,,0,127,,,,,,,0-based,,
+Universal Audio,Astra Modulation Machine,Modulation,Mode,,27,,0,1,,,,,,,0-based,,0: Left setting; 1: Right setting
