@@ -10,55 +10,62 @@ Elektron,Digitakt II,Trig,Trig: Portamento Time,,9,,0,127,39,3,6,0,127,39,0-base
 Elektron,Digitakt II,Trig,Trig: Portamento On/Off,,65,,0,1,0,3,7,0,1,0,0-based,,0: Off; 1: On
 Elektron,Digitakt II,Source: Generic,Source: Tune,,16,,4,124,64,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Generic,Source: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Generic,Source: Sample Bank Select,,24,,0,7,0,1,9,0,16383,0,0-based,,
+Elektron,Digitakt II,Source: Generic,Source: Sample Bank Select,,24,,0,7,0,1,9,0,896,0,0-based,,
 Elektron,Digitakt II,Source: Generic,Source: Sample Slot Select,,19,,0,127,0,1,8,0,16256,0,0-based,,
+Elektron,Digitakt II,Source: Generic,Source: Sample,,,,,,,1,3,0,1023,0,0-based,SMP on the SRC page. Received as the absolute slot; turning SMP sends only the slot in the selected bank (data MSB 0) and not the bank,0~1023: bank x 128 + slot (A0 = 0 to H127 = 1023)
 Elektron,Digitakt II,Source: Generic,Source: Parameter E,,20,,0,127,,1,4,0,15360,,0-based,,
 Elektron,Digitakt II,Source: Generic,Source: Parameter F,,21,,0,127,,1,5,0,15360,,0-based,,
 Elektron,Digitakt II,Source: Generic,Source: Parameter G,,22,,0,127,,1,6,0,15360,,0-based,,
 Elektron,Digitakt II,Source: Generic,Source: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Tune,,16,,4,124,64,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Bank Select,,24,,0,7,0,1,9,0,16383,0,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Bank Select,,24,,0,7,0,1,9,0,896,0,0-based,,
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Slot Select,,19,,0,127,0,1,8,0,16256,0,0-based,,
+Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample,,,,,,,1,3,0,1023,0,0-based,SMP on the SRC page. Received as the absolute slot; turning SMP sends only the slot in the selected bank (data MSB 0) and not the bank,0~1023: bank x 128 + slot (A0 = 0 to H127 = 1023)
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Start,,20,,0,120,0,1,4,0,15360,0,0-based,,
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Length,,21,,0,120,120,1,5,0,15360,15360,0-based,,
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Loop Pos,,22,,0,120,0,1,6,0,15361,0,0-based,,0: Off
 Elektron,Digitakt II,Source: Oneshot,Oneshot: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Werp,Werp: Tune,,16,,4,124,64,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Werp,Werp: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Werp,Werp: Sample Bank Select,,24,,0,7,0,1,9,0,16383,0,0-based,,
+Elektron,Digitakt II,Source: Werp,Werp: Sample Bank Select,,24,,0,7,0,1,9,0,896,0,0-based,,
 Elektron,Digitakt II,Source: Werp,Werp: Sample Slot Select,,19,,0,127,0,1,8,0,16256,0,0-based,,
+Elektron,Digitakt II,Source: Werp,Werp: Sample,,,,,,,1,3,0,1023,0,0-based,SMP on the SRC page. Received as the absolute slot; turning SMP sends only the slot in the selected bank (data MSB 0) and not the bank,0~1023: bank x 128 + slot (A0 = 0 to H127 = 1023)
 Elektron,Digitakt II,Source: Werp,Werp: Segment Size,,20,,0,2,1,1,4,0,2,1,0-based,,0: 1/32; 1: 1/16; 2: 1/8
 Elektron,Digitakt II,Source: Werp,Werp: Segment Mode,,21,,0,3,3,1,5,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
 Elektron,Digitakt II,Source: Werp,Werp: Bars,,22,,0,3,2,1,6,0,3,2,0-based,,0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
 Elektron,Digitakt II,Source: Werp,Werp: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Tune,,16,,4,124,64,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Stretch,Stretch: Sample Bank Select,,24,,0,7,0,1,9,0,16383,0,0-based,,
+Elektron,Digitakt II,Source: Stretch,Stretch: Sample Bank Select,,24,,0,7,0,1,9,0,896,0,0-based,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Sample Slot Select,,19,,0,127,0,1,8,0,16256,0,0-based,,
+Elektron,Digitakt II,Source: Stretch,Stretch: Sample,,,,,,,1,3,0,1023,0,0-based,SMP on the SRC page. Received as the absolute slot; turning SMP sends only the slot in the selected bank (data MSB 0) and not the bank,0~1023: bank x 128 + slot (A0 = 0 to H127 = 1023)
 Elektron,Digitakt II,Source: Stretch,Stretch: Start,,20,,0,120,0,1,4,0,15360,0,0-based,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Length,,21,,0,120,120,1,5,0,15360,15360,0-based,,
 Elektron,Digitakt II,Source: Stretch,Stretch: Bars,,22,,0,3,2,1,6,0,3,2,0-based,,0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
 Elektron,Digitakt II,Source: Stretch,Stretch: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Tune,,16,,4,124,64,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Repitch,Repitch: Sample Bank Select,,24,,0,7,0,1,9,0,16383,0,0-based,,
+Elektron,Digitakt II,Source: Repitch,Repitch: Sample Bank Select,,24,,0,7,0,1,9,0,896,0,0-based,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Sample Slot Select,,19,,0,127,0,1,8,0,16256,0,0-based,,
+Elektron,Digitakt II,Source: Repitch,Repitch: Sample,,,,,,,1,3,0,1023,0,0-based,SMP on the SRC page. Received as the absolute slot; turning SMP sends only the slot in the selected bank (data MSB 0) and not the bank,0~1023: bank x 128 + slot (A0 = 0 to H127 = 1023)
 Elektron,Digitakt II,Source: Repitch,Repitch: Start,,20,,0,120,0,1,4,0,15360,0,0-based,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Length,,21,,0,120,120,1,5,0,15360,15360,0-based,,
 Elektron,Digitakt II,Source: Repitch,Repitch: Bars,,22,,0,3,2,1,6,0,3,2,0-based,,0: 1 bar; 1: 2 bars; 2: 4 bars; 3: 8 bars
 Elektron,Digitakt II,Source: Repitch,Repitch: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Slice,Slice: Tune,,16,,4,124,64,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Slice,Slice: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Slice,Slice: Sample Bank Select,,24,,0,7,0,1,9,0,16383,0,0-based,,
+Elektron,Digitakt II,Source: Slice,Slice: Sample Bank Select,,24,,0,7,0,1,9,0,896,0,0-based,,
 Elektron,Digitakt II,Source: Slice,Slice: Sample Slot Select,,19,,0,127,0,1,8,0,16256,0,0-based,,
+Elektron,Digitakt II,Source: Slice,Slice: Sample,,,,,,,1,3,0,1023,0,0-based,SMP on the SRC page. Received as the absolute slot; turning SMP sends only the slot in the selected bank (data MSB 0) and not the bank,0~1023: bank x 128 + slot (A0 = 0 to H127 = 1023)
 Elektron,Digitakt II,Source: Slice,Slice: Slice Select,,20,,0,64,0,1,4,0,64,0,0-based,,0: Note
 Elektron,Digitakt II,Source: Slice,Slice: Slice Length,,21,,0,63,0,1,5,0,63,0,0-based,,
 Elektron,Digitakt II,Source: Slice,Slice: Sample Level,,23,,0,127,100,1,7,0,127,100,0-based,,
 Elektron,Digitakt II,Source: Grid,Grid: Tune,,16,,4,124,64,1,0,512,15872,8192,centered,,
 Elektron,Digitakt II,Source: Grid,Grid: Play Mode,,17,,0,3,3,1,1,0,3,3,0-based,,0: Reverse; 1: Reverse Loop; 2: Forward Loop; 3: Forward
-Elektron,Digitakt II,Source: Grid,Grid: Sample Bank Select,,24,,0,7,0,1,9,0,16383,0,0-based,,
+Elektron,Digitakt II,Source: Grid,Grid: Sample Bank Select,,24,,0,7,0,1,9,0,896,0,0-based,,
 Elektron,Digitakt II,Source: Grid,Grid: Sample Slot Select,,19,,0,127,0,1,8,0,16256,0,0-based,,
+Elektron,Digitakt II,Source: Grid,Grid: Sample,,,,,,,1,3,0,1023,0,0-based,SMP on the SRC page. Received as the absolute slot; turning SMP sends only the slot in the selected bank (data MSB 0) and not the bank,0~1023: bank x 128 + slot (A0 = 0 to H127 = 1023)
 Elektron,Digitakt II,Source: Grid,Grid: Slice Select,,20,,0,64,0,1,4,0,64,0,0-based,,0: Note
 Elektron,Digitakt II,Source: Grid,Grid: Slice Length,,21,,0,63,0,1,5,0,63,0,0-based,,
 Elektron,Digitakt II,Source: Grid,Grid: Slice Grid,,22,,0,4,0,1,6,0,4,0,0-based,,0: 4; 1: 8; 2: 16; 3: 32; 4: 64
@@ -273,5 +280,5 @@ Elektron,Digitakt II,Euclidean,Track Rotation,,,,,,,3,13,0,127,0,centered,range:
 Elektron,Digitakt II,Euclidean,Boolean Operator,,,,,,,3,10,0,3,0,0-based,,0: OR; 1: XOR; 2: AND; 3: SUB
 Elektron,Digitakt II,Misc,Pattern Mute,,110,,0,1,0,1,109,0,1,0,0-based,,0: Unmuted; 1: Muted
 Elektron,Digitakt II,Misc,Sample Slot,,19,,0,127,0,1,8,0,16256,0,0-based,,
-Elektron,Digitakt II,Misc,Sample Bank,,24,,0,7,0,1,9,0,16383,0,0-based,,
+Elektron,Digitakt II,Misc,Sample Bank,,24,,0,7,0,1,9,0,896,0,0-based,,
 Elektron,Digitakt II,Misc,Master Overdrive,,17,,0,127,0,2,50,0,127,0,0-based,,0: Off
