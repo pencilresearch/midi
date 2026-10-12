@@ -1,6 +1,8 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Elektron,Syntakt,Track,Track: Mute,,94,,0,1,0,1,101,0,1,0,0-based,,0: Unmuted; 1: Muted
 Elektron,Syntakt,Track,Track: Level,,95,,0,127,100,1,100,0,127,100,0-based,,
+Elektron,Syntakt,Track,Track: Solo,,93,,0,1,0,1,102,0,1,0,0-based,,0: Unsolo; 1: Solo
+Elektron,Syntakt,Track,Track: Machine Type,,15,,0,44,,1,103,0,44,,0-based,,0: BD Modern; 1: SD Basic; 2: CY Alloy; 3: PC Carbon; 4: SY Tone; 5: SY Chord; 6: SD Vintage; 7: CP Vintage; 8: BD Hard; 9: BD Classic; 10: BD FM; 11: BD Plastic; 12: BD Silky; 13: BD Sharp; 14: SD Hard; 15: SD Classic; 16: SD FM; 17: SD Natural; 18: RS Hard; 19: RS Classic; 20: SY Dual VCO; 22: CH Classic; 23: OH Classic; 24: CY Classic; 25: CB Classic; 26: CH Metallic; 27: OH Metallic; 28: CY Metallic; 29: CB Metallic; 30: CY Ride; 31: HH Basic; 32: UT Noise; 33: UT Impulse; 36: SY Toy; 37: SY Bits; 38: SY Swarm; 39: SY Raw; 40: SY Chip; 41: BD Acoustic; 42: SD Acoustic; 43: HH Lab; 44: SP Twinshot
 Elektron,Syntakt,Trig,Trig: Note,,3,,0,127,,3,0,0,127,,0-based,,
 Elektron,Syntakt,Trig,Trig: Velocity,,4,,1,127,100,3,1,1,127,100,0-based,,
 Elektron,Syntakt,Trig,Trig: Length,,5,,0,127,14,3,2,0,127,14,0-based,,6: 1/32; 14: 1/16; 30: 1/8; 38: 3.00; 46: 1/4; 62: 1/2; 78: 16.0; 94: 32.0; 110: 64.0; 127: Infinite; 0-127: Length
@@ -8,6 +10,13 @@ Elektron,Syntakt,Trig,Trig: Filter,,13,,0,1,,,,,,,0-based,,0: Off; 1: On
 Elektron,Syntakt,Trig,Trig: LFO,,14,,0,1,,,,,,,0-based,,0: Off; 1: On
 Elektron,Syntakt,Trig,Trig: Portamento Time,,9,,0,127,39,3,7,0,127,39,0-based,,
 Elektron,Syntakt,Trig,Trig: Portamento On/Off,,65,,0,1,,3,8,0,1,,0-based,,0: Off; 1: On
+Elektron,Syntakt,Euclidean,Euclidean: Pulse Generator 1,,51,,0,64,0,3,9,0,64,0,0-based,,
+Elektron,Syntakt,Euclidean,Euclidean: Pulse Generator 2,,52,,0,64,0,3,10,0,64,0,0-based,,
+Elektron,Syntakt,Euclidean,Euclidean: Boolean Operator,,57,,0,3,0,3,11,0,3,0,0-based,,0: OR; 1: XOR; 2: AND; 3: SUB
+Elektron,Syntakt,Euclidean,Euclidean: Rotation Generator 1,,54,,0,126,63,3,12,0,126,63,centered,,
+Elektron,Syntakt,Euclidean,Euclidean: Rotation Generator 2,,55,,0,126,63,3,13,0,126,63,centered,,
+Elektron,Syntakt,Euclidean,Euclidean: Track Rotation,,56,,0,126,63,3,14,0,126,63,centered,,
+Elektron,Syntakt,Euclidean,Euclidean: On/Off,,53,,0,1,0,3,15,0,1,0,0-based,,0: Off; 1: On
 Elektron,Syntakt,Filter,Filter: Frequency,,74,,0,127,127,1,20,0,16256,16256,0-based,,
 Elektron,Syntakt,Filter,Filter: Resonance,,75,,0,127,0,1,21,0,16256,0,0-based,,
 Elektron,Syntakt,Filter,Filter: Type,,76,,0,7,,1,22,0,7,,0-based,,0: LP; 1: HP; 2: EQ 1; 3: EQ 2; 4: EQ 3; 5: EQ 4; 6: EQ 5; 7: Off
@@ -29,6 +38,9 @@ Elektron,Syntakt,Amp,Amp: Delay Send,,84,,0,127,0,1,28,0,16256,0,0-based,,
 Elektron,Syntakt,Amp,Amp: Reverb Send,,85,,0,127,0,1,29,0,16256,0,0-based,,
 Elektron,Syntakt,Amp,Amp: Pan,,10,,0,127,64,1,30,0,127,64,centered,,
 Elektron,Syntakt,Amp,Amp: Volume,,7,,0,127,110,1,31,0,16256,14080,0-based,,
+Elektron,Syntakt,Amp,Amp: Pre/Post FX,,86,,0,1,1,1,53,0,1,1,0-based,,0: Post; 1: Pre
+Elektron,Syntakt,Amp,Amp: Mode,,87,,0,1,1,1,54,0,1,1,0-based,,0: AHD; 1: ADSR
+Elektron,Syntakt,Amp,Amp: Envelope Reset,,88,,0,1,1,1,55,0,1,1,0-based,,0: Off; 1: On
 Elektron,Syntakt,LFO,LFO1: Speed,,102,60,0,16383,14336,1,32,0,16383,14336,centered,,
 Elektron,Syntakt,LFO,LFO1: Multiplier,,103,,0,23,,1,33,0,23,,0-based,,0: BPM 1; 1: BPM 2; 2: BPM 4; 3: BPM 8; 4: BPM 16; 5: BPM 32; 6: BPM 64; 7: BPM 128; 8: BPM 256; 9: BPM 512; 10: BPM 1K; 11: BPM 2K; 12: 1; 13: 2; 14: 4; 15: 8; 16: 16; 17: 32; 18: 64; 19: 128; 20: 256; 21: 512; 22: 1K; 23: 2K
 Elektron,Syntakt,LFO,LFO1: Fade In/Out,,104,,0,127,64,1,34,0,127,64,centered,,
@@ -78,7 +90,7 @@ Elektron,Syntakt,Analog FX: Filter,AFX Filter: Sustain Level,,77,,0,127,,,,,,,0-
 Elektron,Syntakt,Analog FX: Filter,AFX Filter: Release Time,,78,,0,127,,,,,,,0-based,,
 Elektron,Syntakt,Analog FX: Filter,AFX Filter: Envelope Depth,,73,,0,127,,,,,,,0-based,,
 Elektron,Syntakt,Analog FX: Filter,AFX Filter: Envelope Delay,,74,,0,127,,,,,,,0-based,,
-Elektron,Syntakt,Analog FX: Filter,AFX Filter: Pan,,93,,0,127,,,,,,,centered,,
+Elektron,Syntakt,Analog FX: Filter,AFX Filter: Pan,,93,,0,127,64,1,57,0,127,64,centered,,
 Elektron,Syntakt,Analog FX: Filter,AFX Filter: Envelope Reset,,111,,0,1,0,1,56,0,1,0,0-based,,0: Off; 1: On
 Elektron,Syntakt,Analog FX: Amp,AFX Amp: Attack Time,,79,,0,127,0,1,24,0,127,0,0-based,,
 Elektron,Syntakt,Analog FX: Amp,AFX Amp: Hold Time,,80,,0,127,127,1,25,0,127,127,0-based,,
@@ -228,7 +240,7 @@ Elektron,Syntakt,Synth: RS Hard,RS Hard: Tick Level,,22,,0,127,48,1,6,0,127,48,0
 Elektron,Syntakt,Synth: RS Hard,RS Hard: Noise Level,,23,,0,127,8,1,7,0,127,8,0-based,,
 Elektron,Syntakt,Synth: RS Hard,RS Hard: Overdrive,,24,,0,127,0,1,8,0,127,0,0-based,,
 Elektron,Syntakt,Synth: RS Classic,RS Classic: Tune Osc1,,17,,40,88,64,1,1,5120,11264,8192,centered,,
-Elektron,Syntakt,Synth: RS Classic,RS Classic: Tine Osc2,,18,,32,96,64,1,2,4096,12288,8192,centered,,
+Elektron,Syntakt,Synth: RS Classic,RS Classic: Tune Osc2,,18,,32,96,64,1,2,4096,12288,8192,centered,,
 Elektron,Syntakt,Synth: RS Classic,RS Classic: Osc Balance,,19,,0,127,64,1,3,0,127,64,0-based,,
 Elektron,Syntakt,Synth: RS Classic,RS Classic: Decay,,20,,0,127,64,1,4,0,127,64,0-based,,
 Elektron,Syntakt,Synth: RS Classic,RS Classic: Tick Level,,22,,0,127,64,1,6,0,127,64,0-based,,
@@ -272,20 +284,20 @@ Elektron,Syntakt,Synth: CH Metallic,CH Metallic: Overdrive,,24,,0,127,,1,8,0,127
 Elektron,Syntakt,Synth: OH Metallic,OH Metallic: Tune,,17,,40,88,,1,1,5120,11264,,centered,,
 Elektron,Syntakt,Synth: OH Metallic,OH Metallic: Decay,,20,,0,127,,1,4,0,127,,0-based,,
 Elektron,Syntakt,Synth: OH Metallic,OH Metallic: Overdrive,,24,,0,127,,1,8,0,127,,0-based,,
-Elektron,Syntakt,Synth: HH Basic,HH Basic: Tune,,17,,0,127,,1,1,0,127,,centered,,
-Elektron,Syntakt,Synth: HH Basic,HH Basic: Tone,,19,,0,127,,1,3,0,127,,centered,,
-Elektron,Syntakt,Synth: HH Basic,HH Basic: Transient Decay,,20,,0,127,,1,4,0,127,,0-based,,
-Elektron,Syntakt,Synth: HH Basic,HH Basic: Decay,,18,,0,127,,1,2,0,127,,0-based,,
-Elektron,Syntakt,Synth: HH Basic,HH Basic: Osc Reset,,21,,0,1,,1,5,0,1,,0-based,,0: Off; 1: On
-Elektron,Syntakt,Synth: HH Basic,HH Basic: Overdrive,,24,,0,127,,1,8,0,127,,0-based,,
-Elektron,Syntakt,Synth: HH Lab,HH Lab: Tune 1,,17,,0,127,,1,1,0,127,,centered,,
-Elektron,Syntakt,Synth: HH Lab,HH Lab: Decay,,18,,0,127,,1,2,0,127,,0-based,,
-Elektron,Syntakt,Synth: HH Lab,HH Lab: Tune 2,,19,,0,127,,1,3,0,127,,centered,,
-Elektron,Syntakt,Synth: HH Lab,HH Lab: Tune 3,,20,,0,127,,1,4,0,127,,centered,,
-Elektron,Syntakt,Synth: HH Lab,HH Lab: Tune 4,,21,,0,127,,1,5,0,127,,centered,,
-Elektron,Syntakt,Synth: HH Lab,HH Lab: Tune 5,,22,,0,127,,1,6,0,127,,centered,,
-Elektron,Syntakt,Synth: HH Lab,HH Lab: Tune 6,,23,,0,127,,1,7,0,127,,centered,,
-Elektron,Syntakt,Synth: HH Lab,HH Lab: Overdrive,,24,,0,127,,1,8,0,127,,0-based,,
+Elektron,Syntakt,Synth: HH Basic,HH Basic: Tune,,17,,0,127,64,1,1,0,127,64,centered,,
+Elektron,Syntakt,Synth: HH Basic,HH Basic: Tone,,18,,0,127,64,1,2,0,127,64,centered,,
+Elektron,Syntakt,Synth: HH Basic,HH Basic: Transient Decay,,19,,0,127,68,1,3,0,127,68,0-based,,
+Elektron,Syntakt,Synth: HH Basic,HH Basic: Decay,,20,,0,127,29,1,4,0,127,29,0-based,,
+Elektron,Syntakt,Synth: HH Basic,HH Basic: Osc Reset,,23,,0,1,0,1,7,0,1,0,0-based,,0: Off; 1: On
+Elektron,Syntakt,Synth: HH Basic,HH Basic: Overdrive,,24,,0,127,0,1,8,0,127,0,0-based,,
+Elektron,Syntakt,Synth: HH Lab,HH Lab: Osc 1 Frequency,,17,,0,127,2,1,1,0,16256,256,0-based,,"0-16256: Hz (NRPN, the 14-bit value is the frequency)"
+Elektron,Syntakt,Synth: HH Lab,HH Lab: Decay,,20,,0,127,29,1,4,0,127,29,0-based,,
+Elektron,Syntakt,Synth: HH Lab,HH Lab: Osc 2 Frequency,,18,,0,127,3,1,2,0,16256,384,0-based,,"0-16256: Hz (NRPN, the 14-bit value is the frequency)"
+Elektron,Syntakt,Synth: HH Lab,HH Lab: Osc 3 Frequency,,19,,0,127,4,1,3,0,16256,512,0-based,,"0-16256: Hz (NRPN, the 14-bit value is the frequency)"
+Elektron,Syntakt,Synth: HH Lab,HH Lab: Osc 4 Frequency,,21,,0,127,5,1,5,0,16256,640,0-based,,"0-16256: Hz (NRPN, the 14-bit value is the frequency)"
+Elektron,Syntakt,Synth: HH Lab,HH Lab: Osc 5 Frequency,,22,,0,127,6,1,6,0,16256,768,0-based,,"0-16256: Hz (NRPN, the 14-bit value is the frequency)"
+Elektron,Syntakt,Synth: HH Lab,HH Lab: Osc 6 Frequency,,23,,0,127,7,1,7,0,16256,896,0-based,,"0-16256: Hz (NRPN, the 14-bit value is the frequency)"
+Elektron,Syntakt,Synth: HH Lab,HH Lab: Overdrive,,24,,0,127,0,1,8,0,127,0,0-based,,
 Elektron,Syntakt,Synth: CY Classic,CY Classic: Tune,,17,,40,88,64,1,1,5120,11264,8192,centered,,
 Elektron,Syntakt,Synth: CY Classic,CY Classic: Tone,,18,,0,127,64,1,2,0,127,64,centered,,
 Elektron,Syntakt,Synth: CY Classic,CY Classic: Decay,,20,,0,127,64,1,4,0,127,64,0-based,,
