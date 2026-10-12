@@ -1,6 +1,7 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Elektron,Digitone II,Track,Mute,,94,,0,1,0,1,108,0,1,0,0-based,,0: Unmuted; 1: Muted
 Elektron,Digitone II,Track,Track level,,95,,0,127,100,1,110,0,127,100,0-based,,
+Elektron,Digitone II,Track,Machine Type,,,,,,,1,106,0,3,0,0-based,Sent when the SYN machine changes; no CC,0: FM Tone; 1: Wavetone; 2: FM Drum; 3: Swarmer
 Elektron,Digitone II,Trig,Note,,3,,0,127,60,3,0,0,127,60,0-based,,
 Elektron,Digitone II,Trig,Velocity,,4,,1,127,100,3,1,1,127,100,0-based,,
 Elektron,Digitone II,Trig,Length,,5,,0,127,14,3,2,0,127,14,0-based,,
@@ -8,6 +9,10 @@ Elektron,Digitone II,Trig,LFO Trig,,14,,0,1,1,,,,,,0-based,,0: Off; 1: On
 Elektron,Digitone II,Trig,Filter Trig,,13,,0,1,1,,,,,,0-based,,0: Off; 1: On
 Elektron,Digitone II,Trig,Portamento Time,,9,,0,127,39,3,6,0,127,39,0-based,Range 1-128,
 Elektron,Digitone II,Trig,Portamento Enabled,,65,,0,1,0,3,7,0,1,0,0-based,,0: Off; 1: On
+Elektron,Digitone II,Trig,Retrig,,,,,,,1,1,0,1,0,0-based,TRIG page 2 RTRG; no CC,0: Off; 1: On
+Elektron,Digitone II,Trig,Retrig Velocity Fade,,,,,,,1,2,0,127,64,centered,TRIG page 2 VFAD (-64..64 on screen); no CC,
+Elektron,Digitone II,Trig,Retrig Length,,,,,,,1,3,0,127,14,0-based,TRIG page 2 LEN; no CC,
+Elektron,Digitone II,Trig,Retrig Rate,,,,,,,1,4,0,16,12,0-based,TRIG page 2 RATE; no CC,
 Elektron,Digitone II,Synth: Generic,Page 1: Parameter A,,40,,0,127,,1,73,0,16383,,0-based,,
 Elektron,Digitone II,Synth: Generic,Page 1: Parameter B,,41,,0,127,,1,74,0,16383,,0-based,,
 Elektron,Digitone II,Synth: Generic,Page 1: Parameter C,,42,,0,127,,1,75,0,16383,,0-based,,
@@ -289,7 +294,7 @@ Elektron,Digitone II,Mixer,Compressor: Attack Time,,112,,0,127,24,2,17,0,127,24,
 Elektron,Digitone II,Mixer,Compressor: Release Time,,113,,0,127,32,2,18,0,127,32,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Makeup Gain,,114,,0,127,64,2,19,0,127,64,0-based,,
 Elektron,Digitone II,Mixer,Compressor: Pattern Volume,,119,,0,127,100,2,24,0,127,100,0-based,,
-Elektron,Digitone II,Mixer,Compressor: Ratio,,115,,0,7,3,2,20,0,7,3,0-based,,
+Elektron,Digitone II,Mixer,Compressor: Ratio,,115,,0,7,3,2,20,0,7,3,0-based,,0: 1.50; 1: 2.00; 2: 3.00; 3: 4.00; 4: 6.00; 5: 8.00; 6: 16.00; 7: 20.00
 Elektron,Digitone II,Mixer,Compressor: Sidechain Source,,116,,0,127,0,2,21,0,127,0,0-based,list,
 Elektron,Digitone II,Mixer,Compressor: Sidechain Filter,,117,,0,127,80,2,22,0,127,80,centered,,
 Elektron,Digitone II,Mixer,Compressor: Dry/Wet Mix,,118,,0,127,0,2,23,0,127,0,0-based,,
