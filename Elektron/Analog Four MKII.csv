@@ -148,7 +148,7 @@ Elektron,Analog Four MKII,LFOs,CV LFO2: Depth B,,27,59,0,127,64,3,99,0,127,64,ce
 Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Chorus,,,,,,,2,0,0,127,,0-based,,
 Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Delay,,13,,0,127,0,2,1,0,127,0,0-based,,
 Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Reverb,,14,,0,127,0,2,2,0,127,0,0-based,,
-Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Pan,,10,,0,127,0,2,3,0,127,0,0-based,,
+Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Pan,,10,,0,127,0,2,3,0,127,0,centered,,
 Elektron,Analog Four MKII,FX: Extern In,Ext In: Left Level,,7,,0,127,0,2,4,0,127,0,0-based,,
 Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Chorus,,28,,0,127,0,2,5,0,127,0,0-based,,
 Elektron,Analog Four MKII,FX: Extern In,Ext In: Right Delay,,29,,0,127,0,2,6,0,127,0,0-based,,
