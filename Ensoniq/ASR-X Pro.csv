@@ -14,3 +14,4 @@ Ensoniq,ASR-X Pro,,Filter Cutoff,,74,,0,127,,,,,,,0-based,,
 Ensoniq,ASR-X Pro,,Filter Resonance,,77,,0,127,,,,,,,0-based,,
 Ensoniq,ASR-X Pro,,LFO Rate,,75,,0,127,,,,,,,0-based,,
 Ensoniq,ASR-X Pro,,Mute Track,,119,,0,127,,,,,,,0-based,,
+Ensoniq,ASR-X Pro,,Patch Select,,70,,0,127,,,,,,,0-based,,0: Neither; 32: Left Patch Select button; 64: Right Patch Select button; 123: Both Patch Select buttons
