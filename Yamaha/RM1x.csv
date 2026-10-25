@@ -1,0 +1,44 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Yamaha,RM1x,Program,Bank select MSB,"Selects the voice bank, applied with the next Program Change",0,,0,127,,,,,,,0-based,,0: GM voice; 63: RM1x voice; 126: RM1x drum kit; 127: GM drum
+Yamaha,RM1x,Program,Bank select LSB,,32,,0,127,,,,,,,0-based,"0 when Bank select MSB is 0, 126 or 127. With MSB 63 the RM1x voice banks use LSB 0-6",
+Yamaha,RM1x,Tone generator,Modulation,Controls the vibrato depth,1,,0,127,,,,,,,0-based,,
+Yamaha,RM1x,Tone generator,Portamento time,0 is the shortest time and 127 the longest,5,,0,127,,,,,,,0-based,Valid only when Portamento switch (CC 65) is on. Not valid for rhythm voices,
+Yamaha,RM1x,Tone generator,Main volume,,7,,0,127,,,,,,,0-based,,
+Yamaha,RM1x,Tone generator,Panpot,,10,,0,127,,,,,,,centered,"Relative to the voice's preset pan, for melody and rhythm voices",
+Yamaha,RM1x,Tone generator,Expression,,11,,0,127,,,,,,,0-based,,
+Yamaha,RM1x,Tone generator,AC1 controller,Assignable controller 1,16,,0,127,,,,,,,0-based,Not valid for rhythm voices,
+Yamaha,RM1x,Tone generator,Sustain switch,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,RM1x,Tone generator,Portamento switch,,65,,0,127,,,,,,,0-based,Not valid for rhythm voices,0-63: Off; 64-127: On
+Yamaha,RM1x,Tone generator,Sostenuto,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,RM1x,Tone generator,Soft pedal,,67,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,RM1x,Tone generator,Portamento control,Sets the source note of the next portamento,84,,0,127,,,,,,,0-based,Portamento time is always 0 for this message. Not valid for rhythm voices,
+Yamaha,RM1x,Sound controllers,Harmonic content,Adjusts the resonance set in the voice,71,,0,127,,,,,,,centered,"Relative to the voice's own value, centered at 64. The MIDI data format lists it as received but the tone generator MIDI implementation chart marks CC 71-76 as not recognized",0~63: Decrease; 64: No change; 65~127: Increase
+Yamaha,RM1x,Sound controllers,Release time,Adjusts the envelope release time set in the voice,72,,0,127,,,,,,,centered,"Relative to the voice's own value, centered at 64. The MIDI data format lists it as received but the tone generator MIDI implementation chart marks CC 71-76 as not recognized",0~63: Decrease; 64: No change; 65~127: Increase
+Yamaha,RM1x,Sound controllers,Attack time,Adjusts the envelope attack time set in the voice,73,,0,127,,,,,,,centered,"Relative to the voice's own value, centered at 64. The MIDI data format lists it as received but the tone generator MIDI implementation chart marks CC 71-76 as not recognized",0~63: Decrease; 64: No change; 65~127: Increase
+Yamaha,RM1x,Sound controllers,Brightness,Adjusts the filter cutoff frequency set in the voice,74,,0,127,,,,,,,centered,"Relative to the voice's own value, centered at 64. The MIDI data format lists it as received but the tone generator MIDI implementation chart marks CC 71-76 as not recognized",0~63: Decrease; 64: No change; 65~127: Increase
+Yamaha,RM1x,Sound controllers,Sound controller 6,Adjusts the envelope decay time set in the voice,75,,0,127,,,,,,,centered,"Relative to the voice's own value, centered at 64. The MIDI data format lists it as received but the tone generator MIDI implementation chart marks CC 71-76 as not recognized",0~63: Decrease; 64: No change; 65~127: Increase
+Yamaha,RM1x,Sound controllers,Sound controller 7,Adjusts the LFO frequency set in the voice,76,,0,127,,,,,,,centered,"Relative to the voice's own value, centered at 64. The MIDI data format lists it as received but the tone generator MIDI implementation chart marks CC 71-76 as not recognized",0~63: Decrease; 64: No change; 65~127: Increase
+Yamaha,RM1x,Effects,Effect send level 1,Reverb send,91,,0,127,,,,,,,0-based,,
+Yamaha,RM1x,Effects,Effect send level 3,Chorus send,93,,0,127,,,,,,,0-based,,
+Yamaha,RM1x,Effects,Effect send level 4,Variation send,94,,0,127,,,,,,,0-based,Only when Variation Connection is System,
+Yamaha,RM1x,Parameter numbers,Data entry MSB,Value for the selected RPN or NRPN,6,,0,127,,,,,,,0-based,,
+Yamaha,RM1x,Parameter numbers,Data entry LSB,Value for the selected RPN (used by master fine tune),38,,0,127,,,,,,,0-based,,
+Yamaha,RM1x,Parameter numbers,Data increment,,96,,127,127,,,,,,,0-based,RPN only,127: Increment
+Yamaha,RM1x,Parameter numbers,Data decrement,,97,,127,127,,,,,,,0-based,RPN only,127: Decrement
+Yamaha,RM1x,Parameter numbers,RPN LSB,,100,,0,127,,,,,,,0-based,With RPN MSB 0. Pitch bend sensitivity data 0-24 semitones. Master fine tune uses Data entry MSB and LSB (-100 to +100 cents). Master coarse tune data 40-88 (-24 to +24 semitones),0: Pitch bend sensitivity; 1: Master fine tune; 2: Master coarse tune; 127: RPN reset
+Yamaha,RM1x,Parameter numbers,RPN MSB,,101,,0,127,,,,,,,0-based,,0: Registered parameters; 127: RPN reset
+Yamaha,RM1x,NRPN,Vibrato rate,,,,,,,1,8,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,NRPN,Vibrato depth,,,,,,,1,9,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,NRPN,Vibrato delay,,,,,,,1,10,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,NRPN,Filter cutoff frequency,,,,,,,1,32,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,NRPN,Filter resonance,,,,,,,1,33,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,NRPN,EG attack time,,,,,,,1,99,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,NRPN,EG decay time,,,,,,,1,100,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,NRPN,EG release time,,,,,,,1,102,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,Channel mode,All sound off,"Turns off all sounding notes on the channel, including held ones",120,,0,0,,,,,,,0-based,,0: All sound off
+Yamaha,RM1x,Channel mode,Reset all controllers,"Resets pitch bend, modulation, AC1, expression, sustain, portamento, sostenuto, soft pedal, RPN and NRPN status",121,,0,0,,,,,,,0-based,,0: Reset all controllers
+Yamaha,RM1x,Channel mode,All note off,Turns off all notes on the channel (sustain and sostenuto still hold),123,,0,0,,,,,,,0-based,,0: All note off
+Yamaha,RM1x,Channel mode,Omni mode off,"Same as All note off, then sets the voice receive channel to Omni off, channel 1",124,,0,0,,,,,,,0-based,,0: Omni mode off
+Yamaha,RM1x,Channel mode,Omni mode on,"Same as All note off, then sets the voice receive channel to Omni on",125,,0,0,,,,,,,0-based,,0: Omni mode on
+Yamaha,RM1x,Channel mode,Mono,"Same as All sound off, then sets the channel to Mode 4",126,,0,16,,,,,,,0-based,Value is the mono number (0-16). The implementation chart says m is always treated as 1,
+Yamaha,RM1x,Channel mode,Poly,"Same as All sound off, then sets the channel to Mode 3",127,,0,0,,,,,,,0-based,,0: Poly
