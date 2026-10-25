@@ -1,0 +1,89 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+KORG,M3,Program,Bank select MSB,Selects the program or combination bank,0,,0,127,,,,,,,0-based,"With Bank Map KORG, MSB 0 with LSB 0-6 = INT-A to INT-G, LSB 8-14 = USER-A to USER-G (INT-G only in Combination), MSB 121 with LSB 0 = G, MSB 121 with LSB 1-9 = g(1)-g(9), MSB 120 with LSB 0 = g(d). With Bank Map GM(2), MSB 63. Requires Enable Program Change in Global mode",
+KORG,M3,Program,Bank select LSB,Selects the program or combination bank,32,,0,127,,,,,,,0-based,Requires Enable Program Change in Global mode,
+KORG,M3,Controllers,Modulation 1,Acts as joystick +Y,1,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Modulation 2,Acts as joystick -Y,2,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Foot pedal,Acts as the Foot Pedal source for AMS and effect dynamic modulation,4,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Portamento time,,5,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Volume,,7,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Post IFX panpot,"Balance control, used for post-insert-effect pan",8,,0,127,,,,,,,centered,"Program and Sampling modes use the global channel. Combination, Sequencer modes use each insert effect's channel",
+KORG,M3,Controllers,Panpot,,10,,0,127,,,,,,,centered,,
+KORG,M3,Controllers,Expression,,11,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Effect control 1,Effect dynamic modulation source FX Control 1,12,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Effect control 2,Effect dynamic modulation source FX Control 2,13,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Ribbon controller,Multi purpose controller 1,16,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Slider Mod 5,Multi purpose controller 2. AMS and effect dynamic modulation source,17,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Value slider,Multi purpose controller 3,18,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Slider Mod 6,Multi purpose controller 4. AMS and effect dynamic modulation source,19,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Slider Mod 7,AMS and effect dynamic modulation source,20,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Slider Mod 8,AMS and effect dynamic modulation source,21,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Damper,Hold 1,64,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Portamento switch,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,M3,Controllers,Sostenuto,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+KORG,M3,Controllers,Soft pedal,,67,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,SW1 Mod,Multi purpose controller 5. AMS and effect dynamic modulation source SW 1,80,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,SW2 Mod,Multi purpose controller 6. AMS and effect dynamic modulation source SW 2,81,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,Foot switch,Multi purpose controller 7. AMS and effect dynamic modulation source,82,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,CC#83,Multi purpose controller 8. AMS and effect dynamic modulation source,83,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,XY Mod +X,AMS and effect dynamic modulation source,85,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,XY Mod -X,AMS and effect dynamic modulation source,86,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,XY Mod +Y,AMS and effect dynamic modulation source,87,,0,127,,,,,,,0-based,,
+KORG,M3,Controllers,XY Mod -Y,AMS and effect dynamic modulation source,88,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,Sustain level,Sound controller 1,70,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,Resonance,Sound controller 2,71,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,Release time,Sound controller 3,72,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,Attack time,Sound controller 4,73,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,Filter cutoff,Sound controller 5,74,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,Decay time,Sound controller 6,75,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,LFO1 speed,Sound controller 7,76,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,LFO1 pitch depth,Sound controller 8,77,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,LFO1 delay,Sound controller 9,78,,0,127,,,,,,,0-based,,
+KORG,M3,Sound controllers,Filter EG intensity,Sound controller 10,79,,0,127,,,,,,,0-based,,
+KORG,M3,Effects,Send 2 level,Effect 1 depth,91,,0,127,,,,,,,0-based,,
+KORG,M3,Effects,All insert FX off/on,Effect 2 depth,92,,0,127,,,,,,,0-based,Always received on the global channel,0: Off; 1-127: On
+KORG,M3,Effects,Send 1 level,Effect 3 depth,93,,0,127,,,,,,,0-based,,
+KORG,M3,Effects,"Master FX1,2 off/on",Effect 4 depth,94,,0,127,,,,,,,0-based,Always received on the global channel,0: Off; 1-127: On
+KORG,M3,Effects,Total FX off/on,Effect 5 depth,95,,0,127,,,,,,,0-based,Always received on the global channel,0: Off; 1-127: On
+KORG,M3,KARMA,KARMA on/off,,14,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA slider 1,,22,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA slider 2,,23,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA slider 3,,24,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA slider 4,,25,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA slider 5,,26,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA slider 6,,27,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA slider 7,,28,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA slider 8,,29,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA scene,KARMA scene 1-8 control,30,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA latch,,31,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,KARMA,KARMA switch 1,,102,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",0-63: Off; 64-127: On
+KORG,M3,KARMA,KARMA switch 2,,103,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",0-63: Off; 64-127: On
+KORG,M3,KARMA,KARMA switch 3,,104,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",0-63: Off; 64-127: On
+KORG,M3,KARMA,KARMA switch 4,,105,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",0-63: Off; 64-127: On
+KORG,M3,KARMA,KARMA switch 5,,106,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",0-63: Off; 64-127: On
+KORG,M3,KARMA,KARMA switch 6,,107,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",0-63: Off; 64-127: On
+KORG,M3,KARMA,KARMA switch 7,,108,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",0-63: Off; 64-127: On
+KORG,M3,KARMA,KARMA switch 8,,109,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",0-63: Off; 64-127: On
+KORG,M3,Pads,Pad 1,,110,,1,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",1~127: Velocity
+KORG,M3,Pads,Pad 2,,111,,1,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",1~127: Velocity
+KORG,M3,Pads,Pad 3,,112,,1,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",1~127: Velocity
+KORG,M3,Pads,Pad 4,,113,,1,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",1~127: Velocity
+KORG,M3,Pads,Pad 5,,114,,1,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",1~127: Velocity
+KORG,M3,Pads,Pad 6,,115,,1,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",1~127: Velocity
+KORG,M3,Pads,Pad 7,,116,,1,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",1~127: Velocity
+KORG,M3,Pads,Pad 8,,117,,1,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",1~127: Velocity
+KORG,M3,XY control,XY control mode X,,118,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,XY control,XY control mode Y,,119,,0,127,,,,,,,0-based,"Only when the KARMA controllers, XY mode and pads use the CC Default assignment in Global mode. Program and Combination modes use the global channel, Sequencer mode the selected track's channel",
+KORG,M3,Parameter numbers,Data entry MSB,Value for RPN edits,6,,0,127,,,,,,,0-based,,
+KORG,M3,Parameter numbers,Data entry LSB,Value for RPN edits,38,,0,127,,,,,,,0-based,,
+KORG,M3,Parameter numbers,Data increment,,96,,0,0,,,,,,,0-based,,0: Increment
+KORG,M3,Parameter numbers,Data decrement,,97,,0,0,,,,,,,0-based,,0: Decrement
+KORG,M3,Parameter numbers,RPN LSB,,100,,0,2,,,,,,,0-based,"For drum programs, fine tune and coarse tune both affect detune. Data entry LSB has no effect for pitch bend sensitivity and coarse tune",0: Pitch bend sensitivity; 1: Fine tune; 2: Coarse tune
+KORG,M3,Parameter numbers,RPN MSB,,101,,0,0,,,,,,,0-based,,0: Registered parameters
+KORG,M3,Channel mode,All sound off,,120,,0,0,,,,,,,0-based,,0: All sound off
+KORG,M3,Channel mode,Reset all controllers,,121,,0,0,,,,,,,0-based,,0: Reset all controllers
+KORG,M3,Channel mode,Local control off/on,,122,,0,127,,,,,,,0-based,,0: Off; 127: On
+KORG,M3,Channel mode,All notes off,,123,,0,0,,,,,,,0-based,,0: All notes off
+KORG,M3,Channel mode,Omni mode off,,124,,0,0,,,,,,,0-based,Processed as All notes off,0: Omni mode off
+KORG,M3,Channel mode,Omni mode on,,125,,0,0,,,,,,,0-based,Processed as All notes off,0: Omni mode on
+KORG,M3,Channel mode,Mono mode on,,126,,0,16,,,,,,,0-based,Processed as All notes off,
+KORG,M3,Channel mode,Poly mode on,,127,,0,0,,,,,,,0-based,Processed as All notes off,0: Poly mode on

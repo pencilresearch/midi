@@ -1,0 +1,68 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Roland,MC-909,Program,Bank select MSB,,0,,0,127,,,,,,,0-based,Not received when Receive Bank Select (System) is off. Use with Bank select LSB and Program Change,81: Patches; 82: Rhythms; 92: SRX rhythms; 93: SRX patches
+Roland,MC-909,Program,Bank select LSB,,32,,0,127,,,,,,,0-based,"With MSB 81, 0-1 = User patch, 32-33 = Card patch, 64-70 = Preset patch A-G. With MSB 82, 0 = User rhythm, 32 = Card rhythm, 64 = Preset rhythm",
+Roland,MC-909,Controllers,Modulation,,1,,0,127,,,,,,,0-based,,
+Roland,MC-909,Controllers,Breath type,,2,,0,127,,,,,,,0-based,,
+Roland,MC-909,Controllers,Foot type,,4,,0,127,,,,,,,0-based,,
+Roland,MC-909,Controllers,Balance,,8,,0,127,,,,,,,centered,,
+Roland,MC-909,Controllers,Expression,,11,,0,127,,,,,,,0-based,,
+Roland,MC-909,Controllers,Hold 1,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,MC-909,Controllers,Sostenuto,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,MC-909,Controllers,Soft,,67,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,MC-909,Controllers,Legato foot switch,,68,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,MC-909,Controllers,Hold 2,,69,,0,127,,,,,,,0-based,"Received, but no hold is performed",
+Roland,MC-909,Controllers,Portamento control,Source note number for the next Note On,84,,0,127,,,,,,,0-based,The pitch glides from the source note at the Portamento time rate,
+Roland,MC-909,Parameter numbers,Data entry MSB,Value for the selected RPN,6,,0,127,,,,,,,0-based,,
+Roland,MC-909,Parameter numbers,Data entry LSB,Value for the selected RPN,38,,0,127,,,,,,,0-based,,
+Roland,MC-909,Parameter numbers,RPN LSB,,100,,0,127,,,,,,,0-based,With RPN MSB 0. Pitch bend sensitivity data 0-24 semitones. Coarse tuning data 16-112 (-48 to +48 semitones) and changes the Part Key Shift,0: Pitch bend sensitivity; 1: Channel fine tuning; 2: Channel coarse tuning; 127: RPN null
+Roland,MC-909,Parameter numbers,RPN MSB,,101,,0,127,,,,,,,0-based,,0: Registered parameters; 127: RPN null
+Roland,MC-909,Pitch,Patch coarse tune,,21,,16,112,,,,,,,centered,Center = 64. Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Pitch,Rhythm tone coarse tune,,21,,0,127,,,,,,,0-based,Center C4 = 60. Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Pitch,Patch fine tune,,77,,14,114,,,,,,,centered,Center = 64,
+Roland,MC-909,Pitch,Rhythm tone fine tune,,77,,14,114,,,,,,,centered,Center = 64,
+Roland,MC-909,Filter,Filter type,,34,,0,6,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,0: Off; 1: LPF; 2: BPF; 3: HPF; 4: PKG; 5: LPF2; 6: LPF3
+Roland,MC-909,Filter,Cutoff frequency,Received as Cutoff,74,,0,127,,,,,,,0-based,,
+Roland,MC-909,Filter,Resonance,,71,,0,127,,,,,,,0-based,,
+Roland,MC-909,Amp,Patch level,,36,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Amp,Rhythm tone level,,36,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Amp,Tone pan,,35,,0,127,,,,,,,centered,Center = 64. Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Amp,Random pan depth,,37,,0,63,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Pitch envelope,Depth,,25,,52,76,,,,,,,centered,Center = 64. Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Pitch envelope,Attack,P-Env time 1,26,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Pitch envelope,Decay,P-Env time 3,27,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Pitch envelope,Sustain,P-Env level 3,39,,1,127,,,,,,,centered,Center = 64. Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Pitch envelope,Release,P-Env time 4,40,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Filter envelope,Depth,,81,,1,127,,,,,,,centered,Center = 64. Received as General purpose controller 6,
+Roland,MC-909,Filter envelope,Attack,F-Env time 1,82,,0,127,,,,,,,0-based,Received as General purpose controller 7,
+Roland,MC-909,Filter envelope,Decay,F-Env time 3,83,,0,127,,,,,,,0-based,Received as General purpose controller 8,
+Roland,MC-909,Filter envelope,Sustain,F-Env level 3,28,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Filter envelope,Release,F-Env time 4,29,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Amp envelope,Attack,A-Env time 1. Received as Attack time,73,,0,127,,,,,,,0-based,,
+Roland,MC-909,Amp envelope,Decay,A-Env time 3. Received as Decay time,75,,0,127,,,,,,,0-based,,
+Roland,MC-909,Amp envelope,Sustain,A-Env level 3,31,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Amp envelope,Release,A-Env time 4. Received as Release time,72,,0,127,,,,,,,0-based,,
+Roland,MC-909,LFO 1,Waveform,,15,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,LFO 1,Rate,,16,,0,127,,,,,,,0-based,,
+Roland,MC-909,LFO 1,Pitch depth,,18,,1,127,,,,,,,centered,Center = 64.,
+Roland,MC-909,LFO 1,Filter depth,,19,,1,127,,,,,,,centered,Center = 64.,
+Roland,MC-909,LFO 1,Amp depth,,80,,1,127,,,,,,,centered,Center = 64. Received as General purpose controller 5.,
+Roland,MC-909,LFO 1,Pan depth,,9,,1,127,,,,,,,centered,Center = 64. Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Portamento,Portamento switch,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,MC-909,Portamento,Portamento time,,5,,0,127,,,,,,,0-based,,
+Roland,MC-909,Unison,Unison switch,,89,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,0-63: Off; 64-127: On
+Roland,MC-909,Unison,Unison fat level,,90,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,
+Roland,MC-909,Part,Level,Part level. Received as Volume,7,,0,127,,,,,,,0-based,,
+Roland,MC-909,Part,Pan,Part pan. Received as Panpot,10,,0,127,,,,,,,centered,,0~63: Left; 64: Center; 65~127: Right
+Roland,MC-909,Part,Key shift,,85,,16,112,,,,,,,centered,Center = 64,
+Roland,MC-909,Part,Reverb level,Part reverb send level. Received as Effect 1 (reverb send level),91,,0,127,,,,,,,0-based,,
+Roland,MC-909,Part,Output select,,86,,0,6,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,0: DRY; 1: MFX1; 2: MFX2; 3: COMP; 4: DIR1; 5: DIR2; 6: RHYTHM
+Roland,MC-909,Part,Auto sync switch,,87,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,0-63: Off; 64-127: On
+Roland,MC-909,Sequencer,Part mute,,88,,0,127,,,,,,,0-based,Sent as SysEx instead when Transmit Patch Edit Type is TYPE-QUICK,0-63: Mute; 64-127: Play
+Roland,MC-909,Sequencer,Local on/off,,122,,0,127,,,,,,,0-based,Received by the sequencer,0: Local off; 127: Local on
+Roland,MC-909,Channel mode,All sounds off,,120,,0,0,,,,,,,0-based,,0: All sounds off
+Roland,MC-909,Channel mode,Reset all controllers,,121,,0,0,,,,,,,0-based,,0: Reset all controllers
+Roland,MC-909,Channel mode,All notes off,,123,,0,0,,,,,,,0-based,Notes held by Hold 1 or Sostenuto continue until released,0: All notes off
+Roland,MC-909,Channel mode,Omni off,,124,,0,0,,,,,,,0-based,Processed as All notes off,0: Omni off
+Roland,MC-909,Channel mode,Omni on,,125,,0,0,,,,,,,0-based,Processed as All notes off. Omni on is not turned on,0: Omni on
+Roland,MC-909,Channel mode,Mono,,126,,0,16,,,,,,,0-based,Value is the mono number (0-16). Processed as All notes off. Changes the patch Mono/Poly parameter,
+Roland,MC-909,Channel mode,Poly,,127,,0,0,,,,,,,0-based,Processed as All notes off. Changes the patch Mono/Poly parameter,0: Poly
