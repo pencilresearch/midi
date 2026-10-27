@@ -1,29 +1,29 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
-M-VAVE,FM1 Community,All engines,Track volume,,7,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Channels 1-7 address tracks 1-7 and channel 10 addresses track 8 by default. Input channels can be changed per track on SEQ page 8/8 (Track role). Saved with the project,0~127: Volume
-M-VAVE,FM1 Community,All engines,Pan,,10,,0,127,,,,,,,centered,Requires FM1 Open firmware V14 or later. Not saved with the project,0~127: Left to right
-M-VAVE,FM1 Community,All engines,Expression,,11,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. 0 is silent and 127 is the original volume. Not saved with the project,0~127: Expression
-M-VAVE,FM1 Community,All engines,Reverb send,,91,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Saved with the project,0~127: Send amount
-M-VAVE,FM1 Community,All engines,All sound off,Stops all sound on the track,120,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,
-M-VAVE,FM1 Community,All engines,Reset all controllers,"Resets pitch bend, expression, pan, modulation and sustain",121,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Does not change patch parameters or undo a 303 env mod edit,
-M-VAVE,FM1 Community,All engines,All notes off,Releases notes received from external MIDI on the track,123,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. A held sustain pedal still applies,
-M-VAVE,FM1 Community,FM engine,Vibrato,Pitch vibrato (mod wheel),1,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Responds even when the patch's PMS is 0,0~127: Vibrato depth
-M-VAVE,FM1 Community,FM engine,Breath amplitude,Amplitude control,2,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Effect depends on the patch's amplitude sensitivity,0~127: Amount
-M-VAVE,FM1 Community,FM engine,Foot amplitude,Amplitude control,4,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Effect depends on the patch's amplitude sensitivity,0~127: Amount
-M-VAVE,FM1 Community,FM engine,Sustain pedal,,64,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0-63: Off; 64-127: On
-M-VAVE,FM1 Community,303 engine,Env mod,Filter envelope modulation (mod wheel),1,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Edits the patch and is saved with the project,0~127: Amount
-M-VAVE,FM1 Community,303 engine,Slide time,,5,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Time
-M-VAVE,FM1 Community,303 engine,Resonance,,71,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Amount
-M-VAVE,FM1 Community,303 engine,Cutoff,,74,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Frequency
-M-VAVE,FM1 Community,303 engine,Decay,,75,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Time
-M-VAVE,FM1 Community,303 engine,Sustain pedal,,64,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0-63: Off; 64-127: On
-M-VAVE,FM1 Community,PSG engine,LFO depth,Track LFO depth (mod wheel),1,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Acts as a volume swell when no LFO is set,0~127: Depth
-M-VAVE,FM1 Community,PSG engine,Release,,72,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Time
-M-VAVE,FM1 Community,PSG engine,Noise,,74,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Amount
-M-VAVE,FM1 Community,PSG engine,Sustain pedal,,64,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0-63: Off; 64-127: On
-M-VAVE,FM1 Community,Pluck engine,LFO depth,Track LFO depth (mod wheel),1,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Acts as a volume swell when no LFO is set,0~127: Depth
-M-VAVE,FM1 Community,Pluck engine,Release,,72,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Time
-M-VAVE,FM1 Community,Pluck engine,Brightness,,74,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Amount
-M-VAVE,FM1 Community,Pluck engine,Decay,,75,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0~127: Time
-M-VAVE,FM1 Community,Pluck engine,Sustain pedal,,64,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later,0-63: Off; 64-127: On
-M-VAVE,FM1 Community,808 engine,LFO depth,Track LFO depth (mod wheel),1,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Acts as a volume swell when no LFO is set,0~127: Depth
-M-VAVE,FM1 Community,Sampler engine,LFO depth,Track LFO depth (mod wheel),1,,0,127,,,,,,,0-based,Requires FM1 Open firmware V14 or later. Acts as a volume swell when no LFO is set,0~127: Depth
+M-VAVE,FM1 Community,All engines,Track volume,,7,,0,127,,,,,,,0-based,Channels 1-7 address tracks 1-7 and channel 10 addresses track 8 by default. Input channels can be changed per track on SEQ page 8/8 (Track role). Saved with the project,0~127: Volume
+M-VAVE,FM1 Community,All engines,Pan,,10,,0,127,,,,,,,centered,Not saved with the project,0~127: Left to right
+M-VAVE,FM1 Community,All engines,Expression,,11,,0,127,,,,,,,0-based,0 is silent and 127 is the original volume. Not saved with the project,0~127: Expression
+M-VAVE,FM1 Community,All engines,Reverb send,,91,,0,127,,,,,,,0-based,Saved with the project,0~127: Send amount
+M-VAVE,FM1 Community,All engines,All sound off,Stops all sound on the track,120,,0,127,,,,,,,0-based,,
+M-VAVE,FM1 Community,All engines,Reset all controllers,"Resets pitch bend, expression, pan, modulation and sustain",121,,0,127,,,,,,,0-based,Does not change patch parameters or undo a 303 env mod edit,
+M-VAVE,FM1 Community,All engines,All notes off,Releases notes received from external MIDI on the track,123,,0,127,,,,,,,0-based,A held sustain pedal still applies,
+M-VAVE,FM1 Community,FM engine,Vibrato,Pitch vibrato (mod wheel),1,,0,127,,,,,,,0-based,Responds even when the patch's PMS is 0,0~127: Vibrato depth
+M-VAVE,FM1 Community,FM engine,Breath amplitude,Amplitude control,2,,0,127,,,,,,,0-based,Effect depends on the patch's amplitude sensitivity,0~127: Amount
+M-VAVE,FM1 Community,FM engine,Foot amplitude,Amplitude control,4,,0,127,,,,,,,0-based,Effect depends on the patch's amplitude sensitivity,0~127: Amount
+M-VAVE,FM1 Community,FM engine,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+M-VAVE,FM1 Community,303 engine,Env mod,Filter envelope modulation (mod wheel),1,,0,127,,,,,,,0-based,Edits the patch and is saved with the project,0~127: Amount
+M-VAVE,FM1 Community,303 engine,Slide time,,5,,0,127,,,,,,,0-based,,0~127: Time
+M-VAVE,FM1 Community,303 engine,Resonance,,71,,0,127,,,,,,,0-based,,0~127: Amount
+M-VAVE,FM1 Community,303 engine,Cutoff,,74,,0,127,,,,,,,0-based,,0~127: Frequency
+M-VAVE,FM1 Community,303 engine,Decay,,75,,0,127,,,,,,,0-based,,0~127: Time
+M-VAVE,FM1 Community,303 engine,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+M-VAVE,FM1 Community,PSG engine,LFO depth,Track LFO depth (mod wheel),1,,0,127,,,,,,,0-based,Acts as a volume swell when no LFO is set,0~127: Depth
+M-VAVE,FM1 Community,PSG engine,Release,,72,,0,127,,,,,,,0-based,,0~127: Time
+M-VAVE,FM1 Community,PSG engine,Noise,,74,,0,127,,,,,,,0-based,,0~127: Amount
+M-VAVE,FM1 Community,PSG engine,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+M-VAVE,FM1 Community,Pluck engine,LFO depth,Track LFO depth (mod wheel),1,,0,127,,,,,,,0-based,Acts as a volume swell when no LFO is set,0~127: Depth
+M-VAVE,FM1 Community,Pluck engine,Release,,72,,0,127,,,,,,,0-based,,0~127: Time
+M-VAVE,FM1 Community,Pluck engine,Brightness,,74,,0,127,,,,,,,0-based,,0~127: Amount
+M-VAVE,FM1 Community,Pluck engine,Decay,,75,,0,127,,,,,,,0-based,,0~127: Time
+M-VAVE,FM1 Community,Pluck engine,Sustain pedal,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+M-VAVE,FM1 Community,808 engine,LFO depth,Track LFO depth (mod wheel),1,,0,127,,,,,,,0-based,Acts as a volume swell when no LFO is set,0~127: Depth
+M-VAVE,FM1 Community,Sampler engine,LFO depth,Track LFO depth (mod wheel),1,,0,127,,,,,,,0-based,Acts as a volume swell when no LFO is set,0~127: Depth
