@@ -1,0 +1,16 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+VONGON,Polyphrase,General,Repeats,,1,,0,127,,,,,,,0-based,,
+VONGON,Polyphrase,General,Tone,,2,,0,127,,,,,,,0-based,,
+VONGON,Polyphrase,General,Depth,,3,,0,127,,,,,,,0-based,,
+VONGON,Polyphrase,General,Rate,,4,,0,127,,,,,,,0-based,,
+VONGON,Polyphrase,General,Slider L,,5,,0,127,,,,,,,0-based,,
+VONGON,Polyphrase,General,Slider R,,6,,0,127,,,,,,,0-based,,
+VONGON,Polyphrase,General,Mix,,7,,0,127,,,,,,,0-based,,
+VONGON,Polyphrase,General,Time,,8,,0,127,,,,,,,0-based,,0-8: 85ms; 9-22: 170ms; 23-37: 341ms; 38-56: 682ms; 57-74: 1.3s; 75-91: 2.7s; 92-106: 5.5s; 107-120: 11s; 121-127: 22s
+VONGON,Polyphrase,General,Echo style,,9,,0,127,,,,,,,0-based,,0-43: Dual stereo; 44-87: Ping pong; 88-127: Mono
+VONGON,Polyphrase,General,Sync,,10,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+VONGON,Polyphrase,General,Trig mode,,11,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+VONGON,Polyphrase,General,Bypass,,13,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+VONGON,Polyphrase,General,Infinite,,14,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+VONGON,Polyphrase,General,Tap tempo,,15,,0,127,,,,,,,0-based,,0-127: Tap
+VONGON,Polyphrase,General,MIDI clock enable,,17,,0,127,,,,,,,0-based,,"0-63: Enabled, 64-127: Disabled"
