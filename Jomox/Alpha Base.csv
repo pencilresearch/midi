@@ -69,7 +69,7 @@ Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Tune Amount,LFO modula
 Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO VCA Amount,LFO modulation depth to amplitude,124,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to VCA depth
 Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),LFO Filter Amount,LFO modulation depth to filter cutoff,125,,0,127,,,,,,,0-based,Channels 3-10,0~127: LFO to filter depth
 Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Metallic Noise,Selects metallic noise patterns,94,,0,127,,,,,,,0-based,Channels 3-10,0~127: Metallic noise mode
-Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Switch CC,Toggles reverse and loop states,65,,0,3,,,,,,,0-based,Channels 3-10,1-0: Reverse on/off; 3-2: Loop on/off
+Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Switch CC,Toggles reverse and loop states,65,,0,3,,,,,,,0-based,Channels 3-10,0: Reverse off; 1: Reverse on; 2: Loop off; 3: Loop on
 Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Select Instrument for Multi Kit,Selects the instrument slot for a multi kit,64,,0,127,,,,,,,0-based,Channels 3-10,0~127: Instrument select
 Jomox,Alpha Base,Sample (CH/OH/CLP/RIM/CRH/RID/X1/X2),Volume,Instrument output level,7,,0,127,,,,,,,0-based,Channels 3-10,0~127: Output level
 Jomox,Alpha Base,FM Synth,OP1 Tune,Tuning of operator 1,100,,0,127,,,,,,,0-based,Channel 11,0~127: Operator 1 tune
