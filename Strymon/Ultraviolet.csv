@@ -1,0 +1,12 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Strymon,Ultraviolet,Program Select,Bank Select,,0,,0,2,,,,,,,0-based,Manual prints value 3 for the last option but states range 0-2; renumbered to match the stated range,0: Bank 1; 1: Bank 2; 2: Bank 3
+Strymon,Ultraviolet,Knobs,Mode,,11,,1,3,,,,,,,0-based,,1: Chorus; 2: Blend; 3: Vibrato
+Strymon,Ultraviolet,Knobs,Bias,,12,,1,3,,,,,,,0-based,Manual states range 0-127; enumeration covers 1-3,1: Low; 2: Mid; 3: High
+Strymon,Ultraviolet,Knobs,Speed,,13,,0,127,,,,,,,0-based,,
+Strymon,Ultraviolet,Knobs,Intensity,,14,,0,127,,,,,,,0-based,,
+Strymon,Ultraviolet,Knobs,Volume,,15,,0,127,,,,,,,0-based,,
+Strymon,Ultraviolet,Global / Control,Footswitch,,27,,0,127,,,,,,,0-based,,0: Release; 1-127: Press
+Strymon,Ultraviolet,Global / Control,MIDI Expression Off/On,,60,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Strymon,Ultraviolet,Global / Control,Tap,,93,,0,127,,,,,,,0-based,,
+Strymon,Ultraviolet,Global / Control,Expression Pedal,,100,,0,127,,,,,,,0-based,,0: Heel; 127: Toe
+Strymon,Ultraviolet,Global / Control,Bypass/Engage,,102,,0,127,,,,,,,0-based,,0: Bypass; 1-127: Engage
