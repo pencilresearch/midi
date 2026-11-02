@@ -1,0 +1,9 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+KORG,phase8,Static note assignment,Resonator 1,,basic,36,36,36,Received on note 60 instead when MIDI Transpose is on. Not fixed when MIDI Note Assignment is set to Frequency Based.,1~127: Velocity
+KORG,phase8,Static note assignment,Resonator 2,,basic,37,37,37,Received on note 61 instead when MIDI Transpose is on. Not fixed when MIDI Note Assignment is set to Frequency Based.,1~127: Velocity
+KORG,phase8,Static note assignment,Resonator 3,,basic,38,38,38,Received on note 62 instead when MIDI Transpose is on. Not fixed when MIDI Note Assignment is set to Frequency Based.,1~127: Velocity
+KORG,phase8,Static note assignment,Resonator 4,,basic,39,39,39,Received on note 63 instead when MIDI Transpose is on. Not fixed when MIDI Note Assignment is set to Frequency Based.,1~127: Velocity
+KORG,phase8,Static note assignment,Resonator 5,,basic,40,40,40,Received on note 64 instead when MIDI Transpose is on. Not fixed when MIDI Note Assignment is set to Frequency Based.,1~127: Velocity
+KORG,phase8,Static note assignment,Resonator 6,,basic,41,41,41,Received on note 65 instead when MIDI Transpose is on. Not fixed when MIDI Note Assignment is set to Frequency Based.,1~127: Velocity
+KORG,phase8,Static note assignment,Resonator 7,,basic,42,42,42,Received on note 66 instead when MIDI Transpose is on. Not fixed when MIDI Note Assignment is set to Frequency Based.,1~127: Velocity
+KORG,phase8,Static note assignment,Resonator 8,,basic,43,43,43,Received on note 67 instead when MIDI Transpose is on. Not fixed when MIDI Note Assignment is set to Frequency Based.,1~127: Velocity
