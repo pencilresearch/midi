@@ -3,7 +3,7 @@ Chase Bliss,MOOD MKII,Footswitches/aux,Micro-looper bypass,,102,,0,127,,,,,,,0-b
 Chase Bliss,MOOD MKII,Footswitches/aux,Wet channel bypass,,103,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,Footswitches/aux,Hidden menu,,104,,0,127,,,,,,,0-based,,0: Exit; 1-127: Enter
 Chase Bliss,MOOD MKII,Footswitches/aux,Wet channel freeze,,105,,0,127,,,,,,,0-based,,0: Off; 1-127: On
-Chase Bliss,MOOD MKII,Footswitches/aux,Micro-looper freeze,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,MOOD MKII,Footswitches/aux,Micro-looper overdub,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,Footswitches/aux,Tap tempo,,107,,0,127,,,,,,,0-based,,0-127: Tap tempo
 Chase Bliss,MOOD MKII,Footswitches/aux,Tap tempo (legacy),,93,,1,127,,,,,,,0-based,,1-127: Tap tempo
 Chase Bliss,MOOD MKII,Toggles,Wet channel mode,,21,,0,127,,,,,,,0-based,,0-1: Reverb; 2: Delay; 3-127: Slip
