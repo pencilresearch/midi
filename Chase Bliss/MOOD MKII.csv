@@ -58,4 +58,5 @@ Chase Bliss,MOOD MKII,Synth mode,Sustain,,82,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Synth mode,Release,,83,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Synth mode,Octave transpose,,57,,1,9,,,,,,,0-based,,1: 12 semitones; 2: 24 semitones; 3: 36 semitones; 4: 48 semitones; 5: 60 semitones; 6: 72 semitones; 7: 84 semitones; 8: 96 semitones; 9: 108 semitones
 Chase Bliss,MOOD MKII,Synth mode,Portamento,,84,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Synth mode,Pitch bend,,0,,0,127,,,,,,,0-based,Range +/- 4 semitones,
 Chase Bliss,MOOD MKII,Synth mode,Modulation wheel,,1,,0,127,,,,,,,0-based,,
