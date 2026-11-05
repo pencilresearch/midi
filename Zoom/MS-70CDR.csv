@@ -1,0 +1,2 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Zoom,MS-70CDR,Tuner,Tuner,Opens or closes the tuner.,74,,0,127,,,,,,,0-based,"MIDI over USB only, from a USB MIDI host. Zoom does not document MIDI for this pedal; this is from community documentation (github.com/g200kg/zoom-ms-utility). Received on any channel. Program Change 0-49 loads patches 1-50.",0-63: Off; 64-127: On
