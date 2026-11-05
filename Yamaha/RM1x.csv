@@ -27,14 +27,14 @@ Yamaha,RM1x,Parameter numbers,Data increment,,96,,127,127,,,,,,,0-based,RPN only
 Yamaha,RM1x,Parameter numbers,Data decrement,,97,,127,127,,,,,,,0-based,RPN only,127: Decrement
 Yamaha,RM1x,Parameter numbers,RPN LSB,,100,,0,127,,,,,,,0-based,With RPN MSB 0. Pitch bend sensitivity data 0-24 semitones. Master fine tune uses Data entry MSB and LSB (-100 to +100 cents). Master coarse tune data 40-88 (-24 to +24 semitones),0: Pitch bend sensitivity; 1: Master fine tune; 2: Master coarse tune; 127: RPN reset
 Yamaha,RM1x,Parameter numbers,RPN MSB,,101,,0,127,,,,,,,0-based,,0: Registered parameters; 127: RPN reset
-Yamaha,RM1x,NRPN,Vibrato rate,,,,,,,1,8,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
-Yamaha,RM1x,NRPN,Vibrato depth,,,,,,,1,9,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
-Yamaha,RM1x,NRPN,Vibrato delay,,,,,,,1,10,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
-Yamaha,RM1x,NRPN,Filter cutoff frequency,,,,,,,1,32,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
-Yamaha,RM1x,NRPN,Filter resonance,,,,,,,1,33,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
-Yamaha,RM1x,NRPN,EG attack time,,,,,,,1,99,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
-Yamaha,RM1x,NRPN,EG decay time,,,,,,,1,100,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
-Yamaha,RM1x,NRPN,EG release time,,,,,,,1,102,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,Vibrato,Vibrato rate,,,,,,,1,8,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,Vibrato,Vibrato depth,,,,,,,1,9,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,Vibrato,Vibrato delay,,,,,,,1,10,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,Filter,Filter cutoff frequency,,,,,,,1,32,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,Filter,Filter resonance,,,,,,,1,33,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,EG,EG attack time,,,,,,,1,99,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,EG,EG decay time,,,,,,,1,100,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
+Yamaha,RM1x,EG,EG release time,,,,,,,1,102,0,127,,centered,Value sent with Data entry MSB (CC 6). Relative to the voice's own value,0~63: -64 to -1; 64: 0; 65~127: +1 to +63
 Yamaha,RM1x,Channel mode,All sound off,"Turns off all sounding notes on the channel, including held ones",120,,0,0,,,,,,,0-based,,0: All sound off
 Yamaha,RM1x,Channel mode,Reset all controllers,"Resets pitch bend, modulation, AC1, expression, sustain, portamento, sostenuto, soft pedal, RPN and NRPN status",121,,0,0,,,,,,,0-based,,0: Reset all controllers
 Yamaha,RM1x,Channel mode,All note off,Turns off all notes on the channel (sustain and sostenuto still hold),123,,0,0,,,,,,,0-based,,0: All note off
