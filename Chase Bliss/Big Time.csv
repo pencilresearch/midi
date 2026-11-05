@@ -34,7 +34,7 @@ Chase Bliss,Big Time,Other,Save to current slot,,28,,0,127,,,,,,,0-based,,
 Chase Bliss,Big Time,Other,Tap subdivisions,,54,,0,127,,,,,,,0-based,,0: 1/16; 1: 1/8t; 2: 1/16•; 3: 1/8; 4: 1/4t; 5: 1/8•; 6: 1/4; 7: 1/2t; 8: 1/4•; 9: 1/2; 10: whole triplet; 11-127: 1/2•
 Chase Bliss,Big Time,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,
 Chase Bliss,Big Time,Other,EOM disengage,,101,,0,127,,,,,,,0-based
-Chase Bliss,Big Time,Other,MIDI clock,,112,,0,127,,,,,,,0-based,Not available in MOD mode,0: No clock; 1: Clock in; 2-127: Clock out
+Chase Bliss,Big Time,Other,MIDI clock,,110,,0,127,,,,,,,0-based,Range of 60-240 bpm (not available in MOD mode),0: No clock; 1: Clock in; 2-127: Clock out
 Chase Bliss,Big Time,Other,MIDI notes,,112,,0,127,,,,,,,0-based,,0: Off; 1: Channel; 2-127: Global
 Chase Bliss,Big Time,Options menu,Play / Dub,,42,,0,127,,,,,,,0-based,,0: Play; 1-127: Dub
 Chase Bliss,Big Time,Options menu,Scale ignore,,43,,0,127,,,,,,,0-based,,0: Off; 1-127: On
