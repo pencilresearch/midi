@@ -9,7 +9,7 @@ Chase Bliss,MOOD MKII,Footswitches/aux,Tap tempo (legacy),,93,,1,127,,,,,,,0-bas
 Chase Bliss,MOOD MKII,Toggles,Wet channel mode,,21,,0,127,,,,,,,0-based,,0-1: Reverb; 2: Delay; 3-127: Slip
 Chase Bliss,MOOD MKII,Toggles,Routing,,22,,0,127,,,,,,,0-based,,0-1: In; 2: Micro-looper + In; 3-127: Micro-looper
 Chase Bliss,MOOD MKII,Toggles,Micro-looper mode,,23,,0,127,,,,,,,0-based,,0-1: Env; 2: Tape; 3-127: Stretch
-Chase Bliss,MOOD MKII,Knobs,Time,,14,,0,127,,,,,,,0-based,,0-12: Thirty second note; 13-36: Sixteenth note; 37-61: Eighth note triplet; 62-84: Eighth note; 85-110: Dotted eighth note; 111-127: Quarter note
+Chase Bliss,MOOD MKII,Knobs,Time,,14,,0,127,,,,,,,0-based,,0-12: 1/32; 13-36: 1/16; 37-61: 1/8t; 62-84: 1/8; 85-110: 1/8•; 111-127: 1/4
 Chase Bliss,MOOD MKII,Knobs,Mix,,15,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Knobs,Length,,16,,0,127,,,,,,,0-based,Applies to tape mode only,0-12: x/32; 13-36: x/16; 37-61: x/8; 62-84: x/4; 85-110: x/2; 111-127: x/1
 Chase Bliss,MOOD MKII,Knobs,Wet channel modify,,17,,0,127,,,,,,,0-based,,
@@ -18,8 +18,8 @@ Chase Bliss,MOOD MKII,Knobs,Micro-looper modify,,19,,0,127,,,,,,,0-based,,0-15: 
 Chase Bliss,MOOD MKII,Knobs,Ramp speed,,20,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,Saved globally,0: Ignore MIDI clock; 1-127: Follow MIDI clock
 Chase Bliss,MOOD MKII,Other,Stop ramping,,52,,0,127,,,,,,,0-based,,0: Stop ramping; 1-127: Resume ramping
-Chase Bliss,MOOD MKII,Other,Wet channel clock division,,53,,0,7,,,,,,,0-based,Saved globally,0: Thirty second note; 1: Sixteenth note; 2: Eighth note triplet; 3: Eighth note; 4: Dotted eighth note; 5: Quarter note; 6: Half note; 7: Whole note
-Chase Bliss,MOOD MKII,Other,Micro-looper channel clock division,,54,,0,7,,,,,,,0-based,Saved globally,0: Thirty second note; 1: Sixteenth note; 2: Eighth note triplet; 3: Eighth note; 4: Dotted eighth note; 5: Quarter note; 6: Half note; 7: Whole note
+Chase Bliss,MOOD MKII,Other,Wet channel clock division,,53,,0,7,,,,,,,0-based,Saved globally,0: 1/32; 1: 1/16; 2: 1/8t; 3: 1/8; 4: 1/8•; 5: 1/4; 6: 1/2; 7: Whole note
+Chase Bliss,MOOD MKII,Other,Micro-looper channel clock division,,54,,0,7,,,,,,,0-based,Saved globally,0: 1/32; 1: 1/16; 2: 1/8t; 3: 1/8; 4: 1/8•; 5: 1/4; 6: 1/2; 7: Whole note
 Chase Bliss,MOOD MKII,Other,True bypass mode,,55,,0,127,,,,,,,0-based,,0: Standard buffered bypass; 1-127: True bypass
 Chase Bliss,MOOD MKII,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Factory reset
 Chase Bliss,MOOD MKII,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,

@@ -47,7 +47,7 @@ Chase Bliss,Onward,Other,Ramping,,52,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Onward,Other,Tap tempo (legacy),,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
 Chase Bliss,Onward,Other,Expression,,100,,0,127,,,,,,,0-based,,
 Chase Bliss,Onward,Other,Preset save,,111,,0,122,,,,,,,0-based,,0~122: Preset slot
-Chase Bliss,Onward,Other,MIDI sync subdivision,,53,,0,8,,,,,,,0-based,,0: Whole; 1: Dotted half; 2: Half; 3: Dotted quarter; 4: Quarter; 5: Dotted 8th; 6: 8th; 7: 8th note triplet; 8: Sixteenth
+Chase Bliss,Onward,Other,MIDI sync subdivision,,53,,0,8,,,,,,,0-based,,0: Whole; 1: 1/2•; 2: 1/2; 3: 1/4•; 4: 1/4; 5: 1/8•; 6: 1/8; 7: 1/8t; 8: 1/16
 Chase Bliss,Onward,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Factory reset
 Chase Bliss,Onward,Other,Dry kill,,57,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Onward,Other,Trails,,58,,0,127,,,,,,,0-based,,0: Off; 1-127: On
