@@ -49,7 +49,7 @@ Chase Bliss,BAD MOOD,"Dip switches, right bank",Spread,,72,,0,127,,,,,,,0-based,
 Chase Bliss,BAD MOOD,"Dip switches, right bank",Dry kill,,73,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,BAD MOOD,"Dip switches, right bank",Trails,,74,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,BAD MOOD,"Dip switches, right bank",Latch,,75,,0,127,,,,,,,0-based,,0: Off; 1-127: On
-Chase Bliss,BAD MOOD,"Dip switches, right bank",Micro-looper half length,,76,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Micro-looper half length,,76,,0,127,,,,,,,0-based,Half is similar to MOOD MK1 setting,0: Off; 1-127: On
 Chase Bliss,BAD MOOD,"Dip switches, right bank",Smooth,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,BAD MOOD,"Dip switches, right bank",Dry glue,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,BAD MOOD,Synth mode,Exit synth mode,,59,,2,127,,,,,,,0-based,,2-127: Exit synth mode

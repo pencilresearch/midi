@@ -9,7 +9,7 @@ Chase Bliss,MOOD MKII,Footswitches/aux,Tap tempo (legacy),,93,,1,127,,,,,,,0-bas
 Chase Bliss,MOOD MKII,Toggles,Wet channel mode,,21,,0,127,,,,,,,0-based,,0-1: Reverb; 2: Delay; 3-127: Slip
 Chase Bliss,MOOD MKII,Toggles,Routing,,22,,0,127,,,,,,,0-based,,0-1: In; 2: Micro-looper + In; 3-127: Micro-looper
 Chase Bliss,MOOD MKII,Toggles,Micro-looper mode,,23,,0,127,,,,,,,0-based,,0-1: Env; 2: Tape; 3-127: Stretch
-Chase Bliss,MOOD MKII,Knobs,Time,,14,,0,127,,,,,,,0-based,,0-12: Thirty secont note; 13-36: Sixteenth note; 37-61: Eighth note triplet; 62-84: Eighth note; 85-110: Dotted eighth note; 111-127: Quarter note
+Chase Bliss,MOOD MKII,Knobs,Time,,14,,0,127,,,,,,,0-based,,0-12: Thirty second note; 13-36: Sixteenth note; 37-61: Eighth note triplet; 62-84: Eighth note; 85-110: Dotted eighth note; 111-127: Quarter note
 Chase Bliss,MOOD MKII,Knobs,Mix,,15,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Knobs,Length,,16,,0,127,,,,,,,0-based,Applies to tape mode only,0-12: x/32; 13-36: x/16; 37-61: x/8; 62-84: x/4; 85-110: x/2; 111-127: x/1
 Chase Bliss,MOOD MKII,Knobs,Wet channel modify,,17,,0,127,,,,,,,0-based,,
@@ -25,6 +25,15 @@ Chase Bliss,MOOD MKII,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Facto
 Chase Bliss,MOOD MKII,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Other,MIDI reset,,110,,1,127,,,,,,,0-based,Resets the pedal: Ignore MIDI clock set to off; Octave transpose set to -+ 3 octaves; All clock dividers set to quarter notes; Portamento set to 0; Gate mode set to 0,1-127: Reset
 Chase Bliss,MOOD MKII,Other,Preset save,,111,,0,122,,,,,,,0-based,,0~122: Preset slot
+Chase Bliss,MOOD MKII,Hiden options,Wet Stereo width,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hiden options,Ramping Waveform,,25,,0,127,,,,,,,0-based,,0-14: Triangle; 15-54: Square; 55-80: Sine; 81-126: Random; 127: Smooth random
+Chase Bliss,MOOD MKII,Hiden options,Micro-looper fade,,26,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hiden options,Wet tone,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hiden options,Level balance,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hiden options,Micro-looper direct blend,,29,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hiden options,Sync,,31,,0,127,,,,,,,0-based,,0-1: Micro-looper controls Wet; 2: No sync; 3-127: Wet controls Micro-looper
+Chase Bliss,MOOD MKII,Hiden options,Spread,,32,,0,127,,,,,,,0-based,,0-1: Wet only; 2: Both; 3-127: Micro-looper only
+Chase Bliss,MOOD MKII,Hiden options,Buffer length,,33,,0,127,,,,,,,0-based,,0-1: Half (like MKI); 2-127: Full
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Time,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Wet channel modify,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Clock,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
