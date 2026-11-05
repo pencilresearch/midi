@@ -51,7 +51,7 @@ Chase Bliss,MOOD MKII,"Dip switches, right bank",Latch,,76,,0,127,,,,,,,0-based,
 Chase Bliss,MOOD MKII,"Dip switches, right bank",Micro-looper no dub,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,"Dip switches, right bank",Smooth,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,Synth mode,Exit synth mode,,59,,2,127,,,,,,,0-based,,2-127: Exit synth mode
-Chase Bliss,MOOD MKII,Synth mode,Output type,,87,,0,127,,,,,,,0-based,,0: Open; 1: On/off; 2-127: ADSR
+Chase Bliss,MOOD MKII,Synth mode,Output type,,58,,0,127,,,,,,,0-based,,0: Open; 1: On/off; 2-127: ADSR
 Chase Bliss,MOOD MKII,Synth mode,Attack,,80,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Synth mode,Decay,,81,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Synth mode,Sustain,,82,,0,127,,,,,,,0-based,,
