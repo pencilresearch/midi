@@ -25,15 +25,15 @@ Chase Bliss,MOOD MKII,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Facto
 Chase Bliss,MOOD MKII,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Other,MIDI reset,,110,,1,127,,,,,,,0-based,Resets the pedal: Ignore MIDI clock set to off; Octave transpose set to -+ 3 octaves; All clock dividers set to quarter notes; Portamento set to 0; Gate mode set to 0,1-127: Reset
 Chase Bliss,MOOD MKII,Other,Preset save,,111,,0,122,,,,,,,0-based,,0~122: Preset slot
-Chase Bliss,MOOD MKII,Hiden options,Wet Stereo width,,24,,0,127,,,,,,,0-based,,
-Chase Bliss,MOOD MKII,Hiden options,Ramping Waveform,,25,,0,127,,,,,,,0-based,,0-14: Triangle; 15-54: Square; 55-80: Sine; 81-126: Random; 127: Smooth random
-Chase Bliss,MOOD MKII,Hiden options,Micro-looper fade,,26,,0,127,,,,,,,0-based,,
-Chase Bliss,MOOD MKII,Hiden options,Wet tone,,27,,0,127,,,,,,,0-based,,
-Chase Bliss,MOOD MKII,Hiden options,Level balance,,28,,0,127,,,,,,,0-based,,
-Chase Bliss,MOOD MKII,Hiden options,Micro-looper direct blend,,29,,0,127,,,,,,,0-based,,
-Chase Bliss,MOOD MKII,Hiden options,Sync,,31,,0,127,,,,,,,0-based,,0-1: Micro-looper controls Wet; 2: No sync; 3-127: Wet controls Micro-looper
-Chase Bliss,MOOD MKII,Hiden options,Spread,,32,,0,127,,,,,,,0-based,,0-1: Wet only; 2: Both; 3-127: Micro-looper only
-Chase Bliss,MOOD MKII,Hiden options,Buffer length,,33,,0,127,,,,,,,0-based,,0-1: Half (like MKI); 2-127: Full
+Chase Bliss,MOOD MKII,Hidden options,Wet Stereo width,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Ramping Waveform,,25,,0,127,,,,,,,0-based,,0-14: Triangle; 15-54: Square; 55-80: Sine; 81-126: Random; 127: Smooth random
+Chase Bliss,MOOD MKII,Hidden options,Micro-looper fade,,26,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Wet tone,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Level balance,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Micro-looper direct blend,,29,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Sync,,31,,0,127,,,,,,,0-based,,0-1: Micro-looper controls Wet; 2: No sync; 3-127: Wet controls Micro-looper
+Chase Bliss,MOOD MKII,Hidden options,Spread,,32,,0,127,,,,,,,0-based,,0-1: Wet only; 2: Both; 3-127: Micro-looper only
+Chase Bliss,MOOD MKII,Hidden options,Buffer length,,33,,0,127,,,,,,,0-based,,0-1: Half (like MKI); 2-127: Full
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Time,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Wet channel modify,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Clock,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
