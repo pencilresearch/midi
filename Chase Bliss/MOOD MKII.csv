@@ -3,13 +3,13 @@ Chase Bliss,MOOD MKII,Footswitches/aux,Micro-looper bypass,,102,,0,127,,,,,,,0-b
 Chase Bliss,MOOD MKII,Footswitches/aux,Wet channel bypass,,103,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,Footswitches/aux,Hidden menu,,104,,0,127,,,,,,,0-based,,0: Exit; 1-127: Enter
 Chase Bliss,MOOD MKII,Footswitches/aux,Wet channel freeze,,105,,0,127,,,,,,,0-based,,0: Off; 1-127: On
-Chase Bliss,MOOD MKII,Footswitches/aux,Micro-looper freeze,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,MOOD MKII,Footswitches/aux,Micro-looper overdub,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,Footswitches/aux,Tap tempo,,107,,0,127,,,,,,,0-based,,0-127: Tap tempo
 Chase Bliss,MOOD MKII,Footswitches/aux,Tap tempo (legacy),,93,,1,127,,,,,,,0-based,,1-127: Tap tempo
 Chase Bliss,MOOD MKII,Toggles,Wet channel mode,,21,,0,127,,,,,,,0-based,,0-1: Reverb; 2: Delay; 3-127: Slip
 Chase Bliss,MOOD MKII,Toggles,Routing,,22,,0,127,,,,,,,0-based,,0-1: In; 2: Micro-looper + In; 3-127: Micro-looper
 Chase Bliss,MOOD MKII,Toggles,Micro-looper mode,,23,,0,127,,,,,,,0-based,,0-1: Env; 2: Tape; 3-127: Stretch
-Chase Bliss,MOOD MKII,Knobs,Time,,14,,0,127,,,,,,,0-based,,0-12: Thirty secont note; 13-36: Sixteenth note; 37-61: Eighth note triplet; 62-84: Eighth note; 85-110: Dotted eighth note; 111-127: Quarter note
+Chase Bliss,MOOD MKII,Knobs,Time,,14,,0,127,,,,,,,0-based,,0-12: 1/32; 13-36: 1/16; 37-61: 1/8t; 62-84: 1/8; 85-110: 1/8•; 111-127: 1/4
 Chase Bliss,MOOD MKII,Knobs,Mix,,15,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Knobs,Length,,16,,0,127,,,,,,,0-based,Applies to tape mode only,0-12: x/32; 13-36: x/16; 37-61: x/8; 62-84: x/4; 85-110: x/2; 111-127: x/1
 Chase Bliss,MOOD MKII,Knobs,Wet channel modify,,17,,0,127,,,,,,,0-based,,
@@ -18,13 +18,22 @@ Chase Bliss,MOOD MKII,Knobs,Micro-looper modify,,19,,0,127,,,,,,,0-based,,0-15: 
 Chase Bliss,MOOD MKII,Knobs,Ramp speed,,20,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,Saved globally,0: Ignore MIDI clock; 1-127: Follow MIDI clock
 Chase Bliss,MOOD MKII,Other,Stop ramping,,52,,0,127,,,,,,,0-based,,0: Stop ramping; 1-127: Resume ramping
-Chase Bliss,MOOD MKII,Other,Wet channel clock division,,53,,0,7,,,,,,,0-based,Saved globally,0: Thirty second note; 1: Sixteenth note; 2: Eighth note triplet; 3: Eighth note; 4: Dotted eighth note; 5: Quarter note; 6: Half note; 7: Whole note
-Chase Bliss,MOOD MKII,Other,Micro-looper channel clock division,,54,,0,7,,,,,,,0-based,Saved globally,0: Thirty second note; 1: Sixteenth note; 2: Eighth note triplet; 3: Eighth note; 4: Dotted eighth note; 5: Quarter note; 6: Half note; 7: Whole note
+Chase Bliss,MOOD MKII,Other,Wet channel clock division,,53,,0,7,,,,,,,0-based,Saved globally,0: 1/32; 1: 1/16; 2: 1/8t; 3: 1/8; 4: 1/8•; 5: 1/4; 6: 1/2; 7: Whole note
+Chase Bliss,MOOD MKII,Other,Micro-looper channel clock division,,54,,0,7,,,,,,,0-based,Saved globally,0: 1/32; 1: 1/16; 2: 1/8t; 3: 1/8; 4: 1/8•; 5: 1/4; 6: 1/2; 7: Whole note
 Chase Bliss,MOOD MKII,Other,True bypass mode,,55,,0,127,,,,,,,0-based,,0: Standard buffered bypass; 1-127: True bypass
 Chase Bliss,MOOD MKII,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Factory reset
 Chase Bliss,MOOD MKII,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Other,MIDI reset,,110,,1,127,,,,,,,0-based,Resets the pedal: Ignore MIDI clock set to off; Octave transpose set to -+ 3 octaves; All clock dividers set to quarter notes; Portamento set to 0; Gate mode set to 0,1-127: Reset
 Chase Bliss,MOOD MKII,Other,Preset save,,111,,0,122,,,,,,,0-based,,0~122: Preset slot
+Chase Bliss,MOOD MKII,Hidden options,Wet Stereo width,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Ramping Waveform,,25,,0,127,,,,,,,0-based,,0-14: Triangle; 15-54: Square; 55-80: Sine; 81-126: Random; 127: Smooth random
+Chase Bliss,MOOD MKII,Hidden options,Micro-looper fade,,26,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Wet tone,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Level balance,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Micro-looper direct blend,,29,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Hidden options,Sync,,31,,0,127,,,,,,,0-based,,0-1: Micro-looper controls Wet; 2: No sync; 3-127: Wet controls Micro-looper
+Chase Bliss,MOOD MKII,Hidden options,Spread,,32,,0,127,,,,,,,0-based,,0-1: Wet only; 2: Both; 3-127: Micro-looper only
+Chase Bliss,MOOD MKII,Hidden options,Buffer length,,33,,0,127,,,,,,,0-based,,0-1: Half (like MKI); 2-127: Full
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Time,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Wet channel modify,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,"Dip switches, left bank",Clock,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
@@ -42,11 +51,12 @@ Chase Bliss,MOOD MKII,"Dip switches, right bank",Latch,,76,,0,127,,,,,,,0-based,
 Chase Bliss,MOOD MKII,"Dip switches, right bank",Micro-looper no dub,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,"Dip switches, right bank",Smooth,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,MOOD MKII,Synth mode,Exit synth mode,,59,,2,127,,,,,,,0-based,,2-127: Exit synth mode
-Chase Bliss,MOOD MKII,Synth mode,Output type,,87,,0,127,,,,,,,0-based,,0: Open; 1: On/off; 2-127: ADSR
+Chase Bliss,MOOD MKII,Synth mode,Output type,,58,,0,127,,,,,,,0-based,,0: Open; 1: On/off; 2-127: ADSR
 Chase Bliss,MOOD MKII,Synth mode,Attack,,80,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Synth mode,Decay,,81,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Synth mode,Sustain,,82,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Synth mode,Release,,83,,0,127,,,,,,,0-based,,
 Chase Bliss,MOOD MKII,Synth mode,Octave transpose,,57,,1,9,,,,,,,0-based,,1: 12 semitones; 2: 24 semitones; 3: 36 semitones; 4: 48 semitones; 5: 60 semitones; 6: 72 semitones; 7: 84 semitones; 8: 96 semitones; 9: 108 semitones
 Chase Bliss,MOOD MKII,Synth mode,Portamento,,84,,0,127,,,,,,,0-based,,
+Chase Bliss,MOOD MKII,Synth mode,Pitch bend,,0,,0,127,,,,,,,0-based,Range +/- 4 semitones,
 Chase Bliss,MOOD MKII,Synth mode,Modulation wheel,,1,,0,127,,,,,,,0-based,,

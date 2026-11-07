@@ -6,7 +6,7 @@ Chase Bliss,Gravitas,Sound control,Rate,,17,,0,127,,,,,,,0-based,,
 Chase Bliss,Gravitas,Sound control,Depth,,18,,0,127,,,,,,,0-based,,
 Chase Bliss,Gravitas,Sound control,Sway,,19,,0,127,,,,,,,0-based,,
 Chase Bliss,Gravitas,Sound control,Ramp,,20,,0,127,,,,,,,0-based,,
-Chase Bliss,Gravitas,Other,Note division,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: Half notes; 2: Quarter note triplets; 3: Quarter notes; 4: Eighth notes; 5: Sixteenth notes
+Chase Bliss,Gravitas,Other,Note division,,21,,0,5,,,,,,,0-based,,0: Whole notes; 1: 1/2; 2: 1/4t; 3: 1/4; 4: 1/8; 5: 1/16
 Chase Bliss,Gravitas,Other,MIDI clock ignore,,51,,0,127,127,,,,,,0-based,,0: Ignore MIDI clock messages; 127: Listen for MIDI clock messages
 Chase Bliss,Gravitas,Other,Tap switch,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
 Chase Bliss,Gravitas,Other,Expression,,100,,0,127,,,,,,,0-based,,
