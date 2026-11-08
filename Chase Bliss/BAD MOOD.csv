@@ -1,0 +1,63 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,BAD MOOD,Footswitches/aux,Micro-looper bypass,,102,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,Footswitches/aux,Wet channel bypass,,103,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,Footswitches/aux,Hidden menu,,104,,0,127,,,,,,,0-based,,0: Exit; 1-127: Enter
+Chase Bliss,BAD MOOD,Footswitches/aux,Wet channel freeze,,105,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,Footswitches/aux,Micro-looper overdub,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,Footswitches/aux,Tap tempo,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo
+Chase Bliss,BAD MOOD,Toggles,Wet channel mode,,21,,0,127,,,,,,,0-based,,0-1: Soup; 2: Relay; 3-127: Flip
+Chase Bliss,BAD MOOD,Toggles,Routing,,22,,0,127,,,,,,,0-based,,0-1: In; 2: Micro-looper + In; 3-127: Micro-looper
+Chase Bliss,BAD MOOD,Toggles,Micro-looper mode,,23,,0,127,,,,,,,0-based,,0-1: Burst; 2: Radio; 3-127: Mask
+Chase Bliss,BAD MOOD,Knobs,Time,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Knobs,Mix,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Knobs,Length,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Knobs,Wet channel modify,,17,,0,127,,,,,,,0-based,Chord selection (flip mode only),"0-2: -12; 3-5: -7; 6-7: -5; 8-10: +5; 11-13: +7; 14-15: +12; 16-18: -12,-7; 19-21: -7,+12; 22-23: -12,-5; 24-26: -5,+12; 27-29: -12,+5; 30-31: +5,+12; 32-34: -12,+7; 35-37: +7,+12; 38-39: -12,+12; 40-42: -7,-5; 43-44: -5,+5; 45-47: -7,+5; 48-50: -7,+7; 51-52: -5,+7; 53-55: +5,+7; 56-58: -12,-7,-5; 59-60: -7,-5,+5; 61-63: +12,+7,+5; 64-66: +7,+5,-5; 67-68: -12,-7,+5; 69-71: -7,+5,+7; 72-74: +12,+7,-7; 75-76: +7,-7,-12; 77-79: -12,-7,+12; 80-82: -12,-5,+5; 83-84: -5,+5,+12; 85-87: +12,+7,-5; 88-89: +7,-5,-12; 90-92: -12,-5,+12; 93-95: -7,-5,+7; 96-97: -12,+5,+7; 98-100: +12,-5,-7; 101-103: -12,+5,+12; 104-105: +12,+7,-12; 106-108: -12,-7,-5,+5; 109-111: -7,-5,+7,-12; 112-113: -5,+12,-12,-7; 114-116: +7,-12,-7,+5; 117-119: -7,+5,+12,-12; 120-121: +7,+12,-12,-7; 122-124: +5,+7,-12,-5; 125-127: +5,+12,-12,-5"
+Chase Bliss,BAD MOOD,Knobs,Clock,,18,,0,127,,,,,,,0-based,,0-4: 2k; 5-16: 3k; 16-28: 4k; 29-40: 6k; 41-53: 8k; 54-69: 12k; 70-83: 16k; 84-95: 24k; 96-109: 32k; 110-121: 48k; 122-127: 64k
+Chase Bliss,BAD MOOD,Knobs,Micro-looper modify,,19,,0,127,,,,,,,0-based,Radio stations (radio mode only),0: Tape; 32: Ambient; 63: Orchestral; 97: Shoegaze; 127: Dance
+Chase Bliss,BAD MOOD,Knobs,Ramp speed,,20,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,Saved globally,0: Ignore MIDI clock; 1-127: Follow MIDI clock
+Chase Bliss,BAD MOOD,Other,Stop ramping,,52,,0,127,,,,,,,0-based,,0: Stop ramping; 1-127: Resume ramping
+Chase Bliss,BAD MOOD,Other,Wet channel clock division,,53,,0,8,,,,,,,0-based,Saved globally,0: 1/32; 1: 1/16; 2: 1/8t; 3: 1/8; 4: 1/4; 5: 1/2; 6: 1/2•; 7: Whole note; 8: Double whole note
+Chase Bliss,BAD MOOD,Other,Micro-looper channel clock division,,54,,0,8,,,,,,,0-based,Saved globally,0: 1/32; 1: 1/16; 2: 1/8t; 3: 1/8; 4: 1/4; 5: 1/2; 6: 1/2•; 7: Whole note; 8: Double whole note
+Chase Bliss,BAD MOOD,Other,True bypass mode,,55,,0,127,,,,,,,0-based,,0: Standard buffered bypass; 1-127: True bypass
+Chase Bliss,BAD MOOD,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Factory reset
+Chase Bliss,BAD MOOD,Other,EQ per channel,,85,,0,127,2,,,,,,0-based,,0-1: Only wet EQ; 2: Both EQ; 3-127: Only Micro-looper EQ
+Chase Bliss,BAD MOOD,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Other,MIDI reset,,110,,0,127,,,,,,,0-based,Resets the pedal: Ignore MIDI clock set to off; Octave transpose set to -+ 3 octaves; All clock dividers set to quarter notes; Portamento set to 0; Gate mode set to 0,0-127: Reset
+Chase Bliss,BAD MOOD,Other,Preset save,,111,,0,122,,,,,,,0-based,,0~122: Preset slot
+Chase Bliss,BAD MOOD,Hidden options,Cross,,24,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Hidden options,Balance,,25,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Hidden options,Micro-looper fade,,26,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Hidden options,EQ,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Hidden options,Glue,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Hidden options,Micro-looper blend,,29,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Hidden options,Master volume,,30,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Hidden options,Sync,,31,,0,127,,,,,,,0-based,,0-1: Micro-looper controls Wet; 2: No sync; 3-127: Wet controls Micro-looper
+Chase Bliss,BAD MOOD,Hidden options,Spread,,32,,0,127,,,,,,,0-based,,0-1: Wet only; 2: Both; 3-127: Micro-looper only
+Chase Bliss,BAD MOOD,Hidden options,Cross input,,33,,0,127,,,,,,,0-based,,0-1: Wet modulates Micro-looper; 2: Input modulates Wet and Micro-looper; 3-127: Micro-looper modulates Wet
+Chase Bliss,BAD MOOD,"Dip switches, left bank",Wet channel time,,61,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, left bank",Wet channel modify,,62,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, left bank",Clock,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, left bank",Micro-looper channel modify,,64,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, left bank",Micro-looper channel length,,65,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, left bank",Bounce,,66,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, left bank",Sweep,,67,,0,127,,,,,,,0-based,,0: B; 1-127: T
+Chase Bliss,BAD MOOD,"Dip switches, left bank",Polarity,,68,,0,127,,,,,,,0-based,,0: F; 1-127: R
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Miso,,71,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Spread,,72,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Dry kill,,73,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Trails,,74,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Latch,,75,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Micro-looper half length,,76,,0,127,,,,,,,0-based,Half is similar to MOOD MK1 setting,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Smooth,,77,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,"Dip switches, right bank",Dry glue,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,BAD MOOD,Synth mode,Exit synth mode,,59,,0,127,,,,,,,0-based,,0-127: Exit synth mode
+Chase Bliss,BAD MOOD,Synth mode,Output type,,58,,0,127,,,,,,,0-based,,0: Open; 1: On/off; 2-127: ADSR
+Chase Bliss,BAD MOOD,Synth mode,Attack,,80,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Synth mode,Decay,,81,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Synth mode,Sustain,,82,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Synth mode,Release,,83,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Synth mode,Octave transpose,,57,,1,9,,,,,,,0-based,,1: 12 semitones; 2: 24 semitones; 3: 36 semitones; 4: 48 semitones; 5: 60 semitones; 6: 72 semitones; 7: 84 semitones; 8: 96 semitones; 9: 108 semitones
+Chase Bliss,BAD MOOD,Synth mode,Portamento,,84,,0,127,,,,,,,0-based,,
+Chase Bliss,BAD MOOD,Synth mode,Pitch bend,,0,,0,127,,,,,,,0-based,Range +/- 4 semitones,
+Chase Bliss,BAD MOOD,Synth mode,Modulation wheel,,1,,0,127,,,,,,,0-based,,

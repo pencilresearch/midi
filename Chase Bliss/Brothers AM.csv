@@ -9,7 +9,7 @@ Chase Bliss,Brothers AM,Knobs,Presence 2,,27,,0,127,,,,,,,0-based,,
 Chase Bliss,Brothers AM,Knobs,Presence 1,,29,,0,127,,,,,,,0-based,,
 Chase Bliss,Brothers AM,Toggles,Gain 2 type,,21,,0,127,,,,,,,0-based,,0-1: Boost; 2: OD; 3-127: Dist
 Chase Bliss,Brothers AM,Toggles,Treble boost,,22,,0,127,,,,,,,0-based,,0-1: Full sun; 2: Off; 3-127: Half sun
-Chase Bliss,Brothers AM,Toggles,Gain 1 type,,23,,0,127,,,,,,,0-based,,0-1: Boost; 2: OD; 3-127: Boost
+Chase Bliss,Brothers AM,Toggles,Gain 1 type,,23,,0,127,,,,,,,0-based,,0-1: Dist; 2: OD; 3-127: Boost
 Chase Bliss,Brothers AM,Foot switches,Channel 1 bypass,,102,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Brothers AM,Foot switches,Channel 2 bypass,,103,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Brothers AM,Other,Expression,,100,,0,127,,,,,,,0-based,,

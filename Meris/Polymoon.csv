@@ -1,8 +1,8 @@
 manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
 Meris,Polymoon,,Expression Pedal,,4,,0,127,,,,,,,0-based,,
-Meris,Polymoon,,Dotted8th,,9,,0,127,,,,,,,0-based,,
-Meris,Polymoon,,Bypass,,14,,0,127,,,,,,,0-based,,
-Meris,Polymoon,,Tempo10ms Intervals,,15,,0,127,,,,,,,0-based,,
+Meris,Polymoon,,Dotted 8th,,9,,0,127,,,,,,,0-based,,0-63: 1/4; 64-127: 1/8•
+Meris,Polymoon,,Bypass,,14,,0,127,,,,,,,0-based,,0-63: FX bypass; 64-127: FX enable
+Meris,Polymoon,,Tempo,,15,,0,127,,,,,,,0-based,10ms intervals,
 Meris,Polymoon,,Time,,16,,0,127,,,,,,,0-based,,
 Meris,Polymoon,,Feedback,,17,,0,127,,,,,,,0-based,,
 Meris,Polymoon,,MIX,,18,,0,127,,,,,,,0-based,,
@@ -13,9 +13,9 @@ Meris,Polymoon,,Early Modulation,,22,,0,127,,,,,,,0-based,,
 Meris,Polymoon,,Feedback Filter,,23,,0,127,,,,,,,0-based,,
 Meris,Polymoon,,Delay Level,,24,,0,127,,,,,,,0-based,,
 Meris,Polymoon,,Late Modulation,,25,,0,127,,,,,,,0-based,,
-Meris,Polymoon,,DYN Flanger Mode,,26,,0,127,,,,,,,0-based,,
-Meris,Polymoon,,DYN Flanger Speed,,27,,0,127,,,,,,,0-based,,
+Meris,Polymoon,,Dynamic Flanger Mode,,26,,0,127,,,,,,,0-based,,
+Meris,Polymoon,,Dynamic Flanger Speed,,27,,0,127,,,,,,,0-based,,
 Meris,Polymoon,,TAP,,28,,0,127,,,,,,,0-based,,
-Meris,Polymoon,,Phaser Mode,,29,,0,127,,,,,,,0-based,,
-Meris,Polymoon,,Flanger Feedback,,30,,0,127,,,,,,,0-based,,
-Meris,Polymoon,,Half Speed,,31,,0,127,,,,,,,0-based,,
+Meris,Polymoon,,Phaser Mode,,29,,0,127,,,,,,,0-based,,0-31: Off; 32-63: Slow; 64-95: Whole note; 96-127: 1/4 note
+Meris,Polymoon,,Flanger Feedback,,30,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Meris,Polymoon,,Half Speed,,31,,0,127,,,,,,,0-based,,0-63: Ful speed; 64-127: Half speed

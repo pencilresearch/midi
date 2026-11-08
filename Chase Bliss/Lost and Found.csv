@@ -6,10 +6,10 @@ Chase Bliss,Lost and Found,Knobs,Left modify,,17,,0,127,,,,,,,0-based,,
 Chase Bliss,Lost and Found,Knobs,Blend,,18,,0,127,,,,,,,0-based,,
 Chase Bliss,Lost and Found,Knobs,Right modify,,19,,0,127,,,,,,,0-based,,
 Chase Bliss,Lost and Found,Footswitches,Right footswitch,,102,,0,127,,,,,,,0-based,,0: Off; 1-127: On
-Chase Bliss,Lost and Found,Footswitches,Left footswitch,,103,,0,127,,,,,,,0-based,,0: Alt exit; 1-127: Alt enter
-Chase Bliss,Lost and Found,Footswitches,Alt menu,,104,,0,127,,,,,,,0-based,,0: Off; 1-127: On
-Chase Bliss,Lost and Found,Footswitches,Left hold,,105,,0,127,,,,,,,0-based,,0: Off; 1-127: On
-Chase Bliss,Lost and Found,Footswitches,Right hold,,106,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Footswitches,Left footswitch,,103,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Lost and Found,Footswitches,Alt menu,,104,,0,127,,,,,,,0-based,(hold both switches),0: Alt exit; 1-127: Alt enter
+Chase Bliss,Lost and Found,Footswitches,Left hold,,105,,0,127,,,,,,,0-based,(hold left switch),0: Off; 1-127: On
+Chase Bliss,Lost and Found,Footswitches,Right hold,,106,,0,127,,,,,,,0-based,(hold right switch),0: Off; 1-127: On
 Chase Bliss,Lost and Found,Hidden options,Ramp speed,,20,,0,127,,,,,,,0-based,,
 Chase Bliss,Lost and Found,Hidden options,Left alt,,24,,0,127,,,,,,,0-based,,
 Chase Bliss,Lost and Found,Hidden options,Spill,,25,,0,127,,,,,,,0-based,,
@@ -40,8 +40,8 @@ Chase Bliss,Lost and Found,"Dip switches, right bank",Trails,,77,,0,127,,,,,,,0-
 Chase Bliss,Lost and Found,"Dip switches, right bank",Bank,,78,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Lost and Found,Other,MIDI clock ignore,,51,,0,127,,,,,,,0-based,,0: Ignore MIDI clock; 1-127: Listen for MIDI clock
 Chase Bliss,Lost and Found,Other,Ramping,,52,,0,127,,,,,,,0-based,,0: Off; 1-127: On
-Chase Bliss,Lost and Found,Other,Left tap subdivision,,53,,0,127,,,,,,,0-based,,0: Thirty-second; 1: Sixteenth; 2: Triplet sixteenth; 3: Eighth; 4: Triplet eighth; 5: Dotted eighth; 6: Quarter; 7: Triplet quarter; 8: Dotted quarter; 9: Half; 10: Dotted half; 11: Whole; 12-127: Double whole
-Chase Bliss,Lost and Found,Other,Right tap subdivision,,54,,0,127,,,,,,,0-based,,0: Thirty-second; 1: Sixteenth; 2: Triplet sixteenth; 3: Eighth; 4: Triplet eighth; 5: Dotted eighth; 6: Quarter; 7: Triplet quarter; 8: Dotted quarter; 9: Half; 10: Dotted half; 11: Whole; 12-127: Double whole
+Chase Bliss,Lost and Found,Other,Left tap subdivision,,53,,0,127,,,,,,,0-based,,0: 1/32; 1: 1/16; 2: 1/16t; 3: 1/8; 4: 1/8t; 5: 1/8•; 6: 1/4; 7: 1/4t; 8: 1/4•; 9: 1/2; 10: 1/2•; 11: Whole; 12-127: Double whole
+Chase Bliss,Lost and Found,Other,Right tap subdivision,,54,,0,127,,,,,,,0-based,,0: 1/32; 1: 1/16; 2: 1/16t; 3: 1/8; 4: 1/8t; 5: 1/8•; 6: 1/4; 7: 1/4t; 8: 1/4•; 9: 1/2; 10: 1/2•; 11: Whole; 12-127: Double whole
 Chase Bliss,Lost and Found,Other,Factory reset,,56,,0,127,,,,,,,0-based,,0-127: Factory reset
 Chase Bliss,Lost and Found,Other,Dry kill,,57,,0,127,,,,,,,0-based,,0: Off; 1-127: On
 Chase Bliss,Lost and Found,Other,Tap tempo,,93,,0,127,,,,,,,0-based,,0-127: Tap tempo

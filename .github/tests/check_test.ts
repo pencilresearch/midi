@@ -1,5 +1,5 @@
 import { walk } from "@std/fs";
-import { relative, resolve } from "@std/path";
+import { fromFileUrl, relative, resolve } from "@std/path";
 import { parseCSV } from "./parse.ts";
 import { validateFile, validatePath, validateRow } from "./validate.ts";
 import { parseTriggerCSV } from "./parse-triggers.ts";
@@ -8,7 +8,7 @@ import {
   validateTriggerRow,
 } from "./validate-triggers.ts";
 
-const ROOT = new URL("../../", import.meta.url).pathname;
+const ROOT = fromFileUrl(new URL("../../", import.meta.url));
 
 function isTriggerFile(absPath: string): boolean {
   return absPath.endsWith(".triggers.csv");

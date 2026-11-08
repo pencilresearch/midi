@@ -1,0 +1,45 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Chase Bliss,Big Time,Faders,Color,,14,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Faders,Time,,15,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Faders,Cluster,,16,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Faders,Tilt EQ,,17,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Faders,Feedback,,18,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Faders,Wet,,19,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Arcade buttons,Scale,,22,,0,127,,,,,,,0-based,,0: Off; 1: Chromatic; 2: OCT+4+5; 3-127: OCTAVE
+Chase Bliss,Big Time,Arcade buttons,Motion,,23,,0,127,,,,,,,0-based,,0: Off; 1: Sine; 2: Square; 3-127: Env
+Chase Bliss,Big Time,Arcade buttons,Mode,,24,,0,127,,,,,,,0-based,,0: Mod; 1: Short; 2: Long; 3-127: Loop
+Chase Bliss,Big Time,Arcade buttons,Voicing,,25,,0,127,,,,,,,0-based,,0: Hifi; 1: Focus; 2: Warm; 3-127: Analog
+Chase Bliss,Big Time,Arcade buttons,State,,26,,0,127,,,,,,,0-based,,0: Digital; 1: Compressed; 2: Saturated; 3-127: #!&%
+Chase Bliss,Big Time,Footswitches: delay modes,Bypass,,102,,0,127,,,,,,,0-based,Tap right switch (delay mode),0: Off; 1-127: On
+Chase Bliss,Big Time,Footswitches: delay modes,Tap / Mod engage,,103,,0,127,,,,,,,0-based,Tap left switch (delay mode),
+Chase Bliss,Big Time,Footswitches: delay modes,Hold,,106,,0,127,,,,,,,0-based,Hold left switch (delay mode),0: Off; 1-127: On
+Chase Bliss,Big Time,Footswitches: loop modes,Play / Stop,,102,,0,127,,,,,,,0-based,Tap right switch (loop mode),
+Chase Bliss,Big Time,Footswitches: loop modes,Rec / Play / Dub,,103,,0,127,,,,,,,0-based,Tap left switch (loop mode),
+Chase Bliss,Big Time,Footswitches: loop modes,Record,,104,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Footswitches: loop modes,Play,,105,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Footswitches: loop modes,Delete,,106,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Footswitches: loop modes,Stop,,107,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Alt controls,Texture,,32,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Alt controls,Rate,,33,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Alt controls,Depth,,34,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Alt controls,Crossover,,35,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Alt controls,Diffusion,,36,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Alt controls,Dry,,37,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Alt controls,Spread,,38,,0,127,,,,,,,0-based,,0: Off; 1: Blue; 2-127: Red
+Chase Bliss,Big Time,Alt controls,0.5x,,39,,0,127,,,,,,,0-based,,0: Normal; 1-127: 0.5x
+Chase Bliss,Big Time,Alt controls,Diffuse type,,40,,0,127,,,,,,,0-based,,0: Normal; 1-127: Double
+Chase Bliss,Big Time,Alt controls,+12 dB,,41,,0,127,,,,,,,0-based,,0: Normal; 1-127: +12 dB
+Chase Bliss,Big Time,Other,Save to slot,,27,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Other,Save to current slot,,28,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Other,Tap subdivisions,,54,,0,127,,,,,,,0-based,,0: 1/16; 1: 1/8t; 2: 1/16•; 3: 1/8; 4: 1/4t; 5: 1/8•; 6: 1/4; 7: 1/2t; 8: 1/4•; 9: 1/2; 10: whole triplet; 11-127: 1/2•
+Chase Bliss,Big Time,Other,Expression over MIDI,,100,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Other,EOM disengage,,101,,0,127,,,,,,,0-based,,
+Chase Bliss,Big Time,Other,MIDI clock,,110,,0,127,,,,,,,0-based,Range of 60-240 bpm (not available in MOD mode),0: No clock; 1: Clock in; 2-127: Clock out
+Chase Bliss,Big Time,Other,MIDI notes,,112,,0,127,,,,,,,0-based,,0: Off; 1: Channel; 2-127: Global
+Chase Bliss,Big Time,Options menu,Play / Dub,,42,,0,127,,,,,,,0-based,,0: Play; 1-127: Dub
+Chase Bliss,Big Time,Options menu,Scale ignore,,43,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Big Time,Options menu,Step,,44,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Big Time,Options menu,Trails,,45,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Big Time,Options menu,Dry kill,,46,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Big Time,Options menu,Dry clean,,47,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Chase Bliss,Big Time,Options menu,Balanced / Unbalanced,,48,,0,127,,,,,,,0-based,,0: Balanced; 1-127: Unbalanced
