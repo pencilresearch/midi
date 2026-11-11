@@ -1,0 +1,30 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Moog,Taurus 3,Footwheels,Volume,Adjusts the output volume,7,,0,127,,,,,,,0-based,,
+Moog,Taurus 3,LFO,Modwheel,Adjusts combined Filter and Oscillator amounts,1,33,0,127,,,,,,,0-based,,
+Moog,Taurus 3,LFO,LFO rate/clock,Adjusts the LFO frequency/clock divider,3,35,0,127,,,,,,,0-based,,
+Moog,Taurus 3,LFO,LFO filter amount,Adjusts the Filter modulation amount,6,38,0,127,,,,,,,0-based,,
+Moog,Taurus 3,LFO,LFO pitch amount,Adjusts the Oscillator modulation amount,8,40,0,127,,,,,,,0-based,,
+Moog,Taurus 3,LFO,LFO sync,Sets the LFO sync mode,102,,0,127,,,,,,,0-based,,0-42: Off; 43-85: Key; 86-127: MIDI
+Moog,Taurus 3,LFO,LFO wave,Selects the LFO waveform,68,,0,127,,,,,,,0-based,The manual lists the four waveforms as separate controls sharing CC 68,0-31: Square; 32-63: Triangle; 64-95: Ramp; 96-127: Saw
+Moog,Taurus 3,Oscillator,Oscillator B frequency,Adjusts the coarse offset frequency of Oscillator B,10,42,0,127,,,,,,,centered,,
+Moog,Taurus 3,Oscillator,Beat,Adjusts the fine offset frequency of Oscillator B,11,43,0,127,,,,,,,centered,,
+Moog,Taurus 3,Oscillator,Glide rate,Sets the portamento rate time,5,37,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Oscillator,Oscillator octave,Selects the octave setting of the oscillators,74,,0,127,,,,,,,0-based,,0-42: Low; 43-85: Med; 86-127: High
+Moog,Taurus 3,Oscillator,Mix,Adjusts the balance (mix) of Oscillators A & B,15,47,0,127,,,,,,,centered,,
+Moog,Taurus 3,Volume envelope,Volume envelope attack,Adjusts the volume envelope attack time,28,60,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Volume envelope,Volume envelope decay,Adjusts the volume envelope decay time,29,61,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Volume envelope,Volume envelope sustain,Sets the volume envelope sustain level,30,62,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Filter,Filter cutoff,Adjusts the filter cutoff frequency,19,51,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Filter,Filter resonance,Adjusts the filter resonance,21,53,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Filter,Filter envelope attack,Adjusts the filter envelope attack time,23,55,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Filter,Filter envelope decay,Adjusts the filter envelope decay time,24,56,0,127,,,,,,,0-based,"The manual labels this ""volume envelope decay time""; it sits in the Filter section between filter attack and cutoff",
+Moog,Taurus 3,Filter,Filter envelope amount,Adjusts the amount of the filter envelope,27,59,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Arpeggiator,Arpeggiator rate,Adjusts the Arpeggiator Rate,4,36,0,127,,,,,,,0-based,,
+Moog,Taurus 3,Arpeggiator,Arpeggiator on/off,Starts and stops the Arpeggiator,90,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Taurus 3,Arpeggiator,Arpeggiator latch,Enables/disables the Arpeggiator Latch,91,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Taurus 3,Arpeggiator,Arpeggiator octave range,Sets the Arpeggiator Octave range,116,,0,127,,,,,,,centered,,0-18: -2.1; 19-36: -2; 37-54: -1; 55-73: 0; 74-91: 1; 92-109: 2; 110-127: 2.1
+Moog,Taurus 3,Arpeggiator,Arpeggiator pattern,Selects the Arpeggiator Pattern,117,,0,127,,,,,,,0-based,,0-42: Loop; 43-85: Back/forth; 86-127: Once
+Moog,Taurus 3,Arpeggiator,Arpeggiator order,Selects the Arpeggiator Order,118,,0,127,,,,,,,0-based,,0-31: Up; 32-63: Down; 64-95: Order; 96-127: Random
+Moog,Taurus 3,Footswitches,Glide on/off,Turns GLIDE ON/OFF,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Taurus 3,Footswitches,Decay on/off,Turns DECAY ON/OFF,88,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Moog,Taurus 3,Footswitches,Octave on/off,Turns OCTAVE ON/OFF,89,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
