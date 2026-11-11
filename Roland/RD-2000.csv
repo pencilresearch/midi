@@ -1,0 +1,34 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Roland,RD-2000,Bank and program,Bank Select,"Selects the tone group, paired with Program Change.",0,32,0,127,,,,,,,0-based,,
+Roland,RD-2000,Bank and program,Data Entry,Sets the value of the parameter most recently selected by RPN.,6,38,0,127,,,,,,,0-based,Only meaningful after an RPN has been selected with CC 101 and CC 100.,
+Roland,RD-2000,Controllers,Modulation,Applies the tone's assigned modulation depth.,1,,0,127,,,,,,,0-based,,0~127: Modulation depth
+Roland,RD-2000,Controllers,Portamento Time,Sets the time taken for the pitch to glide between notes.,5,,0,127,,,,,,,0-based,,
+Roland,RD-2000,Controllers,Volume,Sets the part's volume.,7,,0,127,,,,,,,0-based,,
+Roland,RD-2000,Controllers,Panpot,Sets the part's stereo position.,10,,0,127,64,,,,,,centered,,0~63: Pan left; 64: Center; 65~127: Pan right
+Roland,RD-2000,Controllers,Expression,"Sets the part's expression level, scaling Volume.",11,,0,127,,,,,,,0-based,,
+Roland,RD-2000,Controllers,Tone Color,Adjusts the tone colour of the current tone.,24,,0,127,,,,,,,0-based,Specific to the RD-2000; not part of the general MIDI controller set.,
+Roland,RD-2000,Controllers,High Resolution Velocity Prefix,Extends the resolution of the following Note-on velocity.,88,,0,127,,,,,,,0-based,Sent immediately before a Note-on to add fractional velocity resolution.,
+Roland,RD-2000,Pedals and switches,Hold 1,Sustains the notes that are held when the pedal is pressed.,64,,0,127,,,,,,,0-based,"The manual gives the range as 0-127 without documenting an on/off split, unlike Portamento, Sostenuto and Legato Footswitch.",
+Roland,RD-2000,Pedals and switches,Portamento,Switches portamento on or off.,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,RD-2000,Pedals and switches,Sostenuto,Sustains only the notes already sounding when the pedal is pressed.,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,RD-2000,Pedals and switches,Soft,Softens the tone.,67,,0,127,,,,,,,0-based,The manual gives the range as 0-127 without documenting an on/off split.,
+Roland,RD-2000,Pedals and switches,Legato Footswitch,Switches legato playing on or off.,68,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Roland,RD-2000,Pedals and switches,Portamento Control,Glides from a specified source note to the next note played.,84,,0,127,,,,,,,0-based,The value is the source note number. A note-on received immediately afterwards glides from that note.,0~127: Source note number
+Roland,RD-2000,Tone offsets,Resonance,Offsets the tone's stored resonance value.,71,,0,127,64,,,,,,centered,,0~127: -64 to +63 offset
+Roland,RD-2000,Tone offsets,Release Time,Offsets the tone's stored release time value.,72,,0,127,64,,,,,,centered,,0~127: -64 to +63 offset
+Roland,RD-2000,Tone offsets,Attack Time,Offsets the tone's stored attack time value.,73,,0,127,64,,,,,,centered,,0~127: -64 to +63 offset
+Roland,RD-2000,Tone offsets,Cutoff,Offsets the tone's stored cutoff value.,74,,0,127,64,,,,,,centered,,0~127: -64 to +63 offset
+Roland,RD-2000,Tone offsets,Decay Time,Offsets the tone's stored decay time value.,75,,0,127,64,,,,,,centered,,0~127: -64 to +63 offset
+Roland,RD-2000,Tone offsets,Vibrato Rate,Offsets the tone's stored vibrato rate value.,76,,0,127,64,,,,,,centered,,0~127: -64 to +63 offset
+Roland,RD-2000,Tone offsets,Vibrato Depth,Offsets the tone's stored vibrato depth value.,77,,0,127,64,,,,,,centered,,0~127: -64 to +63 offset
+Roland,RD-2000,Tone offsets,Vibrato Delay,Offsets the tone's stored vibrato delay value.,78,,0,127,64,,,,,,centered,,0~127: -64 to +63 offset
+Roland,RD-2000,Effect sends,Reverb Send Level,Sets how much of the part is sent to the reverb.,91,,0,127,,,,,,,0-based,Effect 1.,
+Roland,RD-2000,Effect sends,Chorus Send Level,Sets how much of the part is sent to the chorus.,93,,0,127,,,,,,,0-based,Effect 3.,
+Roland,RD-2000,RPN,RPN MSB/LSB,"Selects a Registered Parameter, whose value is then set with Data Entry.",101,100,0,127,,,,,,,0-based,"Five RPNs are received: 00H 00H Pitch Bend Sensitivity (0-24 semitones, LSB ignored), 00H 01H Channel Fine Tuning, 00H 02H Channel Coarse Tuning (-48 to +48 semitones, LSB ignored), 00H 05H Modulation Depth Range, and 7FH 7FH RPN Null. This format has no RPN columns, so the numbers are recorded here.",
+Roland,RD-2000,Channel mode,All Sounds Off,Silences all notes sounding on the channel.,120,,0,0,,,,,,,0-based,Sent with a third byte of 00H.,0: All sounds off
+Roland,RD-2000,Channel mode,Reset All Controllers,Returns the channel's controllers to their reset values.,121,,0,0,,,,,,,0-based,Sent with a third byte of 00H.,0: Reset all controllers
+Roland,RD-2000,Channel mode,All Notes Off,Releases all notes held on the channel.,123,,0,0,,,,,,,0-based,Notes held by Hold 1 continue to sound.,0: All notes off
+Roland,RD-2000,Channel mode,Omni Off,Treated as All Notes Off.,124,,0,0,,,,,,,0-based,The same processing is carried out as when All Notes Off is received.,0: Omni off
+Roland,RD-2000,Channel mode,Omni On,Treated as All Notes Off; Omni mode is not turned on.,125,,0,0,,,,,,,0-based,The same processing is carried out as when All Notes Off is received.,0: Omni on
+Roland,RD-2000,Channel mode,Mono,Sets the part to mono and performs All Notes Off.,126,,0,16,,,,,,,0-based,,0-16: Mono
+Roland,RD-2000,Channel mode,Poly,Sets the part to poly and performs All Notes Off.,127,,0,0,,,,,,,0-based,,0: Poly
