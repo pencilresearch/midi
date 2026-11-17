@@ -1,0 +1,8 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+Elektron,Model Cycles,Fixed track,Track 1,Triggers track 1 regardless of the active track,auto,0,0,0,Fixed drum-map note on the Auto channel; independent of the active track. Track must be on its default MIDI channel (1-6).,
+Elektron,Model Cycles,Fixed track,Track 2,Triggers track 2 regardless of the active track,auto,1,1,1,Fixed drum-map note on the Auto channel; independent of the active track. Track must be on its default MIDI channel (1-6).,
+Elektron,Model Cycles,Fixed track,Track 3,Triggers track 3 regardless of the active track,auto,2,2,2,Fixed drum-map note on the Auto channel; independent of the active track. Track must be on its default MIDI channel (1-6).,
+Elektron,Model Cycles,Fixed track,Track 4,Triggers track 4 regardless of the active track,auto,3,3,3,Fixed drum-map note on the Auto channel; independent of the active track. Track must be on its default MIDI channel (1-6).,
+Elektron,Model Cycles,Fixed track,Track 5,Triggers track 5 regardless of the active track,auto,4,4,4,Fixed drum-map note on the Auto channel; independent of the active track. Track must be on its default MIDI channel (1-6).,
+Elektron,Model Cycles,Fixed track,Track 6,Triggers track 6 regardless of the active track,auto,5,5,5,Fixed drum-map note on the Auto channel; independent of the active track. Track must be on its default MIDI channel (1-6).,
+Elektron,Model Cycles,Active track,"Active track, chromatic","Plays the active track's Sound across its 49 chromatic variations, lowest to highest pitch.",auto,12,60,,Received on the Auto Channel; routes to whichever track is currently active.,
