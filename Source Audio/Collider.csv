@@ -1,0 +1,28 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Source Audio,Collider,Delay A,Delay (A) Engine,Selects and loads Delay (& Reverb) engines into A,1,,0,11,,,,,,,0-based,,0: Digital; 1: Analog; 2: Tape; 3: Reverse; 4: Oil Can; 5: Room; 6: Hall; 7: True Spring; 8: Plate; 9: Shimmer; 10: E-Dome; 11: Swell
+Source Audio,Collider,Delay A,Delay (A) Time,Sets min and max delay times,2,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Delay A,Delay (A) Mix,Sets the wet/dry mix - 50/50 point at approx. 95,3,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Delay A,Delay (A) Feedback,Sets Delay Regeneration amount,4,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Delay A,Delay (A) Tone,Sets the brightness of the wet signal,5,,0,127,,,,,,,centered,,
+Source Audio,Collider,Delay A,Delay (A) Control 1,Sets whichever parameter is assigned to CONTROL 1,6,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Delay A,Delay (A) Control 2,Sets whichever parameter is assigned to CONTROL 2,7,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Delay A,Delay (A) Output,Sets the level of the wet signal,8,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Delay,Delay Tap Tempo Division,Selects the tap tempo beat division,9,,0,5,,,,,,,0-based,,0: Quarter; 1: Dotted Eighth; 2: Golden Ratio; 3: Eighth; 4: Triplet; 5: Sixteenth
+Source Audio,Collider,Reverb B,Reverb (B) Engine,Selects and loads Reverb (& Delay) engines into B,15,,0,11,,,,,,,0-based,,0: Digital; 1: Analog; 2: Tape; 3: Reverse; 4: Oil Can; 5: Room; 6: Hall; 7: True Spring; 8: Plate; 9: Shimmer; 10: E-Dome; 11: Swell
+Source Audio,Collider,Reverb B,Reverb (B) Time,Sets Pre Delay of the Reverb,16,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Reverb B,Reverb (B) Mix,Sets the wet/dry mix - 50/50 point at approx. 95,17,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Reverb B,Reverb (B) Feedback,Sets the decay rate of the Reverb,18,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Reverb B,Reverb (B) Tone,Sets the brightness of the wet signal,19,,0,127,,,,,,,centered,,
+Source Audio,Collider,Reverb B,Reverb (B) Control 1,Sets whichever parameter is assigned to CONTROL 1,20,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Reverb B,Reverb (B) Control 2,Sets whichtever parameter is assigned to CONTROL 2,21,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Reverb B,Reverb (B) Output,Sets the level of the wet signal,22,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Reverb B,Reverb (B) Tap Tempo Division,Selects the tap tempo beat division,23,,0,5,,,,,,,0-based,,0: Quarter; 1: Dotted Eighth; 2: Golden Ratio; 3: Eighth; 4: Triplet; 5: Sixteenth
+Source Audio,Collider,Delay A,Delay (A) Stereo Division,Sets the stereo division ratio,24,,0,5,,,,,,,centered,Source Audio's MIDI guide assigns CC 24 to both Delay (A) and Reverb (B) Stereo Division; reproduced as printed,
+Source Audio,Collider,Reverb B,Reverb (B) Stereo Division,Sets the stereo division ratio,24,,0,5,,,,,,,centered,Source Audio's MIDI guide assigns CC 24 to both Delay (A) and Reverb (B) Stereo Division; reproduced as printed,
+Source Audio,Collider,General,Remote Expression,Overrides all expression inputs,100,,0,127,,,,,,,0-based,,
+Source Audio,Collider,Delay A,Delay (A) Bypass/Engage,,101,,0,127,,,,,,,0-based,,0-64: Bypass; 65-127: Engage
+Source Audio,Collider,Reverb B,Reverb (B) Bypass/Engage,,103,,0,127,,,,,,,0-based,,0-64: Bypass; 65-127: Engage
+Source Audio,Collider,General,Recall Preset Both Bypassed,Recalls any preset with Delay(A) & Reverb (B) Bypassed,105,,0,127,,,,,,,0-based,,
+Source Audio,Collider,General,Recall Preset Delay Engaged,Recalls any preset with Delay(A) Engaged,106,,0,127,,,,,,,0-based,,
+Source Audio,Collider,General,Recall Preset Both Engaged,Recalls any preset with Delay(A) & Reverb (B) Engaged,107,,0,127,,,,,,,0-based,,
+Source Audio,Collider,General,Recall Preset Reverb Engaged,Recalls any preset with Reverb (B) Engaged,108,,0,127,,,,,,,0-based,,

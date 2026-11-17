@@ -1,0 +1,47 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Source Audio,Ventris Dual Reverb,Reverb,Reverb Engine A,Selects and loads reverb engines into A,1,,0,13,,,,,,,0-based,,0: Room; 1: Hall; 2: E-Dome; 3: True Spring; 4: Plate; 5: Lo-Fi; 6: Modverb; 7: Shimmer; 8: Echoverb; 9: Swell; 10: Offspring; 11: Reverse; 12: Outboard Spring; 13: Metal Box
+Source Audio,Ventris Dual Reverb,General,Time A,Sets min and max delay times,2,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Mix A,Sets the wet/dry mix - 50/50 point at approx. 95,3,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Pre-Delay A,Sets Pre-Delay A,4,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Treble A,Sets Treble A,5,,0,127,,,,,,,centered,,
+Source Audio,Ventris Dual Reverb,Output,Output A,Sets Output A,6,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Bass A,Sets Bass A,7,,0,127,,,,,,,centered,,
+Source Audio,Ventris Dual Reverb,General,Diffusion A,Sets Diffusion A,8,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Modulation Depth A,Sets Modulation Depth A,9,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Modulation Rate A,Sets Modulation Rate A,10,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Pre-Delay Feedback A,Sets Pre-Delay Feedback A,11,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Pre-Delay Mod Depth,Sets Pre-Delay Mod Depth,12,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Input,Input Low Cut A,0 Offspring,14,,0,7,,,,,,,0-based,Label for value 0 is obscured by an adjacent column in the source PDF and is not reproduced here,1: 20Hz; 2: 100Hz; 3: 125Hz; 4: 150Hz; 5: 200Hz; 6: 250Hz; 7: Default Setting
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 1 A,See chart below for details,15,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 2 A,See chart below for details,16,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 3 A,See chart below for details,17,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 4 A,See chart below for details,18,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 5 A,See chart below for details,19,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Special Control A,See chart below for details,20,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Reverb,Reverb Engine B,Selects and loads reverb engines into B,25,,0,13,,,,,,,0-based,,0: Romm; 1: Hall; 2: E-Dome; 3: True Spring; 4: Plate; 5: Lo-Fi; 6: Modverb; 7: Shimmer; 8: Echoverb; 9: Swell; 10: Offspring; 11: Reverse; 12: Outboard Spring; 13: Metal Box
+Source Audio,Ventris Dual Reverb,General,Time B,Sets min and max delay times,26,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Mix B,Sets the wet/dry mix - 50/50 point at approx. 95,27,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Pre-Delay B,Sets Pre-Delay B,28,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Treble B,Sets Treble B,29,,0,127,,,,,,,centered,,
+Source Audio,Ventris Dual Reverb,Output,Output B,Sets Output B,30,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Bass B,Sets Bass B,31,,0,127,,,,,,,centered,,
+Source Audio,Ventris Dual Reverb,General,Diffusion B,Sets Diffusion B,32,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Modulation Depth B,Sets Modulation Depth B,33,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Modulation Rate B,Sets Modulation Rate B,34,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Pre-Delay Feedback B,Sets Pre-Delay Feedback B,35,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Pre-Delay Mod Depth B,Sets Pre-Delay Mod Depth B,36,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Input,Input Low Cut B,0 Offspring,38,,0,7,,,,,,,0-based,Label for value 0 is obscured by an adjacent column in the source PDF and is not reproduced here,1: 20Hz; 2: 100Hz; 3: 125Hz; 4: 150Hz; 5: 200Hz; 6: 250Hz; 7: Default Setting
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 1 B,See chart below for details,39,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 2 B,See chart below for details,40,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 3 B,See chart below for details,41,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 4 B,See chart below for details,42,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Param 5 B,See chart below for details,43,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,Engine,Engine Special Control B,See chart below for details,44,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Dual/Single Mode,0 Selects Reverb A,50,,0,3,,,,,,,0-based,Label for value 0 is obscured by an adjacent column in the source PDF and is not reproduced here,2: Selects A&B Parallel; 3: Selects A&B Cascade
+Source Audio,Ventris Dual Reverb,General,I/O Routing Option,0 Auto-detect,53,,0,7,,,,,,,0-based,Label for value 0 is obscured by an adjacent column in the source PDF and is not reproduced here,1: Mono in - Stereo Out; 2: Stereo In - Stereo Out; 3: Mono In - Mono Out - Dry out 2; 4: Stereo In - Wet Sum to Mono; 5: Dual Mono - Independent Stereo; 6: Mono In - Independent Stereo Out; 7: Pre-Processing External Loop
+Source Audio,Ventris Dual Reverb,Reverb,Reverb Send,Sets the level being sent into the reverb,54,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,A/B Crossfade,Fade from all A Reverb to all B Reverb (Dual Only),55,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Remote Expression,Overrides all expression inputs,100,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Bypass/Engage,,101,,0,127,,,,,,,0-based,,0-64: Bypass; 65-127: Engage
+Source Audio,Ventris Dual Reverb,General,Recall Preset - Bypass,Recalls any preset in Bypass,103,,0,127,,,,,,,0-based,,
+Source Audio,Ventris Dual Reverb,General,Recall Preset - Engage,Recalls any preset Engaged,104,,0,127,,,,,,,0-based,Label for value 0 is obscured by an adjacent column in the source PDF and is not reproduced here,5: knob mapped) knob mapped)
