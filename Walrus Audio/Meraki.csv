@@ -1,0 +1,20 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Walrus Audio,Meraki,,Time,,14,,0,127,,,,,,,0-based,,
+Walrus Audio,Meraki,,Time R,,15,,0,127,,,,,,,0-based,,
+Walrus Audio,Meraki,,Mod Depth,,22,,0,127,,,,,,,0-based,,
+Walrus Audio,Meraki,,Mod Depth R,,23,,0,127,,,,,,,0-based,,
+Walrus Audio,Meraki,,Mod Rate,,24,,0,127,,,,,,,0-based,,
+Walrus Audio,Meraki,,Mod Rate R,,25,,0,127,,,,,,,0-based,,
+Walrus Audio,Meraki,,Sync,,26,,0,127,,,,,,,0-based,,0-42: L; 43-85: R; 86-127: S
+Walrus Audio,Meraki,,Division L,,27,,0,127,,,,,,,0-based,,0-42: .1/8; 43-85: 1/8; 86-127: 1/4
+Walrus Audio,Meraki,,Division R,,28,,0,127,,,,,,,0-based,,0-42: .1/8; 43-85: 1/8; 86-127: 1/4
+Walrus Audio,Meraki,,Bypass,,29,,0,127,,,,,,,0-based,,0: Off; 127: On
+Walrus Audio,Meraki,,Tap Tempo,Sent as value 127 only,30,,127,127,,,,,,,0-based,,
+Walrus Audio,Meraki,,Feedback Path,,31,,0,127,,,,,,,0-based,,0-42: P-P; 43-85: S; 86-127: P
+Walrus Audio,Meraki,,Feedback Ramp,,85,,0,127,,,,,,,0-based,,0: Off; 127: On
+Walrus Audio,Meraki,,Expression Destination,,86,,0,127,,,,,,,0-based,,0-21: Time; 22-42: Mod; 43-63: Time R; 64-85: Mod R; 86-106: Mod Rate; 107-127: Mod Rate R
+Walrus Audio,Meraki,,Bypass Mode,,87,,0,127,,,,,,,0-based,,0: Trails; 127: No Trails
+Walrus Audio,Meraki,,Clock Bypass,,89,,0,127,,,,,,,0-based,,0: Off; 127: On
+Walrus Audio,Meraki,,Mod Shape L,,102,,0,127,,,,,,,0-based,,0-42: Square; 43-85: Random; 86-127: Sine
+Walrus Audio,Meraki,,Mod Shape R,,103,,0,127,,,,,,,0-based,,0-42: Square; 43-85: Random; 86-127: Sine
+Walrus Audio,Meraki,,Mod Phase,Phase offset in degrees,104,,0,127,,,,,,,0-based,,0-42: 180; 43-85: 90; 86-127: 0
