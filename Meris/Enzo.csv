@@ -1,0 +1,20 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Meris,Enzo,Global / Control,Expression pedal,,4,,0,127,,,,,,,0-based,,
+Meris,Enzo,Envelope,Envelope type,,9,,0,127,,,,,,,0-based,,0-63: Triggered env 0 to 63 = triggered env; 64-127: Env follower 64 = env follower
+Meris,Enzo,Global / Control,Bypass,,14,,0,127,,,,,,,0-based,,0-63: Fx bypass 0 for fx bypass; 64-127: Fx enable 127 for fx enable
+Meris,Enzo,General,Tempo (10 msec intervals) 0 to 120,,15,,0,120,,,,,,,0-based,,
+Meris,Enzo,Pitch,Pitch,,16,,0,127,,,,,,,centered,,
+Meris,Enzo,Filter,Filter,,17,,0,127,,,,,,,0-based,,
+Meris,Enzo,General,Mix,,18,,0,127,,,,,,,0-based,,
+Meris,Enzo,Envelope,Sustain,,19,,0,127,,,,,,,0-based,,
+Meris,Enzo,Filter,Filter envelope,,20,,0,127,,,,,,,0-based,,
+Meris,Enzo,Modulation,Modulation,,21,,0,127,,,,,,,0-based,,
+Meris,Enzo,General,Portamento,,22,,0,127,,,,,,,0-based,,
+Meris,Enzo,Filter,Filter type,,23,,0,127,,,,,,,0-based,,
+Meris,Enzo,Delay,Delay level,,24,,0,127,,,,,,,0-based,,
+Meris,Enzo,General,Ring modulation,,25,,0,127,,,,,,,0-based,,
+Meris,Enzo,Filter,Filter bandwidth,,26,,0,127,,,,,,,0-based,,
+Meris,Enzo,Delay,Delay feedback,,27,,0,127,,,,,,,0-based,,
+Meris,Enzo,Global / Control,Tap,,28,,0,127,,,,,,,0-based,,
+Meris,Enzo,General,Synth mode,,29,,0,127,,,,,,,0-based,,
+Meris,Enzo,General,Synth waveshape,,30,,0,127,,,,,,,0-based,,

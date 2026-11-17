@@ -1,0 +1,76 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Meris,Enzo X,Oscillator,Oscillator mod depth,,1,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Oscillator,Oscillator mod speed,,2,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Oscillator,Oscillator mod ramp time,,3,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Global / Control,Expression pedal,,4,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Drive,Drive type,,5,,0,127,,,,,,,0-based,,0-21: Off; 22-42: Volume pedal; 43-63: Tube; 64-85: Transistor; 86-106: Op-amp; 107-127: Bitcrusher
+Meris,Enzo X,Drive,Drive location,,6,,0,127,,,,,,,0-based,,0-31: Pre + dry; 32-63: Dry; 64-95: Pre ambience; 96-127: Post ambience
+Meris,Enzo X,Drive,Gain/volume/sample rate,,7,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Balance/bits,,8,,0,127,,,,,,,centered,,
+Meris,Enzo X,Drive,Drive level/comp,,9,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Ambience,Ambience type,,10,,0,127,,,,,,,0-based,,0-25: Off; 26-51: Echo; 52-76: Small; 77-102: Medium; 103-127: Large
+Meris,Enzo X,Delay,Feedback/decay,,11,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Half speed,,12,,0,127,,,,,,,0-based,,0-63: Half Speed OFF; 64-127: Half Speed ON
+Meris,Enzo X,Ambience,Ambience mod,,13,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Global / Control,Bypass,,14,,0,127,,,,,,,0-based,,0-63: Fx bypass; 64-127: Fx enable
+Meris,Enzo X,General,"Time (clock, 7 bit tempo)",,15,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Ambience,Ambience highs,,16,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Delay,Echo left division,,17,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Delay,Echo right division,,18,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Ambience,Ambience + echo mix,,19,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Ambience,Ambience lows,,20,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Global / Control,Midi clock,,21,,0,127,,,,,,,0-based,,0-42: Use global; 43-85: Force listen; 86-127: Force ignore
+Meris,Enzo X,General,Synth mode,,22,,0,127,,,,,,,0-based,,0-25: Mono synth; 26-51: Poly synth; 52-76: Arp synth; 77-102: Dry mono; 103-127: Dry poly
+Meris,Enzo X,General,Synth pitch,,23,,0,127,,,,,,,centered,,
+Meris,Enzo X,Oscillator,Osc 1 wave shape,,24,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Oscillator,Osc 2 wave shape,,25,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Oscillator,Osc 2 pitch offset,,26,,0,127,,,,,,,centered,,
+Meris,Enzo X,Oscillator,Osc 2 detune,,27,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Synth glide (portamento),,28,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Oscillator,Osc 1 gain,,29,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Oscillator,Osc 2 gain,,30,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Xmod,,31,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Arp mode,,32,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Arp steps,,33,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Arp octaves,,34,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Level,,35,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Dry blend,,36,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Arp cycle latch,,37,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Meris,Enzo X,Filter,Filter type,,38,,0,127,,,,,,,0-based,,0-42: Ladder; 43-85: State variable; 86-127: Twin
+Meris,Enzo X,Filter,Filter frequency,,39,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Filter,Filter typology,,40,,0,127,,,,,,,0-based,,0-42: Lowpass; 43-85: Bandpass; 86-127: Highpass
+Meris,Enzo X,Filter,Filter resonance,,41,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Filter,Filter noise,,42,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Twin filter spread,,43,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Filter,Filter envelope amount,,44,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Filter,Filter envelope type,,46,,0,127,,,,,,,0-based,,0-63: Adsr; 64-127: Envelope
+Meris,Enzo X,Filter,Filter attack time,,47,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Filter,Filter decay time,,48,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Filter,Filter sustain time,,49,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Filter,Filter sustain level,,50,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Filter,Filter release time,,51,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Direction,,52,,0,127,,,,,,,0-based,,0-63: Up; 64-127: Down
+Meris,Enzo X,General,Depth,,53,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Note persist,,54,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Amplitude attack time,,55,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Amplitude decay time,,56,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Amplitude sustain level,,57,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Amplitude sustain time,,58,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Amplitude release time,,59,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Mix,,60,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Dry trim,,61,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Wet trim,,62,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Oscillator,Osc 1 width,,83,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Oscillator,Osc 2 width,,84,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Arp note div,,85,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Modulation,Mod type,,86,,0,127,,,,,,,0-based,,0-21: Off; 22-42: Chorus; 43-63: Flanger; 64-85: Vibrato; 86-106: Phaser; 107-127: Ring mod
+Meris,Enzo X,Modulation,Mod location,,87,,0,127,,,,,,,0-based,,0-31: Pre + dry; 32-63: Dry; 64-95: Pre ambience; 96-127: Post ambience
+Meris,Enzo X,Modulation,Mod speed/frequency,,88,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Modulation,Mod depth,,89,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Modulation,Mod mode/wave shape/stages,,90,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Modulation,Mod feedback,,91,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Modulation,Mod mix,,92,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Modulation,Mod note div,,93,,0,127,,,,,,,0-based,,
+Meris,Enzo X,Global / Control,Tap tempo,,99,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Toggle tuner mode,,117,,0,127,,,,,,,0-based,,
+Meris,Enzo X,General,Trigger hold modifier,,118,,0,127,,,,,,,0-based,,
