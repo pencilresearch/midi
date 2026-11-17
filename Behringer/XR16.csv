@@ -1,0 +1,94 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Behringer,XR16,Input channels,Channel 1 Fader,,0,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 1 Mute,,0,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 1 Pan,,0,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 2 Fader,,1,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 2 Mute,,1,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 2 Pan,,1,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 3 Fader,,2,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 3 Mute,,2,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 3 Pan,,2,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 4 Fader,,3,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 4 Mute,,3,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 4 Pan,,3,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 5 Fader,,4,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 5 Mute,,4,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 5 Pan,,4,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 6 Fader,,5,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 6 Mute,,5,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 6 Pan,,5,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 7 Fader,,6,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 7 Mute,,6,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 7 Pan,,6,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 8 Fader,,7,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 8 Mute,,7,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 8 Pan,,7,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 9 Fader,,8,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 9 Mute,,8,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 9 Pan,,8,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 10 Fader,,9,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 10 Mute,,9,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 10 Pan,,9,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 11 Fader,,10,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 11 Mute,,10,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 11 Pan,,10,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 12 Fader,,11,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 12 Mute,,11,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 12 Pan,,11,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 13 Fader,,12,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 13 Mute,,12,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 13 Pan,,12,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 14 Fader,,13,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 14 Mute,,13,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 14 Pan,,13,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 15 Fader,,14,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 15 Mute,,14,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 15 Pan,,14,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Input channels,Channel 16 Fader,,15,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Input channels,Channel 16 Mute,,15,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Input channels,Channel 16 Pan,,15,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Aux and returns,USB Recorder Playback Fader,,16,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Aux and returns,USB Recorder Playback Mute,,16,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Aux and returns,USB Recorder Playback Pan,,16,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center. Balance of the stereo-linked USB Recorder Playback pair,1~127: Pan/balance
+Behringer,XR16,Aux and returns,FX Return 1 Fader,,17,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Aux and returns,FX Return 1 Mute,,17,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Aux and returns,FX Return 1 Pan,,17,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Aux and returns,FX Return 2 Fader,,18,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Aux and returns,FX Return 2 Mute,,18,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Aux and returns,FX Return 2 Pan,,18,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Aux and returns,FX Return 3 Fader,,19,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Aux and returns,FX Return 3 Mute,,19,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Aux and returns,FX Return 3 Pan,,19,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Aux and returns,FX Return 4 Fader,,20,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Aux and returns,FX Return 4 Mute,,20,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Aux and returns,FX Return 4 Pan,,20,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Sends,Aux Send/Subgroup 1 Fader,,21,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,Aux Send/Subgroup 1 Mute,,21,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,Aux Send/Subgroup 1 Pan,,21,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Sends,Aux Send/Subgroup 2 Fader,,22,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,Aux Send/Subgroup 2 Mute,,22,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,Aux Send/Subgroup 2 Pan,,22,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Sends,Aux Send/Subgroup 3 Fader,,23,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,Aux Send/Subgroup 3 Mute,,23,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,Aux Send/Subgroup 3 Pan,,23,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Sends,Aux Send/Subgroup 4 Fader,,24,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,Aux Send/Subgroup 4 Mute,,24,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,Aux Send/Subgroup 4 Pan,,24,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Sends,Aux Send/Subgroup 5 Fader,,25,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,Aux Send/Subgroup 5 Mute,,25,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,Aux Send/Subgroup 5 Pan,,25,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Sends,Aux Send/Subgroup 6 Fader,,26,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,Aux Send/Subgroup 6 Mute,,26,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,Aux Send/Subgroup 6 Pan,,26,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is center,1~127: Pan/balance
+Behringer,XR16,Sends,FX Send 1 Fader,,27,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,FX Send 1 Mute,,27,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,FX Send 2 Fader,,28,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,FX Send 2 Mute,,28,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,FX Send 3 Fader,,29,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,FX Send 3 Mute,,29,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Sends,FX Send 4 Fader,,30,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Sends,FX Send 4 Mute,,30,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Main outputs,Main LR Fader,,31,,0,127,,,,,,,0-based,Send on MIDI channel 1,0~127: Fader level
+Behringer,XR16,Main outputs,Main LR Mute,,31,,0,127,,,,,,,0-based,Send on MIDI channel 2,0: Off; 127: On
+Behringer,XR16,Main outputs,Main LR Pan,,31,,1,127,,,,,,,centered,Send on MIDI channel 3. Value 64 is stereo center,1~127: Pan/balance
+Behringer,XR16,Snapshots,Snapshot Select (Program Change),Send a Program Change on MIDI channel 1 to recall a Snapshot,,,,,,,,,,,0-based,Program Change 0-63 on MIDI channel 1 recalls Snapshot 1-64. X-Air has no separate Show Control/Cue mode like X32 - this is the mixer's only scene recall mechanism,0~63: Snapshot 1-64
