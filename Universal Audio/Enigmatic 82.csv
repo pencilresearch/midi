@@ -1,0 +1,32 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Universal Audio,Enigmatic 82,Amp,Output,,7,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,FS Left,,12,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,Enigmatic 82,General,FS Right,,13,,0,1,,,,,,,0-based,1 toggles footswitch,
+Universal Audio,Enigmatic 82,Cabinet,Cab Up,,14,,0,1,,,,,,,0-based,1 toggles switch,
+Universal Audio,Enigmatic 82,Cabinet,Cab Down,,15,,0,1,,,,,,,0-based,1 toggles switch,
+Universal Audio,Enigmatic 82,Global / Control,Store,,16,,0,1,,,,,,,0-based,,0: Off; 1: Hold
+Universal Audio,Enigmatic 82,Modulation,Model Select,,17,,0,2,,,,,,,0-based,,0: Rock; 1: Jazz; 2: Custom (Note that Custom is set to the Rock model by default
+Universal Audio,Enigmatic 82,Cabinet,Cab Select,,18,,0,9,,,,,,,0-based,,8: Cabs; 9: No Cab >; 9: Cab 1 (to prevent accidentally disabling Cab)
+Universal Audio,Enigmatic 82,Global / Control,Bypass,,19,,0,2,,,,,,,0-based,,0: Bypass; 1: Unbypass Left FS; 2: Unbypass Right FS
+Universal Audio,Enigmatic 82,General,Channel,,20,,0,1,,,,,,,0-based,,0: Normal; 1: FET
+Universal Audio,Enigmatic 82,Amp,Amp,,21,,0,3,,,,,,,0-based,,0: 50W; 1: 100W low plate; 2: 100W high plate; 3: 100W low plate
+Universal Audio,Enigmatic 82,Amp,Volume,,22,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,Overdrive,,23,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,Overdrive Enable,,24,,0,1,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,Ratio,,25,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,Master,,26,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,FET Trim,,27,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,OD Trim,,28,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,Reverb,Room,,30,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,Bass,,31,,0,127,,,,,,,centered,,
+Universal Audio,Enigmatic 82,General,Middle,,32,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,Treble,,33,,0,127,,,,,,,centered,,
+Universal Audio,Enigmatic 82,General,Presence,,34,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,Deep/Mid,,35,,0,1,,,,,,,centered,,
+Universal Audio,Enigmatic 82,General,Bright,,36,,0,3,,,,,,,0-based,,0: None; 1: 150 pf; 2: 196 pf; 3: 300 pf
+Universal Audio,Enigmatic 82,Amp,Tonestack,,37,,0,1,,,,,,,0-based,,0: Classic; 1: Skyline
+Universal Audio,Enigmatic 82,Drive,Boost Enable,,40,,0,1,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,HRM Enable,,50,,0,1,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,HRM Bass,,51,,0,127,,,,,,,centered,,
+Universal Audio,Enigmatic 82,General,HRM Middle,,52,,0,127,,,,,,,0-based,,
+Universal Audio,Enigmatic 82,General,HRM Treble,,53,,0,127,,,,,,,centered,,
