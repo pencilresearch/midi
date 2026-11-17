@@ -1,0 +1,14 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Strymon,Brig,Program Select,Bank Select,,0,,0,2,,,,,,,0-based,Manual prints value 3 for the last option but states range 0-2; renumbered to match the stated range,0: Bank 1; 1: Bank 2; 2: Bank 3
+Strymon,Brig,Knobs,Voice,,11,,1,3,,,,,,,0-based,,1: 3205; 2: 3005; 3: Multi
+Strymon,Brig,Knobs,Time,,12,,0,127,,,,,,,0-based,,
+Strymon,Brig,Knobs,Filter,,13,,0,127,,,,,,,0-based,,
+Strymon,Brig,Knobs,Repeats,,14,,0,127,,,,,,,0-based,,
+Strymon,Brig,Knobs,Mod,,15,,0,127,,,,,,,0-based,,
+Strymon,Brig,Knobs,Mix,,16,,0,127,,,,,,,0-based,,
+Strymon,Brig,Global / Control,Tap Division,,17,,0,3,,,,,,,0-based,,0: Triplet; 1: Eighth; 2: Dotted eighth; 3: Quarter
+Strymon,Brig,Global / Control,Footswitch,,27,,0,127,,,,,,,0-based,,0: Release; 1-127: Press
+Strymon,Brig,Global / Control,Tap,,93,,0,127,,,,,,,0-based,,
+Strymon,Brig,Knobs,Infinite,,97,,0,127,,,,,,,0-based,,0: Release; 1-127: Hold
+Strymon,Brig,Global / Control,Expression Pedal,,100,,0,127,,,,,,,0-based,,0: Heel; 127: Toe
+Strymon,Brig,Global / Control,Bypass/Engage,,102,,0,127,,,,,,,0-based,,0: Bypass; 1-127: Engage

@@ -1,0 +1,23 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Strymon,Lex V2,Program Select,Bank Select,,0,,0,2,,,,,,,0-based,,0: Bank 1; 1: Bank 2; 2: Bank 3
+Strymon,Lex V2,Knobs,Mic,,11,,1,2,,,,,,,0-based,,1: Front; 2: Rear
+Strymon,Lex V2,Knobs,Speed,,12,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Speed (Full Range),,13,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Mic Distance,,14,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Horn Level,,15,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Ramp,,16,,1,3,,,,,,,0-based,,1: Slow; 2: Med; 3: Fast
+Strymon,Lex V2,Knobs,Volume,,17,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Dry,,18,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Preamp Drive,,19,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Bi-Amp Output Mode,,20,,0,1,,,,,,,0-based,,0: Stereo; 1: Bi-amp
+Strymon,Lex V2,Knobs,Cab Filter,,21,,0,1,,,,,,,0-based,,0: Guitar amp; 1: Full range
+Strymon,Lex V2,Knobs,Slow/Fast Toggle,,22,,0,127,,,,,,,0-based,,0: Slow; 1-127: Fast
+Strymon,Lex V2,Knobs,Slow Speed,,23,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Fast Speed,,24,,0,127,,,,,,,0-based,,
+Strymon,Lex V2,Global / Control,MIDI Clock Tempo Mult/Div 0-6,,25,,,,,,,,,,0-based,,0: x4; 1: x3; 2: x2; 3: x1; 4: 1/2; 5: 1/3; 6: 1/4
+Strymon,Lex V2,Global / Control,MIDI Expression Off/On,,60,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Strymon,Lex V2,Global / Control,MIDI Clock Off/On,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Strymon,Lex V2,Global / Control,Remote Tap,,93,,,,,,,,,,0-based,,
+Strymon,Lex V2,Knobs,Brake,,97,,0,127,,,,,,,0-based,,0: Release; 1-127: Hold
+Strymon,Lex V2,Global / Control,Expression Pedal,,100,,0,127,,,,,,,0-based,,0: Heel; 127: Toe
+Strymon,Lex V2,Global / Control,Bypass/On,,102,,0,127,,,,,,,0-based,,0: Bypass; 1-127: On

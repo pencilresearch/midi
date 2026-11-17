@@ -1,0 +1,18 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Strymon,EC-1,Program Select,Bank Select,,0,,0,2,,,,,,,0-based,Manual prints value 3 for the last option but states range 0-2; renumbered to match the stated range,0: Bank 1; 1: Bank 2; 2: Bank 3
+Strymon,EC-1,Knobs,Rec Level,,11,,1,3,,,,,,,0-based,,1: Low; 2: Med; 3: High
+Strymon,EC-1,Knobs,Time,,12,,0,127,,,,,,,0-based,,
+Strymon,EC-1,Knobs,Tape Age,,13,,0,127,,,,,,,0-based,,
+Strymon,EC-1,Knobs,Repeats,,14,,0,127,,,,,,,0-based,,
+Strymon,EC-1,Knobs,Mechanics,,15,,0,127,,,,,,,0-based,,
+Strymon,EC-1,Knobs,Mix,,16,,0,127,,,,,,,0-based,,
+Strymon,EC-1,Knobs,Preamp Select,,17,,1,3,,,,,,,0-based,Manual states range 0-3; enumeration covers 1-3,1: Off; 2: Modded EP; 3: Original EP
+Strymon,EC-1,Global / Control,Tap Division,,18,,0,3,,,,,,,0-based,,0: Eighth triplet; 1: Eighth; 2: Dotted eighth; 3: Quarter
+Strymon,EC-1,Knobs,Preamp Boost,,19,,0,127,,,,,,,0-based,,
+Strymon,EC-1,Global / Control,Footswitch,,27,,0,127,,,,,,,0-based,,0: Release; 1-127: Press
+Strymon,EC-1,Global / Control,MIDI Expression Off/On,,60,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Strymon,EC-1,Global / Control,MIDI Clock Off/On,,63,,0,127,,,,,,,0-based,,0: Off; 1-127: On
+Strymon,EC-1,Global / Control,Tap,,93,,0,127,,,,,,,0-based,,
+Strymon,EC-1,Knobs,Infinite,,97,,0,127,,,,,,,0-based,,0: Release; 1-127: Hold
+Strymon,EC-1,Global / Control,Expression Pedal,,100,,0,127,,,,,,,0-based,,0: Heel; 127: Toe
+Strymon,EC-1,Global / Control,Bypass/Engage,,102,,0,127,,,,,,,0-based,,0: Bypass; 1-127: Engage
