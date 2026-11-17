@@ -1,0 +1,93 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Novation,Xio,Controllers,Modwheel,modwheel msb,1,,0,127,,,,,,,0-based,,
+Novation,Xio,Controllers,Breath control,breath msb,2,,0,127,,,,,,,0-based,receive only,
+Novation,Xio,Arpeggiator,ARP pattern,,3,,0,127,,,,,,,0-based,"0…6 = up, down, ud1, ud2, order, chord",
+Novation,Xio,Pitch,Portamento time,portamento time msb,5,,0,127,,,,,,,0-based,,
+Novation,Xio,Mixer,MIDI volume,volume msb,7,,0,127,,,,,,,0-based,transmit only,
+Novation,Xio,Pitch,Preglide semitones -12…+12,balance msb,8,,0,127,,,,,,,centered,0=preglide disabled,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Arpeggiator,Arp/general sync rate (64-191 BPM),,9,,0,127,,,,,,,0-based,common,
+Novation,Xio,Effects,Pan position,pan msb,10,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Controllers,Expression pedal,expression ms,11,,0,127,,,,,,,0-based,,
+Novation,Xio,General,Non-sync pan rate,effect control 1 msb,12,,0,127,,,,,,,0-based,,
+Novation,Xio,General,Sync pan rate 0…34,effect control 2 msb,13,,0,127,,,,,,,0-based,"non-sync, 32 Triplet…12 Bars",
+Novation,Xio,Controllers,Modwheel distortion,gen. controller 1 msb,16,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,General,Distrotion compensation,gen. controller 2 msb,17,,0,127,,,,,,,0-based,,
+Novation,Xio,Controllers,Modwheel delay send,gen. controller 3 msb,18,,0,127,,,,,,,0-based,,
+Novation,Xio,General,Non-sync delay time,gen. controller 4 msb,19,,0,127,,,,,,,0-based,,
+Novation,Xio,General,Sync delay time 0…19,,20,,0,127,,,,,,,0-based,"non-sync, 32 Triplet…12 Bars",
+Novation,Xio,Effects,Delay feedbcak,,21,,0,127,,,,,,,0-based,,
+Novation,Xio,Effects,Delay stereo width,,22,,0,127,,,,,,,0-based,,
+Novation,Xio,Effects,Delay ratio,,23,,0,127,,,,,,,0-based,,
+Novation,Xio,Controllers,Modwheel reverb send,,24,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Reverb decay,,25,,0,127,,,,,,,0-based,,
+Novation,Xio,Controllers,Modwheel chorus send,,26,,0,127,,,,,,,0-based,,
+Novation,Xio,General,Non-sync chrous rate,,27,,0,127,,,,,,,0-based,,
+Novation,Xio,General,Sync chrous rate 0…34,,28,,0,127,,,,,,,0-based,"non-sync, 32 Triplet…12 Bars",
+Novation,Xio,Effects,Chorus feedback,,29,,0,127,,,,,,,0-based,,
+Novation,Xio,Effects,Chorus mod depth,,30,,0,127,,,,,,,0-based,,
+Novation,Xio,Effects,Chorus mod centre point,,31,,0,127,,,,,,,0-based,,
+Novation,Xio,Program Select,Bank select 0…1,bank lsb,32,,0,127,,,,,,,0-based,,
+Novation,Xio,Oscillator,OSC1 semitone -12…+12,balance lsb,40,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC1 cent -50…+50,,41,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC1 bendwheel pitch amount,pan lsb,42,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC1 LFO1 pitch amount,expression lsb,43,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC1 mod env pitch amount,effect control 1 lsb,44,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC1 pulse width position,effect control 2 lsb,45,,0,127,,,,,,,centered,0=50% or in-phase double wave,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC1 LFO2 pulse width mod,,46,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC1 mod env pulse width mod,,47,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC2 mod env pitch amount,,52,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC2 pulse width position,,53,,0,127,,,,,,,centered,0=50% or in-phase double wave,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC2 LFO2 pulse width mod,,54,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC2 mod env pulse width mod,,55,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC3 semitone -12…+12,,56,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC3 cent -50…+50,,57,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC3 bendwheel pitch amount,,58,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC3 LFO1 pitch amount,,59,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC3 mod env pitch amount,,60,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC3 pulse width position,,61,,0,127,,,,,,,centered,0=50% or in-phase double wave,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC3 LFO2 pulse width mod,,62,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Oscillator,OSC3 mod env pulse width mod,,63,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Envelope,Sustain,sustain pedal,64,,0,127,,,,,,,0-based,,
+Novation,Xio,Pitch,Unison detune,legato footswitch,68,,0,127,,,,,,,0-based,,
+Novation,Xio,Pitch,Individual oscillator random detune,hold 2,69,,0,127,,,,,,,0-based,,
+Novation,Xio,Pitch,Portamento mode,sound controller 1,70,,0,127,,,,,,,0-based,"0=exp, 1=lin",
+Novation,Xio,Oscillator,OSC1 level,sound controller 3,72,,0,127,,,,,,,0-based,to filter,
+Novation,Xio,Oscillator,OSC2 level,sound controller 4,73,,0,127,,,,,,,0-based,to filter,
+Novation,Xio,Oscillator,OSC3 level,sound controller 5,74,,0,127,,,,,,,0-based,to filter,
+Novation,Xio,Mixer,Noise level,sound controller 6,75,,0,127,,,,,,,0-based,to filter,
+Novation,Xio,Oscillator,OSC 1*2 ringmod level,sound controller 7,76,,0,127,,,,,,,0-based,to filter,
+Novation,Xio,General,Sync LFO2 speed 0…34,portamento control,84,,0,127,,,,,,,0-based,"non-sync, 32 Triplet…12 Bars",
+Novation,Xio,LFO,LFO2 delay,,85,,0,127,,,,,,,0-based,GRADUAL ONSET TIME/ONE-SHOT MODE DELAY,
+Novation,Xio,Arpeggiator,Arpeggiator sync setting 0…15,,87,,0,127,,,,,,,0-based,32 Triplet…1 Bar,
+Novation,Xio,Arpeggiator,Arpeggiator gate time,,88,,0,127,,,,,,,centered,+64 GIVES TIED NOTE IN MONO MODE,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Mixer,Distrotion level,,90,,0,127,,,,,,,0-based,,
+Novation,Xio,Effects,Reverb send level,effects 1 depth,91,,0,127,,,,,,,0-based,,
+Novation,Xio,Effects,Delay send level,effects 2 depth,92,,0,127,,,,,,,0-based,,
+Novation,Xio,Effects,Chorus send level,effects 3 depth,93,,0,127,,,,,,,0-based,,
+Novation,Xio,Effects,Pan mod depth,effects 4 depth,94,,0,127,,,,,,,0-based,,
+Novation,Xio,General,NRPN LSB number,nrpn lsb,98,,0,127,,,,,,,0-based,,
+Novation,Xio,General,NRPN MSB number,nrpn msb,99,,0,127,,,,,,,0-based,transmitted with value 0,
+Novation,Xio,Filter,Filter frequency LFO2 mod depth,,102,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Filter,Filter q normalise,,103,,0,127,,,,,,,0-based,127=zero filter drive at max resonance,
+Novation,Xio,Filter,Filter overdrive,,104,,0,127,,,,,,,0-based,,
+Novation,Xio,Filter,Filter frequency,,105,,0,127,,,,,,,0-based,,
+Novation,Xio,Filter,Filter resonance,,106,,0,127,,,,,,,0-based,,
+Novation,Xio,Filter,Filter frequency mod env depth,,107,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Amplitude envelope attack,,108,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Amplitude envelope decay,,109,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Amplitude envelope sustain,,110,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Amplitude envelope release,,111,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Amplitude envelope velocity depth,,112,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Envelope,Mod env attack,,114,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Mod env decay,,115,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Mod env sustain,,116,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Mod env release,,117,,0,127,,,,,,,0-based,,
+Novation,Xio,Envelope,Mod env velocity depth,,118,,0,127,,,,,,,centered,,0~127: -64..0..+63 (64 = zero)
+Novation,Xio,Mixer,Mix output level,,119,,0,127,,,,,,,0-based,controls pre-effects signal level,
+Novation,Xio,Envelope,All notes off with fast release,all sounds off,120,,0,127,,,,,,,0-based,receive only,
+Novation,Xio,General,Local on/off,local on/off,122,,0,127,,,,,,,0-based,,
+Novation,Xio,General,All notes off,all notes off,123,,0,127,,,,,,,0-based,receive only,
+Novation,Xio,General,All notes off,omni off,124,,0,127,,,,,,,0-based,receive only,
+Novation,Xio,General,All notes off,omni on,125,,0,127,,,,,,,0-based,receive only,
+Novation,Xio,General,All notes off,mono mode setup,126,,0,127,,,,,,,0-based,receive only,
+Novation,Xio,General,All notes off,poly mode on,127,,0,127,,,,,,,0-based,receive only,
