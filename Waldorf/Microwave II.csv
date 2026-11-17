@@ -1,0 +1,101 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Waldorf,Microwave II,,Modulation wheel MSB,,1,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Breath control MSB,,2,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Foot controller MSB,,4,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Glide Time,,5,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Channel Volume,,7,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Panning,left 64..center..right 63,10,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Chorus,,12,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,Filter Env Attack,,14,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Filter Env Decay,,15,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Filter Env Sustain,,16,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Filter Env Release,,17,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Amp Env Attack,,18,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Amp Env Decay,,19,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Amp Env Sustain,,20,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Amp Env Release,,21,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Glide Type,,22,,0,3,,,,,,,0-based,,0: Portamento; 1: Fingered port.; 2: Glissando; 3: Fingered gliss.
+Waldorf,Microwave II,,Glide Mode,,23,,0,1,,,,,,,0-based,,0: Exp.; 1: Linear
+Waldorf,Microwave II,,LFO1 Rate,,24,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,LFO1 Shape,,25,,0,5,,,,,,,0-based,,0: Sin; 1: Tri; 2: Square; 3: Saw; 4: Random; 5: S&H
+Waldorf,Microwave II,,LFO2 Rate,,26,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,LFO2 Delay,,27,,0,127,,,,,,,0-based,,0: Off; 1: Retrigger; 2~127: 1 to 126
+Waldorf,Microwave II,,LFO2 Shape,,28,,0,5,,,,,,,0-based,,0: Sin; 1: Tri; 2: Square; 3: Saw; 4: Random; 5: S&H
+Waldorf,Microwave II,,Filter Env Trigger,,29,,0,2,,,,,,,0-based,,0: Normal; 1: Single; 2: Retrigger
+Waldorf,Microwave II,,LFO1 Delay,,30,,0,127,,,,,,,0-based,,0: Off; 1: Retrigger; 2~127: 1 to 126
+Waldorf,Microwave II,,Amp Env Trigger,,31,,0,2,,,,,,,0-based,,0: Normal; 1: Single; 2: Retrigger
+Waldorf,Microwave II,,Bank Select,,32,,0,1,,,,,,,0-based,,0: Bank A; 1: Bank B
+Waldorf,Microwave II,,Osc 1 Octave,-4..+4 (in steps of 12),33,,16,112,,,,,,,centered,,
+Waldorf,Microwave II,,Osc 1 Semitone,-12..+12,34,,56,76,,,,,,,centered,,
+Waldorf,Microwave II,,Osc 1 Detune,-64..+63,35,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Osc 1 Pitchbend Scale,,36,,0,122,,,,,,,0-based,"the manual's Range column stops at 121, but its Value Range column documents values up to 122",0~120: Semitones; 121: Harmonic; 122: Global
+Waldorf,Microwave II,,Osc 1 Keytrack,-100%..+200%,37,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Osc 2 Octave,-4..+4 (in steps of 12),38,,16,112,,,,,,,centered,,
+Waldorf,Microwave II,,Osc 2 Semitone,-12..+12,39,,56,76,,,,,,,centered,,
+Waldorf,Microwave II,,Osc 2 Detune,-64..+63,40,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Osc 2 Sync,,41,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,Osc 2 Pitchbend Scale,,42,,0,122,,,,,,,0-based,"the manual's Range column stops at 121, but its Value Range column documents values up to 122",0~120: Semitones; 121: Harmonic; 122: Global
+Waldorf,Microwave II,,Osc 2 Keytrack,-100%..+200%,43,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Osc 2 Link,,44,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,Wave 1 Level,,45,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Wave 2 Level,,46,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,RingMod Level,,47,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Noise Level,,48,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Filter 1 Cutoff,,50,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Filter 1 Keytrack,-200%..+197%,51,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Filter 1 Env Amount,-64..+63,52,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Filter 1 Env Velocity,-64..+63,53,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Filter 1 Type,,54,,0,9,,,,,,,0-based,,0: 24dB LP; 1: 12dB LP; 2: 24dB BP; 3: 12dB BP; 4: 12dB HP; 5: SinX>12L; 6: Waveshaper; 7: Dual; 8: FM-Filter; 9: S&H->L12dB
+Waldorf,Microwave II,,Amp Keytrack,-200%..+197%,55,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Filter 1 Resonance,,56,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Amp Volume,,57,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Amp Env Velocity,-64..+63,58,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Filter 2 Cutoff,,60,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Filter 2 Type,,61,,0,1,,,,,,,0-based,,0: 6dB LP; 1: 6dB HP
+Waldorf,Microwave II,,Filter 2 Keytrack,-200%..+197%,62,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Sustain Switch,,64,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Portamento Switch,,65,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Sostenuto Switch,,66,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Wavetable,Wavetable 001..128,70,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Wave 1 Startwave,00..60 61:triangle 62:square 63:saw,71,,0,63,,,,,,,0-based,,
+Waldorf,Microwave II,,Wave 1 Phase,,72,,0,127,,,,,,,0-based,,0: Free; 1~127: 3 to 357 degree
+Waldorf,Microwave II,,Wave 1 Env Amnt.,-64..+63,73,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Wave 1 Env Vel. Amnt.,-64..+63,74,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Wave 1 Keytrack,-200%..+197%,75,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Wave 1 Limit,,76,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,Wave 2 Startwave,00..60 61:triangle 62:square 63:saw,77,,0,63,,,,,,,0-based,,
+Waldorf,Microwave II,,Wave 2 Phase,,78,,0,127,,,,,,,0-based,,0: Free; 1~127: 3 to 357 degree
+Waldorf,Microwave II,,Wave 2 Env Amnt.,-64..+63,79,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Wave 2 Env Vel. Amnt.,-64..+63,80,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Wave 2 Keytrack,-200%..+197%,81,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Wave 2 Limit,,82,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,Wave 2 Link,,83,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,Free Env Time 1,,85,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Free Env Level 1,-64..+63,86,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Free Env Time 2,,87,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Free Env Level 2,-64..+63,88,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Free Env Time 3,,89,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Free Env Level 3,-64..+63,90,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Free Env Release Time,,91,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,Free Env Release Level,-64..+63,92,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,Free Env Trigger,,93,,0,2,,,,,,,0-based,,0: Normal; 1: Single; 2: Retrigger
+Waldorf,Microwave II,,Arp Active,,102,,0,2,,,,,,,0-based,,0: Off; 1: On; 2: Hold
+Waldorf,Microwave II,,Arp Range,1..10 Octaves,103,,0,9,,,,,,,0-based,,
+Waldorf,Microwave II,,Arp Clock,1/1..1/32,104,,0,15,,,,,,,0-based,,
+Waldorf,Microwave II,,Arp Tempo,,105,,0,127,,,,,,,0-based,,0: External; 1~127: 50 to 300BPM
+Waldorf,Microwave II,,Arp Direction,,106,,0,3,,,,,,,0-based,,0: Up; 1: Down; 2: Alternate; 3: Random
+Waldorf,Microwave II,,Arp Pattern,,107,,0,16,,,,,,,0-based,,0: Off; 1: User; 2~16: Pattern 1 to 15
+Waldorf,Microwave II,,Arp Note Order,,108,,0,3,,,,,,,0-based,,0: By note; 1: Note rev; 2: As played; 3: Reversed
+Waldorf,Microwave II,,Arp Velocity,,109,,0,1,,,,,,,0-based,,0: Root note; 1: Last note
+Waldorf,Microwave II,,Arp Reset,,110,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,Arp Pattern Length,,111,,0,15,,,,,,,0-based,,
+Waldorf,Microwave II,,LFO 1 Sync,,112,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,LFO 1 Symmetry,-64..+63,113,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,LFO 1 Humanize,,114,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,LFO 2 Sync,,115,,0,1,,,,,,,0-based,,0: Off; 1: On
+Waldorf,Microwave II,,LFO 2 Symmetry,-64..+63,116,,0,127,,,,,,,centered,,
+Waldorf,Microwave II,,LFO 2 Humanize,,117,,0,127,,,,,,,0-based,,
+Waldorf,Microwave II,,LFO 2 Phase,,118,,0,127,,,,,,,0-based,,0: Free; 1~127: 3 to 357 degree
+Waldorf,Microwave II,,All Sound Off,,120,,0,0,,,,,,,0-based,,
+Waldorf,Microwave II,,Reset All Controllers,,121,,0,0,,,,,,,0-based,,
+Waldorf,Microwave II,,All notes off,,123,,0,0,,,,,,,0-based,,
