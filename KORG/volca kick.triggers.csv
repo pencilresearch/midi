@@ -1,0 +1,2 @@
+manufacturer,device,section,sound_name,sound_description,midi_channel,note_number_min_value,note_number_max_value,note_number_default_value,comments,velocity_usage
+KORG,volca kick,General,Kick,The volca kick has a single voice; the note number sets the pitch of the resonator across the full range.,basic,0,127,,Received only when the global parameter MIDI RX ShortMessage is set to ON.,
