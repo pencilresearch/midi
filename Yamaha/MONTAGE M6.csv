@@ -1,0 +1,22 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Yamaha,MONTAGE M6,Program Select,Bank select MSB,,0,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Controllers,Modulation,,1,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Pitch,Portamento time,,5,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Data Entry,Data entry MSB,,6,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Mixer,Channel volume,,7,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Mixer,Pan,,10,,0,127,,,,,,,centered,,
+Yamaha,MONTAGE M6,Controllers,Expression,,11,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Program Select,Bank select LSB,,32,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Data Entry,Data entry LSB,,38,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Pedals & Switches,Sustain switch,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,MONTAGE M6,Pedals & Switches,Portamento switch,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,MONTAGE M6,Pedals & Switches,Sostenuto,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,MONTAGE M6,Filter,Filter resonance,,71,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Envelope,EG release time,,72,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Envelope,EG attack time,,73,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Filter,Filter cutoff freq,,74,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Envelope,EG decay time,,75,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Effects,Effects 1 depth,,91,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Effects,Effects 4 depth,,94,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Data Entry,Data entry inc,,96,,0,127,,,,,,,0-based,,
+Yamaha,MONTAGE M6,Data Entry,Data entry dec,,97,,0,127,,,,,,,0-based,,

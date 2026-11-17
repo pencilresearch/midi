@@ -1,0 +1,22 @@
+manufacturer,device,section,parameter_name,parameter_description,cc_msb,cc_lsb,cc_min_value,cc_max_value,cc_default_value,nrpn_msb,nrpn_lsb,nrpn_min_value,nrpn_max_value,nrpn_default_value,orientation,notes,usage
+Yamaha,MOTIF XS,Program Select,Bank sel MSB,,0,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Controllers,Modulation,,1,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Pitch,Portamento time,,5,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Data Entry,Data entry MSB,,6,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Mixer,Channel volume,,7,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Mixer,Pan,,10,,0,127,,,,,,,centered,,
+Yamaha,MOTIF XS,Controllers,Expression,,11,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Program Select,Bank sel LSB,,32,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Data Entry,Data entry LSB,,38,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Pedals & Switches,Sustain switch,,64,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,MOTIF XS,Pedals & Switches,Portamento switch,,65,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,MOTIF XS,Pedals & Switches,Sostenuto,,66,,0,127,,,,,,,0-based,,0-63: Off; 64-127: On
+Yamaha,MOTIF XS,Filter,Filter resonance,,71,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Envelope,EG release time,,72,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Envelope,EG attack time,,73,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Filter,Filter cutoff freq,,74,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Envelope,EG decay time,,75,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Effects,Reverb send,,91,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Effects,Chorus send,,93,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Data Entry,Data entry inc,,96,,0,127,,,,,,,0-based,,
+Yamaha,MOTIF XS,Data Entry,Data entry dec,,97,,0,127,,,,,,,0-based,,
